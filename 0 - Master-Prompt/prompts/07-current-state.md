@@ -1,44 +1,54 @@
 # Current State
 
+**Checked:** 2026-09-30 01:24 HST. Operator remaining work: `5 - RootRecord-Library/Documentation/01-operations/2026-09-30-whats-left-for-alexander.md`.
+
 ## Baseline
 
-The RootRecord ecosystem currently spans:
+The live desk is one git root:
 
-- Solar Pacific RootRecord Server
-- US Mainland Server
-- RootRecord Website
-- RootRecord Master Prompt
+`/home/rootrecord/RootRecord-Ecosystem`
 
-The canonical RootRecord master-prompt area in this repository is now:
+Remote: https://github.com/RootRecord-Software-Solutions/RootRecord-Ecosystem
 
-`0-master-prompt/`
+| Area | Path | Role |
+| --- | --- | --- |
+| Master Prompt | `0 - Master-Prompt/` | Rules and this state file |
+| Pacific runtime | `1 - Servers/1 - RootRecord-Pacific-Solar-Server/` | Poller, jobs, energy, weather, cameras |
+| Database | `2 - RootRecord-Database/` | Telemetry, logs, media |
+| Website | `3 - RootRecord-Website/` | Local Next.js site (`:3001` at the check) |
+| Mainland | `1 - Servers/2 - RootRecord-US-Mainland-Server/` | Desk copy. Sync row disabled |
+| Library | `5 - RootRecord-Library/` | Docs, work orders, agent context |
+| Node | `4 - RootRecord-Node/` | Placeholder |
+| Android | `6 - Android Development/` | App trees. Build still unverified |
 
-## Live-state layer
+The older Solar-Pacific `0-master-prompt/` path is a historical home. This directory is `0 - Master-Prompt/`.
 
-The machine-readable current snapshot is:
+## Live desk (Confirmed, 2026-09-30 01:24 HST)
 
-`0-master-prompt/state/state.json`
+Host `rootrecord-software-solutions` came up at 01:09 HST. These were up from the Ecosystem Pacific path:
 
-The historical recorder is:
+- `rr-rootserver-poller.service`
+- EcoFlow BLE owner
+- Cloudflare tunnel, public `https://rootserver.rootrecord.cloud` HTTP 200
+- Camera server and frame grabs (ch4 is a small night frame)
+- Hawaii weather poller (county reports at 01:18; some NOAA pages invalid or 500/503/403)
+- Hawaii network globe
+- Ollama on `:11434`
+- GitHub sync for ecosystem, pacific, database, and library. `skills` matched. `website` and `mainland` rows stay disabled
 
-`0-master-prompt/logs/state-history.json`
+**Energy.** River 2 Pro BLE is the live pack (about 35% SOC at 01:22, discharging, solar 0 W). Delta 2 died and no longer transmits. `WAITING` and the last snapshot at 1% SOC (00:53 HST, cloud API) are normal. Do not treat that as a migration fault. Do not schedule Delta 2 actuation.
 
-The intended refresh interval is five minutes.
+**Telegram.** Relay process is up. Replies stay off until Alexander sets `RR_RELAY_REPLIES=1`.
 
-The snapshot and history are context/provenance records. They do not replace direct verification when an operation depends on live hardware, services, endpoints, or deployed runtime state.
+**Legacy trees.** `~/.ollama/skills` (277 MB) is still the `skills` sync row. The 27 GB `old ollama/old skills` tree is only partly copied into `Old repos deleted and merged/`. Do not delete either without Alexander's explicit sign-off.
 
-## Automated deploy path (skills)
+Machine-readable copy: `state/state.json` (written 2026-09-30 01:29 HST). It is context. Re-verify hardware and services before an action that depends on them.
 
-**Confirmed:** Desk `github_sync_all` (~every 300s) bidirectionally syncs skills. When GitHub has new skills commits, they are merged locally and the **poller stack auto-reloads** (full stop of poller + cloudflared + watch, then start). BLE owner unit is left alone.
+## Automated deploy path
 
-AIs must not suggest parallel restarts or dual processes for ordinary code deploys.
+**Confirmed:** `github_sync_all` syncs the enabled `repos.conf` rows. When GitHub has new commits for the live runtime, they are merged and the poller stack reloads (full stop of poller + cloudflared + watch, then start). The BLE owner unit is left alone.
 
-## Energy data layer (2026-09-24)
-
-- Canonical SQLite: `/home/rootrecord/Database/ROOTRECORD/rootrecord.db`
-- Dual-write producer: `energy/lib/read_runner.py` (SQLite then legacy JSON)
-- Poller `/energy` prefers SQLite; EcoFlow reads scheduled ONCE_AT_START + every 15 minutes
-- B3 = expansion battery under Delta 2 (documented in `devices.conf`); no invented MAC
+Do not suggest a second poller or a manual restart after an ordinary push.
 
 ## Cross-project operating principles
 
@@ -47,20 +57,11 @@ AIs must not suggest parallel restarts or dual processes for ordinary code deplo
 - Local-first processing is preferred where practical.
 - Resilience and independent verification matter.
 - Historical records should remain distinct from current architecture.
-- AVA v0.04 remains an active architectural-definition phase.
 
-## Repository reset boundary
+## Historical checkpoints
 
-The 2026-09-22/23 handoff documents a significant Solar Pacific skills-folder reset and distinguishes current rebuilt content from older archived implementations.
+These are not today's live claim:
 
-Therefore:
-
-- current `main` source is current source;
-- old archives are historical reference;
-- a more mature implementation found only in an old archive must not be called live until verified.
-
-## Operational verification boundary
-
-The 2026-09-23 energy work established real PASS results for Delta 2 DC, USB, and AC with documented caveats. Other listed toggles remained untested at that checkpoint.
-
-This is a historical checkpoint and must be revalidated before being reported as today's live state.
+- 2026-09-22/23 skills-folder reset. Current `main` is current source. An implementation that exists only in an archive is not live until verified.
+- 2026-09-23 energy PASS for Delta 2 DC, USB, and AC. That pack is now dead. Re-verify on River 2 Pro before calling an action PASS.
+- 2026-09-24 state file, when it still named `rootrecordsoftwaresolutions/Solar-Pacific-RootRecord-Server` and left power unknown. Superseded by the 2026-09-30 snapshot above.

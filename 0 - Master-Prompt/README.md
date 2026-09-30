@@ -14,7 +14,7 @@ It is **not** a copy of the application repositories. It contains:
 ## Directory map
 
 ```
-0-master-prompt/
+0 - Master-Prompt/
 ├── MASTER-PROMPT.md
 ├── README.md
 ├── prompts/

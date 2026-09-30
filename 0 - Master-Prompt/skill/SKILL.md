@@ -44,7 +44,7 @@ Use `verified_at`, `source`, and explicit `unknown`/`stale`/`offline` states to 
 
 Do not create alternate roots, v2 trees, duplicate implementations, or migration scaffolding unless explicitly requested.
 
-The canonical master-prompt directory is `0-master-prompt/`.
+The canonical master-prompt directory on this desk is `0 - Master-Prompt/`.
 
 ## Temporary work
 

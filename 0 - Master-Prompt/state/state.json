@@ -1,50 +1,58 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-24T11:35:07Z",
+  "generated_at": "2026-09-30T11:29:00Z",
   "refresh_interval_minutes": 5,
   "status": "active",
   "repository": {
-    "name": "rootrecordsoftwaresolutions/Solar-Pacific-RootRecord-Server",
+    "name": "RootRecord-Software-Solutions/RootRecord-Ecosystem",
     "branch": "main",
-    "last_verified_commit": "c59ddb9aac2a67ce11d4679e6044cd2678796aa8",
-    "source": "github",
-    "verified_at": "2026-09-24T11:35:07Z"
+    "desk_path": "/home/rootrecord/RootRecord-Ecosystem",
+    "source": "desk check",
+    "verified_at": "2026-09-30T11:24:00Z"
   },
   "connections": {
     "github": {
       "status": "connected",
-      "source": "github_connector",
-      "verified_at": "2026-09-24T11:35:07Z"
+      "publishing": ["ecosystem", "pacific", "database", "library", "skills"],
+      "disabled_rows": ["website", "mainland"],
+      "verified_at": "2026-09-30T11:24:00Z"
     },
     "rootrecord_server": {
-      "status": "unknown",
-      "source": null,
-      "verified_at": null
+      "status": "up",
+      "poller": "rr-rootserver-poller.service",
+      "public_host": "rootserver.rootrecord.cloud",
+      "public_https": 200,
+      "verified_at": "2026-09-30T11:24:00Z"
     },
     "mainland_server": {
-      "status": "unknown",
-      "source": null,
-      "verified_at": null
+      "status": "desk-copy-present",
+      "sync_row": "disabled",
+      "verified_at": "2026-09-30T11:24:00Z"
     }
   },
   "power": {
-    "status": "unknown",
-    "battery_percent": null,
-    "solar_watts": null,
-    "grid_watts": null,
-    "load_watts": null,
-    "source": null,
-    "verified_at": null
+    "status": "river-live-delta-dead",
+    "river2pro_soc_percent": 35.2,
+    "river2pro_source": "ble",
+    "delta2_status": "dead-not-transmitting",
+    "delta2_last_soc_percent": 1.0,
+    "delta2_last_at": "2026-09-30T00:53:04-10:00",
+    "solar_watts": 0,
+    "laptop_percent": 100,
+    "laptop_state": "Full, on AC",
+    "source": "poller SUMMARY and operator confirmation",
+    "verified_at": "2026-09-30T11:29:00Z"
   },
   "work": {
     "status": "active",
-    "active_task": "Establish 0-master-prompt as the canonical context layer with five-minute state/history recording.",
-    "last_action": "Renamed the master-prompt directory and added state/state.json plus logs/state-history.json.",
-    "next_action": "Connect the five-minute updater to the real connection, power, and worklog collectors.",
-    "verified_at": "2026-09-24T11:35:07Z"
+    "active_task": "Operator decisions only. Runtime cutover is live.",
+    "remaining_work": "5 - RootRecord-Library/Documentation/01-operations/2026-09-30-whats-left-for-alexander.md",
+    "last_action": "Recorded the 2026-09-30 desk check. Delta 2 silence marked normal.",
+    "next_action": "Alexander chooses website/mainland rows, daylight timelapse, and any gated jobs to enable.",
+    "verified_at": "2026-09-30T11:29:00Z"
   },
   "evidence": {
     "overall": "Confirmed",
-    "notes": "The canonical 0-master-prompt tree was directly inspected after commit. The legacy 0-development-master-prompt path no longer appears in repository code search. Live server and power telemetry were not independently queried during this snapshot."
+    "notes": "Host up since 2026-09-30 01:09 HST. Poller, BLE owner, tunnel, cameras, weather poller, globe, and Ollama are on the Ecosystem Pacific path. Delta 2 WAITING is expected because the pack died. Open work is operator sign-off, not a broken migration."
   }
 }

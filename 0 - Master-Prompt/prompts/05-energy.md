@@ -1,6 +1,14 @@
 # Energy / EcoFlow
 
-The established energy skill remains the implementation authority for EcoFlow controls.
+## Current packs (Confirmed, 2026-09-30)
+
+Alexander confirmed Delta 2 died. It no longer transmits. Poller slots for Delta 2 return `WAITING`. The last snapshot stays 2026-09-30 00:53 HST at 1% SOC from the cloud API. That is normal. Do not debug it as a failed migration, and do not schedule a Delta 2 actuation test.
+
+River 2 Pro is the live pack. BLE reads were landing after the 01:09 HST boot (about 35% SOC at 01:22, AC and USB-C discharging, solar 0 W). Actuating actions on River (solar-gate, AC always-on) still need Alexander to name a hardware test before they are called PASS.
+
+Runtime home: `1 - Servers/1 - RootRecord-Pacific-Solar-Server/Energy/`. Samples and last-files: `2 - RootRecord-Database/Energy/`.
+
+The established Pacific Energy scripts are the implementation authority for EcoFlow controls. The 2026-09-23 notes below are historical.
 
 ## File placement
 

@@ -5,6 +5,8 @@ One active folder + **`Complete/`** for finished WOs. Docs-only updates do not m
 
 **Standing policy:** Do not run the old desk (`~/.ollama/skills`) as the poller host. Prefer Pacific under org `RootRecord-Pacific-Solar-Server`.
 
+**Operator list (2026-09-30):** [What's left for Alexander](../../01-operations/2026-09-30-whats-left-for-alexander.md). Delta 2 silence is expected. Do not enable, send, spend, or delete from that list without Alexander.
+
 **Authority:** [RootRecord-Software-Solutions](https://github.com/RootRecord-Software-Solutions).
 
 ---
@@ -24,12 +26,12 @@ Work-Orders/
 
 ---
 
-## Active ops backlog (updated 2026-09-30 00:05 HST)
+## Active ops backlog (updated 2026-09-30 01:29 HST)
 
 | ID | Title | Status | File |
 | --- | --- | --- | --- |
-| WO-ECO-2026-09-27 | Ecosystem migration & repository foundation | **IN PROGRESS** — Pacific + Energy reads + System + Plumbing PASS (2026-09-29 evidence; see WO-SRV status summary) | [WO](./Ecosystem_Migration_Work_Order_WO-ECO-2026-09-27.md) |
-| WO-SRV-2026-09-27 | Pacific runtime path cutover (G2 → G3) | **IN PROGRESS** — reads, system, reports, GitHub, globe, and `LAP=` PASS tonight. Open: energy actuation, timelapse, Telegram replies. G2 kept. | [WO](./Servers_Cutover_Work_Order_WO-SRV-2026-09-27.md) |
+| WO-ECO-2026-09-27 | Ecosystem migration & repository foundation | **IN PROGRESS** — runtime path is live (01:09 HST boot). Open items are operator choices, not a broken cutover. See the 2026-09-30 operator list. | [WO](./Ecosystem_Migration_Work_Order_WO-ECO-2026-09-27.md) |
+| WO-SRV-2026-09-27 | Pacific runtime path cutover (G2 → G3) | **IN PROGRESS** — poller, tunnel, River BLE, cameras, weather, globe, relay login PASS after the 01:09 boot. Delta 2 quiet is normal. Open: River actuation, daylight timelapse, relay replies, G2 kept. | [WO](./Servers_Cutover_Work_Order_WO-SRV-2026-09-27.md) |
 | WO-OLD-2026-09-28 | Selective recovery from Solar-Pacific-…-Old (G1) | OPEN — scheduler trio **MIGRATED**. Live jobs run on G3. Next G1 packet still waiting. G2 code kept. | [WO](./Old_Server_Selective_Recovery_Work_Order_WO-OLD-2026-09-28.md) |
 | WO-GH-2026-09-27 | GitHub catalog hygiene | **IN PROGRESS** — `ecosystem`, `pacific`, `database`, and `library` publishing (mirror for the three subfolders). `skills` stays on. website/mainland still disabled | [WO](./GitHub_Catalog_Hygiene_Work_Order_WO-GH-2026-09-27.md) |
 | WO-DATA-2026-09-27 | Database boundary & publication policy | **IN PROGRESS** — canonical Database path landed; public-umbrella publication list still open | [WO](./Database_Boundary_Work_Order_WO-DATA-2026-09-27.md) |
