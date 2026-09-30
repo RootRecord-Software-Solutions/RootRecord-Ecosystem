@@ -175,7 +175,7 @@ Night, so solar in is zero. The River is still supplying a small AC and USB-C lo
 
 The newest `ENERGY` line from the tail of `Logs/Automations/automations_current.log`, then any `SUMMARY=` lines, then `SUN`.
 
-At 03:07 the heartbeat was live: `B2=1% B1=15.3% solar=0 W ac=57 W usbc=0 W`, laptop `LAP=100%/Full/AC`. `SUN` was a dash because the NOAA solar table was not available (same gap as the Weather page). The River is still supplying a small AC and USB-C load. The Delta's watts row is as old as its SOC sample (00:53). Treat that row as last-known, not live.
+At 03:07 the heartbeat was live: `B2=1% B1=15.3% solar=0 W ac=57 W usbc=0 W`, laptop `LAP=100%/Full/AC`. `SUN` was a dash because the NOAA solar table was not available (same gap as the Weather page).
 
 **What to do with a STALE pack:** the panel is showing you the gap. It does not reconnect BLE or call the EcoFlow API. The reader is `ava-ecoflow-ble.service` and the EcoFlow jobs. Check Poller / services (BLE should be PASS) and Running (the `ble-owner.py` process). A stale API sample with a live BLE sample on the other pack is a normal split: each pack has its own source.
 
@@ -288,13 +288,13 @@ Same eight rows and the same PASS / WARN / FAIL rule as `poller-dashboard.py`.
 
 "no unit" is normal for relay, cam, weather, and tunnel. They are processes the poller or a script owns. FAIL on those means the process was not found. FAIL on a unit row means the unit is not active or the process count is wrong.
 
-Under the grid: seconds since the automations log was written. Here, 29 seconds.
+Under the grid: seconds since the automations log was written. Here, 4 seconds.
 
 **Open poller dashboard (read-only terminal)** opens `poller-dashboard.py` in a new ptyxis window. It does not call `open-poller-window.sh`, because that script also runs `systemctl --user start`. If a dashboard is already open, the panel shows a toast and leaves it alone.
 
 **Open Logs folder** opens the Logs directory.
 
-**Recent poller log** is the last lines of the automations log, formatted by `poller-watch.py`'s `format_line`. On this capture you can see A-EYES writing a channel-4 still, an ENERGY line, an EcoFlow read cycle waiting, a SYSTEM sample, and a GitHub sync walking ecosystem, pacific, and database. The database repo was ahead of GitHub. That is information, not a button. Root Monitor does not push.
+**Recent poller log** is the last lines of the automations log, formatted by `poller-watch.py`'s `format_line`. On this capture you can see A-EYES writing a channel-4 still, an ENERGY line, a SUMMARY for the River, a SYSTEM sample, and a GitHub sync. The ecosystem repo was ahead of GitHub. That is information, not a button. Root Monitor does not push.
 
 How many lines: `log_lines` in Settings → Panel, default 40.
 
@@ -308,13 +308,13 @@ A read-only process map. Refreshes every 5 seconds while you stay here. Units, t
 
 The summary line on this capture:
 
-> 14 RootRecord-related processes of 507 · poller pid 3096 with 7 child processes · 108 user units · 52 running system units · sample 66 ms CPU
+> 13 RootRecord-related processes of 528 · poller pid 3096 with 4 child processes · 108 user units · 52 running system units · sample 47 ms CPU
 
 ### Poller and its child jobs
 
 Each row is pid, uptime, RSS, and listening ports. **Settings →** jumps to the Settings sub-page that owns that process.
 
-At 02:48 the tree was `rootserver_poller.py` (pid 3096, up 1h39m, 20 MB, port **8799**), then children: `sync-all.sh`, `cloudflared` listening on **20241**, and a `git push` of the database repo in progress. A running git push at the moment you look is normal during `github_sync`. It is not something this page starts or stops.
+At 03:07 the tree was `rootserver_poller.py` (pid 3096, up 1h58m, 20 MB, port **8799**), then children: `grab_all.sh`, `cloudflared` listening on **20241**, and `grab_frame.py` with an ffmpeg child. A camera grab in that tree is the poller doing its job. This page does not start or stop it.
 
 ### RootRecord processes
 
@@ -365,12 +365,12 @@ Rates update every 5 seconds **while this page is visible**. Starlink is polled 
 
 From `/proc/net/dev` plus sysfs. Each row: name, kind, state, link speed if any, down/up rate between refreshes, bytes since boot, packet counts, errors, drops.
 
-This capture, uptime 1h39m:
+This capture, uptime 1h58m:
 
 | Interface | State | Since boot |
 | --- | --- | --- |
-| `lo` | loopback | 17.5 MB in each direction |
-| `wlo1` | wifi, up | rx 803.8 MB / tx 234.7 MB · 0 errors · 0 drops |
+| `lo` | loopback | 18.5 MB in each direction |
+| `wlo1` | wifi, up | rx 873.8 MB / tx 292.8 MB · 0 errors · 0 drops |
 
 Rates were 0 B/s at the instant of the shot. That is one sample, not a dead link. The totals say the interface has moved hundreds of megabytes since boot.
 
@@ -503,10 +503,10 @@ On this capture, all four loaded from disk:
 
 | Tile | Still |
 | --- | --- |
-| CH1 | 02:47:31 HST · `ch1-20260930T124731Z.jpg` · panels and grass, night IR |
-| CH2 | 02:47:35 HST · `ch2-20260930T124735Z.jpg` · trees, night IR |
-| CH3 | 02:47:40 HST · `ch3-20260930T124740Z.jpg` · ground and grass |
-| CH4 | 02:47:44 HST · `ch4-20260930T124744Z.jpg` · a dark frame |
+| CH1 | 03:07:22 HST · `ch1-20260930T130722Z.jpg` · panels and grass, night IR |
+| CH2 | 03:07:26 HST · `ch2-20260930T130726Z.jpg` · grass and a panel edge, night IR |
+| CH3 | 03:07:31 HST · `ch3-20260930T130731Z.jpg` · trees and grass |
+| CH4 | 03:07:35 HST · `ch4-20260930T130735Z.jpg` · a dark frame |
 
 A dark frame is still a frame. The caption shows the file time. **Missing or flapping stills are expected during camera hardware work.** The caption then says `no still on disk`. If local fallback is on, the panel fetches one JPEG from `http://127.0.0.1:8791/` for that channel only, and only while you are looking. It never reads `CONNECTION.json` on this page. Credentials stay on Settings → Cameras, masked.
 
@@ -548,7 +548,7 @@ A risky button becomes clickable only when **all three** are true: `risky_action
 
 ### Gated job flags
 
-A read-only list from `jobs.py`: job id, `RR_*` flag, and the code default. On this capture the visible defaults were OFF (`RR_GEOLOGY_QUAKE`, `RR_COUNCIL_QUAKE`, `RR_KILAUEA_CAMS`, `RR_KILAUEA_DRAFT`, `RR_SMART_DEVICES`, `RR_UPTIME_LOG`, `RR_PYTHON_DROP`, `RR_RADAR_ZIP`, `RR_EARTHQUAKE_DISCORD`, `RR_SLACK`, `RR_STRIPE`, `RR_VERCEL_BUILDS`, `RR_COUNCIL_HEALTH`, and more below the fold).
+A read-only list from `jobs.py`: job id, `RR_*` flag, and the code default. On this capture every visible default was OFF, starting with `RR_GEOLOGY`, `RR_COUNCIL_QUAKE`, `RR_KILAUEA_CAMS`, `RR_KILAUEA_DRAFT`, `RR_SMART_DEVICES`, `RR_UPTIME_LOG`, `RR_PYTHON_DROP`, `RR_RADAR_ZIP`, `RR_EARTHQUAKE_DISCORD`, `RR_SLACK`, `RR_STRIPE`, `RR_VERCEL_BUILDS`, and `RR_COUNCIL_HEALTH`. Thirty-seven flags in all. Scroll for the rest.
 
 To change one, go to **Settings → Feature Flags**. Saving writes `~/.config/systemd/user/rr-rootserver-poller.service.d/rr-flags.conf` the first time, and does **not** restart the poller. The row tells you the new value is used the next time that service starts.
 
@@ -783,13 +783,13 @@ AWS is the exception in destination, not in shape: the backup is on the AWS home
 
 ## This capture, as a shift note
 
-30 September 2026, about 02:48 HST. Use it as an example of how to talk about the screen, not as the current state.
+30 September 2026, about 03:07 HST. Use it as an example of how to talk about the screen, not as the current state.
 
-The poller was PASS, one process, pid 3096, log written within the last minute. All eight service rows were PASS. BLE was up, so the stale Delta was not "BLE is down."
+The poller was PASS, one process, pid 3096, log written within the last few seconds. All eight service rows were PASS. BLE was up, so the stale Delta was not "BLE is down."
 
-B1 River 2 Pro was at 18.5% and fresh over BLE, AC out 34 W, USB-C out 17 W, solar 0 W. B2 Delta 2 was at 1% and the sample was 1 hour 55 minutes old, source API, so it was marked STALE. The laptop was full and on AC. The Delta expansion field was absent from the ENERGY line.
+B1 River 2 Pro was at 15.1% and fresh over BLE, AC out 38 W, USB-C out 14 W, solar 0 W. B2 Delta 2 was at 1% and the sample was 2 hours 14 minutes old, source API, so it was marked STALE. The laptop was full and on AC. The Delta expansion field was absent from the ENERGY line.
 
-The host was idle: CPU a few percent (green), RAM around 70% (amber, under the 80% red line), load under 1.3. NPU `accel0` present, FLM idle, lock idle. AI log had 11 old NPU requests and none since midnight. Weather opens on Big Island stations from the hourly wind report (Hilo and Kona were both reporting). The zone-forecast file was not on disk, and the solar table was empty. Wi-Fi `wlo1` was up with a quiet instant rate and hundreds of megabytes since boot. Starlink was a placeholder because the helper venv is not installed. `rr-aws` has a ProxyCommand whose binary is missing; `rr-aws-ip` is the direct host. AWS Fallback was in **write** mode and had not been read yet this session. Cameras had four fresh stills on disk and the viewer was off on disk. Risky actions were off. Sixteen migration placeholders were still open.
+The host was quiet: CPU 5.4% (green), RAM 69.9% (amber, under the 80% red line), load under 1. NPU `accel0` present, FLM idle, lock idle. AI log had 11 old NPU requests and none since midnight. Weather opened on Big Island stations (63 reporting, Hilo and Kona both up). The zone-forecast file was not on disk, and the solar table was empty. Wi-Fi `wlo1` was up, about 874 MB received since boot. Starlink was a placeholder because the helper venv is not installed. `rr-aws` has a ProxyCommand whose binary is missing; `rr-aws-ip` is the direct host. AWS Fallback was in **write** mode and had not been read yet this session. Cameras had four fresh stills on disk and the viewer was off on disk. Risky actions were off. Sixteen migration placeholders were still open.
 
 ---
 
