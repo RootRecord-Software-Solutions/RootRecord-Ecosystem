@@ -17,6 +17,26 @@ Remote: https://github.com/RootRecord-Software-Solutions/RootRecord-Ecosystem
 - Library: `5 - RootRecord-Library/`
 - This contract: `0 - Master-Prompt/MASTER-PROMPT.md`
 
+## Ownership contract
+
+Answer "where does this go?" from this section. Library holds the history and the why.
+
+Boundary rule: knowledge goes to Library, executable runtime goes to Pacific, bytes go to Database, and the public snapshot goes to the Ecosystem git root. Do not put secrets or live telemetry in the public umbrella. Do not put generated telemetry dumps in Library. Do not add a nested `.git` inside the umbrella.
+
+| Home | Purpose | Where | Contains | Does not contain |
+| --- | --- | --- | --- | --- |
+| Ecosystem | Public context and this desk's git root | `/home/rootrecord/RootRecord-Ecosystem` · https://github.com/RootRecord-Software-Solutions/RootRecord-Ecosystem | Sanitized snapshot, cross-system docs | Nested clones, live telemetry auto-commits, secrets |
+| Library | Knowledge | `5 - RootRecord-Library/` · https://github.com/RootRecord-Software-Solutions/RootRecord-Library | Architecture, work orders, agent context, guides | Runtime code, databases, camera media |
+| Pacific | Runtime | `1 - Servers/1 - RootRecord-Pacific-Solar-Server/` · https://github.com/RootRecord-Software-Solutions/RootRecord-Pacific-Solar-Server | Services, jobs, automation, monitors | The data files those jobs write |
+| Database | Persistence | `2 - RootRecord-Database/` · https://github.com/RootRecord-Software-Solutions/RootRecord-Database | Logs, media layout, telemetry, canonical data paths | Application logic |
+| Mainland | Continuity node | GitHub `rootrecordsoftwaresolutions/US-Mainland-Server`. Desk copy: `1 - Servers/2 - RootRecord-US-Mainland-Server/` | Recovery and mainland services | This desk's git root. The `mainland` sync row stays disabled until a clone exists outside the umbrella |
+| Website | Public web | GitHub `rootrecordsoftwaresolutions/RootRecord-Website`. Desk folder: `3 - RootRecord-Website/` | Site source when that repo is the worktree | The Pacific poller. The `website` sync row stays disabled until its mirror worktree exists |
+| Weather data | Hawaiʻi weather publication | GitHub `rootrecordsoftwaresolutions/RootRecord-Weather-Database` | Published weather products | The Pacific weather daemon's local tree, which stays under Database `Weather/` and is not auto-published from the umbrella |
+
+`/home/rootrecord/Database/` is the backup and flag root (`GITHUB/`). It is not the live data desk.
+
+Sync catalog: `1 - Servers/1 - RootRecord-Pacific-Solar-Server/Github/scripts/repos.conf`. Enabled rows are `ecosystem` and `skills`. Deeper narrative: `5 - RootRecord-Library/Documentation/00-architecture/Repository-Ownership-Model.md`.
+
 ## Historical links
 
 The sections below point at earlier GitHub homes. Confirm the file still exists there before editing. The live desk copies are the paths above.

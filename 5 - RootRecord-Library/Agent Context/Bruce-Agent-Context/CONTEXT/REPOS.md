@@ -1,5 +1,7 @@
 # Key Repositories
 
+Short ownership map, not a copy: [08-repository-and-file-links.md](../../../../0%20-%20Master-Prompt/prompts/08-repository-and-file-links.md).
+
 ## Organizational / Canonical
 | Repository | Purpose |
 |------------|---------|

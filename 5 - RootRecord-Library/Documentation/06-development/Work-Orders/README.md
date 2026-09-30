@@ -31,7 +31,7 @@ Work-Orders/
 | WO-ECO-2026-09-27 | Ecosystem migration & repository foundation | **IN PROGRESS** — Pacific + Energy reads + System + Plumbing PASS (2026-09-29 evidence; see WO-SRV status summary) | [WO](./Ecosystem_Migration_Work_Order_WO-ECO-2026-09-27.md) |
 | WO-SRV-2026-09-27 | Pacific runtime path cutover (G2 → G3) | **IN PROGRESS** — Pacific source paths landed for active residuals; runtime verification + legacy retirement remain | [WO](./Servers_Cutover_Work_Order_WO-SRV-2026-09-27.md) |
 | **WO-RPT-001** | Reports / worklog domain import | **Foundation PASS** (A–E; worklog_scan, 2026-09-29 evidence) | [WO](./WO-RPT-001-Reports-Worklog-Domain-Import.md) · [Action Plan](./WO-RPT-001-Action-Plan.md) |
-| WO-MAP-2026-09-27 | Master-Prompt repository ownership map | OPEN | [WO](./MasterPrompt_RepoMap_Work_Order_WO-MAP-2026-09-27.md) |
+| WO-MAP-2026-09-27 | Master-Prompt repository ownership map | **IN PROGRESS** — short map written; close after review | [WO](./MasterPrompt_RepoMap_Work_Order_WO-MAP-2026-09-27.md) |
 | WO-OLD-2026-09-28 | Selective recovery from Solar-Pacific-…-Old (G1) | OPEN — scheduler trio **MIGRATED**; other packets blocked on G2→G3 | [WO](./Old_Server_Selective_Recovery_Work_Order_WO-OLD-2026-09-28.md) |
 | WO-GH-2026-09-27 | GitHub catalog hygiene | **IN PROGRESS** — desk sync is the `ecosystem` row plus `skills`; `pacific` / `database` / `library` disabled (flattened tree, no nested `.git`); website/mainland still disabled | [WO](./GitHub_Catalog_Hygiene_Work_Order_WO-GH-2026-09-27.md) |
 | WO-DATA-2026-09-27 | Database boundary & publication policy | **IN PROGRESS** — canonical Database path landed; public-umbrella publication list still open | [WO](./Database_Boundary_Work_Order_WO-DATA-2026-09-27.md) |
