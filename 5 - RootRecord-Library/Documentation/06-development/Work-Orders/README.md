@@ -30,12 +30,10 @@ Work-Orders/
 | --- | --- | --- | --- |
 | WO-ECO-2026-09-27 | Ecosystem migration & repository foundation | **IN PROGRESS** — Pacific + Energy reads + System + Plumbing PASS (2026-09-29 evidence; see WO-SRV status summary) | [WO](./Ecosystem_Migration_Work_Order_WO-ECO-2026-09-27.md) |
 | WO-SRV-2026-09-27 | Pacific runtime path cutover (G2 → G3) | **IN PROGRESS** — Pacific source paths landed for active residuals; runtime verification + legacy retirement remain | [WO](./Servers_Cutover_Work_Order_WO-SRV-2026-09-27.md) |
-| **WO-RPT-001** | Reports / worklog domain import | **Foundation PASS** (A–E; worklog_scan, 2026-09-29 evidence) | [WO](./WO-RPT-001-Reports-Worklog-Domain-Import.md) · [Action Plan](./WO-RPT-001-Action-Plan.md) |
 | WO-OLD-2026-09-28 | Selective recovery from Solar-Pacific-…-Old (G1) | OPEN — scheduler trio **MIGRATED**; other packets blocked on G2→G3 | [WO](./Old_Server_Selective_Recovery_Work_Order_WO-OLD-2026-09-28.md) |
 | WO-GH-2026-09-27 | GitHub catalog hygiene | **IN PROGRESS** — desk sync is the `ecosystem` row plus `skills`; `pacific` / `database` / `library` disabled (flattened tree, no nested `.git`); website/mainland still disabled | [WO](./GitHub_Catalog_Hygiene_Work_Order_WO-GH-2026-09-27.md) |
 | WO-DATA-2026-09-27 | Database boundary & publication policy | **IN PROGRESS** — canonical Database path landed; public-umbrella publication list still open | [WO](./Database_Boundary_Work_Order_WO-DATA-2026-09-27.md) |
 | WO-AGENT-2026-09-27 | Agent context canonical home | OPEN | [WO](./AgentContext_CanonicalHome_Work_Order_WO-AGENT-2026-09-27.md) |
-| WO-ARCH-2026-09-27 | Weekly operations log archive | OPEN — implement under WO-RPT-001 Phase D | [WO](./Ops_Weekly_Archive_Work_Order_WO-ARCH-2026-09-27.md) |
 | WO-AEYES-2026-09-27 | A-EYES capture rate & timelapse | OPEN | [WO](./A-EYES_Work_Order_WO-AEYES-2026-09-27.md) |
 
 ---
@@ -46,7 +44,6 @@ Work-Orders/
 |----|-------|----------|--------|------|
 | **WO-ECO-001** | Energy domain import (EcoFlow + hybrid reports) | P0 | Phase 1 signed off and archived. Actuating actions still open | [WO](./WO-ECO-001-Energy-Domain-Import.md) · [Action Plan](./Complete/WO-ECO-001-Action-Plan.md) |
 | **WO-SRV-001** | Residual jobs path rewire | P0 | Draft — blocked on WO-ECO-001 (and later domain imports); retained as reference while WO-SRV-2026-09-27 carries the active cutover | [WO](./WO-SRV-001-Residual-Jobs-Path-Rewire.md) |
-| **WO-RPT-001** | Reports / worklog domain import | P0 | **Foundation PASS** (worklog_scan; roll-up VERIFY PENDING) | [WO](./WO-RPT-001-Reports-Worklog-Domain-Import.md) · [Action Plan](./WO-RPT-001-Action-Plan.md) |
 | **WO-WEB-001** | Public status / solar board alignment | P1 | Draft | [WO](./WO-WEB-001-Public-Status-Solar-Board.md) |
 | **WO-COM-001** | Communications surface | P1 | Draft — Telegram residual next | [WO](./WO-COM-001-Communications-Surface.md) |
 | **WO-COM-002** | Discord bot credential rotation (migration gate) | P1 | OPEN | [WO](./WO-COM-002-Discord-Bot-Credential-Rotation.md) |
@@ -55,6 +52,11 @@ Work-Orders/
 | **WO-WOGEN-001** | Work order generator (measured friction → draft WOs) | P2 | **Draft** — architecture only; Carly seal + operator accept before implement | [WO](./WO-WOGEN-001-Work-Order-Generator.md) |
 | **WO-WEB-002** | Public site foundation pass | P2 | Draft | [WO](./WO-WEB-002-Public-Site-Foundation.md) |
 | **WO-GH-001** | GitHub pull authority & timer policy | P2 | Draft | [WO](./WO-GH-001-Github-Pull-Authority.md) |
+
+## Recently completed (2026-09-29 ~21:49 HST)
+
+- [WO-RPT-001](./Complete/WO-RPT-001-Reports-Worklog-Domain-Import.md) and [action plan](./Complete/WO-RPT-001-Action-Plan.md) — roll-up written; Phase F stays deferred.
+- [WO-ARCH-2026-09-27](./Complete/Ops_Weekly_Archive_Work_Order_WO-ARCH-2026-09-27.md) — first week archived, cutoff 2026-09-28.
 
 ---
 
@@ -97,7 +99,7 @@ systemd   Pacific run-poller.sh (reload skips status window)
 Energy    Phase 1 reads SIGNED OFF 2026-09-29 ~21:30 HST (fresh soc json, source api). Actuating actions still open. Parent WO not archived.
 System    host-last.json fresh ~2 min at 21:30 HST. Not a closed work order.
 Cameras   ch1–ch4 stills fresh ~3 min at 21:30 HST. cam_server cwd inode is deleted; process still writing. Not archived.
-Reports   worklog_current.md started 21:00 HST. Daily roll-up still not closed.
+Reports   COMPLETE 2026-09-29 ~21:49 HST. Session auto written. Weekly archive moved 5 pre-week logs (cutoff 2026-09-28).
 Github    ecosystem + skills sync; pacific/database/library disabled (flattened 2026-09-29); website/mainland disabled
 Log       automations_current.log is empty. Poller stdout is still attached to the deleted inode from before 20:04 HST. Do not treat WO-SYS-001 as closed.
 Log       /home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Logs/Automations/automations_current.log
