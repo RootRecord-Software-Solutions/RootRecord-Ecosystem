@@ -68,7 +68,10 @@ def fetch_all(manifest: Manifest, base_dir: str) -> list[_engine.FetchOutcome]:
             clean_text_body=True,
             extract_text=_extract_latest_product_text,
         )
-        if outcome.status == "invalid" and "no products in @graph" in outcome.detail:
+        if (
+            resource_id in {"nowhfo_short_term_forecast", "hwo_hazardous_weather_outlook"}
+            and outcome.status in {"failed", "invalid"}
+        ):
             # HFO often has no active NOW/HWO in the products API. The
             # configured fallback page is the live office product (a nowcast
             # page, or the hazard feed) rather than an empty product.php shell.
