@@ -37,7 +37,7 @@ Folder name: **NightSleep**, under the System domain. One capitalized folder. No
 | Old skip | `night_sleeping()` and `NIGHT_POLL` inside shared `scheduler.py` |
 | Old flag writer | `write_night_state` / `in_starlink_sleep` in the old EcoFlow BLE poller — not this function |
 | Live poller | `Automations/scripts/rootserver_poller.py` `run_job()` calls the gate only when `RR_NIGHT_SLEEP=1` at process start |
-| Live job map | Gate is in code and default off. Enabled jobs still run around the clock until that flag is set. |
+| Live job map | Gate is armed (`RR_NIGHT_SLEEP=1` since 2026-09-30 00:02 HST). No `night-mode.json`, so enabled jobs still run. |
 
 ### 2.2 Completed so far
 

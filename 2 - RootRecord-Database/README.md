@@ -92,7 +92,7 @@ Security camera runtime writes captured media to the canonical Database media tr
 /home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database
 ```
 
-This directory is inside the umbrella git root. It does not have its own `.git`. The `database` sync row is disabled. Live telemetry, databases, logs, and worklogs are listed in the Pacific `ecosystem-skip-autocommit.txt` file and are not auto-committed to the public umbrella.
+This directory is inside the umbrella git root. It does not have its own `.git`. The `database` mirror row publishes it to RootRecord-Database. Live telemetry, databases, logs, and worklogs listed in the Pacific `ecosystem-skip-autocommit.txt` file are not auto-committed to the public umbrella.
 
 > **Docs-only updates to this README do not change the on-disk layout or poller behavior.**
 

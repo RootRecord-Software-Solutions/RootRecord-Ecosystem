@@ -32,7 +32,7 @@ This repository **does not replace the underlying source repositories**.
 
 This desk checkout is **one Git repository**. The git root is `/home/rootrecord/RootRecord-Ecosystem`. Pacific, Database, Library, and the other top-level folders are directories in that tree. They are not nested Git repositories. Do not add nested `.git` directories or gitlinks back into this snapshot.
 
-GitHub still has separate source repositories for those domains. Those remotes keep their own histories and remain the domain homes. This public repository is the context snapshot, and it is the repository this desk's automated sync publishes.
+GitHub still has separate source repositories for those domains. Those remotes keep their own histories and remain the domain homes. This public repository is the context snapshot. Automated sync also publishes Pacific, Database, and Library from this same tree.
 
 > On this desk, edit the file where it lives in this tree. Do not assume a subdirectory has its own `origin`.
 
@@ -111,7 +111,7 @@ Treat this repository as the **public context snapshot and this desk's git root*
 
 ## Maintenance workflow
 
-On this desk, `github_sync_all` publishes the enabled `ecosystem` row to `RootRecord-Software-Solutions/RootRecord-Ecosystem`.
+On this desk, `github_sync_all` publishes `ecosystem`, `pacific`, `database`, and `library` to `RootRecord-Software-Solutions`.
 
 1. Edit the file in this tree.
 2. Let the Pacific GitHub sync fetch, merge, and push `main`. Do not force-push.
@@ -119,7 +119,7 @@ On this desk, `github_sync_all` publishes the enabled `ecosystem` row to `RootRe
 4. Review changes for secrets, credentials, private infrastructure identifiers, and runtime artifacts before they are pushed.
 5. Update this README when the ecosystem's structure or repository model changes.
 
-`pacific`, `database`, and `library` rows in `repos.conf` stay disabled while those directories are not independent git checkouts.
+`pacific`, `database`, and `library` publish as mirror rows. Their folders stay in this tree and do not get a nested `.git`.
 
 ---
 

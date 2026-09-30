@@ -16,7 +16,7 @@ Communication subsystem: network (Cloudflare tunnel, Hawaii globe), and messagin
 | Notify policy | Still the unsealed draft under Library `Documentation/00-architecture/Communications-Notify-Policy-Draft-2026-09-28.md`. Do not add notify jobs from this page. |
 | `web-facts/` | G1 `websites/web-facts` port (allowlisted HTTPS GET), on demand only — LANDED, smoke PASS 2026-09-29 13:58 HST; not wired to the council relay |
 | `live-wx/` | G1 `weather/live-wx` port (NWS point forecast + HI alert names + nearest hurricane, for chat), on demand only (`--offline` = no HTTP) — LANDED, smoke PASS 2026-09-29 14:09 HST; not wired to the council relay |
-| `website/` | RootRecord-Cloud Vercel site (Next.js 15) staged as its **own clone** `website/RootRecord-Cloud/` (gitignored here; Vercel deploys from that repo). `npm ci` + `npm run build` PASS 2026-09-29 14:04 HST; no deploy, no auto-sync row (sign-off). See `website/README.md` |
+| `website/` | Pointer only. The RootRecord-Cloud checkout is `3 - RootRecord-Website/` @ `84dec4a` (WO-MIG-07). The leftover `website/RootRecord-Cloud/` tree was removed 2026-09-30. No deploy, no auto-sync. See `website/README.md` |
 
 ---
 
@@ -41,7 +41,7 @@ Messaging bot tokens (Discord, Telegram, etc.): **local secrets only** — never
 | communications/telegram, discord, slack | Matching shells under this domain |
 | network-globe, local-data-globe | `network/` |
 | council-telegram | Policy + relay — one getUpdates only |
-| cloudflare-workers | Edge workers — separate from poller `cloudflared` binary |
+| cloudflare-workers | `Communications/Cloudflare-Workers/`. One local worker in front of the Vercel origin. Separate from the poller `cloudflared` binary. Route not attached. Deploy not signed off. |
 
 ---
 
@@ -51,6 +51,7 @@ Messaging bot tokens (Discord, Telegram, etc.): **local secrets only** — never
 Communications/
   network/cloudflare/{bin,config}/
   network/scripts/
+  Cloudflare-Workers/{scripts,config}/
   telegram/ discord/ email/ slack/
   github/{api,messaging,notifications,webhooks}/
 ```

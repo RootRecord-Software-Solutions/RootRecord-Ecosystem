@@ -19,7 +19,7 @@ The working tree at `/home/rootrecord/RootRecord-Ecosystem` is one git repositor
 - `2 - RootRecord-Database/` — persistent data
 - `5 - RootRecord-Library/` — knowledge, guides, work orders
 
-Those folders do not have their own `.git` directories. Do not reintroduce nested repositories into the umbrella. Automated sync uses the `ecosystem` row in `Github/scripts/repos.conf`.
+Those folders do not have their own `.git` directories. Do not reintroduce nested repositories into the umbrella. Automated sync publishes `ecosystem` inplace, and `pacific`, `database`, and `library` as mirror rows, from `Github/scripts/repos.conf`.
 
 ### Historical homes
 

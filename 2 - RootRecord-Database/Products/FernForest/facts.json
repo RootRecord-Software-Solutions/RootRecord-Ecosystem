@@ -1,0 +1,22 @@
+{
+  "place": "Fern Forest Vacation Estates",
+  "acres": 3.0,
+  "class": "agricultural",
+  "lots": [
+    {
+      "tmk": "110310970000",
+      "lot": "38",
+      "qpublic": "https://qpublic.schneidercorp.com/Application.aspx?AppID=1048&PageTypeID=4&KeyValue=110310970000"
+    },
+    {
+      "tmk": "110311000000",
+      "lot": "37",
+      "qpublic": "https://qpublic.schneidercorp.com/Application.aspx?AppID=1048&PageTypeID=4&KeyValue=110311000000"
+    },
+    {
+      "tmk": "110311010000",
+      "lot": "36",
+      "qpublic": "https://qpublic.schneidercorp.com/Application.aspx?AppID=1048&PageTypeID=4&KeyValue=110311010000"
+    }
+  ]
+}

@@ -18,7 +18,7 @@ States: **LIVE** = enabled in G3 now · **GATED** = in jobs.py, OFF until its fl
 | rr-kilauea | every 60 min | `geology_collect` (HVO) + `voice_kilauea_report` | GATED `RR_GEOLOGY`, `RR_VOICE_KILAUEA`; Grok draft / Discord BLOCKED |
 | time-chime | :00 :30 | `voice_hourly_chime` | GATED `RR_VOICE_HOURLY_CHIME` |
 | remaining-tasks | :32 | `voice_remaining_tasks` | GATED `RR_VOICE_REMAINING` |
-| morning-boot-replay | :32 | — | BLOCKED (playback) |
+| morning-boot-replay | :32 | `Media/MorningBootReplay/scripts/replay.py` | PROPOSED `RR_MORNING_BOOT_REPLAY` (not in jobs.py). Dry-run handoff to `Media/Playback`. Speaker still off |
 | hourly-clip-reports (+ hourly-clip-prebuild :55) | :02 | `voice_solar_desk` / `voice_security_desk` / `voice_bandwidth_desk` / `voice_kilauea_report` | PROPOSED / GATED; playback BLOCKED |
 | earthquake-hourly | :08 | `voice_earthquake_report` | GATED `RR_VOICE_QUAKE` |
 | earthquake-m2-poll | every 10 min | `geology_collect` (300 s) | GATED `RR_GEOLOGY` |
@@ -31,8 +31,8 @@ States: **LIVE** = enabled in G3 now · **GATED** = in jobs.py, OFF until its fl
 | player-economy-report | every 60 min | — | OUT (RootMC product) |
 | morning-report | 09:00 | `voice_morning_report` 09:02 | GATED `RR_VOICE_ROLLUPS` |
 | report-readiness | every 5 min | `Reports/scripts/report_board.py status` | PROPOSED `RR_REPORT_BOARD`; readiness playback BLOCKED |
-| report-periodic-audio | every 5 min | — | BLOCKED (playback) |
-| morning-report-play / midday-report-play / late-report-play | 09:05 / 12:05 / 21:08 | — | BLOCKED (playback) |
+| report-periodic-audio | every 5 min | `Media/Playback/scripts/play.py` on demand | GATED `RR_PLAYBACK`; old 5-minute replay not restored (WO-MIG-15) |
+| morning-report-play / midday-report-play / late-report-play | 09:05 / 12:05 / 21:08 | `Media/Playback/scripts/play.py` on demand | GATED `RR_PLAYBACK`; old play crons not restored (WO-MIG-15) |
 | day-reports-morning / -midday / -evening | 09:10 / 13:00 / 18:00 | G3 roll-ups (text) | GATED `RR_VOICE_ROLLUPS` (slot reports = same roll-ups; evening slot removed in G1) |
 | midday-report | 12:00 | `voice_midday_report` 12:02 | GATED `RR_VOICE_ROLLUPS` |
 | daily-reports-catchup | 14:00 | `Reports/scripts/report_board.py run-due` | PROPOSED `RR_REPORT_BOARD` (text only; play BLOCKED) |
@@ -61,10 +61,12 @@ States: **LIVE** = enabled in G3 now · **GATED** = in jobs.py, OFF until its fl
 | user-qrcodes / account-import | every 6 h | — | OUT (identity; personal data) |
 | d1-sync | every 6 h | — | BLOCKED (D1 credentials) |
 | inbox-drain | every 5 min | — | BLOCKED (D1 + DMs) |
-| stripe-poll / ltc-pending / vercel-builds | 30 / 30 / 5 min | — | OUT (website / payments keys) |
+| stripe-poll | 30 min | `stripe_poll` 1800 s | GATED `RR_STRIPE` (WO-MIG-10). No key writes `not_configured` and does not call Stripe |
+| ltc-pending | 30 min | — | OUT (payments; not WO-MIG-10) |
+| vercel-builds | 5 min | `vercel_builds` 300 s | GATED `RR_VERCEL_BUILDS` (WO-MIG-10). No token writes nothing and does not call Vercel |
 
 Counts over the 64 ids: every id is accounted for above (grouped rows cover several ids). Nothing in G1's scheduler lacks a G3 decision; the remaining gaps are the BLOCKED / OUT rows.
 
-G1 extras not in the table: `AVA_CRON_WAVE` clone guard and night-sleep gating (`Ecoflow/state/night-mode.json sleeping` skipped jobs). G3 night-sleep gate is armed on the live poller as of 2026-09-30 00:02 HST (`RR_NIGHT_SLEEP=1` in `run-poller.sh`, WO-MIG-01). There is no `night-mode.json`, so jobs are not skipped. The 23:30 late-final report is still not re-added.
+G1 extras not in the table: `AVA_CRON_WAVE` clone guard and night-sleep gating (`Ecoflow/state/night-mode.json sleeping` skipped jobs). G3 night-sleep gate is armed on the live poller as of 2026-09-30 00:02 HST (`RR_NIGHT_SLEEP=1` in `run-poller.sh`, WO-MIG-01). There is no `night-mode.json`, so jobs are not skipped.
 
-*Created 2026-09-29 ~14:35 HST (old-repo migration, breadth pass 2). Read-only; no job changed.*
+*Created 2026-09-29 ~14:35 HST (old-repo migration, breadth pass 2). 2026-09-30 WO-MIG-10: stripe-poll and vercel-builds rows now match the gated jobs. ltc-pending stays OUT.*

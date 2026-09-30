@@ -1,0 +1,7 @@
+# Public website checkout (WO-MIG-07): RootRecord-Cloud is its own repo.
+# Ignore the nested checkout so the ecosystem repo cannot record a gitlink.
+3 - RootRecord-Website/
+
+# Local archive of files removed from old repos. Stays on disk. Do not publish
+# (the tree can hold historical secrets and nested .git directories).
+Old repos deleted and merged/

@@ -1,0 +1,9 @@
+{
+  "gigs": [
+    {
+      "domain": "nibble.love",
+      "pages": ["home", "locations", "how-it-works", "about", "contact"],
+      "note": "Static client site. Not rehosted on the RootRecord site."
+    }
+  ]
+}

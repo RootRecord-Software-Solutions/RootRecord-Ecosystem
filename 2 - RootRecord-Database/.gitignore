@@ -121,6 +121,14 @@
 /Media/Playback/
 /Logs/Media/Playback/
 
+# Site route check (WO-MIG-08): last file and log line are runtime. Stay out of git.
+/Communications/Site/
+/Logs/Communications/Site/
+
+# US-States weather dataset (WO-MIG-11): run log is runtime. The sqlite store and us-last.json
+# already sit under /Weather/, which is ignored above.
+/Logs/Weather/US-States/
+
 # Country location pollers (WO-MIG-13): status and log are runtime. Stay out of git.
 # Samples live under /Weather/, already ignored above.
 /Logs/Weather/CountryLocations/
