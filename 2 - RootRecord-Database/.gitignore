@@ -140,3 +140,9 @@
 # Discord poller (WO-MIG-21): status and log are runtime. Stay out of git.
 /Communications/Discord/
 /Logs/Communications/Discord/
+
+# Economy brief (WO-MIG-29): daily markdown and run log are runtime. Folder markers stay tracked.
+/Reports/Economy-Brief/*
+!/Reports/Economy-Brief/.gitkeep
+/Logs/Reports/Economy-Brief/*
+!/Logs/Reports/Economy-Brief/.gitkeep
