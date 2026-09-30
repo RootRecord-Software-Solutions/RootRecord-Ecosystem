@@ -4,7 +4,7 @@ Telegram communication integration, alerts, and council-relay services.
 
 ---
 
-## Status (2026-09-28)
+## Status (2026-09-30 02:00 HST)
 
 | Item | State |
 | --- | --- |
@@ -22,21 +22,21 @@ Do not run a second Telegram poller against the same bot token.
 
 ---
 
-## Expected layout after import (docs only)
+## Layout
 
 ```text
 Communications/telegram/
   README.md
   scripts/
     ensure-relay.sh
-    council-relay.py   # if packaged here
+    council-relay.py
 ```
 
 Secrets / bot tokens stay local.
 
 ---
 
-*Docs-only update 2026-09-28 HST.*
+*Updated 2026-09-30 02:00 HST — `council_relay` runs Pacific `scripts/ensure-relay.sh`. Replies stay off.*
 
 ---
 
