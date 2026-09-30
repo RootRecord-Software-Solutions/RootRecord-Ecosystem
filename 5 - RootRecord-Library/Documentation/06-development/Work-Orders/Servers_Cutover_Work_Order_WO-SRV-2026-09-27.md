@@ -20,8 +20,8 @@
 | Energy (reads + leapfrog + actions) | source LANDED / runtime VERIFY PENDING — folder **`Energy/` only**; `ECOFLOW_ACTIONS` → `Energy/scripts/actions` |
 | System | source LANDED / runtime VERIFY PENDING — folder **`System/` only** |
 | Plumbing (ollama + FLM warmup) | source LANDED / runtime VERIFY PENDING — under **`System/scripts/plumbing/`** |
-| Reports (worklog + roll-up + archive) | source LANDED / runtime VERIFY PENDING — folder **`Reports/` only** (WO-RPT-001 foundation) |
-| Github (setup-remotes + sync-all) | source LANDED / runtime VERIFY PENDING — folder **`Github/` only** |
+| Reports (worklog + roll-up + archive) | source LANDED / runtime **PASS** 2026-09-29 22:13 HST (`worklog_scan` OK). Roll-up and weekly archive are closed under WO-RPT-001. |
+| Github (setup-remotes + sync-all) | source LANDED / runtime **PASS** 2026-09-29 22:01 HST. Automatic authority is `github_sync_all` (WO-GH-001). |
 | Communications/network (cloudflare + globe command) | source LANDED / runtime VERIFY PENDING — command + cwd now Pacific |
 | Stack reload | Automated reload **does not** open status window (window-close was tearing down stack) |
 
