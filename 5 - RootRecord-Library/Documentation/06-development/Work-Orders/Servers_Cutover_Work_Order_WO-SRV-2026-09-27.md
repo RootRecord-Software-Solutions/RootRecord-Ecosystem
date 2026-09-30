@@ -316,7 +316,7 @@ After that, `flm_npu_warmup` picks it up at the next poller start; no restart is
 
 ## Weather hook-in + old-root archive — 2026-09-29 ~01:54 HST
 
-- Weather **PASS** (Pacific `Weather/`, venv `Weather/.venv`, job `weather_poller` enabled, data → canonical `WEATHER/Hawai'i/`; reports VERIFY PENDING). One poller restart 01:49 HST → PID 880218; relay 880530 and weather 880724 now under the poller unit. Old-root data archived to `2 - RootRecord-Database/Archive/Previous-Datasets/G2-old-root-20260929/` (4.5 GB, README only in git). `store.py` → canonical `ROOTRECORD/`; G2 pulls no longer arm a stack reload. Evidence: `2 - RootRecord-Database/Logs/Migration/g3-weather-archive-evidence-20260929T115429Z.md`.
+- Weather **PASS** (Pacific `Weather/`, venv `Weather/.venv`, job `weather_poller` enabled, data → canonical `Weather/Hawai'i/`). Reports written 2026-09-29 22:13 HST (county reports and manifest). Some NOAA products returned HTML error pages, HTTP 500, or 403; the poller stayed up. Venv rebuilt 22:04 HST after the interpreter was missing. One poller restart 01:49 HST → PID 880218; relay 880530 and weather 880724 now under the poller unit. Old-root data archived to `2 - RootRecord-Database/Archive/Previous-Datasets/G2-old-root-20260929/` (4.5 GB, README only in git). `store.py` → canonical `ROOTRECORD/`; G2 pulls no longer arm a stack reload. Evidence: `2 - RootRecord-Database/Logs/Migration/g3-weather-archive-evidence-20260929T115429Z.md`.
 
 ## Pre-reboot checkpoint 2026-09-29
 
