@@ -30,7 +30,7 @@ Work-Orders/
 | --- | --- | --- | --- |
 | WO-ECO-2026-09-27 | Ecosystem migration & repository foundation | **IN PROGRESS** — Pacific + Energy reads + System + Plumbing PASS (2026-09-29 evidence; see WO-SRV status summary) | [WO](./Ecosystem_Migration_Work_Order_WO-ECO-2026-09-27.md) |
 | WO-SRV-2026-09-27 | Pacific runtime path cutover (G2 → G3) | **IN PROGRESS** — reads, system, reports, GitHub, globe, and `LAP=` PASS tonight. Open: energy actuation, timelapse, Telegram replies. G2 kept. | [WO](./Servers_Cutover_Work_Order_WO-SRV-2026-09-27.md) |
-| WO-OLD-2026-09-28 | Selective recovery from Solar-Pacific-…-Old (G1) | OPEN — scheduler trio **MIGRATED**; other packets blocked on G2→G3 | [WO](./Old_Server_Selective_Recovery_Work_Order_WO-OLD-2026-09-28.md) |
+| WO-OLD-2026-09-28 | Selective recovery from Solar-Pacific-…-Old (G1) | OPEN — scheduler trio **MIGRATED**. Live jobs run on G3. Next G1 packet still waiting. G2 code kept. | [WO](./Old_Server_Selective_Recovery_Work_Order_WO-OLD-2026-09-28.md) |
 | WO-GH-2026-09-27 | GitHub catalog hygiene | **IN PROGRESS** — desk sync is the `ecosystem` row plus `skills`; `pacific` / `database` / `library` disabled (flattened tree, no nested `.git`); website/mainland still disabled | [WO](./GitHub_Catalog_Hygiene_Work_Order_WO-GH-2026-09-27.md) |
 | WO-DATA-2026-09-27 | Database boundary & publication policy | **IN PROGRESS** — canonical Database path landed; public-umbrella publication list still open | [WO](./Database_Boundary_Work_Order_WO-DATA-2026-09-27.md) |
 | WO-AEYES-2026-09-27 | A-EYES capture rate & timelapse | OPEN | [WO](./A-EYES_Work_Order_WO-AEYES-2026-09-27.md) |
