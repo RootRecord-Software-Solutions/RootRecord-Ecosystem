@@ -27,6 +27,7 @@ Geology/
 | --- | --- | --- | --- |
 | `Geology/scripts/geology_collect.py all` | `geology_collect` | 300 s | `RR_GEOLOGY=1` |
 | `Geology/scripts/kilauea_cams.py` | `geology_kilauea_cams` | 600 s | `RR_KILAUEA_CAMS=1` |
+| `Geology/PublicDraftQueue/scripts/queue_draft.py` | `geology_kilauea_public_draft` | 3600 s | `RR_KILAUEA_DRAFT=1` |
 | `Geology/scripts/earthquakes_backfill.py` | — (on demand) | — | — |
 
 Readers: Pacific `Media/Voice/scripts/voice_reports.py earthquake_report` (job `voice_earthquake_report`, gate `RR_VOICE_QUAKE=1`) and `kilauea_report` (job `voice_kilauea_report`, gate `RR_VOICE_KILAUEA=1`); those voice jobs do not deliver. Pacific `Geology/Earthquake-Discord/scripts/earthquake_discord_post.py` reads the earthquake last files and prints a Discord message (dry-run). It does not write `Earthquake-Discord/posted-last.json` unless a later `--send` is actually accepted by the pipe. Job `earthquake_discord_post` stays off unless `RR_EARTHQUAKE_DISCORD=1`. Keeping these jobs.py registrations is a sign-off item (`Logs/Migration/migration-jobs-py-additions-20260929.md`).
