@@ -31,6 +31,7 @@ Documentation/06-development/Work-Orders/Complete/
 - [WO-ARCH-2026-09-27](./Ops_Weekly_Archive_Work_Order_WO-ARCH-2026-09-27.md) — first archive week `2026-W40`, cutoff `2026-09-28`, 5 logs moved.
 - [WO-SYS-001](./WO-SYS-001-Poller-Observability.md) — observability close 2026-09-29. Telegram alerts remain on WO-COM-001.
 - [WO-AGENT-2026-09-27](./AgentContext_CanonicalHome_Work_Order_WO-AGENT-2026-09-27.md) — canonical pack home recorded 2026-09-29. Placeholders kept.
+- [WO-GH-001](./WO-GH-001-Github-Pull-Authority.md) — Option B, Alexander, 2026-09-29. One sync cycle observed at 22:01:03 HST.
 
 ## Created
 

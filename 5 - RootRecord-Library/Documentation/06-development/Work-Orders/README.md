@@ -49,7 +49,6 @@ Work-Orders/
 | **WO-WXG-001** | Weather + Geology domain import | P1 | Draft — Weather poller **PASS**; Geology/voice jobs landed and **OFF** until sign-off | [WO](./WO-WXG-001-Weather-Geology-Import.md) |
 | **WO-WOGEN-001** | Work order generator (measured friction → draft WOs) | P2 | **Draft** — architecture only; Carly seal + operator accept before implement | [WO](./WO-WOGEN-001-Work-Order-Generator.md) |
 | **WO-WEB-002** | Public site foundation pass | P2 | Draft | [WO](./WO-WEB-002-Public-Site-Foundation.md) |
-| **WO-GH-001** | GitHub pull authority & timer policy | P2 | Draft | [WO](./WO-GH-001-Github-Pull-Authority.md) |
 
 ## Recently completed (2026-09-29 ~21:49 HST)
 
@@ -57,6 +56,7 @@ Work-Orders/
 - [WO-ARCH-2026-09-27](./Complete/Ops_Weekly_Archive_Work_Order_WO-ARCH-2026-09-27.md) — first week archived, cutoff 2026-09-28.
 - [WO-SYS-001](./Complete/WO-SYS-001-Poller-Observability.md) — log path, unit, banner, and FAIL policy. Telegram stays on WO-COM-001.
 - [WO-AGENT-2026-09-27](./Complete/AgentContext_CanonicalHome_Work_Order_WO-AGENT-2026-09-27.md) — `Agent Context/` is the pack home. `02-agents/` stays an index.
+- [WO-GH-001](./Complete/WO-GH-001-Github-Pull-Authority.md) — Option B. Pacific `github_sync_all` is the only automatic pull.
 
 ---
 
@@ -100,7 +100,7 @@ Energy    Phase 1 reads SIGNED OFF 2026-09-29 ~21:30 HST (fresh soc json, source
 System    host-last.json fresh ~2 min at 21:30 HST. Not a closed work order.
 Cameras   ch1–ch4 stills fresh ~3 min at 21:30 HST. cam_server cwd inode is deleted; process still writing. Not archived.
 Reports   COMPLETE 2026-09-29 ~21:49 HST. Session auto written. Weekly archive moved 5 pre-week logs (cutoff 2026-09-28).
-Github    ecosystem + skills sync; pacific/database/library disabled (flattened 2026-09-29); website/mainland disabled
+Github    WO-GH-001 COMPLETE. Automatic authority is github_sync_all (ecosystem + skills). Pull.sh and Push.sh are manual only.
 Log       WO-SYS-001 COMPLETE 2026-09-29. Unit and dashboard banner name automations_current.log. FAIL policy is in the poller README. Telegram alerts still wait on WO-COM-001.
 Log       /home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Logs/Automations/automations_current.log
 G1 sched  hybrid-night-poller / heartbeat / net-gate → MIGRATED.md on -Old
