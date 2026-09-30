@@ -18,6 +18,9 @@ Geology/
     Daily/hvo-notices-YYYYMMDD.jsonl  append-only HVO notices (HANS getNewestOrRecent), dedupe by notice id
     Cams/cams-last.json               USGS V1/V2/V3 cam catalog + still status
     Cams/v{1,2,3}cam-last.jpg         latest USGS stills (git-ignored *.jpg)
+  PublicDraftQueue/
+    publish-last.json                 notice id + alert level fingerprint (seed does not queue)
+    queue/*-kilauea-cron.md           one public draft per real change (no send)
 ```
 
 | Writer (Pacific) | Job id (`Automations/scripts/jobs.py`) | Every | Gate (read at poller start) |
