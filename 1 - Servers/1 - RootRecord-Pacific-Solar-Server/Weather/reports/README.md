@@ -55,7 +55,7 @@ _Source: locally collected NWS-HFO Regional Weather Roundup (RWR). Values are °
 
 | Status | Coverage | Updated | Sections |
 |---|---|---|---:|
-| 🟢 Active | Hawaiʻi statewide | 2026-09-29T23:06:21-10:00 HST | 17 |
+| 🟢 Active | Hawaiʻi statewide | 2026-09-29T23:15:22-10:00 HST | 17 |
 
 The report below is generated from the same current product sections as `Hawaii_State_Weather_Report_current.md`.
 
@@ -67,7 +67,7 @@ The report below is generated from the same current product sections as `Hawaii_
 |---|---|
 | **Resource ID** | afd_area_forecast_discussion |
 | **Official source** | https://api.weather.gov/products/types/AFD/locations/HFO |
-| **Collected** | 2026-09-29T22:09:11.438810-10:00 HST |
+| **Collected** | 2026-09-29T23:10:47.231080-10:00 HST |
 
 ```text
 000
@@ -579,7 +579,7 @@ T  INDICATES TRACE AMOUNT.
 |---|---|
 | **Resource ID** | hfo_rra_direct |
 | **Official source** | https://forecast.weather.gov/product.php?issuedby=HFO&product=RRA&site=hfo |
-| **Collected** | 2026-09-29T22:51:39.335453-10:00 HST |
+| **Collected** | 2026-09-29T23:08:39.027916-10:00 HST |
 
 ```text
 510
@@ -851,7 +851,7 @@ $$
 |---|---|
 | **Resource ID** | hfo_surf_reports_direct |
 | **Official source** | https://www.weather.gov/hfo/surfreports |
-| **Collected** | 2026-09-29T22:59:39.285553-10:00 HST |
+| **Collected** | 2026-09-29T23:08:41.746453-10:00 HST |
 
 ```text
                         
@@ -1239,7 +1239,7 @@ National Weather Service Honolulu HI
 |---|---|
 | **Resource ID** | nhc_homepage |
 | **Official source** | https://www.nhc.noaa.gov/ |
-| **Collected** | 2026-09-29T23:06:21.287800-10:00 HST |
+| **Collected** | 2026-09-29T23:15:21.664150-10:00 HST |
 
 ```text
 Home
@@ -1363,7 +1363,7 @@ Search
 Top News of the Day...
 view past news
 
-Last update Wed, 30 Sep 2026 09:03:55 UTC
+Last update Wed, 30 Sep 2026 09:10:31 UTC
 
 NHC issuing advisories for the Atlantic on
 
@@ -1466,7 +1466,7 @@ Tropical Weather Outlook
 
 Tropical Weather Discussion
 
-0405 UTC Wed Sep 30 2026
+1005 UTC Wed Sep 30 2026
 
 Remnants of Polo
 
@@ -2220,7 +2220,7 @@ $$
 |---|---|
 | **Resource ID** | hfo_tib_reference |
 | **Official source** | https://forecast.weather.gov/product_types.php |
-| **Collected** | 2026-09-29T22:51:24.009950-10:00 HST |
+| **Collected** | 2026-09-29T23:08:24.094873-10:00 HST |
 
 ```text
 National Weather Service
