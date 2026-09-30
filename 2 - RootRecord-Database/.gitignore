@@ -91,6 +91,12 @@
 /Logs/Communications/Relay-Inbox/*
 !/Logs/Communications/Relay-Inbox/README.md
 
+# Inbox local copies of held message text (WO-MIG-31). README stays tracked.
+/Communications/Inbox/*
+!/Communications/Inbox/README.md
+/Logs/Communications/Inbox/*
+!/Logs/Communications/Inbox/README.md
+
 # Specialist router decisions (added 2026-09-29 ~04:18 HST, g3-specialists): metadata-only JSONL, high churn -> local only.
 # README.md and router-test-*.md in the same folder stay tracked.
 /Logs/AI/Routing/routing_current.jsonl

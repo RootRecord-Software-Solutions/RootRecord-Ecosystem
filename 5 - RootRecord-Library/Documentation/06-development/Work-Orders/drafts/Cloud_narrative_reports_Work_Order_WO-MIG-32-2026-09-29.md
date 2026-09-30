@@ -30,7 +30,7 @@ New code wins. Add an optional cloud pass that reads those template texts. Do no
 
 ## 2. Current reality
 
-Folder: `CloudNarrative`, not installed yet. It belongs in Reports. One capitalized folder, same name in all three places. No lowercase twin, no symlink, no `Logs/` on the server.
+Folder: `CloudNarrative`, installed under Reports. One capitalized folder, same name in all three places. No lowercase twin, no symlink, no `Logs/` on the server.
 
 | Path | Role |
 | --- | --- |
@@ -49,7 +49,7 @@ Folder: `CloudNarrative`, not installed yet. It belongs in Reports. One capitali
 | Optional local one-line summary | `RR_VOICE_ROLLUP_LLM=1` via `run-infer.sh`. Stays. This function does not replace it |
 | Old cloud engine | Archived. Removed from the local skills tree and from GitHub `main` `85add20` |
 | `XAI_API_KEY` | Not in `master-key.env`. A live call cannot run until Alexander adds that name there |
-| GitHub `Solar-Pacific-RootRecord-Server-Old` | Not in the org (404). Remaining repos: Library, Database, Pacific, Ecosystem, `.github` |
+| GitHub `Solar-Pacific-RootRecord-Server-Old` | `reports/sort/report-generation/` removed on `main` `85add20`. Repository kept |
 
 ### 2.2 Completed so far
 
@@ -172,6 +172,18 @@ Add a short result note to this work order: what landed, what was archived, what
 - `1 - Servers/1 - RootRecord-Pacific-Solar-Server/Geology/README.md` ("Grok report generation" line only)
 
 Do not rewrite unrelated work orders.
+
+### Result note
+
+Landed 2026-09-30: `Reports/CloudNarrative/scripts/cloud_narrative.py`. It reads the template markdown, strips NWS product bodies, and writes a prompt package plus `last.json`. Default and `--dry-run` set `http: false`. `merged` copies today's `morning-current.md` only when `--spend` is allowed, and it never calls the model. A live call needs both `--spend` and `RR_CLOUD_NARRATIVE_SPEND=1`, plus `XAI_API_KEY`. That call was not made.
+
+Proof: `morning --dry-run` exited 0 with `dry_run: true` and `http: false`. A socket guard saw no sockets. The morning template file was absent before and after. A fixture template with a long NWS product line stayed byte-identical, the product line was dropped from the package, and the measured battery line was kept.
+
+`jobs.py` was already modified (hurricane radio and Bruce stats), so the gated `cloud_narrative_dry_run` block was not registered. `RR_CLOUD_NARRATIVE` stays off.
+
+Archived to `Old repos deleted and merged/Solar-Pacific-RootRecord-Server-Old/reports/sort/report-generation/` (scripts, skill notes, migrate note; no `__pycache__`). Removed that tree from `/home/rootrecord/old ollama/old skills/reports/sort/report-generation/`. Shared files left in place: `morning-report/`, `midday-report/`, `late-report/`, `merged-morning/scripts/job.py`, `kilauea/rr-kilauea/scripts/kilauea.py`, `xai.py`, `api_ledger.py`, and the origin `report_generation.py` shim.
+
+GitHub: `Solar-Pacific-RootRecord-Server-Old` `main` moved `55e9c84..85add20`. That commit deletes `reports/sort/report-generation/` only. The repository was not deleted. No force-push. The skills checkout ignores `reports/`, so there was no commit there.
 
 ---
 

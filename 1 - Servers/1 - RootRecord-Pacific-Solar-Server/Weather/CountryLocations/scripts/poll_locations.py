@@ -11,10 +11,11 @@ from __future__ import annotations
 
 import json
 import os
+import sys
 import time
 import urllib.parse
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from zoneinfo import ZoneInfo
@@ -33,6 +34,7 @@ LAST_PATH = OUT / "locations-last.json"
 UA = "RootRecord-Pacific/3 country-locations"
 TIMEOUT = 10
 PAUSE = 0.2
+MIN_AGE = timedelta(minutes=55)
 FORECAST = "https://api.open-meteo.com/v1/forecast"
 
 
