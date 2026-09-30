@@ -103,8 +103,8 @@ def process_cmds() -> list[tuple[int, str]]:  # info: def process_cmds
     return found  # info: return found
 
 # ====================================================
-# SECTION: function match_procs
-# What it does: Pids whose command contains a needle. Does not send.
+# SECTION: function match_token
+# What it does: Pids whose argv has this exact token. Does not send.
 # Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
 # ====================================================
 def match_token(rows: list[tuple[int, str]], token: str) -> list[int]:  # info: def match_token
