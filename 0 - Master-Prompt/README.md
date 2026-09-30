@@ -31,7 +31,26 @@ It is **not** a copy of the application repositories. It contains:
         └── build-bundle.yml
 ```
 
-## Repositories
+## Current checkout (2026-09-29)
+
+This directory lives inside the public umbrella checkout. That checkout is one git repository:
+
+`/home/rootrecord/RootRecord-Ecosystem`
+
+Remote: https://github.com/RootRecord-Software-Solutions/RootRecord-Ecosystem
+
+Pacific, Database, and Library in that tree are directories, not nested clones. Desk sync publishes the `ecosystem` catalog row. It does not auto-commit live telemetry, databases, logs, or worklogs.
+
+Domain roles:
+
+- RootRecord-Ecosystem — public context and this desk's git root
+- RootRecord-Library — knowledge, guides, work orders, agent context
+- RootRecord-Pacific-Solar-Server — Pacific runtime
+- RootRecord-Database — persistent data
+
+## Historical repository links
+
+These remotes describe earlier homes. They are not the git root of this desk:
 
 - Solar Pacific RootRecord Server: https://github.com/rootrecordsoftwaresolutions/Solar-Pacific-RootRecord-Server
 - US Mainland Server: https://github.com/rootrecordsoftwaresolutions/US-Mainland-Server

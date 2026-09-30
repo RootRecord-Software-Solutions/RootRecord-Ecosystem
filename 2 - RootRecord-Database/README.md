@@ -79,6 +79,7 @@ Security camera runtime writes captured media to the canonical Database media tr
 
 | Repository | Role |
 | --- | --- |
+| **[RootRecord-Ecosystem](https://github.com/RootRecord-Software-Solutions/RootRecord-Ecosystem)** | Public umbrella and this desk's git root |
 | **[RootRecord-Pacific-Solar-Server](https://github.com/RootRecord-Software-Solutions/RootRecord-Pacific-Solar-Server)** | Primary executable runtime |
 | **[RootRecord-Library](https://github.com/RootRecord-Software-Solutions/RootRecord-Library)** | Docs, agent context & work orders |
 | **[US-Mainland-Server](https://github.com/rootrecordsoftwaresolutions/US-Mainland-Server)** | Continuity node |
@@ -90,6 +91,8 @@ Security camera runtime writes captured media to the canonical Database media tr
 ```text
 /home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database
 ```
+
+This directory is inside the umbrella git root. It does not have its own `.git`. The `database` sync row is disabled. Live telemetry, databases, logs, and worklogs are listed in the Pacific `ecosystem-skip-autocommit.txt` file and are not auto-committed to the public umbrella.
 
 > **Docs-only updates to this README do not change the on-disk layout or poller behavior.**
 

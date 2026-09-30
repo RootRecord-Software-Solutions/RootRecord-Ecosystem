@@ -7,7 +7,11 @@ description: Load the RootRecord Master Prompt, current machine-readable state, 
 
 ## Canonical location
 
-https://github.com/rootrecordsoftwaresolutions/Solar-Pacific-RootRecord-Server/tree/main/0-master-prompt
+Desk path: `/home/rootrecord/RootRecord-Ecosystem/0 - Master-Prompt`
+
+Public umbrella: https://github.com/RootRecord-Software-Solutions/RootRecord-Ecosystem
+
+The older Solar-Pacific `0-master-prompt` tree is a historical home, not this desk's git root.
 
 ## Procedure
 

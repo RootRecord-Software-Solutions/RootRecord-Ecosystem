@@ -1,8 +1,12 @@
 # Architecture
 
-RootRecord is an ecosystem of multiple repositories and services.
+RootRecord is an ecosystem of multiple roles and services.
 
-The Master Prompt repository is the cross-project operating contract. It is deliberately not a mirror of application source.
+On the current desk, `/home/rootrecord/RootRecord-Ecosystem` is one git repository and the public context layer. Library, Pacific runtime, and Database are directories in that tree with separate responsibilities. They are not nested clones.
+
+The Master Prompt directory is the cross-project operating contract. It is not a second copy of application source.
+
+GitHub may still host separate source repositories. This checkout does not. Automated publish goes through the umbrella `ecosystem` sync row.
 
 ## Source hierarchy
 

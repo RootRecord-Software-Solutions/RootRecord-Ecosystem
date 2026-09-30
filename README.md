@@ -30,21 +30,11 @@ This repository **does not replace the underlying source repositories**.
 
 ## Repository model
 
-There are two distinct layers:
+This desk checkout is **one Git repository**. The git root is `/home/rootrecord/RootRecord-Ecosystem`. Pacific, Database, Library, and the other top-level folders are directories in that tree. They are not nested Git repositories. Do not add nested `.git` directories or gitlinks back into this snapshot.
 
-### 1. RootRecord-Ecosystem
+GitHub still has separate source repositories for those domains. Those remotes keep their own histories and remain the domain homes. This public repository is the context snapshot, and it is the repository this desk's automated sync publishes.
 
-This repository is the **umbrella/context layer**.
-
-It contains flattened copies of relevant ecosystem material so the complete system can be viewed together. Its contents are maintained as a public-facing snapshot and reference surface.
-
-### 2. Individual source repositories
-
-The underlying repositories remain the authoritative homes for their respective components, including their Git history, development work, issues, pull requests, and operational changes.
-
-The same file or component may therefore appear here and in its source repository. That is intentional.
-
-> **If a component-specific change is required, make that change in the component's authoritative repository first.**
+> On this desk, edit the file where it lives in this tree. Do not assume a subdirectory has its own `origin`.
 
 ---
 
@@ -54,12 +44,14 @@ The current snapshot includes material from the major RootRecord areas:
 
 | Area | Role |
 | --- | --- |
-| 1 - Servers/ | Server infrastructure, communications, networking, and related services |
-| 2 - RootRecord-Database/ | Database, telemetry, system state, energy data, logs, and supporting data structures |
-| 5 - RootRecord-Library/ | Shared documentation, reference material, and ecosystem knowledge |
-| RootRecord-Cloud | Cloud/web-facing components associated with the RootRecord server ecosystem |
-
-The snapshot may contain additional supporting directories and documentation as the ecosystem evolves.
+| `0 - Master-Prompt/` | Cross-project operating rules, prompt files, and live-state notes |
+| `1 - Servers/` | Pacific runtime and the US Mainland continuity tree |
+| `2 - RootRecord-Database/` | Persistent data, telemetry, logs, and media layout |
+| `3 - RootRecord-Website/` | Website material included in the snapshot |
+| `4 - RootRecord-Node/` | Node-related snapshot material |
+| `5 - RootRecord-Library/` | Architecture, guides, agent context, and work orders |
+| `6 - Android Development/` | Android application trees |
+| `7 - Client Projects/` | Client-project snapshot material |
 
 ---
 
@@ -73,7 +65,7 @@ The principal source repositories represented by this snapshot are:
 - **RootRecord-US-Mainland-Server**
 - **RootRecord-Cloud**
 
-These repositories retain their own Git histories and remain separate from this umbrella repository.
+Those GitHub repositories keep their own histories. In this checkout they are folders, not separate clones. The desk sync catalog does not push `pacific`, `database`, or `library` as their own repositories.
 
 ---
 
@@ -109,25 +101,25 @@ Private operational configuration and secrets remain outside this repository.
 
 This repository is deliberately **flattened**.
 
-The source repositories remain intact elsewhere, including their own Git directories and histories. The umbrella repository does not attempt to create nested Git repositories or submodules for those components.
+GitHub source repositories may still exist on their own. This tree does not embed them as submodules.
 
 That makes the public snapshot straightforward to inspect and gives repository-aware tools a single coherent tree.
 
-The tradeoff is that this repository should be treated as a **context snapshot**, rather than a replacement for component-level version control.
+Treat this repository as the **public context snapshot and this desk's git root**. Domain meaning still belongs to Library (knowledge), Pacific Solar Server (runtime), and Database (persistence).
 
 ---
 
 ## Maintenance workflow
 
-When updating the ecosystem:
+On this desk, `github_sync_all` publishes the enabled `ecosystem` row to `RootRecord-Software-Solutions/RootRecord-Ecosystem`.
 
-1. Make component-specific changes in the authoritative source repository.
-2. Update the ecosystem snapshot when the public context needs to reflect those changes.
-3. Review the snapshot for secrets, credentials, private infrastructure data, and runtime artifacts.
-4. Verify that generated operational files have not been accidentally included.
+1. Edit the file in this tree.
+2. Let the Pacific GitHub sync fetch, merge, and push `main`. Do not force-push.
+3. Live telemetry, databases, logs, and worklogs listed in `1 - Servers/1 - RootRecord-Pacific-Solar-Server/Github/scripts/ecosystem-skip-autocommit.txt` stay on disk and are not auto-committed.
+4. Review changes for secrets, credentials, private infrastructure identifiers, and runtime artifacts before they are pushed.
 5. Update this README when the ecosystem's structure or repository model changes.
 
-Before publishing a snapshot, perform a security review of both the working tree and the Git history.
+`pacific`, `database`, and `library` rows in `repos.conf` stay disabled while those directories are not independent git checkouts.
 
 ---
 
@@ -173,9 +165,9 @@ https://github.com/RootRecord-Software-Solutions/RootRecord-Ecosystem
 
 ## Related source repositories
 
-The umbrella repository should be used for ecosystem-wide context.
+Use this repository for ecosystem-wide context and for the desk checkout.
 
-For authoritative component history and development, use the corresponding source repository:
+GitHub source repositories, when they are still the domain remote:
 
 - RootRecord-Library
 - RootRecord-Database

@@ -2,7 +2,24 @@
 
 This file is the navigation index for major RootRecord files that are repeatedly inspected or modified.
 
-**Rule:** these are links to the real source files. Do not copy those files into the Master Prompt repository.
+**Rule:** these are links to the real source files. Do not copy those files into the Master Prompt directory.
+
+## Current desk (2026-09-29)
+
+Git root: `/home/rootrecord/RootRecord-Ecosystem`  
+Remote: https://github.com/RootRecord-Software-Solutions/RootRecord-Ecosystem
+
+- Pacific runtime: `1 - Servers/1 - RootRecord-Pacific-Solar-Server/`
+- Jobs catalog: `1 - Servers/1 - RootRecord-Pacific-Solar-Server/Automations/scripts/jobs.py`
+- GitHub sync catalog: `1 - Servers/1 - RootRecord-Pacific-Solar-Server/Github/scripts/repos.conf`
+- Runtime skip list: `1 - Servers/1 - RootRecord-Pacific-Solar-Server/Github/scripts/ecosystem-skip-autocommit.txt`
+- Database tree: `2 - RootRecord-Database/`
+- Library: `5 - RootRecord-Library/`
+- This contract: `0 - Master-Prompt/MASTER-PROMPT.md`
+
+## Historical links
+
+The sections below point at earlier GitHub homes. Confirm the file still exists there before editing. The live desk copies are the paths above.
 
 ## Solar Pacific RootRecord Server
 

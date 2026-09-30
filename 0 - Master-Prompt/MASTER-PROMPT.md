@@ -10,6 +10,21 @@ This directory also contains a machine-readable live-state layer. The prompt def
 
 ## 2. Repository map
 
+### Current desk (2026-09-29)
+
+The working tree at `/home/rootrecord/RootRecord-Ecosystem` is one git repository. Its remote is `RootRecord-Software-Solutions/RootRecord-Ecosystem`.
+
+- `0 - Master-Prompt/` — this operating contract and live-state files
+- `1 - Servers/1 - RootRecord-Pacific-Solar-Server/` — Pacific runtime
+- `2 - RootRecord-Database/` — persistent data
+- `5 - RootRecord-Library/` — knowledge, guides, work orders
+
+Those folders do not have their own `.git` directories. Do not reintroduce nested repositories into the umbrella. Automated sync uses the `ecosystem` row in `Github/scripts/repos.conf`.
+
+### Historical homes
+
+The links below are earlier repositories. Verify a path against the current desk before treating one of them as the live tree.
+
 ### Solar Pacific RootRecord Server
 
 https://github.com/rootrecordsoftwaresolutions/Solar-Pacific-RootRecord-Server
