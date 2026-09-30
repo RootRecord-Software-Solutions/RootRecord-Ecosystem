@@ -1,0 +1,10 @@
+{
+  "at": "2026-09-29T23:59:26-10:00",
+  "job": "voice_late_final_report",
+  "late_status": "open",
+  "dry_run": true,
+  "night_sleep_folder": true,
+  "voice": false,
+  "result": "would-run",
+  "detail": "late_slot_open"
+}

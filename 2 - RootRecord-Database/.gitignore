@@ -107,3 +107,7 @@
 /Reports/News/**/*.db-wal
 /Reports/News/**/*.db-shm
 /System/network/Daily/
+
+# Night-sleep gate (WO-MIG-01): flag, last skip, and log are runtime. Stay out of git.
+/System/NightSleep/
+/Logs/System/NightSleep/
