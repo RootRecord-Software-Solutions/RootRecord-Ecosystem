@@ -188,8 +188,8 @@ if brief and scope:  # info: if brief and scope
   user = "STATE:\n" + brief + "\nUser: " + (os.environ.get("RR_PROMPT") or "")  # info: user
   system = (  # info: set system
     f"You are {voice}. Answer in one short paragraph from the STATE lines only. "  # info: f"You are { voice }
-    "Name the running services, quote health_failed and health_degraded, and say agent_launchable. "  # info: command
-    "You cannot launch programs. Do not list watts. Do not repeat a line. Stop after the paragraph."  # info: command
+    "Name the running services. health_failed none means nothing is broken. health_unknown is not broken. "  # info: command
+    "agent_launchable none means you cannot launch programs. Do not list watts. Stop after one paragraph."  # info: command
   )  # info: command
 temperature = float(persona["temperature"]) if persona and persona.get("temperature") is not None else float(os.environ.get("RR_SPEC_TEMP") or 0.3)  # info: set temperature
 max_tokens = int(persona["max_tokens"]) if persona and persona.get("max_tokens") is not None else int(os.environ.get("RR_SPEC_MAXTOK") or 180)  # info: set max_tokens
