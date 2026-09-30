@@ -132,3 +132,7 @@
 # Country location pollers (WO-MIG-13): status and log are runtime. Stay out of git.
 # Samples live under /Weather/, already ignored above.
 /Logs/Weather/CountryLocations/
+
+# Discord poller (WO-MIG-21): status and log are runtime. Stay out of git.
+/Communications/Discord/
+/Logs/Communications/Discord/
