@@ -56,7 +56,7 @@ Folder name: **HurricaneRadio**, under the Media domain. One capitalized folder.
 
 - Report playback (agent 15) is the shared Kokoro player. This function pauses if that Folder is missing and does not build the player.
 - `hurricane_desk_current.wav` is not on disk. A run with no WAV records `no_wav` or `audio_missing` and exits 0. This function does not render speech.
-- `jobs.py` was already being edited at build, so the gated block was not inserted. It is staged in `proposed-job-block.txt`. Default stays off.
+- `jobs.py` now has `media_hurricane_radio`, gated on `RR_HURRICANE_RADIO` (default off). `proposed-job-block.txt` is a copy. Do not paste it again.
 - Speaker playback and AWS radio need Alexander's sign-off. This folder never passes `--play` and never calls `aplay`.
 - `play_on_radio` lives in old `hurricane-desk`. That file is shared with the already-migrated desk. Leave it.
 
@@ -123,8 +123,8 @@ Build only after Alexander accepts this draft and says to build. Until then, do 
 **Additional requirements:**
 
 - Speaker playback, AWS radio, sends, hardware switching, and cloud spend need a separate sign-off. This build did none of those.
-- `RR_HURRICANE_RADIO=1` on the live poller needs a separate sign-off. The block is staged, not inserted. The default stays off.
-- Paste `proposed-job-block.txt` into `jobs.py` only when that file is free. Leave it disabled.
+- `RR_HURRICANE_RADIO=1` on the live poller needs a separate sign-off. The job is in `jobs.py` and stays off.
+- Do not paste `proposed-job-block.txt` again.
 
 ---
 
@@ -145,7 +145,7 @@ Build only after Alexander accepts this draft and says to build. Until then, do 
 
 Landed 2026-09-30: `Media/HurricaneRadio` (`__init__.py`, `README.md`, `scripts/radio.py`). `python3 scripts/radio.py run` with a temporary database root printed `played: false` and `detail: audio_missing` (no `hurricane_desk_current.wav`). A fake `aplay` on `PATH` was not called.
 
-`jobs.py` was already being edited, so the gated `media_hurricane_radio` / `RR_HURRICANE_RADIO` block was not inserted. It is staged in `Media/HurricaneRadio/proposed-job-block.txt`.
+`jobs.py` now contains `media_hurricane_radio`, gated on `RR_HURRICANE_RADIO` (default off) at 06:35, 13:12, and 17:02. `proposed-job-block.txt` is the same block. Do not paste it again.
 
 Archive path: `Old repos deleted and merged/Solar-Pacific-RootRecord-Server/weather/hurricane-radio/` (the six old files, copy matched the source, plus the untracked `scripts/__pycache__` that sat beside `job.py`). Left in place: `weather/hurricane-desk/` (`play_on_radio`).
 
