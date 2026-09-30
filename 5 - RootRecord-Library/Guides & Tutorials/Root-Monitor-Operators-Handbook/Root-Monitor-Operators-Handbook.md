@@ -2,7 +2,7 @@
 
 Pacific Solar Server desk panel. Written for someone sitting at the machine who needs to see the site, change a setting on purpose, and leave the stack running.
 
-**Captured:** Wednesday 30 September 2026, 02:48–02:49 HST, from the live window on this desk.
+**Captured:** Wednesday 30 September 2026, 03:07–03:08 HST, from the live window on this desk.
 **App:** Root Monitor (`cloud.rootrecord.ControlPanel`), GTK4 + libadwaita. Renamed from "RootRecord Control Panel" on 29 September 2026. The folder and file names did not change.
 **Screenshots:** `media/` next to this file. Every page and every Settings sub-page. The app's own secret guard checked each picture before it was saved (0 matches).
 
@@ -59,7 +59,7 @@ The window opens at about 1100×760. A header bar says **Root Monitor**. Under i
 
 Read it before you read the page. On this capture it said:
 
-> Root Monitor · Pacific Solar Server · poller **PASS** (1 proc) · B1 19% · B2 1% · B3 laptop 100% · log 20s · Wed 30 Sep 2026 02:48:23 HST
+> Root Monitor · Pacific Solar Server · poller **PASS** (1 proc) · B1 15% · B2 1% · B3 laptop 100% · log 37s · Wed 30 Sep 2026 03:07:18 HST
 
 | Piece | Meaning |
 | --- | --- |
@@ -113,7 +113,7 @@ Batteries and the host do not share a color scale.
 | 50% up to 80% | amber |
 | 80% and above | red |
 
-On the 02:48 energy capture, B1 at 18.5% is red because the River is low. B3 at 100% is a full green bar because the laptop is on AC and full. On the later system capture, CPU at 3.6% is a short green bar and RAM at 70% is amber, because 70 is under the 80% red line.
+On this capture, B1 at 15.1% is red because the River is low. B3 at 100% is a full green bar because the laptop is on AC and full. CPU at 5.4% is a short green bar. RAM at 69.9% is amber, because 70 is under the 80% red line.
 
 ### On / off controls are buttons
 
@@ -137,7 +137,7 @@ Then stop. Controls and AWS Fallback are for a deliberate change, not a glance.
 
 ## Energy
 
-![Energy page at 02:48 HST](media/01-energy.png)
+![Energy page at 03:07 HST](media/01-energy.png)
 
 Three cards.
 
@@ -147,11 +147,11 @@ Same three bars as `poller-dashboard.py`.
 
 | Bar | Device | On this capture |
 | --- | --- | --- |
-| **B1** | EcoFlow River 2 Pro | **18.5%**, red. Sample **0m24s ago**, source `ble`. Not stale. |
-| **B2** | EcoFlow Delta 2 | **1.0%**, red. Sample **1h55m ago · STALE**, source `api`. |
+| **B1** | EcoFlow River 2 Pro | **15.1%**, red. Sample **0m41s ago**, source `ble`. Not stale. |
+| **B2** | EcoFlow Delta 2 | **1.0%**, red. Sample **2h14m ago · STALE**, source `api`. |
 | **B3** | This laptop | **100.0%**, green. **Full · AC** from sysfs. |
 
-Under the bars: the Delta 2 expansion pack. The status line's own B3 field was absent, so the panel says the expansion battery is not in the current status line. Do not confuse that line with the laptop bar. Laptop B3 is always the computer. Expansion B3 is a field inside the poller's ENERGY heartbeat, and it was missing at 02:48.
+Under the bars: the Delta 2 expansion pack. The status line's own B3 field was absent, so the panel says the expansion battery is not in the current status line. Do not confuse that line with the laptop bar. Laptop B3 is always the computer. Expansion B3 is a field inside the poller's ENERGY heartbeat, and it was missing at 03:07.
 
 The detail under each EcoFlow bar is age, source (`ble` or `api`), and the SUMMARY fragment from the log (`soc`, watts, `db=ok`).
 
@@ -162,12 +162,12 @@ One row per pack, from `Energy/watts/*-last.json`.
 | | River 2 Pro | Delta 2 |
 | --- | --- | --- |
 | solar in | 0 W | 0 W |
-| AC out | 34 W | 57 W |
+| AC out | 38 W | 57 W |
 | AC in | 0 W | 0 W |
-| USB-C out | 17 W | 0 W |
+| USB-C out | 14 W | 0 W |
 | charge source | none | none |
 | source | ble | api |
-| at | 02:48:01 HST | 00:53:04 HST |
+| at | 03:06:39 HST | 00:53:04 HST |
 
 Night, so solar in is zero. The River is still supplying a small AC and USB-C load and its sample is current. The Delta's watts row is as old as its SOC sample (00:53). Treat that row as last-known, not live.
 
@@ -175,7 +175,7 @@ Night, so solar in is zero. The River is still supplying a small AC and USB-C lo
 
 The newest `ENERGY` line from the tail of `Logs/Automations/automations_current.log`, then any `SUMMARY=` lines, then `SUN`.
 
-At 02:48 the heartbeat was live: `B2=1% B1=19.8% solar=0 W ac=57 W usbc=0 W`, laptop `LAP=100%/Full/AC`. `SUN` was a dash because the NOAA solar table was not available (same gap as the Weather page).
+At 03:07 the heartbeat was live: `B2=1% B1=15.3% solar=0 W ac=57 W usbc=0 W`, laptop `LAP=100%/Full/AC`. `SUN` was a dash because the NOAA solar table was not available (same gap as the Weather page). The River is still supplying a small AC and USB-C load. The Delta's watts row is as old as its SOC sample (00:53). Treat that row as last-known, not live.
 
 **What to do with a STALE pack:** the panel is showing you the gap. It does not reconnect BLE or call the EcoFlow API. The reader is `ava-ecoflow-ble.service` and the EcoFlow jobs. Check Poller / services (BLE should be PASS) and Running (the `ble-owner.py` process). A stale API sample with a live BLE sample on the other pack is a normal split: each pack has its own source.
 
@@ -191,7 +191,7 @@ Three cards. The island defaults to **Big Island**.
 
 **Stations** is the hourly NWS wind report (`oso_hourly_obs_current.md`). Four buttons sit on the card: **Big Island**, **Maui**, **Oahu**, **Kauai**. The selected one is green. A click saves `weather_zone` immediately, so the next launch stays on that island. Big Island is the file's "Hawaii" group.
 
-On the 03:05 HST capture the summary read:
+On this capture the summary read:
 
 > 63 reporting · 3 silent · Hilo AP 220° 6 kt at 02:00 · Kona Intl AP 60° 6 kt at 02:00
 
@@ -211,17 +211,17 @@ The same island name is on **Settings → Panel** as "Weather island". The butto
 
 **Host** reads `System/last/host-last.json`.
 
-| | This capture (03:05 HST) |
+| | This capture (03:07 HST) |
 | --- | --- |
-| CPU | 3.6% (5-minute average 12.0%). Short **green** bar. Under 50% is quiet. |
-| RAM | 70.1% used. 4.6 GB available of 15.2 GB. 5-minute average 72.3%. **Amber**, because 70 is between 50 and 80. |
-| Load | 0.86 / 0.97 / 1.03 |
+| CPU | 5.4% (5-minute average 10.1%). Short **green** bar. Under 50% is quiet. |
+| RAM | 69.9% used. 4.6 GB available of 15.2 GB. 5-minute average 70.2%. **Amber**, because 70 is between 50 and 80. |
+| Load | 0.72 / 0.90 / 0.99 |
 | Host | `rootrecord-software-solutions` |
-| Sampled | 03:04:13 HST |
+| Sampled | 03:06:40 HST, 42 seconds old |
 
 The line under the bars states the scale: green under 50%, amber from 50%, red at 80% and above. A red CPU or RAM bar means that number is at least 80%.
 
-**Poller SYSTEM line** is the latest SYSTEM heartbeat in the automations log. Here: `cpu=4% load=0.86 mem=70% src=sqlite`.
+**Poller SYSTEM line** is the latest SYSTEM heartbeat in the automations log. Here: `cpu=5% load=0.72 mem=70% src=sqlite`.
 
 If the host card and the SYSTEM line disagree by a lot, the host card is the JSON sample and the line is whatever the poller last wrote. Both ages are on screen. Trust the newer one, then look at Poller / services if the log age in the header is large.
 
