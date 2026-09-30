@@ -384,7 +384,7 @@ Test records: [`Documentation/07-testing/`](../../07-testing/README.md). Databas
 | OOM loop from resident FLM warmup (03:10–03:13 HST) | FAIL → fixed; fix PASS | `ff298b2` (non-resident warmup, `FLM_WARMUP_RESIDENT=1` opt-in), `3039c3f` (`--keepalive 0`); poller PID 105444 stable since 03:13:28 — [record](../../07-testing/2026-09-29-oom-flm-warmup-resident.md) |
 | EcoFlow data freshness (`Energy/.venv`) | PASS (battery levels flagged) | WO-SRV 03:20 entry; `Energy/soc/*-last.json` `source: ble` — [record](../../07-testing/2026-09-29-ecoflow-stale-data-energy-venv.md) |
 | Laptop battery B3 / `LAP=` | **PASS** 2026-09-29 22:10 HST | `LAP=46%/Discharging/batt` on the energy status line. The 03:38 gap was the pre-commit poller. — [record](../../07-testing/2026-09-29-laptop-battery-b3-dashboard.md) |
-| NPU route `llama3.2:1b` on demand | PASS (route); own-session fix VERIFY PENDING | `753168e`, `7000197`; Library `e023b08`; Database `dc382a2` — [record](../../07-testing/2026-09-29-npu-llama3.2-1b-on-demand.md) |
+| NPU route `llama3.2:1b` on demand | **PASS** (route and own-session, 22:16 HST) | `753168e`, `7000197`; exit 0 and server stopped — [record](../../07-testing/2026-09-29-npu-llama3.2-1b-on-demand.md) |
 | Telegram relay | login/polling PASS; replies BLOCKED (models); quiet mode default | `ebc32a7`, `b3754fb` |
 | G2 legacy files | KEPT (retire only with Alexander sign-off) | skills `1dcee66` |
 
