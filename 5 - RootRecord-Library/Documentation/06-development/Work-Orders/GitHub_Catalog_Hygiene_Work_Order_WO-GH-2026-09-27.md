@@ -4,7 +4,7 @@
 | --- | --- |
 | **Work Order ID** | WO-GH-2026-09-27 |
 | **Status** | **IN PROGRESS** — desk publishes `ecosystem` (umbrella git root) and `skills`. `pacific`, `database`, and `library` are disabled because those directories are not separate checkouts. website/mainland still disabled |
-| **Updated** | 2026-09-29 ~21:26 HST |
+| **Updated** | 2026-09-29 22:22 HST |
 
 **Scope:** Catalog + auto-sync under Pacific; org remotes for canonical three; retire non-canonical clutter when convenient.
 
@@ -15,9 +15,9 @@
 ## Done
 
 - [x] Github scripts imported to `…/Pacific/Github/scripts/`
-- [x] `repos.conf` tab-separated: pacific, database, library, skills (enabled); website, mainland (disabled)
+- [x] `repos.conf` tab-separated. As of 22:22 HST the enabled rows are `ecosystem` and `skills`. `pacific`, `database`, and `library` are disabled (flattened into the umbrella). `website` and `mainland` stay disabled.
 - [x] jobs.py → Pacific `setup-all-remotes` + `sync-all`
-- [x] Poller cycle fetches org pacific / database / library + legacy skills without fail storms
+- [x] Poller cycle syncs `ecosystem` and `skills` without fail storms (22:21 HST). It does not sync separate pacific, database, or library checkouts.
 
 ## Operator pull workflow clarification — 2026-09-29
 
@@ -42,10 +42,10 @@
 
 ## Remaining
 
-- [ ] Enable website when mirror worktree exists under `Database/GITHUB/worktrees/website`
+- [ ] Enable website when a mirror worktree exists outside this umbrella. `repos.conf` still points the disabled row at `~/.ollama/skills/website/site`. Do not enable that path inside the snapshot.
 - [ ] Enable mainland when path is a real git clone
 - [ ] Delete non-canonical user-account Library repo if still present — 2026-09-29 ~00:28 HST desk check: `git ls-remote git@github.com:rootrecordsoftwaresolutions/RootRecord-Library.git` → `ERROR: Repository not found` (control: org Library returned `main` = `e28b1da`); the public URL also returns 404. Likely already deleted, but a private repo the desk key cannot read looks the same — confirm in the GitHub account before ticking.
-- [ ] Optional: stop publishing skills to historical Solar-Pacific remote when G2 is fully retired — 2026-09-29 assessment: **not yet.** *Update ~00:52 HST:* both units were repointed to Pacific and PASS (00:33 / 00:35 HST), and no process now runs from `~/.ollama/skills`. Still pending G3: the residual G2 executables — `a-eyes` `grab_frame.py` and timelapse, the Telegram relay, plumbing `single-flight.sh` / `run-*.sh` / `*-warmup.sh`, and Energy actions. Until they are retired, the `skills` row must keep publishing. The `skills` row (enabled=1) is also what publishes the retirement `MIGRATED.md` markers (last push `83e10bd`). Prerequisites: both unit repoints done, remaining G2 executables retired, then set `skills` enabled=0 in Pacific `Github/scripts/repos.conf`.
+- [ ] Optional: stop publishing skills to the historical Solar-Pacific remote when G2 is fully retired — **not yet.** Live processes at 22:13 HST are already Pacific (poller, BLE owner, relay, globe, weather). The `skills` row stays enabled because Alexander has not signed off G2 retirement. Do not set `skills` to 0 from this order alone.
 
 ## Catalog home
 
