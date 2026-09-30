@@ -37,6 +37,7 @@ Weather subsystem ownership: collection, ensure scripts, and related desk weathe
 | --- | --- | --- | --- |
 | `scripts/official_statement.py` | G1 `official-weather-media` HLS part: NWS HFO hurricane local statement (api.weather.gov first, product.php fallback). The weather poller already fetches HWO / AFD / SFP / ZFP / CWF / NOW; only HLS was missing | `Weather/Hawai'i/official/HLS_current.txt`, `official-last.json` | PROPOSED `weather_official_hls`, 600 s, `RR_OFFICIAL_HLS=1` |
 | `hurricanes/scripts/global_board.py` | G1 `hurricane-tracker` worldwide board: NHC + RAMMB + JTWC ABPW / ABIO merge + enrich (verbatim logic) | `Weather/Hawai'i/hurricanes/global/storms-last.json` | PROPOSED `weather_hurricane_global`, 05:40 / 09:40 / 12:40 / 16:40 / 20:40, `RR_HURRICANE_GLOBAL=1` |
+| `CountryLocations/scripts/poll_locations.py` | WO-MIG-13. One script replaces 306 identical `operations/locations/**/poller.py` copies. Current Open-Meteo only, and only for ids in `config/allowlist.json` | `Weather/CountryLocations/status-last.json` | In `jobs.py` as `country_location_pollers`, **`enabled: False`**. `RR_COUNTRY_LOCATIONS` unset |
 
 Smoke PASS 2026-09-29 14:27 / 14:34 HST — Library `07-testing/2026-09-29-old-repo-ports-breadth-batch5.md`. Blocks: Library `00-architecture/Pending-Job-Registrations-2026-09-29.md`. OBS overlays / storm radio stay BLOCKED.
 
@@ -60,7 +61,14 @@ Weather/
   scripts/
     ensure-weather-poller.sh
     # daemon, collectors after import
+  CountryLocations/
+    scripts/poll_locations.py
+    config/allowlist.json
+  US-States/
+    scripts/fetch_us_states.py
 ```
+
+`CountryLocations` and `US-States` are separate. `/us-states` on the Vercel app reads the US-States snapshot. It is not a country-location route, so `CountryLocations/config/allowlist.json` stays `[]`.
 
 ---
 
