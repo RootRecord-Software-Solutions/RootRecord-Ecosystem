@@ -34,6 +34,17 @@
 - Symlink `energy` → `Energy` on each checkout
 - Phase 2: actions/, hybrid, org lib commit optional
 
+## Re-verification — 2026-09-29 ~21:30 HST
+
+Alexander sign-off for Phase 1 reads only. Tested on the live desk:
+
+- Poller PID 105444, Pacific `rootserver_poller.py`, up since 03:13 HST.
+- `delta2-last.json` age about 5 min, `soc` 7.0, `source` api.
+- `river2pro-last.json` age about 2 min, `soc` 100.0, `source` api.
+- Jobs call `Energy/` directly. The old `energy` → `Energy` symlink is absent and is not required by current `jobs.py`.
+
+Phase 2 (actuating actions, hybrid reports) is still open, so this action plan stays beside the parent work order and is not moved to `Complete/`.
+
 ## Next
 
-**WO-SRV** — System domain (sys-stats) import.
+**WO-SRV** — System domain (sys-stats) import. Parent phase 2 remains open.

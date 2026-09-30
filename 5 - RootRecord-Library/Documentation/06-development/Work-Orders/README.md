@@ -96,10 +96,12 @@ Architecture maps (Library):
 
 ```text
 systemd   Pacific run-poller.sh (reload skips status window)
-Energy    reads PASS (BLE via Energy/.venv) · leapfrog VERIFY PENDING · actions: read-only PASS, actuating VERIFY PENDING
-System    sys-sample PASS · plumbing gate PASS (non-NPU + NPU 1b on demand) · FLM warmup opt-in only
-Reports   worklog_scan PASS → Pacific Reports/scripts · daily roll-up VERIFY PENDING (18:30 HST run)
+Energy    Phase 1 reads SIGNED OFF 2026-09-29 ~21:30 HST (fresh soc json, source api). Actuating actions still open. Parent WO not archived.
+System    host-last.json fresh ~2 min at 21:30 HST. Not a closed work order.
+Cameras   ch1–ch4 stills fresh ~3 min at 21:30 HST. cam_server cwd inode is deleted; process still writing. Not archived.
+Reports   worklog_current.md started 21:00 HST. Daily roll-up still not closed.
 Github    ecosystem + skills sync; pacific/database/library disabled (flattened 2026-09-29); website/mainland disabled
+Log       automations_current.log is empty. Poller stdout is still attached to the deleted inode from before 20:04 HST. Do not treat WO-SYS-001 as closed.
 Log       /home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Logs/Automations/automations_current.log
 G1 sched  hybrid-night-poller / heartbeat / net-gate → MIGRATED.md on -Old
 Residual  runtime verification · G2 KEPT (sign-off) · weather enabled (PASS 2026-09-29)
