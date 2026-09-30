@@ -8,18 +8,15 @@ Telegram communication integration, alerts, and council-relay services.
 
 | Item | State |
 | --- | --- |
-| Folder in this repo | **Shell only** |
-| Live relay today | Pacific `Communications/telegram/` (poller boot job `council_relay`); G2 copy kept dormant |
+| Folder in this repo | Live relay scripts under `Communications/telegram/` |
+| Live relay today | Poller boot job `council_relay` runs `Communications/telegram/scripts/ensure-relay.sh`. Replies stay off (`RR_RELAY_REPLIES=0`) |
 | Standing rule | **One** getUpdates owner (council-relay) |
 
 ---
 
-## jobs.py references (residual)
+## jobs.py
 
-| Job id | Legacy path |
-| --- | --- |
-| `council_relay` | `…/skills/coms/telegram/scripts/ensure-relay.sh` |
-| cwd | `…/skills/coms/telegram` |
+`council_relay` runs Pacific `Communications/telegram/scripts/ensure-relay.sh` (cwd `Communications/telegram`). Replies stay off (`RR_RELAY_REPLIES=0`).
 
 Do not run a second Telegram poller against the same bot token.
 
