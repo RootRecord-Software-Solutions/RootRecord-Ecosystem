@@ -24,7 +24,7 @@ Work-Orders/
 
 ---
 
-## Active ops backlog (updated 2026-09-29 ~21:26 HST)
+## Active ops backlog (updated 2026-09-29 22:21 HST)
 
 | ID | Title | Status | File |
 | --- | --- | --- | --- |
@@ -92,21 +92,19 @@ Architecture maps (Library):
 
 ---
 
-## Live snapshot (ops)
+## Live snapshot (ops) — 2026-09-29 22:21 HST
 
 ```text
-systemd   Pacific run-poller.sh (reload skips status window)
-Energy    Phase 1 reads SIGNED OFF 2026-09-29 ~21:30 HST (fresh soc json, source api). Actuating actions still open. Parent WO not archived.
-System    host-last.json fresh ~2 min at 21:30 HST. Not a closed work order.
-Cameras   ch1–ch4 stills fresh ~3 min at 21:30 HST. cam_server cwd inode is deleted; process still writing. Not archived.
-Reports   COMPLETE 2026-09-29 ~21:49 HST. Session auto written. Weekly archive moved 5 pre-week logs (cutoff 2026-09-28).
-Github    WO-GH-001 COMPLETE. Automatic authority is github_sync_all (ecosystem + skills). Pull.sh and Push.sh are manual only.
-Log       WO-SYS-001 COMPLETE 2026-09-29. Unit and dashboard banner name automations_current.log. FAIL policy is in the poller README. Telegram alerts still wait on WO-COM-001.
-Log       /home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Logs/Automations/automations_current.log
-G1 sched  hybrid-night-poller / heartbeat / net-gate → MIGRATED.md on -Old
-Residual  runtime verification · G2 KEPT (sign-off) · weather enabled (PASS 2026-09-29)
-Testing   Documentation/07-testing/ (per-test records, 2026-09-29)
-Evidence  2 - RootRecord-Database/Logs/Migration/g3-runtime-evidence-20260929T101550Z.md · g3-dbroot-realign-evidence-20260929T105845Z.md · g3-post-reboot-evidence-20260929T123313Z.md · g3-npu-flm-evidence-20260929T125429Z.md
+systemd   Pacific run-poller.sh. Poller pid 743471. Reload skips the status window.
+Energy    API reads live. B1 100%, B2 7%, laptop 43% discharging. Actuating actions still open.
+System    sys_stats_cycle wrote sys-20260929-222117.json. cpu 13%, load 1.42, mem 70%.
+Cameras   ch1–ch4 grabbed at 22:21. cam_server pid 743888 cwd is Pacific Security/Cameras. ch4 is a dark night frame, not a failed grab. Timelapse folders empty (no daylight-window frames).
+Weather   poller pid 1378124 since 22:04. County reports written 22:13. Some NOAA pages returned HTML errors, 500, or 403.
+Reports   WO-RPT-001 and WO-ARCH complete. Worklog scan steady state is a few seconds (22:15, 22:13:37).
+Github    WO-GH-001 complete. github_sync_all is the only automatic pull (ecosystem + skills).
+NPU       llama3.2:1b on-demand own-session PASS 22:16. No flm left running.
+Log       automations_current.log is the live poller log. WO-SYS-001 complete. Telegram alerts still wait on WO-COM-001.
+G2        Code kept. Do not retire without Alexander's sign-off.
 ```
 
 ---
