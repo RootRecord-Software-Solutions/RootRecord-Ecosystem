@@ -391,7 +391,8 @@ def hourly_stations(paths: Paths, zone: str) -> dict:
 def station_spot(st: dict, name: str) -> str:
     for r in st.get("rows") or []:
         if name.lower() in r["loc"].lower() and r["spd"] != "MSG":
-            return f"{r['loc']} {r['dir']}° {r['spd']} kt at {r['time']}"
+            direc = "—" if r["dir"] == "MSG" else f"{r['dir']}°"
+            return f"{r['loc']} {direc} {r['spd']} kt at {r['time']}"
     return ""
 
 
@@ -402,7 +403,8 @@ def format_stations(st: dict) -> str:
             lines.append(f"{r['loc']:<24}  no report")
         else:
             gust = "" if r["gust"] in ("MSG", "") else f"  gust {r['gust']} kt"
-            lines.append(f"{r['loc']:<24} {r['time'] or '—':>5}  {r['dir']:>3}°  {r['spd']:>3} kt{gust}")
+            direc = "  —" if r["dir"] == "MSG" else f"{r['dir']:>3}°"
+            lines.append(f"{r['loc']:<24} {r['time'] or '—':>5}  {direc}  {r['spd']:>3} kt{gust}")
     return "\n".join(lines)
 
 
