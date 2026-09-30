@@ -169,10 +169,12 @@
 /Logs/Communications/CouncilHealth/*
 !/Logs/Communications/CouncilHealth/.gitkeep
 
-# Context session builder (WO-MIG-43): per-user sqlite is runtime. README stays tracked.
+# Context session builder (WO-MIG-43): one compiled sqlite and one overwritten summary. README stays tracked.
 /ContextSession/*.db
 /ContextSession/*.db-wal
 /ContextSession/*.db-shm
+/ContextSession/compile-last.json
+/ContextSession/compile-last.json.tmp
 /Logs/ContextSession/*
 !/Logs/ContextSession/README.md
 

@@ -18,7 +18,7 @@
 - Model: hexgrad **Kokoro-82M** (`kokoro-v1_0.pth`, sha256 `496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4`), kokoro **0.9.4**, misaki[en] **0.9.4**, torch **2.14.0+cpu**, spaCy `en_core_web_sm` 3.8.0, American English (`lang_code="a"`).
 - Output: **24 kHz, 16-bit PCM, mono WAV**.
 - Pronunciation: Ava/Ayeva/Avaivy fixes (`ˈAvə`, `ˈAvəˈIvi`) + G1 `hawaiian_lexicon.py` / `speakable.py` copied verbatim (99 place names respelled to plain English; Kokoro is never fed IPA). Sheet: `07-testing/2026-09-29-hawaiian-pronunciation-sheet.md`.
-- **Grok has no Kokoro voice** (cloud Ara retired). Not mapped — **open question for Alexander**.
+- **Grok has no Kokoro voice.** Cloud Ara is a gated route in Pacific `Media/CloudTTS` (WO-MIG-33). The default engine stays Kokoro. A live xAI call needs `RR_CLOUD_TTS=1` and `--speak`, and was not run.
 - The G1 clip-stitch TTS path and the prebuilt G1 chime/phoneme clips are **not used**. The G3 phrase cache (§4) is new, rendered fresh with the same voices, and was approved by Alexander (2026-09-29 ~04:00 HST) as the one exception to "no stitching".
 
 ## 2. Paths

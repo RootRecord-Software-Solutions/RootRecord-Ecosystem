@@ -126,9 +126,9 @@ Do these only after Alexander accepts this draft and says to build. Until then, 
 | `/home/rootrecord/old ollama/old skills/kilauea/rr-kilauea/scripts/kilauea.py` | Removed from the old repo and from GitHub `c1ea1dd5`. Scheduler symlink left. |
 | `Old repos deleted and merged/Solar-Pacific-RootRecord-Server/kilauea/rr-kilauea/` | Phase 4 archive. Copied 2026-09-30. |
 | `5 - RootRecord-Library/Documentation/00-architecture/Old-Repo-Migration-Matrix.md` | Row 3 corrected. Grok still not ported. |
-| `5 - RootRecord-Library/Documentation/00-architecture/G1-Scheduler-To-G3-Jobs-Map-2026-09-29.md` | Correct only after phase 4. |
-| `5 - RootRecord-Library/Documentation/00-architecture/Voice-Reports-G3.md` | Correct only after phase 4. |
-| `5 - RootRecord-Library/Documentation/00-architecture/Geology-Domain-Ownership-Kilauea-Earthquakes-2026-09-28.md` | Correct only after phase 4. |
+| `5 - RootRecord-Library/Documentation/00-architecture/G1-Scheduler-To-G3-Jobs-Map-2026-09-29.md` | rr-kilauea row names the gated draft job. |
+| `5 - RootRecord-Library/Documentation/00-architecture/Voice-Reports-G3.md` | Grok stays blocked. Draft queue named as separate. |
+| `5 - RootRecord-Library/Documentation/00-architecture/Geology-Domain-Ownership-Kilauea-Earthquakes-2026-09-28.md` | Public draft queue marked landed. |
 
 ---
 
@@ -136,11 +136,8 @@ Do these only after Alexander accepts this draft and says to build. Until then, 
 
 **Additional requirements:**
 
-- Alexander accepts this draft before any build.
-- At build time, `Communications/Discord` and `Communications/CouncilPersona` must still be present. If either is missing, pause and name it.
 - `RR_KILAUEA_DRAFT` stays unset. Enabling the job, or any Discord, Slack, or Telegram send, needs a separate sign-off.
-- Phase 4 runs only after the queue works, and only after the archive copy is on disk. A failed copy means no delete.
-- If `jobs.py` or `master-key.env` is already being edited at build time, pause.
+- Phase 4 is done. The GitHub repository remains.
 
 ---
 
