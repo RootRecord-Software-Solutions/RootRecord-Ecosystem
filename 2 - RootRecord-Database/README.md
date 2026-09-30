@@ -42,6 +42,7 @@ That separation makes migrations easier to reason about and gives agents a stabl
 | `Github/` | Git / synchronization data |
 | `Energy/` | EcoFlow samples, SOC and watts last-files (BLE/API reads); `sun/sun-times-last.json` sunrise/sunset (2026-09-29) |
 | `Geology/` | USGS earthquakes (Hawaiʻi + global) and HVO volcano status last-files + Daily JSONL, Kīlauea cam stills — see [`Geology/README.md`](./Geology/README.md) (2026-09-29) |
+| `ContextSession/` | Per-user context session sqlite (`{user_id}.db`, git-ignored). README tracked. Pacific `ContextSession/`, on demand, no listener (WO-MIG-43, 2026-09-30) |
 | `Reports/` | `News/hawaii/` Hawaiʻi news summary (`hawaii-news-last.json` tracked; SQLite git-ignored) and `board/daily-reports-due.json` report due ledger (Pacific `Reports/scripts/report_board.py`), 2026-09-29, jobs PROPOSED |
 | `RootRecord/` | Energy SQLite store (`rootrecord.db` + layers; git-ignored) |
 | `Intake/` | Relay/intake runtime state |
