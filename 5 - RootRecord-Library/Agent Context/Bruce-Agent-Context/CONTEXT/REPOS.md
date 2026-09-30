@@ -3,11 +3,13 @@
 ## Organizational / Canonical
 | Repository | Purpose |
 |------------|---------|
-| `RootRecord-Software-Solutions/RootRecord-Pacific-Solar-Server` | Primary Pacific desk runtime — Automations, Communications, Weather, Energy domains |
+| `RootRecord-Software-Solutions/RootRecord-Ecosystem` | Public umbrella. On this desk it is the git root at `/home/rootrecord/RootRecord-Ecosystem` |
+| `RootRecord-Software-Solutions/RootRecord-Pacific-Solar-Server` | Pacific runtime role. In this checkout that tree is a directory, not its own clone |
 | `rootrecordsoftwaresolutions/US-Mainland-Server` | Secondary / recovery infrastructure node |
 | `rootrecordsoftwaresolutions/RootRecord-Website` | Public Next.js foundation |
 | `rootrecordsoftwaresolutions/RootRecord-Weather-Database` | Hawaiʻi weather data & media |
-| `RootRecord-Software-Solutions/RootRecord-Library` | Durable knowledge, agent context, work orders, architecture sessions |
+| `RootRecord-Software-Solutions/RootRecord-Library` | Knowledge role. In this checkout, `5 - RootRecord-Library/` is a directory of the umbrella |
+| `RootRecord-Software-Solutions/RootRecord-Database` | Persistence role. In this checkout, `2 - RootRecord-Database/` is a directory of the umbrella |
 
 ## Legacy (superseded for Pacific runtime)
 | Repository | Notes |
