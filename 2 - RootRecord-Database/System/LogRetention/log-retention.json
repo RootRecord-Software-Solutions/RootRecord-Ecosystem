@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "mode": "dry-run",
+  "ts": "2026-09-30T01:00:11-10:00",
+  "root": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Logs",
+  "archive": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Archive/Previous-Datasets",
+  "scanned": 43,
+  "would_delete": 0,
+  "would_move_count": 0,
+  "would_move": [],
+  "would_rotate": [],
+  "actions": []
+}
