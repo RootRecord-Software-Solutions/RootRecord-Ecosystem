@@ -1,0 +1,5 @@
+Desk sample (measured)
+Host: last 2026-09-30T10:56:12.283Z, CPU 70.33%, RAM 86.3%, load 6.52
+EcoFlow: DELTA 2 SOC 1% at 2026-09-30T00:53:04-10:00, AC out 57 W, solar 0 W, AC in 0 W, USB-C out 0 W | RIVER 2 PRO SOC 41.24% at 2026-09-30T00:56:11-10:00, AC out 35 W, solar 0 W, AC in 0 W, USB-C out 41 W
+
+Bruce Monitor

@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Current Open-Meteo conditions for the CountryLocations allowlist.
+"""Current Open-Meteo conditions for country places the /locations page serves.
 
-Empty allowlist: exit 0, write status, do not call Open-Meteo.
+An empty allowlist means every non-US place in Geology/config/global-locations.json.
+US places stay on Weather/US-States. A non-empty allowlist restricts to those ids.
 No archive backfill. Does not touch the Hawaiʻi weather poller.
 
   python3 poll_locations.py
@@ -10,22 +11,28 @@ from __future__ import annotations
 
 import json
 import os
+import time
 import urllib.parse
 import urllib.request
 from datetime import datetime
 from pathlib import Path
+from urllib.error import HTTPError, URLError
 from zoneinfo import ZoneInfo
 
 HST = ZoneInfo("Pacific/Honolulu")
 HERE = Path(__file__).resolve().parent.parent
+PACIFIC = HERE.parents[1]
 ALLOWLIST = HERE / "config" / "allowlist.json"
+CATALOG = PACIFIC / "Geology" / "config" / "global-locations.json"
 DB = Path(os.environ.get("RR_DATABASE_ROOT", "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database"))
 OUT = DB / "Weather" / "CountryLocations"
 LOG_DIR = DB / "Logs" / "Weather" / "CountryLocations"
 LOG_PATH = LOG_DIR / "poll_locations.log"
 STATUS_PATH = OUT / "status-last.json"
+LAST_PATH = OUT / "locations-last.json"
 UA = "RootRecord-Pacific/3 country-locations"
-TIMEOUT = 20
+TIMEOUT = 10
+PAUSE = 0.2
 FORECAST = "https://api.open-meteo.com/v1/forecast"
 
 

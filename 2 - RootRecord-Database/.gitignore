@@ -147,6 +147,12 @@
 /Logs/Reports/Economy-Brief/*
 !/Logs/Reports/Economy-Brief/.gitkeep
 
+# Cloud narrative (WO-MIG-32): prompt packages, narrative text, and run log are runtime. Folder markers stay tracked.
+/Reports/CloudNarrative/*
+!/Reports/CloudNarrative/.gitkeep
+/Logs/Reports/CloudNarrative/*
+!/Logs/Reports/CloudNarrative/.gitkeep
+
 # Grok AI-usage ledger (WO-MIG-37): sqlite, summary, and run log are runtime. Folder markers stay tracked.
 /Reports/AI-Usage/*
 !/Reports/AI-Usage/.gitkeep
@@ -165,3 +171,7 @@
 /ContextSession/*.db-shm
 /Logs/ContextSession/*
 !/Logs/ContextSession/README.md
+
+# River car DC drive (WO-MIG-39): state, lock, and log are runtime. Stay out of git.
+/Energy/River-Car/
+/Logs/Energy/River-Car/
