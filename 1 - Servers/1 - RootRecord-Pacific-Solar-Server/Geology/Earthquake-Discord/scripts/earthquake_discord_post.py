@@ -15,6 +15,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -114,18 +115,32 @@ def write_json(path: Path, payload: dict) -> None:
 
 
 def handoff(text: str) -> str:
-    """Hand text to the Discord send pipe. The pipe returns without HTTP unless its own gate is set."""
-    api = PIPE / "lib" / "api.py"
-    if not api.is_file():
-        return "pipe-missing"
-    cid = channel_id()
-    if not cid:
-        return "channel-absent"
-    sys.path.insert(0, str(PIPE))
-    from lib.api import post_message  # noqa: E402
+    """Hand text to the Discord send pipe in a child process so package names do not collide.
 
-    result = post_message(cid, text.strip())
-    return "handed" if isinstance(result, dict) else "pipe-held"
+    The pipe returns without HTTP unless its own gate is set.
+    """
+    if not (PIPE / "lib" / "api.py").is_file():
+        return "pipe-missing"
+    if not channel_id():
+        return "channel-absent"
+    code = (
+        "import os, sys\n"
+        "sys.path.insert(0, sys.argv[1])\n"
+        "from lib.api import post_message\n"
+        "cid = (os.environ.get('DISCORD_EARTHQUAKE_CHANNEL_ID') or '').strip()\n"
+        "result = post_message(cid, sys.stdin.read().strip())\n"
+        "print('handed' if isinstance(result, dict) else 'pipe-held')\n"
+    )
+    proc = subprocess.run(
+        [sys.executable, "-c", code, str(PIPE)],
+        input=text,
+        capture_output=True,
+        text=True,
+        env=os.environ.copy(),
+        timeout=20,
+    )
+    line = (proc.stdout or "").strip().splitlines()
+    return line[-1] if line else "pipe-held"
 
 
 def main() -> int:
