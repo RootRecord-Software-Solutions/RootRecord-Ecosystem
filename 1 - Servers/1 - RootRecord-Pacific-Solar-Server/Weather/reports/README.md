@@ -55,7 +55,7 @@ _Source: locally collected NWS-HFO Regional Weather Roundup (RWR). Values are °
 
 | Status | Coverage | Updated | Sections |
 |---|---|---|---:|
-| 🟢 Active | Hawaiʻi statewide | 2026-09-29T22:13:41-10:00 HST | 15 |
+| 🟢 Active | Hawaiʻi statewide | 2026-09-29T22:21:15-10:00 HST | 17 |
 
 The report below is generated from the same current product sections as `Hawaii_State_Weather_Report_current.md`.
 
@@ -579,7 +579,7 @@ T  INDICATES TRACE AMOUNT.
 |---|---|
 | **Resource ID** | hfo_rra_direct |
 | **Official source** | https://forecast.weather.gov/product.php?issuedby=HFO&product=RRA&site=hfo |
-| **Collected** | 2026-09-29T22:07:11.830177-10:00 HST |
+| **Collected** | 2026-09-29T22:14:30.417892-10:00 HST |
 
 ```text
 112
@@ -845,7 +845,101 @@ $$
 
 ---
 
-### 7. Hourly Wind/Precip Observations
+### 7. HFO statewide surf observations direct page
+
+| Field | Value |
+|---|---|
+| **Resource ID** | hfo_surf_reports_direct |
+| **Official source** | https://www.weather.gov/hfo/surfreports |
+| **Collected** | 2026-09-29T22:14:33.108637-10:00 HST |
+
+```text
+                        
+880
+SXHW80 PHFO 300115
+OMRHFO
+
+SURF OBSERVATIONS
+NATIONAL WEATHER SERVICE HONOLULU HI
+315 PM HST TUE SEP 29 2026
+
+FULL FACE SURF OBSERVATIONS ARE TAKEN BY COUNTY LIFE GUARDS AND
+COOPERATIVE OBSERVERS AND RELAYED TO THE NATIONAL WEATHER SERVICE
+FOR DISSEMINATION. THESE OBSERVATIONS ARE NOT QUALITY CONTROLLED.
+
+HIZ003-004-029>031-300100-
+KAUAI-
+
+LOCATION        TIME   SURF HEIGHT DIR   PER                  REMARKS
+KEE
+HAENA        1000 AM           4-5  NW    11
+HANALEI      1000 AM           2-3   N     9
+ANAHOLA
+KEALIA
+LYDGATE
+POIPU        1030 AM          6-8   SW    10
+SALT POND    1030 AM           6-8  SW    10
+KEKAHA       1030 AM           6-8  SW    10
+$$
+
+HIZ006-007-009>011-032>036-300100-
+OAHU-
+
+LOCATION        TIME   SURF HEIGHT DIR PER         WIND      REMARKS
+DIAMOND HEAD
+SUNSET
+WAIKIKI      1118 AM           3-4              E 10-15       CANOES
+SANDY BEACH  1118 AM           3-5              NE 5-15  SHORE BREAK
+MAKAPUU      1118 AM           3-5             NE 10-15
+EHUKAI       1118 AM           2-3              E 10-15
+MAKAHA       1118 AM           2-3               E 5-10
+$$
+
+HIZ015>018-022-045>050-300100-
+MAUI-MOLOKAI-LANAI-KAHOOLAWE-
+
+LOCATION        TIME   SURF HEIGHT   DIR         WIND      REMARKS
+KANAHA       1127 AM           1-3           VRB 5-10  PARTLY CLDY
+BALDWIN SHOR 1128 AM           2-3           VRB 5-10        SUNNY
+BALDWIN OUTE 1128 AM           4-6           VRB 5-10        SUNNY
+HOOKIPA      1129 AM           6-8            E 20-25  PARTLY CLDY
+KAMAOLE I    1133 AM           2-4            VRB 0-5  PARTLY CLDY
+KAMAOLE III  1131 AM           2-3           VRB 5-10        SUNNY
+HANAKAOO
+FLEMING
+$$
+
+HIZ023-026>028-051>054-300100-
+BIG ISLAND OF HAWAII-
+
+LOCATION        TIME   SURF HEIGHT   DIR         WIND      REMARKS
+RICHARDSONS  1120 AM           2-3           VRB 5-10        SUNNY
+HONOLII      1121 AM           3-5             S 5-15 MOSTLY SUNNY
+PUNALU`U
+ISAAC HALE   1122 AM           3-5            E 10-15 MOSTLY SUNNY
+HAPUNA
+KAHALUU      1124 AM           5-6    SW      SW 5-10  PARTLY CLDY
+MAGIC SANDS  1125 AM           3-4    SW      SW 5-10        SUNNY
+KUA BAY      1126 AM           2-4           VRB 5-10 MOSTLY SUNNY
+$$
+
+LEGEND
+   SURF HEIGHT              - Reported in feet
+   WIND AND SWELL DIRECTION - Reported in 16 pt compass
+   PERIOD /PER/             - Reported in seconds
+   VISIBILITY /VIS/         - Reported in statute miles
+   CLARITY                  - Water clarity
+   TIME                     - Hawaiian Standard Time
+   WIND SPEED               - Reported in miles per hour
+   + /IN SURF HEIGHT/       - Occasionally higher sets
+   0 /IN SURF HEIGHT/       - Flat
+
+$$
+```
+
+---
+
+### 8. Hourly Wind/Precip Observations
 
 | Field | Value |
 |---|---|
@@ -1055,7 +1149,7 @@ National Weather Service Honolulu HI
 
 ---
 
-### 8. NHC Atlantic Tropical Weather Outlook — 2 day
+### 9. NHC Atlantic Tropical Weather Outlook — 2 day
 
 | Field | Value |
 |---|---|
@@ -1069,7 +1163,7 @@ National Weather Service Honolulu HI
 
 ---
 
-### 9. NHC Atlantic Tropical Weather Outlook — 7 day
+### 10. NHC Atlantic Tropical Weather Outlook — 7 day
 
 | Field | Value |
 |---|---|
@@ -1083,7 +1177,7 @@ National Weather Service Honolulu HI
 
 ---
 
-### 10. NHC Central Pacific Tropical Weather Outlook — 2 day
+### 11. NHC Central Pacific Tropical Weather Outlook — 2 day
 
 | Field | Value |
 |---|---|
@@ -1097,7 +1191,7 @@ National Weather Service Honolulu HI
 
 ---
 
-### 11. NHC Central Pacific Tropical Weather Outlook — 7 day
+### 12. NHC Central Pacific Tropical Weather Outlook — 7 day
 
 | Field | Value |
 |---|---|
@@ -1111,7 +1205,7 @@ National Weather Service Honolulu HI
 
 ---
 
-### 12. NHC Eastern Pacific Tropical Weather Outlook — 2 day
+### 13. NHC Eastern Pacific Tropical Weather Outlook — 2 day
 
 | Field | Value |
 |---|---|
@@ -1125,7 +1219,7 @@ National Weather Service Honolulu HI
 
 ---
 
-### 13. NHC Eastern Pacific Tropical Weather Outlook — 7 day
+### 14. NHC Eastern Pacific Tropical Weather Outlook — 7 day
 
 | Field | Value |
 |---|---|
@@ -1139,13 +1233,13 @@ National Weather Service Honolulu HI
 
 ---
 
-### 14. NHC source index
+### 15. NHC source index
 
 | Field | Value |
 |---|---|
 | **Resource ID** | nhc_homepage |
 | **Official source** | https://www.nhc.noaa.gov/ |
-| **Collected** | 2026-09-29T22:13:15.594016-10:00 HST |
+| **Collected** | 2026-09-29T22:21:15.081463-10:00 HST |
 
 ```text
 Home
@@ -1269,7 +1363,7 @@ Search
 Top News of the Day...
 view past news
 
-Last update Wed, 30 Sep 2026 08:10:06 UTC
+Last update Wed, 30 Sep 2026 08:20:07 UTC
 
 NHC issuing advisories for the Atlantic on
 
@@ -2025,13 +2119,107 @@ Glossary
 
 ---
 
-### 15. Tsunami Bulletin product type reference
+### 16. Statewide Surf Observations
+
+| Field | Value |
+|---|---|
+| **Resource ID** | surfreports_statewide_observations |
+| **Official source** | https://www.weather.gov/hfo/surfreports |
+| **Collected** | Unknown HST |
+
+```text
+                        
+880
+SXHW80 PHFO 300115
+OMRHFO
+
+SURF OBSERVATIONS
+NATIONAL WEATHER SERVICE HONOLULU HI
+315 PM HST TUE SEP 29 2026
+
+FULL FACE SURF OBSERVATIONS ARE TAKEN BY COUNTY LIFE GUARDS AND
+COOPERATIVE OBSERVERS AND RELAYED TO THE NATIONAL WEATHER SERVICE
+FOR DISSEMINATION. THESE OBSERVATIONS ARE NOT QUALITY CONTROLLED.
+
+HIZ003-004-029>031-300100-
+KAUAI-
+
+LOCATION        TIME   SURF HEIGHT DIR   PER                  REMARKS
+KEE
+HAENA        1000 AM           4-5  NW    11
+HANALEI      1000 AM           2-3   N     9
+ANAHOLA
+KEALIA
+LYDGATE
+POIPU        1030 AM          6-8   SW    10
+SALT POND    1030 AM           6-8  SW    10
+KEKAHA       1030 AM           6-8  SW    10
+$$
+
+HIZ006-007-009>011-032>036-300100-
+OAHU-
+
+LOCATION        TIME   SURF HEIGHT DIR PER         WIND      REMARKS
+DIAMOND HEAD
+SUNSET
+WAIKIKI      1118 AM           3-4              E 10-15       CANOES
+SANDY BEACH  1118 AM           3-5              NE 5-15  SHORE BREAK
+MAKAPUU      1118 AM           3-5             NE 10-15
+EHUKAI       1118 AM           2-3              E 10-15
+MAKAHA       1118 AM           2-3               E 5-10
+$$
+
+HIZ015>018-022-045>050-300100-
+MAUI-MOLOKAI-LANAI-KAHOOLAWE-
+
+LOCATION        TIME   SURF HEIGHT   DIR         WIND      REMARKS
+KANAHA       1127 AM           1-3           VRB 5-10  PARTLY CLDY
+BALDWIN SHOR 1128 AM           2-3           VRB 5-10        SUNNY
+BALDWIN OUTE 1128 AM           4-6           VRB 5-10        SUNNY
+HOOKIPA      1129 AM           6-8            E 20-25  PARTLY CLDY
+KAMAOLE I    1133 AM           2-4            VRB 0-5  PARTLY CLDY
+KAMAOLE III  1131 AM           2-3           VRB 5-10        SUNNY
+HANAKAOO
+FLEMING
+$$
+
+HIZ023-026>028-051>054-300100-
+BIG ISLAND OF HAWAII-
+
+LOCATION        TIME   SURF HEIGHT   DIR         WIND      REMARKS
+RICHARDSONS  1120 AM           2-3           VRB 5-10        SUNNY
+HONOLII      1121 AM           3-5             S 5-15 MOSTLY SUNNY
+PUNALU`U
+ISAAC HALE   1122 AM           3-5            E 10-15 MOSTLY SUNNY
+HAPUNA
+KAHALUU      1124 AM           5-6    SW      SW 5-10  PARTLY CLDY
+MAGIC SANDS  1125 AM           3-4    SW      SW 5-10        SUNNY
+KUA BAY      1126 AM           2-4           VRB 5-10 MOSTLY SUNNY
+$$
+
+LEGEND
+   SURF HEIGHT              - Reported in feet
+   WIND AND SWELL DIRECTION - Reported in 16 pt compass
+   PERIOD /PER/             - Reported in seconds
+   VISIBILITY /VIS/         - Reported in statute miles
+   CLARITY                  - Water clarity
+   TIME                     - Hawaiian Standard Time
+   WIND SPEED               - Reported in miles per hour
+   + /IN SURF HEIGHT/       - Occasionally higher sets
+   0 /IN SURF HEIGHT/       - Flat
+
+$$
+```
+
+---
+
+### 17. Tsunami Bulletin product type reference
 
 | Field | Value |
 |---|---|
 | **Resource ID** | hfo_tib_reference |
 | **Official source** | https://forecast.weather.gov/product_types.php |
-| **Collected** | 2026-09-29T22:06:26.990286-10:00 HST |
+| **Collected** | 2026-09-29T22:14:15.774907-10:00 HST |
 
 ```text
 National Weather Service
@@ -2080,9 +2268,9 @@ INFORMATION
 
 Wireless Emergency Alerts
 
-Brochures
-
 Weather-Ready Nation
+
+Brochures
 
 Cooperative Observers
 

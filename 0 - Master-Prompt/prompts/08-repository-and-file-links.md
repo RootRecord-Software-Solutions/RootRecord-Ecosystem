@@ -37,6 +37,8 @@ Boundary rule: knowledge goes to Library, executable runtime goes to Pacific, by
 
 Sync catalog: `1 - Servers/1 - RootRecord-Pacific-Solar-Server/Github/scripts/repos.conf`. Enabled rows are `ecosystem` and `skills`. Deeper narrative: `5 - RootRecord-Library/Documentation/00-architecture/Repository-Ownership-Model.md`.
 
+Publication, short form (WO-DATA, 2026-09-29): energy samples, system samples, worklogs, logs, weather daemon output, and camera media stay local. The skip list is `Github/scripts/ecosystem-skip-autocommit.txt`. Geology SQLite stays local. Geology `*-last.json` and `Daily/*.jsonl` are still tracked; that publication is not signed off. Users/PII retention and timelapse-master retention are still open. Full labels: `5 - RootRecord-Library/Documentation/06-development/Work-Orders/Database_Boundary_Work_Order_WO-DATA-2026-09-27.md`.
+
 ## Historical links
 
 The sections below point at earlier GitHub homes. Confirm the file still exists there before editing. The live desk copies are the paths above.

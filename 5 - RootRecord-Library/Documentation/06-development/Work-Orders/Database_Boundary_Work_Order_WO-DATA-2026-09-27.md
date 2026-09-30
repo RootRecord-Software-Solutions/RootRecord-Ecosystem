@@ -4,7 +4,7 @@
 | --- | --- |
 | **Work Order ID** | WO-DATA-2026-09-27 |
 | **Date** | 2026-09-27 (HST) |
-| **Status** | **IN PROGRESS** — canonical path is in place. Subtree labels recorded 2026-09-29 ~21:41 HST. Users/PII retention and media-master retention are still open, so this order is not closed. |
+| **Status** | **IN PROGRESS** — canonical path is in place. Subtree labels recorded 2026-09-29 ~21:41 HST. The short publication map is in Master-Prompt `08-repository-and-file-links.md` (22:20 HST). Users/PII retention and media-master retention are still open, so this order is not closed. |
 | **Owner** | RootRecord |
 | **Related** | WO-ECO; RootRecord-Weather-Database |
 
@@ -64,7 +64,7 @@ Live data desk: `/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/`
 2. Label each: local-only, publish-git, external-archive.
 3. Document relationship between Ecosystem Database folder and `/home/rootrecord/Database`.
 4. Ensure runtime `.gitignore` and sync size guards remain correct.
-5. Record policy in Master-Prompt map (short) and optional Library data doc.
+5. Record policy in Master-Prompt map (short) and optional Library data doc. **Done 2026-09-29 22:20 HST** in `0 - Master-Prompt/prompts/08-repository-and-file-links.md` (publication paragraph). Users/PII retention and media-master retention stay open, so this order stays open.
 
 ---
 
