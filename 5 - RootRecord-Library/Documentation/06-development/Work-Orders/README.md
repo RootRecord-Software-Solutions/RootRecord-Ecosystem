@@ -33,7 +33,6 @@ Work-Orders/
 | WO-OLD-2026-09-28 | Selective recovery from Solar-Pacific-…-Old (G1) | OPEN — scheduler trio **MIGRATED**; other packets blocked on G2→G3 | [WO](./Old_Server_Selective_Recovery_Work_Order_WO-OLD-2026-09-28.md) |
 | WO-GH-2026-09-27 | GitHub catalog hygiene | **IN PROGRESS** — desk sync is the `ecosystem` row plus `skills`; `pacific` / `database` / `library` disabled (flattened tree, no nested `.git`); website/mainland still disabled | [WO](./GitHub_Catalog_Hygiene_Work_Order_WO-GH-2026-09-27.md) |
 | WO-DATA-2026-09-27 | Database boundary & publication policy | **IN PROGRESS** — canonical Database path landed; public-umbrella publication list still open | [WO](./Database_Boundary_Work_Order_WO-DATA-2026-09-27.md) |
-| WO-AGENT-2026-09-27 | Agent context canonical home | OPEN | [WO](./AgentContext_CanonicalHome_Work_Order_WO-AGENT-2026-09-27.md) |
 | WO-AEYES-2026-09-27 | A-EYES capture rate & timelapse | OPEN | [WO](./A-EYES_Work_Order_WO-AEYES-2026-09-27.md) |
 
 ---
@@ -57,6 +56,7 @@ Work-Orders/
 - [WO-RPT-001](./Complete/WO-RPT-001-Reports-Worklog-Domain-Import.md) and [action plan](./Complete/WO-RPT-001-Action-Plan.md) — roll-up written; Phase F stays deferred.
 - [WO-ARCH-2026-09-27](./Complete/Ops_Weekly_Archive_Work_Order_WO-ARCH-2026-09-27.md) — first week archived, cutoff 2026-09-28.
 - [WO-SYS-001](./Complete/WO-SYS-001-Poller-Observability.md) — log path, unit, banner, and FAIL policy. Telegram stays on WO-COM-001.
+- [WO-AGENT-2026-09-27](./Complete/AgentContext_CanonicalHome_Work_Order_WO-AGENT-2026-09-27.md) — `Agent Context/` is the pack home. `02-agents/` stays an index.
 
 ---
 

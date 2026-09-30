@@ -32,6 +32,8 @@ GitHub repository catalog and automated push/pull for the Pacific desk.
 
 Same automation as G2; home is **`Github/`**. No parallel `github/` folder. Quote paths with spaces in jobs.
 
+**Automatic authority (WO-GH-001 Option B, Alexander, 2026-09-29):** poller job `github_sync_all` every 5 seconds. Enabled catalog rows are `ecosystem` and `skills`. There is no Core-Processor pull timer on this desk. Root `Pull.sh` and `Push.sh` are manual scripts, not a second timer. Do not add one.
+
 ---
 
 *Updated 2026-09-29 HST — public umbrella is the ecosystem git root; nested pacific/database/library checkouts are not separate repositories in this tree.*

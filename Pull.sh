@@ -1,4 +1,8 @@
 #!/bin/bash
+# Manual only. Not a timer. Automatic pull/push authority is Pacific
+# github_sync_all (WO-GH-001, Option B, Alexander, 2026-09-29).
+# Do not schedule this script. On this flattened desk the paths below are not
+# separate git repos, so this script does not pull the umbrella.
 
 ROOT="/home/rootrecord/RootRecord-Ecosystem"
 

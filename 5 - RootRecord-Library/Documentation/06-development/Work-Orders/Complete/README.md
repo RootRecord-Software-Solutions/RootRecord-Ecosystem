@@ -30,6 +30,7 @@ Documentation/06-development/Work-Orders/Complete/
 - [WO-RPT-001](./WO-RPT-001-Reports-Worklog-Domain-Import.md) and [action plan](./WO-RPT-001-Action-Plan.md) — foundation closed 2026-09-29 ~21:49 HST. Phase F radio/stream remains deferred, not open work on this order.
 - [WO-ARCH-2026-09-27](./Ops_Weekly_Archive_Work_Order_WO-ARCH-2026-09-27.md) — first archive week `2026-W40`, cutoff `2026-09-28`, 5 logs moved.
 - [WO-SYS-001](./WO-SYS-001-Poller-Observability.md) — observability close 2026-09-29. Telegram alerts remain on WO-COM-001.
+- [WO-AGENT-2026-09-27](./AgentContext_CanonicalHome_Work_Order_WO-AGENT-2026-09-27.md) — canonical pack home recorded 2026-09-29. Placeholders kept.
 
 ## Created
 
