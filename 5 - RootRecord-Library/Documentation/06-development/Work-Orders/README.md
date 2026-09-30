@@ -24,7 +24,7 @@ Work-Orders/
 
 ---
 
-## Active ops backlog (updated 2026-09-28 ~20:55 HST)
+## Active ops backlog (updated 2026-09-29 ~21:26 HST)
 
 | ID | Title | Status | File |
 | --- | --- | --- | --- |
@@ -33,8 +33,8 @@ Work-Orders/
 | **WO-RPT-001** | Reports / worklog domain import | **Foundation PASS** (A–E; worklog_scan, 2026-09-29 evidence) | [WO](./WO-RPT-001-Reports-Worklog-Domain-Import.md) · [Action Plan](./WO-RPT-001-Action-Plan.md) |
 | WO-MAP-2026-09-27 | Master-Prompt repository ownership map | OPEN | [WO](./MasterPrompt_RepoMap_Work_Order_WO-MAP-2026-09-27.md) |
 | WO-OLD-2026-09-28 | Selective recovery from Solar-Pacific-…-Old (G1) | OPEN — scheduler trio **MIGRATED**; other packets blocked on G2→G3 | [WO](./Old_Server_Selective_Recovery_Work_Order_WO-OLD-2026-09-28.md) |
-| WO-GH-2026-09-27 | GitHub catalog hygiene | **IN PROGRESS** — Pacific `Github/` sync PASS (post-reboot 2026-09-29); website/mainland still disabled | [WO](./GitHub_Catalog_Hygiene_Work_Order_WO-GH-2026-09-27.md) |
-| WO-DATA-2026-09-27 | Database boundary & publication policy | OPEN | [WO](./Database_Boundary_Work_Order_WO-DATA-2026-09-27.md) |
+| WO-GH-2026-09-27 | GitHub catalog hygiene | **IN PROGRESS** — desk sync is the `ecosystem` row plus `skills`; `pacific` / `database` / `library` disabled (flattened tree, no nested `.git`); website/mainland still disabled | [WO](./GitHub_Catalog_Hygiene_Work_Order_WO-GH-2026-09-27.md) |
+| WO-DATA-2026-09-27 | Database boundary & publication policy | **IN PROGRESS** — canonical Database path landed; public-umbrella publication list still open | [WO](./Database_Boundary_Work_Order_WO-DATA-2026-09-27.md) |
 | WO-AGENT-2026-09-27 | Agent context canonical home | OPEN | [WO](./AgentContext_CanonicalHome_Work_Order_WO-AGENT-2026-09-27.md) |
 | WO-CF-2026-09-27 | Cloudflare tunnel credential recovery | OPEN | [WO](./Cloudflare_Tunnel_Recovery_Work_Order_WO-CF-2026-09-27.md) |
 | WO-ARCH-2026-09-27 | Weekly operations log archive | OPEN — implement under WO-RPT-001 Phase D | [WO](./Ops_Weekly_Archive_Work_Order_WO-ARCH-2026-09-27.md) |
@@ -52,8 +52,8 @@ Work-Orders/
 | **WO-WEB-001** | Public status / solar board alignment | P1 | Draft | [WO](./WO-WEB-001-Public-Status-Solar-Board.md) |
 | **WO-COM-001** | Communications surface | P1 | Draft — Telegram residual next | [WO](./WO-COM-001-Communications-Surface.md) |
 | **WO-COM-002** | Discord bot credential rotation (migration gate) | P1 | OPEN | [WO](./WO-COM-002-Discord-Bot-Credential-Rotation.md) |
-| **WO-WXG-001** | Weather + Geology domain import | P1 | Draft — after Energy | [WO](./WO-WXG-001-Weather-Geology-Import.md) |
-| **WO-SYS-001** | Poller observability & FAIL handling | P2 | Draft (System Phase 1 live) | [WO](./WO-SYS-001-Poller-Observability.md) |
+| **WO-WXG-001** | Weather + Geology domain import | P1 | Draft — Weather poller **PASS**; Geology/voice jobs landed and **OFF** until sign-off | [WO](./WO-WXG-001-Weather-Geology-Import.md) |
+| **WO-SYS-001** | Poller observability & FAIL handling | P2 | Log-path slice complete — logs live under the ecosystem Database tree; alerts still wait on WO-COM-001 | [WO](./WO-SYS-001-Poller-Observability.md) |
 | **WO-WOGEN-001** | Work order generator (measured friction → draft WOs) | P2 | **Draft** — architecture only; Carly seal + operator accept before implement | [WO](./WO-WOGEN-001-Work-Order-Generator.md) |
 | **WO-WEB-002** | Public site foundation pass | P2 | Draft | [WO](./WO-WEB-002-Public-Site-Foundation.md) |
 | **WO-GH-001** | GitHub pull authority & timer policy | P2 | Draft | [WO](./WO-GH-001-Github-Pull-Authority.md) |
@@ -78,7 +78,7 @@ Folder + `SKILL.md` retained. Skills were functional packets (poor original desi
 
 1. ~~Energy~~ ~~System~~ ~~Reports~~ ~~Plumbing / Energy actions~~ ~~Telegram~~ ~~A-Eyes~~ (Pacific source paths landed)  
 2. **Runtime verification** → Telegram, A-Eyes, Energy actions, Pacific poller  
-3. Retire each verified legacy runtime function immediately; preserve legacy `SKILL.md` documentation  
+3. Keep G2/G1 code in place. Retire a legacy function only after Alexander's explicit sign-off; preserve legacy `SKILL.md` documentation  
 4. Final `jobs.py` grep + cwd cleanup  
 5. Move completed WOs to `Complete/` only after acceptance criteria are satisfied  
 6. **Later:** WO-WOGEN-001 (after Carly seal + operator accept; does not block cutover)  
@@ -99,7 +99,7 @@ systemd   Pacific run-poller.sh (reload skips status window)
 Energy    reads PASS (BLE via Energy/.venv) · leapfrog VERIFY PENDING · actions: read-only PASS, actuating VERIFY PENDING
 System    sys-sample PASS · plumbing gate PASS (non-NPU + NPU 1b on demand) · FLM warmup opt-in only
 Reports   worklog_scan PASS → Pacific Reports/scripts · daily roll-up VERIFY PENDING (18:30 HST run)
-Github    setup-remotes + sync-all PASS (post-reboot 2026-09-29)
+Github    ecosystem + skills sync; pacific/database/library disabled (flattened 2026-09-29); website/mainland disabled
 Log       /home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Logs/Automations/automations_current.log
 G1 sched  hybrid-night-poller / heartbeat / net-gate → MIGRATED.md on -Old
 Residual  runtime verification · G2 KEPT (sign-off) · weather enabled (PASS 2026-09-29)

@@ -3,7 +3,7 @@
 | Field | Value |
 |-------|--------|
 | **Priority** | P1 |
-| **Status** | Draft — after Energy |
+| **Status** | Draft — Weather poller **PASS** (2026-09-29). Geology and voice jobs are landed and **OFF** until Alexander signs off. Do not enable `RR_*` flags from this draft alone. |
 | **Target** | Pacific `Weather/`, `Geology/` |
 | **Depends on** | Operator source for NWS / Kīlauea (and any residual G1/G2 scripts) |
 | **Related** | Migration priority P1; Old inventory; solar_weather cron notes |

@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | **Work Order ID** | WO-SRV-2026-09-27 |
-| **Status** | **IN PROGRESS** — G3 PASS: poller on canonical root, network globe, BLE owner, cam server, frame grab, System sampling, Reports worklog, Plumbing non-NPU, read-only `solar-gate-status`, Telegram relay login/polling. Open: Telegram replies BLOCKED (models), Energy actuating actions + timelapse VERIFY PENDING, NPU BLOCKED, poller §5 gate. G2 code KEPT (retire only with Alexander sign-off) |
+| **Status** | **IN PROGRESS** — G3 PASS: poller on canonical root, network globe, BLE owner, cam server, frame grab, System sampling, Reports worklog, Plumbing non-NPU, read-only `solar-gate-status`, Telegram relay login/polling, NPU `llama3.2:1b` on demand. Open: Telegram replies off until sign-off (quiet mode; models were rebuilt), Energy actuating actions + timelapse VERIFY PENDING. G2 code KEPT (retire only with Alexander sign-off). Header corrected 2026-09-29 evening; earlier "NPU BLOCKED" / "models missing" notes below are historical. |
 | **Updated** | 2026-09-29 ~01:37 HST — status + open findings refresh; G2 retirements reverted; residual path survey |
 
 **Policy:** Do not run the old desk as the poller host.

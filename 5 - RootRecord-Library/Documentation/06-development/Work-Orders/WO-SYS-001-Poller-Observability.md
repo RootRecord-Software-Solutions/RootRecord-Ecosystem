@@ -10,7 +10,8 @@
 ## Log storage (canonical)
 
 **Repo:** [RootRecord-Database](https://github.com/RootRecord-Software-Solutions/RootRecord-Database)  
-**Desk:** `/home/rootrecord/Database/`
+**Desk:** `/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/`  
+`/home/rootrecord/Database/` remains the backup/flag root (`GITHUB/`), not the log desk.
 
 | Stream | Path |
 |--------|------|

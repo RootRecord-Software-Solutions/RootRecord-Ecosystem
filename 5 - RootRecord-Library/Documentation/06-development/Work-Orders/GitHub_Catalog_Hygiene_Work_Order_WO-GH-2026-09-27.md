@@ -3,10 +3,12 @@
 | Field | Value |
 | --- | --- |
 | **Work Order ID** | WO-GH-2026-09-27 |
-| **Status** | **IN PROGRESS** — Pacific `Github/` sync **PASS** (post-reboot evidence 2026-09-29); website/mainland still disabled (BLOCKED) |
-| **Updated** | 2026-09-29 ~03:45 HST |
+| **Status** | **IN PROGRESS** — desk publishes `ecosystem` (umbrella git root) and `skills`. `pacific`, `database`, and `library` are disabled because those directories are not separate checkouts. website/mainland still disabled |
+| **Updated** | 2026-09-29 ~21:26 HST |
 
 **Scope:** Catalog + auto-sync under Pacific; org remotes for canonical three; retire non-canonical clutter when convenient.
+
+**Desk correction, 2026-09-29 evening:** `/home/rootrecord/RootRecord-Ecosystem` is one git repository. Enabled catalog rows are `ecosystem` and `skills`. Do not re-enable `pacific`, `database`, or `library` until each path is a checkout outside this snapshot. Do not retire the `skills` row without Alexander's sign-off. `Pull.sh` stays as the manual pull path.
 
 ---
 
