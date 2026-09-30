@@ -57,6 +57,8 @@
 !/Archive/Previous-Datasets/*/README.md
 # Weather daemon data tree (intended as the separate RootRecord-Weather-Database working tree) — never in this repo.
 /Weather/
+# Root Monitor live settings. The seed file stays in Pacific Apps/Control-Panel/settings.json.
+/System/control-panel/
 # Energy sqlite store (binary).
 /RootRecord/
 

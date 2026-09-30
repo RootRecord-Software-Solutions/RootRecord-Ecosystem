@@ -1,4 +1,7 @@
-"""rr_settings.py — single settings file for Root Monitor (was "RootRecord Control Panel"; Apps/Control-Panel/settings.json).
+"""rr_settings.py — single settings file for Root Monitor.
+
+The live file is Database System/control-panel/settings.json (gitignored).
+Apps/Control-Panel/settings.json is only the seed copied across when the live file is missing.
 
 INFO — MUST HAVE (future agents), added 2026-09-29:
 - ONE file holds every panel setting. Missing keys fall back to DEFAULTS; unknown keys are kept.
@@ -17,7 +20,12 @@ import tempfile  # info: import tempfile
 from pathlib import Path  # info: from pathlib import Path
 
 APP_DIR = Path(__file__).resolve().parent.parent  # info: set APP_DIR
-SETTINGS_FILE = Path(os.environ.get("RR_CONTROL_PANEL_SETTINGS", str(APP_DIR / "settings.json")))  # info: set SETTINGS_FILE
+DATABASE_ROOT = Path("/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database")  # info: set DATABASE_ROOT
+SEED_FILE = APP_DIR / "settings.json"  # info: set SEED_FILE
+SETTINGS_FILE = Path(os.environ.get(  # info: set SETTINGS_FILE
+    "RR_CONTROL_PANEL_SETTINGS",
+    str(DATABASE_ROOT / "System/control-panel/settings.json"),
+))
 
 # ====================================================
 # SECTION: DEFAULTS
@@ -96,6 +104,9 @@ def url_is_clean(url: str) -> bool:  # info: def url_is_clean
 # Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
 # ====================================================
 def load(path: Path = SETTINGS_FILE) -> dict:  # info: def load
+    if path == SETTINGS_FILE and not path.exists() and SEED_FILE.is_file():  # info: if path == SETTINGS_FILE and not path . exists ( ) and SEED_FILE . is_file ( ) :
+        path.parent.mkdir(parents=True, exist_ok=True)  # info: path . parent . mkdir ( parents = True , exist_ok = True )
+        path.write_text(SEED_FILE.read_text(encoding="utf-8"), encoding="utf-8")  # info: path . write_text ( SEED_FILE . read_text ( encoding = "utf-8" ) , encoding = "utf-8" )
     s = copy.deepcopy(DEFAULTS)  # info: set s
     try:  # info: try :
         data = json.loads(path.read_text(encoding="utf-8"))  # info: set data
