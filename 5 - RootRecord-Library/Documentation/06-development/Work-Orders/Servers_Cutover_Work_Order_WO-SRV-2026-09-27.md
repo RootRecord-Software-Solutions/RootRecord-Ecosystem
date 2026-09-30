@@ -18,11 +18,11 @@
 | --- | --- |
 | systemd ExecStart | Pacific `run-poller.sh` (quoted) |
 | Energy (reads + leapfrog + actions) | source LANDED / runtime VERIFY PENDING — folder **`Energy/` only**; `ECOFLOW_ACTIONS` → `Energy/scripts/actions` |
-| System | source LANDED / runtime VERIFY PENDING — folder **`System/` only** |
+| System | source LANDED / runtime **PASS** 2026-09-29 22:13 HST. `sys_stats_cycle` wrote `2 - RootRecord-Database/System/samples/sys-20260929-221323.json`. |
 | Plumbing (ollama + FLM warmup) | source LANDED / runtime VERIFY PENDING — under **`System/scripts/plumbing/`** |
-| Reports (worklog + roll-up + archive) | source LANDED / runtime **PASS** 2026-09-29 22:13 HST (`worklog_scan` OK). Roll-up and weekly archive are closed under WO-RPT-001. |
+| Reports (worklog + roll-up + archive) | source LANDED / runtime **PASS** 2026-09-29 22:13 HST. Catch-up scan 22:11–22:13; the next scan was 22:13:36–22:13:37. Roll-up and weekly archive are closed under WO-RPT-001. |
 | Github (setup-remotes + sync-all) | source LANDED / runtime **PASS** 2026-09-29 22:01 HST. Automatic authority is `github_sync_all` (WO-GH-001). |
-| Communications/network (cloudflare + globe command) | source LANDED / runtime VERIFY PENDING — command + cwd now Pacific |
+| Communications/network (cloudflare + globe command) | source LANDED / runtime **PASS** 2026-09-29 22:13 HST. Globe process is Pacific `Communications/network/local-data-globe/collector.js`. Tunnel was HTTP 200 earlier tonight (WO-CF). |
 | Stack reload | Automated reload **does not** open status window (window-close was tearing down stack) |
 
 ## Residual G2 (from Pacific `jobs.py` 2026-09-28 ~21:10 HST)
@@ -32,7 +32,7 @@
 | Telegram / coms | `council_relay` | G3 surface + `System/scripts/plumbing/single-flight.sh` landed; runtime verification pending |
 | Security/Cameras (formerly A-Eyes) | cam server, frame grab, timelapse | G3 surface landed, including hourly wrapper; runtime verification pending |
 | Weather | `weather_poller` | Enabled. Restarted 2026-09-29 22:04 HST after `Weather/.venv` was rebuilt. Geology and voice stay off. The 2026-09-28 “disabled” notes below are historical. |
-| Network globe | cwd | source LANDED / runtime VERIFY PENDING — cwd now Pacific |
+| Network globe | cwd | runtime **PASS** 2026-09-29 22:13 HST. Live process is Pacific `collector.js` (pid 744076). |
 
 ### Legacy `SKILL.md` preservation rule
 
