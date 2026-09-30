@@ -4,12 +4,12 @@
 # Standing format: stop every poller-operated process, start clean, reopen viewer.
 # Does NOT touch ava-ecoflow-ble.
 #
-# Window policy (2026-09-28 evening):
-#   Reopen status window after reload by default (operator wants it back in place).
-#   open-poller-window.sh uses fixed geometry (POLLER_WINDOW_GEOMETRY) and a
-#   detached gnome-terminal launch so the client hand-off does not race reload.
+# Window policy (2026-09-30):
+#   Reopen Root Monitor after reload by default (operator wants it instead of the terminal).
+#   open-root-monitor.sh starts the GTK panel only. It does not start or restart the poller.
 #   Set OPEN_POLLER_WINDOW=0 to skip the viewer on automated reload.
-#   Closing the viewer never stops the stack; poller-dashboard.py survives reloads (2026-09-29).
+#   The terminal dashboard stays available from the menu (open-poller-window.sh).
+#   Closing the viewer never stops the stack.
 # ==============================================================================
 set +e
 
@@ -23,7 +23,7 @@ FLAG="$BAK_ROOT/flags/reload-poller-stack"
 LOCK="/tmp/rootrecord-stack-reload.lock"
 STAMP="$BAK_ROOT/flags/last-stack-reload"
 STOP="$STACK/stop-poller-stack.sh"
-OPEN_WIN="$SCRIPTS/poller/open-poller-window.sh"
+OPEN_WIN="$REPO/Apps/Control-Panel/Packaging/open-root-monitor.sh"
 CLI="/home/rootrecord/rootserver-poller"
 UNIT="rr-rootserver-poller.service"
 
