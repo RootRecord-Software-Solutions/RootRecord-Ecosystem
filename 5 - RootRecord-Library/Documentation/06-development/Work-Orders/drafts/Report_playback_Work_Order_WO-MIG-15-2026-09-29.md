@@ -4,7 +4,7 @@
 | --- | --- |
 | **Work Order ID** | WO-MIG-15-2026-09-29 |
 | **Date** | 2026-09-29 (HST) |
-| **Status** | BUILT — dry-run pass; live speaker play still needs sign-off |
+| **Status** | BUILT — dry-run pass 2026-09-30 00:57 HST; live speaker play still needs sign-off |
 | **Owner** | RootRecord |
 | **Related** | Agent 15. Later callers (do not build them here): 16 Morning boot replay, 17 Sunrise restore, 18 Report readiness audio, 19 Hurricane radio, 33 Cloud TTS routing. Kokoro stays in Media/Voice. |
 
@@ -161,6 +161,8 @@ Landed 2026-09-30 ~00:01 HST.
 - Removed from the working tree of `/home/rootrecord/old ollama/old skills` (branch `online-safe-20260920`). Left in place: `evening-report/`, `day-reports-evening/`, `media/voice/scripts/director.py`, `voice-events/scripts/voice_events.py`.
 - GitHub: `origin/main` and `origin/online-safe-20260920` already had none of those paths. Commit `7416bf2f` (`Remove retired report play jobs.`, full `7416bf2f1ed3e006fae24be7ce770e61d5845011`) is `skills-rebuild`. Those play paths are absent from that tip. The repository was not deleted. No force-push.
 - Local tips in `/home/rootrecord/old ollama/old skills`, same message, not pushed: `main` `9207a29c` (was `cfb4f335`), `solar-battery-offline-recovery` `21205485` (was `322421fa`). Both tips now have zero of those play paths. `origin/solar-battery-offline-recovery` does not exist, so that branch was not pushed. Local `main` was not pushed to `origin/main`. `~/.ollama/skills` is a separate clone on `origin/main` and did not have the directories on disk.
+
+Re-checked 2026-09-30 00:57 HST. A busy caller no longer overwrites `last-play.json`. `--report boot_brief`, `--report hurricane_desk`, `--clip Ava/boot_all_systems_running`, and `--clip Ava/battery_reconnect` each returned `audio_missing` because those WAVs are not on disk. `--play` without `RR_PLAYBACK` returned `playback_gated`. No `aplay`. It was quiet hours, so a live run was not forced.
 
 This file stays in `Work-Orders/drafts/`. It is not on the active index. Live `aplay` still needs a separate sign-off.
 

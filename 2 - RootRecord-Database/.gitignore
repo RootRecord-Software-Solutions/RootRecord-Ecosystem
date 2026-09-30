@@ -175,3 +175,9 @@
 # River car DC drive (WO-MIG-39): state, lock, and log are runtime. Stay out of git.
 /Energy/River-Car/
 /Logs/Energy/River-Car/
+
+# Meta AI chat (WO-MIG-45): last transcript and run log are runtime. README and .gitkeep stay tracked.
+/Communications/MetaAI/*
+!/Communications/MetaAI/README.md
+/Logs/Communications/MetaAI/*
+!/Logs/Communications/MetaAI/.gitkeep

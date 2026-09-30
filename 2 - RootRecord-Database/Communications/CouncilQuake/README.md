@@ -1,3 +1,5 @@
 # CouncilQuake
 
-Shell staged 2026-09-30 for WO-MIG-27. Agent 25 owns quake post records. Nothing is written here by the health check.
+Data for Council quake Telegram posts. The health check does not write here.
+
+Server code: `1 - Servers/1 - RootRecord-Pacific-Solar-Server/Communications/CouncilQuake/scripts`
