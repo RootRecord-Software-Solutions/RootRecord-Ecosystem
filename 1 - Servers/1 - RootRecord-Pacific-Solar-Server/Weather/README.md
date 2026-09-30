@@ -27,6 +27,7 @@ Weather subsystem ownership: collection, ensure scripts, and related desk weathe
 | `weather_poller` | ON_BOOT, enabled 2026-09-29 → Pacific `Weather/scripts/ensure-weather-poller.sh` |
 | `service_supervisor` | EVERY_SECONDS 300 s (from the next poller start) → `Automations/scripts/supervise-services.sh` re-ensures weather + relay mid-session (max 3 per 30 min, then BLOCKED) |
 | `weather_retention` | ON_AT 00:30, **disabled** → `Weather/scripts/weather-retention.py --dry-run` |
+| `country_location_pollers` | EVERY_SECONDS 900 s, **`enabled: False`** → `Weather/CountryLocations/scripts/poll_locations.py`. Allowlist is `[]`. Does not call Open-Meteo. Not the Hawaiʻi daemon and not `weather_us_states`. |
 
 ---
 

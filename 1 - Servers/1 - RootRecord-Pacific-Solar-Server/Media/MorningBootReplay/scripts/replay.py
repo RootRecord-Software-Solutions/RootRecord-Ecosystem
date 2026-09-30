@@ -9,7 +9,7 @@ Hands the WAV to Media/Playback/scripts/play.py --report boot_brief --dry-run.
 This folder never passes --play and never calls aplay. Speaker playback stays
 off until Alexander signs off on the player.
 
-State: Database Media/MorningBootReplay/morning-boot-replay.json
+State: Database Media/MorningBootReplay/replay-last.json
 Logs:  Database Logs/Media/MorningBootReplay/replay.log
 """
 from __future__ import annotations
@@ -31,7 +31,8 @@ DB = Path(os.environ.get(
     "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database",
 ))
 STATE_DIR = DB / "Media" / "MorningBootReplay"
-STATE_PATH = STATE_DIR / "morning-boot-replay.json"
+STATE_PATH = STATE_DIR / "replay-last.json"
+OLD_STATE_PATH = STATE_DIR / "morning-boot-replay.json"
 LOG_DIR = DB / "Logs" / "Media" / "MorningBootReplay"
 VOICE = DB / "Media" / "Audio" / "Voice"
 WAV_NAME = "boot_brief_current.wav"
@@ -44,17 +45,22 @@ def now_hst() -> datetime:
 
 
 def _load() -> dict:
-    try:
-        data = json.loads(STATE_PATH.read_text(encoding="utf-8-sig"))
-        return data if isinstance(data, dict) else {}
-    except (OSError, ValueError):
-        return {}
+    for path in (STATE_PATH, OLD_STATE_PATH):
+        try:
+            data = json.loads(path.read_text(encoding="utf-8-sig"))
+        except (OSError, ValueError):
+            continue
+        if isinstance(data, dict):
+            return data
+    return {}
 
 
 def _save(data: dict) -> None:
+    body = dict(data)
+    body["at"] = now_hst().isoformat()
     STATE_DIR.mkdir(parents=True, exist_ok=True)
     tmp = STATE_PATH.with_suffix(".json.tmp")
-    tmp.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
+    tmp.write_text(json.dumps(body, indent=2) + "\n", encoding="utf-8")
     os.replace(tmp, STATE_PATH)
 
 
@@ -135,7 +141,8 @@ def arm() -> dict:
     path = default_wav()
     why = morning_wav(path, today)
     if why:
-        result = {"ok": False, "armed": False, "detail": why, "wav": str(path)}
+        result = {"ok": False, "armed": False, "played": False, "detail": why, "wav": str(path), "speaker": False}
+        _save({"enabled": False, "played": False, "detail": why, "wav": str(path), "speaker": False})
         _log(result)
         return result
     st = _load()
