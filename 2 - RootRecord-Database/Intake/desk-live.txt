@@ -1,18 +1,18 @@
-desk_written_at=2026-09-30T13:35:03-10:00
-Delta 2 SOC_percent=16.28 measured_at=2026-09-30T13:34:59-10:00 age_min=0 source=ble
-Delta 2 solar_input_w=111
+desk_written_at=2026-09-30T13:38:07-10:00
+Delta 2 SOC_percent=16.58 measured_at=2026-09-30T13:37:17-10:00 age_min=0 source=ble
+Delta 2 solar_input_w=107
 Delta 2 ac_input_w=0
-Delta 2 usbc_output_w=13
+Delta 2 usbc_output_w=18
 Delta 2 charge_source=none
-River 2 Pro SOC_percent=70.23 measured_at=2026-09-30T13:33:51-10:00 age_min=1 source=ble
+River 2 Pro SOC_percent=69.55 measured_at=2026-09-30T13:36:10-10:00 age_min=1 source=ble
 River 2 Pro solar_input_w=0
-River 2 Pro ac_output_w=103
+River 2 Pro ac_output_w=102
 River 2 Pro ac_input_w=0
 River 2 Pro usbc_output_w=0
 River 2 Pro charge_source=none
-host measured_at=2026-09-30T23:35:00.292Z
-host cpu_percent=66.55
-host mem_used_percent=55.3
-host load1=1.5
-host load5=1.58
-host load15=1.58
+host measured_at=2026-09-30T23:37:18.095Z
+host cpu_percent=11.55
+host mem_used_percent=55.9
+host load1=1.03
+host load5=1.52
+host load15=1.57
