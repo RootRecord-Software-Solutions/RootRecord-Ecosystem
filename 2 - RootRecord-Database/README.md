@@ -1,0 +1,121 @@
+# 🗄️ RootRecord Database
+
+> **Official source of truth for persistent data, media, and log layout.**
+>
+> The Database repository defines **where bytes go**. Runtime code lives elsewhere.
+
+<p align="center">
+  <a href="https://github.com/RootRecord-Software-Solutions"><strong>RootRecord Software Solutions</strong></a>
+  ·
+  <a href="https://github.com/RootRecord-Software-Solutions/RootRecord-Pacific-Solar-Server"><strong>Runtime</strong></a>
+  ·
+  <a href="https://github.com/RootRecord-Software-Solutions/RootRecord-Library"><strong>Library</strong></a>
+  ·
+  <a href="https://rootrecord.cloud"><strong>rootrecord.cloud</strong></a>
+</p>
+
+---
+
+## 🧭 Purpose
+
+**RootRecord-Database** is the persistent data-layout layer for the RootRecord Pacific node.
+
+It is deliberately separate from application logic:
+
+- **Runtime repositories** decide what the system does.
+- **This repository** defines where persistent data, media, and logs belong.
+- **RootRecord-Library** records architecture, work orders, operational context, and verification.
+
+That separation makes migrations easier to reason about and gives agents a stable map of the filesystem.
+
+---
+
+## 📁 Top-level layout
+
+| Path | Role |
+| --- | --- |
+| `Logs/` | Domain-aligned current logs and archived history |
+| `Media/` | Persistent media such as images, audio, notifications & timelapses |
+| `Worklog/` | Runtime worklog data |
+| `System/` | System-oriented persistent data; `uptime/` desk up/down events; `network/` byte counters (`Daily/` git-ignored) and `security/security-last.json` counts from Pacific `System/scripts/host_desks.py` (2026-09-29) |
+| `Weather/` | Weather-domain data (git-ignored); includes `Hawai'i/official/` HLS (Pacific `Weather/scripts/official_statement.py`) and `Hawai'i/hurricanes/global/` worldwide storm board (`global_board.py`), both 2026-09-29, jobs PROPOSED |
+| `Github/` | Git / synchronization data |
+| `Energy/` | EcoFlow samples, SOC and watts last-files (BLE/API reads); `sun/sun-times-last.json` sunrise/sunset (2026-09-29) |
+| `Geology/` | USGS earthquakes (Hawaiʻi + global) and HVO volcano status last-files + Daily JSONL, Kīlauea cam stills — see [`Geology/README.md`](./Geology/README.md) (2026-09-29) |
+| `Reports/` | `News/hawaii/` Hawaiʻi news summary (`hawaii-news-last.json` tracked; SQLite git-ignored) and `board/daily-reports-due.json` report due ledger (Pacific `Reports/scripts/report_board.py`), 2026-09-29, jobs PROPOSED |
+| `RootRecord/` | Energy SQLite store (`rootrecord.db` + layers; git-ignored) |
+| `Intake/` | Relay/intake runtime state |
+| Domain stores | Persistent domain-specific state as documented |
+
+### Logs
+
+```text
+Logs/
+├─ Automations/
+├─ Energy/
+├─ Communications/
+├─ Network/
+├─ System/
+├─ Weather/
+├─ Github/
+└─ Security/
+```
+
+Current logs live in their domain directory; dated history belongs under the corresponding `Archive/` structure when present.
+
+### Security media
+
+```text
+Media/
+├─ Images/
+└─ Timelapses/
+```
+
+Security camera runtime writes captured media to the canonical Database media tree rather than keeping application data inside the runtime repository.
+
+---
+
+## 🔗 Canonical ecosystem
+
+| Repository | Role |
+| --- | --- |
+| **[RootRecord-Pacific-Solar-Server](https://github.com/RootRecord-Software-Solutions/RootRecord-Pacific-Solar-Server)** | Primary executable runtime |
+| **[RootRecord-Library](https://github.com/RootRecord-Software-Solutions/RootRecord-Library)** | Docs, agent context & work orders |
+| **[US-Mainland-Server](https://github.com/rootrecordsoftwaresolutions/US-Mainland-Server)** | Continuity node |
+
+---
+
+## 📍 Pacific database path
+
+```text
+/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database
+```
+
+> **Docs-only updates to this README do not change the on-disk layout or poller behavior.**
+
+---
+
+## 🧱 Data boundary
+
+```text
+Application / domain code
+          │
+          ▼
+   RootRecord runtime
+          │
+          ▼
+  RootRecord-Database
+          │
+     ┌────┴────┐
+     ▼         ▼
+   Logs      Media / data
+```
+
+Persistent data placement should be changed deliberately and recorded in the appropriate work order or architecture document.
+
+---
+
+<p align="center">
+  <strong>Root Record Software Solutions</strong><br/>
+  <em>Persistent data with a clear home.</em>
+</p>

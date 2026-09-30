@@ -1,0 +1,48 @@
+# Runtime
+*.log
+*.pid
+*.sock
+
+# Secrets
+.env
+*.token
+*.secret
+credentials/
+secrets/
+
+# Python
+__pycache__/
+.venv/
+*.py[cod]
+
+# Databases / runtime state
+*.sqlite
+*.db
+
+# Media captures
+*.mp4
+*.jpg
+*.png
+*.gif
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Runtime camera/security credentials
+**/store/CONNECTION.json
+
+# Energy/Smart-Devices (2026-09-29): Tuya local_keys, Tuya IoT cloud creds, tinytuya wizard output, venv
+Energy/Smart-Devices/config/*.local.json
+Energy/Smart-Devices/config/*.secret.json
+Energy/Smart-Devices/config/tuya-cloud.env
+Energy/Smart-Devices/**/tinytuya.json
+Energy/Smart-Devices/**/devices.json
+Energy/Smart-Devices/**/tuya-raw.json
+Energy/Smart-Devices/**/snapshot.json
+Energy/Smart-Devices/.venv/
+
+# Communications/website (2026-09-29): RootRecord-Cloud Vercel site staged as its OWN clone (own repo + Vercel git deploy).
+# Only Communications/website/README.md is tracked by Pacific. Never let Pacific auto-sync add the nested .git as a gitlink.
+Communications/website/RootRecord-Cloud/

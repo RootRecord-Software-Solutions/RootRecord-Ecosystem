@@ -1,0 +1,273 @@
+========================================
+ RootRecord Ecosystem Push
+========================================
+Time: Mon Sep 28 05:00:52 PM HST 2026
+Message: Removed redundant old logs folder inside Pacific Server. All logs now point to database logs directory. 
+Log: /home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Logs/Github/Manual/push-20260928-170009.log
+
+========================================
+1 - Servers/1 - RootRecord-Pacific-Solar-Server
+========================================
+--- Status ---
+ M Energy/lib/py
+ M Energy/scripts/read/delta2-read.sh
+ M Energy/scripts/read/leapfrog-read.sh
+ M Energy/scripts/read/river2pro-read.sh
+ D Logs/Automations/README.md
+ D Logs/Communications/.gitkeep
+ D Logs/Communications/README.md
+ D Logs/Energy/.gitkeep
+ D Logs/Energy/README.md
+ D Logs/Github/.gitkeep
+ D Logs/Github/README.md
+ D Logs/Network/.gitkeep
+ D Logs/Network/README.md
+ D Logs/README.md
+ D Logs/Security/.gitkeep
+ D Logs/Security/README.md
+ D Logs/System/.gitkeep
+ D Logs/System/README.md
+ D Logs/Weather/.gitkeep
+ D Logs/Weather/README.md
+?? Energy/config/
+?? Energy/db/SKILL.md
+?? Energy/db/aggregate.py
+?? Energy/db/condense.py
+?? Energy/db/condense.py.bak-20260924-152919
+?? Energy/db/condense.py.bak2-20260924-153517
+?? Energy/db/ingest.py
+?? Energy/db/latest.py
+?? Energy/db/schema.sql
+?? Energy/db/schema.sql.bak-20260924-152919
+?? Energy/db/schema_layers.sql
+?? Energy/db/store.py
+?? Energy/db/store.py.bak-20260924-152919
+?? Energy/db/test_aggregate.py
+?? Energy/db/test_aggregate.py.bak-20260924-153517
+?? Energy/lib/action_runner.py
+?? Energy/lib/ble_client.py
+?? Energy/lib/config.py.bak-20260924-183017
+?? Energy/lib/ecoflow_api.py
+?? Energy/lib/ecoflow_api.py.bak-20260924-181154
+?? Energy/lib/envload.py.bak-20260924-180812
+?? Energy/lib/envload.py.bak-20260924-181154
+?? Energy/lib/envload.py.bak-20260924-183017
+?? Energy/lib/internet_gate.py
+?? Energy/lib/read_runner.py
+?? Energy/lib/read_runner.py.bak-20260924-180812
+?? Energy/lib/read_runner.py.bak-20260924-181420
+?? Energy/lib/read_runner.py.bak-20260924-181814
+?? Energy/lib/vendor/eflib/
+?? System/db/
+?? System/lib/
+?? System/scripts/
+--- Add ---
+--- Commit ---
+[main 5f17591] Removed redundant old logs folder inside Pacific Server. All logs now point to database logs directory.
+ 162 files changed, 22100 insertions(+), 77 deletions(-)
+ create mode 100644 Energy/config/devices.conf
+ create mode 100644 Energy/config/devices.conf.bak-20260924-180812
+ create mode 100644 Energy/config/devices.conf.bak-20260924-183017
+ create mode 100644 Energy/db/SKILL.md
+ create mode 100644 Energy/db/aggregate.py
+ create mode 100644 Energy/db/condense.py
+ create mode 100644 Energy/db/condense.py.bak-20260924-152919
+ create mode 100644 Energy/db/condense.py.bak2-20260924-153517
+ create mode 100644 Energy/db/ingest.py
+ create mode 100644 Energy/db/latest.py
+ create mode 100644 Energy/db/schema.sql
+ create mode 100644 Energy/db/schema.sql.bak-20260924-152919
+ create mode 100644 Energy/db/schema_layers.sql
+ create mode 100644 Energy/db/store.py
+ create mode 100644 Energy/db/store.py.bak-20260924-152919
+ create mode 100644 Energy/db/test_aggregate.py
+ create mode 100644 Energy/db/test_aggregate.py.bak-20260924-153517
+ create mode 100755 Energy/lib/action_runner.py
+ create mode 100755 Energy/lib/ble_client.py
+ create mode 100755 Energy/lib/config.py.bak-20260924-183017
+ create mode 100644 Energy/lib/ecoflow_api.py
+ create mode 100644 Energy/lib/ecoflow_api.py.bak-20260924-181154
+ create mode 100755 Energy/lib/envload.py.bak-20260924-180812
+ create mode 100755 Energy/lib/envload.py.bak-20260924-181154
+ create mode 100755 Energy/lib/envload.py.bak-20260924-183017
+ create mode 100755 Energy/lib/internet_gate.py
+ mode change 100644 => 100755 Energy/lib/py
+ create mode 100755 Energy/lib/read_runner.py
+ create mode 100755 Energy/lib/read_runner.py.bak-20260924-180812
+ create mode 100755 Energy/lib/read_runner.py.bak-20260924-181420
+ create mode 100755 Energy/lib/read_runner.py.bak-20260924-181814
+ create mode 100755 Energy/lib/vendor/eflib/__init__.py
+ create mode 100755 Energy/lib/vendor/eflib/commands.py
+ create mode 100755 Energy/lib/vendor/eflib/connection.py
+ create mode 100755 Energy/lib/vendor/eflib/crc.py
+ create mode 100755 Energy/lib/vendor/eflib/device_mappings.py
+ create mode 100755 Energy/lib/vendor/eflib/device_options.py
+ create mode 100755 Energy/lib/vendor/eflib/devicebase.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/__init__.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/_delta2_base.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/_delta3_base.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/alternator_charger.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/delta2.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/delta2_black.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/delta2_max.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/delta2_plus.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/delta3.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/delta3_air.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/delta3_classic.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/delta3_max.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/delta3_max_plus.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/delta3_plus.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/delta3_ultra.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/delta3_ultra_plus.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/delta_pro.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/delta_pro_3.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/dpu.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/dpu_x.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/powerpulse_ev.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/powerstream.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/river2.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/river2_max.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/river2_pro.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/river3.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/river3_plus.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/shp2.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/shp3.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/smart_generator.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/smart_generator_4k.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/smart_meter.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/stream_ac.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/stream_ac_pro.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/stream_max.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/stream_microinverter.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/stream_pro.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/stream_ultra.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/unsupported.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/wave2.py
+ create mode 100755 Energy/lib/vendor/eflib/devices/wave3.py
+ create mode 100755 Energy/lib/vendor/eflib/encpacket.py
+ create mode 100755 Energy/lib/vendor/eflib/encryption.py
+ create mode 100755 Energy/lib/vendor/eflib/entity/__init__.py
+ create mode 100755 Energy/lib/vendor/eflib/entity/base.py
+ create mode 100755 Energy/lib/vendor/eflib/entity/controls.py
+ create mode 100755 Energy/lib/vendor/eflib/entity/units.py
+ create mode 100755 Energy/lib/vendor/eflib/exceptions.py
+ create mode 100755 Energy/lib/vendor/eflib/frame_assembler.py
+ create mode 100755 Energy/lib/vendor/eflib/keydata.py
+ create mode 100755 Energy/lib/vendor/eflib/listeners.py
+ create mode 100755 Energy/lib/vendor/eflib/logging_util.py
+ create mode 100755 Energy/lib/vendor/eflib/login.py
+ create mode 100755 Energy/lib/vendor/eflib/model/__init__.py
+ create mode 100755 Energy/lib/vendor/eflib/model/base.py
+ create mode 100755 Energy/lib/vendor/eflib/model/direct_bms_heartbeat_pack.py
+ create mode 100755 Energy/lib/vendor/eflib/model/direct_ems_heartbeat_pack.py
+ create mode 100755 Energy/lib/vendor/eflib/model/direct_inv_heartbeat_pack.py
+ create mode 100755 Energy/lib/vendor/eflib/model/direct_mppt_heartbeat_pack.py
+ create mode 100755 Energy/lib/vendor/eflib/model/direct_pd_heartbeat_pack.py
+ create mode 100755 Energy/lib/vendor/eflib/model/kit_info.py
+ create mode 100755 Energy/lib/vendor/eflib/model/kt210_sac.py
+ create mode 100755 Energy/lib/vendor/eflib/model/mppt_heart.py
+ create mode 100755 Energy/lib/vendor/eflib/model/pd_heart.py
+ create mode 100755 Energy/lib/vendor/eflib/packet.py
+ create mode 100755 Energy/lib/vendor/eflib/pb/__init__.py
+ create mode 100755 Energy/lib/vendor/eflib/pb/ac517_apl_comm_pb2.py
+ create mode 100755 Energy/lib/vendor/eflib/pb/bk622_common_pb2.py
+ create mode 100755 Energy/lib/vendor/eflib/pb/bk_series_pb2.py
+ create mode 100755 Energy/lib/vendor/eflib/pb/cp307_iot_pb2.py
+ create mode 100755 Energy/lib/vendor/eflib/pb/cp307_sys_pb2.py
+ create mode 100755 Energy/lib/vendor/eflib/pb/dc009_apl_comm_pb2.py
+ create mode 100755 Energy/lib/vendor/eflib/pb/dev_apl_comm_pb2.py
+ create mode 100755 Energy/lib/vendor/eflib/pb/ge305_sys_pb2.py
+ create mode 100755 Energy/lib/vendor/eflib/pb/mr521_pb2.py
+ create mode 100755 Energy/lib/vendor/eflib/pb/pd100_pb2.py
+ create mode 100755 Energy/lib/vendor/eflib/pb/pd303_pb2.py
+ create mode 100755 Energy/lib/vendor/eflib/pb/pd335_bms_bp_pb2.py
+ create mode 100755 Energy/lib/vendor/eflib/pb/pd335_sys_pb2.py
+ create mode 100755 Energy/lib/vendor/eflib/pb/pr705_pb2.py
+ create mode 100755 Energy/lib/vendor/eflib/pb/utc_sys_pb2.py
+ create mode 100755 Energy/lib/vendor/eflib/pb/wn511_sys_pb2.py
+ create mode 100755 Energy/lib/vendor/eflib/pb/yj751_sys_pb2.py
+ create mode 100755 Energy/lib/vendor/eflib/props/__init__.py
+ create mode 100755 Energy/lib/vendor/eflib/props/enums.py
+ create mode 100755 Energy/lib/vendor/eflib/props/protobuf_field.py
+ create mode 100755 Energy/lib/vendor/eflib/props/protobuf_props.py
+ create mode 100755 Energy/lib/vendor/eflib/props/raw_data_field.py
+ create mode 100755 Energy/lib/vendor/eflib/props/raw_data_props.py
+ create mode 100755 Energy/lib/vendor/eflib/props/repeated_protobuf_field.py
+ create mode 100755 Energy/lib/vendor/eflib/props/resv_info_parser.py
+ create mode 100755 Energy/lib/vendor/eflib/props/transforms.py
+ create mode 100755 Energy/lib/vendor/eflib/props/updatable_props.py
+ create mode 100755 Energy/lib/vendor/eflib/props/utils.py
+ mode change 100644 => 100755 Energy/scripts/read/delta2-read.sh
+ mode change 100644 => 100755 Energy/scripts/read/leapfrog-read.sh
+ mode change 100644 => 100755 Energy/scripts/read/river2pro-read.sh
+ delete mode 100644 Logs/Automations/README.md
+ delete mode 100644 Logs/Communications/README.md
+ delete mode 100644 Logs/Energy/.gitkeep
+ delete mode 100644 Logs/Energy/README.md
+ delete mode 100644 Logs/Github/.gitkeep
+ delete mode 100644 Logs/Github/README.md
+ delete mode 100644 Logs/Network/.gitkeep
+ delete mode 100644 Logs/Network/README.md
+ delete mode 100644 Logs/README.md
+ delete mode 100644 Logs/Security/.gitkeep
+ delete mode 100644 Logs/Security/README.md
+ delete mode 100644 Logs/System/.gitkeep
+ delete mode 100644 Logs/System/README.md
+ delete mode 100644 Logs/Weather/.gitkeep
+ delete mode 100644 Logs/Weather/README.md
+ rename Logs/Communications/.gitkeep => System/db/__init__.py (100%)
+ create mode 100644 System/db/aggregate.py
+ create mode 100644 System/db/condense.py
+ create mode 100644 System/db/schema.sql
+ create mode 100644 System/db/store.py
+ create mode 100755 System/lib/paths.py
+ create mode 100755 System/lib/paths.py.bak-20260924-162006
+ create mode 100755 System/lib/sample.py
+ create mode 100755 System/lib/sample.py.bak-20260924-162147
+ create mode 100755 System/lib/sample.py.bak2-20260924-162248
+ create mode 100644 System/lib/status_json.py
+ create mode 100755 System/scripts/sys-sample.sh
+--- Push ---
+To https://github.com/RootRecord-Software-Solutions/RootRecord-Pacific-Solar-Server.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/RootRecord-Software-Solutions/RootRecord-Pacific-Solar-Server.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+STATUS: PUSH FAILED
+
+========================================
+2 - RootRecord-Database
+========================================
+--- Status ---
+ M Logs/Automations/automations_current.log
+ M Logs/Github/Manual/push-20260928-160052.log
+?? Logs/Github/Manual/push-20260928-170009.log
+--- Add ---
+--- Commit ---
+[main 889bbf1] Removed redundant old logs folder inside Pacific Server. All logs now point to database logs directory.
+ 3 files changed, 436 insertions(+)
+ create mode 100644 Logs/Github/Manual/push-20260928-170009.log
+--- Push ---
+To https://github.com/RootRecord-Software-Solutions/RootRecord-Database.git
+   9d4db45..889bbf1  main -> main
+STATUS: PUSH OK
+
+========================================
+5 - RootRecord-Library
+========================================
+--- Status ---
+--- Add ---
+--- Commit ---
+On branch main
+nothing to commit, working tree clean
+STATUS: NOTHING TO COMMIT
+
+========================================
+ COMPLETE
+========================================
+Saved:
+/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Logs/Github/Manual/push-20260928-170009.log
+Press ENTER to close...

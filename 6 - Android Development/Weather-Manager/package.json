@@ -1,0 +1,20 @@
+{
+  "name": "rootrecord-weather-android",
+  "version": "1.0.46",
+  "private": true,
+  "description": "Android (Capacitor) wrapper for the Weather Manager web app. Web source lives at Web/apps/weather-manager-web.",
+  "scripts": {
+    "build:web": "pnpm -C ../../Web/apps/weather-manager-web run build",
+    "cap:sync": "pnpm run build:web && pnpm exec cap sync",
+    "android:open": "pnpm exec cap open android",
+    "android:build": "pnpm run cap:sync",
+    "android:assemble": "pnpm exec cap sync android && cd android && .\\gradlew.bat assembleDebug",
+    "android:play:ready": "powershell -NoProfile -ExecutionPolicy Bypass -File .\\scripts\\build-play-release.ps1",
+    "android:apk:test": "powershell -NoProfile -ExecutionPolicy Bypass -File .\\scripts\\build-test-apk.ps1"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/cli": "^6.2.0",
+    "@capacitor/core": "^6.2.0"
+  }
+}

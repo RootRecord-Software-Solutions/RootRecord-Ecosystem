@@ -1,0 +1,67 @@
+{
+  "at": "2026-09-29T13:24:01-10:00",
+  "source": "USGS HVO webcams (G1 kilauea-cams DEFAULT_CAMS)",
+  "catalog": "g1-offline-defaults",
+  "cams": [
+    {
+      "id": "usgs_v1",
+      "title": "[V1cam] West Halemaʻumaʻu",
+      "still": "https://volcanoes.usgs.gov/observatories/hvo/cams/V1cam/images/M.jpg",
+      "youtube_video_id": "HggWKlZv9yk",
+      "watch_url": "https://www.youtube.com/watch?v=HggWKlZv9yk",
+      "embed_url": "https://www.youtube.com/embed/HggWKlZv9yk?autoplay=1&mute=1&playsinline=1&rel=0&modestbranding=1",
+      "still_status": {
+        "checked_at": "2026-09-29T13:24:01-10:00",
+        "ok": true,
+        "http": 200,
+        "changed": true,
+        "bytes": 325865,
+        "sha256": "c428f754e01758bfccec111b243d5739c9775dc51746e39c240beb04e939f422",
+        "etag": "\"4f8e9-65ca7687e6479\"",
+        "last_modified": "Tue, 29 Sep 2026 23:19:02 GMT",
+        "fetched_at": "2026-09-29T13:24:01-10:00",
+        "file": "v1cam-last.jpg"
+      }
+    },
+    {
+      "id": "usgs_v2",
+      "title": "[V2cam] North Halemaʻumaʻu",
+      "still": "https://volcanoes.usgs.gov/observatories/hvo/cams/V2cam/images/M.jpg",
+      "youtube_video_id": "Tz5tPqRRv1Y",
+      "watch_url": "https://www.youtube.com/watch?v=Tz5tPqRRv1Y",
+      "embed_url": "https://www.youtube.com/embed/Tz5tPqRRv1Y?autoplay=1&mute=1&playsinline=1&rel=0&modestbranding=1",
+      "still_status": {
+        "checked_at": "2026-09-29T13:24:01-10:00",
+        "ok": true,
+        "http": 200,
+        "changed": true,
+        "bytes": 188366,
+        "sha256": "deefa7aae198ad8319e0aa88c8ec1e60ebf145e50213294073d93ac6b2b5d281",
+        "etag": "\"2dfce-65ca76cc5a1e2\"",
+        "last_modified": "Tue, 29 Sep 2026 23:20:14 GMT",
+        "fetched_at": "2026-09-29T13:24:01-10:00",
+        "file": "v2cam-last.jpg"
+      }
+    },
+    {
+      "id": "usgs_v3",
+      "title": "[V3cam] Halemaʻumaʻu lava lake",
+      "still": "https://volcanoes.usgs.gov/observatories/hvo/cams/V3cam/images/M.jpg",
+      "youtube_video_id": "gXKuUyKt8mc",
+      "watch_url": "https://www.youtube.com/watch?v=gXKuUyKt8mc",
+      "embed_url": "https://www.youtube.com/embed/gXKuUyKt8mc?autoplay=1&mute=1&playsinline=1&rel=0&modestbranding=1",
+      "still_status": {
+        "checked_at": "2026-09-29T13:24:01-10:00",
+        "ok": true,
+        "http": 200,
+        "changed": true,
+        "bytes": 331908,
+        "sha256": "78cd2c66c5bf5855fe5c0289e7253397f938a2f33655dbd422a25826ddac29f0",
+        "etag": "\"51084-65ca768859c1c\"",
+        "last_modified": "Tue, 29 Sep 2026 23:19:03 GMT",
+        "fetched_at": "2026-09-29T13:24:01-10:00",
+        "file": "v3cam-last.jpg"
+      }
+    }
+  ]
+}

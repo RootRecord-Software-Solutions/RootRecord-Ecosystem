@@ -1,0 +1,38 @@
+# 6 - Android Development — never commit signing material, secrets or build output.
+# Created 2026-09-29 (Android import). This folder is NOT a git repo and NOT in repos.conf;
+# this file protects any future `git init` / nested clone / sync of these trees.
+
+# --- Signing / secrets ---
+*.jks
+*.keystore
+*.p12
+*.pem
+keystore.properties
+**/keystore/
+local.properties
+google-services.json
+GoogleService-Info.plist
+*.env
+.env
+.env.*
+!.env.example
+*recovery-codes*
+SECRETS-INDEX.local.md
+**/memory/test_credentials*
+
+# --- Build output / caches ---
+build/
+.gradle/
+.idea/
+.cxx/
+.externalNativeBuild/
+captures/
+node_modules/
+__pycache__/
+*.iml
+.DS_Store
+
+# --- Release artifacts (kept on the desk in <App>/Releases/, not committed) ---
+*.apk
+*.aab
+Releases/

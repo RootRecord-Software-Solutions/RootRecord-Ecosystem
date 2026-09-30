@@ -1,0 +1,16 @@
+Running timer as unit: run-p933367-i942362.timer
+Will run service as unit: run-p933367-i942362.service
+2026-09-29T12:13:13Z do-stack-reload BEGIN pid=933462
+XDG_RUNTIME_DIR=/run/user/1000
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+DISPLAY=:0
+running stop-poller-stack.sh
+[stop] stopping systemd unit rr-rootserver-poller.service…
+[stop] stopping network-globe-hawaii.service…
+[stop] stack down.
+started rr-rootserver-poller.service via systemctl
+verify: rootserver_poller.py is running
+opening poller window via open-poller-window.sh
+[open] starting rr-rootserver-poller.service…
+verify: poller-watch.py window process running
+2026-09-29T12:13:50Z do-stack-reload END started=1 window=1

@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "at": "2026-09-29T13:30:37-10:00",
+  "dry_run": false,
+  "gate": "RR_SMART_DEVICES",
+  "gate_on": false,
+  "sources": {
+    "wiz": {
+      "state": "BLOCKED",
+      "count": 0,
+      "ms": 9236,
+      "errors": []
+    },
+    "plugs": {
+      "state": "BLOCKED",
+      "count": 0,
+      "ms": 0,
+      "errors": []
+    }
+  },
+  "files": [
+    "wiz-last.json",
+    "plugs-last.json"
+  ]
+}

@@ -1,0 +1,109 @@
+========================================
+ RootRecord Ecosystem Smart Pull
+========================================
+Time: Mon Sep 28 03:57:14 PM HST 2026
+Log: /home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Logs/Github/Manual/pull-20260928-155714.log
+
+========================================
+1 - Servers/1 - RootRecord-Pacific-Solar-Server
+========================================
+--- Fetch ---
+--- Ensure upstream ---
+LOCAL : 8eb517ab8d4c0587233afedec99fbef4b81de904
+REMOTE: 50d0af20703288273f10f53e88628bddb58894ad
+BASE  : 89332d8d8e16e22e97b359db3eb6737367efe227
+STATUS: Diverged
+Creating safety branch:
+Attempting merge:
+Merge made by the 'ort' strategy.
+ Automations/README.md                              |  70 +++++++-
+ Automations/scripts/jobs.py                        |  22 +--
+ Automations/scripts/poller/open-poller-window.sh   |   4 +-
+ Automations/scripts/poller/poller-watch.py         | 185 +++++----------------
+ Automations/scripts/poller/run-poller.sh           |   1 +
+ Automations/scripts/stack/do-stack-reload.sh       |   4 +-
+ Automations/scripts/stack/schedule-stack-reload.sh |  93 +++--------
+ Communications/README.md                           |  52 +++++-
+ Communications/telegram/README.md                  |  41 ++++-
+ Energy/README.md                                   |  46 ++++-
+ Energy/db/__init__.py                              |   1 +
+ Energy/lib/__init__.py                             |   1 +
+ Energy/lib/config.py                               |  43 +++++
+ Energy/lib/envload.py                              |  75 +++++++++
+ Energy/lib/paths.py                                |  41 +++++
+ Energy/lib/py                                      |  33 ++++
+ Energy/lib/vendor/README.md                        |   9 +
+ Energy/scripts/read/delta2-read.sh                 |  13 ++
+ Energy/scripts/read/leapfrog-read.sh               |  12 ++
+ Energy/scripts/read/river2pro-read.sh              |  13 ++
+ Geology/README.md                                  |  30 +++-
+ Github/README.md                                   |  49 +++++-
+ Logs/Automations/README.md                         |  12 +-
+ Logs/README.md                                     |  46 ++++-
+ Security/README.md                                 |  48 +++++-
+ System/README.md                                   |  42 ++++-
+ Weather/README.md                                  |  50 +++++-
+ 27 files changed, 797 insertions(+), 239 deletions(-)
+ create mode 100644 Energy/db/__init__.py
+ create mode 100644 Energy/lib/__init__.py
+ create mode 100644 Energy/lib/config.py
+ create mode 100644 Energy/lib/envload.py
+ create mode 100644 Energy/lib/paths.py
+ create mode 100644 Energy/lib/py
+ create mode 100644 Energy/lib/vendor/README.md
+ create mode 100644 Energy/scripts/read/delta2-read.sh
+ create mode 100644 Energy/scripts/read/leapfrog-read.sh
+ create mode 100644 Energy/scripts/read/river2pro-read.sh
+Merge successful
+
+========================================
+2 - RootRecord-Database
+========================================
+--- Fetch ---
+--- Ensure upstream ---
+LOCAL : 0efaffa656d6214f119db694e514e088cceb51c5
+REMOTE: 0efaffa656d6214f119db694e514e088cceb51c5
+BASE  : 0efaffa656d6214f119db694e514e088cceb51c5
+STATUS: Already synchronized
+
+========================================
+5 - RootRecord-Library
+========================================
+--- Fetch ---
+--- Ensure upstream ---
+Setting upstream origin/main
+branch 'main' set up to track 'origin/main'.
+LOCAL : acc8a5d43c70584fa44447e45139eefdac64c3ec
+REMOTE: 11b2a41157db5e975c7c250181a8197432da1a36
+BASE  : acc8a5d43c70584fa44447e45139eefdac64c3ec
+STATUS: Behind remote
+Updating acc8a5d..11b2a41
+Fast-forward
+ Documentation/06-development/Work-Orders/README.md |  41 +++++++
+ .../WO-COM-001-Communications-Surface.md           |  51 ++++++++
+ .../Work-Orders/WO-ECO-001-Action-Plan.md          | 134 +++++++++++++++++++++
+ .../Work-Orders/WO-ECO-001-Energy-Domain-Import.md |  26 ++++
+ .../Work-Orders/WO-GH-001-Github-Pull-Authority.md |  51 ++++++++
+ .../WO-SRV-001-Residual-Jobs-Path-Rewire.md        |  67 +++++++++++
+ .../Work-Orders/WO-SYS-001-Poller-Observability.md |  35 ++++++
+ .../WO-WEB-001-Public-Status-Solar-Board.md        |  47 ++++++++
+ .../WO-WEB-002-Public-Site-Foundation.md           |  78 ++++++++++++
+ .../WO-WXG-001-Weather-Geology-Import.md           |  55 +++++++++
+ 10 files changed, 585 insertions(+)
+ create mode 100644 Documentation/06-development/Work-Orders/README.md
+ create mode 100644 Documentation/06-development/Work-Orders/WO-COM-001-Communications-Surface.md
+ create mode 100644 Documentation/06-development/Work-Orders/WO-ECO-001-Action-Plan.md
+ create mode 100644 Documentation/06-development/Work-Orders/WO-ECO-001-Energy-Domain-Import.md
+ create mode 100644 Documentation/06-development/Work-Orders/WO-GH-001-Github-Pull-Authority.md
+ create mode 100644 Documentation/06-development/Work-Orders/WO-SRV-001-Residual-Jobs-Path-Rewire.md
+ create mode 100644 Documentation/06-development/Work-Orders/WO-SYS-001-Poller-Observability.md
+ create mode 100644 Documentation/06-development/Work-Orders/WO-WEB-001-Public-Status-Solar-Board.md
+ create mode 100644 Documentation/06-development/Work-Orders/WO-WEB-002-Public-Site-Foundation.md
+ create mode 100644 Documentation/06-development/Work-Orders/WO-WXG-001-Weather-Geology-Import.md
+
+========================================
+ COMPLETE
+========================================
+Saved:
+/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Logs/Github/Manual/pull-20260928-155714.log
+Press ENTER to close...

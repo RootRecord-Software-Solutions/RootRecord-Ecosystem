@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# ==============================================================================
+# Energy/lib/py — Energy domain Python launcher (Pacific)
+# ------------------------------------------------------------------------------
+# Prefer ENERGY_PYTHON, else domain .venv, else system python3.
+# PYTHONPATH: eflib vendor + Pacific root so "import Energy…" resolves to Energy/.
+# No lowercase energy/ symlink required.
+# ==============================================================================
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+PARENT="$(cd "$ROOT/.." && pwd)"
+VENV_PY="$ROOT/.venv/bin/python"
+VENDOR="$ROOT/lib/vendor"
+
+if [[ -n "${ENERGY_PYTHON:-}" ]]; then
+  PY="$ENERGY_PYTHON"
+elif [[ -x "$VENV_PY" ]]; then
+  PY="$VENV_PY"
+else
+  PY="python3"
+fi
+
+export PYTHONPATH="${ENERGY_EFLIB_PATH:-$VENDOR}:${PARENT}:${PYTHONPATH:-}"
+exec "$PY" "$@"

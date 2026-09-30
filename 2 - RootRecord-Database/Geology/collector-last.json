@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "at": "2026-09-29T13:49:55-10:00",
+  "what": "quakes",
+  "dry_run": false,
+  "sources": {
+    "hawaii": {
+      "ok": true,
+      "count": 9,
+      "new": 1,
+      "new_m2": 0,
+      "ms": 568
+    },
+    "global": {
+      "ok": true,
+      "count": 34,
+      "new": 1,
+      "ms": 415
+    },
+    "hvo_notices": {
+      "ok": true,
+      "count": 44,
+      "new": 44,
+      "ms": 1029
+    },
+    "hvo_status": {
+      "ok": true,
+      "volcanoes": 8,
+      "kilauea": "WATCH",
+      "mauna_loa": "NORMAL",
+      "ms": 572
+    }
+  }
+}

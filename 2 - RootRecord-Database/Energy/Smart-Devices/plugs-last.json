@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "at": "2026-09-29T13:30:37-10:00",
+  "kind": "tuya-bsd01",
+  "count": 0,
+  "state": "BLOCKED",
+  "note": "BLOCKED: no local_key yet. Pair BSD01 in Smart Life + link Tuya IoT cloud (tinytuya wizard) -> config/tuya-devices.local.json, or flash Tasmota/ESPHome.",
+  "devices": [],
+  "errors": [],
+  "ms": 0
+}

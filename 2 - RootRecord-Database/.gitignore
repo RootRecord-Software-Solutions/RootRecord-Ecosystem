@@ -1,0 +1,109 @@
+# Generated / binary media — keep out of Git history
+# Text, source, configuration, documentation, and other human-readable artifacts remain trackable.
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.bmp
+*.tif
+*.tiff
+*.heic
+*.heif
+*.avif
+
+# Audio
+*.mp3
+*.wav
+*.flac
+*.ogg
+*.oga
+*.m4a
+*.aac
+*.opus
+*.wma
+
+# Video
+*.mp4
+*.m4v
+*.mov
+*.avi
+*.mkv
+*.webm
+*.wmv
+*.mpeg
+*.mpg
+
+# Other common binary media
+*.ico
+
+# Volatile runtime state: never commit (privacy + 5 s auto-sync churn). Added 2026-09-29 (WO-ECO).
+/Energy/state/
+/Energy/ports/
+/Github/plumbing/state/
+*.pid
+*.lock
+
+# Live high-churn log streams (BLE heartbeat, poller current). Archives stay tracked. Added 2026-09-29 (WO-ECO/WO-SRV).
+# Untracked via owner-approved git rm --cached 2026-09-29 ~01:25 HST; files stay on disk.
+/Logs/Energy/ava-ecoflow-ble.log
+/Logs/Automations/automations_current.log
+/Logs/Communications/council-relay.log
+
+# Previous-datasets archive: bulk/binary/private content stays local; only each dataset README is tracked. Added 2026-09-29.
+/Archive/Previous-Datasets/*/*
+!/Archive/Previous-Datasets/*/README.md
+# Weather daemon data tree (intended as the separate RootRecord-Weather-Database working tree) — never in this repo.
+/Weather/
+# Energy sqlite store (binary).
+/RootRecord/
+
+# Ollama runtime/error/pull logs (volatile, may hold prompts): contents local only; .gitkeep preserves the layout. Builds + Modelfiles stay tracked. Added 2026-09-29.
+/Logs/AI/Ollama/Runtime/*
+!/Logs/AI/Ollama/Runtime/.gitkeep
+/Logs/AI/Ollama/Errors/*
+!/Logs/AI/Ollama/Errors/.gitkeep
+/Logs/AI/Ollama/Pulls/*
+!/Logs/AI/Ollama/Pulls/.gitkeep
+
+# Desk screenshots (may show private desktop info) — local only. Added 2026-09-29.
+/Logs/Migration/*.png
+
+# FLM server logs record full prompts/requests — local only. Added 2026-09-29.
+/Github/logs/
+/Logs/AI/FLM/*
+!/Logs/AI/FLM/.gitkeep
+
+# G3 voice + AI processing (added 2026-09-29 04:00 HST, g3-voice-ailog). Model weights/voice packs local only;
+# voice WAVs already covered by *.wav; live inference JSONL is high-churn (daily Archive/ stays tracked).
+/AI/Kokoro/Kokoro-82M/
+*.pth
+*.pt
+/Logs/AI/Inference/inference_current.jsonl
+/Media/Audio/Voice/Archive/
+# voice report text/sidecar history (G3 voice_reports.py, 2026-09-29) rotates every run; _current.md stays tracked
+/Media/Audio/Voice/Reports/Archive/
+
+# Council relay quiet-mode inbox: held Telegram message text is private — local only; only the README is tracked.
+# Added 2026-09-29 ~04:03 HST (g3-proposals-impl, 08-ideas relay-quiet-mode-message-hold).
+/Logs/Communications/Relay-Inbox/*
+!/Logs/Communications/Relay-Inbox/README.md
+
+# Specialist router decisions (added 2026-09-29 ~04:18 HST, g3-specialists): metadata-only JSONL, high churn -> local only.
+# README.md and router-test-*.md in the same folder stay tracked.
+/Logs/AI/Routing/routing_current.jsonl
+
+# Geology (added 2026-09-29 ~13:25 HST, migration-geology): on-demand USGS backfill SQLite (binary, local only).
+# *-last.json and Daily/*.jsonl stay tracked; webcam stills are already covered by *.jpg.
+/Geology/Earthquakes/*.db
+/Geology/Earthquakes/*.db-wal
+/Geology/Earthquakes/*.db-shm
+
+# Old-repo migration breadth pass (added 2026-09-29 ~14:05 HST): Hawaii news SQLite (binary) and the
+# 5-minute network byte-counter samples (append churn). Summaries (*-last.json) stay tracked.
+/Reports/News/**/*.db
+/Reports/News/**/*.db-wal
+/Reports/News/**/*.db-shm
+/System/network/Daily/

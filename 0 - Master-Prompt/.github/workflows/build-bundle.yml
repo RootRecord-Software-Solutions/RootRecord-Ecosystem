@@ -1,0 +1,70 @@
+name: Build Master Prompt Bundle
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 0-master-prompt
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate prompt manifest and live-state files
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f MASTER-PROMPT.md
+          test -f README.md
+          test -f manifest/prompts.yaml
+          test -f skill/SKILL.md
+          test -f state/state.json
+          test -f logs/state-history.json
+
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          import yaml
+
+          manifest = yaml.safe_load(Path("manifest/prompts.yaml").read_text())
+          for item in manifest["prompts"]:
+              path = Path(item["file"])
+              if item.get("required") and not path.is_file():
+                  raise SystemExit(f"Missing required prompt: {path}")
+
+          current = json.loads(Path("state/state.json").read_text())
+          history = json.loads(Path("logs/state-history.json").read_text())
+
+          if not isinstance(current, dict):
+              raise SystemExit("state/state.json must contain a JSON object.")
+          if not isinstance(history, dict) or not isinstance(history.get("records"), list):
+              raise SystemExit("logs/state-history.json must contain an object with a records list.")
+
+          text = Path("prompts/08-repository-and-file-links.md").read_text()
+          if "rootrecordsoftwaresolutions" not in text:
+              raise SystemExit("Repository/file link index appears empty.")
+
+          print("Manifest, prompt links, current state, and state history validation passed.")
+          PY
+
+      - name: Build ZIP
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -f RootRecord-Master-Prompt-latest.zip
+          zip -r RootRecord-Master-Prompt-latest.zip             MASTER-PROMPT.md             README.md             prompts             state             logs             manifest             skill             .github/workflows/build-bundle.yml
+
+      - name: Upload bundle artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: RootRecord-Master-Prompt-latest
+          path: 0-master-prompt/RootRecord-Master-Prompt-latest.zip
+          if-no-files-found: error

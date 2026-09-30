@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "at": "2026-09-29T13:30:37-10:00",
+  "kind": "wiz",
+  "count": 0,
+  "state": "BLOCKED",
+  "note": "no WiZ bulb answered on UDP 38899 (not on this LAN / powered off / not yet added to config)",
+  "devices": [],
+  "errors": [],
+  "ms": 9236
+}
