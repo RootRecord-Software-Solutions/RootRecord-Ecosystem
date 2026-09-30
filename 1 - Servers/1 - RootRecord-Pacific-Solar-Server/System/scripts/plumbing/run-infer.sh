@@ -48,7 +48,7 @@ if [[ "${RR_NPU_PERSONA:-0}" == "1" && -z "$SPEC_SYS" && "$TARGET" =~ ^(ava|bruc
 from pathlib import Path  # info: from pathlib import Path
 p=Path(sys.argv[1])  # info: set p
 t=p.read_text(encoding="utf-8")  # info: set t
-m=re.search("(?s)^SYSTEM\\s+\"\"\"\\n?(.*?)\\n?\"\"\"", t)  # info: set m
+m=re.search("(?ms)^SYSTEM\\s+\"\"\"\\n?(.*?)\\n?\"\"\"", t)  # info: set m
 sys_text=(m.group(1).strip() if m else "")  # info: set sys_text
 temp, npred = "0.3", "180"  # info: set temp
 for k,v in re.findall(r"^PARAMETER\s+(temperature|num_predict)\s+(\S+)", t, re.M):  # info: for
@@ -252,7 +252,7 @@ if flm_up; then  # info: if
     ailog npu-flm "$FLM_MODEL" 0 false "$(printf '%s\n' "$rep" | grep -v '^\[ok\] single-flight RUN ' | tr -d '\n' | wc -m)"  # info: ailog
     exit 0  # info: exit
   fi  # info: fi
-  echo "[warn] FLM chat failed — Ollama fallback" >&2  # info: echo
+  if [[ "${RR_NPU_ONLY:-0}" == "1" ]]; then echo "[warn] FLM chat failed — staying on NPU, no Ollama fallback" >&2; else echo "[warn] FLM chat failed — Ollama fallback" >&2; fi  # info: echo
 fi  # info: fi
 FLM_PEAK_MB=$(flm_peak); flm_stop  # info: set FLM_PEAK_MB
 if [[ "${RR_NPU_ONLY:-0}" == "1" ]]; then  # info: if
