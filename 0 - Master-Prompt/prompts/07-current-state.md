@@ -15,7 +15,7 @@ Remote: https://github.com/RootRecord-Software-Solutions/RootRecord-Ecosystem
 | Master Prompt | `0 - Master-Prompt/` | Rules and this state file |
 | Pacific runtime | `1 - Servers/1 - RootRecord-Pacific-Solar-Server/` | Poller, jobs, energy, weather, cameras |
 | Database | `2 - RootRecord-Database/` | Telemetry, logs, media |
-| Website | `3 - RootRecord-Website/` | Local Next.js site (`:3001` at the check) |
+| Website | none on this desk | Local Next site removed 2026-09-30. Do not start one. Port 3001 stays closed. `rootserver.rootrecord.cloud` is the poller on `:8799` |
 | Mainland | `1 - Servers/2 - RootRecord-US-Mainland-Server/` | Desk copy. Sync row disabled |
 | Library | `5 - RootRecord-Library/` | Docs, work orders, agent context |
 | Node | `4 - RootRecord-Node/` | Placeholder |

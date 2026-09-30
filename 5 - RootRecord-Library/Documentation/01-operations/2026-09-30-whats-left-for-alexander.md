@@ -13,8 +13,7 @@ The 40-agent pass across ecosystem, pacific, database, and library held. The des
 | Surface | State |
 | --- | --- |
 | Poller | `rr-rootserver-poller.service` active, Pacific `Automations/` |
-| Tunnel | `https://rootserver.rootrecord.cloud` HTTP 200 |
-| Local site | `3 - RootRecord-Website` on `:3001`, HTTP 200 |
+| Tunnel | `https://rootserver.rootrecord.cloud` HTTP 200. That hostname is the poller on `:8799`, not a website |
 | River 2 Pro | BLE live. About 35% SOC at 01:22, discharging, solar 0 W (night) |
 | Delta 2 | Dead. It does not transmit. `WAITING` and the 00:53 snapshot at 1% SOC are normal |
 | Cameras | ch1–ch4 grabbing. ch4 is a small night frame |
@@ -44,11 +43,11 @@ Still on disk at the 01:24 check:
 
 **Your call:** leave all of it, or name a specific tree you want retired. Until you name one, agents keep it.
 
-### 2. Website and mainland sync rows
+### 2. No local website
 
-Both catalog rows are disabled and still point at `~/.ollama/skills/...`. The site that is actually serving locally is `3 - RootRecord-Website`. The mainland desk copy is `1 - Servers/2 - RootRecord-US-Mainland-Server`.
+Alexander removed the local site on 2026-09-30. `3 - RootRecord-Website` is gone, and port 3001 is closed. Do not run `next dev`, `npm run dev`, or any other local website on this desk.
 
-**Your call:** leave both rows disabled, or tell an agent to retarget `repos.conf` at those Ecosystem folders and enable them.
+The `website` catalog row stays disabled. `https://rootserver.rootrecord.cloud/` is the poller, not a site. The mainland desk copy is `1 - Servers/2 - RootRecord-US-Mainland-Server`, and that sync row stays disabled until Alexander says otherwise.
 
 ### 3. Daylight cameras
 
@@ -131,7 +130,7 @@ WO-DATA is still open for this, not for the path. The canonical Database path is
 ## Suggested order, when you want to pick
 
 1. Leave Delta 2 and the live stack alone.
-2. Say whether website and mainland sync rows stay disabled.
+2. Local website stays off. Mainland sync row stays disabled unless you say otherwise.
 3. After sunrise, accept or reject the timelapse hour and the 5-second camera interval.
 4. Name a River action test only if you want actuation marked PASS.
 5. Enable any data-only gates from section 6 in one list.

@@ -32,7 +32,7 @@ Boundary rule: knowledge goes to Library, executable runtime goes to Pacific, by
 | Pacific | Runtime | `1 - Servers/1 - RootRecord-Pacific-Solar-Server/` · https://github.com/RootRecord-Software-Solutions/RootRecord-Pacific-Solar-Server | Services, jobs, automation, monitors | The data files those jobs write |
 | Database | Persistence | `2 - RootRecord-Database/` · https://github.com/RootRecord-Software-Solutions/RootRecord-Database | Logs, media layout, telemetry, canonical data paths | Application logic |
 | Mainland | Continuity node | GitHub `rootrecordsoftwaresolutions/US-Mainland-Server`. Desk copy: `1 - Servers/2 - RootRecord-US-Mainland-Server/` | Recovery and mainland services | This desk's git root. The `mainland` sync row stays disabled until a clone exists outside the umbrella |
-| Website | Public web | GitHub `rootrecordsoftwaresolutions/RootRecord-Website`. Desk folder: `3 - RootRecord-Website/` | Site source when that repo is the worktree | The Pacific poller. The `website` sync row stays disabled until its mirror worktree exists |
+| Website | No local site | GitHub `rootrecordsoftwaresolutions/RootRecord-Website` may still exist remotely. Desk folder removed 2026-09-30 | Nothing on this desk. Do not start `next dev` or bind `:3001` | The Pacific poller. `rootserver.rootrecord.cloud` is `:8799`. The `website` sync row stays disabled |
 | Weather data | Hawaiʻi weather publication | GitHub `rootrecordsoftwaresolutions/RootRecord-Weather-Database` | Published weather products | The Pacific weather daemon's local tree, which stays under Database `Weather/` and is not auto-published from the umbrella |
 
 `/home/rootrecord/Database/` is the backup and flag root (`GITHUB/`). It is not the live data desk.

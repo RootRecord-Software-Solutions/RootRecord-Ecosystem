@@ -47,7 +47,7 @@ The current snapshot includes material from the major RootRecord areas:
 | `0 - Master-Prompt/` | Cross-project operating rules, prompt files, and live-state notes |
 | `1 - Servers/` | Pacific runtime and the US Mainland continuity tree |
 | `2 - RootRecord-Database/` | Persistent data, telemetry, logs, and media layout |
-| `3 - RootRecord-Website/` | Website material included in the snapshot |
+| `3 - RootRecord-Website/` | Removed 2026-09-30. No local website. Do not start one |
 | `4 - RootRecord-Node/` | Node-related snapshot material |
 | `5 - RootRecord-Library/` | Architecture, guides, agent context, and work orders |
 | `6 - Android Development/` | Android application trees |
