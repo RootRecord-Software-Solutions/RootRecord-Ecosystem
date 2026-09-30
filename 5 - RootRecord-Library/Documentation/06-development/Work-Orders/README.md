@@ -79,7 +79,7 @@ Folder + `SKILL.md` retained. Skills were functional packets (poor original desi
 ## Suggested attack order (remaining)
 
 1. ~~Energy~~ ~~System~~ ~~Reports~~ ~~Plumbing / Energy actions~~ ~~Telegram~~ ~~A-Eyes~~ (Pacific source paths landed)  
-2. **Runtime verification** → Telegram, A-Eyes, Energy actions, Pacific poller  
+2. **Alexander's remaining decisions** → [2026-09-30 operator list](../../01-operations/2026-09-30-whats-left-for-alexander.md) (River actuation, daylight timelapse, relay replies, catalog rows). Delta 2 is not on that list as a fault.  
 3. Keep G2/G1 code in place. Retire a legacy function only after Alexander's explicit sign-off; preserve legacy `SKILL.md` documentation  
 4. Final `jobs.py` grep + cwd cleanup  
 5. Move completed WOs to `Complete/` only after acceptance criteria are satisfied  
@@ -94,19 +94,19 @@ Architecture maps (Library):
 
 ---
 
-## Live snapshot (ops) — 2026-09-29 22:21 HST
+## Live snapshot (ops) — 2026-09-30 01:24 HST
 
 ```text
-systemd   Pacific run-poller.sh. Poller pid 743471. Reload skips the status window.
-Energy    API reads live. B1 100%, B2 7%, laptop 43% discharging. Actuating actions still open.
-System    sys_stats_cycle wrote sys-20260929-222117.json. cpu 13%, load 1.42, mem 70%.
-Cameras   ch1–ch4 grabbed at 22:21. cam_server pid 743888 cwd is Pacific Security/Cameras. ch4 is a dark night frame, not a failed grab. Timelapse folders empty (no daylight-window frames).
-Weather   poller pid 1378124 since 22:04. County reports written 22:13. Some NOAA pages returned HTML errors, 500, or 403.
-Reports   WO-RPT-001 and WO-ARCH complete. Worklog scan steady state is a few seconds (22:15, 22:13:37).
-Github    WO-GH-001 complete. github_sync_all is the only automatic pull (ecosystem + skills).
-NPU       llama3.2:1b on-demand own-session PASS 22:16. No flm left running.
-Log       automations_current.log is the live poller log. WO-SYS-001 complete. Telegram alerts still wait on WO-COM-001.
-G2        Code kept. Do not retire without Alexander's sign-off.
+Host      rootrecord-software-solutions up since 01:09 HST. CPU ~8%, RAM ~46%, disk 60% (264/468 GB). Laptop 100% on AC.
+systemd   rr-rootserver-poller.service active. Poller pid 3096, Pacific Automations cwd. BLE owner and globe units active.
+Energy    River 2 Pro BLE live, ~35% SOC at 01:22, discharging, solar 0 W. Delta 2 dead and not transmitting (operator). WAITING is normal. Last Delta 2 file 00:53 at 1% SOC.
+Cameras   ch1–ch4 grabbed. cam_server cwd is Pacific Security/Cameras. ch4 is a small night frame. Timelapse still waits on the 05–19 HST window.
+Weather   Poller up. County reports regenerated 01:18. Some NOAA pages INVALID or HTTP 500/503/403.
+Tunnel    https://rootserver.rootrecord.cloud HTTP 200. Local site :3001 HTTP 200 from 3 - RootRecord-Website.
+Github    github_sync_all publishing ecosystem, pacific, database, library. skills matched. website and mainland rows still disabled.
+Telegram  Relay up, replies OFF. getUpdates saw timeouts after boot.
+G2        Code kept, including ~/.ollama/skills and the 27 GB old-skills tree. Do not retire without Alexander's sign-off.
+Next      Documentation/01-operations/2026-09-30-whats-left-for-alexander.md
 ```
 
 ---

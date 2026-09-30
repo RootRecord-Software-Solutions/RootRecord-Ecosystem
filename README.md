@@ -149,7 +149,8 @@ Poor candidates for this repository:
 
 **Repository:** Public  
 **Role:** Canonical RootRecord ecosystem umbrella/context repository  
-**Default branch:** main
+**Default branch:** main  
+**Runtime check:** 2026-09-30 01:24 HST — Pacific poller, tunnel, River 2 Pro, cameras, weather, and GitHub sync are up from this tree. Delta 2 is dead and does not transmit. Operator decisions still open: [What's left for Alexander](5%20-%20RootRecord-Library/Documentation/01-operations/2026-09-30-whats-left-for-alexander.md).
 
 The repository is intended to remain a clean, sanitized public representation of the broader RootRecord ecosystem.
 

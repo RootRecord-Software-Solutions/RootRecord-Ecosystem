@@ -4,7 +4,9 @@ This file is the navigation index for major RootRecord files that are repeatedly
 
 **Rule:** these are links to the real source files. Do not copy those files into the Master Prompt directory.
 
-## Current desk (2026-09-29)
+## Current desk (2026-09-30)
+
+Operator remaining work: `5 - RootRecord-Library/Documentation/01-operations/2026-09-30-whats-left-for-alexander.md`.
 
 Git root: `/home/rootrecord/RootRecord-Ecosystem`  
 Remote: https://github.com/RootRecord-Software-Solutions/RootRecord-Ecosystem
