@@ -7,10 +7,10 @@ todos:
     status: completed
   - id: log-fallback
     content: Put the BLE failure reason on the poller SUMMARY line when a read falls back to the API
-    status: in_progress
+    status: completed
   - id: live-paths
     content: Repoint any still-running process that executes from the old Database or G2 skills tree
-    status: pending
+    status: completed
 isProject: false
 ---
 
