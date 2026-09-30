@@ -44,7 +44,7 @@ Work-Orders/
 | **WO-ECO-001** | Energy domain import (EcoFlow + hybrid reports) | P0 | Phase 1 signed off and archived. Actuating actions still open | [WO](./WO-ECO-001-Energy-Domain-Import.md) · [Action Plan](./Complete/WO-ECO-001-Action-Plan.md) |
 | **WO-SRV-001** | Residual jobs path rewire | P0 | Draft — blocked on WO-ECO-001 (and later domain imports); retained as reference while WO-SRV-2026-09-27 carries the active cutover | [WO](./WO-SRV-001-Residual-Jobs-Path-Rewire.md) |
 | **WO-WEB-001** | Public status / solar board alignment | P1 | Draft | [WO](./WO-WEB-001-Public-Status-Solar-Board.md) |
-| **WO-COM-001** | Communications surface | P1 | Draft — Telegram residual next | [WO](./WO-COM-001-Communications-Surface.md) |
+| **WO-COM-001** | Communications surface | P1 | Draft — tunnel, globe, and quiet relay are Pacific (22:23). Replies stay off. Discord still WO-COM-002. Notify policy unsealed. | [WO](./WO-COM-001-Communications-Surface.md) |
 | **WO-COM-002** | Discord bot credential rotation (migration gate) | P1 | OPEN | [WO](./WO-COM-002-Discord-Bot-Credential-Rotation.md) |
 | **WO-WXG-001** | Weather + Geology domain import | P1 | Draft — Weather poller **PASS**; Geology/voice jobs landed and **OFF** until sign-off | [WO](./WO-WXG-001-Weather-Geology-Import.md) |
 | **WO-WOGEN-001** | Work order generator (measured friction → draft WOs) | P2 | **Draft** — architecture only; Carly seal + operator accept before implement | [WO](./WO-WOGEN-001-Work-Order-Generator.md) |
