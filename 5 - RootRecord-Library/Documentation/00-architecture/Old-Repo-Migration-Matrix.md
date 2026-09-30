@@ -15,14 +15,14 @@
 
 | Rows | migrated | partial | missing | touched this pass |
 |---|---|---|---|---|
-| 90 | 35 | 22 | 33 | 27 |
+| 90 | 35 | 23 | 32 | 28 |
 
 | Bucket | migrated | partial | missing |
 |---|---|---|---|
 | geology | 8 | 1 | 0 |
 | core | 27 | 20 | 14 |
 | library | 0 | 0 | 3 |
-| product | 0 | 0 | 12 |
+| product | 0 | 1 | 11 |
 | archive | 0 | 1 | 4 |
 
 Counts recomputed 14:40 HST from the row table (rows matching `| n |` with a status word). Buckets are now listed explicitly: **geology** rows 1–5, 8–11 · **library** 69, 85, 90 · **archive** 27, 77, 78, 86, 87 · **product** 7, 43, 52, 62, 70, 71, 73, 74, 75, 80, 81, 89 · **core** everything else. (The 13:50 table came from a generator whose lists were not kept, so library/archive/product counts differ slightly from it.) Changes since 13:50: breadth pass 1 — rows 39, 48, 76 → migrated, 79 → partial; breadth pass 2 (14:16–14:40) — rows 5, 8, 15, 17, 35, 40, 42, 79 → migrated, 25, 50 → partial (57 stays partial).
@@ -106,7 +106,7 @@ Breadth rows (13:58–14:09 HST): test record [2026-09-29-old-repo-ports-breadth
 | 39 | NWS Hawaiʻi counties / rr-noaa / live-wx | `Solar-Pacific-RootRecord-Server-Old/weather/nws-hawaii, rr-noaa, live-wx` | **migrated** | Pacific `Weather/` (fetch, alerts, county_map, reports); `Communications/live-wx/scripts/live_wx.py` | Weather daemon LIVE. THIS PASS (breadth, 14:09 HST): live_wx chat helper ported (on demand, `--offline` = no HTTP), smoke PASS; not wired to council chat (BLOCKED). |
 | 40 | Hurricane fetch / tracker / desk | `Solar-Pacific-RootRecord-Server-Old/weather/hurricane-fetch, hurricane-tracker, hurricane-desk` | **migrated** | Pacific `Weather/hurricanes/` (fetch/track); desk `Media/Voice/scripts/voice_reports.py hurricane_desk` | Pacific `Weather/hurricanes/` (fetch/track); desk `voice_reports.py hurricane_desk`; **`Weather/hurricanes/scripts/global_board.py`** (THIS PASS (breadth 2, 14:16–14:40): G1 hurricane-tracker NHC + RAMMB + JTWC ABPW/ABIO merge verbatim; smoke PASS 2.9 s, 7 storms). Gates: `RR_VOICE_HURRICANE` (in jobs.py, OFF); PROPOSED `weather_hurricane_global` `RR_HURRICANE_GLOBAL` 05:40/09:40/12:40/16:40/20:40. Check-later: G1 label doubling ("Fay Fay"), RAMMB per-storm pages/track tables + storm plot not ported (OBS slide inputs). OBS/radio = row 41. |
 | 41 | Hurricane OBS / radio | `Solar-Pacific-RootRecord-Server-Old/weather/hurricane-obs, hurricane-radio` | **missing** | — | BLOCKED: OBS + radio playback not in G3 (no playback allowed). |
-| 42 | Radar archive / official weather media | `Solar-Pacific-RootRecord-Server-Old/weather/radar-archive, official-weather-media` | **migrated** | Pacific `Weather/fetch/radar.py` (HAWAII_loop.gif, `archive/` 14 days), `maps.py` | Pacific `Weather/fetch/radar.py` (HAWAII_loop.gif, `archive/` 14 days), `maps.py`; **`Weather/scripts/official_statement.py`** (HLS) + voice `official_weather` (THIS PASS (breadth 2, 14:16–14:40)). **Correction:** the G3 weather poller already collects HWO (plus AFD/SFP/ZFP/CWF/NOW) — only HLS was missing, now fetched by `official_statement.py` (PROPOSED `RR_OFFICIAL_HLS` 600 s; voice PROPOSED `RR_VOICE_OFFICIAL` :25). Not ported: OBS overlay push (BLOCKED, row 56), G1 all-time radar zip (disk — sign-off). |
+| 42 | Radar archive / official weather media | `Solar-Pacific-RootRecord-Server-Old/weather/radar-archive, official-weather-media` | **migrated** | Pacific `Weather/fetch/radar.py` (HAWAII_loop.gif, `archive/` 14 days), `maps.py` | Pacific `Weather/fetch/radar.py` (HAWAII_loop.gif, `archive/` 14 days), `maps.py`; **`Weather/scripts/official_statement.py`** (HLS) + voice `official_weather` (THIS PASS (breadth 2, 14:16–14:40)). **Correction:** the G3 weather poller already collects HWO (plus AFD/SFP/ZFP/CWF/NOW) — only HLS was missing, now fetched by `official_statement.py` (PROPOSED `RR_OFFICIAL_HLS` 600 s; voice PROPOSED `RR_VOICE_OFFICIAL` :25). Not ported: OBS overlay push (BLOCKED, row 56). All-time radar zip landed 2026-09-29 as Pacific `Weather/RadarZip/scripts/radar_zip.py` (append-only, no fetch) → Database `Weather/RadarZip/radar_archive.zip`; job `weather_radar_zip` GATED `RR_RADAR_ZIP` (off until disk sign-off). Loose radar folders stay on the 14-day rule. |
 | 43 | US weather fetch (all states) | `old/operations/weather/fetch_us_weather.py + every-hour/fetch-us-weather.py` | **missing** | Website data (avaivy.cloud) | Product/website dataset; out of Pacific scope. |
 | 44 | Reports worklog | `Solar-Pacific-RootRecord-Server-Old/reports` | **migrated** | Pacific `Reports/` | MIGRATED.md 2026-09-28 (WO-RPT-001). |
 | 45 | Morning / midday / late reports (generate) | `Solar-Pacific-RootRecord-Server-Old/reports/sort/morning-report, midday-report, late-report, report-generation` | **partial** | voice_reports.py roll-ups (template-first) | Grok/cloud generation not ported (no cloud spend). |
@@ -145,7 +145,7 @@ Breadth rows (13:58–14:09 HST): test record [2026-09-29-old-repo-ports-breadth
 | 78 | ecosystem-history / origin-session | `Solar-Pacific-RootRecord-Server-Old/ecosystem-history, origin-session` | **missing** | Archive-only | Library archive decision. |
 | 79 | Hawaiʻi news collector (RSS discovery) | `old/operations/news/collect_hawaii_news.py, _collector.py, hawaii/news.py` | **migrated** | Pacific `Reports/News/scripts/{_collector,hawaii_news}.py` → Database `Reports/News/hawaii/` (DB git-ignored) | Pacific `Reports/News/scripts/{_collector,hawaii_news}.py` → Database `Reports/News/hawaii/`. THIS PASS (breadth 2, 14:16–14:40): **16 seed feeds** (all HTTP 200 with items; `RR_NEWS_SEEDS_ONLY=1` skips discovery) → **278 posts** in a temp-root run (rc 0, 11.6 s). PROPOSED `RR_HAWAII_NEWS` 10:00. Check-later: Maui County feed is not hawaii.gov; no working Honolulu / Hawaiʻi County / Kauaʻi feeds (0 items / 403 / 404). 49 other states / global news = product data, not ported. |
 | 80 | State + global news builders (50 states) | `old/operations/news/*/news.py, build_state_news.py, build_global_news.py` | **missing** | Website data | Out of Pacific scope. |
-| 81 | Location pollers (~250 countries) | `old/operations/locations/**/poller.py` | **missing** | Website data | Out of Pacific scope. |
+| 81 | Location pollers (~250 countries) | `old/operations/locations/**/poller.py` | **partial** | Pacific `Weather/CountryLocations/scripts/poll_locations.py` → Database `Weather/CountryLocations/` | WO-MIG-13. One script, empty allowlist, job `country_location_pollers` `enabled: False`. Empty run does not call Open-Meteo. Old `operations/locations/**` not archived or deleted: no local checkout of `old`, and public website checkout, US-States, and state/global news Folders are still absent. |
 | 82 | Ava-core cronologicals runner | `old/operations/cronologicals/ava-core.py, operations/ava-core.py` | **migrated** | Pacific poller | Superseded by G3 poller. |
 | 83 | Broadcast (EcoFlow API + /directory browser) | `old/operations/broadcast.py` | **missing** | — | Serves a file-tree browser — security review needed; not ported. |
 | 84 | AI usage / ecosystem report (Grok) | `old/operations/system-tools/ai_usage*.py, operations/api-ai-tasks/ecosystem_report.py` | **partial** | Pacific `Reports/ai_processing_report.py` | Grok key path = secret; cloud spend not ported. |
@@ -182,7 +182,7 @@ Breadth rows (13:58–14:09 HST): test record [2026-09-29-old-repo-ports-breadth
 6. Database git churn from `Geology/*-last.json` (5 min) and `System/uptime/uptime-last.json` (60 s) once enabled — keep tracked or git-ignore.
 7. Retirement of any G1/G0 source (all **KEPT**).
 9. Hawaiʻi news seed list (16 feeds, incl. Maui County, not hawaii.gov) — keep / trim.
-10. Database `Reports/board/daily-reports-due.json` (written by `report_board.py run-due`) — keep tracked or git-ignore; G1 all-time radar zip (disk).
+10. Database `Reports/board/daily-reports-due.json` (written by `report_board.py run-due`) — keep tracked or git-ignore. All-time radar zip is built (`Weather/RadarZip`); enabling `RR_RADAR_ZIP` is still a disk sign-off.
 
 ## Next candidates
 

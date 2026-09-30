@@ -102,11 +102,16 @@
 /Geology/Earthquakes/*.db-shm
 
 # Old-repo migration breadth pass (added 2026-09-29 ~14:05 HST): Hawaii news SQLite (binary) and the
-# 5-minute network byte-counter samples (append churn). Summaries (*-last.json) stay tracked.
+# 5-minute network byte-counter samples (append churn). The Hawaiʻi summary stays trackable.
 /Reports/News/**/*.db
 /Reports/News/**/*.db-wal
 /Reports/News/**/*.db-shm
 /System/network/Daily/
+
+# WO-MIG-12 state and global news: runtime last-files and run logs. Hawaiʻi summary stays trackable.
+/Reports/News/**/*-news-last.json
+!/Reports/News/hawaii/hawaii-news-last.json
+/Logs/Reports/News/
 
 # Night-sleep gate (WO-MIG-01): flag, last skip, and log are runtime. Stay out of git.
 /System/NightSleep/
@@ -115,3 +120,7 @@
 # Report playback (WO-MIG-15): last-play state and player log are runtime. Stay out of git.
 /Media/Playback/
 /Logs/Media/Playback/
+
+# Country location pollers (WO-MIG-13): status and log are runtime. Stay out of git.
+# Samples live under /Weather/, already ignored above.
+/Logs/Weather/CountryLocations/

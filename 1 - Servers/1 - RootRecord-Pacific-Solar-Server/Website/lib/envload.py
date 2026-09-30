@@ -19,7 +19,7 @@ ALLOW = frozenset({
 def load_env(paths: list[Path] | None = None) -> None:
     for env in paths or [MASTER_KEY_ENV]:
         if not env.is_file():
-            return
+            continue
         for line in env.read_text(encoding="utf-8", errors="replace").splitlines():
             s = line.strip()
             if not s or s.startswith("#") or "=" not in s:
