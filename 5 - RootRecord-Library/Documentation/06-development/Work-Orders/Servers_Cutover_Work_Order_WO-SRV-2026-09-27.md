@@ -4,7 +4,7 @@
 | --- | --- |
 | **Work Order ID** | WO-SRV-2026-09-27 |
 | **Status** | **IN PROGRESS** — G3 PASS: poller on canonical root, network globe, BLE owner, cam server, frame grab, System sampling, Reports worklog, Plumbing non-NPU, read-only `solar-gate-status`, Telegram relay login/polling, NPU `llama3.2:1b` on demand. Open: Telegram replies off until sign-off (quiet mode; models were rebuilt), Energy actuating actions + timelapse VERIFY PENDING. G2 code KEPT (retire only with Alexander sign-off). Header corrected 2026-09-29 evening; earlier "NPU BLOCKED" / "models missing" notes below are historical. |
-| **Updated** | 2026-09-29 ~01:37 HST — status + open findings refresh; G2 retirements reverted; residual path survey |
+| **Updated** | 2026-09-29 ~23:15 HST — EcoFlow BLE reads restored. `Energy/.venv` was missing again, so reads had been frozen on the cloud API since 19:49 HST; recreated from the G2 pin and tracked as `Energy/requirements.txt`. Manual reads 23:12 HST: Delta 2 `src=ble` soc 0.83%, River 2 Pro `src=ble` soc 67.03%. Poller, BLE owner, and globe already execute from the Ecosystem tree; no live process still runs an old-root executable. |
 
 **Policy:** Do not run the old desk as the poller host.
 
