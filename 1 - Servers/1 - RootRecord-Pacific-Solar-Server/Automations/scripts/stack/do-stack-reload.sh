@@ -97,9 +97,8 @@ window_ok=0
 if [[ "${OPEN_POLLER_WINDOW:-1}" == "1" ]]; then
   if [[ -n "${DISPLAY:-}" ]]; then
     if [[ -f "$OPEN_WIN" ]]; then
-      echo "opening poller window via open-poller-window.sh"
-      # Detached; open-poller-window itself nohups gnome-terminal
-      bash "$OPEN_WIN" || echo "WARNING: open-poller-window returned non-zero"
+      echo "opening Root Monitor"
+      bash "$OPEN_WIN" || echo "WARNING: open-root-monitor returned non-zero"
       window_ok=1
     elif [[ -f "$CLI" ]]; then
       echo "opening poller window via CLI window"
