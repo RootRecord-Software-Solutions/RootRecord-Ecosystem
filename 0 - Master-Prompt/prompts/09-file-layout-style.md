@@ -46,14 +46,19 @@ RootRecord operator-facing and config/source files use a **readable sectioned la
 - Replace a sectioned config with a minimal dict-only dump unless the operator asks.
 - Invent a parallel jobs file or `jobs_v2.py`.
 
-## Scope
+## Scope (2026-09-30)
 
-Applies especially to:
+Every first-party Pacific `.py` and `.sh` file uses three layers:
 
-- `automations/scripts/jobs.py` (canonical)
-- Other operator-edited catalogs, schedules, conf files, and long-lived scripts that humans (or AIs) extend by copy-paste
+1. A file banner.
+2. A `# SECTION:` banner above each function, class, and long top-level list.
+3. An `# info:` note at the end of each code line that does not already have a comment.
 
-Generated one-liners and pure libraries may stay dense; **anything an operator is expected to extend must stay sectioned.**
+`Automations/scripts/jobs.py` is the canonical schedule. Each schedule list ends with a commented TEMPLATE. Copy that template to add a job. Do not delete it.
+
+Full rules, the function copy-paste block, and the job steps: `5 - RootRecord-Library/prompts/How-To-Read-And-Edit-Code.md`.
+
+Do not apply this pass to `.venv`, `vendor`, or `node_modules`.
 
 ## If layout is missing
 
