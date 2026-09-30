@@ -4,11 +4,11 @@
 | --- | --- |
 | **Work Order ID** | WO-MIG-01-2026-09-29 |
 | **Date** | 2026-09-29 (HST) |
-| **Status** | OPEN — draft, not accepted for execution |
+| **Status** | BUILT — default off. `RR_NIGHT_SLEEP=1` needs sign-off. Not on the active index. |
 | **Owner** | RootRecord |
 | **Related** | Agent 01, Wave A. Later function that depends on this gate: 2, 23:30 late-final report. Old source: `old ollama/old skills/scheduler-clock/scripts/scheduler.py` (`night_sleeping`, `NIGHT_POLL`). Live map: `Documentation/00-architecture/G1-Scheduler-To-G3-Jobs-Map-2026-09-29.md`. |
 
-**Scope:** Add a night-sleep skip gate on the live Pacific poller, reading a `sleeping` flag and leaving every enabled job running until that gate is explicitly turned on. In scope is the gate module, its Database state and log paths, and one call from `run_job()`. Out of scope is writing the flag, sunrise math, audio mute, hardware switching, a new periodic job, and any other agent's function. This draft is not accepted for execution. Do not promote it onto the active index.
+**Scope:** Add a night-sleep skip gate on the live Pacific poller, reading a `sleeping` flag and leaving every enabled job running until that gate is explicitly turned on. In scope is the gate module, its Database state and log paths, and one call from `run_job()`. Out of scope is writing the flag, sunrise math, audio mute, hardware switching, a new periodic job, and any other agent's function. Built 2026-09-29 with the gate default off. This file stays in drafts. Do not promote it onto the active index.
 
 ---
 
@@ -28,26 +28,26 @@ Folder name: **NightSleep**, under the System domain. One capitalized folder. No
 
 | Item | Location / status |
 | --- | --- |
-| Folder | `NightSleep` — not installed |
-| Server code | `1 - Servers/1 - RootRecord-Pacific-Solar-Server/System/NightSleep/scripts` — to be created at build |
-| Database data | `2 - RootRecord-Database/System/NightSleep/` — `night-mode.json` and the last skip record; not created yet |
-| Database logs | `2 - RootRecord-Database/Logs/System/NightSleep/` — not created yet |
+| Folder | `NightSleep` — installed under System |
+| Server code | `1 - Servers/1 - RootRecord-Pacific-Solar-Server/System/NightSleep/scripts/night_sleep.py` |
+| Database data | `2 - RootRecord-Database/System/NightSleep/` — last skip written by `--check`; no live `night-mode.json` (missing means not sleeping). Git-ignored. |
+| Database logs | `2 - RootRecord-Database/Logs/System/NightSleep/night-sleep.log` — one skip line from `--check`. Git-ignored. |
 | master-key.env | No keys. This function reads no secrets. |
 | Package / module | `NightSleep` |
 | Old skip | `night_sleeping()` and `NIGHT_POLL` inside shared `scheduler.py` |
 | Old flag writer | `write_night_state` / `in_starlink_sleep` in the old EcoFlow BLE poller — not this function |
-| Live poller | `Automations/scripts/rootserver_poller.py` `run_job()` — no night-sleep gate |
-| Live job map | No night-sleep gate. Enabled jobs run around the clock. |
+| Live poller | `Automations/scripts/rootserver_poller.py` `run_job()` calls the gate only when `RR_NIGHT_SLEEP=1` at process start |
+| Live job map | Gate is in code and default off. Enabled jobs still run around the clock until that flag is set. |
 
 ### 2.2 Completed so far
 
 - [x] Old skip behavior read from `scheduler.py` only
-- [x] Live poller `run_job()` read; no newer night-sleep gate exists to enhance
-- [ ] Draft accepted by Alexander
-- [ ] `NightSleep` module, Database paths, and the `run_job()` call
-- [ ] Offline test of `should_run`
-- [ ] Phase 4 archive and GitHub file removal
-- [ ] Library pages corrected
+- [x] Live poller `run_job()` read; no newer night-sleep gate existed to enhance
+- [x] `NightSleep` module, Database paths, and the `run_job()` call (gate default off)
+- [x] Offline test of `should_run` — PASS 2026-09-29 23:59 HST
+- [x] Phase 4: no file belongs only to this gate; nothing archived or deleted
+- [x] Library pages corrected
+- [ ] `RR_NIGHT_SLEEP=1` on the live poller (needs sign-off; poller was not restarted)
 
 ### 2.3 Known friction
 
@@ -108,9 +108,9 @@ Build only after Alexander accepts this draft and says to build. Until then, do 
 
 **Additional requirements:**
 
-- Alexander accepts this draft and says to build before any runtime edit.
-- `RR_NIGHT_SLEEP=1` on the live poller needs a separate sign-off. The default stays unset or `0`.
-- Phase 4 result is still empty: no archive path and no GitHub deletion until a build finds a file that belongs only to this gate. Shared clock files stay.
+- `RR_NIGHT_SLEEP=1` on the live poller needs a separate sign-off. The default stays unset or `0`. The running poller was not restarted, so it still has the previous code until the next start.
+- `jobs.py` was not edited. The flag is read in `rootserver_poller.py` at process start.
+- Phase 4 archive path: none. GitHub deletion: none. Shared files left in place: `old ollama/old skills/scheduler-clock/scripts/scheduler.py`, `SKILL.md`, `CURRENT.md`. EcoFlow poller and its `night-mode.json` were not deleted. No commit and no push. Repository `Solar-Pacific-RootRecord-Server-Old` was not deleted.
 
 ---
 
@@ -123,7 +123,7 @@ Build only after Alexander accepts this draft and says to build. Until then, do 
 - Sign-off gate: enabling `RR_NIGHT_SLEEP` on the live poller. The offline test does not restart the poller.
 - Test: temp `night-mode.json` with `sleeping: true` — `weather_poller` runs, `voice_late_report` does not. Remove the file — both run.
 - New periodic jobs stay gated off. This gate is not a new job.
-- Phase 4 result note (not done): what landed, archive path, and GitHub deletion get added here after the archive copy is on disk.
+- Result (2026-09-29 23:59 HST): `night_sleep.py` and a default-off call in `run_job()` landed. `--check` PASS: with a temp `sleeping: true` file, `weather_poller` runs and `voice_late_report` skips (`last-skip.json` and `night-sleep.log` at 23:59:14-10:00); with the file absent, both run. No live `night-mode.json`. Archive: none. GitHub deletion: none.
 
 ---
 
