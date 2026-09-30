@@ -33,7 +33,7 @@ Work-Orders/
 | WO-OLD-2026-09-28 | Selective recovery from Solar-Pacific-…-Old (G1) | OPEN — scheduler trio **MIGRATED**. Live jobs run on G3. Next G1 packet still waiting. G2 code kept. | [WO](./Old_Server_Selective_Recovery_Work_Order_WO-OLD-2026-09-28.md) |
 | WO-GH-2026-09-27 | GitHub catalog hygiene | **IN PROGRESS** — desk sync is the `ecosystem` row plus `skills`; `pacific` / `database` / `library` disabled (flattened tree, no nested `.git`); website/mainland still disabled | [WO](./GitHub_Catalog_Hygiene_Work_Order_WO-GH-2026-09-27.md) |
 | WO-DATA-2026-09-27 | Database boundary & publication policy | **IN PROGRESS** — canonical Database path landed; public-umbrella publication list still open | [WO](./Database_Boundary_Work_Order_WO-DATA-2026-09-27.md) |
-| WO-AEYES-2026-09-27 | A-EYES capture rate & timelapse | OPEN | [WO](./A-EYES_Work_Order_WO-AEYES-2026-09-27.md) |
+| WO-AEYES-2026-09-27 | A-EYES capture rate & timelapse | OPEN — grabs PASS 22:21. Interval still 1s (proposed 5s, not applied). Timelapse empty until the daylight window. | [WO](./A-EYES_Work_Order_WO-AEYES-2026-09-27.md) |
 
 ---
 
@@ -42,7 +42,7 @@ Work-Orders/
 | ID | Title | Priority | Status | File |
 |----|-------|----------|--------|------|
 | **WO-ECO-001** | Energy domain import (EcoFlow + hybrid reports) | P0 | Phase 1 signed off and archived. Actuating actions still open | [WO](./WO-ECO-001-Energy-Domain-Import.md) · [Action Plan](./Complete/WO-ECO-001-Action-Plan.md) |
-| **WO-SRV-001** | Residual jobs path rewire | P0 | Draft — blocked on WO-ECO-001 (and later domain imports); retained as reference while WO-SRV-2026-09-27 carries the active cutover | [WO](./WO-SRV-001-Residual-Jobs-Path-Rewire.md) |
+| **WO-SRV-001** | Residual jobs path rewire | P0 | Draft — 22:24 HST: 30 job scripts exist; no `~/.ollama/skills/` job path. Not closed. Cutover stays on WO-SRV-2026-09-27. | [WO](./WO-SRV-001-Residual-Jobs-Path-Rewire.md) |
 | **WO-WEB-001** | Public status / solar board alignment | P1 | Draft | [WO](./WO-WEB-001-Public-Status-Solar-Board.md) |
 | **WO-COM-001** | Communications surface | P1 | Draft — tunnel, globe, and quiet relay are Pacific (22:23). Replies stay off. Discord still WO-COM-002. Notify policy unsealed. | [WO](./WO-COM-001-Communications-Surface.md) |
 | **WO-COM-002** | Discord bot credential rotation (migration gate) | P1 | OPEN | [WO](./WO-COM-002-Discord-Bot-Credential-Rotation.md) |
