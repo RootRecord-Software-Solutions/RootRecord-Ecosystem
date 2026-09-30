@@ -147,6 +147,12 @@
 /Logs/Reports/Economy-Brief/*
 !/Logs/Reports/Economy-Brief/.gitkeep
 
+# Grok AI-usage ledger (WO-MIG-37): sqlite, summary, and run log are runtime. Folder markers stay tracked.
+/Reports/AI-Usage/*
+!/Reports/AI-Usage/.gitkeep
+/Logs/Reports/AI-Usage/*
+!/Logs/Reports/AI-Usage/.gitkeep
+
 # Council health (WO-MIG-27): latest report, cooldown, and run log are runtime. README and .gitkeep stay tracked.
 /Communications/CouncilHealth/*
 !/Communications/CouncilHealth/README.md
