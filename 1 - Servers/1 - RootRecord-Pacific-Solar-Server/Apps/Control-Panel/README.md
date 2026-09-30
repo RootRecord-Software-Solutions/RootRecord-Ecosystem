@@ -2,7 +2,7 @@
 
 Added 2026-09-29 as "RootRecord Control Panel"; renamed **Root Monitor** 2026-09-29 ~13:00 HST (folder, file names and app id unchanged, so the existing launcher keeps working). A native Linux app, read-only except the Settings editor (masked diff + confirm + backup + atomic write; never restarts anything). No browser, no Chromium, no Electron, no network server. It is added **alongside** the existing viewers. `poller-dashboard.py`, `poller-watch.py`, `open-poller-window.sh`, the poller ENERGY status line and `npu-status.sh` are unchanged and still work.
 
-State: **LANDED**. Headless `--check` PASS, settings editor tests 103/103 PASS, real-window render PASS. `--check` RSS 84.5 MB is over the 80 MB target (flagged). **VERIFY PENDING** (sign-off): default-viewer swap, autostart unit, starting Conky (now installed; config copied, not started).
+State: **LANDED**. Headless `--check` PASS 2026-09-30 02:33 HST (0 secret leaks, peak RSS 89.8 MB, over the 80 MB target). Settings editor tests 103/103 PASS. Toggle tests 30/30 PASS. **Login viewer applied** 2026-09-30 02:33 HST (`swap-default-viewer.sh apply`). Conky is installed and still not started. The user systemd unit is still not installed.
 
 ## Launch
 
