@@ -15,7 +15,7 @@
 ## Done
 
 - [x] Github scripts imported to `…/Pacific/Github/scripts/`
-- [x] `repos.conf` tab-separated. As of 22:22 HST the enabled rows are `ecosystem` and `skills`. `pacific`, `database`, and `library` are disabled (flattened into the umbrella). `website` and `mainland` stay disabled.
+- [x] `repos.conf` tab-separated. As of 23:45 HST the enabled rows are `ecosystem` (inplace) plus `pacific`, `database`, and `library` (mirror publishes of the live subfolders) and `skills`. `website` and `mainland` stay disabled.
 - [x] jobs.py → Pacific `setup-all-remotes` + `sync-all`
 - [x] Poller cycle syncs `ecosystem` and `skills` without fail storms (22:21 HST). It does not sync separate pacific, database, or library checkouts.
 

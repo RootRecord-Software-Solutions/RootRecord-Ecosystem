@@ -55,13 +55,57 @@ _Source: locally collected NWS-HFO Regional Weather Roundup (RWR). Values are °
 
 | Status | Coverage | Updated | Sections |
 |---|---|---|---:|
-| 🟢 Active | Hawaiʻi statewide | 2026-09-29T23:40:21-10:00 HST | 17 |
+| 🟢 Active | Hawaiʻi statewide | 2026-09-29T23:49:21-10:00 HST | 19 |
 
 The report below is generated from the same current product sections as `Hawaii_State_Weather_Report_current.md`.
 
 ---
 
-### 1. Area Forecast Discussion
+### 1. AIRMETs
+
+| Field | Value |
+|---|---|
+| **Resource ID** | wa0_airmets |
+| **Official source** | https://forecast.weather.gov/product.php?site=HFO&product=WA0&issuedby=HI |
+| **Collected** | 2026-09-29T23:41:53.877770-10:00 HST |
+
+```text
+306
+WAHW31 PHFO 300926
+WA0HI
+
+HNLS WA 301000
+AIRMET SIERRA UPDATE 2 FOR IFR VALID UNTIL 301600
+.
+AIRMET MTN OBSC...KAUAI
+ENTIRE AREA.
+TEMPO MTN OBSC ABV 020 EXP DUE TO CLD AND SHRA.
+COND CONT BEYOND 1600Z.
+.
+AIRMET MTN OBSC...OAHU
+N THRU E SECTIONS.
+TEMPO MTN OBSC ABV 020 EXP DUE TO CLD AND SHRA.
+COND CONT BEYOND 1600Z.
+
+=HNLT WA 301000
+AIRMET TANGO UPDATE 2 FOR TURB VALID UNTIL 301600
+.
+AIRMET TURB...KAUAI
+OVER AND IMT W THRU N OF MTN.
+TEMPO MOD TURB BLW 080.
+COND CONT BEYOND 1600Z.
+
+=HNLZ WA 301000
+AIRMET ZULU UPDATE 1 FOR ICE AND FZLVL VALID UNTIL 301600
+.
+NO SIGNIFICANT ICE EXP.
+.
+FZLVL...153 PHLI SLOPING TO 166 PHTO.
+```
+
+---
+
+### 2. Area Forecast Discussion
 
 | Field | Value |
 |---|---|
@@ -194,7 +238,7 @@ MARINE...JVC
 
 ---
 
-### 2. Daily Climate Summary — HNL
+### 3. Daily Climate Summary — HNL
 
 | Field | Value |
 |---|---|
@@ -287,7 +331,7 @@ T  INDICATES TRACE AMOUNT.
 
 ---
 
-### 3. Daily Climate Summary — ITO
+### 4. Daily Climate Summary — ITO
 
 | Field | Value |
 |---|---|
@@ -383,7 +427,7 @@ T  INDICATES TRACE AMOUNT.
 
 ---
 
-### 4. Daily Climate Summary — LIH
+### 5. Daily Climate Summary — LIH
 
 | Field | Value |
 |---|---|
@@ -479,7 +523,7 @@ T  INDICATES TRACE AMOUNT.
 
 ---
 
-### 5. Daily Climate Summary — OGG
+### 6. Daily Climate Summary — OGG
 
 | Field | Value |
 |---|---|
@@ -573,13 +617,13 @@ T  INDICATES TRACE AMOUNT.
 
 ---
 
-### 6. Hawaii Rainfall Summary direct product
+### 7. Hawaii Rainfall Summary direct product
 
 | Field | Value |
 |---|---|
 | **Resource ID** | hfo_rra_direct |
 | **Official source** | https://forecast.weather.gov/product.php?issuedby=HFO&product=RRA&site=hfo |
-| **Collected** | 2026-09-29T23:25:44.151769-10:00 HST |
+| **Collected** | 2026-09-29T23:42:38.319458-10:00 HST |
 
 ```text
 510
@@ -845,13 +889,13 @@ $$
 
 ---
 
-### 7. HFO statewide surf observations direct page
+### 8. HFO statewide surf observations direct page
 
 | Field | Value |
 |---|---|
 | **Resource ID** | hfo_surf_reports_direct |
 | **Official source** | https://www.weather.gov/hfo/surfreports |
-| **Collected** | 2026-09-29T23:33:40.923213-10:00 HST |
+| **Collected** | 2026-09-29T23:42:40.890202-10:00 HST |
 
 ```text
                         
@@ -939,7 +983,7 @@ $$
 
 ---
 
-### 8. Hourly Wind/Precip Observations
+### 9. Hourly Wind/Precip Observations
 
 | Field | Value |
 |---|---|
@@ -1149,7 +1193,7 @@ National Weather Service Honolulu HI
 
 ---
 
-### 9. NHC Atlantic Tropical Weather Outlook — 2 day
+### 10. NHC Atlantic Tropical Weather Outlook — 2 day
 
 | Field | Value |
 |---|---|
@@ -1163,7 +1207,7 @@ National Weather Service Honolulu HI
 
 ---
 
-### 10. NHC Atlantic Tropical Weather Outlook — 7 day
+### 11. NHC Atlantic Tropical Weather Outlook — 7 day
 
 | Field | Value |
 |---|---|
@@ -1177,7 +1221,7 @@ National Weather Service Honolulu HI
 
 ---
 
-### 11. NHC Central Pacific Tropical Weather Outlook — 2 day
+### 12. NHC Central Pacific Tropical Weather Outlook — 2 day
 
 | Field | Value |
 |---|---|
@@ -1191,7 +1235,7 @@ National Weather Service Honolulu HI
 
 ---
 
-### 12. NHC Central Pacific Tropical Weather Outlook — 7 day
+### 13. NHC Central Pacific Tropical Weather Outlook — 7 day
 
 | Field | Value |
 |---|---|
@@ -1205,7 +1249,7 @@ National Weather Service Honolulu HI
 
 ---
 
-### 13. NHC Eastern Pacific Tropical Weather Outlook — 2 day
+### 14. NHC Eastern Pacific Tropical Weather Outlook — 2 day
 
 | Field | Value |
 |---|---|
@@ -1219,7 +1263,7 @@ National Weather Service Honolulu HI
 
 ---
 
-### 14. NHC Eastern Pacific Tropical Weather Outlook — 7 day
+### 15. NHC Eastern Pacific Tropical Weather Outlook — 7 day
 
 | Field | Value |
 |---|---|
@@ -1233,13 +1277,13 @@ National Weather Service Honolulu HI
 
 ---
 
-### 15. NHC source index
+### 16. NHC source index
 
 | Field | Value |
 |---|---|
 | **Resource ID** | nhc_homepage |
 | **Official source** | https://www.nhc.noaa.gov/ |
-| **Collected** | 2026-09-29T23:40:21.309638-10:00 HST |
+| **Collected** | 2026-09-29T23:49:21.176917-10:00 HST |
 
 ```text
 Home
@@ -1363,7 +1407,7 @@ Search
 Top News of the Day...
 view past news
 
-Last update Wed, 30 Sep 2026 09:35:08 UTC
+Last update Wed, 30 Sep 2026 09:40:57 UTC
 
 NHC issuing advisories for the Atlantic on
 
@@ -2120,7 +2164,78 @@ Glossary
 
 ---
 
-### 16. Statewide Surf Observations
+### 17. Offshore Forecast (40-240nm)
+
+| Field | Value |
+|---|---|
+| **Resource ID** | off_offshore_forecast |
+| **Official source** | https://forecast.weather.gov/product.php?site=HFO&product=OFF&issuedby=HFO |
+| **Collected** | 2026-09-29T23:40:53.886000-10:00 HST |
+
+```text
+390
+FZHW60 PHFO 300932
+OFFHFO
+
+Offshore Waters Forecast for Hawaii
+National Weather Service Honolulu HI
+1132 PM HST Tue Sep 29 2026
+
+Hawaiian offshore waters beyond 40 nautical miles out to 240
+nautical miles including the portion of the Papahanaumokuakea
+Marine National Monument east of French Frigate Shoals
+
+Seas given as significant wave height, which is the average height
+of the highest 1/3 of the waves. Individual waves may be more than
+twice the significant wave height.
+
+PHZ105-301630-
+1132 PM HST Tue Sep 29 2026
+
+.Synopsis for the Hawaiian offshore waters...
+The center of Tropical Storm Nolo is tracking W along the W edge
+of the offshore waters. Nolo will continue to move slowly W with
+tropical storm force winds exiting the far W Hawaiian Offshore
+Waters by Thursday.
+
+AT 1100 PM HST TROPICAL STORM NOLO WAS CENTERED AT 22.4N
+164.6W...MOVING WNW AT 5 KT
+
+NOLO FORECAST POSITIONS
+800 AM HST WEDNESDAY 22.6N 164.6W
+800 PM HST MONDAY 22.7N 165.0W
+800 AM HST TUESDAY 22.6N 165.6W
+800 PM HST TUESDAY 22.8N 166.5W
+800 AM HST WEDNESDAY 23.1N 167.4W
+800 PM HST WEDNESDAY 23.4N 168.8W
+800 PM HST THURSDAY 24.1N 174.5W
+800 PM HST FRIDAY 26.1N 178.7E
+800 PM HST SATURDAY 27.4N 171.8E
+800 PM HST SUNDAY 28.4N 164.2E
+
+PHZ180-301630-
+Hawaiian Offshore Waters-
+1132 PM HST Tue Sep 29 2026
+
+...TROPICAL STORM WARNING IN EFFECT...
+
+.REST OF TONIGHT...Tropical storm conditions expected S of 25N, N
+of 20N, and W of 162W. SE to S winds 15 to 25 kt. Seas 6 to 10
+ft. Isolated thunderstorms far W waters.
+.WEDNESDAY AND WEDNESDAY NIGHT...Tropical storm conditions
+expected S of 25N, N of 20N, and W of 162W. SE to S winds 15 to 25
+kt. Seas 6 to 10 ft. Isolated thunderstorms far W waters.
+.THURSDAY AND THURSDAY NIGHT...W of 160W, SE to S winds 15 to 30
+kt. Elsewhere, E to SE winds 10 to 20 kt. Seas 5 to 10 ft, highest
+far W waters. Isolated thunderstorms far W waters.
+.FRIDAY...E to SE winds 10 to 20 kt. Seas 5 to 8 ft.
+.SATURDAY...E winds 10 to 20 kt. Seas 5 to 7 ft.
+.SUNDAY...NE to E winds 15 to 25 kt. Seas 5 to 7 ft.
+```
+
+---
+
+### 18. Statewide Surf Observations
 
 | Field | Value |
 |---|---|
@@ -2214,13 +2329,13 @@ $$
 
 ---
 
-### 17. Tsunami Bulletin product type reference
+### 19. Tsunami Bulletin product type reference
 
 | Field | Value |
 |---|---|
 | **Resource ID** | hfo_tib_reference |
 | **Official source** | https://forecast.weather.gov/product_types.php |
-| **Collected** | 2026-09-29T23:25:29.180511-10:00 HST |
+| **Collected** | 2026-09-29T23:42:23.876777-10:00 HST |
 
 ```text
 National Weather Service
