@@ -31,7 +31,7 @@
 | --- | --- | --- |
 | Telegram / coms | `council_relay` | G3 surface + `System/scripts/plumbing/single-flight.sh` landed; runtime verification pending |
 | Security/Cameras (formerly A-Eyes) | cam server, frame grab, timelapse | G3 surface landed, including hourly wrapper; runtime verification pending |
-| Weather | `weather_poller` | Already **disabled** |
+| Weather | `weather_poller` | Enabled. Restarted 2026-09-29 22:04 HST after `Weather/.venv` was rebuilt. Geology and voice stay off. The 2026-09-28 “disabled” notes below are historical. |
 | Network globe | cwd | source LANDED / runtime VERIFY PENDING — cwd now Pacific |
 
 ### Legacy `SKILL.md` preservation rule

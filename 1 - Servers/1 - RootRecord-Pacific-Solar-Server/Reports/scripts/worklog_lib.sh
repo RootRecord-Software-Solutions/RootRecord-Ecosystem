@@ -74,6 +74,10 @@ should_skip() {
     *credentials*|*.pem|*.p12|*id_rsa*|*id_ed25519*) return 0 ;;
     */master-key.env|*/.cloudflared/*|*/.env|*/.env.*) return 0 ;;
     */.venv/*|*/.venv) return 0 ;;
+    */old\ ollama/*|*/old\ ollama) return 0 ;;
+    */RootRecord-Ecosystem-SNAPSHOT/*|*/RootRecord-Ecosystem-SNAPSHOT) return 0 ;;
+    */RootRecord-Ecosystem-SNAPSHOT-CLEAN/*|*/RootRecord-Ecosystem-SNAPSHOT-CLEAN) return 0 ;;
+    */.config/*|*/.config) return 0 ;;
     */Media/Images/*|*/Media/Images|*/Media/Timelapses/*|*/Media/Timelapses) return 0 ;;
     */Energy/samples/*|*/Energy/samples|*/System/samples/*|*/System/samples|*/System/layers/*|*/System/layers) return 0 ;;
   esac
@@ -100,6 +104,10 @@ find_changed() {
       -path "$HOME_ROOT/.gradle" -o \
       -path "$HOME_ROOT/.cargo" -o \
       -path "$HOME_ROOT/.cloudflared" -o \
+      -path "$HOME_ROOT/old ollama" -o \
+      -path "$HOME_ROOT/RootRecord-Ecosystem-SNAPSHOT" -o \
+      -path "$HOME_ROOT/RootRecord-Ecosystem-SNAPSHOT-CLEAN" -o \
+      -path "$HOME_ROOT/.config" -o \
       -name .git -o \
       -name node_modules -o \
       -name __pycache__ -o \
