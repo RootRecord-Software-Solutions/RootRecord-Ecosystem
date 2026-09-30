@@ -4,7 +4,7 @@
 | --- | --- |
 | **Work Order ID** | WO-MIG-31-2026-09-29 |
 | **Date** | 2026-09-30 (HST) |
-| **Status** | OPEN — draft, not accepted for execution |
+| **Status** | BUILT — local inbox landed 2026-09-30. Cloudflare drain paused (D1 sync has no Folder). Not promoted to the active index. |
 | **Owner** | RootRecord |
 | **Related** | Agent 31, wave D. One send pipe, then the messages. No later function depends on this one. Cloudflare drain waits on agent 30 (D1 sync). Matrix row 63. Scheduler map rows `inbox-drain` and `overnight-relay`. |
 

@@ -143,9 +143,29 @@ def write_json(path: Path, payload: dict) -> None:
     os.replace(tmp, path)
 
 
+def snapshot_is_fresh() -> bool:
+    if "--force" in sys.argv or not LAST_PATH.is_file():
+        return False
+    try:
+        payload = json.loads(LAST_PATH.read_text(encoding="utf-8"))
+        stamp = datetime.fromisoformat(payload["updated_at"])
+    except (OSError, json.JSONDecodeError, KeyError, TypeError, ValueError):
+        return False
+    if stamp.tzinfo is None:
+        stamp = stamp.replace(tzinfo=HST)
+    return datetime.now(HST) - stamp < MIN_AGE
+
+
 def run() -> dict:
     OUT.mkdir(parents=True, exist_ok=True)
     LOG_DIR.mkdir(parents=True, exist_ok=True)
+    if snapshot_is_fresh():
+        return {
+            "ok": True,
+            "http_calls": 0,
+            "note": "snapshot_fresh",
+            "updated_at": datetime.now(HST).isoformat(timespec="seconds"),
+        }
     raw = load_allowlist(ALLOWLIST)
     entries = select_places(raw)
     rows = []

@@ -197,3 +197,7 @@
 !/Communications/MetaAI/README.md
 /Logs/Communications/MetaAI/*
 !/Logs/Communications/MetaAI/.gitkeep
+
+# Scoped path index (WO-MIG-42): paths.txt, mtimes, and the counts log are runtime.
+/System/PathIndex/
+/Logs/System/PathIndex/
