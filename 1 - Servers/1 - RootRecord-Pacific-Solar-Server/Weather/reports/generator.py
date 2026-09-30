@@ -32,7 +32,7 @@ from reports.banner import OUTPUT_RELATIVE, generate_readme_banner  # info: from
 REPORTS_DIRNAME = "reports"  # info: set REPORTS_DIRNAME
 LEVEL0_DIRNAME = "0 Level Processing"  # info: set LEVEL0_DIRNAME
 ARCHIVE_DIRNAME = "archived"  # info: set ARCHIVE_DIRNAME
-REPORTING_README = Path(__file__).resolve().parent / "README.md"  # info: set REPORTING_README
+README_TEMPLATE = Path(__file__).resolve().parent / "README_TEMPLATE.md"  # info: set README_TEMPLATE
 DATABASE_README_TEMPLATE = Path(__file__).resolve().parent / "WEATHER_DATABASE_README_TEMPLATE.md"  # info: set DATABASE_README_TEMPLATE
 AGGREGATE_FILENAME = "Hawaii_State_Weather_Report_current.md"  # info: set AGGREGATE_FILENAME
 _EXCLUDED_PREFIXES = ("alerts_", "wwamap_", "nhc_current_storms", "ndfd_", "obhistory_")  # info: set _EXCLUDED_PREFIXES
