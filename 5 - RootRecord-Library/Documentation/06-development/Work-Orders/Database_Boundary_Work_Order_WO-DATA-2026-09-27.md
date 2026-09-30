@@ -4,7 +4,7 @@
 | --- | --- |
 | **Work Order ID** | WO-DATA-2026-09-27 |
 | **Date** | 2026-09-27 (HST) |
-| **Status** | **IN PROGRESS** — canonical Database root standardized in active Pacific source; historical `/home/rootrecord/Database/` references remain only where explicitly preserved as historical/operator evidence. Poller source has now been corrected to the canonical root; remaining runtime confirmation is tracked in WO-SRV. |
+| **Status** | **IN PROGRESS** — canonical path is in place. Subtree labels recorded 2026-09-29 ~21:41 HST. Users/PII retention and media-master retention are still open, so this order is not closed. |
 | **Owner** | RootRecord |
 | **Related** | WO-ECO; RootRecord-Weather-Database |
 
@@ -35,8 +35,8 @@ Ecosystem tree separates generated data from knowledge and code. Weather already
 - [x] Weather publication path exists
 - [x] Active Pacific source paths standardized on the canonical Ecosystem Database root
 - [x] Database `.gitignore` now excludes generated/binary image, audio, video, and icon media
-- [ ] Map each Database subtree to local-only / publish / archive-drive
-- [ ] Confirm sync size guards remain correct
+- [x] Map each Database subtree to local-only / publish / archive-drive (labels below, 2026-09-29)
+- [x] Sync size guard remains `MAX_FILE_MB` default 90 in `Github/scripts/common.sh`
 
 ### 2.3 Known friction
 
@@ -44,6 +44,19 @@ Ecosystem tree separates generated data from knowledge and code. Weather already
 - Media/timelapses can exceed git-friendly sizes; generated binary media is now gitignored in the Database repo.
 
 ---
+
+## 2.4 Subtree labels (2026-09-29)
+
+Live data desk: `/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/`.  
+`/home/rootrecord/Database/GITHUB/` is archive and flag storage outside the auto-synced tree.
+
+- Energy `samples/`, `soc/`, `watts/`: local-only. Listed in `ecosystem-skip-autocommit.txt`.
+- System `samples/`, `layers/`, `cpu/`, `load/`, `mem/`, `last/`, `status/`, `system.db`: local-only. Same skip list.
+- Worklog and Logs: local-only for the live files on that skip list. Hourly log archives may already be tracked from earlier commits.
+- Weather: local-only. Database `.gitignore` ignores `/Weather/`. Published products stay in RootRecord-Weather-Database.
+- Media images, audio, and video: local-only. Database `.gitignore` ignores those extensions. Timelapse masters versus retention is still an open item.
+- Geology sqlite: local-only (`.gitignore`). Geology `*-last.json` and `Daily/*.jsonl` are still tracked. That churn is not signed off for the public umbrella.
+- `cloudflared` binary: local-only. Added to the skip list when the file was restored.
 
 ## 3. Tasks
 
