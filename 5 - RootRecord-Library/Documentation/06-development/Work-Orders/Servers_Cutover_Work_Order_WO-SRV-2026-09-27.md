@@ -17,9 +17,9 @@
 | Item | Status |
 | --- | --- |
 | systemd ExecStart | Pacific `run-poller.sh` (quoted) |
-| Energy (reads + leapfrog + actions) | source LANDED / runtime VERIFY PENDING — folder **`Energy/` only**; `ECOFLOW_ACTIONS` → `Energy/scripts/actions` |
+| Energy (reads + leapfrog + actions) | Reads **PASS** 2026-09-29 22:10 HST (`SUMMARY=` from `src=api`, B2 7%, B1 100%). Actuating actions still pending. Folder **`Energy/` only**. |
 | System | source LANDED / runtime **PASS** 2026-09-29 22:13 HST. `sys_stats_cycle` wrote `2 - RootRecord-Database/System/samples/sys-20260929-221323.json`. |
-| Plumbing (ollama + FLM warmup) | source LANDED / runtime VERIFY PENDING — under **`System/scripts/plumbing/`** |
+| Plumbing (ollama + FLM warmup) | source LANDED / runtime **PASS** — non-NPU 00:57 HST, NPU `llama3.2:1b` 02:52 HST, both under **`System/scripts/plumbing/`** |
 | Reports (worklog + roll-up + archive) | source LANDED / runtime **PASS** 2026-09-29 22:13 HST. Catch-up scan 22:11–22:13; the next scan was 22:13:36–22:13:37. Roll-up and weekly archive are closed under WO-RPT-001. |
 | Github (setup-remotes + sync-all) | source LANDED / runtime **PASS** 2026-09-29 22:01 HST. Automatic authority is `github_sync_all` (WO-GH-001). |
 | Communications/network (cloudflare + globe command) | source LANDED / runtime **PASS** 2026-09-29 22:13 HST. Globe process is Pacific `Communications/network/local-data-globe/collector.js`. Tunnel was HTTP 200 earlier tonight (WO-CF). |
@@ -383,7 +383,7 @@ Test records: [`Documentation/07-testing/`](../../07-testing/README.md). Databas
 | Database Title-case rename (one stack restart 03:09 HST) | PASS | Database `92bd69c`, Pacific `1368822`; docs `0b7be45` (Pacific), `7d2e79b` (Library), `66cbae7` (Database) — [record](../../07-testing/2026-09-29-database-titlecase-rename.md) |
 | OOM loop from resident FLM warmup (03:10–03:13 HST) | FAIL → fixed; fix PASS | `ff298b2` (non-resident warmup, `FLM_WARMUP_RESIDENT=1` opt-in), `3039c3f` (`--keepalive 0`); poller PID 105444 stable since 03:13:28 — [record](../../07-testing/2026-09-29-oom-flm-warmup-resident.md) |
 | EcoFlow data freshness (`Energy/.venv`) | PASS (battery levels flagged) | WO-SRV 03:20 entry; `Energy/soc/*-last.json` `source: ble` — [record](../../07-testing/2026-09-29-ecoflow-stale-data-energy-venv.md) |
-| Laptop battery B3 / `LAP=` | LANDED / VERIFY PENDING | `0ea16cd`; 0 `LAP=` lines at 03:38 HST (poller predates the commit) — [record](../../07-testing/2026-09-29-laptop-battery-b3-dashboard.md) |
+| Laptop battery B3 / `LAP=` | **PASS** 2026-09-29 22:10 HST | `LAP=46%/Discharging/batt` on the energy status line. The 03:38 gap was the pre-commit poller. — [record](../../07-testing/2026-09-29-laptop-battery-b3-dashboard.md) |
 | NPU route `llama3.2:1b` on demand | PASS (route); own-session fix VERIFY PENDING | `753168e`, `7000197`; Library `e023b08`; Database `dc382a2` — [record](../../07-testing/2026-09-29-npu-llama3.2-1b-on-demand.md) |
 | Telegram relay | login/polling PASS; replies BLOCKED (models); quiet mode default | `ebc32a7`, `b3754fb` |
 | G2 legacy files | KEPT (retire only with Alexander sign-off) | skills `1dcee66` |
@@ -393,7 +393,7 @@ Test records: [`Documentation/07-testing/`](../../07-testing/README.md). Databas
 2. `ava-/bruce-/carly-telegram` models missing — relay replies **BLOCKED**. Relay quiet mode is the default (`RR_RELAY_REPLIES=0`) until Alexander opts in. Caveat: in quiet mode incoming messages are consumed (marked read) and will **not** be answered later.
 3. Security timelapse check after 05:00 HST — **VERIFY PENDING**.
 4. Energy arm/disarm and AC hardware tests — **VERIFY PENDING** (need Alexander's approval).
-5. B1 (River 2 Pro) physical check; both batteries low (03:39 HST BLE: B2 47.56%, B1 5.23%) — **VERIFY PENDING**.
+5. B1 (River 2 Pro) physical check — **VERIFY PENDING**. API at 22:10 HST: B1 100%, B2 (Delta 2) 7%, laptop 46% and discharging. The 03:39 BLE snapshot (B1 5.23%, B2 47.56%) is historical.
 6. Weather retention policy — **PROPOSED** (Pacific `Weather/README.md` §Retention, awaiting sign-off).
 7. Whether `Weather/` gets its own repo (RootRecord-Weather-Database) — **PROPOSED** / needs decision; weather data is local only.
 8. Weather and relay start only at poller boot (ON_BOOT); no mid-session auto-recovery — open design item.
