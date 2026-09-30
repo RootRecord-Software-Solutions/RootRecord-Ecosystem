@@ -4,10 +4,10 @@ overview: Restore live EcoFlow BLE samples (they have been stuck on a frozen clo
 todos:
   - id: restore-venv
     content: Recreate Energy/.venv and confirm one Delta 2 and one River 2 Pro read return source=ble
-    status: in_progress
+    status: completed
   - id: log-fallback
     content: Put the BLE failure reason on the poller SUMMARY line when a read falls back to the API
-    status: pending
+    status: in_progress
   - id: live-paths
     content: Repoint any still-running process that executes from the old Database or G2 skills tree
     status: pending
