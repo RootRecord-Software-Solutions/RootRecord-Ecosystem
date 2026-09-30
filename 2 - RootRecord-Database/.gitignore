@@ -121,6 +121,10 @@
 /Media/Playback/
 /Logs/Media/Playback/
 
+# Cloud TTS routing (WO-MIG-33): last-route state, Ara audio, and router log are runtime.
+/Media/CloudTTS/
+/Logs/Media/CloudTTS/
+
 # Site route check (WO-MIG-08): last file and log line are runtime. Stay out of git.
 /Communications/Site/
 /Logs/Communications/Site/
@@ -171,6 +175,10 @@
 /ContextSession/*.db-shm
 /Logs/ContextSession/*
 !/Logs/ContextSession/README.md
+
+# Code review pack (WO-MIG-34): generated packs and the run log are runtime. Stay out of git.
+/CodeReview/
+/Logs/CodeReview/
 
 # River car DC drive (WO-MIG-39): state, lock, and log are runtime. Stay out of git.
 /Energy/River-Car/
