@@ -116,17 +116,23 @@ while IFS=$'\t' read -r id enabled mode local_path slug remote_name; do
   found=1
   [[ "$enabled" == "1" ]] || { echo "[skip] $id disabled"; exit 0; }
 
+  mirror_writeback() {
+    [[ "$mode" == "mirror" ]] || return 0
+    rsync -a --exclude '.git' "$root"/ "$local_path"/
+    echo "↓ [$id] merged GitHub copy written back to the live folder"
+  }
+
   if [[ "$mode" == "inplace" ]]; then
     root="$local_path"
   else
     root="$BAK_ROOT/worktrees/$id"
-    mkdir -p "$root"
     if [[ ! -d "$root/.git" ]]; then
-      echo "ERROR: mirror worktree missing — run setup-all-remotes.sh first" >&2
-      exit 1
+      bash "$GITHUB_SCRIPTS/setup-remote.sh" "$id" || exit 1
     fi
+    [[ -d "$root/.git" ]] || { echo "ERROR: mirror worktree missing for $id" >&2; exit 1; }
     rsync -a --delete \
       --exclude '.git' \
+      --exclude '.venv' \
       --exclude 'node_modules' \
       --exclude '.next' \
       --exclude 'tsconfig.tsbuildinfo' \
@@ -202,6 +208,7 @@ while IFS=$'\t' read -r id enabled mode local_path slug remote_name; do
       exit 1
     fi
     echo "✓ [$id] GitHub changes merged into local $branch"
+    mirror_writeback
     mark_code_pulled "$id" "$local_path" "$(git rev-parse HEAD)" "$local_head"
   fi
 
@@ -226,6 +233,7 @@ while IFS=$'\t' read -r id enabled mode local_path slug remote_name; do
         echo "✗ [$id] final merge conflict; local history preserved" >&2
         exit 1
       fi
+      mirror_writeback
       mark_code_pulled "$id" "$local_path" "$(git rev-parse HEAD)" "$local_head"
     fi
 
