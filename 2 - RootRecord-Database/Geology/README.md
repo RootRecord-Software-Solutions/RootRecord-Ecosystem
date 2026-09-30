@@ -26,7 +26,7 @@ Geology/
 | `Geology/scripts/kilauea_cams.py` | `geology_kilauea_cams` | 600 s | `RR_KILAUEA_CAMS=1` |
 | `Geology/scripts/earthquakes_backfill.py` | — (on demand) | — | — |
 
-Readers: Pacific `Media/Voice/scripts/voice_reports.py earthquake_report` (job `voice_earthquake_report`, gate `RR_VOICE_QUAKE=1`) and `kilauea_report` (job `voice_kilauea_report`, gate `RR_VOICE_KILAUEA=1`); no delivery. Keeping these jobs.py registrations is a sign-off item (`Logs/Migration/migration-jobs-py-additions-20260929.md`).
+Readers: Pacific `Media/Voice/scripts/voice_reports.py earthquake_report` (job `voice_earthquake_report`, gate `RR_VOICE_QUAKE=1`) and `kilauea_report` (job `voice_kilauea_report`, gate `RR_VOICE_KILAUEA=1`); those voice jobs do not deliver. Pacific `Geology/Earthquake-Discord/scripts/earthquake_discord_post.py` reads the earthquake last files and prints a Discord message (dry-run). It does not write `Earthquake-Discord/posted-last.json` unless a later `--send` is actually accepted by the pipe. Job `earthquake_discord_post` stays off unless `RR_EARTHQUAKE_DISCORD=1`. Keeping these jobs.py registrations is a sign-off item (`Logs/Migration/migration-jobs-py-additions-20260929.md`).
 
 Event fields (since 2026-09-29 13:49 HST): every quake event also carries `nearest` = {location_id, name, country_code, admin1_code, km} — the closest place in Pacific `Geology/config/global-locations.json` within 250 km (G0 global poller rule), else `null`.
 

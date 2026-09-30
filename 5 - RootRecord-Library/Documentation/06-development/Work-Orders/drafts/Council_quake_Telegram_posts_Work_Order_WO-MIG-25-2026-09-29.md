@@ -37,7 +37,8 @@ Folder name, used in all three places: `CouncilQuake` (inside Communications). N
 | Live voice map (keep) | `Media/Voice/scripts/speakers.py` — `earthquake` → Carly (`af_nova`). Do not replace Kokoro. |
 | Live hourly rollup (keep) | `Media/Voice/scripts/voice_reports.py earthquake_report`. No delivery. Different function. |
 | Live relay (keep) | `Communications/telegram/scripts/council-relay.py`. Quiet unless `RR_RELAY_REPLIES=1`. Chat id key: `COUNCIL_CHAT_ID` in `Communications/telegram/config/relay.conf`. |
-| Persona Folder (dependency) | `Communications/CouncilPersona/` — not created yet. Agent 03’s draft names it. Pause at build if it is still missing. Do not build it here. |
+| Persona homes (already on disk) | Library `Agent Context/{Ava,Bruce,Carly}-Agent-Context/` (canonical packs, WO-AGENT). Telegram models: `2 - RootRecord-Database/AI/Ollama/Modelfiles/Production/{ava,bruce,carly}-telegram.Modelfile`. Council specialists: `Modelfiles/Specialists/rr-council-{ava,bruce,carly}.Modelfile`. Documented in `AI-Specialist-Models-and-Routing.md` and `Documentation/02-agents/README.md`. This notice does not copy them. |
+| Unbuilt copy | `Communications/CouncilPersona/` is agent 03’s planned copy. It is not the persona home. This function does not create it. |
 | Old source | `/home/rootrecord/old ollama/old skills/council/council-quake/` — tracked in `rootrecordsoftwaresolutions/Solar-Pacific-RootRecord-Server` |
 | `master-key.env` keys | `TELEGRAM_CARLY_TOKEN` only, allowlisted the way `Energy/lib/envload.py` allowlists EcoFlow keys. Never print the value. No second env file. Dry-run does not load the key. |
 

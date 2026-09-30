@@ -146,3 +146,9 @@
 !/Reports/Economy-Brief/.gitkeep
 /Logs/Reports/Economy-Brief/*
 !/Logs/Reports/Economy-Brief/.gitkeep
+
+# Council health (WO-MIG-27): latest report, cooldown, and run log are runtime. README and .gitkeep stay tracked.
+/Communications/CouncilHealth/*
+!/Communications/CouncilHealth/README.md
+/Logs/Communications/CouncilHealth/*
+!/Logs/Communications/CouncilHealth/.gitkeep

@@ -124,9 +124,8 @@ No `mysql` client and no PyMySQL are installed. The live path may import PyMySQL
 
 **Additional requirements:**
 
-- Alexander accepts this draft before any runtime edit.
 - Alexander puts the allowlisted key names into `master-key.env` before any live Shockbyte read. This work order does not write those values.
-- Shared-file pause: if `live-data-pages` still imports `db_facts`, leave that file and name it here. Same rule for any other importer of `mysql.py`.
+- Shared file left: `mysql/scripts/mysql.py`. `desk-data-reader/desk/live/mysql.py` symlinks to it.
 
 ---
 
@@ -153,3 +152,18 @@ Documentation/06-development/Work-Orders/drafts/MySQL_desk_facts_Work_Order_WO-M
 ```
 
 Do not promote it onto the active index.
+
+---
+
+## Result
+
+Landed 2026-09-30. Read-only client at `System/MysqlDesk/scripts/mysql_desk.py` with `System/MysqlDesk/lib/envload.py`. `python3 mysql_desk.py facts` with the allowlist empty wrote `facts-last.json` and one log line: `ok=False`, `error=missing-credentials`, both targets false. PyMySQL was not imported. No Shockbyte socket. No `jobs.py` edit.
+
+Archive (checksums matched the old tree before deletion):
+
+- `Old repos deleted and merged/Solar-Pacific-RootRecord-Server/mysql/`
+- `Old repos deleted and merged/Solar-Pacific-RootRecord-Server/database/db-facts/`
+
+Removed on GitHub `rootrecordsoftwaresolutions/Solar-Pacific-RootRecord-Server` branch `online-safe-20260920` commit `0e3ebe2b`: all of `database/db-facts/`, plus `mysql/DAILY.md`, `mysql/INDEX.md`, `mysql/SKILL.md`, and `mysql/references/migrate.md`. `origin/main` (`1dcee662`) does not contain those paths. The repository was not deleted.
+
+Left in the old repo: `mysql/scripts/mysql.py`. `desk-data-reader/desk/live/mysql.py` is a symlink to it. `live-data-pages` is already gone from this branch (`577ad693`), so it does not import `db_facts` here. The `origin/ns/apps/core/services` shims still point at `~/.ollama/skills/mysql` and `~/.ollama/skills/db-facts`, which are not this tree and were already absent.
