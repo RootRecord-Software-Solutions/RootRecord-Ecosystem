@@ -4,7 +4,7 @@
 | --- | --- |
 | **Work Order ID** | WO-MIG-28-2026-09-29 |
 | **Date** | 2026-09-30 (HST) |
-| **Status** | OPEN — draft, not accepted for execution |
+| **Status** | BUILT — missing-credentials proof passed 2026-09-30 00:32 HST. Live Shockbyte read not run. Not on the active index. |
 | **Owner** | RootRecord |
 | **Related** | Agent 28, Wave D. Later function that depends on this Folder: 29, Economy brief. Old home: `mysql`, `database/db-facts` in `old ollama/old skills` (git remote `rootrecordsoftwaresolutions/Solar-Pacific-RootRecord-Server`). |
 
@@ -67,11 +67,10 @@ No `mysql` client and no PyMySQL are installed. The live path may import PyMySQL
 ### 2.2 Completed so far
 
 - [x] Old source read (`mysql.py`, `db_facts.py`) and live System / Energy layout checked
-- [ ] Draft accepted for execution
-- [ ] `MysqlDesk` client built
-- [ ] Missing-credentials proof
-- [ ] Old files archived, then removed from the old repo and GitHub where unshared
-- [ ] Library row 68 corrected for this function only
+- [x] `MysqlDesk` client built
+- [x] Missing-credentials proof (2026-09-30 00:32 HST)
+- [x] Old files archived, then removed from the old repo and GitHub where unshared
+- [x] Library row 68 corrected for this function only
 
 ### 2.3 Known friction
 
