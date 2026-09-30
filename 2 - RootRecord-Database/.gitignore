@@ -133,6 +133,10 @@
 # Samples live under /Weather/, already ignored above.
 /Logs/Weather/CountryLocations/
 
+# MySQL desk facts (WO-MIG-28): last snapshot and log line are runtime. Stay out of git.
+/System/MysqlDesk/
+/Logs/System/MysqlDesk/
+
 # Discord poller (WO-MIG-21): status and log are runtime. Stay out of git.
 /Communications/Discord/
 /Logs/Communications/Discord/
