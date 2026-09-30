@@ -4,7 +4,7 @@
 | --- | --- |
 | **Work Order ID** | WO-MIG-35-2026-09-29 |
 | **Date** | 2026-09-30 (HST) |
-| **Status** | OPEN — draft, not accepted for execution |
+| **Status** | BUILT — spend off, jobs enabled False. Not on the active index. |
 | **Owner** | RootRecord |
 | **Related** | [Old-Repo-Migration-Matrix.md](../../../00-architecture/Old-Repo-Migration-Matrix.md) row 72; [Solar-Pacific-Old-Full-TopLevel-Catalog-2026-09-28.md](../../../00-architecture/Solar-Pacific-Old-Full-TopLevel-Catalog-2026-09-28.md) `api`; [G1-Scheduler-To-G3-Jobs-Map-2026-09-29.md](../../../00-architecture/G1-Scheduler-To-G3-Jobs-Map-2026-09-29.md) `api-prices` / `cursor-fallback` |
 
@@ -45,12 +45,12 @@ No newer copy of this function is installed on Pacific. Matrix row 72 is **missi
 
 - [x] Old `api/` tree read. Pacific has no `ApiPrices` package.
 - [x] Key names checked. `XAI_*` and `CURSOR_API_KEY` are not in `master-key.env`. Values were not printed.
-- [ ] Draft accepted for execution.
-- [ ] Package, Database paths, and Logs path created.
-- [ ] Offline seed test.
-- [ ] Disabled job blocks, only if `jobs.py` is free.
-- [ ] Archive copy, then deletion of `api/` from the old repo locally and on GitHub.
-- [ ] Result note and the Library lines this function makes stale.
+- [x] Draft accepted. Alexander said to build (2026-09-30).
+- [x] Package `System/ApiPrices/scripts` created. Live Database and Logs directories were not created.
+- [x] Offline seed test on `/tmp/rr-mig-35`.
+- [x] Disabled job blocks in `jobs.py`: `api_prices` and `cursor_fallback`, both `"enabled": False`.
+- [x] Archive copy, then deletion of `api/` from both old repos locally and on GitHub.
+- [x] Result note and the Library lines this function made stale.
 
 ### 2.3 Known friction
 
@@ -122,7 +122,7 @@ New files after acceptance, not before: `envload.py`, `api_ledger.py`, `xai.py`,
 - Alexander signs off before any xAI chat, xAI TTS, xAI prepaid balance GET, Cursor `agent`, speaker playback, report write, live Ecosystem file deletion, or turning a job on.
 - Alexander adds key values to `master-key.env` if a later signed-off call needs them. This work order lists names only.
 - If `jobs.py` or `master-key.env` is mid-edit at build time, pause and name that file.
-- Phase 4 result note is still empty: what landed, archive path, and GitHub deletion. Fill that only after the archive copy is on disk and the deletion has been pushed.
+- Phase 4 is done. See the result note below. Chat, TTS, the billing probe, and Cursor agent still need a separate spend sign-off.
 
 ---
 
@@ -135,7 +135,19 @@ New files after acceptance, not before: `envload.py`, `api_ledger.py`, `xai.py`,
 - The proving test is an offline seed on a temp root: catalog rows exist, `may_spend("xai")` and `may_spend("cursor")` are false, and HTTP and spend entry points are not called.
 - Phase 4 order is fixed: archive `api/` first. If that copy fails, do not delete. Then remove only `api/` from the old repo on this machine and on GitHub. Do not delete the repository.
 - Do not import logs, samples, last-state files, generated reports, caches, virtualenvs, or `__pycache__` into Pacific, Database, the website, or git. `__pycache__` beside the old source goes to the archive only.
-- Sends, speaker playback, OBS, hardware switching, deletion of live Ecosystem files, and cloud spend need Alexander's sign-off. This draft does none of those.
+- Sends, speaker playback, OBS, hardware switching, deletion of live Ecosystem files, and cloud spend need Alexander's sign-off. This build did none of those.
+
+---
+
+## Result (2026-09-30)
+
+Landed `System/ApiPrices/scripts/` (`envload.py`, `api_ledger.py`, `xai.py`, `cursor_fallback.py`, `job.py`). Jobs `api_prices` (10:25) and `cursor_fallback` (10:22, 16:22) are in `jobs.py` with `"enabled": False`. `master-key.env` was not edited.
+
+Proof on `/tmp/rr-mig-35`: `seeded=25 prices=25 may_spend_xai=False (spend_master_off) may_spend_cursor=False (spend_master_off) http_attempts=0 spend_attempts=0`. The live Database path `System/ApiPrices` was not created. A proof pointed at the live Database exited 2.
+
+Archive: `Old repos deleted and merged/Solar-Pacific-RootRecord-Server/api/` (24 files, copy matched). Removed `api/` on GitHub `rootrecordsoftwaresolutions/Solar-Pacific-RootRecord-Server` commit `205f06e4` branch `online-safe-20260920`, and on `Solar-Pacific-RootRecord-Server-Old` commit `fa261cb` branch `main`. Neither repository was deleted. `apps.core` was left. `~/.ollama/skills` was not restored.
+
+Library lines updated: matrix row 72 and blocker 6, the `api` catalog row, and the `api-prices` / `cursor-fallback` rows in the G1 scheduler map.
 
 ---
 

@@ -4,7 +4,7 @@
 | --- | --- |
 | **Work Order ID** | WO-MIG-41-2026-09-29 |
 | **Date** | 2026-09-30 (HST) |
-| **Status** | OPEN — draft, not accepted for execution |
+| **Status** | COMPLETE — LogRetention built 2026-09-30; `log_retention` stays off (`--dry-run`). Live `--apply` is not signed off |
 | **Owner** | RootRecord |
 | **Related** | Agent 41, Wave G. Cleanup and hold-backs. Old home `log-cleanup` in `Solar-Pacific-RootRecord-Server` (`online-safe-20260920`). Live policy model: Pacific `Weather/scripts/weather-retention.py` (`weather_retention` stays dry-run and disabled). |
 
@@ -32,9 +32,9 @@ Folder name: `LogRetention`. Same name in all three places. Domain is System, th
 
 | Item | Location / status |
 | --- | --- |
-| Server code | `1 - Servers/1 - RootRecord-Pacific-Solar-Server/System/LogRetention/scripts` — not installed. Package name `LogRetention` |
-| Database data | `2 - RootRecord-Database/System/LogRetention` — not installed. Last-state JSON only (`log-retention.json`: counts and paths). Runtime output. Not committed |
-| Database logs | `2 - RootRecord-Database/Logs/System/LogRetention` — not installed. Dry-run and apply reports only |
+| Server code | `1 - Servers/1 - RootRecord-Pacific-Solar-Server/System/LogRetention/scripts/log_retention.py` — installed. Package name `LogRetention` |
+| Database data | `2 - RootRecord-Database/System/LogRetention/log-retention.json` — written by the 01:00 HST dry-run. Counts and paths only. Runtime output. Not committed |
+| Database logs | `2 - RootRecord-Database/Logs/System/LogRetention/log-retention_dry-run_2026-09-30_0100.md` — dry-run report. Runtime output. Not committed |
 | Apply destination | `2 - RootRecord-Database/Archive/Previous-Datasets/Logs-<YYYYMM>/`, path mirrored under `Logs/`. Used only by `--apply`. Not a fourth home for the function |
 | master-key.env | No key names. The script does not read secrets |
 | Live weather retention | `Weather/scripts/weather-retention.py`. Job `weather_retention` at 00:30, `enabled: False`, command `--dry-run`. Do not edit. Do not switch it to `--apply` |
@@ -42,18 +42,18 @@ Folder name: `LogRetention`. Same name in all three places. Domain is System, th
 | Log folders | `2 - RootRecord-Database/Logs/` already has domain folders from waves A–F. No dependency Folder is missing |
 | Old source | `/home/rootrecord/old ollama/old skills/log-cleanup/scripts/job.py`. Remote `git@github.com:rootrecordsoftwaresolutions/Solar-Pacific-RootRecord-Server.git`, branch `online-safe-20260920` |
 | Old pre-move file | `origin/ns/apps/core/crons/on_time/log_cleanup.py` in that same checkout. `references/migrate.md` says do not restore that body |
-| Shared file at build time | `Automations/scripts/jobs.py` is already modified in the Ecosystem working tree. If it is still dirty from another agent when the build is ordered, pause and do not edit it |
+| Shared file at build time | `Automations/scripts/jobs.py` was clean at build time. Gated block `log_retention` is in `ON_AT` |
 
 ### 2.2 Completed so far
 
 - [x] Old source read. Live weather dry-run policy identified. Folder and three paths named.
-- [x] Draft work order written (this file). Status stays OPEN — draft, not accepted for execution.
-- [ ] Alexander accepts this draft and says to build.
-- [ ] `System/LogRetention` package and `scripts/log_retention.py` added.
-- [ ] Gated `log_retention` block in `jobs.py` (`enabled: False`, command `--dry-run`), only if that file is free to edit.
-- [ ] Dry-run test on live `Logs/` (zero moves, zero deletes) and synthetic `--apply` on a temp directory.
-- [ ] Phase 4 archive, old-repo deletion, and GitHub commit/push.
-- [ ] Result note on this work order, and the stale Library rows corrected.
+- [x] Draft work order written (this file).
+- [x] Alexander accepted this draft and said to build (2026-09-30).
+- [x] `System/LogRetention` package and `scripts/log_retention.py` added.
+- [x] Gated `log_retention` block in `jobs.py` (`enabled: False`, command `--dry-run`).
+- [x] Dry-run test on live `Logs/` (zero moves, zero deletes) and synthetic `--apply` on a temp directory.
+- [x] Phase 4 archive, old-repo deletion, and GitHub commit/push.
+- [x] Result note on this work order, and the stale Library rows corrected.
 
 ### 2.3 Known friction
 

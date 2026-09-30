@@ -41,7 +41,7 @@ States: **LIVE** = enabled in G3 now · **GATED** = in jobs.py, OFF until its fl
 | cursor-fallback | 10:22 16:22 | `System/ApiPrices/scripts/job.py cursor-drain` | GATED `enabled: False` (WO-MIG-35). No agent unless `RR_API_SPEND=1`. No report write. |
 | governance-daily | 10:23 | — | OUT (Library content) |
 | api-prices | 10:25 | `System/ApiPrices/scripts/job.py refresh` | GATED `enabled: False` (WO-MIG-35). No HTTP unless `RR_API_PRICES=1`. |
-| code-review | 11:20 17:20 | — | BLOCKED (LLM model load) |
+| code-review | 11:20 17:20 | `CodeReview/scripts/code_review.py` on demand | WO-MIG-34. Evidence only. `RR_CODE_REVIEW_CODER` unset. Gated `code_review_pack` not in jobs.py (file already being edited). Old clock not restored. |
 | economy-brief | 15:00 | `Reports/Economy-Brief/scripts/economy_brief.py` on demand | PROPOSED `RR_ECONOMY_BRIEF` (not in jobs.py). Discord send not signed off. |
 | adsense-eod / admob-eod | 21:00 / 21:05 | `adsense_eod` / `admob_eod` | GATED `RR_ADSENSE` / `RR_ADMOB` (WO-MIG-38). No key writes `not_configured` and does not call Google |
 | overnight-relay | 22:20 | `Communications/Inbox/scripts/inbox.py overnight` | GATED `RR_OVERNIGHT_RELAY` (WO-MIG-31). File write only. No Discord post. |
@@ -57,7 +57,7 @@ States: **LIVE** = enabled in G3 now · **GATED** = in jobs.py, OFF until its fl
 | public-health | every 5 min | — | OUT (website) |
 | fs-index | every 15 min | — | BLOCKED (scope: full-disk index of private paths) |
 | host-sample | every 1 min | `System/scripts/host_desks.py net-sample` (300 s) + `System/lib/sample.py` | PROPOSED `RR_NET_SAMPLES` |
-| log-cleanup | 04:20 | — | BLOCKED (deletes files) |
+| log-cleanup | 04:20 | `log_retention` | GATED off (`enabled: False`, `--dry-run`). WO-MIG-41. Move, never delete. Live `--apply` needs `RR_LOG_RETENTION_APPLY=1` |
 | user-qrcodes / account-import | every 6 h | — | OUT (identity; personal data) |
 | d1-sync | every 6 h | — | BLOCKED (D1 credentials) |
 | inbox-drain | every 5 min | `inbox_drain` 300 s | GATED `RR_INBOX_DRAIN` (WO-MIG-31). Local copy of Relay-Inbox. No D1. No send. |

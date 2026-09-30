@@ -119,16 +119,16 @@ Do these only after Alexander accepts this draft and says to build. Until then, 
 
 | Path | Role |
 |------|------|
-| `1 - Servers/1 - RootRecord-Pacific-Solar-Server/CodeReview/scripts` | Code. Not created in this draft. |
+| `1 - Servers/1 - RootRecord-Pacific-Solar-Server/CodeReview/scripts` | Code. Landed. |
 | `1 - Servers/1 - RootRecord-Pacific-Solar-Server/CodeReview/scripts/code_review.py` | Evidence pack writer. Markdown only. |
 | `1 - Servers/1 - RootRecord-Pacific-Solar-Server/CodeReview/README.md` | Short folder note. |
 | `2 - RootRecord-Database/CodeReview/` | Packs (`CURRENT.md`, dated files). Gitignored on build. |
 | `2 - RootRecord-Database/Logs/CodeReview/` | Logs only. |
-| `2 - RootRecord-Database/.gitignore` | Add `/CodeReview/` during the build, if the file is free. |
+| `2 - RootRecord-Database/.gitignore` | `/CodeReview/` and `/Logs/CodeReview/` added. |
 | `/home/rootrecord/master/master-key.env` | Unchanged. No key name for this function. |
-| `1 - Servers/1 - RootRecord-Pacific-Solar-Server/Automations/scripts/jobs.py` | Gated `code_review_pack` block only, during the build, if the file is free. |
+| `1 - Servers/1 - RootRecord-Pacific-Solar-Server/Automations/scripts/jobs.py` | Left unchanged. The file was already being edited, so the gated block was not inserted. |
 | `/home/rootrecord/old ollama/old skills/code-review/` | Old source read for this draft. Phase 4 archive source. |
-| `Old repos deleted and merged/Solar-Pacific-RootRecord-Server/code-review/` | Phase 4 archive path. Not copied in this draft. |
+| `Old repos deleted and merged/Solar-Pacific-RootRecord-Server/code-review/` | Phase 4 archive. 24 files copied. |
 | `5 - RootRecord-Library/Documentation/00-architecture/Old-Repo-Migration-Matrix.md` | Row 67, after phase 4 only. |
 | `5 - RootRecord-Library/Documentation/00-architecture/G1-Scheduler-To-G3-Jobs-Map-2026-09-29.md` | `code-review` row, after phase 4 only. |
 
