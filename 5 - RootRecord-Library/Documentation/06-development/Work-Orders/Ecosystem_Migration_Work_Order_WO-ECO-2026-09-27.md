@@ -62,11 +62,11 @@ RootRecord-Ecosystem
 - [x] Poller confirmed active from Ecosystem path (2026-09-28)
 - [x] Pacific source imports for Energy, A-Eyes, Github, Plumbing, and Telegram landed; runtime verification remains tracked under WO-SRV
 - [x] `repos.conf` Pacific catalog row aligned to the Ecosystem path; Website/Mainland remain intentionally disabled
-- [ ] Master-Prompt `08-repository-and-file-links.md` authored
+- [x] Master-Prompt `08-repository-and-file-links.md` authored (desk ownership table, 2026-09-29)
 
 ### 2.3 Transitional friction
 
-- Current Pacific `jobs.py` active scheduler surfaces resolve to Pacific paths; the remaining legacy Weather command/cwd pair is explicitly disabled and outside active cutover scope
+- Current Pacific `jobs.py` active scheduler surfaces resolve to Pacific paths. `weather_poller` is enabled and was restarted 2026-09-29 22:04 HST. Geology and voice jobs stay off.
 - Org placement: **Library + Pacific Server + Database** under `RootRecord-Software-Solutions`; other operational repos under `rootrecordsoftwaresolutions`
 - Prior remote `rootrecordsoftwaresolutions/Solar-Pacific-RootRecord-Server` is legacy for Pacific runtime
 
@@ -119,7 +119,7 @@ RootRecord-Ecosystem
 - [x] Library repo online and auto-synced
 - [x] Agent CONTEXT maps updated for Pacific path (2026-09-28)
 - [x] WO-SRV / WO-CF updated for domain layout
-- [ ] Master-Prompt repository links section
+- [x] Master-Prompt repository links section (`prompts/08-repository-and-file-links.md`, 2026-09-29)
 
 ### 4.2 Runtime
 
