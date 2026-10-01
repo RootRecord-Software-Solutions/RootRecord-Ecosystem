@@ -14,5 +14,13 @@
   "system_perf": {
     "sha256": "5ab79e771f989e0f6468953f492948c937b082f33fa1c5e47eb8b1b1ac88e525",
     "message_id": 32
+  },
+  "remaining_tasks": {
+    "sha256": "abd07fb941274d71e403381ec41e779a4b0e0c76c8c42f643f416e6488a126ec",
+    "message_id": 35
+  },
+  "kilauea_report": {
+    "sha256": "8341a3c292d6f15b6aee629f81be48b60ba0827d0e8975fe36ab0f3b297438e8",
+    "message_id": 38
   }
 }
