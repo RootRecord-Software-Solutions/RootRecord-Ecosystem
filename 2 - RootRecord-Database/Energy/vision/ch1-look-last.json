@@ -3,17 +3,18 @@
   "at": "2026-10-01T09:01:27-10:00",
   "image": "ch1-20261001T185920Z.jpg",
   "model": "gemma4:e4b",
-  "weather": "dark",
-  "position": "flat",
+  "weather": "",
+  "position": "",
   "phase": "day",
   "sunrise": "06:11",
   "sunset": "18:10",
   "error": "",
-  "infrared": true,
-  "solar_w": 35,
+  "infrared": false,
+  "solar_w": 121,
   "late": false,
   "low_light": false,
   "warning": "",
   "note": "",
-  "sentence": "Security camera observations indicate dark conditions, with solar panels in flat position."
+  "sentence": "Security camera channel 1 still is black. The panel position is not visible.",
+  "blank": true
 }

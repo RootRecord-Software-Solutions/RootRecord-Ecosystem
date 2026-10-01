@@ -1,35 +1,35 @@
 {
-  "at": "2026-10-01T09:09:12-10:00",
+  "at": "2026-10-01T09:15:51-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 41,
-  "count_m2": 41,
-  "count_m25": 39,
+  "count": 40,
+  "count_m2": 40,
+  "count_m25": 38,
   "largest": {
     "id": "us6000tymj",
     "mag": 5.6,
     "place": "94 km SW of Tamarindo, Costa Rica",
     "time_hst": "2026-09-30T11:55:26.169000-10:00"
   },
-  "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-01T19:08:57+00:00",
+  "new_this_run": 1,
+  "usgs_generated_utc": "2026-10-01T19:14:57+00:00",
   "events": [
     {
-      "id": "us6000tywe",
-      "mag": 3.1,
+      "id": "tx2026tiooka",
+      "mag": 2.9,
       "mag_type": "ml",
-      "place": "57 km SSW of Whites City, New Mexico",
-      "time_utc": "2026-10-01T18:47:09.691000+00:00",
-      "time_hst": "2026-10-01T08:47:09.691000-10:00",
-      "lon": -104.5923,
-      "lat": 31.6866,
-      "depth_km": 8.008,
+      "place": "55 km SSW of Whites City, New Mexico",
+      "time_utc": "2026-10-01T18:47:10.033000+00:00",
+      "time_hst": "2026-10-01T08:47:10.033000-10:00",
+      "lon": -104.548,
+      "lat": 31.697,
+      "depth_km": 4.7028,
       "status": "reviewed",
       "tsunami": 0,
       "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tywe",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026tiooka",
       "nearest": null
     },
     {
@@ -745,22 +745,6 @@
         "admin1_code": "Texas",
         "km": 195.6
       }
-    },
-    {
-      "id": "us6000tyl5",
-      "mag": 4.2,
-      "mag_type": "mb",
-      "place": "286 km W of Adak, Alaska",
-      "time_utc": "2026-09-30T19:10:09.166000+00:00",
-      "time_hst": "2026-09-30T09:10:09.166000-10:00",
-      "lon": 179.2118,
-      "lat": 51.8805,
-      "depth_km": 119.22,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyl5",
-      "nearest": null
     }
   ]
 }
