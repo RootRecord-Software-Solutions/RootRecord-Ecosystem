@@ -16,10 +16,10 @@
       "blurb": "Solar-powered, Hawaiʻi-run infrastructure. Accounts are coming soon."
     },
     "home": {
-      "enabled": true,
-      "url": "/home",
+      "enabled": false,
+      "url": "",
       "title": "Root Record",
-      "blurb": "Services and purpose. A Hawaiʻi software practice."
+      "blurb": "The public site is the Vercel home page. This globe server is the data relay."
     },
     "status": {
       "enabled": true,

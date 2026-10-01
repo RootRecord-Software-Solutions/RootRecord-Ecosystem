@@ -22,7 +22,7 @@
     legacyHud: "compact",
     cards: {
       signup: { enabled: true, mode: "placeholder", url: "", title: "Join Root Record", blurb: "Accounts are coming soon." },
-      home: { enabled: false, url: "/home", title: "Root Record", blurb: "Services and purpose. A Hawaiʻi software practice." },
+      home: { enabled: false, url: "", title: "Root Record", blurb: "The public site is the Vercel home page." },
       status: { enabled: true, pollSec: 15, healthUrls: ["/healthz", "/health"], stateUrl: "/api/state", deskHealthUrl: null, staleSec: 90 }
     },
     globe: { spinToggle: true, spinDefault: "on", clickInfo: true, hover: true, pauseSpinWhileInfoOpen: true, showIp: true, showProcess: false, hardenTooltips: true, stableData: true,
@@ -225,7 +225,7 @@
     var tools = el("span", { class: "ov-tools" }), pills = el("span", { class: "ov-pills" });
     dock.appendChild(tools); dock.appendChild(pills);
     var cards = {};
-    var LABEL = { signup: "Sign up", home: "Services", status: "Status" };
+    var LABEL = { signup: "Sign up", home: "Website", status: "Status" };
 
     function card(id, title, body) {
       var x = el("button", { class: "ov-x", type: "button", "aria-label": "Close " + LABEL[id] + " card", title: "Close", text: "\u00d7" });
@@ -278,12 +278,12 @@
       card("signup", s.title || "Join Root Record", body);
     }
 
-    // ---- Services page. Same origin as the globe: /home ----
+    // ---- Optional link card. Off unless a same-origin or https URL is set. ----
     var h = cfg.cards.home, homeUrl = safeUrl(h.url);
     if (h.enabled && homeUrl) {
       card("home", h.title || "Root Record", [
         el("p", { text: h.blurb || "" }),
-        el("a", { class: "ov-btn", href: homeUrl, text: "Continue" })
+        el("a", { class: "ov-btn", href: homeUrl, rel: "noopener", text: "Open" })
       ]);
     }
 
@@ -373,7 +373,7 @@
       item("\u2630", "Menu", toggle);
       item("\u25ce", "Globe", function () { Object.keys(cards).forEach(function (id) { setOpen(id, false); }); });
       if (cards.signup) item("\u271a", "Sign up", function () { setOpen("signup", true); });
-      if (cards.home) item("\u2302", "Services", null, homeUrl);
+      if (cards.home) item("\u2302", "Website", null, homeUrl);
       if (cards.status) item("\u2665", "Status", function () { setOpen("status", true); });
       if ((cfg.globe || {}).spinToggle !== false) item("\u21bb", "Spin on/off", function () { toggleSpin(); });
       rail.appendChild(el("div", { class: "ov-spacer" }));

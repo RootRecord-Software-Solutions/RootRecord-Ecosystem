@@ -222,6 +222,30 @@ app.get('/api/state', function(req, res) {
   res.json(buildState());
 });
 
+const OPERATIONS_FILE = path.join(__dirname, 'data', 'operations.json');
+app.get('/api/operations', function(req, res) {
+  fs.readFile(OPERATIONS_FILE, 'utf8', function(err, text) {
+    let data = { ok: false, detail: 'no_data' };
+    if (!err) {
+      try {
+        const parsed = JSON.parse(text);
+        if (parsed && typeof parsed === 'object') {
+          data = {
+            ok: parsed.ok === true,
+            as_of: parsed.as_of || null,
+            power: parsed.power || null,
+            weather: parsed.weather || null,
+            kilauea: parsed.kilauea || null
+          };
+        }
+      } catch (e) { /* keep no_data */ }
+    }
+    res.set('Cache-Control', 'no-store');
+    res.set('X-Content-Type-Options', 'nosniff');
+    res.json(data);
+  });
+});
+
 app.use(function(req, res) {
   notFound(res);
 });

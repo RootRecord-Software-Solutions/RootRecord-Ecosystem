@@ -27,7 +27,7 @@ const AWS_STATE_FILE = path.join(DATA_DIR, 'aws-state.json');
 const HAWAII_FILE = path.join(DATA_DIR, 'hawaii.ndjson');
 const HAWAII_OFFSET_FILE = path.join(DATA_DIR, 'hawaii-offset.json');
 const PAGE_FILE = path.join(ROOT, 'index.html');
-const HOME_FILE = path.join(ROOT, 'home.html');
+const OPERATIONS_FILE = path.join(DATA_DIR, 'operations.json');
 
 fs.mkdirSync(DATA_DIR, { recursive: true });
 
@@ -117,18 +117,18 @@ const server = http.createServer((req, res) => {
     fs.createReadStream(PAGE_FILE).pipe(res);
     return;
   }
-  if (url.pathname === '/home') {
-    fs.readFile(HOME_FILE, (err, buf) => {
-      if (err) {
-        res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
-        return res.end('Not found');
+  if (url.pathname === '/api/operations') {
+    fs.readFile(OPERATIONS_FILE, 'utf8', (err, text) => {
+      let data = { ok: false, detail: 'no_data' };
+      if (!err) {
+        try {
+          const parsed = JSON.parse(text);
+          if (parsed && typeof parsed === 'object') {
+            data = { ok: parsed.ok === true, as_of: parsed.as_of || null, power: parsed.power || null, weather: parsed.weather || null, kilauea: parsed.kilauea || null };
+          }
+        } catch (e) { /* keep no_data */ }
       }
-      res.writeHead(200, {
-        'Content-Type': 'text/html; charset=utf-8',
-        'Cache-Control': 'no-store',
-        'X-Content-Type-Options': 'nosniff'
-      });
-      res.end(buf);
+      return safeJson(200, data, res);
     });
     return;
   }
