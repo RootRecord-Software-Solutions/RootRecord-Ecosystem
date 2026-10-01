@@ -1,0 +1,6 @@
+{
+  "schema_version": 2,
+  "execution_broker": "read_only",
+  "telemetry": "none_marked_public",
+  "visibility": "public"
+}

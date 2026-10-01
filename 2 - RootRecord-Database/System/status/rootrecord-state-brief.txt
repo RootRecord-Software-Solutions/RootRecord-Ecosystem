@@ -1,0 +1,9 @@
+can_launch=false do_not=enable gates,launch programs,restart poller,start a second relay,invent numbers,treat a commit as a deploy
+drift=aligned
+configured_model=llama3.2:3b observed_model=llama3.2:3b
+fallback_configured=disabled fallback_observed=disabled
+services=ollama=running council_relay=running desk_live=present root_monitor=stopped github_sync=scheduled rootserver_poller=running flm=idle cloudflared=running
+health_failed=none
+health_unknown=incidents,root_monitor
+read_broker=built agent_launch=not_built build_handoff=built cursor_api=gated
+unknown_is_not_broken=true

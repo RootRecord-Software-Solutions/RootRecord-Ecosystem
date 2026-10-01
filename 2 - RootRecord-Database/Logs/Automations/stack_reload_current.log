@@ -14,3 +14,35 @@ opening poller window via open-poller-window.sh
 [open] starting rr-rootserver-poller.service…
 verify: poller-watch.py window process running
 2026-09-29T12:13:50Z do-stack-reload END started=1 window=1
+2026-09-30T07:36:44Z do-stack-reload BEGIN pid=681273
+XDG_RUNTIME_DIR=/run/user/1000
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+DISPLAY=:0
+running stop-poller-stack.sh
+[stop] stopping systemd unit rr-rootserver-poller.service…
+[stop] stopping network-globe-hawaii.service…
+[stop] kill cloudflared -> 591470
+[stop] stack down.
+started rr-rootserver-poller.service via systemctl
+verify: rootserver_poller.py is running
+opening poller window via open-poller-window.sh
+[open] starting rr-rootserver-poller.service…
+[open] ptyxis new window
+verify: poller viewer window process running
+2026-09-30T07:36:52Z do-stack-reload END started=1 window=1
+2026-09-30T07:39:15Z do-stack-reload BEGIN pid=743393
+XDG_RUNTIME_DIR=/run/user/1000
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+DISPLAY=:0
+running stop-poller-stack.sh
+[stop] stopping systemd unit rr-rootserver-poller.service…
+[stop] stopping network-globe-hawaii.service…
+[stop] kill cloudflared -> 734453
+[stop] stack down.
+started rr-rootserver-poller.service via systemctl
+verify: rootserver_poller.py is running
+opening poller window via open-poller-window.sh
+[open] starting rr-rootserver-poller.service…
+[open] viewer already open (poller-dashboard.py) — leaving it
+verify: poller viewer window process running
+2026-09-30T07:39:22Z do-stack-reload END started=1 window=1

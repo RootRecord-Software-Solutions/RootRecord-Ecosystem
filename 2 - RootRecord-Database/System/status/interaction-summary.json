@@ -1,0 +1,8 @@
+{
+  "request_id": "REQ-20260930-185406-164",
+  "interaction_mode": "work_order",
+  "status": "MODE_SELECTED",
+  "matching_work_orders": [],
+  "visibility": "agent",
+  "observed_at": "2026-09-30T18:54:06-10:00"
+}

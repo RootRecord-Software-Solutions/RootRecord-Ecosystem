@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "request_id": "REQ-20260930-182637-146",
+  "status": "MODE_SELECTED",
+  "interaction_mode": "conversation",
+  "mode_history": [
+    "RECEIVED",
+    "CLASSIFIED",
+    "MODE_SELECTED"
+  ],
+  "original_request": {
+    "text": "Hey guys, Testing your personas and how well you respond",
+    "channel": "telegram",
+    "chat_id": "-1004406495175",
+    "message_id": 146,
+    "timestamp": "2026-09-30T18:26:37-10:00"
+  },
+  "requested_by": {
+    "telegram_user_id": 8589077731,
+    "username_label": "rootrecordadmin",
+    "class": "standard_user"
+  },
+  "authorization": {
+    "principal_id": null,
+    "telegram_user_id": null,
+    "build_authorized": false,
+    "authorized_by": null,
+    "events": []
+  },
+  "council_interpretation": [],
+  "questions": [],
+  "answers": [],
+  "question_round": 0,
+  "execution": {
+    "permitted": false
+  },
+  "visibility": "operator"
+}

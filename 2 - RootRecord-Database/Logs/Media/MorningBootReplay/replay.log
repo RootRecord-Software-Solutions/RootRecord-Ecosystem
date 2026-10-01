@@ -1,0 +1,6 @@
+{"ok": false, "armed": false, "played": false, "detail": "wav_missing", "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/boot_brief_current.wav", "speaker": false}
+{"ok": false, "armed": false, "played": false, "detail": "wav_missing", "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/boot_brief_current.wav", "speaker": false}
+{"ok": true, "armed": true, "day": "2026-09-30", "until": "2026-09-30T12:00:00-10:00", "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/boot_brief_current.wav"}
+{"ok": true, "skipped": true, "reason": "not_:32"}
+{"ok": true, "played": true, "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/boot_brief_current.wav", "play_once_cleared": true, "player": "dry_run", "speaker": false}
+{"ok": true, "played": true, "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/boot_brief_current.wav", "play_once_cleared": true, "player": "dry_run", "speaker": false}

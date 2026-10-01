@@ -1,0 +1,17 @@
+{
+  "alias": "delta2",
+  "fields": {
+    "ac_ports": true,
+    "usb_ports": false,
+    "dc_12v_port": false,
+    "ac_output_power": 84,
+    "ac_input_power": 0,
+    "usbc_output_power": 0,
+    "usba_output_power": 0,
+    "solar_input_power": 0,
+    "soc": 71.58
+  },
+  "at": "2026-09-30T19:10:07-10:00",
+  "source": "ble",
+  "charge_source": "none"
+}

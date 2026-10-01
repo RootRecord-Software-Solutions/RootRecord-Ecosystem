@@ -1,0 +1,47 @@
+{
+  "voice": "ava",
+  "role": "default voice and the only getUpdates owner",
+  "can_launch": false,
+  "visibility": "agent",
+  "slices": {
+    "safety": "can_launch=false do_not=enable gates,launch programs,restart poller,start a second relay,invent numbers,treat a commit as a deploy",
+    "energy": "delta2 state=observed soc=21.05 age_min=0\nriver2pro state=observed soc=76.13 age_min=0",
+    "scope": "can_launch=false do_not=enable gates,launch programs,restart poller,start a second relay,invent numbers,treat a commit as a deploy\ndrift=aligned\nconfigured_model=llama3.2:3b observed_model=llama3.2:3b\nfallback_configured=disabled fallback_observed=disabled\nservices=ollama=running council_relay=running desk_live=present root_monitor=stopped github_sync=scheduled rootserver_poller=running flm=idle cloudflared=running\nhealth_failed=none\nhealth_unknown=incidents,root_monitor\nread_broker=built agent_launch=not_built build_handoff=built cursor_api=gated\nunknown_is_not_broken=true",
+    "index": "generated_at=2026-09-30T22:52:42-10:00 health_failed=none"
+  },
+  "drift": [
+    {
+      "id": "ai.inference",
+      "state": "aligned",
+      "configured_model": "llama3.2:3b",
+      "configured_source": "Automations/scripts/jobs.py",
+      "observed_model": "llama3.2:3b",
+      "observed_source": "Communications/telegram/scripts/ensure-relay.sh",
+      "fallback_configured": "disabled",
+      "fallback_observed": "disabled",
+      "action": "none",
+      "confidence": "configured",
+      "visibility": "agent",
+      "observed_at": "2026-09-30T22:52:43-10:00"
+    }
+  ],
+  "interaction": {
+    "request_id": "REQ-20260930-185406-164",
+    "interaction_mode": "work_order",
+    "status": "MODE_SELECTED",
+    "matching_work_orders": [],
+    "visibility": "agent",
+    "source": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/System/status/interaction-summary.json",
+    "observed_at": "2026-09-30T18:54:06-10:00",
+    "confidence": "recent"
+  },
+  "capabilities": [
+    "inspect_service",
+    "inspect_system",
+    "inspect_energy",
+    "inspect_npu",
+    "inspect_relay",
+    "inspect_github_sync",
+    "run_verification"
+  ]
+}
