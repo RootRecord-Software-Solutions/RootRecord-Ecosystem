@@ -3,6 +3,4 @@ credentials-file: /home/ubuntu/.cloudflared/[redacted tunnel ID].json
 ingress:
   - hostname: api.rootrecord.cloud
     service: http://127.0.0.1:8091
-  - hostname: ssh.rootrecord.cloud
-    service: ssh://localhost:22
   - service: http_status:404
