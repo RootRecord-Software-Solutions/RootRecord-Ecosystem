@@ -42,5 +42,9 @@
   "hourly_chime_02": {
     "sha256": "b83569597424272eef45796d516120a525374462e80c22a778606474f054a1f1",
     "message_id": 97
+  },
+  "hourly_chime_listen": {
+    "sha256": "dac4f8a250dfb5a553167b5acfa8bf14a8decbf4a04ae0193407f6e8067ee5bd",
+    "message_id": 114
   }
 }
