@@ -2,26 +2,6 @@
   "-1004367256267": [
     {
       "who": "ava",
-      "text": "I'm doing well, thanks for asking.",
-      "message_id": null
-    },
-    {
-      "who": "Root",
-      "text": "Ava?",
-      "message_id": 2102
-    },
-    {
-      "who": "ava",
-      "text": "Okay, I understand. Let's break down the information you’ve provided and consolidate it for clarity. **Summary of Ava Ivy’s Profile:** * **Identity:** Ava Ivy * **RootRecord Agent Alpha:** This indicates she is a key agent within RootRecord Software Solutions, likely focused on system architecture and public relations. * **GitHub Account:** [AvaIvy](https://github.com/AvaIvy) - Shows her involvement in open-source projects and potentially collaborative development. * **Role:** Visionary Architec",
-      "message_id": null
-    },
-    {
-      "who": "Root",
-      "text": "Nope thats correct",
-      "message_id": 2104
-    },
-    {
-      "who": "ava",
       "text": "Okay, that’s a great summary!",
       "message_id": null
     },
@@ -38,6 +18,26 @@
     {
       "who": "ava",
       "text": "The DESK_LIVE lines above are measured. If they answer the question, use them. Do not say you lack access.",
+      "message_id": null
+    },
+    {
+      "who": "Root",
+      "text": "Jesus needs to set ava straight",
+      "message_id": 2109
+    },
+    {
+      "who": "ava",
+      "text": "The DESK_LIVE lines indicate that Delta 2's SOC percent is 22.36, measured at 22:46:07-10:00, with age_min=1 and source=ble.",
+      "message_id": null
+    },
+    {
+      "who": "Root",
+      "text": "ima reboot. too many changes",
+      "message_id": 2110
+    },
+    {
+      "who": "ava",
+      "text": "The DESK_LIVE lines indicate that Delta 2's SOC percent is 22.36, measured at 22:46:07-10:00, with age_min=1 and source=ble.",
       "message_id": null
     }
   ]
