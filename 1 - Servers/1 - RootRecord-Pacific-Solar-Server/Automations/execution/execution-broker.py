@@ -89,10 +89,15 @@ def decide(agent: str, cap_id: str, service: str) -> tuple[int, dict]:  # info: 
         audit.append({"agent": agent, "capability": cap_id, "result": "refused"})  # info: call audit . append
         return 2, result  # info: return 2 , result
     allowed = (cap.get("agents") or {}).get(agent) == "allowed"  # info: set allowed
+    if not gates.allowed(cap):  # info: if not gates . allowed ( cap )
+        why = {"kind": "gated", "reason": "monitor gate closed"}  # info: set why
+        result = {"result": "refused", "capability": cap_id, "why_not": why}  # info: set result
+        audit.append({"agent": agent, "capability": cap_id, "permission": cap.get("permission"), "result": "refused", "reason": "monitor gate closed"})  # info: call audit . append
+        return 3, result  # info: return 3 , result
     if not allowed or not cap.get("agent_may_invoke") or cap.get("side_effects"):  # info: if not allowed or not cap . get ( "agent_may_invoke" ) or cap . get ( "side_effects" )
         why = cap.get("why_not") or {"kind": "gated", "reason": "agent may not invoke this"}  # info: set why
         result = {"result": "refused", "capability": cap_id, "why_not": why}  # info: set result
-        audit.append({"agent": agent, "capability": cap_id, "result": "refused", "kind": why.get("kind")})  # info: call audit . append
+        audit.append({"agent": agent, "capability": cap_id, "permission": cap.get("permission"), "result": "refused", "kind": why.get("kind")})  # info: call audit . append
         return 3, result  # info: return 3 , result
     body = read_body(cap_id, service)  # info: set body
     result = {"result": "ok", "capability": cap_id, "body": body}  # info: set result
@@ -105,6 +110,14 @@ def decide(agent: str, cap_id: str, service: str) -> tuple[int, dict]:  # info: 
 # Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
 # ====================================================
 def main() -> int:  # info: def main
+    if len(sys.argv) >= 3 and sys.argv[1] == "execute":  # info: if len ( sys . argv ) >= 3 and sys . argv [ 1 ] == "execute"
+        import interaction  # info: import interaction
+        print(json.dumps(interaction.execute(sys.argv[2]), indent=2))  # info: call print
+        return 0  # info: return 0
+    if len(sys.argv) >= 4 and sys.argv[1] == "recover":  # info: if len ( sys . argv ) >= 4 and sys . argv [ 1 ] == "recover"
+        import interaction  # info: import interaction
+        print(json.dumps(interaction.recover(sys.argv[2], sys.argv[3]), indent=2))  # info: call print
+        return 0  # info: return 0
     if len(sys.argv) < 4 or sys.argv[1] != "request":  # info: if len ( sys . argv ) < 4 or sys . argv [ 1 ] != "request"
         print("usage: execution-broker.py request <ava|bruce|carly> <capability> [service]", file=sys.stderr)  # info: call print
         return 2  # info: return 2
