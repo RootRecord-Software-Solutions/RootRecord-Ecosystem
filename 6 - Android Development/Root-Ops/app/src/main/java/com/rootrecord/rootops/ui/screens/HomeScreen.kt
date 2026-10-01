@@ -14,13 +14,10 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
-import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -116,15 +113,16 @@ fun HomeScreen(
                         }
                         Column(horizontalAlignment = Alignment.End) {
                             Text(server.status.homeLabel(), color = stateColor, fontWeight = FontWeight.Bold)
-                            Text(
-                                when {
-                                    server.playersOnline != null && server.playerCapacity != null ->
+                            if (server.playersOnline != null) {
+                                Text(
+                                    if (server.playerCapacity != null) {
                                         "${server.playersOnline}/${server.playerCapacity} players"
-                                    server.playersOnline != null -> "${server.playersOnline} online"
-                                    else -> "players unknown"
-                                },
-                                style = MaterialTheme.typography.labelSmall,
-                            )
+                                    } else {
+                                        "${server.playersOnline} online"
+                                    },
+                                    style = MaterialTheme.typography.labelSmall,
+                                )
+                            }
                         }
                     }
                 }
