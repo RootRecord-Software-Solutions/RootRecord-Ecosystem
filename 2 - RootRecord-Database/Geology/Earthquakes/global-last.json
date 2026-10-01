@@ -1,20 +1,20 @@
 {
-  "at": "2026-09-30T17:00:09-10:00",
+  "at": "2026-09-30T17:07:25-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 36,
-  "count_m2": 36,
-  "count_m25": 36,
+  "count": 35,
+  "count_m2": 35,
+  "count_m25": 35,
   "largest": {
     "id": "us6000tymj",
     "mag": 5.6,
     "place": "94 km SW of Tamarindo, Costa Rica",
     "time_hst": "2026-09-30T11:55:26.169000-10:00"
   },
-  "new_this_run": 1,
-  "usgs_generated_utc": "2026-10-01T02:59:57+00:00",
+  "new_this_run": 0,
+  "usgs_generated_utc": "2026-10-01T03:06:57+00:00",
   "events": [
     {
       "id": "us6000typ7",
@@ -652,22 +652,6 @@
       "tsunami": 0,
       "type": "earthquake",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyhe",
-      "nearest": null
-    },
-    {
-      "id": "ci41340823",
-      "mag": 3.81008714964485,
-      "mag_type": "mw",
-      "place": "4 km SE of Piru, CA",
-      "time_utc": "2026-09-30T03:00:27.210000+00:00",
-      "time_hst": "2026-09-29T17:00:27.210000-10:00",
-      "lon": -118.763166666667,
-      "lat": 34.3933333333333,
-      "depth_km": 9.59,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41340823",
       "nearest": null
     }
   ]
