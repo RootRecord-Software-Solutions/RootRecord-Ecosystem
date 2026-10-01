@@ -1,14 +1,14 @@
 {
   "resource": "moon",
   "title": "Current moon",
-  "as_of": "Thursday, October 1, 2026 \u00b7 12:59 Hawaiian Standard Time",
+  "as_of": "Thursday, October 1, 2026 \u00b7 13:14 Hawaiian Standard Time",
   "status": {
-    "phase": 0.6852,
+    "phase": 0.6887,
     "phase_name": "Waning Gibbous",
-    "illumination": 70,
+    "illumination": 69,
     "next_phase": "Last Quarter",
     "next_phase_date": "2026-10-03",
-    "fetched_at": "2026-10-01T10:56:13-10:00",
+    "fetched_at": "2026-10-01T13:09:28-10:00",
     "date": "2026-10-01"
   }
 }
