@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-01T09:37:33-10:00",
+  "at": "2026-10-01T09:47:32-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
@@ -14,22 +14,38 @@
     "time_hst": "2026-09-30T11:55:26.169000-10:00"
   },
   "new_this_run": 1,
-  "usgs_generated_utc": "2026-10-01T19:36:57+00:00",
+  "usgs_generated_utc": "2026-10-01T19:46:57+00:00",
   "events": [
     {
       "id": "aka2026tlsylt",
-      "mag": 2.5,
+      "mag": 2.6,
       "mag_type": "ml",
       "place": "46 km W of Happy Valley, Alaska",
-      "time_utc": "2026-10-01T19:28:58.565000+00:00",
-      "time_hst": "2026-10-01T09:28:58.565000-10:00",
-      "lon": -152.564,
-      "lat": 59.976,
-      "depth_km": 100.5,
+      "time_utc": "2026-10-01T19:28:58.587000+00:00",
+      "time_hst": "2026-10-01T09:28:58.587000-10:00",
+      "lon": -152.559,
+      "lat": 59.977,
+      "depth_km": 100.3,
       "status": "automatic",
       "tsunami": 0,
       "type": "earthquake",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tlsylt",
+      "nearest": null
+    },
+    {
+      "id": "us6000tywf",
+      "mag": 2.6,
+      "mag_type": "ml",
+      "place": "58 km SSW of Whites City, New Mexico",
+      "time_utc": "2026-10-01T18:53:23.692000+00:00",
+      "time_hst": "2026-10-01T08:53:23.692000-10:00",
+      "lon": -104.5902,
+      "lat": 31.6815,
+      "depth_km": 7.512,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tywf",
       "nearest": null
     },
     {
@@ -738,28 +754,6 @@
         "country_code": "US",
         "admin1_code": "California",
         "km": 106.9
-      }
-    },
-    {
-      "id": "tx2026tguohs",
-      "mag": 2.6,
-      "mag_type": "ml",
-      "place": "16 km ESE of Pearsall, Texas",
-      "time_utc": "2026-09-30T19:37:44.260000+00:00",
-      "time_hst": "2026-09-30T09:37:44.260000-10:00",
-      "lon": -98.928,
-      "lat": 28.851,
-      "depth_km": 7.6057,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026tguohs",
-      "nearest": {
-        "location_id": "us-texas-austin",
-        "name": "Austin",
-        "country_code": "US",
-        "admin1_code": "Texas",
-        "km": 195.6
       }
     }
   ]
