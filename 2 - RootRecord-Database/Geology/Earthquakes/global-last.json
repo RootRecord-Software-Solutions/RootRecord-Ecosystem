@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-01T01:19:44-10:00",
+  "at": "2026-10-01T01:27:46-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 36,
-  "count_m2": 36,
-  "count_m25": 35,
+  "count": 35,
+  "count_m2": 35,
+  "count_m25": 34,
   "largest": {
     "id": "us6000tymj",
     "mag": 5.6,
@@ -14,7 +14,7 @@
     "time_hst": "2026-09-30T11:55:26.169000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-01T11:19:19+00:00",
+  "usgs_generated_utc": "2026-10-01T11:27:19+00:00",
   "events": [
     {
       "id": "aka2026tlapkt",
@@ -659,22 +659,6 @@
         "admin1_code": null,
         "km": 197.3
       }
-    },
-    {
-      "id": "us6000tyjl",
-      "mag": 4.4,
-      "mag_type": "mb",
-      "place": "47 km S of Trà My, Vietnam",
-      "time_utc": "2026-09-30T11:24:41.639000+00:00",
-      "time_hst": "2026-09-30T01:24:41.639000-10:00",
-      "lon": 108.2955,
-      "lat": 14.9174,
-      "depth_km": 10,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyjl",
-      "nearest": null
     }
   ]
 }
