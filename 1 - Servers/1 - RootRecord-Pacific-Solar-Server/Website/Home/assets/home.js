@@ -163,10 +163,14 @@
         .pointColor(function (d) {
           if (d.type === "hawaii") return "#ffffff";
           if (d.type === "mainland") return "#7dd3fc";
+          if (d.type === "vercel") return "#ffffff";
           return "#ff6b9d";
         })
         .pointAltitude(function (d) { return d.type === "endpoint" ? 0.012 : 0.02; })
-        .pointRadius(function (d) { return d.type === "endpoint" ? 0.18 : 0.42; })
+        .pointRadius(function (d) {
+          if (d.type === "vercel") return 0.48;
+          return d.type === "endpoint" ? 0.18 : 0.42;
+        })
         .pointLabel(function (d) { return d.label || ""; })
         .pointsMerge(false);
 
