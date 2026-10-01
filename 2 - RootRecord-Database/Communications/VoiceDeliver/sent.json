@@ -16,12 +16,12 @@
     "message_id": 2117
   },
   "kilauea_report": {
-    "sha256": "ebdc1dff4bdcf93c91c737353135871287539ba662ec4bff218ef6753725aea2",
-    "message_id": 211
+    "sha256": "4061ea7f8ece7411956f284f3936ed5a2788cba7d671c635a70cac2dac77b249",
+    "message_id": 2121
   },
   "earthquake_report": {
-    "sha256": "97c49ed973c6c6954c8ca96c0da403ab2dcb1afc7c8ba7b23e630a6c059b69c3",
-    "message_id": 208
+    "sha256": "3f56633173230b78faa9f3e3f7e926935619c54c7c9418439a9a976b688df8bf",
+    "message_id": 2119
   },
   "security_desk": {
     "sha256": "201d8bf2862d5172aaf33826a7874945d1c8c5b3adeda6275b286c7447fc0e98",
