@@ -13,7 +13,7 @@
       "started_at": null
     },
     "midday": {
-      "status": "pending",
+      "status": "due",
       "scheduled_at": "2026-10-01T12:00:00",
       "hour": 12,
       "minute": 0,
@@ -21,7 +21,8 @@
       "catch_up_allowed": true,
       "completed_at": null,
       "error": null,
-      "started_at": null
+      "started_at": null,
+      "marked_due_at": "2026-10-01T12:03:48-10:00"
     },
     "late": {
       "status": "pending",
@@ -78,5 +79,5 @@
       }
     }
   },
-  "updated_at": "2026-10-01T11:56:12-10:00"
+  "updated_at": "2026-10-01T12:07:28-10:00"
 }
