@@ -1,21 +1,43 @@
 {
-  "at": "2026-10-01T13:14:16-10:00",
+  "at": "2026-10-01T13:23:56-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 37,
-  "count_m2": 37,
-  "count_m25": 35,
+  "count": 38,
+  "count_m2": 38,
+  "count_m25": 36,
   "largest": {
     "id": "us6000tytg",
     "mag": 5.3,
     "place": "0 km NNE of Yōkaichiba, Japan",
     "time_hst": "2026-10-01T02:27:11.864000-10:00"
   },
-  "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-01T23:13:57+00:00",
+  "new_this_run": 1,
+  "usgs_generated_utc": "2026-10-01T23:23:57+00:00",
   "events": [
+    {
+      "id": "us6000tyxk",
+      "mag": 4.5,
+      "mag_type": "mb",
+      "place": "2 km NE of Satte, Japan",
+      "time_utc": "2026-10-01T21:01:41.707000+00:00",
+      "time_hst": "2026-10-01T11:01:41.707000-10:00",
+      "lon": 139.7487,
+      "lat": 36.0904,
+      "depth_km": 65.032,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyxk",
+      "nearest": {
+        "location_id": "jp-tokyo",
+        "name": "Tokyo",
+        "country_code": "JP",
+        "admin1_code": null,
+        "km": 45.3
+      }
+    },
     {
       "id": "us6000tyx0",
       "mag": 5.1,
