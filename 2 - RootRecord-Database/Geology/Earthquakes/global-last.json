@@ -1,21 +1,37 @@
 {
-  "at": "2026-09-30T19:41:48-10:00",
+  "at": "2026-09-30T19:46:54-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 35,
-  "count_m2": 35,
-  "count_m25": 34,
+  "count": 36,
+  "count_m2": 36,
+  "count_m25": 35,
   "largest": {
     "id": "us6000tymj",
     "mag": 5.6,
     "place": "94 km SW of Tamarindo, Costa Rica",
     "time_hst": "2026-09-30T11:55:26.169000-10:00"
   },
-  "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-01T05:40:57+00:00",
+  "new_this_run": 1,
+  "usgs_generated_utc": "2026-10-01T05:45:57+00:00",
   "events": [
+    {
+      "id": "us6000typy",
+      "mag": 4.2,
+      "mag_type": "mb",
+      "place": "280 km SW of Houma, Tonga",
+      "time_utc": "2026-10-01T04:41:16.232000+00:00",
+      "time_hst": "2026-09-30T18:41:16.232000-10:00",
+      "lon": -177.3105,
+      "lat": -22.8694,
+      "depth_km": 246.958,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000typy",
+      "nearest": null
+    },
     {
       "id": "aka2026tkmymd",
       "mag": 3.4,
