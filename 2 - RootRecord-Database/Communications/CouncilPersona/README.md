@@ -1,3 +1,3 @@
 # CouncilPersona
 
-No prompt bodies here. Chat prompts and the loader are Pacific `Communications/CouncilPersona/`. This directory is not a second copy of the identity.
+Nothing is stored here. Identity is Library `Agent Context/`. The Pacific loader reads those files. Do not put prompt bodies in this directory.
