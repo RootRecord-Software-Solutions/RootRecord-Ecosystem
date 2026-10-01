@@ -1,1 +1,1 @@
-Energy desk report. Delta 2 battery 22%, solar input zero watts, output zero watts. River 2 Pro battery 32%, solar input zero watts, output 111 watts. Solar panel still is 0 minutes old.
+Energy desk report. Delta 2 battery 22%, solar input zero watts, output zero watts. That Delta 2 reading is 49 minutes old. River 2 Pro battery 23%, solar input zero watts, output 107 watts. Solar panel still is 0 minutes old.
