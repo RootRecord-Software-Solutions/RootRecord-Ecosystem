@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Root Record — Software Solutions</title>
+<style>
+  *{box-sizing:border-box}
+  html,body{margin:0;background:#000011;color:#e8e8ef;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+  body{min-height:100vh}
+  a{color:#e0f2fe}
+  a:focus-visible{outline:2px solid rgba(125,211,252,.55);outline-offset:2px}
+  .skip{position:absolute;left:12px;top:-40px;background:#000011;padding:6px 10px}
+  .skip:focus{top:12px}
+  .frame{max-width:640px;padding:18px 18px 48px}
+  header{display:flex;align-items:baseline;justify-content:space-between;gap:16px;padding-bottom:22px;border-bottom:1px solid rgba(255,255,255,.08)}
+  .mark{font-size:12px;letter-spacing:1.6px;font-weight:700;text-transform:uppercase}
+  .co{display:block;margin-top:4px;font-size:12px;color:#8b8b99}
+  .back{font-size:12px;letter-spacing:.4px;text-decoration:none;color:#9a9aa8}
+  .back:hover{color:#e0f2fe}
+  main{padding-top:28px}
+  .kicker{margin:0 0 10px;font-size:12px;letter-spacing:1.5px;font-weight:700;text-transform:uppercase;color:#9a9aa8}
+  h1{margin:0 0 16px;font-size:28px;font-weight:600;letter-spacing:-.02em;line-height:1.25}
+  .lead{margin:0 0 28px;font-size:15px;line-height:1.55;color:#b9b9c6}
+  .glass{background:rgba(8,10,28,.46);border:1px solid rgba(255,255,255,.14);border-radius:16px;backdrop-filter:blur(14px) saturate(140%);-webkit-backdrop-filter:blur(14px) saturate(140%);padding:18px 18px 6px}
+  .glass h2{margin:0 0 14px;font-size:12px;letter-spacing:1.5px;font-weight:700;text-transform:uppercase}
+  dl{margin:0}
+  dt{margin:0;padding-top:14px;border-top:1px solid rgba(255,255,255,.08);font-size:13px;font-weight:600;color:#e8e8ef}
+  dt:first-of-type{border-top:0;padding-top:0}
+  dd{margin:6px 0 16px;font-size:14px;line-height:1.5;color:#b9b9c6}
+  .close{margin:22px 0 0;font-size:13px;line-height:1.5;color:#8b8b99}
+  @media (max-width:640px){
+    .frame{padding:10px 10px 36px}
+    h1{font-size:22px}
+    .lead,.dd{font-size:13px}
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="frame">
+  <header>
+    <div>
+      <div class="mark">Root Record</div>
+      <span class="co">Software Solutions</span>
+    </div>
+    <a class="back" href="/">Network</a>
+  </header>
+  <main id="main">
+    <p class="kicker">Purpose</p>
+    <h1>We build software and run the systems it depends on.</h1>
+    <p class="lead">Root Record Software Solutions is a Hawaiʻi practice. The public door is the live network view on our mainland node. This page is the practice: what we are for, and the work we take.</p>
+    <section class="glass" aria-labelledby="services">
+      <h2 id="services">Services</h2>
+      <dl>
+        <dt>Operated systems</dt>
+        <dd>A solar-powered desk in Hawaiʻi records energy, weather, and geology, and runs the jobs that keep those records. A figure is published when it was measured. Otherwise it is left blank.</dd>
+        <dt>Mainland edge</dt>
+        <dd>The network view and this page are served from AWS in Ohio. Public domains are meant to arrive on that view first. Continuing from it is how this page is reached.</dd>
+        <dt>Software</dt>
+        <dd>We write the software for that operation: collection, reports, and this public surface. Client work is software work. Client sites are not hosted here.</dd>
+      </dl>
+    </section>
+    <p class="close">Accounts are not open. This page is not a catalog. The network view remains the live instrument.</p>
+  </main>
+</div>
+</body>
+</html>

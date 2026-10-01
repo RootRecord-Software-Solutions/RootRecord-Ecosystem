@@ -22,7 +22,7 @@
     legacyHud: "compact",
     cards: {
       signup: { enabled: true, mode: "placeholder", url: "", title: "Join Root Record", blurb: "Accounts are coming soon." },
-      home: { enabled: false, url: "https://rootrecord.cloud/home", title: "Website Home", blurb: "The full Root Record site." },
+      home: { enabled: false, url: "/home", title: "Root Record", blurb: "Services and purpose. A Hawaiʻi software practice." },
       status: { enabled: true, pollSec: 15, healthUrls: ["/healthz", "/health"], stateUrl: "/api/state", deskHealthUrl: null, staleSec: 90 }
     },
     globe: { spinToggle: true, spinDefault: "on", clickInfo: true, hover: true, pauseSpinWhileInfoOpen: true, showIp: true, showProcess: false, hardenTooltips: true, stableData: true,
@@ -225,7 +225,7 @@
     var tools = el("span", { class: "ov-tools" }), pills = el("span", { class: "ov-pills" });
     dock.appendChild(tools); dock.appendChild(pills);
     var cards = {};
-    var LABEL = { signup: "Sign up", home: "Website", status: "Status" };
+    var LABEL = { signup: "Sign up", home: "Services", status: "Status" };
 
     function card(id, title, body) {
       var x = el("button", { class: "ov-x", type: "button", "aria-label": "Close " + LABEL[id] + " card", title: "Close", text: "\u00d7" });

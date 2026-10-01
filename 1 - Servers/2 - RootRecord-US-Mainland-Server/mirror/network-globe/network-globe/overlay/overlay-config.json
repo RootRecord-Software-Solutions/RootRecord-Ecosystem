@@ -11,15 +11,15 @@
     "signup": {
       "enabled": true,
       "mode": "placeholder",
-      "url": "https://root-record-cloud.vercel.app/login?next=/",
+      "url": "",
       "title": "Join Root Record",
       "blurb": "Solar-powered, Hawaiʻi-run infrastructure. Accounts are coming soon."
     },
     "home": {
-      "enabled": false,
-      "url": "https://rootrecord.cloud/home",
-      "title": "Website Home",
-      "blurb": "Blog, reports, goals and the full Root Record site."
+      "enabled": true,
+      "url": "/home",
+      "title": "Root Record",
+      "blurb": "Services and purpose. A Hawaiʻi software practice."
     },
     "status": {
       "enabled": true,
