@@ -1,20 +1,20 @@
 {
-  "at": "2026-10-01T10:43:20-10:00",
+  "at": "2026-10-01T10:50:46-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 44,
-  "count_m2": 44,
-  "count_m25": 42,
+  "count": 43,
+  "count_m2": 43,
+  "count_m25": 41,
   "largest": {
     "id": "us6000tymj",
     "mag": 5.6,
     "place": "94 km SW of Tamarindo, Costa Rica",
     "time_hst": "2026-09-30T11:55:26.169000-10:00"
   },
-  "new_this_run": 1,
-  "usgs_generated_utc": "2026-10-01T20:42:57+00:00",
+  "new_this_run": 0,
+  "usgs_generated_utc": "2026-10-01T20:49:57+00:00",
   "events": [
     {
       "id": "us6000tyx0",
@@ -780,28 +780,6 @@
         "country_code": "PR",
         "admin1_code": null,
         "km": 52.4
-      }
-    },
-    {
-      "id": "nc75441981",
-      "mag": 2.63,
-      "mag_type": "md",
-      "place": "1 km SW of Anderson Springs, CA",
-      "time_utc": "2026-09-30T20:48:14.500000+00:00",
-      "time_hst": "2026-09-30T10:48:14.500000-10:00",
-      "lon": -122.700668334961,
-      "lat": 38.7664985656738,
-      "depth_km": 1.78999996185303,
-      "status": "automatic",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75441981",
-      "nearest": {
-        "location_id": "us-california-sacramento",
-        "name": "Sacramento",
-        "country_code": "US",
-        "admin1_code": "California",
-        "km": 106.9
       }
     }
   ]
