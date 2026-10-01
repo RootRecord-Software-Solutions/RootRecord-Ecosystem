@@ -1,6 +1,6 @@
 # Current State
 
-**Checked:** 2026-09-30 01:24 HST. Operator remaining work: `5 - RootRecord-Library/Documentation/01-operations/2026-09-30-whats-left-for-alexander.md`.
+**Checked:** 2026-09-30 01:24 HST, with an afternoon council update below. Operator remaining work: `5 - RootRecord-Library/Documentation/01-operations/2026-09-30-whats-left-for-alexander.md`. Continuity: `5 - RootRecord-Library/Documentation/01-operations/HANDOFF.md`.
 
 ## Baseline
 
@@ -36,9 +36,11 @@ Host `rootrecord-software-solutions` came up at 01:09 HST. These were up from th
 - Ollama on `:11434`
 - GitHub sync for ecosystem, pacific, database, and library. `skills` matched. `website` and `mainland` rows stay disabled
 
-**Energy.** River 2 Pro BLE is the live pack (about 35% SOC at 01:22, discharging, solar 0 W). Delta 2 died and no longer transmits. `WAITING` and the last snapshot at 1% SOC (00:53 HST, cloud API) are normal. Do not treat that as a migration fault. Do not schedule Delta 2 actuation.
+**Energy.** River 2 Pro BLE is the live pack (about 35% SOC at 01:22, discharging, solar 0 W). At 01:24, Delta 2 was not transmitting. Freshness after that is the timestamp on the last file: `observed`, `stale`, or `dead`. Do not freeze the 01:22 watts into a later answer.
 
-**Telegram.** Relay process is up. Replies stay off until Alexander sets `RR_RELAY_REPLIES=1`.
+**Telegram.** Afternoon 2026-09-30: the sandbox answers (`SANDBOX_REPLIES=1`). Live council and private DMs stay quiet until `RR_RELAY_REPLIES=1`. Council inference is NPU `llama3.2:3b`, context 4096, on demand, no Ollama fallback. The 01:24 line "replies stay off" is the morning state.
+
+**Canonical state.** Pacific `state-aggregate.py` writes `2 - RootRecord-Database/System/status/rootrecord-state.json`. That file is generated and is not committed. Agents read the short slice, not the full JSON, inside a 4096 context.
 
 **Legacy trees.** `~/.ollama/skills` (277 MB) is still the `skills` sync row. The 27 GB `old ollama/old skills` tree is only partly copied into `Old repos deleted and merged/`. Do not delete either without Alexander's explicit sign-off.
 
@@ -63,5 +65,5 @@ Do not suggest a second poller or a manual restart after an ordinary push.
 These are not today's live claim:
 
 - 2026-09-22/23 skills-folder reset. Current `main` is current source. An implementation that exists only in an archive is not live until verified.
-- 2026-09-23 energy PASS for Delta 2 DC, USB, and AC. That pack is now dead. Re-verify on River 2 Pro before calling an action PASS.
+- 2026-09-23 energy PASS for Delta 2 DC, USB, and AC. That PASS is not a current freshness claim. Read the latest energy file before calling a pack live or dead.
 - 2026-09-24 state file, when it still named `rootrecordsoftwaresolutions/Solar-Pacific-RootRecord-Server` and left power unknown. Superseded by the 2026-09-30 snapshot above.
