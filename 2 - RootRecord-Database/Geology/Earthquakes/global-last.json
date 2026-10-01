@@ -1,20 +1,20 @@
 {
-  "at": "2026-10-01T00:25:42-10:00",
+  "at": "2026-10-01T00:33:35-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 38,
-  "count_m2": 38,
-  "count_m25": 37,
+  "count": 36,
+  "count_m2": 36,
+  "count_m25": 35,
   "largest": {
     "id": "us6000tymj",
     "mag": 5.6,
     "place": "94 km SW of Tamarindo, Costa Rica",
     "time_hst": "2026-09-30T11:55:26.169000-10:00"
   },
-  "new_this_run": 1,
-  "usgs_generated_utc": "2026-10-01T10:25:19+00:00",
+  "new_this_run": 0,
+  "usgs_generated_utc": "2026-10-01T10:33:19+00:00",
   "events": [
     {
       "id": "aka2026tlapkt",
@@ -675,38 +675,6 @@
         "admin1_code": null,
         "km": 140.0
       }
-    },
-    {
-      "id": "aka2026tjfajm",
-      "mag": 3.1,
-      "mag_type": "ml",
-      "place": "26 km N of Glacier View, Alaska",
-      "time_utc": "2026-09-30T10:31:47.887000+00:00",
-      "time_hst": "2026-09-30T00:31:47.887000-10:00",
-      "lon": -147.635,
-      "lat": 62.048,
-      "depth_km": 20.8,
-      "status": "automatic",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tjfajm",
-      "nearest": null
-    },
-    {
-      "id": "tx2026tgcgrj",
-      "mag": 3.1,
-      "mag_type": "ml",
-      "place": "20 km WNW of Stanton, Texas",
-      "time_utc": "2026-09-30T10:25:49.372000+00:00",
-      "time_hst": "2026-09-30T00:25:49.372000-10:00",
-      "lon": -101.976,
-      "lat": 32.222,
-      "depth_km": 7.7881,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026tgcgrj",
-      "nearest": null
     }
   ]
 }
