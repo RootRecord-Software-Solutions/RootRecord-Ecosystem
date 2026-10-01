@@ -77,6 +77,8 @@
 /Github/logs/
 # GitHub sync runtime moved off /home/rootrecord/Database on 2026-09-30.
 # Worktrees are not here; they live in the umbrella Github-worktrees/ directory.
+# /Github/worktrees/ was a one-sync mistake (library files). Keep it ignored.
+/Github/worktrees/
 /Github/flags/
 /Github/control-panel-settings-backups/
 /Github/cps-work/
