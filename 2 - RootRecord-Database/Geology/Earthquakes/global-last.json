@@ -1,12 +1,12 @@
 {
-  "at": "2026-09-30T18:55:40-10:00",
+  "at": "2026-09-30T19:01:41-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 37,
-  "count_m2": 37,
-  "count_m25": 36,
+  "count": 36,
+  "count_m2": 36,
+  "count_m25": 35,
   "largest": {
     "id": "us6000tymj",
     "mag": 5.6,
@@ -14,7 +14,7 @@
     "time_hst": "2026-09-30T11:55:26.169000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-01T04:54:57+00:00",
+  "usgs_generated_utc": "2026-10-01T05:00:57+00:00",
   "events": [
     {
       "id": "aka2026tkmymd",
@@ -668,28 +668,6 @@
         "country_code": "GR",
         "admin1_code": null,
         "km": 54.8
-      }
-    },
-    {
-      "id": "us6000tyhk",
-      "mag": 5.6,
-      "mag_type": "mww",
-      "place": "74 km S of Yonakuni, Japan",
-      "time_utc": "2026-09-30T05:00:24.971000+00:00",
-      "time_hst": "2026-09-29T19:00:24.971000-10:00",
-      "lon": 122.9149,
-      "lat": 23.8027,
-      "depth_km": 10.792,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyhk",
-      "nearest": {
-        "location_id": "tw-taipei",
-        "name": "Taipei",
-        "country_code": "TW",
-        "admin1_code": null,
-        "km": 193.8
       }
     }
   ]
