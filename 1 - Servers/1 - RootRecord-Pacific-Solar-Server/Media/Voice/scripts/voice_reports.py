@@ -243,22 +243,104 @@ def alerts() -> tuple[list[dict], str | None]:  # info: def alerts
 
 
 # ====================================================
+# SECTION: function _flat
+# What it does: Collapse a forecast paragraph to one line. Does not send.
+# Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
+# ====================================================
+def _flat(text: str) -> str:  # info: def _flat
+    return " ".join((text or "").split())  # info: return " " . join ( ( text or "" ) . split ( ) )
+
+
+# ====================================================
+# SECTION: function _shore
+# What it does: Keep the shore temperature when a zone also lists an elevation. Does not send.
+# Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
+# ====================================================
+def _shore(phrase: str) -> str:  # info: def _shore
+    raw = (phrase or "").strip(" ,")  # info: set raw
+    cut = re.split(r" near the shore| near \d| at \d{3,}| to around \d+", raw, maxsplit=1)[0].strip(" ,")  # info: set cut
+    if cut and cut != raw:  # info: if cut and cut != raw
+        return cut + " at the shore"  # info: return cut + " at the shore"
+    return cut  # info: return cut
+
+
+# ====================================================
+# SECTION: function sfp_read
+# What it does: Issued stamp and island groups from the HFO state forecast. Does not send.
+# Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
+# ====================================================
+def sfp_read() -> tuple[str | None, list[dict]]:  # info: def sfp_read
+    """Issued stamp and island groups [{name, periods:[(label, body)]}] from the HFO state forecast. Does not send."""  # info: """Issued stamp and island groups from the HFO state forecast. Does not send."""
+    try:  # info: try :
+        txt = SFP.read_text(encoding="utf-8")  # info: set txt
+    except OSError:  # info: except OSError :
+        return None, []  # info: return None , [ ]
+    issued = re.search(r"^\d{3,4} [AP]M HST .+ \d{4}$", txt, re.M)  # info: set issued
+    fence = re.search(r"```text\n(.+?)\n```", txt, re.S)  # info: set fence
+    body = fence.group(1) if fence else txt  # info: set body
+    period = re.compile(r"^\.([A-Z][A-Z ]+)\.\.\.(.+?)(?=^\.[A-Z]|^HIZ|```|\Z)", re.M | re.S)  # info: set period
+    parts = re.split(r"(?m)^([A-Za-z][A-Za-z ,'ʻ.-]*[A-Za-z])-\s*$", body)  # info: set parts
+    groups = []  # info: set groups
+    i = 1  # info: set i
+    while i + 1 < len(parts):  # info: while i + 1 < len ( parts )
+        name = parts[i].replace("-", ", ")  # info: set name
+        periods = [(m.group(1).title(), _flat(m.group(2))) for m in period.finditer(parts[i + 1])]  # info: set periods
+        if periods:  # info: if periods :
+            groups.append({"name": name, "periods": periods})  # info: groups . append ( { "name" : name , "periods" : periods } )
+        i += 2  # info: set i
+    if not groups:  # info: if not groups :
+        periods = [(m.group(1).title(), _flat(m.group(2))) for m in period.finditer(body)]  # info: set periods
+        if periods:  # info: if periods :
+            groups.append({"name": "State", "periods": periods})  # info: groups . append ( { "name" : "State" , "periods" : periods } )
+    return (issued.group(0) if issued else None), groups  # info: return issued line , groups
+
+
+# ====================================================
 # SECTION: function sfp_today
 # What it does: First forecast period of the NWS HFO State Forecast (SFP) for Kauai–Oahu–Maui–Molokai–Lanai.
 # Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
 # ====================================================
 def sfp_today() -> tuple[str | None, str | None]:  # info: def sfp_today
     """First forecast period of the NWS HFO State Forecast (SFP) for Kauai–Oahu–Maui–Molokai–Lanai."""  # info: """First forecast period of the NWS HFO State Forecast (SFP) for Kauai–Oahu–Maui–Molokai–Lanai."""
+    issued, groups = sfp_read()  # info: issued , groups = sfp_read ( )
+    if not groups or not groups[0]["periods"]:  # info: if not groups or not groups [ 0 ] [ "periods" ]
+        return None, issued  # info: return None , issued
+    label, body = groups[0]["periods"][0]  # info: label , body = groups [ 0 ] [ "periods" ] [ 0 ]
+    return f"{label}: {body}", issued  # info: return first period , issued
+
+
+# ====================================================
+# SECTION: function zfp_temps
+# What it does: Today high and tonight low for Honolulu, Lihue, Kahului, Hilo, and Kailua-Kona. Does not send.
+# Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
+# ====================================================
+def zfp_temps() -> list[dict]:  # info: def zfp_temps
+    """Today high and tonight low from the HFO zone forecast. Shore number when a zone also lists elevation. Does not send."""  # info: """Today high and tonight low from the HFO zone forecast. Does not send."""
+    places = (("Honolulu Metro", "Honolulu"), ("Kauai East", "Lihue"), ("Maui Central Valley North", "Kahului"),  # info: set places
+              ("Big Island East", "Hilo"), ("Kona", "Kailua-Kona"))  # info: ( "Big Island East" , "Hilo" ) , ( "Kona" , "Kailua-Kona" )
     try:  # info: try :
-        txt = SFP.read_text(encoding="utf-8")  # info: set txt
+        txt = ZFP.read_text(encoding="utf-8")  # info: set txt
     except OSError:  # info: except OSError :
-        return None, None  # info: return None , None
-    issued = re.search(r"^\d{3,4} [AP]M HST .+ \d{4}$", txt, re.M)  # info: set issued
-    m = re.search(r"^\.([A-Z][A-Z ]+)\.\.\.(.+?)(?=^\.[A-Z]|```|\Z)", txt, re.M | re.S)  # info: set m
-    if not m:  # info: if not m :
-        return None, issued.group(0) if issued else None  # info: return None , issued . group ( 0
-    body = " ".join(m.group(2).split())  # info: set body
-    return f"{m.group(1).title()}: {body}", issued.group(0) if issued else None  # info: return f" { m . group ( 1
+        return []  # info: return [ ]
+    found = {}  # info: set found
+    for block in re.split(r"(?m)^HIZ\d+", txt):  # info: for block in re . split
+        name_m = re.search(r"(?m)^([A-Za-z][A-Za-z ]+)-\s*$", block)  # info: set name_m
+        if not name_m:  # info: if not name_m :
+            continue  # info: continue
+        key = name_m.group(1).strip()  # info: set key
+        if key in found or key not in {zone for zone, _ in places}:  # info: if key in found or key not in zones
+            continue  # info: continue
+        row = {"place": dict(places)[key], "high": None, "low": None}  # info: set row
+        for label, word, field in (("TODAY", "Highs", "high"), ("TONIGHT", "Lows", "low")):  # info: for label , word , field
+            hit = re.search(rf"(?ms)^\.{label}\.\.\.(.+?)(?=^\.[A-Z]|\Z)", block)  # info: set hit
+            if not hit:  # info: if not hit :
+                continue  # info: continue
+            deg = re.search(rf"\b{word}\s+(.+?)(?:\.|$)", _flat(hit.group(1)))  # info: set deg
+            if deg:  # info: if deg :
+                row[field] = _shore(deg.group(1))  # info: row [ field ] = _shore
+        if row["high"] or row["low"]:  # info: if row [ "high" ] or row [ "low" ]
+            found[key] = row  # info: found [ key ] = row
+    return [found[zone] for zone, _ in places if zone in found]  # info: return rows in place order
 
 
 # ====================================================
@@ -348,16 +430,38 @@ def b_hourly_chime(t: datetime):  # info: def b_hourly_chime
 
 
 # ====================================================
+# SECTION: function _temp_clause
+# What it does: High and low words from one forecast period. Does not send.
+# Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
+# ====================================================
+def _temp_clause(body: str) -> str:  # info: def _temp_clause
+    bits = []  # info: set bits
+    for word, say in (("Highs", "highs"), ("Lows", "lows")):  # info: for word , say
+        hit = re.search(rf"\b{word}\s+(.+?)(?:\.|$)", body or "")  # info: set hit
+        if hit:  # info: if hit :
+            bits.append(f"{say} {_shore(hit.group(1))}")  # info: bits . append
+    if bits:  # info: if bits :
+        return ", ".join(bits)  # info: return ", " . join ( bits )
+    return re.split(r"(?<=\.)\s", body or "")[0].strip().rstrip(".")  # info: return first sentence
+
+
+# ====================================================
 # SECTION: function b_nws_weather
-# What it does: b nws weather.
+# What it does: Alerts, today's state forecast, shore temperatures, and the later outlook. Does not send.
 # Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
 # ====================================================
 def b_nws_weather(t: datetime):  # info: def b_nws_weather
     rows, upd = alerts()  # info: rows , upd = alerts ( )
-    today, issued = sfp_today()  # info: today , issued = sfp_today ( )
+    issued, groups = sfp_read()  # info: issued , groups = sfp_read ( )
+    places = zfp_temps()  # info: set places
+    today = None  # info: set today
+    if groups and groups[0]["periods"]:  # info: if groups and groups [ 0 ] [ "periods" ]
+        label, body = groups[0]["periods"][0]  # info: label , body = first period
+        today = f"{label}: {body}"  # info: set today
     sp = ["NWS Hawaii Report."]  # info: set sp
     md = [f"# NWS Hawaii — {t.isoformat()}", "", f"- Alerts source: `api.weather.gov/alerts/active?area=HI` (updated {upd or 'n/a'})",
-          f"- Forecast source: NWS HFO State Forecast (SFP), issued {issued or 'n/a'}", "", "## Active alerts", ""]
+          f"- Forecast source: NWS HFO State Forecast (SFP), issued {issued or 'n/a'}",
+          "- Temperatures: NWS HFO Zone Forecast (ZFP), today high and tonight low", "", "## Active alerts", ""]
     if rows:  # info: if rows :
         sp.append(f"{len(rows)} active alert{'s' if len(rows) != 1 else ''} for Hawaii.")  # info: sp . append ( f" { len (
         for r in rows[:3]:  # info: for r in rows [ : 3 ]
@@ -370,6 +474,41 @@ def b_nws_weather(t: datetime):  # info: def b_nws_weather
     if today:  # info: if today :
         sp.append(f"State forecast for {today.split(':', 1)[0].lower()}.")  # info: sp . append ( f" State forecast for { today
         sp.append(today.split(":", 1)[1].strip().rstrip(".") + ".")  # info: sp . append ( today . split (
+    md += ["", "## Temperatures", "", "Shore number when the zone also lists an elevation.", ""]
+    if places:  # info: if places :
+        spoken_places = []  # info: set spoken_places
+        for p in places:  # info: for p in places
+            bits = []  # info: set bits
+            if p["high"]:  # info: if p [ "high" ]
+                bits.append(f"high {p['high']}")  # info: bits . append
+            if p["low"]:  # info: if p [ "low" ]
+                bits.append(f"low {p['low']}")  # info: bits . append
+            md.append(f"- **{p['place']}** — " + ", ".join(bits))  # info: md . append
+            spoken_places.append(f"{p['place']} " + ", ".join(bits))  # info: spoken_places . append
+        sp.append("Temperatures. " + ". ".join(spoken_places) + ".")  # info: sp . append
+    else:  # info: else :
+        md.append("- _not on file_")  # info: md . append ( "- _not on file_" )
+        sp.append("Temperatures are not on file.")  # info: sp . append
+    md += ["", "## Outlook", ""]
+    wrote = False  # info: set wrote
+    outlook_bits = []  # info: set outlook_bits
+    for g in groups:  # info: for g in groups
+        later = g["periods"][1:]  # info: set later
+        if not later:  # info: if not later
+            continue  # info: continue
+        if wrote:  # info: if wrote
+            md.append("")  # info: md . append ( "" )
+        wrote = True  # info: set wrote
+        md += [f"**{g['name']}**", ""]  # info: md += group heading
+        for label, body in later:  # info: for label , body in later
+            md.append(f"- {label}: {body}")  # info: md . append
+        if not outlook_bits:  # info: if not outlook_bits
+            for label, body in later[:2]:  # info: for label , body in later [ : 2 ]
+                outlook_bits.append(f"{label}, {_temp_clause(body)}")  # info: outlook_bits . append
+    if wrote:  # info: if wrote
+        sp.append("Outlook. " + ". ".join(outlook_bits) + ".")  # info: sp . append
+    else:  # info: else
+        md.append("- _not on file_")  # info: md . append ( "- _not on file_" )
     return "\n".join(md), sp  # info: return "\n" . join ( md ) ,
 
 
