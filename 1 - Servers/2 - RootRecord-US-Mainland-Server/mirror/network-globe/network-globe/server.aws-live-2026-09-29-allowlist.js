@@ -3,11 +3,13 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 const fs = require('fs');
-const readline = require('readline');
+const net = require('net');
+const { execFile } = require('child_process');
 
 const app = express();
 const PORT = process.env.PORT || 8080;
-const FEED = path.join(__dirname, 'data', 'hawaii.ndjson');
+const HAWAII_SNAP = process.env.HAWAII_SNAP || '/home/ubuntu/rebroadcast/hawaii-current.ndjson';
+const AWS_SNAP = process.env.AWS_SNAP || '/home/ubuntu/rebroadcast/aws-current.ndjson';
 const WINDOW_MS = 90000;
 const MAX_ARCS = 150;
 const GEO_CACHE_FILE = path.join(__dirname, 'data', 'geo-cache.json');
@@ -38,12 +40,16 @@ app.get('/overlay/:file', function(req, res) {
   });
 });
 
-let origin = { lat: 21.3069, lng: -157.8583, label: 'Hawaii' };
-const flows = new Map();
+const HAWAII_ORIGIN = { lat: 21.3069, lng: -157.8583, label: 'Hawaii' };
+const AWS_ORIGIN_FALLBACK = { lat: 40.4173, lng: -82.9071, label: 'AWS Ohio' };
+let hawaiiOrigin = Object.assign({}, HAWAII_ORIGIN);
+let awsOrigin = Object.assign({}, AWS_ORIGIN_FALLBACK);
+const hawaiiFlows = new Map();
+const localFlows = new Map();
 const geoCache = new Map();
 let geoQueue = [];
 let geoBusy = false;
-let feedOffset = 0;
+let localOk = false;
 
 try {
   if (fs.existsSync(GEO_CACHE_FILE)) {
@@ -88,77 +94,112 @@ async function processGeoQueue() {
   geoBusy = false;
 }
 
-function flowKey(rec) {
-  const d = rec.destination || {};
-  return (rec.protocol || '') + '|' + (d.ip || '') + ':' + (d.port || 0) + '|' + (rec.process || '');
+function isPrivateIp(ip) {
+  if (!ip) return true;
+  if (ip.startsWith('::ffff:')) return isPrivateIp(ip.slice(7));
+  const v = net.isIP(ip);
+  if (v === 4) {
+    const [a, b] = ip.split('.').map(Number);
+    return a === 0 || a === 10 || a === 127 || (a === 100 && b >= 64 && b <= 127) ||
+      (a === 169 && b === 254) || (a === 172 && b >= 16 && b <= 31) ||
+      (a === 192 && b === 168) || a >= 224;
+  }
+  if (v === 6) {
+    const x = ip.toLowerCase();
+    return x === '::' || x === '::1' || x.startsWith('fc') || x.startsWith('fd') ||
+      x.startsWith('fe8') || x.startsWith('fe9') || x.startsWith('fea') || x.startsWith('feb') || x.startsWith('ff');
+  }
+  return true;
 }
 
-function ingestRecord(rec) {
-  if (!rec || rec.type !== 'network-globe-telemetry') return;
-  const now = Date.now();
-  const src = rec.source || {};
-  if (Number.isFinite(src.latitude) && Number.isFinite(src.longitude)) {
-    origin = { lat: src.latitude, lng: src.longitude, label: src.label || 'Hawaii' };
+function parseEndpoint(value) {
+  if (!value || value === '*' || value === '*:*') return null;
+  value = value.trim();
+  if (value.startsWith('[')) {
+    const end = value.lastIndexOf(']');
+    if (end > 0) {
+      const ip = value.slice(1, end).split('%')[0];
+      const port = Number(value.slice(end + 1).replace(/^:/, '')) || 0;
+      return { ip, port };
+    }
   }
-  const key = flowKey(rec);
-  const prev = flows.get(key);
-  flows.set(key, {
-    rec: rec,
-    lastSeen: now,
-    packets: (prev ? prev.packets : 0) + (Number(rec.packets) || 0),
-    bytes: (prev ? prev.bytes : 0) + (Number(rec.bytes) || 0)
+  const i = value.lastIndexOf(':');
+  if (i > 0) {
+    const ip = value.slice(0, i);
+    const port = Number(value.slice(i + 1));
+    if (net.isIP(ip) && Number.isFinite(port)) return { ip, port };
+  }
+  return null;
+}
+
+function pushArc(arcs, start, ip, item, color) {
+  const geo = geoCache.get(ip);
+  if (!geo || geo.lat == null || geo.lng == null) return;
+  arcs.push({
+    startLat: start.lat,
+    startLng: start.lng,
+    endLat: geo.lat,
+    endLng: geo.lng,
+    process: item.process || 'network',
+    protocol: item.protocol || '',
+    endpoint: ip,
+    port: item.port || '',
+    city: geo.city,
+    country: geo.country,
+    org: geo.org,
+    sourceLabel: start.label,
+    color: color,
+    altitude: 0.18,
+    stroke: 1.2
   });
-  if (rec.destination && rec.destination.ip) enqueueGeo(rec.destination.ip);
-}
-
-function pruneFlows() {
-  const cutoff = Date.now() - WINDOW_MS;
-  for (const [k, v] of flows) {
-    if (v.lastSeen < cutoff) flows.delete(k);
-  }
 }
 
 function buildState() {
-  pruneFlows();
   const arcs = [];
-  const points = [{ lat: origin.lat, lng: origin.lng, label: origin.label || 'Hawaii', type: 'origin' }];
+  const points = [
+    { lat: hawaiiOrigin.lat, lng: hawaiiOrigin.lng, label: hawaiiOrigin.label, type: 'origin' },
+    { lat: awsOrigin.lat, lng: awsOrigin.lng, label: awsOrigin.label, type: 'aws' }
+  ];
   const endpoints = new Set();
   let packetRate = 0;
   let bytesPerSec = 0;
   const windowSec = WINDOW_MS / 1000;
 
-  for (const item of flows.values()) {
-    const rec = item.rec;
-    const dest = rec.destination || {};
-    const ip = dest.ip;
-    if (!ip) continue;
-    endpoints.add(ip);
+  for (const item of hawaiiFlows.values()) {
+    if (!item.ip) continue;
+    endpoints.add(item.ip);
     packetRate += (item.packets || 0) / windowSec;
     bytesPerSec += (item.bytes || 0) / windowSec;
-    const geo = geoCache.get(ip);
-    if (!geo || geo.lat == null || geo.lng == null) continue;
-    arcs.push({
-      startLat: origin.lat,
-      startLng: origin.lng,
-      endLat: geo.lat,
-      endLng: geo.lng,
-      process: rec.process || 'network',
-      protocol: rec.protocol || '',
-      endpoint: ip,
-      port: dest.port || '',
-      city: geo.city,
-      country: geo.country,
-      org: geo.org,
-      color: '#22c55e',
-      altitude: 0.18,
-      stroke: 1.2
+    pushArc(arcs, hawaiiOrigin, item.ip, item, '#22c55e');
+  }
+  for (const item of localFlows.values()) {
+    if (!item.ip) continue;
+    endpoints.add(item.ip);
+    pushArc(arcs, awsOrigin, item.ip, item, '#38bdf8');
+  }
+  if (hawaiiFlows.size && localOk) {
+    arcs.unshift({
+      startLat: hawaiiOrigin.lat,
+      startLng: hawaiiOrigin.lng,
+      endLat: awsOrigin.lat,
+      endLng: awsOrigin.lng,
+      process: 'Hawaii ↔ Mainland',
+      protocol: 'persistent',
+      endpoint: 'AWS Mainland node',
+      port: '',
+      country: 'United States',
+      org: awsOrigin.label,
+      sourceLabel: hawaiiOrigin.label,
+      color: '#38bdf8',
+      altitude: 0.28,
+      stroke: 1.5
     });
   }
 
   const limited = arcs.slice(0, MAX_ARCS);
   const seen = new Set();
   for (const a of limited) {
-    if (seen.has(a.endpoint)) continue;
+    if (!a.endpoint || a.protocol === 'persistent' || seen.has(a.endpoint)) continue;
     seen.add(a.endpoint);
     points.push({
       lat: a.endLat,
@@ -169,53 +210,123 @@ function buildState() {
   }
 
   return {
-    origin: { label: origin.label || 'Hawaii' },
+    origin: { label: hawaiiOrigin.label + ' + ' + awsOrigin.label },
     stats: {
-      activeFlows: flows.size,
+      activeFlows: hawaiiFlows.size + localFlows.size,
+      localActiveFlows: localFlows.size,
+      hawaiiActiveFlows: hawaiiFlows.size,
       endpoints: endpoints.size,
       packetRate: Math.round(packetRate * 10) / 10,
       bytesPerSec: Math.round(bytesPerSec),
-      collector: 'hawaii-feed'
+      collector: 'ss + hawaii snapshot'
     },
-    aws: { ok: false, reason: 'No AWS telemetry connected' },
+    aws: localOk
+      ? { ok: true, region: 'us-east-2', label: awsOrigin.label, localFlows: localFlows.size }
+      : { ok: false, reason: 'AWS socket sample failed' },
     arcs: limited,
     points: points
   };
 }
 
-function readNewRecords() {
+function readHawaiiSnapshot() {
   try {
-    if (!fs.existsSync(FEED)) return;
-    const st = fs.statSync(FEED);
-    if (st.size < feedOffset) feedOffset = 0;
-    if (st.size === feedOffset) return;
-    const stream = fs.createReadStream(FEED, { start: feedOffset, encoding: 'utf8' });
-    const rl = readline.createInterface({ input: stream, crlfDelay: Infinity });
-    rl.on('line', function(line) {
-      line = line.trim();
-      if (!line) return;
-      try { ingestRecord(JSON.parse(line)); } catch (e) {}
-    });
-    rl.on('close', function() { feedOffset = st.size; });
+    const st = fs.statSync(HAWAII_SNAP);
+    if (Date.now() - st.mtimeMs > 3 * 60 * 1000) {
+      hawaiiFlows.clear();
+      return;
+    }
+    const next = new Map();
+    for (const line of fs.readFileSync(HAWAII_SNAP, 'utf8').split('\n')) {
+      if (!line.trim()) continue;
+      let rec;
+      try { rec = JSON.parse(line); } catch (e) { continue; }
+      if (!rec || rec.type !== 'network-globe-telemetry') continue;
+      const src = rec.source || {};
+      if (Number.isFinite(src.latitude) && Number.isFinite(src.longitude)) {
+        hawaiiOrigin = { lat: src.latitude, lng: src.longitude, label: src.label || 'Hawaii' };
+      }
+      const dest = rec.destination || {};
+      if (!dest.ip || isPrivateIp(dest.ip)) continue;
+      const key = (rec.protocol || '') + '|' + dest.ip + ':' + (dest.port || 0) + '|' + (rec.process || '');
+      next.set(key, {
+        ip: dest.ip,
+        port: dest.port || '',
+        protocol: rec.protocol || '',
+        process: rec.process || 'network',
+        packets: Number(rec.packets) || 0,
+        bytes: Number(rec.bytes) || 0
+      });
+      enqueueGeo(dest.ip);
+    }
+    hawaiiFlows.clear();
+    for (const [k, v] of next) hawaiiFlows.set(k, v);
   } catch (e) {
-    console.error('feed read', e.message);
+    console.error('hawaii snapshot', e.message);
   }
 }
 
-function bootstrapFeed() {
-  try {
-    if (!fs.existsSync(FEED)) return;
-    const st = fs.statSync(FEED);
-    feedOffset = Math.max(0, st.size - 3 * 1024 * 1024);
-    readNewRecords();
-    console.log('Bootstrapped feed offset', feedOffset, 'size', st.size);
-  } catch (e) {
-    console.error('bootstrap', e.message);
+function writeAwsSnapshot() {
+  const lines = [];
+  for (const item of localFlows.values()) {
+    lines.push(JSON.stringify({
+      type: 'network-globe-telemetry',
+      version: 1,
+      timestamp: Date.now(),
+      sourceNode: 'AwsOhio',
+      sourceRegion: 'us-east-2',
+      source: { latitude: awsOrigin.lat, longitude: awsOrigin.lng, label: awsOrigin.label },
+      destination: { type: 'public-ip', ip: item.ip, port: item.port },
+      protocol: item.protocol,
+      process: item.process
+    }));
   }
+  const body = lines.length ? lines.join('\n') + '\n' : '';
+  if (body.length > 1024 * 1024) return;
+  const tmp = AWS_SNAP + '.tmp';
+  fs.writeFileSync(tmp, body);
+  fs.renameSync(tmp, AWS_SNAP);
+}
+
+function sampleLocal() {
+  execFile('ss', ['-H', '-tun', '-p'], { timeout: 3000, maxBuffer: 4 * 1024 * 1024 }, function(err, stdout) {
+    if (err) {
+      localOk = false;
+      return;
+    }
+    const next = new Map();
+    for (const line of String(stdout).split('\n')) {
+      const cols = line.trim().split(/\s+/);
+      if (cols.length < 6) continue;
+      const peer = parseEndpoint(cols[5]);
+      if (!peer || isPrivateIp(peer.ip)) continue;
+      const proto = cols[0].toLowerCase().startsWith('tcp') ? 'tcp' : cols[0].toLowerCase().startsWith('udp') ? 'udp' : cols[0];
+      const m = line.match(/users:\(\("([^"]+)"/);
+      const processName = m ? m[1] : 'network';
+      const key = proto + '|' + peer.ip + ':' + peer.port + '|' + processName;
+      next.set(key, { ip: peer.ip, port: peer.port, protocol: proto, process: processName, packets: 0, bytes: 0 });
+      enqueueGeo(peer.ip);
+    }
+    localFlows.clear();
+    for (const [k, v] of next) localFlows.set(k, v);
+    localOk = true;
+    try { writeAwsSnapshot(); } catch (e) { console.error('aws snapshot', e.message); }
+  });
+}
+
+function discoverAwsOrigin() {
+  execFile('curl', ['-4fsS', '--max-time', '4', 'https://api.ipify.org'], { timeout: 6000 }, function(err, stdout) {
+    const ip = String(stdout || '').trim();
+    if (err || !net.isIP(ip)) return;
+    lookupGeo(ip).then(function(geo) {
+      if (geo && geo.lat != null && geo.lng != null) {
+        awsOrigin = { lat: geo.lat, lng: geo.lng, label: 'AWS Ohio' };
+      }
+    }).catch(function() {});
+  });
 }
 
 app.get('/health', function(req, res) {
-  res.json({ status: 'ok', service: 'network-globe', uptime: process.uptime(), flows: flows.size, geo: geoCache.size });
+  res.json({ status: 'ok', service: 'network-globe', uptime: process.uptime(), flows: hawaiiFlows.size + localFlows.size, hawaii: hawaiiFlows.size, local: localFlows.size, geo: geoCache.size });
 });
 
 app.get('/api/state', function(req, res) {
@@ -253,8 +364,11 @@ app.use(function(req, res) {
 const BIND = process.env.GLOBE_WEB_BIND || '127.0.0.1'; // cloudflared connects locally
 app.listen(PORT, BIND, function() {
   console.log('Network Globe listening on', PORT);
-  bootstrapFeed();
-  setInterval(readNewRecords, 2000);
+  discoverAwsOrigin();
+  readHawaiiSnapshot();
+  sampleLocal();
+  setInterval(readHawaiiSnapshot, 2000);
+  setInterval(sampleLocal, 2000);
   setInterval(processGeoQueue, 2500);
   setInterval(saveGeoCache, 60000);
 });

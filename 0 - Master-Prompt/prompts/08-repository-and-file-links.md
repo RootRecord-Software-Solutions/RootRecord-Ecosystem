@@ -32,12 +32,12 @@ Boundary rule: knowledge goes to Library, executable runtime goes to Pacific, by
 | Pacific | Runtime | `1 - Servers/1 - RootRecord-Pacific-Solar-Server/` · https://github.com/RootRecord-Software-Solutions/RootRecord-Pacific-Solar-Server | Services, jobs, automation, monitors | The data files those jobs write |
 | Database | Persistence | `2 - RootRecord-Database/` · https://github.com/RootRecord-Software-Solutions/RootRecord-Database | Logs, media layout, telemetry, canonical data paths | Application logic |
 | Mainland | Continuity directory inside the umbrella | Desk path `1 - Servers/2 - RootRecord-US-Mainland-Server/`. GitHub `rootrecordsoftwaresolutions/US-Mainland-Server` exists. This directory is not its own git repository | Recovery and mainland files in the umbrella | A nested `.git`. The `mainland` sync row is disabled and its configured path is an old snapshot, not this directory |
-| Website | Pacific website tree, plus a remote | Desk path `1 - Servers/1 - RootRecord-Pacific-Solar-Server/Website/`. `3 - RootRecord-Website/` is not on this desk. GitHub `rootrecordsoftwaresolutions/RootRecord-Website` exists | The Pacific Website directory | A nested clone. The `website` sync row is disabled and points at an old snapshot. `rootserver.rootrecord.cloud` is the poller on `:8799` |
+| Website | Public page, Vercel source | Desk path `1 - Servers/1 - RootRecord-Pacific-Solar-Server/Website/Home/`. Published by the `website` mirror row to https://github.com/RootRecord-Software-Solutions/RootRecord-Website | `index.html`, `vercel.json`, this folder's README | A nested `.git`. Desk scripts stay in `Website/` outside `Home/` and publish with Pacific. `3 - RootRecord-Website/` is not on this desk. Do not bind port 3001. `rootserver.rootrecord.cloud` is the poller on `:8799` |
 | Weather data | Hawaiʻi weather publication | GitHub `rootrecordsoftwaresolutions/RootRecord-Weather-Database` | Published weather products | The Pacific weather daemon's local tree, which stays under Database `Weather/` and is not auto-published from the umbrella |
 
 `/home/rootrecord/Database/` is not on this desk. Sync flags are `2 - RootRecord-Database/Github/flags/`.
 
-Sync catalog: `1 - Servers/1 - RootRecord-Pacific-Solar-Server/Github/scripts/repos.conf`. Enabled rows are `ecosystem`, `pacific`, `database`, and `library`. `skills`, `website`, and `mainland` are disabled. Pacific, Database, and Library are mirror publishes of the live folders. Deeper narrative: `5 - RootRecord-Library/Documentation/03-Pacific-Server-Current-Architecture/Repository-Ownership-Model.md`.
+Sync catalog: `1 - Servers/1 - RootRecord-Pacific-Solar-Server/Github/scripts/repos.conf`. Enabled rows are `ecosystem`, `pacific`, `database`, `library`, and `website`. `skills` and `mainland` are disabled. Pacific, Database, and Library are mirror publishes of the live folders. `website` mirror-publishes `Website/Home/` to `RootRecord-Software-Solutions/RootRecord-Website`. Deeper narrative: `5 - RootRecord-Library/Documentation/03-Pacific-Server-Current-Architecture/Repository-Ownership-Model.md`.
 
 Publication, short form (WO-DATA, 2026-09-29): energy samples, system samples, worklogs, logs, weather daemon output, and camera media stay local. The skip list is `Github/scripts/ecosystem-skip-autocommit.txt`. Geology SQLite stays local. Geology `*-last.json` and `Daily/*.jsonl` are still tracked; that publication is not signed off. Users/PII retention and timelapse-master retention are still open. Full labels: `5 - RootRecord-Library/Documentation/06-development/Work-Orders/Database_Boundary_Work_Order_WO-DATA-2026-09-27.md`.
 
@@ -94,16 +94,15 @@ Important: the repository is a mirror/recovery representation. Verify the deploy
 ## RootRecord Website
 
 Repository:
-https://github.com/rootrecordsoftwaresolutions/RootRecord-Website
+https://github.com/RootRecord-Software-Solutions/RootRecord-Website
 
-Frequently touched current files identified from the repository:
+The old `rootrecordsoftwaresolutions/RootRecord-Website` tree is not this site. Edit the desk folder. The sync publishes it.
 
-- [`README.md`](https://github.com/rootrecordsoftwaresolutions/RootRecord-Website/blob/main/README.md)
-- [`src/app/home/page.tsx`](https://github.com/rootrecordsoftwaresolutions/RootRecord-Website/blob/main/src/app/home/page.tsx)
-- [`src/app/api/energy/route.ts`](https://github.com/rootrecordsoftwaresolutions/RootRecord-Website/blob/main/src/app/api/energy/route.ts)
-- [`src/components/SiteChrome.tsx`](https://github.com/rootrecordsoftwaresolutions/RootRecord-Website/blob/main/src/components/SiteChrome.tsx)
-- [`src/components/EnergyBoard.tsx`](https://github.com/rootrecordsoftwaresolutions/RootRecord-Website/blob/main/src/components/EnergyBoard.tsx)
-- [`src/app/globals.css`](https://github.com/rootrecordsoftwaresolutions/RootRecord-Website/blob/main/src/app/globals.css)
+- [`README.md`](https://github.com/RootRecord-Software-Solutions/RootRecord-Website/blob/main/README.md)
+- [`index.html`](https://github.com/RootRecord-Software-Solutions/RootRecord-Website/blob/main/index.html)
+- [`vercel.json`](https://github.com/RootRecord-Software-Solutions/RootRecord-Website/blob/main/vercel.json)
+
+Desk path: `1 - Servers/1 - RootRecord-Pacific-Solar-Server/Website/Home/`
 
 ## RootRecord Master Prompt
 

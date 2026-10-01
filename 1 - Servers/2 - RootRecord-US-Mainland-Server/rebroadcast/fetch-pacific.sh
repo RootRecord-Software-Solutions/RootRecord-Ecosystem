@@ -20,5 +20,5 @@ if [[ "$bytes" -gt "$MAX" ]]; then
 fi
 mv -f "$tmp" "$DEST/hawaii-current.ndjson"
 trap - EXIT
-find "$DEST" -type f ! -name 'hawaii-current.ndjson' ! -name 'fetch-pacific.sh' -delete
+find "$DEST" -type f ! -name 'hawaii-current.ndjson' ! -name 'aws-current.ndjson' ! -name 'aws-current.ndjson.tmp' ! -name 'fetch-pacific.sh' -delete
 echo "fetch-pacific: ${bytes} bytes"

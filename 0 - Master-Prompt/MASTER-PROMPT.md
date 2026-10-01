@@ -39,9 +39,11 @@ AWS/mainland mirror and recovery-oriented infrastructure. The repository is a mi
 
 ### RootRecord Website
 
-https://github.com/rootrecordsoftwaresolutions/RootRecord-Website
+https://github.com/RootRecord-Software-Solutions/RootRecord-Website
 
-Public Next.js website. Current foundation uses Next.js 15, React 19, and TypeScript.
+Public home page. Desk source is Pacific `Website/Home/`. The `website` mirror row publishes that folder. Vercel builds this repository. The globe is the page background. AWS relays `/api/state` and `/api/operations`. Do not bind port 3001.
+
+The older `rootrecordsoftwaresolutions/RootRecord-Website` Next.js tree is not this site.
 
 ### RootRecord Master Prompt
 

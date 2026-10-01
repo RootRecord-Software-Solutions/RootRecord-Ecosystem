@@ -12,7 +12,7 @@ GitHub repository catalog and automated push/pull for the Pacific desk.
 | Scripts | `Github/scripts/` (from G2 github skill) |
 | Catalog | `Github/scripts/repos.conf` (tab-separated) |
 | jobs.py | `github_setup_remotes` + `github_sync_all` → Pacific paths |
-| Evidence | Poller publishes ecosystem inplace, plus pacific, database, and library from mirror worktrees. The live folders stay inside the umbrella and do not have their own .git. |
+| Evidence | Poller publishes ecosystem inplace, plus pacific, database, library, and website from mirror worktrees. The live folders stay inside the umbrella and do not have their own .git. `website` publishes `Website/Home/` only |
 | Logs / bak | `2 - RootRecord-Database/Github/` (flags, logs). Worktrees: `Github-worktrees/` at the ecosystem root |
 | Token | `/home/rootrecord/master/master-key.env` (`GITHUB_TOKEN`) — never commit |
 
