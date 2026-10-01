@@ -9,9 +9,9 @@
   "sunrise": "06:11",
   "sunset": "18:10",
   "error": "",
-  "solar_w": 0,
-  "late": false,
-  "low_light": true,
+  "solar_w": 131,
+  "late": true,
+  "low_light": false,
   "warning": "",
   "note": "",
   "sentence": "Security camera observations indicate rainy conditions, with solar panels in flat position."

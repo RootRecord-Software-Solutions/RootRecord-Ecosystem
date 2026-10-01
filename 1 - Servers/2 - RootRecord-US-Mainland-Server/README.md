@@ -12,12 +12,36 @@ Secondary infrastructure node for service continuity, synchronization, and recov
 
 *Transition banner 2026-09-28 HST.*
 
+<!-- aws-status:start -->
+## Live status
+
+The AWS host fills this block in and pushes it to GitHub. A desk publish keeps the block already on GitHub.
+
+| | |
+| --- | --- |
+| Checked | 2026-10-01 12:31 HST |
+| Commit | `ab0e85a` status: AWS live README 2026-10-01T22:30Z |
+| Checkout | even with GitHub; local edits: communications/rootrecord-radio/audio/reports/nws_weather_current.ogg,network-globe/package-lock.json |
+| Last pull | 2026-10-01T22:31:23+00:00 — Already up to date. |
+| Disk | 2.6G free of 6.7G (62% used) |
+| Uptime | up 5 days, 7 hours, 48 minutes |
+| rr-status-api | active (enabled) |
+| network-globe-web | active (enabled) |
+| network-globe-feed | active (enabled) |
+| network-globe-history | active (enabled) |
+| cloudflared | active (enabled) |
+| aws-git-pull.timer | active (enabled) |
+| rr-pacific-fetch.timer | active (enabled) |
+| rr-radio-plays-purge.timer | active (enabled) |
+| Play log | 12 line(s) since the hourly wipe |
+<!-- aws-status:end -->
+
 ---
 
 ## Desk checkout layout (G3, 2026-09-29 HST)
 
 Desk path: `/home/rootrecord/RootRecord-Ecosystem/1 - Servers/2 - RootRecord-US-Mainland-Server/` (sibling of Pacific).
-AWS path: `/home/ubuntu/US-Mainland-Server/` — the AWS `rr-rootserver-poller` `github_pull` job fast-forwards it **every minute**, so anything pushed here reaches the host's checkout within ~60 s (runtime copies under `/home/ubuntu/{automations,network-globe}` are deployed separately).
+AWS path: `/home/ubuntu/US-Mainland-Server/`. `aws-git-pull.timer` fast-forwards that checkout every minute. The host rewrites the live status block above and pushes it back. Runtime copies under `/home/ubuntu/{automations,network-globe}` are deployed separately.
 
 | Folder (current, lowercase — kept because AWS paths and docs reference it) | Proposed G3 Title-case name | What it holds | Runs on |
 | --- | --- | --- | --- |
