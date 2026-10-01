@@ -46,5 +46,9 @@
   "hourly_chime_listen": {
     "sha256": "dac4f8a250dfb5a553167b5acfa8bf14a8decbf4a04ae0193407f6e8067ee5bd",
     "message_id": 114
+  },
+  "bandwidth_desk": {
+    "sha256": "f78b8fe97f3115ce8e35479cf7a1df9da3ddfac1867383dc7d44f04778cb07ca",
+    "message_id": 120
   }
 }
