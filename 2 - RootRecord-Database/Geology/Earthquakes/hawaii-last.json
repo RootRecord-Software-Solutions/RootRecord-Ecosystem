@@ -1,6 +1,6 @@
 {
-  "at": "2026-09-30T17:59:00-10:00",
-  "source": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&starttime=2026-09-30T03%3A59%3A00&minmagnitude=1.0&minlatitude=18.5&maxlatitude=22.5&minlongitude=-160.5&maxlongitude=-154.5",
+  "at": "2026-09-30T18:04:49-10:00",
+  "source": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&starttime=2026-09-30T04%3A04%3A49&minmagnitude=1.0&minlatitude=18.5&maxlatitude=22.5&minlongitude=-160.5&maxlongitude=-154.5",
   "window_h": 24,
   "min_mag": 1.0,
   "bbox": {
@@ -19,11 +19,9 @@
     "time_hst": "2026-09-30T05:02:23.230000-10:00"
   },
   "kilauea_150km_count": 17,
-  "new_this_run": 3,
-  "new_local_m2_ids": [
-    "hv75046492"
-  ],
-  "usgs_generated_utc": "2026-10-01T03:59:01+00:00",
+  "new_this_run": 0,
+  "new_local_m2_ids": [],
+  "usgs_generated_utc": "2026-10-01T04:04:49+00:00",
   "events": [
     {
       "id": "hv75046502",
@@ -93,15 +91,15 @@
     },
     {
       "id": "hv75046482",
-      "mag": 1.88,
+      "mag": 1.77,
       "mag_type": "ml",
       "place": "7 km SW of Volcano, Hawaii",
-      "time_utc": "2026-10-01T03:47:40.310000+00:00",
-      "time_hst": "2026-09-30T17:47:40.310000-10:00",
-      "lon": -155.287170410156,
-      "lat": 19.4033336639404,
-      "depth_km": -0.28999999165535,
-      "status": "automatic",
+      "time_utc": "2026-10-01T03:47:40.350000+00:00",
+      "time_hst": "2026-09-30T17:47:40.350000-10:00",
+      "lon": -155.2895,
+      "lat": 19.4038333333333,
+      "depth_km": 0.03,
+      "status": "reviewed",
       "tsunami": 0,
       "type": "earthquake",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75046482",
@@ -110,7 +108,7 @@
         "name": "Volcano Village",
         "country_code": "US",
         "admin1_code": "HI",
-        "km": 7.7
+        "km": 7.9
       }
     },
     {

@@ -4,7 +4,7 @@
 
 > **Authority:** [RootRecord-Software-Solutions](https://github.com/RootRecord-Software-Solutions)  
 > **Live Pacific:** [RootRecord-Pacific-Solar-Server](https://github.com/RootRecord-Software-Solutions/RootRecord-Pacific-Solar-Server)  
-> **Docs index:** [MIGRATION-DOCS-INDEX](https://github.com/RootRecord-Software-Solutions/RootRecord-Library/blob/main/Documentation/00-architecture/MIGRATION-DOCS-INDEX-2026-09-28.md)  
+> **Docs index:** [MIGRATION-DOCS-INDEX](https://github.com/RootRecord-Software-Solutions/RootRecord-Library/blob/main/Documentation/04-Migration-and-Legacy-Recovery/MIGRATION-DOCS-INDEX-2026-09-28.md)  
 > **Library:** [RootRecord-Library](https://github.com/RootRecord-Software-Solutions/RootRecord-Library)  
 > **Database:** [RootRecord-Database](https://github.com/RootRecord-Software-Solutions/RootRecord-Database)
 
@@ -31,7 +31,7 @@ AWS path: `/home/ubuntu/US-Mainland-Server/` — the AWS `rr-rootserver-poller` 
 | `scripts/` | `Github/` + `Scripts/` | desk-side pull helpers (`aws-sysmon-pull.sh`, `ssh-datapack-pull.sh`), G2 `jobs.py` template | desk |
 | `references/`, `notes/`, `docs/` | `References/`, `Notes/`, `Docs/` | AWS pull timer, identity, packer notes, 2026-09-22 stopping point, avatar | — |
 
-**No rename was done.** A Title-case move needs a coordinated AWS path change and sign-off (see Library `00-architecture/US-Mainland-Server.md`).
+**No rename was done.** A Title-case move needs a coordinated AWS path change and sign-off (see Library `06-Domains-and-External-Systems/US-Mainland-Server.md`).
 The empty `Communications/` folder is the pre-import desk placeholder (2026-09-27); it is not tracked by git and was left in place.
 
 Secrets: real values only in `/home/ubuntu/.env` (AWS) — root `.env.example` lists variable **names only**; `.env` / `.env.*` are gitignored.
