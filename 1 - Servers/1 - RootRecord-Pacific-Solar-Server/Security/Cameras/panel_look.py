@@ -168,7 +168,7 @@ def late_day(t: datetime, rise_hm: str, set_hm: str) -> bool:  # info: def late_
 # Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
 # ====================================================
 def note_for(phase: str, position: str, late: bool, low_light: bool) -> str:  # info: def note_for
-    if phase == "day" and position == "left_up" and late and low_light:  # info: if phase == "day" and position == "left_up" and late and low_light
+    if phase in {"day", "evening"} and position == "left_up" and late and low_light:  # info: if phase in { "day" , "evening" } and position == "left_up" and late and low_light
         return "Solar staged for sunrise."  # info: return "Solar staged for sunrise."
     return ""  # info: return ""
 
@@ -185,7 +185,7 @@ def warning_for(phase: str, position: str, late: bool = False, low_light: bool =
         return "Human intervention is needed. Tilt the left side up for morning, ahead of sunrise. Flat is also acceptable."  # info: return "Human intervention is needed. Tilt the left side up for morning, ahead of sunrise. Flat is also acceptable."
     if phase == "day" and position != "flat" and not note_for(phase, position, late, low_light):  # info: if phase == "day" and position != "flat" and not note_for ( phase , position , late , low_light )
         return "Human intervention is needed. Daytime calls for the panels flat."  # info: return "Human intervention is needed. Daytime calls for the panels flat."
-    if phase == "evening" and position != "right_up":  # info: if phase == "evening" and position != "right_up"
+    if phase == "evening" and position != "right_up" and not note_for(phase, position, late, low_light):  # info: if phase == "evening" and position != "right_up" and not note_for ( phase , position , late , low_light )
         return "Human intervention is needed. Evening calls for the right side up."  # info: return "Human intervention is needed. Evening calls for the right side up."
     if phase == "overnight" and position == "right_up":  # info: if phase == "overnight" and position == "right_up"
         return "Human intervention is needed. Overnight calls for the left side up, ahead of sunrise. Flat is also acceptable."  # info: return "Human intervention is needed. Overnight calls for the left side up, ahead of sunrise. Flat is also acceptable."
@@ -366,6 +366,7 @@ def main() -> int:  # info: def main
             print(phase, position, sentence_for("rain", position, phase))  # info: call print
         print("day", "left_up", "late-low", sentence_for("rain", "left_up", "day", True, True))  # info: call print
         print("day", "right_up", "late-low", sentence_for("rain", "right_up", "day", True, True))  # info: call print
+        print("evening", "left_up", "late-low", sentence_for("rain", "left_up", "evening", True, True))  # info: call print
         return 0  # info: return 0
     now = datetime.now().astimezone().replace(microsecond=0)  # info: set now
     print(json.dumps(observe(now, force="--force" in sys.argv), ensure_ascii=False))  # info: call print

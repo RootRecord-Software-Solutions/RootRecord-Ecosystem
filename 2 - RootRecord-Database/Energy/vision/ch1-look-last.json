@@ -5,10 +5,14 @@
   "model": "gemma4:e4b",
   "weather": "rain",
   "position": "left_up",
-  "phase": "day",
+  "phase": "evening",
   "sunrise": "06:11",
   "sunset": "18:10",
-  "warning": "Human intervention is needed. Daytime calls for the panels flat.",
-  "sentence": "Security camera observations indicate rainy conditions, with solar panels in the morning position, left side up. Human intervention is needed. Daytime calls for the panels flat.",
-  "error": ""
+  "warning": "",
+  "sentence": "Security camera observations indicate rainy conditions, with solar panels in the morning position, left side up. Solar staged for sunrise.",
+  "error": "",
+  "solar_w": 0,
+  "late": true,
+  "low_light": true,
+  "note": "Solar staged for sunrise."
 }
