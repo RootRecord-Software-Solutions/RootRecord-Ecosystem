@@ -1,8 +1,4 @@
 {
-  "nws_weather": {
-    "sha256": "1dd0fb8d8abf1e95e4c53a31b5f16749822f0b4fe69f86dedff9c2d9adf1cd07",
-    "message_id": 26
-  },
   "energy_report": {
     "sha256": "986467314b07ccbab1e7ae632a0697f8e7e107906fe358fa11c1c41657089fb0",
     "message_id": 22
@@ -30,5 +26,9 @@
   "security_desk": {
     "sha256": "4f2485d71763456d5e0ac50054fe86f697d329377a8f696dd596afff488e6590",
     "message_id": 44
+  },
+  "nws_weather": {
+    "sha256": "1dd0fb8d8abf1e95e4c53a31b5f16749822f0b4fe69f86dedff9c2d9adf1cd07",
+    "message_id": 59
   }
 }
