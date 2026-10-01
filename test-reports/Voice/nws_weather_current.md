@@ -1,7 +1,7 @@
-# NWS Hawaii — 2026-09-30T16:23:27-10:00
+# NWS Hawaii — 2026-09-30T16:38:35-10:00
 
-- Alerts source: `api.weather.gov/alerts/active?area=HI` (updated 2026-10-01T02:18:00+00:00)
-- Forecast source: NWS HFO State Forecast (SFP), issued 404 AM HST Wed Sep 30 2026
+- Alerts source: `api.weather.gov/alerts/active?area=HI` (updated 2026-10-01T02:34:51+00:00)
+- Forecast source: NWS HFO State Forecast (SFP), issued 421 PM HST Wed Sep 30 2026
 
 ## Active alerts
 
@@ -9,6 +9,6 @@
 
 ## State forecast (first period)
 
-Today: Mostly cloudy. Occasional showers windward and mountains. scattered showers leeward. Highs 84 to 89. Southeast winds 15 to 20 mph.
+Tonight: Mostly cloudy. Occasional showers on Kauai. scattered showers Oahu and Maui County. Lows 74 to 79. Southeast winds around 15 mph.
 
 _Template report; measured values only._
