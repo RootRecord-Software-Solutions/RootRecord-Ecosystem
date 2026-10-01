@@ -86,8 +86,8 @@ export function About() {
 
         <Section title="Links">
           <LinkRow icon={Globe} label="rootrecord.info" href="https://rootrecord.info" testid="about-link-web" />
-          <LinkRow icon={Shield} label="Terms of Service" href="https://rootrecord.info/terms" testid="about-link-terms" />
-          <LinkRow icon={Shield} label="Privacy &amp; security" href="https://rootrecord.info/privacy" testid="about-link-privacy" />
+          <LinkRow icon={Shield} label="Terms of Service" href="https://www.rootrecord.cloud/terms" testid="about-link-terms" />
+          <LinkRow icon={Shield} label="Privacy &amp; security" href="https://www.rootrecord.cloud/privacy" testid="about-link-privacy" />
           <LinkRow icon={Github} label="Public releases" href="https://github.com/RootRecord" testid="about-link-github" />
           <LinkRow icon={Rocket} label="Custom app development" href="https://rootrecord.info/app-build-request" testid="about-link-app-build" />
         </Section>

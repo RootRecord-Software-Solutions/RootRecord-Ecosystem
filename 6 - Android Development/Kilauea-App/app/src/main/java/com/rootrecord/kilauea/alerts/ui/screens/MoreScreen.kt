@@ -601,13 +601,13 @@ fun MoreScreen(
                 }
                 Row(horizontalArrangement = Arrangement.spacedBy(12.dp), modifier = Modifier.fillMaxWidth()) {
                     TextButton(
-                        onClick = { uriHandler.openUri("https://rootrecord.online/privacy.html") },
+                        onClick = { uriHandler.openUri("https://www.rootrecord.cloud/privacy") },
                         modifier = Modifier.weight(1f),
                     ) {
                         Text("Privacy")
                     }
                     TextButton(
-                        onClick = { uriHandler.openUri("https://rootrecord.online/terms.html") },
+                        onClick = { uriHandler.openUri("https://www.rootrecord.cloud/terms") },
                         modifier = Modifier.weight(1f),
                     ) {
                         Text("Terms")
