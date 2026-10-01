@@ -8,7 +8,7 @@ RootRecord-Ecosystem is a **flattened, sanitized snapshot of the broader RootRec
 
 It exists so the ecosystem can be viewed as a whole: servers, databases, communications, cloud/web components, libraries, documentation, and supporting infrastructure can be inspected together without requiring every component to be understood in isolation.
 
-A new agent with no prior chat should start at [HANDOFF.md](5%20-%20RootRecord-Library/Documentation/01-operations/HANDOFF.md), then the [system map](5%20-%20RootRecord-Library/Documentation/00-architecture/SYSTEM-MAP.md). On the live Pacific desk, run `bash verify.sh` before changing runtime. Generated telemetry under `2 - RootRecord-Database/System/status/` is not source and is not auto-committed.
+A new agent with no prior chat should start at [HANDOFF.md](5%20-%20RootRecord-Library/Documentation/01-operations/HANDOFF.md), then the [system map](5%20-%20RootRecord-Library/Documentation/03-Pacific-Server-Current-Architecture/SYSTEM-MAP.md). On the live Pacific desk, run `bash verify.sh` before changing runtime. Generated telemetry under `2 - RootRecord-Database/System/status/` is not source and is not auto-committed.
 
 ---
 
