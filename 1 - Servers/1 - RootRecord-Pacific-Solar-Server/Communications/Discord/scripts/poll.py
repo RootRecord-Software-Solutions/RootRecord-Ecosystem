@@ -13,6 +13,9 @@
 Does not post. post_message stays in lib/api.py and returns without HTTP
 unless RR_DISCORD_POST=1. That gate stays unset.
 
+The Ava review pipeline stays off unless RR_DISCORD_REVIEW_PIPELINE=1.
+It does not run for traffic that does not name Ava.
+
   python3 poll.py
 """
 from __future__ import annotations  # info: from __future__ import annotations
@@ -27,9 +30,13 @@ from zoneinfo import ZoneInfo  # info: from zoneinfo import ZoneInfo
 
 HST = ZoneInfo("Pacific/Honolulu")  # info: set HST
 HERE = Path(__file__).resolve().parent.parent  # info: set HERE
+SCRIPTS = HERE / "scripts"  # info: set SCRIPTS
 sys.path.insert(0, str(HERE))  # info: sys . path . insert ( 0 ,
+sys.path.insert(0, str(SCRIPTS))  # info: sys . path . insert ( 0 , str ( SCRIPTS ) )
 
+from lib.api import post_message  # noqa: E402
 from lib.envload import bot_token  # noqa: E402
+import review  # noqa: E402
 
 CHANNELS = HERE / "config" / "channels.json"  # info: set CHANNELS
 DB = Path(os.environ.get("RR_DATABASE_ROOT", "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database"))  # info: set DB
@@ -103,24 +110,38 @@ def run() -> dict:  # info: def run
     token = bot_token()  # info: set token
     http_calls = 0  # info: set http_calls
     polled: list[str] = []  # info: set polled
+    review_handled = 0  # info: set review_handled
+    review_posted = 0  # info: set review_posted
+    review_on = review.pipeline_enabled()  # info: set review_on
     if token and channels:  # info: if token and channels :
         for channel_id in channels:  # info: for channel_id in channels :
-            fetch_messages(token, channel_id)  # info: call fetch_messages
+            messages = fetch_messages(token, channel_id)  # info: set messages
             http_calls += 1  # info: set http_calls
             polled.append(channel_id)  # info: polled . append ( channel_id )
+            outcome = review.apply_review(  # info: set outcome
+                channel_id,  # info: channel_id
+                messages,  # info: messages
+                enabled=review_on,  # info: enabled = review_on
+                respond_fn=lambda cid, msgs: review.respond(cid, msgs, post=post_message, log=review.stage_log),  # info: respond_fn = lambda cid , msgs : review . respond
+            )  # info: )
+            review_handled += int(outcome.get("handled") or 0)  # info: set review_handled
+            review_posted += int(outcome.get("posted") or 0)  # info: set review_posted
     payload = {  # info: set payload
         "ok": True,  # info: "ok" : True ,
         "token": "present" if token else "absent",  # info: "token" : "present" if token else "absent" ,
         "channels": len(channels),  # info: "channels" : len ( channels ) ,
         "http_calls": http_calls,  # info: "http_calls" : http_calls ,
         "polled": polled,  # info: "polled" : polled ,
-        "posted": False,  # info: "posted" : False ,
+        "posted": review_posted > 0,  # info: "posted" : review_posted > 0 ,
+        "review_pipeline": "on" if review_on else "off",  # info: "review_pipeline" : "on" if review_on else "off" ,
+        "review_handled": review_handled,  # info: "review_handled" : review_handled ,
+        "review_posted": review_posted,  # info: "review_posted" : review_posted ,
         "updated_at": datetime.now(HST).isoformat(timespec="seconds"),  # info: "updated_at" : datetime . now ( HST )
     }  # info: }
     write_json(STATUS_PATH, payload)  # info: call write_json
     with LOG_PATH.open("a", encoding="utf-8") as log:  # info: with LOG_PATH . open ( "a" , encoding
         log.write(  # info: log . write (
-            f"{payload['updated_at']} token={payload['token']} channels={payload['channels']} http_calls={payload['http_calls']}\n"  # info: f" { payload [ 'updated_at' ] } token=
+            f"{payload['updated_at']} token={payload['token']} channels={payload['channels']} http_calls={payload['http_calls']} review={payload['review_pipeline']}\n"  # info: f" { payload [ 'updated_at' ] } token=
         )  # info: )
     return payload  # info: return payload
 
