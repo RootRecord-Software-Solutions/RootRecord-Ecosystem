@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-01T09:15:51-10:00",
+  "at": "2026-10-01T09:22:05-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
@@ -13,19 +13,19 @@
     "place": "94 km SW of Tamarindo, Costa Rica",
     "time_hst": "2026-09-30T11:55:26.169000-10:00"
   },
-  "new_this_run": 1,
-  "usgs_generated_utc": "2026-10-01T19:14:57+00:00",
+  "new_this_run": 0,
+  "usgs_generated_utc": "2026-10-01T19:21:57+00:00",
   "events": [
     {
       "id": "tx2026tiooka",
-      "mag": 2.9,
+      "mag": 3.1,
       "mag_type": "ml",
       "place": "55 km SSW of Whites City, New Mexico",
-      "time_utc": "2026-10-01T18:47:10.033000+00:00",
-      "time_hst": "2026-10-01T08:47:10.033000-10:00",
-      "lon": -104.548,
+      "time_utc": "2026-10-01T18:47:10.018000+00:00",
+      "time_hst": "2026-10-01T08:47:10.018000-10:00",
+      "lon": -104.549,
       "lat": 31.697,
-      "depth_km": 4.7028,
+      "depth_km": 4.7284,
       "status": "reviewed",
       "tsunami": 0,
       "type": "earthquake",

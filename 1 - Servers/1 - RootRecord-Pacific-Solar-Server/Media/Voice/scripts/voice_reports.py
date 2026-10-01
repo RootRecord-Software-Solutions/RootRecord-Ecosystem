@@ -62,6 +62,7 @@ REPORTS = Path(os.environ.get("RR_VOICE_REPORT_OUT", str(DB.parent / "test-repor
 WX = DB / "Weather" / "Hawai'i"  # info: set WX
 ALERTS = WX / "hfo" / "api.weather.gov" / "alerts" / "active" / "area=HI" / "area=HI_current.json"  # info: set ALERTS
 SFP = WX / "reports" / "0 Level Processing" / "sfp_state_forecast_current.md"  # info: set SFP
+ZFP = WX / "hfo" / "api.weather.gov" / "products" / "types" / "ZFP" / "locations" / "HFO" / "HFO_current.txt"  # info: set ZFP
 ENERGY = DB / "Energy"  # info: set ENERGY
 QUAKES = DB / "Geology" / "Earthquakes"  # info: set QUAKES
 QUAKE_STATE = REPORTS / "earthquake_report_seen.json"  # G1 earthquake-hourly.json seen_ids (new since last report)
