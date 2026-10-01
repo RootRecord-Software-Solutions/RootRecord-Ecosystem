@@ -6,20 +6,20 @@ import java.util.Date
 import java.util.Locale
 import java.util.TimeZone
 
-/** Parsed shape of GET /api/ops/mobile-dashboard — mirrors apps/core/routes/ops.py. */
+/** Parsed shape of GET /api/ops/mobile-dashboard from the Pacific poller. */
 data class RootBoardSnapshot(
     val ok: Boolean,
     val generatedAt: String?,
-    val weather: WeatherInfo?,
-    val kilauea: KilaueaInfo?,
-    val power: PowerInfo?,
-    val host: HostInfo?,
-    val minecraft: MinecraftLiveInfo?,
-    val inbox: InboxInfo?,
-    val media: MediaInfo?,
-    val mysql: MysqlInfo?,
-    val quakes: QuakesInfo?,
-    val reports: ReportsInfo?,
+    val weather: WeatherInfo? = null,
+    val kilauea: KilaueaInfo? = null,
+    val power: PowerInfo? = null,
+    val host: HostInfo? = null,
+    val minecraft: MinecraftLiveInfo? = null,
+    val inbox: InboxInfo? = null,
+    val media: MediaInfo? = null,
+    val mysql: MysqlInfo? = null,
+    val quakes: QuakesInfo? = null,
+    val reports: ReportsInfo? = null,
     val tunnel: TunnelInfo? = null,
     val procs: ProcsInfo? = null,
     val origin: OriginInfo? = null,
