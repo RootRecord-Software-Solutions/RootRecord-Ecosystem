@@ -3,7 +3,7 @@
   var OPEN_MS = 12000;
   var GAP_MS = 10 * 60 * 1000;
   var POLL_MS = 20000;
-  var DUCK = 0.5;
+  var DUCK = 0.25;
   var FULL = 1;
   var SILENCE = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA=";
 
@@ -53,7 +53,6 @@
   var opened = false;
   var gapTimer = 0;
   var pollTimer = 0;
-  var rampToken = 0;
   var musicFails = 0;
 
   function setState(text, on) {
@@ -73,16 +72,7 @@
   }
 
   function ramp(to) {
-    var token = ++rampToken;
-    var from = music.volume;
-    var t0 = performance.now();
-    function step(now) {
-      if (token !== rampToken) return;
-      var p = Math.min(1, (now - t0) / 350);
-      music.volume = from + (to - from) * p;
-      if (p < 1) requestAnimationFrame(step);
-    }
-    requestAnimationFrame(step);
+    music.volume = to;
   }
 
   function shuffle(list) {
