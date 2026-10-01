@@ -37,9 +37,9 @@ AGENT = {  # info: set AGENT
 NAMES = {"ava": "Ava", "bruce": "Bruce", "carly": "Carly"}  # info: set NAMES
 TITLES = {  # info: set TITLES
     "nws_weather": "NWS Hawaiʻi", "kilauea_report": "Kīlauea", "security_desk": "Security",  # info: titles
-    "bandwidth_desk": "Bandwidth", "energy_report": "Energy desk", "remaining_tasks": "Remaining tasks",  # info: titles
-    "system_perf": "System performance", "solar_desk": "Hourly solar", "earthquake_report": "Earthquake",  # info: titles
-    "hurricane_desk": "Hurricane desk", "morning_report": "Morning report", "midday_report": "Midday report",  # info: titles
+    "bandwidth_desk": "Bandwidth", "energy_report": "Energy", "remaining_tasks": "Remaining tasks",  # info: titles
+    "system_perf": "System performance", "solar_desk": "Solar", "earthquake_report": "Earthquake",  # info: titles
+    "hurricane_desk": "Hurricane", "morning_report": "Morning report", "midday_report": "Midday report",  # info: titles
     "late_report": "Late report", "official_weather": "Official weather", "boot_brief": "Boot brief",  # info: titles
 }  # info: }
 STAMP = re.compile(r"_(\d{8}T\d{4})")  # info: set STAMP
