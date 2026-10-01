@@ -1,21 +1,21 @@
 {
   "resource": "power",
   "title": "Power / solar",
-  "as_of": "Wednesday, September 30, 2026 \u00b7 23:15 Hawaiian Standard Time",
+  "as_of": "Wednesday, September 30, 2026 \u00b7 23:18 Hawaiian Standard Time",
   "devices": {
     "delta2": {
       "watts": {
         "solar_input_power": 0,
-        "ac_output_power": 87,
+        "ac_output_power": 78,
         "ac_input_power": 0,
         "usbc_output_power": 0,
-        "at": "2026-09-30T23:14:25-10:00",
+        "at": "2026-09-30T23:17:35-10:00",
         "source": "ble",
         "charge_source": "none"
       },
       "soc": {
-        "soc": 16.32,
-        "at": "2026-09-30T23:14:25-10:00",
+        "soc": 15.61,
+        "at": "2026-09-30T23:17:35-10:00",
         "source": "ble"
       }
     },
@@ -25,13 +25,13 @@
         "ac_output_power": 0.0,
         "ac_input_power": 0.0,
         "usbc_output_power": 20,
-        "at": "2026-09-30T23:12:42-10:00",
+        "at": "2026-09-30T23:16:00-10:00",
         "source": "ble+cloud",
         "charge_source": "none"
       },
       "soc": {
-        "soc": 74.74,
-        "at": "2026-09-30T23:12:42-10:00",
+        "soc": 74.51,
+        "at": "2026-09-30T23:16:00-10:00",
         "source": "ble+cloud"
       }
     }
