@@ -1,11 +1,11 @@
-# Bandwidth desk — 2026-09-30T17:13:58-10:00
+# Bandwidth desk — 2026-09-30T18:14:14-10:00
 
 - iface: wlo1 (wireless)
-- last hour: {'seconds': 3729, 'rx': 220084358, 'tx': 77633260, 'total': 297717618, 'iface': 'wlo1', 'link': 'wireless'}
+- last hour: {'seconds': 3616, 'rx': 310693031, 'tx': 94220992, 'total': 404914023, 'iface': 'wlo1', 'link': 'wireless'}
 - last 24 h: None
 
 ## Spoken
 
-Bandwidth desk at five thirteen p.m. This host is on wireless. Last hour: 209.9 megabytes down, 74.0 megabytes up, 283.9 megabytes total. Last twenty four hours is not on file yet.
+Bandwidth desk at six fourteen p.m. This host is on wireless. Last hour: 296.3 megabytes down, 89.9 megabytes up, 386.2 megabytes total. Last twenty four hours is not on file yet.
 
 _Template report; measured values only._
