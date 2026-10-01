@@ -164,7 +164,8 @@ def post(token: str, method: str, body: bytes, content_type: str) -> dict:  # in
         method="POST",  # info: method = "POST"
     )  # info: )
     try:  # info: try
-        with urllib.request.urlopen(req, timeout=60) as response:  # info: with urllib . request . urlopen
+        direct = urllib.request.build_opener(urllib.request.ProxyHandler({}))  # info: set direct
+        with direct.open(req, timeout=60) as response:  # info: with direct . open ( req , timeout = 60 )
             payload = json.load(response)  # info: set payload
     except urllib.error.HTTPError as exc:  # info: except urllib . error . HTTPError as exc
         return {"ok": False, "detail": f"http {exc.code}"}  # info: return { "ok" : False , "detail" : f" http { exc . code } " }
