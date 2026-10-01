@@ -1,19 +1,19 @@
 {
-  "hour": "2026-09-30T18",
-  "at": "2026-09-30T18:17:00-10:00",
-  "image": "ch1-20261001T045238Z.jpg",
+  "hour": "2026-09-30T19",
+  "at": "2026-09-30T19:16:26-10:00",
+  "image": "ch1-20261001T051608Z.jpg",
   "model": "gemma4:e4b",
   "weather": "dark",
-  "position": "left_up",
-  "phase": "evening",
+  "position": "flat",
+  "phase": "overnight",
   "sunrise": "06:11",
   "sunset": "18:10",
   "error": "",
+  "infrared": true,
   "solar_w": 0,
-  "late": true,
+  "late": false,
   "low_light": true,
   "warning": "",
-  "note": "Solar staged for sunrise.",
-  "sentence": "Security camera observations indicate dark conditions, with solar panels in the morning position, left side up. Solar staged for sunrise.",
-  "infrared": true
+  "note": "",
+  "sentence": "Security camera observations indicate dark conditions, with solar panels in flat position."
 }

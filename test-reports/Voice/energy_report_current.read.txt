@@ -1,1 +1,1 @@
-Energy desk report. Delta 2 battery 78%, solar input zero watts, output 97 watts. River 2 Pro battery 95%, solar input zero watts, output 56 watts. Security camera observations indicate overcast conditions, with solar panels in the morning position, left side up. Solar staged for sunrise.
+Energy desk report. Delta 2 battery 71%, solar input zero watts, output 91 watts. River 2 Pro battery 92%, solar input zero watts, output 29 watts. Security camera observations indicate dark conditions, with solar panels in flat position.
