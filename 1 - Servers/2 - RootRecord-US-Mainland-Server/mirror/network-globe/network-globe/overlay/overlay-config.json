@@ -19,7 +19,7 @@
       "enabled": false,
       "url": "",
       "title": "Root Record",
-      "blurb": "The public site is the Vercel home page. This globe server is the data relay."
+      "blurb": "The public site is the Vercel home page. This host is the globe process only while DNS still points www here."
     },
     "status": {
       "enabled": true,
