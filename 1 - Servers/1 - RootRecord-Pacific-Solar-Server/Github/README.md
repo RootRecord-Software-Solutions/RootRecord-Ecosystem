@@ -25,15 +25,15 @@ GitHub repository catalog and automated push/pull for the Pacific desk.
 | database | 1 | mirror | Live folder inside the ecosystem tree. Published to `RootRecord-Database` from `Github-worktrees/database`. |
 | library | 1 | mirror | Live folder inside the ecosystem tree. Published to `RootRecord-Library` from `Github-worktrees/library`. |
 | skills | 0 | inplace | Retired 2026-09-30. Checkout moved to `Old repos deleted and merged/ollama-skills-g2-2026-09-30`. `~/.ollama/skills` is Ollama's. Leave this row off |
-| website | 0 | mirror | Disabled. Path is the archived checkout's `website/site`. Leave it off. Do not start a local site |
+| website | 1 | mirror | `Website/Home/` → `RootRecord-Software-Solutions/RootRecord-Website`. Vercel builds that repository. A merge of this row does not reload the poller |
 | mainland | 0 | inplace | Disabled. Path is the archived empty `us-mainland-server` folder. Live desk is `1 - Servers/2 - RootRecord-US-Mainland-Server`. Leave it off |
 
 ### Policy
 
 Same automation as G2; home is **`Github/`**. No parallel `github/` folder. Quote paths with spaces in jobs.
 
-**Automatic authority (WO-GH-001 Option B, Alexander, 2026-09-29):** poller job `github_sync_all` every 5 seconds. Enabled catalog rows are `ecosystem`, `pacific`, `database`, and `library`. Pacific, Database, and Library are mirror publishes of the live subfolders. There is no Core-Processor pull timer on this desk. Root `Pull.sh` and `Push.sh` are manual scripts, not a second timer. Do not add one. Do not re-enable `skills`.
+**Automatic authority (WO-GH-001 Option B, Alexander, 2026-09-29):** poller job `github_sync_all` every 5 seconds. Enabled catalog rows are `ecosystem`, `pacific`, `database`, `library`, and `website`. Pacific, Database, and Library are mirror publishes of the live subfolders. `website` mirror-publishes `Website/Home/` only. There is no Core-Processor pull timer on this desk. Root `Pull.sh` and `Push.sh` are manual scripts, not a second timer. Do not add one. Do not re-enable `skills`. Do not bind port 3001.
 
 ---
 
-*Updated 2026-09-30 17:45 HST — skills, website, and mainland stay off. `~/.ollama/skills` is Ollama's skill directory. The G2 checkout is archived, not deleted from GitHub.*
+*Updated 2026-09-30 20:05 HST — `website` publishes `Website/Home/` to `RootRecord-Software-Solutions/RootRecord-Website`. `skills` and `mainland` stay off.*

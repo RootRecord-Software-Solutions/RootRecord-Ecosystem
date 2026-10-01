@@ -34,7 +34,7 @@ This repository **does not replace the underlying source repositories**.
 
 This desk checkout is **one Git repository**. The git root is `/home/rootrecord/RootRecord-Ecosystem`. Pacific, Database, Library, and the other top-level folders are directories in that tree. They are not nested Git repositories. Do not add nested `.git` directories or gitlinks back into this snapshot.
 
-GitHub still has separate source repositories for those domains. Those remotes keep their own histories and remain the domain homes. This public repository is the context snapshot. Automated sync also publishes Pacific, Database, and Library from this same tree.
+GitHub still has separate source repositories for those domains. Those remotes keep their own histories and remain the domain homes. This public repository is the context snapshot. Automated sync publishes Pacific, Database, Library, and the public page (`Website/Home/` → `RootRecord-Website`) from this same tree.
 
 > On this desk, edit the file where it lives in this tree. Do not assume a subdirectory has its own `origin`.
 
@@ -47,9 +47,8 @@ The current snapshot includes material from the major RootRecord areas:
 | Area | Role |
 | --- | --- |
 | `0 - Master-Prompt/` | Cross-project operating rules, prompt files, and live-state notes |
-| `1 - Servers/` | Pacific runtime and the US Mainland continuity tree |
+| `1 - Servers/` | Pacific runtime, the US Mainland continuity tree, and the public page under Pacific `Website/Home/` |
 | `2 - RootRecord-Database/` | Persistent data, telemetry, logs, and media layout |
-| `3 - RootRecord-Website/` | Removed 2026-09-30. No local website. Do not start one |
 | `4 - RootRecord-Node/` | Node-related snapshot material |
 | `5 - RootRecord-Library/` | Architecture, guides, agent context, and work orders |
 | `6 - Android Development/` | Android application trees |
@@ -64,10 +63,10 @@ The principal source repositories represented by this snapshot are:
 - **RootRecord-Library**
 - **RootRecord-Database**
 - **RootRecord-Pacific-Solar-Server**
+- **RootRecord-Website** — public page, synced from Pacific `Website/Home/`
 - **RootRecord-US-Mainland-Server**
-- **RootRecord-Cloud**
 
-Those GitHub repositories keep their own histories. In this checkout they are folders, not separate clones. The desk sync catalog does not push `pacific`, `database`, or `library` as their own repositories.
+Those GitHub repositories keep their own histories. In this checkout they are folders, not separate clones. The desk sync catalog publishes `pacific`, `database`, `library`, and `website` from mirror worktrees. `website` publishes only `Website/Home/`.
 
 ---
 
