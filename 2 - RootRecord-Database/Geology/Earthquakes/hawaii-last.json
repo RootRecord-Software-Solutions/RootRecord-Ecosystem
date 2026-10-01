@@ -1,6 +1,6 @@
 {
-  "at": "2026-09-30T18:38:57-10:00",
-  "source": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&starttime=2026-09-30T04%3A38%3A57&minmagnitude=1.0&minlatitude=18.5&maxlatitude=22.5&minlongitude=-160.5&maxlongitude=-154.5",
+  "at": "2026-09-30T18:45:10-10:00",
+  "source": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&starttime=2026-09-30T04%3A45%3A10&minmagnitude=1.0&minlatitude=18.5&maxlatitude=22.5&minlongitude=-160.5&maxlongitude=-154.5",
   "window_h": 24,
   "min_mag": 1.0,
   "bbox": {
@@ -21,7 +21,7 @@
   "kilauea_150km_count": 17,
   "new_this_run": 0,
   "new_local_m2_ids": [],
-  "usgs_generated_utc": "2026-10-01T04:38:57+00:00",
+  "usgs_generated_utc": "2026-10-01T04:45:10+00:00",
   "events": [
     {
       "id": "hv75046502",
