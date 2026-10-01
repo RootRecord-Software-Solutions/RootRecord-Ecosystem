@@ -1,20 +1,20 @@
 {
-  "at": "2026-09-30T22:42:29-10:00",
+  "at": "2026-09-30T22:49:58-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 34,
-  "count_m2": 34,
-  "count_m25": 33,
+  "count": 35,
+  "count_m2": 35,
+  "count_m25": 34,
   "largest": {
     "id": "us6000tymj",
     "mag": 5.6,
     "place": "94 km SW of Tamarindo, Costa Rica",
     "time_hst": "2026-09-30T11:55:26.169000-10:00"
   },
-  "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-01T08:41:57+00:00",
+  "new_this_run": 1,
+  "usgs_generated_utc": "2026-10-01T08:49:57+00:00",
   "events": [
     {
       "id": "us6000tyqw",
@@ -37,6 +37,22 @@
         "admin1_code": null,
         "km": 234.5
       }
+    },
+    {
+      "id": "us6000tyqx",
+      "mag": 4.6,
+      "mag_type": "mb",
+      "place": "northern Mid-Atlantic Ridge",
+      "time_utc": "2026-10-01T07:40:06.605000+00:00",
+      "time_hst": "2026-09-30T21:40:06.605000-10:00",
+      "lon": -41.5851,
+      "lat": 31.2357,
+      "depth_km": 10,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyqx",
+      "nearest": null
     },
     {
       "id": "us6000tyq7",
