@@ -2,5 +2,9 @@
   "nws_weather": {
     "sha256": "8832d96aeb8e7c99b48a66398fea08ac5395f613ce79b8afa1b43a775a9d3065",
     "message_id": 4242
+  },
+  "energy_report": {
+    "sha256": "986467314b07ccbab1e7ae632a0697f8e7e107906fe358fa11c1c41657089fb0",
+    "message_id": 22
   }
 }
