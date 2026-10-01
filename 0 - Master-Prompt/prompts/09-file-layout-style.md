@@ -56,7 +56,7 @@ Every first-party Pacific `.py` and `.sh` file uses three layers:
 
 `Automations/scripts/jobs.py` is the canonical schedule. Each schedule list ends with a commented TEMPLATE. Copy that template to add a job. Do not delete it.
 
-Full rules, the function copy-paste block, and the job steps: `5 - RootRecord-Library/prompts/How-To-Read-And-Edit-Code.md`.
+Full rules, the function copy-paste block, and the job steps: `5 - RootRecord-Library/Guides & Tutorials/How-To-Read-And-Edit-Code.md`.
 
 Do not apply this pass to `.venv`, `vendor`, or `node_modules`.
 

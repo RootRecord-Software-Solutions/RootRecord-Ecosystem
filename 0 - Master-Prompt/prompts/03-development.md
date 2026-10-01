@@ -36,7 +36,7 @@ For operator-edited schedules and catalogs (especially `automations/scripts/jobs
 - If the layout was stripped, restore from git history, then re-apply current live jobs.
 
 Canonical example and rules: `prompts/09-file-layout-style.md`.  
-Reading and editing, including the copy-paste function banner and the `jobs.py` TEMPLATE: `5 - RootRecord-Library/prompts/How-To-Read-And-Edit-Code.md`.
+Reading and editing, including the copy-paste function banner and the `jobs.py` TEMPLATE: `5 - RootRecord-Library/Guides & Tutorials/How-To-Read-And-Edit-Code.md`.
 
 ## Applying code to the live desk — standing format for all future builds
 
