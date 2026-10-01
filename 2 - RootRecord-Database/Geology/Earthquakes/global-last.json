@@ -1,21 +1,37 @@
 {
-  "at": "2026-10-01T09:55:50-10:00",
+  "at": "2026-10-01T10:08:33-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 41,
-  "count_m2": 41,
-  "count_m25": 39,
+  "count": 42,
+  "count_m2": 42,
+  "count_m25": 40,
   "largest": {
     "id": "us6000tymj",
     "mag": 5.6,
     "place": "94 km SW of Tamarindo, Costa Rica",
     "time_hst": "2026-09-30T11:55:26.169000-10:00"
   },
-  "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-01T19:54:57+00:00",
+  "new_this_run": 1,
+  "usgs_generated_utc": "2026-10-01T20:07:57+00:00",
   "events": [
+    {
+      "id": "us6000tywu",
+      "mag": 5.1,
+      "mag_type": "mww",
+      "place": "171 km SE of Lata, Solomon Islands",
+      "time_utc": "2026-10-01T19:38:01.795000+00:00",
+      "time_hst": "2026-10-01T09:38:01.795000-10:00",
+      "lon": 166.961,
+      "lat": -11.7706,
+      "depth_km": 10,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tywu",
+      "nearest": null
+    },
     {
       "id": "aka2026tlsylt",
       "mag": 2.6,
