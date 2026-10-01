@@ -1,12 +1,12 @@
 {
-  "at": "2026-09-30T15:31:05-10:00",
+  "at": "2026-09-30T15:37:32-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 36,
-  "count_m2": 36,
-  "count_m25": 36,
+  "count": 35,
+  "count_m2": 35,
+  "count_m25": 35,
   "largest": {
     "id": "us6000tymj",
     "mag": 5.6,
@@ -14,7 +14,7 @@
     "time_hst": "2026-09-30T11:55:26.169000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-01T01:30:57+00:00",
+  "usgs_generated_utc": "2026-10-01T01:36:57+00:00",
   "events": [
     {
       "id": "us6000tynp",
@@ -647,28 +647,6 @@
       "type": "earthquake",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tygz",
       "nearest": null
-    },
-    {
-      "id": "us6000tygs",
-      "mag": 4.8,
-      "mag_type": "mb",
-      "place": "18 km SW of Tayaman, Philippines",
-      "time_utc": "2026-09-30T01:34:05.751000+00:00",
-      "time_hst": "2026-09-29T15:34:05.751000-10:00",
-      "lon": 120.4734,
-      "lat": 13.0922,
-      "depth_km": 10,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tygs",
-      "nearest": {
-        "location_id": "ph-manila",
-        "name": "Manila",
-        "country_code": "PH",
-        "admin1_code": null,
-        "km": 175.4
-      }
     }
   ]
 }
