@@ -97,8 +97,8 @@ export default function About() {
             <p>
               Use <b className="text-ink-primary">Send feedback</b> in Settings for bug reports, ideas, or
               membership questions. Visit{" "}
-              <a className="text-phos" href="https://rootrecord.info" target="_blank" rel="noopener noreferrer">
-                rootrecord.info
+              <a className="text-phos" href="https://www.rootrecord.cloud" target="_blank" rel="noopener noreferrer">
+                www.rootrecord.cloud
               </a>{" "}
               for the latest.
             </p>
@@ -109,13 +109,18 @@ export default function About() {
           <div className="label mb-2">Legal</div>
           <div className="text-sm text-ink-secondary space-y-2">
             <p>
-              <a className="text-phos font-semibold" href="https://rootrecord.info/terms" target="_blank" rel="noopener noreferrer">
+              <a className="text-phos font-semibold" href="https://www.rootrecord.cloud/terms" target="_blank" rel="noopener noreferrer">
                 Terms of Service
               </a>
             </p>
             <p>
-              <a className="text-phos font-semibold" href="https://rootrecord.info/privacy" target="_blank" rel="noopener noreferrer">
+              <a className="text-phos font-semibold" href="https://www.rootrecord.cloud/privacy" target="_blank" rel="noopener noreferrer">
                 Privacy Policy
+              </a>
+            </p>
+            <p>
+              <a className="text-phos font-semibold" href="https://www.rootrecord.cloud/data-deletion" target="_blank" rel="noopener noreferrer">
+                Data deletion
               </a>
             </p>
           </div>

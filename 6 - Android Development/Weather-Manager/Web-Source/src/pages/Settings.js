@@ -32,12 +32,13 @@ import {
   showUpsellModal,
 } from '../lib/tierAccess';
 
-/** Public RootRecord links (same as rootrecord.info / credentials). */
+/** Public Root Record links. Terms and privacy live on www.rootrecord.cloud. */
 const CONTACT = {
-  website: 'https://rootrecord.info/',
+  website: 'https://www.rootrecord.cloud/',
   contact: 'https://rootrecord.info/contact.html',
-  terms: 'https://rootrecord.info/terms',
-  privacy: 'https://rootrecord.info/privacy',
+  terms: 'https://www.rootrecord.cloud/terms',
+  privacy: 'https://www.rootrecord.cloud/privacy',
+  dataDeletion: 'https://www.rootrecord.cloud/data-deletion',
   discord: 'https://discord.gg/jBgRdgmsjB',
   telegram: 'https://t.me/rootrecordsupport',
   desktopWeb: 'https://weather.rootrecord.info/',
@@ -326,7 +327,7 @@ export default function Settings({ onSignedOut }) {
         <ExternalLinkRow
           icon={Globe}
           label="Website"
-          hint="rootrecord.info — products, pricing, FAQ"
+          hint="www.rootrecord.cloud"
           href={CONTACT.website}
           testId="settings-contact-website"
         />
@@ -350,6 +351,13 @@ export default function Settings({ onSignedOut }) {
           hint="How RootRecord handles data"
           href={CONTACT.privacy}
           testId="settings-privacy"
+        />
+        <ExternalLinkRow
+          icon={ShieldCheck}
+          label="Data deletion"
+          hint="Request deletion and keep the account"
+          href={CONTACT.dataDeletion}
+          testId="settings-data-deletion"
         />
         <ExternalLinkRow
           icon={MessageCircle}

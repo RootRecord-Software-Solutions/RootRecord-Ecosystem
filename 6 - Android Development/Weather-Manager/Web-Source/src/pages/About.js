@@ -99,8 +99,8 @@ export default function About() {
             <p>
               Use <b className="text-white">Feedback</b> in Settings for bug reports, ideas, or
               membership questions. Visit{' '}
-              <a className="text-accent" href="https://rootrecord.info" target="_blank" rel="noreferrer">
-                rootrecord.info
+              <a className="text-accent" href="https://www.rootrecord.cloud" target="_blank" rel="noreferrer">
+                www.rootrecord.cloud
               </a>{' '}
               for the latest.
             </p>
@@ -110,13 +110,18 @@ export default function About() {
         <Section title="Legal">
           <div className="p-4 text-sm text-accent/90 space-y-2">
             <p>
-              <a className="text-accent font-semibold" href="https://rootrecord.info/terms" target="_blank" rel="noreferrer">
+              <a className="text-accent font-semibold" href="https://www.rootrecord.cloud/terms" target="_blank" rel="noreferrer">
                 Terms of Service
               </a>
             </p>
             <p>
-              <a className="text-accent font-semibold" href="https://rootrecord.info/privacy" target="_blank" rel="noreferrer">
+              <a className="text-accent font-semibold" href="https://www.rootrecord.cloud/privacy" target="_blank" rel="noreferrer">
                 Privacy Policy
+              </a>
+            </p>
+            <p>
+              <a className="text-accent font-semibold" href="https://www.rootrecord.cloud/data-deletion" target="_blank" rel="noreferrer">
+                Data deletion
               </a>
             </p>
           </div>

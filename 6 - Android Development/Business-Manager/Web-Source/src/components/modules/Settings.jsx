@@ -518,7 +518,7 @@ export function About() {
         </Section>
         <Section title="Where to get help">
           <div className="p-4 text-sm text-ink-secondary space-y-2">
-            <p>Use <b className="text-ink-primary">Feedback</b> in the More menu for bug reports, ideas, or membership questions. Visit <a className="text-brand" href="https://rootrecord.info" target="_blank" rel="noreferrer">rootrecord.info</a> for the latest.</p>
+            <p>Use <b className="text-ink-primary">Feedback</b> in the More menu for bug reports, ideas, or membership questions. Visit <a className="text-brand" href="https://www.rootrecord.cloud" target="_blank" rel="noreferrer">www.rootrecord.cloud</a> for the latest.</p>
             <p>
               Join the community on Discord:{" "}
               <a className="text-brand font-semibold" href="https://discord.gg/jBgRdgmsjB" target="_blank" rel="noreferrer">
@@ -537,6 +537,11 @@ export function About() {
             <p>
               <a className="text-brand font-semibold" href="https://www.rootrecord.cloud/privacy" target="_blank" rel="noreferrer">
                 Privacy Policy <ExternalLink size={12} className="inline opacity-80" aria-hidden />
+              </a>
+            </p>
+            <p>
+              <a className="text-brand font-semibold" href="https://www.rootrecord.cloud/data-deletion" target="_blank" rel="noreferrer">
+                Data deletion <ExternalLink size={12} className="inline opacity-80" aria-hidden />
               </a>
             </p>
           </div>

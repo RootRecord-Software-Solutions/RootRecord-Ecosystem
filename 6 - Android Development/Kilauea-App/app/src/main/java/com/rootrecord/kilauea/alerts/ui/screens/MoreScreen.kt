@@ -588,13 +588,13 @@ fun MoreScreen(
 
                 Text("Where to Get Help", style = MaterialTheme.typography.titleSmall)
                 Text(
-                    "Use Submit Feedback below for bug reports, ideas, or membership questions. Visit rootrecord.info for the latest.",
+                    "Use Submit Feedback below for bug reports, ideas, or membership questions. Visit www.rootrecord.cloud for the latest.",
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
 
                 TextButton(
-                    onClick = { uriHandler.openUri("https://rootrecord.online/") },
+                    onClick = { uriHandler.openUri("https://www.rootrecord.cloud/") },
                     modifier = Modifier.fillMaxWidth(),
                 ) {
                     Text("Root Record Website")
@@ -612,6 +612,12 @@ fun MoreScreen(
                     ) {
                         Text("Terms")
                     }
+                }
+                TextButton(
+                    onClick = { uriHandler.openUri("https://www.rootrecord.cloud/data-deletion") },
+                    modifier = Modifier.fillMaxWidth(),
+                ) {
+                    Text("Data deletion")
                 }
                 TextButton(
                     onClick = { navController.navigate(KilaueaNavRoutes.Feedback) },

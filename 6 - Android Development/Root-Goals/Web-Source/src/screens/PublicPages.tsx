@@ -23,7 +23,7 @@ export function PublicGoalsListPage() {
 
   return (
     <div className="app">
-      <p className="lead"><a href="https://rootrecord.info">Root Record</a> · Root Goals</p>
+      <p className="lead"><a href="https://www.rootrecord.cloud">Root Record</a> · Root Goals</p>
       <h1>Public goals</h1>
       <p className="lead mono">{address}</p>
       <AiDisclaimer compact />
