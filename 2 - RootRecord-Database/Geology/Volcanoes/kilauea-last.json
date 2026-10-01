@@ -1,18 +1,18 @@
 {
-  "at": "2026-10-01T08:57:56-10:00",
+  "at": "2026-10-01T09:09:12-10:00",
   "name": "Kilauea",
   "vnum": "332010",
   "alert_level": "WATCH",
   "color_code": "ORANGE",
-  "status_sent_utc": "2026-10-01 09:01:09",
-  "status_notice_id": "DOI-USGS-HVO-2026-10-01T08:14:21+00:00",
-  "status_notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T08:14:21+00:00",
+  "status_sent_utc": "2026-10-01 19:05:15",
+  "status_notice_id": "DOI-USGS-HVO-2026-10-01T01:30:09+00:00",
+  "status_notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T01:30:09+00:00",
   "latest_notice": {
-    "sent_utc": "2026-10-01 09:01:09",
-    "id": "DOI-USGS-HVO-2026-10-01T08:14:21+00:00",
-    "type": "Status Report",
-    "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T08:14:21+00:00",
-    "synopsis": "A shallow intrusion of magma is occurring within the summit region near the existing eruption location in Hawai'i Volcanoes National Park."
+    "sent_utc": "2026-10-01 19:05:15",
+    "id": "DOI-USGS-HVO-2026-10-01T01:30:09+00:00",
+    "type": "Daily Update",
+    "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T01:30:09+00:00",
+    "synopsis": "A shallow intrusion of magma occurred overnight within the summit region near the existing eruption location. North and south vent continue to have intermittent overflows, spatter, and strong glow. There is no anomalous activity outside of the summit."
   },
   "latest_activity_notice": {
     "sent_utc": "2026-09-29 17:54:03",
