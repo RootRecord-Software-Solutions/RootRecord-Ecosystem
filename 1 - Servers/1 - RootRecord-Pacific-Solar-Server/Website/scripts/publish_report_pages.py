@@ -217,25 +217,39 @@ def index_page(rows: list[dict]) -> str:  # info: def index_page
     for row in rows:  # info: for row in rows
         key = str(row["key"])  # info: set key
         who = persona_name(key)  # info: set who
-        slug = str(row["name"])  # info: set slug
-        title = TITLES.get(key, key.replace("_", " "))  # info: set title
-        groups.setdefault(who, []).append(f'    <li><a href="/reports/{html.escape(slug, quote=True)}">{html.escape(title)}</a></li>')  # info: append link
+        slug = html.escape(str(row["name"]), quote=True)  # info: set slug
+        title = html.escape(TITLES.get(key, key.replace("_", " ")))  # info: set title
+        role = html.escape(str(row.get("function") or ""))  # info: set role
+        md = report_markdown(key)  # info: set md
+        preview = excerpt(public_body(key) or "")  # info: set preview
+        if not preview:  # info: if not preview
+            facts = measured(md)  # info: set facts
+            preview = excerpt(facts[0]) if facts else "No public report is on file."  # info: set preview
+        when = as_of(md)  # info: set when
+        stamp = f'<p class="fine">{html.escape(when)}</p>' if when else ""  # info: set stamp
+        groups.setdefault(who, []).append(  # info: append card
+            f'    <a class="card report-card" href="/reports/{slug}">\n'
+            f"      <h3>{title}</h3>\n"
+            f'      <p class="tax-items">{role}</p>\n'
+            f'      <p class="excerpt">{html.escape(preview)}</p>\n'
+            f"      {stamp}\n"
+            f"    </a>"
+        )  # info: card
     blocks = []  # info: set blocks
     for who in ("Ava", "Bruce", "Carly"):  # info: for who in personas
-        items = "\n".join(groups.get(who) or [])  # info: set items
-        if items:  # info: if items
-            blocks.append(f"  <h2>{who}</h2>\n  <ul>\n{items}\n  </ul>")  # info: append block
+        cards = "\n".join(groups.get(who) or [])  # info: set cards
+        if cards:  # info: if cards
+            blocks.append(f'  <section class="sec" aria-label="{who}">\n    <h2>{who}</h2>\n    <div class="report-board">\n{cards}\n    </div>\n  </section>')  # info: append section
     main = """  <p class="eyebrow">Public reports</p>
   <h1>Reports</h1>
-  <p class="prose">Ava, Bruce, and Carly. Each page is the latest public report. The same address is the link posted with that report.</p>
-  <section class="tree" aria-label="Reports">
-""" + "\n".join(blocks) + "\n  </section>\n  <p class=\"fine\"><a href=\"/operations#reporting\">Systems</a></p>"  # info: set main
-    return chrome("Reports — Root Record", "Public reports from Ava, Bruce, and Carly.", f"{SITE}", main)  # info: return chrome
+  <p class="prose">Ava, Bruce, and Carly. Each card is the latest public report. Open it for the spoken text and the measured lines.</p>
+""" + "\n".join(blocks)  # info: set main
+    return chrome("Reports — Root Record", "Public reports from Ava, Bruce, and Carly.", f"{SITE}", main, wide=True)  # info: return chrome
 
 
 # ====================================================
 # SECTION: function report_page
-# What it does: Build one /reports/<slug> page. Spoken text only.
+# What it does: Build one /reports/<slug> page with the spoken text and measured lines.
 # Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
 # ====================================================
 def report_page(row: dict) -> str:  # info: def report_page
@@ -243,13 +257,22 @@ def report_page(row: dict) -> str:  # info: def report_page
     slug = str(row["name"])  # info: set slug
     title = TITLES.get(key, key.replace("_", " "))  # info: set title
     who = persona_name(key)  # info: set who
+    md = report_markdown(key)  # info: set md
     body = public_body(key)  # info: set body
     text = html.escape(body) if body else "No public report is on file."  # info: set text
     blurb = str(row.get("function") or title)  # info: set blurb
+    when = as_of(md)  # info: set when
+    stamp = f'  <p class="meta">{html.escape(when)}</p>\n' if when else ""  # info: set stamp
+    facts = "\n".join(f"    <li>{html.escape(item)}</li>" for item in measured(md))  # info: set facts
+    measured_block = f'  <section class="sec" aria-label="Measured">\n    <h2>Measured</h2>\n    <ul class="facts">\n{facts}\n    </ul>\n  </section>\n' if facts else ""  # info: set measured_block
     main = f"""  <p class="eyebrow">{html.escape(who)}</p>
   <h1>{html.escape(title)}</h1>
-  <p class="prose">{text}</p>
-  <p class="fine"><a href="/reports">All reports</a></p>"""  # info: set main
+{stamp}  <p class="prose">{html.escape(blurb)}</p>
+  <section class="sec" aria-label="Spoken">
+    <h2>Spoken</h2>
+    <p class="prose">{text}</p>
+  </section>
+{measured_block}  <p class="fine"><a href="/reports">All reports</a></p>"""  # info: set main
     return chrome(f"{title} — Root Record", blurb, f"{SITE}/{slug}", main)  # info: return chrome
 
 
