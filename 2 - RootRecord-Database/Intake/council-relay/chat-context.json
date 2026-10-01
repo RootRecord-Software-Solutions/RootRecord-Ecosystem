@@ -2,16 +2,6 @@
   "-1004367256267": [
     {
       "who": "ava",
-      "text": "I don't have that live.",
-      "message_id": 2048
-    },
-    {
-      "who": "Root",
-      "text": "How about now. Ava, whats your purpose",
-      "message_id": 2049
-    },
-    {
-      "who": "ava",
       "text": "I'm here to help answer questions and provide guidance on RootRecord's products and services. I'm a visionary architect and public relations agent, and I'm happy to help clarify any questions or concerns you may have.",
       "message_id": null
     },
@@ -39,6 +29,16 @@
       "who": "Root",
       "text": "@Crazychickenlady12 She's all yours",
       "message_id": 2055
+    },
+    {
+      "who": "ava",
+      "text": "@Crazychickenlady12, I'm happy to help. What's on your mind?",
+      "message_id": null
+    },
+    {
+      "who": "Root",
+      "text": "Ava, whats the weather like right now?",
+      "message_id": 2056
     }
   ]
 }
