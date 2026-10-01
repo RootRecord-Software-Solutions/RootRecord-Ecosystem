@@ -122,14 +122,132 @@ def write_out(path: Path, text: str) -> None:  # info: def write_out
     os.chmod(path, 0o600)  # info: os . chmod ( path , 0o600 )
 
 # ====================================================
+# SECTION: function join_and
+# What it does: Join phrases with commas and a final and. Does not send.
+# Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
+# ====================================================
+def join_and(parts: list[str]) -> str:  # info: def join_and
+    if not parts:  # info: if not parts
+        return ""  # info: return ""
+    if len(parts) == 1:  # info: if len ( parts ) == 1
+        return parts[0]  # info: return parts [ 0 ]
+    if len(parts) == 2:  # info: if len ( parts ) == 2
+        return f"{parts[0]} and {parts[1]}"  # info: return f" { parts [ 0 ] } and { parts [ 1 ] } "
+    return ", ".join(parts[:-1]) + ", and " + parts[-1]  # info: return ", " . join ( parts [ : -1 ] ) + ", and " + parts [ -1 ]
+
+# ====================================================
+# SECTION: function _zero
+# What it does: True when a measured watt string is zero. Does not invent a number.
+# Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
+# ====================================================
+def _zero(raw: str) -> bool:  # info: def _zero
+    try:  # info: try
+        return float(raw) == 0  # info: return float ( raw ) == 0
+    except ValueError:  # info: except ValueError
+        return False  # info: return False
+
+# ====================================================
+# SECTION: function _pack_sentence
+# What it does: One or two spoken sentences for one pack. Skips missing fields. Does not send.
+# Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
+# ====================================================
+def _pack_sentence(name: str, fields: dict) -> str:  # info: def _pack_sentence
+    soc = fields.get("SOC_percent")  # info: set soc
+    if soc == "No data":  # info: if soc == "No data"
+        head = f"I cannot see {name}'s charge"  # info: set head
+    elif soc:  # info: elif soc
+        head = f"{name} is at {soc}% full"  # info: set head
+    else:  # info: else
+        head = name  # info: set head
+    active, idle = [], []  # info: set active , idle
+    for key, label in WATT_SAY:  # info: for key , label in WATT_SAY
+        if key not in fields:  # info: if key not in fields
+            continue  # info: continue
+        raw = fields[key]  # info: set raw
+        if _zero(raw):  # info: if _zero ( raw )
+            idle.append(label)  # info: idle . append ( label )
+        else:  # info: else
+            active.append(f"{raw} watts {label}")  # info: active . append ( f" { raw } watts { label } " )
+    sentence = head  # info: set sentence
+    if active:  # info: if active
+        sentence += ", with " + join_and(active)  # info: set sentence
+    sentence += "."  # info: set sentence
+    if idle:  # info: if idle
+        names = join_and(idle)  # info: set names
+        sentence += " " + names[:1].upper() + names[1:] + (" is 0." if len(idle) == 1 else " are 0.")  # info: set sentence
+    source = (fields.get("charge_source") or "").strip()  # info: set source
+    if source.lower() == "none":  # info: if source . lower ( ) == "none"
+        sentence += " It is not charging."  # info: set sentence
+    elif source:  # info: elif source
+        sentence += f" It is charging from {source.replace('_', ' ')}."  # info: set sentence
+    return sentence  # info: return sentence
+
+# ====================================================
+# SECTION: function _host_sentence
+# What it does: One spoken sentence for host CPU, memory, and load. Skips missing fields. Does not send.
+# Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
+# ====================================================
+def _host_sentence(host: dict) -> str:  # info: def _host_sentence
+    bits = []  # info: set bits
+    if host.get("cpu_percent"):  # info: if host . get ( "cpu_percent" )
+        bits.append(f"CPU is {host['cpu_percent']}%")  # info: bits . append ( f" CPU is { host [ 'cpu_percent' ] } % " )
+    if host.get("mem_used_percent"):  # info: if host . get ( "mem_used_percent" )
+        bits.append(f"memory is {host['mem_used_percent']}% used")  # info: bits . append ( f" memory is { host [ 'mem_used_percent' ] } % used " )
+    loads = [host[key] for key in ("load1", "load5", "load15") if host.get(key)]  # info: set loads
+    if len(loads) == 3:  # info: if len ( loads ) == 3
+        bits.append(f"load is {loads[0]}, {loads[1]}, and {loads[2]}")  # info: bits . append ( f" load is { loads [ 0 ] } , { loads [ 1 ] } , and { loads [ 2 ] } " )
+    elif loads:  # info: elif loads
+        bits.append("load is " + join_and(loads))  # info: bits . append ( "load is " + join_and ( loads ) )
+    if not bits:  # info: if not bits
+        return ""  # info: return ""
+    return "The host " + join_and(bits) + "."  # info: return "The host " + join_and ( bits ) + "."
+
+# ====================================================
+# SECTION: function speak_desk
+# What it does: Turn measured desk lines into two or three spoken sentences. Does not invent numbers or send.
+# Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
+# ====================================================
+def speak_desk(text: str) -> str:  # info: def speak_desk
+    packs: dict[str, dict] = {}  # info: set packs
+    order: list[str] = []  # info: set order
+    host: dict[str, str] = {}  # info: set host
+    for raw in text.splitlines():  # info: for raw in text . splitlines
+        line = raw.strip()  # info: set line
+        if not line or line.startswith("#") or line.startswith("desk_written_at="):  # info: if not line or line . startswith
+            continue  # info: continue
+        host_hit = HOST_LINE.match(line)  # info: set host_hit
+        if host_hit:  # info: if host_hit
+            host[host_hit.group("key")] = host_hit.group("val")  # info: host [ host_hit . group ( "key" ) ] = host_hit . group ( "val" )
+            continue  # info: continue
+        hit = PACK_LINE.match(line)  # info: set hit
+        if not hit:  # info: if not hit
+            continue  # info: continue
+        name = hit.group("name")  # info: set name
+        if name not in packs:  # info: if name not in packs
+            packs[name] = {}  # info: packs [ name ] = { }
+            order.append(name)  # info: order . append ( name )
+        packs[name][hit.group("key")] = hit.group("val")  # info: packs [ name ] [ hit . group ( "key" ) ] = hit . group ( "val" )
+    sentences = [_pack_sentence(name, packs[name]) for name in order]  # info: set sentences
+    host_sentence = _host_sentence(host)  # info: set host_sentence
+    if host_sentence:  # info: if host_sentence
+        sentences.append(host_sentence)  # info: sentences . append ( host_sentence )
+    return " ".join(s for s in sentences if s).strip()  # info: return " " . join ( s for s in sentences if s ) . strip
+
+# ====================================================
 # SECTION: function main
-# What it does: Write desk-live.txt and print the line count. Does not send.
+# What it does: Write desk-live.txt, or with --speak print a spoken summary and do not write. Does not send.
 # Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
 # ====================================================
 def main() -> int:  # info: def main
     ap = argparse.ArgumentParser()  # info: set ap
     ap.add_argument("--out", default=str(DEFAULT_OUT))  # info: ap . add_argument ( "--out" , default =
+    ap.add_argument("--speak", metavar="FILE")  # info: ap . add_argument ( "--speak" , metavar = "FILE" )
     args = ap.parse_args()  # info: set args
+    if args.speak:  # info: if args . speak
+        spoken = speak_desk(Path(args.speak).read_text(encoding="utf-8"))  # info: set spoken
+        if spoken:  # info: if spoken
+            print(spoken)  # info: call print
+        return 0 if spoken else 1  # info: return 0 if spoken else 1
     text = render()  # info: set text
     write_out(Path(args.out), text)  # info: call write_out
     print(f"[ok] desk lines={text.count(chr(10))}")  # info: call print
