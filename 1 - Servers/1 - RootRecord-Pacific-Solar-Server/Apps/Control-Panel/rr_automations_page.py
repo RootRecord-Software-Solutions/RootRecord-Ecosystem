@@ -147,7 +147,8 @@ class AutomationsPage:  # info: class AutomationsPage
             inner = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=4)  # info: set inner
             for job in items:  # info: for job in items
                 line = Gtk.Box(spacing=8)  # info: set line
-                text = lbl("", wrap=True, hexpand=True)  # info: set text
+                text = lbl("", wrap=True)  # info: set text
+                text.set_hexpand(True)  # info: text . set_hexpand ( True )
                 btn = state_toggle("Job", job["enabled"], lambda b, on, jid=job["id"]: self._job_toggled(b, on, jid))  # info: set btn
                 line.append(text)  # info: line . append ( text )
                 line.append(btn)  # info: line . append ( btn )
@@ -204,10 +205,16 @@ class AutomationsPage:  # info: class AutomationsPage
 
     def _filter_jobs(self, entry):  # info: def _filter_jobs
         query = entry.get_text().strip().lower()  # info: set query
+        hit = {sid: False for sid in self.auto_expanders}  # info: set hit
         for jid, widgets in self.auto_job_widgets.items():  # info: for jid , widgets in self . auto_job_widgets . items ( )
             meta = self.auto_rows[jid]  # info: set meta
-            show = not query or query in jid.lower() or query in meta["description"].lower()  # info: set show
+            show = not query or query in jid.lower() or query in meta["description"].lower() or query in meta["section_title"].lower()  # info: set show
             widgets["line"].set_visible(show)  # info: widgets [ "line" ] . set_visible ( show )
+            if show and query:  # info: if show and query
+                hit[meta["section"]] = True  # info: hit [ meta [ "section" ] ] = True
+        if query:  # info: if query
+            for sid, exp in self.auto_expanders.items():  # info: for sid , exp in self . auto_expanders . items ( )
+                exp.set_expanded(hit[sid])  # info: exp . set_expanded ( hit [ sid ] )
 
     def _sync_power_rows(self, doc):  # info: def _sync_power_rows
         ids = [it.get("id") for it in doc.get("items") or [] if isinstance(it, dict)]  # info: set ids
@@ -237,7 +244,8 @@ class AutomationsPage:  # info: class AutomationsPage
         now = datetime.now(self._actl.HST)  # info: set now
         for item in items:  # info: for item in items
             line = Gtk.Box(spacing=8)  # info: set line
-            text = lbl("", wrap=True, hexpand=True)  # info: set text
+            text = lbl("", wrap=True)  # info: set text
+            text.set_hexpand(True)  # info: text . set_hexpand ( True )
             text.set_markup(f"<b>{_esc(item.get('name') or item.get('id'))}</b>\n<span alpha='75%'>{_esc(self._actl.describe_item(item, now))}</span>")  # info: text . set_markup
             btn = state_toggle("Schedule", bool(item.get("enabled")), lambda b, on, iid=item["id"]: self._item_toggled(b, on, iid))  # info: set btn
             delete = Gtk.Button(label="Delete", valign=Gtk.Align.CENTER)  # info: set delete
@@ -434,6 +442,12 @@ class AutomationsPage:  # info: class AutomationsPage
         }]  # info: } ]
         if second_on.get_active():  # info: if second_on . get_active ( )
             base = name.get_text().strip()  # info: set base
+            second_date = date.get_text().strip()  # info: set second_date
+            if kind == "once" and (int(second_hour.get_value()), int(second_minute.get_value())) <= (int(hour.get_value()), int(minute.get_value())):  # info: if kind == "once" and
+                try:  # info: try
+                    second_date = (datetime.strptime(second_date, "%Y-%m-%d").date() + timedelta(days=1)).isoformat()  # info: set second_date
+                except ValueError:  # info: except ValueError
+                    second_date = date.get_text().strip()  # info: set second_date
             specs.append({  # info: specs . append
                 "name": (base + " (return)")[:80] if base else "",  # info: "name"
                 "device": dev,  # info: "device"
@@ -441,7 +455,7 @@ class AutomationsPage:  # info: class AutomationsPage
                 "hour": int(second_hour.get_value()),  # info: "hour"
                 "minute": int(second_minute.get_value()),  # info: "minute"
                 "repeat": kind,  # info: "repeat"
-                "date": date.get_text().strip(),  # info: "date"
+                "date": second_date,  # info: "date"
             })  # info: } )
         for spec in specs:  # info: for spec in specs
             err = actl.validate_spec(spec)  # info: set err
