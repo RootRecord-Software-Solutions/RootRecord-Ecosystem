@@ -518,7 +518,7 @@ def quoted_line(msg) -> str:  # info: def quoted_line
 
 # ====================================================
 # SECTION: function continue_prompt
-# What it does: Ask one voice to answer the latest line using the recent chat. Does not send.
+# What it does: Ask one voice to continue the chat. Forbids a no-data line unless they asked for a reading. Does not send.
 # Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
 # ====================================================
 def continue_prompt(transcript, quoted, text, voice) -> str:  # info: def continue_prompt
