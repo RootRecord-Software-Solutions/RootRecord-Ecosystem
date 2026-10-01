@@ -735,11 +735,11 @@ EVERY_MINUTE = [  # info: set EVERY_MINUTE
     },  # info: } ,
     {  # info: {
         # Kilauea voice report (2026-09-29, old-repo migration): G1 hourly Kilauea desk line + HVO notice excerpt, Carly.
-        # G1 ran it with the :02 hourly desks; :03 here so it never shares the single-flight lock with the :02 roll-ups.
+        # Hourly at :00 with the other full desks.
         # OFF unless RR_VOICE_KILAUEA=1 at poller start. Reads Database Geology/Volcanoes (needs geology_collect). No delivery.
         "id": "voice_kilauea_report",  # info: "id" : "voice_kilauea_report" ,
         "enabled": os.environ.get("RR_VOICE_KILAUEA", "0") == "1",  # info: "enabled" : os . environ . get (
-        "description": "Carly Kilauea report at :03 from the HVO notice. Voice note when RR_VOICE_DELIVER=1.",  # info: "description" : "Carly Kilauea report at :03 from the HVO notice. Voice note when RR_VOICE_DELIVER=1." ,
+        "description": "Carly Kilauea report at :00 from the HVO notice. Voice note when RR_VOICE_DELIVER=1.",  # info: "description" : "Carly Kilauea report at :00 from the HVO notice. Voice note when RR_VOICE_DELIVER=1." ,
         "only_at_minutes": [0],  # info: "only_at_minutes" : [ 0 ] ,
         "builtin": "",  # info: "builtin" : "" ,
         "command": f'nice -n 10 python3 "{PACIFIC}/Media/Voice/scripts/voice_reports.py" kilauea_report',  # info: "command" : f' nice -n 10 python3 " { PACIFIC } /Media/Voice/scripts/voice_reports.py" kilauea_report
