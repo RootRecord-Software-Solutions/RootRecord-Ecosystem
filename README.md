@@ -174,8 +174,8 @@ GitHub source repositories, when they are still the domain remote:
 - RootRecord-Library
 - RootRecord-Database
 - RootRecord-Pacific-Solar-Server
+- RootRecord-Website — public page, from Pacific `Website/Home/`
 - RootRecord-US-Mainland-Server
-- RootRecord-Cloud
 
 ---
 
