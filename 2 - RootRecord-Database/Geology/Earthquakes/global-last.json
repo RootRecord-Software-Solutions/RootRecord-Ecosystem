@@ -1,5 +1,5 @@
 {
-  "at": "2026-09-30T22:35:57-10:00",
+  "at": "2026-09-30T22:42:29-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
@@ -13,8 +13,8 @@
     "place": "94 km SW of Tamarindo, Costa Rica",
     "time_hst": "2026-09-30T11:55:26.169000-10:00"
   },
-  "new_this_run": 1,
-  "usgs_generated_utc": "2026-10-01T08:35:57+00:00",
+  "new_this_run": 0,
+  "usgs_generated_utc": "2026-10-01T08:41:57+00:00",
   "events": [
     {
       "id": "us6000tyqw",
