@@ -1,0 +1,1 @@
+National Weather Service Hawaii Report. No active Hawaii alerts from the API sample. State forecast for today. Partly sunny. Windward and mountains, numerous showers. Leeward, scattered showers through the day. Highs 84 to 89. Southeast winds around 15 miles per hour.
