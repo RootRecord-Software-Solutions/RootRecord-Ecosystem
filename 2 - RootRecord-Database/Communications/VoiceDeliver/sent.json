@@ -24,8 +24,8 @@
     "message_id": 56
   },
   "security_desk": {
-    "sha256": "4f2485d71763456d5e0ac50054fe86f697d329377a8f696dd596afff488e6590",
-    "message_id": 44
+    "sha256": "b870cd4957bdb5c2985e97f904ba8d01a685d43c2967170d631ad3ac5c8c405e",
+    "message_id": 62
   },
   "nws_weather": {
     "sha256": "1dd0fb8d8abf1e95e4c53a31b5f16749822f0b4fe69f86dedff9c2d9adf1cd07",

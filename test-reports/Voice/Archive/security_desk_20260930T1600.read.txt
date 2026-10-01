@@ -1,0 +1,1 @@
+Security desk at four p.m. Hawaiian Standard Time. Uncomplicated Firewall is not set to start on boot. OpenSSH service is active. 57 TCP listeners. 20 established connections. Failed sign-ins: 0 in the last hour, 0 in the last twenty four hours.
