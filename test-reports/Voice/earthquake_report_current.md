@@ -1,39 +1,17 @@
-# Earthquake report — 2026-09-30T15:59:33-10:00
+# Earthquake report — 2026-09-30T16:10:10-10:00
 
 ## Hawaii Changes Since Last Report
-- M2.02 7 km SW of Volcano, Hawaii (2026-09-30T15:44:51.740000-10:00)
-- M1.76 7 km SW of Volcano, Hawaii (2026-09-30T14:56:57.430000-10:00)
-- M1.64 14 km N of Pāhala, Hawaii (2026-09-30T11:18:23.740000-10:00)
-- M2.44 3 km SE of Honaunau-Napoopoo, Hawaii (2026-09-30T06:31:57.170000-10:00)
-- M2.62 13 km NE of Pāhala, Hawaii (2026-09-30T05:02:23.230000-10:00)
-- M2.24 25 km E of Honaunau-Napoopoo, Hawaii (2026-09-29T22:59:57.140000-10:00)
-- M2.18 26 km E of Honaunau-Napoopoo, Hawaii (2026-09-29T22:06:07.080000-10:00)
-- M2.29 14 km SSE of Fern Forest, Hawaii (2026-09-29T21:16:33.400000-10:00)
-- M1.74 14 km S of Volcano, Hawaii (2026-09-29T20:36:36.280000-10:00)
-- M1.74 4 km SSW of Pāhala, Hawaii (2026-09-29T16:39:29.600000-10:00)
-- M1.79 5 km WSW of Volcano, Hawaii (2026-09-29T16:10:57.220000-10:00)
+- M1.25 6 km SW of Volcano, Hawaii (2026-09-30T15:14:48-10:00)
 
 ## Hawaii 24-Hour M2.5+ Summary
 - 1 earthquakes; largest M2.62.
-- Source: `https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&starttime=2026-09-30T01%3A53%3A50&minmagnitude=1.0&minlatitude=18.5&maxlatitude=22.5&minlongitude=-160.5&maxlongitude=-154.5` (collected 2026-09-30T15:53:50-10:00)
+- Source: `https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&starttime=2026-09-30T02%3A05%3A48&minmagnitude=1.0&minlatitude=18.5&maxlatitude=22.5&minlongitude=-160.5&maxlongitude=-154.5` (collected 2026-09-30T16:05:48-10:00)
 
 ## Global Changes Since Last Report
-- M4.6 45 km ENE of Luwuk, Indonesia (2026-09-30T15:31:23.443000-10:00)
-- M5.2 7 km ESE of Baghlān, Afghanistan (2026-09-30T15:29:20.694000-10:00)
-- M4.9 northern Mid-Atlantic Ridge (2026-09-30T14:28:22.644000-10:00)
-- M3.08 20 km ESE of Anza, CA (2026-09-30T14:01:59.630000-10:00)
-- M5.6 94 km SW of Tamarindo, Costa Rica (2026-09-30T11:55:26.169000-10:00)
-- M4.4 12 km SSE of Hasaki, Japan (2026-09-30T11:16:53.322000-10:00)
-- M4.6 131 km SE of Itoman, Japan (2026-09-30T11:11:57.694000-10:00)
-- M2.99 8 km ESE of Cloverdale, CA (2026-09-30T11:07:19.250000-10:00)
-- M2.57 5 km SW of Guánica, Puerto Rico (2026-09-30T11:03:41.740000-10:00)
-- M3.14 4 km NNE of Animas, Puerto Rico (2026-09-30T11:00:48.480000-10:00)
-- M2.63 1 km SW of Anderson Springs, CA (2026-09-30T10:48:14.500000-10:00)
-- M2.6 16 km ESE of Pearsall, Texas (2026-09-30T09:37:44.260000-10:00)
-- ...and 25 more new earthquakes.
+- No new earthquakes.
 
 ## Global 24-Hour M2.5+ Summary
 - 37 earthquakes; largest M5.6.
-- Source: `https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson` (collected 2026-09-30T15:53:50-10:00)
+- Source: `https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson` (collected 2026-09-30T16:05:48-10:00)
 
 _Template report; measured values only._
