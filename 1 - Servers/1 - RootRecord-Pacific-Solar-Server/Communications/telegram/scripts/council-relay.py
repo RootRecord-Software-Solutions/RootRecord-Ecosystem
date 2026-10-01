@@ -480,6 +480,17 @@ def main():  # info: def main
             allow_reply = replies_enabled() if is_private else replies_for_chat(cfg, ch)  # info: set allow_reply
             if sandbox_id and ch == str(sandbox_id):  # info: if sandbox_id and ch == str ( sandbox_id )
                 seed_interaction(msg, text, ch, sandbox_id)  # info: call seed_interaction
+            if msg.get("reply_to_message"):  # info: if msg . get ( "reply_to_message" )
+                try:  # info: try
+                    import importlib.util  # info: import importlib . util
+                    note_path = ROOT.parents[1] / "Media" / "Voice" / "scripts" / "voice_deliver.py"  # info: set note_path
+                    spec = importlib.util.spec_from_file_location("voice_deliver", note_path)  # info: set spec
+                    deliver_mod = importlib.util.module_from_spec(spec)  # info: set deliver_mod
+                    spec.loader.exec_module(deliver_mod)  # info: spec . loader . exec_module
+                    if deliver_mod.record_note(msg):  # info: if deliver_mod . record_note ( msg )
+                        print("[ok] report note recorded")  # info: call print
+                except Exception as e:  # info: except Exception as e
+                    print(f"[warn] report note failed: {type(e).__name__}", file=sys.stderr)  # info: call print
             if not allow_reply:  # info: if not allow_reply :
                 try:  # info: try :
                     inbox_hold(upd, msg, text, persona_target(text, is_private, poll_voice, voices, triggers, default_voice))  # info: call inbox_hold
