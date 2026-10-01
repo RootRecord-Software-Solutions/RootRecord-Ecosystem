@@ -1,7 +1,7 @@
 {
   "resource": "power",
   "title": "Power / solar",
-  "as_of": "Thursday, October 1, 2026 \u00b7 13:37 Hawaiian Standard Time",
+  "as_of": "Thursday, October 1, 2026 \u00b7 13:44 Hawaiian Standard Time",
   "devices": {
     "delta2": {
       "watts": {
@@ -21,17 +21,17 @@
     },
     "river2pro": {
       "watts": {
-        "solar_input_power": 161,
-        "ac_output_power": 70,
+        "solar_input_power": 165,
+        "ac_output_power": 65,
         "ac_input_power": 0,
         "usbc_output_power": 0,
-        "at": "2026-10-01T13:24:20-10:00",
+        "at": "2026-10-01T13:40:00-10:00",
         "source": "ble",
         "charge_source": "none"
       },
       "soc": {
-        "soc": 20.24,
-        "at": "2026-10-01T13:24:20-10:00",
+        "soc": 22.43,
+        "at": "2026-10-01T13:40:00-10:00",
         "source": "ble"
       }
     }
