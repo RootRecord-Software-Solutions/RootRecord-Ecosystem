@@ -27,17 +27,17 @@
       "marked_due_at": "2026-09-30T15:41:34-10:00"
     },
     "late": {
-      "status": "due",
+      "status": "done",
       "scheduled_at": "2026-09-30T21:02:00",
       "hour": 21,
       "minute": 2,
       "mandatory": false,
       "catch_up_allowed": false,
-      "completed_at": null,
+      "completed_at": "2026-09-30T21:07:46-10:00",
       "error": null,
       "started_at": null,
       "marked_due_at": "2026-09-30T21:03:31-10:00"
     }
   },
-  "updated_at": "2026-09-30T21:03:31-10:00"
+  "updated_at": "2026-09-30T22:55:10-10:00"
 }
