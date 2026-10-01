@@ -73,7 +73,7 @@ The model names the weather (rain, fog, overcast, clear, dark) and the tilt. Lef
 | Part of the day | From the sun file | What is correct |
 | --- | --- | --- |
 | Morning | Two hours before sunrise through one hour after | Left side up, or flat. Right side up asks for a person. |
-| Day | After that, until one hour before sunset | Flat. Any tilt asks for a person. |
+| Day | After that, until one hour before sunset | Flat. Any tilt asks for a person. In the later half of that window, left side up is fine when combined solar input is 20 W or less on a reading newer than 30 minutes. That line is "Solar staged for sunrise." |
 | Evening | One hour before sunset through 45 minutes after | Right side up. Anything else asks for a person. |
 | Overnight | The rest of the night | Left side up, or flat. Right side up asks for a person. |
 
