@@ -1,0 +1,2921 @@
+{
+  "ok": true,
+  "items": [
+    {
+      "id": "2fb0cfefe3489385",
+      "cluster_id": "c_7e95ef8e67756da0",
+      "program": "ENERGY_BRIEF",
+      "report": "energy_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/energy_brief/c_7e95ef8e67756da0.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/energy_brief/c_7e95ef8e67756da0.speak.txt",
+      "sources": [
+        {
+          "publisher": "EIA",
+          "source": "EIA Today in Energy",
+          "title": "U.S. electricity use for electric vehicles increasing at a slower pace in 2026",
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=68224",
+          "published_at": "2026-09-30T14:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2d3f745f10edf222",
+      "cluster_id": "c_be9dc0337c86acf6",
+      "program": "ENERGY_BRIEF",
+      "report": "energy_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/energy_brief/c_be9dc0337c86acf6.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/energy_brief/c_be9dc0337c86acf6.speak.txt",
+      "sources": [
+        {
+          "publisher": "EIA",
+          "source": "EIA What's New",
+          "title": "Quarterly Coal Report\u00e2\u0080\u0094Second Quarter 2026",
+          "url": "http://www.eia.gov/coal/production/quarterly/",
+          "published_at": "2026-10-01T05:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "5725fb5d3fdc3fa2",
+      "cluster_id": "c_8ceed51428f2f510",
+      "program": "ENERGY_BRIEF",
+      "report": "energy_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/energy_brief/c_8ceed51428f2f510.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/energy_brief/c_8ceed51428f2f510.speak.txt",
+      "sources": [
+        {
+          "publisher": "EIA",
+          "source": "EIA What's New",
+          "title": "Wholesale Electricity Market Data",
+          "url": "http://www.eia.gov/electricity/wholesale/",
+          "published_at": "2026-10-01T05:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "8923d5552ba04389",
+      "cluster_id": "c_4eb1ee081846f564",
+      "program": "ENERGY_BRIEF",
+      "report": "energy_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/energy_brief/c_4eb1ee081846f564.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/energy_brief/c_4eb1ee081846f564.speak.txt",
+      "sources": [
+        {
+          "publisher": "EIA",
+          "source": "EIA What's New",
+          "title": "Petroleum Marketing Monthly",
+          "url": "http://www.eia.gov/petroleum/marketing/monthly/",
+          "published_at": "2026-10-01T05:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "cfad596925c518e9",
+      "cluster_id": "c_333409c06df361ad",
+      "program": "ENERGY_BRIEF",
+      "report": "energy_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/energy_brief/c_333409c06df361ad.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/energy_brief/c_333409c06df361ad.speak.txt",
+      "sources": [
+        {
+          "publisher": "EIA",
+          "source": "EIA What's New",
+          "title": "Quarterly Coal Distribution Report\u00e2\u0080\u0094Second Quarter 2026",
+          "url": "http://www.eia.gov/coal/distribution/quarterly/",
+          "published_at": "2026-10-01T05:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2f68a94fdb6a6b75",
+      "cluster_id": "c_436e1bf10518f90e",
+      "program": "ECONOMICS_BRIEF",
+      "report": "economics_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/economics_brief/c_436e1bf10518f90e.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/economics_brief/c_436e1bf10518f90e.speak.txt",
+      "sources": [
+        {
+          "publisher": "Federal Reserve",
+          "source": "Federal Reserve Speeches",
+          "title": "Bowman, Modernizing Financial Regulation: Initial Observations from eSLR",
+          "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm",
+          "published_at": "2026-10-01T19:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "927ca408298f1aca",
+      "cluster_id": "c_d80fc02a5b0ac249",
+      "program": "ECONOMICS_BRIEF",
+      "report": "economics_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/economics_brief/c_d80fc02a5b0ac249.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/economics_brief/c_d80fc02a5b0ac249.speak.txt",
+      "sources": [
+        {
+          "publisher": "Federal Reserve",
+          "source": "Federal Reserve Speeches",
+          "title": "Jefferson, The U.S. Economy and Monetary Policy",
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "published_at": "2026-10-01T17:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "ef82ba2f8ce45c96",
+      "cluster_id": "c_024a5d99eeea69a5",
+      "program": "ECONOMICS_BRIEF",
+      "report": "economics_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/economics_brief/c_024a5d99eeea69a5.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/economics_brief/c_024a5d99eeea69a5.speak.txt",
+      "sources": [
+        {
+          "publisher": "Federal Reserve",
+          "source": "Federal Reserve Speeches",
+          "title": "Waller, The Data Version of Godzilla versus Kong: FRED Takes on AI",
+          "url": "https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm",
+          "published_at": "2026-10-01T14:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "f98ffd1fb0ed2d6b",
+      "cluster_id": "c_7f91f02c3c5e650b",
+      "program": "ECONOMICS_BRIEF",
+      "report": "economics_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/economics_brief/c_7f91f02c3c5e650b.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/economics_brief/c_7f91f02c3c5e650b.speak.txt",
+      "sources": [
+        {
+          "publisher": "Federal Reserve",
+          "source": "Federal Reserve Speeches",
+          "title": "Cook, The Dual Mandate in Rural America",
+          "url": "https://www.federalreserve.gov/newsevents/speech/cook20260930a.htm",
+          "published_at": "2026-09-30T19:25:00Z"
+        }
+      ]
+    },
+    {
+      "id": "f9bc383e249572fa",
+      "cluster_id": "c_d246157481fbe656",
+      "program": "ECONOMICS_BRIEF",
+      "report": "economics_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/economics_brief/c_d246157481fbe656.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/economics_brief/c_d246157481fbe656.speak.txt",
+      "sources": [
+        {
+          "publisher": "Federal Reserve",
+          "source": "Federal Reserve Supervision",
+          "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
+          "published_at": "2026-09-30T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "02c0fc430032b2f3",
+      "cluster_id": "c_39950966923cafa5",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_39950966923cafa5.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_39950966923cafa5.speak.txt",
+      "sources": [
+        {
+          "publisher": "Bureau of Economic Analysis",
+          "source": "Bureau of Economic Analysis",
+          "title": "Personal Income and Outlays, August 2026",
+          "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
+          "published_at": "2026-09-30T12:31:00Z"
+        }
+      ]
+    },
+    {
+      "id": "bb89de0d48b80b91",
+      "cluster_id": "c_3012210a9837cdf7",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_3012210a9837cdf7.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_3012210a9837cdf7.speak.txt",
+      "sources": [
+        {
+          "publisher": "Bureau of Economic Analysis",
+          "source": "Bureau of Economic Analysis",
+          "title": "GDP, (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 2nd Quarter 2026; State PCE, 2025",
+          "url": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd",
+          "published_at": "2026-09-30T12:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "6db809575bdf7b0d",
+      "cluster_id": "c_b8fe37c3e470a2c0",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_b8fe37c3e470a2c0.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_b8fe37c3e470a2c0.speak.txt",
+      "sources": [
+        {
+          "publisher": "SEC",
+          "source": "SEC Press Releases",
+          "title": "SEC Proposal Would Address How Investment Advisers and Funds Can Custody Crypto Assets Under the Federal Securities Laws",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal",
+          "published_at": "2026-10-01T16:16:07Z"
+        }
+      ]
+    },
+    {
+      "id": "ac4222b72913182e",
+      "cluster_id": "c_6f2f531bf42d5387",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_6f2f531bf42d5387.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_6f2f531bf42d5387.speak.txt",
+      "sources": [
+        {
+          "publisher": "SEC",
+          "source": "SEC Press Releases",
+          "title": "SEC\u2019s Division of Examinations Announces New Exam Handbook",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-99-secs-division-examinations-announces-new-exam-handbook",
+          "published_at": "2026-10-01T15:03:35Z"
+        }
+      ]
+    },
+    {
+      "id": "7a288b3049cdd29b",
+      "cluster_id": "c_2edf220f4b4daa16",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_2edf220f4b4daa16.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_2edf220f4b4daa16.speak.txt",
+      "sources": [
+        {
+          "publisher": "SEC",
+          "source": "SEC Press Releases",
+          "title": "SEC Charges Meyer Global Management and Its CEO With Defrauding Retail Investors in Private Funds That Held Interests in SpaceX and Other Pre-IPO Securities",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-98-sec-charges-meyer-global-management-its-ceo-defrauding-retail-investors-private-funds-held-interests",
+          "published_at": "2026-09-30T18:30:01Z"
+        }
+      ]
+    },
+    {
+      "id": "fd3ac763a01d6439",
+      "cluster_id": "c_681f2ea887d9a22a",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_681f2ea887d9a22a.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_681f2ea887d9a22a.speak.txt",
+      "sources": [
+        {
+          "publisher": "SEC",
+          "source": "SEC Press Releases",
+          "title": "SEC Charges Two Individuals With Orchestrating Fraud Scheme That Targeted Veterans",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-97-sec-charges-two-individuals-orchestrating-fraud-scheme-targeted-veterans",
+          "published_at": "2026-09-30T16:42:15Z"
+        }
+      ]
+    },
+    {
+      "id": "12e90a8a08a58a10",
+      "cluster_id": "c_f37e4b9e34088fb0",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_f37e4b9e34088fb0.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_f37e4b9e34088fb0.speak.txt",
+      "sources": [
+        {
+          "publisher": "SEC",
+          "source": "SEC Press Releases",
+          "title": "SEC Proposes Amendments to Expand Responsible Retailization of Private Markets",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-96-sec-proposes-amendments-expand-responsible-retailization-private-markets",
+          "published_at": "2026-09-30T15:45:00Z"
+        }
+      ]
+    },
+    {
+      "id": "eee4e1c5b1fe6f16",
+      "cluster_id": "c_1202c3e2cddf484c",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_1202c3e2cddf484c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_1202c3e2cddf484c.speak.txt",
+      "sources": [
+        {
+          "publisher": "CFTC",
+          "source": "CFTC",
+          "title": "CFTC Staff Extends Brexit-Related No-Action Positions",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9306-26",
+          "published_at": "2026-10-01T13:06:31Z"
+        }
+      ]
+    },
+    {
+      "id": "3c20c94c70318562",
+      "cluster_id": "c_68e7648361264787",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_68e7648361264787.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_68e7648361264787.speak.txt",
+      "sources": [
+        {
+          "publisher": "USNI News",
+          "source": "USNI News",
+          "title": "Navy Brings In 45,112 Recruits in FY 2026",
+          "url": "https://news.usni.org/2026/10/01/navy-brings-in-45112-recruits-in-fy-2026",
+          "published_at": "2026-10-01T21:48:32Z"
+        }
+      ]
+    },
+    {
+      "id": "8b4a23c0131b30a7",
+      "cluster_id": "c_39c0f9dd90941205",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_39c0f9dd90941205.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_39c0f9dd90941205.speak.txt",
+      "sources": [
+        {
+          "publisher": "USNI News",
+          "source": "USNI News",
+          "title": "3 Navy Ships Decommissioned, Cruiser USS Robert Smalls Makes Final Homeport Change",
+          "url": "https://news.usni.org/2026/10/01/3-navy-ships-decommissioned-cruiser-uss-robert-smalls-makes-final-homeport-change",
+          "published_at": "2026-10-01T18:48:40Z"
+        }
+      ]
+    },
+    {
+      "id": "309fb71ba32f1eff",
+      "cluster_id": "c_3e6dc55e32d7cf66",
+      "program": "AVIATION_BRIEF",
+      "report": "aviation_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_3e6dc55e32d7cf66.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_3e6dc55e32d7cf66.speak.txt",
+      "sources": [
+        {
+          "publisher": "USNI News",
+          "source": "USNI News",
+          "title": "U.S. Army Picks 5 to Prototype Long-range Maritime Strike Missile",
+          "url": "https://news.usni.org/2026/10/01/u-s-army-picks-5-firms-to-prototype-long-range-maritime-strike-missile",
+          "published_at": "2026-10-01T17:44:52Z"
+        }
+      ]
+    },
+    {
+      "id": "3b296a656aaac01e",
+      "cluster_id": "c_f317f9c3f86a4022",
+      "program": "AVIATION_BRIEF",
+      "report": "aviation_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_f317f9c3f86a4022.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_f317f9c3f86a4022.speak.txt",
+      "sources": [
+        {
+          "publisher": "USNI News",
+          "source": "USNI News",
+          "title": "GAO Report on How the Coast Guard Can Address Marine Firefighting Challenges",
+          "url": "https://news.usni.org/2026/10/01/gao-report-on-how-the-coast-guard-can-address-marine-firefighting-challenges",
+          "published_at": "2026-10-01T14:00:05Z"
+        }
+      ]
+    },
+    {
+      "id": "128d6b8ad2b01856",
+      "cluster_id": "c_734841e8dfbe2387",
+      "program": "AVIATION_BRIEF",
+      "report": "aviation_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_734841e8dfbe2387.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_734841e8dfbe2387.speak.txt",
+      "sources": [
+        {
+          "publisher": "USNI News",
+          "source": "USNI News",
+          "title": "GAO Report on the Navy\u2019s Shipyard Infrastructure Optimization Program",
+          "url": "https://news.usni.org/2026/09/30/gao-report-on-the-navys-shipyard-infrastructure-optimization-program",
+          "published_at": "2026-09-30T18:13:38Z"
+        }
+      ]
+    },
+    {
+      "id": "fe729055a778b9d5",
+      "cluster_id": "c_0eae60d2bca5eb9b",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_0eae60d2bca5eb9b.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_0eae60d2bca5eb9b.speak.txt",
+      "sources": [
+        {
+          "publisher": "USNI News",
+          "source": "USNI News",
+          "title": "VIDEO: Former U.S. Frigate Sunk in Exercise with U.S., Royal Navies",
+          "url": "https://news.usni.org/2026/09/30/video-former-u-s-frigate-sunk-in-exercise-with-u-s-royal-navies",
+          "published_at": "2026-09-30T17:27:13Z"
+        }
+      ]
+    },
+    {
+      "id": "1f3e6dd10d779fde",
+      "cluster_id": "c_90f0be814b577a9a",
+      "program": "AVIATION_BRIEF",
+      "report": "aviation_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_90f0be814b577a9a.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_90f0be814b577a9a.speak.txt",
+      "sources": [
+        {
+          "publisher": "USNI News",
+          "source": "USNI News",
+          "title": "U.S. to Transfer Surveillance Aircraft to the Philippine Coast Guard",
+          "url": "https://news.usni.org/2026/09/30/u-s-to-transfer-surveillance-aircraft-to-the-philippine-coast-guard",
+          "published_at": "2026-09-30T14:04:22Z"
+        }
+      ]
+    },
+    {
+      "id": "507dd7a638ac280d",
+      "cluster_id": "c_9e084267459bf323",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_9e084267459bf323.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_9e084267459bf323.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "DoD obligates $142B from reconciliation bill before deadline, leaving billions subject to cuts",
+          "url": "https://breakingdefense.com/2026/10/dod-obligates-142b-from-reconciliation-bill-before-deadline-leaving-billions-subject-to-cuts/",
+          "published_at": "2026-10-01T21:57:29Z"
+        }
+      ]
+    },
+    {
+      "id": "5d158d0c34f8bdd3",
+      "cluster_id": "c_d1d6d1d4a32bdfce",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_d1d6d1d4a32bdfce.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_d1d6d1d4a32bdfce.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "Can\u2019t start, won\u2019t start: Over 150 new military programs face delay under a CR",
+          "url": "https://breakingdefense.com/2026/10/cant-start-wont-start-over-150-new-military-programs-face-delay-under-a-cr/",
+          "published_at": "2026-10-01T20:56:55Z"
+        }
+      ]
+    },
+    {
+      "id": "c7897725b63e7faa",
+      "cluster_id": "c_f2381ceb77fdcaac",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_f2381ceb77fdcaac.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_f2381ceb77fdcaac.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "How Hegseth envisions a new Autonomous Warfare Command",
+          "url": "https://breakingdefense.com/2026/10/how-hegseth-envisions-a-new-autonomous-warfare-command/",
+          "published_at": "2026-10-01T20:15:00Z"
+        }
+      ]
+    },
+    {
+      "id": "9fc1dfe9a04671ed",
+      "cluster_id": "c_0374ddeccbb527a1",
+      "program": "AVIATION_BRIEF",
+      "report": "aviation_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_0374ddeccbb527a1.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_0374ddeccbb527a1.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "Over the Finnish line: Helsinki welcomes home first two F-35 jets",
+          "url": "https://breakingdefense.com/2026/10/over-the-finnish-line-helsinki-welcomes-home-first-two-f-35-jets/",
+          "published_at": "2026-10-01T17:58:00Z"
+        }
+      ]
+    },
+    {
+      "id": "4068f6d644f6d793",
+      "cluster_id": "c_17f9a063c4978d2b",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_17f9a063c4978d2b.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_17f9a063c4978d2b.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "Drone-maker Powerus, backed by Trump brothers, goes public",
+          "url": "https://breakingdefense.com/2026/10/dronemaker-powerus-backed-by-trump-brothers-goes-public/",
+          "published_at": "2026-10-01T17:05:21Z"
+        }
+      ]
+    },
+    {
+      "id": "ebc767f5903ca0af",
+      "cluster_id": "c_c8e457b10e46ddfa",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_c8e457b10e46ddfa.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_c8e457b10e46ddfa.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "DoD demo contract takes a step closer to beaming solar power from space",
+          "url": "https://breakingdefense.com/2026/10/dod-demo-contract-takes-a-step-closer-to-beaming-solar-power-from-space/",
+          "published_at": "2026-10-01T16:55:27Z"
+        }
+      ]
+    },
+    {
+      "id": "6a4afca3dd2133ce",
+      "cluster_id": "c_b3cbaeccae6baad4",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_b3cbaeccae6baad4.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_b3cbaeccae6baad4.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "Moroccan startup unveils prototye UAV that operates without GPS signal",
+          "url": "https://breakingdefense.com/2026/10/moroccan-startup-unveils-prototye-uav-that-operates-without-gps-signal/",
+          "published_at": "2026-10-01T16:02:44Z"
+        }
+      ]
+    },
+    {
+      "id": "7d65be7a6f583f7b",
+      "cluster_id": "c_c9099411c32da379",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_c9099411c32da379.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_c9099411c32da379.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "Ex-defense minister\u2019s futuristic \u2018Army of Robots\u2019 raises eyebrows in Ukraine",
+          "url": "https://breakingdefense.com/2026/10/ex-defense-ministers-futuristic-army-of-robots-raises-eyebrows-in-ukraine/",
+          "published_at": "2026-10-01T15:03:17Z"
+        }
+      ]
+    },
+    {
+      "id": "cda4c7684f6d8181",
+      "cluster_id": "c_88fe5296b4fa72f4",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_88fe5296b4fa72f4.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_88fe5296b4fa72f4.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "Battling sand and wind, Pentagon evaluates counter-drone tech at southern border exercise",
+          "url": "https://breakingdefense.com/2026/10/battling-sand-and-wind-pentagon-evaluates-counter-drone-tech-at-southern-border-exercise/",
+          "published_at": "2026-10-01T14:29:39Z"
+        }
+      ]
+    },
+    {
+      "id": "77cfe6e96a495052",
+      "cluster_id": "c_616c0ea8958d0b87",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_616c0ea8958d0b87.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_616c0ea8958d0b87.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "What Europe\u2019s military air fleets will look like in 30 years",
+          "url": "https://breakingdefense.com/2026/10/what-europes-military-air-fleets-will-look-like-in-30-years/",
+          "published_at": "2026-10-01T08:32:00Z"
+        }
+      ]
+    },
+    {
+      "id": "3cd6c30d339ac9c3",
+      "cluster_id": "c_05e273bf4e84913c",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_05e273bf4e84913c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_05e273bf4e84913c.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "Hegseth announces plans for new 4-star drone command, among other initiatives",
+          "url": "https://breakingdefense.com/2026/09/hegseth-announces-plans-for-new-4-star-drone-command-further-general-officer-cuts/",
+          "published_at": "2026-09-30T21:17:46Z"
+        }
+      ]
+    },
+    {
+      "id": "bb6d92032d671c23",
+      "cluster_id": "c_1f254059524b6900",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_1f254059524b6900.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_1f254059524b6900.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "Saronic breaks ground on new Port Alpha shipyard in Texas",
+          "url": "https://breakingdefense.com/2026/09/saronic-breaks-ground-on-new-port-alpha-shipyard-in-texas/",
+          "published_at": "2026-09-30T19:45:05Z"
+        }
+      ]
+    },
+    {
+      "id": "b2f5d83d1ab2a0be",
+      "cluster_id": "c_80921fa117cb462d",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_80921fa117cb462d.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_80921fa117cb462d.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "Army taps 5 companies for PrSM Inc 4 prototypes",
+          "url": "https://breakingdefense.com/2026/09/army-taps-5-companies-for-prsm-inc-4-prototypes/",
+          "published_at": "2026-09-30T19:08:03Z"
+        }
+      ]
+    },
+    {
+      "id": "5fdb0c066e36f809",
+      "cluster_id": "c_f53f6da61b8a0eda",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_f53f6da61b8a0eda.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_f53f6da61b8a0eda.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "EXCLUSIVE: How the DIA measures a military\u2019s \u2018Will to Fight\u2019",
+          "url": "https://breakingdefense.com/2026/09/exclusive-how-the-dia-measures-a-militarys-will-to-fight/",
+          "published_at": "2026-09-30T18:08:46Z"
+        }
+      ]
+    },
+    {
+      "id": "dc7b35904472b801",
+      "cluster_id": "c_37cee236c3a14739",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_37cee236c3a14739.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_37cee236c3a14739.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "White House names nominees for SPACECOM, Navy No. 2",
+          "url": "https://breakingdefense.com/2026/09/white-house-names-nominees-for-spacecom-navy-no-2/",
+          "published_at": "2026-09-30T17:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": "8bdbfb24d5ce54de",
+      "cluster_id": "c_5379ed19d2f844a0",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_5379ed19d2f844a0.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_5379ed19d2f844a0.speak.txt",
+      "sources": [
+        {
+          "publisher": "Defense News",
+          "source": "Defense News",
+          "title": "US Navy awards RTX\u2019s Raytheon $24.4B for SM-6 missiles amid stockpile concerns",
+          "url": "https://www.defensenews.com/industry/techwatch/2026/10/01/us-navy-awards-rtxs-raytheon-244b-for-sm-6-missiles-amid-stockpile-concerns/",
+          "published_at": "2026-10-01T22:05:46Z"
+        }
+      ]
+    },
+    {
+      "id": "1b053678c322e94c",
+      "cluster_id": "c_0785cf9b62f2f6e8",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_0785cf9b62f2f6e8.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_0785cf9b62f2f6e8.speak.txt",
+      "sources": [
+        {
+          "publisher": "Defense News",
+          "source": "Defense News",
+          "title": "Ukraine deploys FP-7 tactical ballistic missile in combat for first time, Zelenskyy says",
+          "url": "https://www.defensenews.com/industry/techwatch/2026/10/01/ukraine-deploys-fp-7-tactical-ballistic-missile-in-combat-for-first-time-zelenskyy-says/",
+          "published_at": "2026-10-01T19:54:35Z"
+        }
+      ]
+    },
+    {
+      "id": "765d2a0f690cc6a6",
+      "cluster_id": "c_4fbd562a7043bbe7",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_4fbd562a7043bbe7.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_4fbd562a7043bbe7.speak.txt",
+      "sources": [
+        {
+          "publisher": "Defense News",
+          "source": "Defense News",
+          "title": "Boeing adds to big week with first full-rate Grey Wolf helicopter order",
+          "url": "https://www.defensenews.com/industry/techwatch/2026/10/01/boeing-adds-to-big-week-with-first-full-rate-grey-wolf-helicopter-order/",
+          "published_at": "2026-10-01T17:49:35Z"
+        }
+      ]
+    },
+    {
+      "id": "f2358e10ef771853",
+      "cluster_id": "c_f40f2c4447d329bd",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_f40f2c4447d329bd.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_f40f2c4447d329bd.speak.txt",
+      "sources": [
+        {
+          "publisher": "Defense News",
+          "source": "Defense News",
+          "title": "Dutch say ASW frigate talks ongoing amid reports Belgium may quit project",
+          "url": "https://www.defensenews.com/global/europe/2026/10/01/dutch-say-asw-frigate-talks-ongoing-amid-reports-belgium-may-quit-project/",
+          "published_at": "2026-10-01T15:01:55Z"
+        }
+      ]
+    },
+    {
+      "id": "ab40efd86399749f",
+      "cluster_id": "c_44c70e284b11d90a",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_44c70e284b11d90a.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_44c70e284b11d90a.speak.txt",
+      "sources": [
+        {
+          "publisher": "Defense News",
+          "source": "Defense News",
+          "title": "Taiwan takes a page from Ukraine\u2019s playbook in steeling society for an invasion",
+          "url": "https://www.defensenews.com/global/asia-pacific/2026/10/01/taiwan-takes-a-page-from-ukraines-playbook-in-steeling-society-for-an-invasion/",
+          "published_at": "2026-10-01T14:13:06Z"
+        }
+      ]
+    },
+    {
+      "id": "cf7e559fff60b3ae",
+      "cluster_id": "c_fc8a3c036040c948",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_fc8a3c036040c948.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_fc8a3c036040c948.speak.txt",
+      "sources": [
+        {
+          "publisher": "Defense News",
+          "source": "Defense News",
+          "title": "Neros, Perennial Autonomy lead in Pentagon\u2019s drone competition",
+          "url": "https://www.defensenews.com/unmanned/2026/10/01/neros-perennial-autonomy-lead-in-pentagons-drone-competition/",
+          "published_at": "2026-10-01T14:02:08Z"
+        }
+      ]
+    },
+    {
+      "id": "de1f57dae4398aa2",
+      "cluster_id": "c_6a8afa6b51f8606d",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_6a8afa6b51f8606d.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_6a8afa6b51f8606d.speak.txt",
+      "sources": [
+        {
+          "publisher": "Defense News",
+          "source": "Defense News",
+          "title": "Space Force picks two companies to build new \u2018space-to-space\u2019 satellites by 2028",
+          "url": "https://www.defensenews.com/space/2026/10/01/space-force-picks-two-companies-to-build-new-space-to-space-satellites-by-2028/",
+          "published_at": "2026-10-01T12:49:43Z"
+        }
+      ]
+    },
+    {
+      "id": "dc03076136b0ef01",
+      "cluster_id": "c_0e99b347009e0cb2",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_0e99b347009e0cb2.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_0e99b347009e0cb2.speak.txt",
+      "sources": [
+        {
+          "publisher": "Defense News",
+          "source": "Defense News",
+          "title": "Ukraine has struck Russian factory vital for Moscow\u2019s missiles, private intelligence firm says",
+          "url": "https://www.defensenews.com/global/europe/2026/10/01/ukraine-has-struck-russian-factory-vital-for-moscows-missiles-private-intelligence-firm-says/",
+          "published_at": "2026-10-01T12:13:02Z"
+        }
+      ]
+    },
+    {
+      "id": "58b2ec98f3259afe",
+      "cluster_id": "c_9e0caab0bf220f93",
+      "program": "AVIATION_BRIEF",
+      "report": "aviation_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_9e0caab0bf220f93.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_9e0caab0bf220f93.speak.txt",
+      "sources": [
+        {
+          "publisher": "Defense News",
+          "source": "Defense News",
+          "title": "US Air Force awards $2.38B contract to Boeing for 22 F-15EX",
+          "url": "https://www.defensenews.com/industry/techwatch/2026/09/30/us-air-force-awards-238b-contract-to-boeing-for-22-f-15ex/",
+          "published_at": "2026-09-30T19:21:14Z"
+        }
+      ]
+    },
+    {
+      "id": "f69c70c6c98b51f3",
+      "cluster_id": "c_0dc25cc2a8ede11f",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_0dc25cc2a8ede11f.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_0dc25cc2a8ede11f.speak.txt",
+      "sources": [
+        {
+          "publisher": "Defense News",
+          "source": "Defense News",
+          "title": "White House nominates next general to helm US Space Command",
+          "url": "https://www.defensenews.com/news/pentagon-congress/2026/09/30/white-house-nominates-next-general-to-helm-us-space-command/",
+          "published_at": "2026-09-30T18:49:06Z"
+        }
+      ]
+    },
+    {
+      "id": "299b38cac5379908",
+      "cluster_id": "c_4f977d9bc1938ede",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_4f977d9bc1938ede.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_4f977d9bc1938ede.speak.txt",
+      "sources": [
+        {
+          "publisher": "Defense News",
+          "source": "Defense News",
+          "title": "Operation Atlantic City ushers Marines on rare trip to ... remote Arctic island",
+          "url": "https://www.defensenews.com/news/your-military/2026/09/30/operation-atlantic-city-ushers-marines-on-rare-trip-to-remote-arctic-island/",
+          "published_at": "2026-09-30T16:52:06Z"
+        }
+      ]
+    },
+    {
+      "id": "4942e82f5cc22f94",
+      "cluster_id": "c_9c004b20c9c335b5",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_9c004b20c9c335b5.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_9c004b20c9c335b5.speak.txt",
+      "sources": [
+        {
+          "publisher": "Defense News",
+          "source": "Defense News",
+          "title": "US Army selects five companies for PrSM development",
+          "url": "https://www.defensenews.com/industry/techwatch/2026/09/30/us-army-selects-five-companies-for-prsm-development/",
+          "published_at": "2026-09-30T16:29:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2065a9a0564b8da1",
+      "cluster_id": "c_91f622a6e656fd7c",
+      "program": "AVIATION_BRIEF",
+      "report": "aviation_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_91f622a6e656fd7c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_91f622a6e656fd7c.speak.txt",
+      "sources": [
+        {
+          "publisher": "Defense News",
+          "source": "Defense News",
+          "title": "Aircraft carrier USS Harry S. Truman to undergo $5.1B mid-life overhaul",
+          "url": "https://www.defensenews.com/industry/techwatch/2026/09/30/aircraft-carrier-uss-harry-s-truman-to-undergo-51b-mid-life-overhaul/",
+          "published_at": "2026-09-30T16:03:55Z"
+        }
+      ]
+    },
+    {
+      "id": "7649d86050026520",
+      "cluster_id": "c_c8147161fb771fd7",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_c8147161fb771fd7.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_c8147161fb771fd7.speak.txt",
+      "sources": [
+        {
+          "publisher": "Defense News",
+          "source": "Defense News",
+          "title": "UAE turns to Russian shadow airline for missions in Africa: Investigation",
+          "url": "https://www.defensenews.com/global/mideast-africa/2026/09/30/uae-turns-to-russian-shadow-airline-for-missions-in-africa-investigation/",
+          "published_at": "2026-09-30T12:06:52Z"
+        }
+      ]
+    },
+    {
+      "id": "4f77244cf0276326",
+      "cluster_id": "c_67d379e5b9dc957d",
+      "program": "AVIATION_BRIEF",
+      "report": "aviation_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_67d379e5b9dc957d.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_67d379e5b9dc957d.speak.txt",
+      "sources": [
+        {
+          "publisher": "UK Ministry of Defence",
+          "source": "UK Ministry of Defence",
+          "title": "30% boost to UK military transport aircraft availability under new deal",
+          "url": "https://www.gov.uk/government/news/30-boost-to-uk-military-transport-aircraft-availability-under-new-deal",
+          "published_at": "2026-10-01T12:01:17Z"
+        }
+      ]
+    },
+    {
+      "id": "b4c3ceb8f398d604",
+      "cluster_id": "c_b1c3a3d913c0307d",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_b1c3a3d913c0307d.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_b1c3a3d913c0307d.speak.txt",
+      "sources": [
+        {
+          "publisher": "UK Ministry of Defence",
+          "source": "UK Ministry of Defence",
+          "title": "Guidance: JSP 752 - Tri-Service regulations for expenses and allowances",
+          "url": "https://www.gov.uk/government/publications/jsp-752-tri-service-regulations-for-expenses-and-allowances",
+          "published_at": "2026-10-01T11:40:24Z"
+        }
+      ]
+    },
+    {
+      "id": "001dcc57d2ffe8d0",
+      "cluster_id": "c_88a58a833a1a515a",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_88a58a833a1a515a.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_88a58a833a1a515a.speak.txt",
+      "sources": [
+        {
+          "publisher": "UK Ministry of Defence",
+          "source": "UK Ministry of Defence",
+          "title": "Guidance: Contact with the media and communicating in public",
+          "url": "https://www.gov.uk/government/publications/contact-with-the-media-and-communicating-in-public",
+          "published_at": "2026-10-01T11:33:01Z"
+        }
+      ]
+    },
+    {
+      "id": "a197749992f05a64",
+      "cluster_id": "c_ed11adfb894d0bd9",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_ed11adfb894d0bd9.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_ed11adfb894d0bd9.speak.txt",
+      "sources": [
+        {
+          "publisher": "UK Ministry of Defence",
+          "source": "UK Ministry of Defence",
+          "title": "Guidance: Military low flying: RAF operational low flying training timetable",
+          "url": "https://www.gov.uk/government/publications/military-low-flying-raf-operational-low-flying-training-timetable",
+          "published_at": "2026-10-01T11:11:25Z"
+        }
+      ]
+    },
+    {
+      "id": "2f9c748b1e51e872",
+      "cluster_id": "c_9d4ef2ff5b13ce0a",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_9d4ef2ff5b13ce0a.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_9d4ef2ff5b13ce0a.speak.txt",
+      "sources": [
+        {
+          "publisher": "UK Ministry of Defence",
+          "source": "UK Ministry of Defence",
+          "title": "Guidance: Military low flying: MOD sponsored air exercises",
+          "url": "https://www.gov.uk/government/publications/military-low-flying-mod-sponsored-air-exercises",
+          "published_at": "2026-10-01T11:09:05Z"
+        }
+      ]
+    },
+    {
+      "id": "176be993bf98d786",
+      "cluster_id": "c_5c6b9a4336fe5858",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_5c6b9a4336fe5858.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_5c6b9a4336fe5858.speak.txt",
+      "sources": [
+        {
+          "publisher": "UK Ministry of Defence",
+          "source": "UK Ministry of Defence",
+          "title": "Corporate report: Service Inquiry into the death of a service person in an air accident near RAF Coningsby on 25 May 2024",
+          "url": "https://www.gov.uk/government/publications/service-inquiry-into-the-death-of-a-service-person-in-an-air-accident-near-raf-coningsby-on-25-may-2024",
+          "published_at": "2026-10-01T11:00:07Z"
+        }
+      ]
+    },
+    {
+      "id": "26b0fd746dbe42be",
+      "cluster_id": "c_26c56cd4600d293c",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_26c56cd4600d293c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_26c56cd4600d293c.speak.txt",
+      "sources": [
+        {
+          "publisher": "UK Ministry of Defence",
+          "source": "UK Ministry of Defence",
+          "title": "Accredited official statistics: MOD trade, industry and contracts: 2026",
+          "url": "https://www.gov.uk/government/statistics/mod-trade-industry-and-contracts-2026",
+          "published_at": "2026-10-01T08:30:09Z"
+        }
+      ]
+    },
+    {
+      "id": "f939bc435ca9b9e7",
+      "cluster_id": "c_b4291616d25b926c",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_b4291616d25b926c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_b4291616d25b926c.speak.txt",
+      "sources": [
+        {
+          "publisher": "UK Ministry of Defence",
+          "source": "UK Ministry of Defence",
+          "title": "Guidance: Lulworth firing times",
+          "url": "https://www.gov.uk/government/publications/lulworth-firing-notice",
+          "published_at": "2026-09-30T15:14:53Z"
+        }
+      ]
+    },
+    {
+      "id": "d750929d2404be46",
+      "cluster_id": "c_331eeb7b2ede9cc3",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_331eeb7b2ede9cc3.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_331eeb7b2ede9cc3.speak.txt",
+      "sources": [
+        {
+          "publisher": "UK Ministry of Defence",
+          "source": "UK Ministry of Defence",
+          "title": "Guidance: Dartmoor firing times",
+          "url": "https://www.gov.uk/government/publications/dartmoor-firing-times",
+          "published_at": "2026-09-30T15:01:14Z"
+        }
+      ]
+    },
+    {
+      "id": "71ece1753ab7dc9a",
+      "cluster_id": "c_afe124158191a7e7",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_afe124158191a7e7.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_afe124158191a7e7.speak.txt",
+      "sources": [
+        {
+          "publisher": "UK Ministry of Defence",
+          "source": "UK Ministry of Defence",
+          "title": "Guidance: The White Book for foreign service advisors and defence attach\u00e9s",
+          "url": "https://www.gov.uk/government/publications/the-white-book-for-foreign-service-advisers-and-defence-attaches",
+          "published_at": "2026-09-30T13:29:13Z"
+        }
+      ]
+    },
+    {
+      "id": "3bd449a91fbdbfe8",
+      "cluster_id": "c_50e6c279379d1f07",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_50e6c279379d1f07.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_50e6c279379d1f07.speak.txt",
+      "sources": [
+        {
+          "publisher": "UK Ministry of Defence",
+          "source": "UK Ministry of Defence",
+          "title": "Guidance: Armed forces compensation scheme statement of policy (JSP 765)",
+          "url": "https://www.gov.uk/government/publications/joint-service-publication-jsp-765-the-armed-forces-compensation-scheme",
+          "published_at": "2026-09-30T11:33:27Z"
+        }
+      ]
+    },
+    {
+      "id": "ee676f8ef5b946c3",
+      "cluster_id": "c_7355d472b4018529",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_7355d472b4018529.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_7355d472b4018529.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "RELEASE: FOURTH QUARTER HAWAI\u02bbI ANNUAL BUSINESS REPORTS DUE",
+          "url": "https://governor.hawaii.gov/newsroom/release-fourth-quarter-hawai%ca%bbi-annual-business-reports-due/",
+          "published_at": "2026-10-01T22:42:13Z"
+        }
+      ]
+    },
+    {
+      "id": "8de8e521ae4b6cc0",
+      "cluster_id": "c_9251892a48fc8e27",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_9251892a48fc8e27.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_9251892a48fc8e27.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "NEWS RELEASE: NEW BIOSECURITY ACADEMY TO TRAIN FRONTLINE INSPECTORS IN FIGHT AGAINST INVASIVE SPECIES",
+          "url": "https://governor.hawaii.gov/newsroom/news-release-new-biosecurity-academy-to-train-frontline-inspectors-in-fight-against-invasive-species/",
+          "published_at": "2026-10-01T22:40:41Z"
+        }
+      ]
+    },
+    {
+      "id": "867ad61eaa0e5a9d",
+      "cluster_id": "c_2a0b65570e440426",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_2a0b65570e440426.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_2a0b65570e440426.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "RELEASE: PVL LAUNCHES EMAIL STATUS UPDATES FOR LICENSE APPLICANTS",
+          "url": "https://governor.hawaii.gov/newsroom/release-pvl-launches-email-status-updates-for-license-applicants/",
+          "published_at": "2026-10-01T21:40:43Z"
+        }
+      ]
+    },
+    {
+      "id": "b63765b7457f5140",
+      "cluster_id": "c_03890ffc827fb0b7",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_03890ffc827fb0b7.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_03890ffc827fb0b7.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "Hawai\u02bbi to Receive up to $76 Million in Landmark Meta Settlement to Strengthen Online Protections for Children",
+          "url": "https://governor.hawaii.gov/main/hawai%ca%bbi-to-receive-up-to-76-million-in-landmark-meta-settlement-to-strengthen-online-protections-for-children/",
+          "published_at": "2026-10-01T21:28:40Z"
+        }
+      ]
+    },
+    {
+      "id": "ccf9781f8c6c0864",
+      "cluster_id": "c_87674d886e9c59c7",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_87674d886e9c59c7.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_87674d886e9c59c7.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "Quick Thinking and Compassion: HYCF Employee Recognized for Life-Saving Actions",
+          "url": "https://governor.hawaii.gov/main/quick-thinking-and-compassion-hycf-employee-recognized-for-life-saving-actions/",
+          "published_at": "2026-10-01T21:26:26Z"
+        }
+      ]
+    },
+    {
+      "id": "00a3237424436593",
+      "cluster_id": "c_5c5c21074616cdc6",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_5c5c21074616cdc6.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_5c5c21074616cdc6.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "Technology Used in the Fight Against Invasive Species Across the State",
+          "url": "https://governor.hawaii.gov/main/technology-used-in-the-fight-against-invasive-species-across-the-state/",
+          "published_at": "2026-10-01T21:21:30Z"
+        }
+      ]
+    },
+    {
+      "id": "27899f5d35537dcd",
+      "cluster_id": "c_867344508a0bb91c",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_867344508a0bb91c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_867344508a0bb91c.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "Celebrating Excellence in Public Service: 49th Annual Governor\u2019s Awards",
+          "url": "https://governor.hawaii.gov/main/celebrating-excellence-in-public-service-49th-annual-governors-awards/",
+          "published_at": "2026-10-01T21:19:50Z"
+        }
+      ]
+    },
+    {
+      "id": "b95221ddf47b78b5",
+      "cluster_id": "c_18df836cc9fbe3fc",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_18df836cc9fbe3fc.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_18df836cc9fbe3fc.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "Navigating a New School Year: Preparing Hawai\u02bbi\u2019s Youngest Learners to Thrive",
+          "url": "https://governor.hawaii.gov/main/navigating-a-new-school-year-preparing-hawai%ca%bbis-youngest-learners-to-thrive/",
+          "published_at": "2026-10-01T21:18:22Z"
+        }
+      ]
+    },
+    {
+      "id": "9fb2c64d8cb8a745",
+      "cluster_id": "c_02310f47429c8449",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_02310f47429c8449.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_02310f47429c8449.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "HDOT Launches Hybrid Reef Project to Protect Hawai\u2018i\u2019s Coastal Highways",
+          "url": "https://governor.hawaii.gov/main/hdot-launches-hybrid-reef-project-to-protect-hawaiis-coastal-highways/",
+          "published_at": "2026-10-01T21:16:32Z"
+        }
+      ]
+    },
+    {
+      "id": "2182e18758b97a43",
+      "cluster_id": "c_e240b05355e91cc8",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_e240b05355e91cc8.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_e240b05355e91cc8.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "Attorney General Secures More Than 1 Million Eggs For Hawai\u02bbi Communities Through Price-Fixing Settlement",
+          "url": "https://governor.hawaii.gov/main/attorney-general-secures-more-than-1-million-eggs-for-hawai%ca%bbi-communities-through-price-fixing-settlement/",
+          "published_at": "2026-10-01T21:14:40Z"
+        }
+      ]
+    },
+    {
+      "id": "d57cd0bf6f50f964",
+      "cluster_id": "c_821151ac961da069",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_821151ac961da069.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_821151ac961da069.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii DBEDT",
+          "source": "Hawaii DBEDT",
+          "title": "DBEDT E-newsletter \u2013 September 2026",
+          "url": "https://mailchi.mp/hawaii.gov/dbedt-sept-2026-newsletter?e=bec0e4b899#new_tab",
+          "published_at": "2026-10-01T00:20:52Z"
+        }
+      ]
+    },
+    {
+      "id": "2f685a0db3fe13cf",
+      "cluster_id": "c_2266a0130c81610b",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_2266a0130c81610b.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_2266a0130c81610b.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii DBEDT",
+          "source": "Hawaii DBEDT",
+          "title": "DBEDT Releases 2025 State of Hawaii Data Book",
+          "url": "https://dbedt.hawaii.gov/blog/26-63/",
+          "published_at": "2026-09-30T19:58:12Z"
+        }
+      ]
+    },
+    {
+      "id": "44c2dd91a581d4a2",
+      "cluster_id": "c_e795a17cfb938553",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_e795a17cfb938553.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_e795a17cfb938553.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii DBEDT",
+          "source": "Hawaii DBEDT",
+          "title": "August 2026 Visitor Spending and Arrivals Declined",
+          "url": "https://dbedt.hawaii.gov/blog/26-62/",
+          "published_at": "2026-09-30T18:58:25Z"
+        }
+      ]
+    },
+    {
+      "id": "5df2b60cb372bea5",
+      "cluster_id": "c_10d64397e0334e4f",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_10d64397e0334e4f.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_10d64397e0334e4f.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii Department of Health",
+          "source": "Hawaii Department of Health",
+          "title": "DOH LIFTS SMOKE ADVISORY RELATED TO FIRE AT ABC TOWING & PARTS IN PEARL CITY",
+          "url": "https://health.hawaii.gov/news/submenu/doh-lifts-smoke-advisory-related-to-fire-at-abc-towing-parts-in-pearl-city/",
+          "published_at": "2026-10-01T23:05:59Z"
+        }
+      ]
+    },
+    {
+      "id": "8a60b5c74051263e",
+      "cluster_id": "c_d5598463287e6250",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_d5598463287e6250.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_d5598463287e6250.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii Department of Health",
+          "source": "Hawaii Department of Health",
+          "title": "HAWAI\u02bbI TOBACCO QUITLINE OFFERS FREE MOBILE APP TO HELP RESIDENTS QUIT TOBACCO",
+          "url": "https://health.hawaii.gov/news/newsroom/hawai%ca%bbi-tobacco-quitline-offers-free-mobile-app-to-help-residents-quit-tobacco/",
+          "published_at": "2026-10-01T19:32:25Z"
+        }
+      ]
+    },
+    {
+      "id": "6dd443c4f03d7807",
+      "cluster_id": "c_f05729a6325d61d1",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_f05729a6325d61d1.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_f05729a6325d61d1.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii Department of Health",
+          "source": "Hawaii Department of Health",
+          "title": "DOH, FAMILY HUI HAWAI\u02bbI TO HOST FAMILY WELLNESS DAY AT STATE CAPITOL",
+          "url": "https://health.hawaii.gov/news/newsroom/doh-family-hui-hawai%ca%bbi-to-host-family-wellness-day-at-state-capitol/",
+          "published_at": "2026-10-01T18:35:44Z"
+        }
+      ]
+    },
+    {
+      "id": "0fc855f75316a403",
+      "cluster_id": "c_9019471db165fd59",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_9019471db165fd59.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_9019471db165fd59.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii Department of Health",
+          "source": "Hawaii Department of Health",
+          "title": "DOH ISSUES SMOKE ADVISORY RELATED TO FIRE AT ABC TOWING & PARTS IN PEARL CITY",
+          "url": "https://health.hawaii.gov/news/newsroom/doh-issues-smoke-advisory-related-to-fire-at-abc-towing-parts-in-pearl-city/",
+          "published_at": "2026-10-01T03:50:26Z"
+        }
+      ]
+    },
+    {
+      "id": "b4dba3852c890767",
+      "cluster_id": "c_9d9e0882cc619de0",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_9d9e0882cc619de0.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_9d9e0882cc619de0.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii Department of Health",
+          "source": "Hawaii Department of Health",
+          "title": "KALAUPAPA DRINKING WATER SYSTEM REPAIRS COMPLETED; POWER OUTAGE DELAYS RETURN OF PATIENTS AND STAFF",
+          "url": "https://health.hawaii.gov/news/newsroom/kalaupapa-drinking-water-system-repairs-completed-power-outage-delays-return-of-patients-and-staff/",
+          "published_at": "2026-10-01T02:30:33Z"
+        }
+      ]
+    },
+    {
+      "id": "e671cd77a1711503",
+      "cluster_id": "c_0be356271c5f80f0",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_0be356271c5f80f0.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_0be356271c5f80f0.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Civil Beat",
+          "source": "Honolulu Civil Beat",
+          "title": "OHA Maui Candidates Want More Funds, Educational Opportunities For Native Hawaiians",
+          "url": "https://www.civilbeat.org/2026/10/oha-maui-candidates-want-more-funds-educational-opportunities-for-native-hawaiians/",
+          "published_at": "2026-10-01T10:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": "08bf9677b234f7a2",
+      "cluster_id": "c_9d35015c5402d87c",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_9d35015c5402d87c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_9d35015c5402d87c.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Civil Beat",
+          "source": "Honolulu Civil Beat",
+          "title": "\u2018Devastated\u2019 Kaua\u02bbi Harbor May Take 5 Years To Fix, State Says",
+          "url": "https://www.civilbeat.org/2026/10/devastated-kauai-harbor-may-take-5-years-to-fix-state-says/",
+          "published_at": "2026-10-01T10:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": "db4781ff46411ceb",
+      "cluster_id": "c_b1c31330b9611cce",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_b1c31330b9611cce.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_b1c31330b9611cce.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Civil Beat",
+          "source": "Honolulu Civil Beat",
+          "title": "Kalaupapa Evacuated With No Return Date After Crucial Infrastructure Fails",
+          "url": "https://www.civilbeat.org/2026/10/kalaupapa-evacuated-with-no-return-date-after-crucial-infrastructure-fails/",
+          "published_at": "2026-10-01T10:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": "33e89306be6781ce",
+      "cluster_id": "c_129d5829daca2e73",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_129d5829daca2e73.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_129d5829daca2e73.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Civil Beat",
+          "source": "Honolulu Civil Beat",
+          "title": "Hawai\u02bbi\u2019s Preschool Expansion Is Bigger Than a Seat Count",
+          "url": "https://www.civilbeat.org/2026/10/hawaiis-preschool-expansion-is-bigger-than-a-seat-count/",
+          "published_at": "2026-10-01T10:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": "df61e3b1ea32f46d",
+      "cluster_id": "c_8f323a0a19221ab0",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_8f323a0a19221ab0.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_8f323a0a19221ab0.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Civil Beat",
+          "source": "Honolulu Civil Beat",
+          "title": "Ua P\u0101lua Ka Waiwai O Ko Ke Ke\u02bbena Kuleana Hawai\u02bbi Waiwai K\u0101l\u0101 Noho Kahu Hawai\u02bbi",
+          "url": "https://www.civilbeat.org/2026/10/ua-palua-ka-waiwai-o-ko-ke-ke%ca%bbena-kuleana-hawai%ca%bbi-waiwai-kala-noho-kahu-hawai%ca%bbi/",
+          "published_at": "2026-10-01T10:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": "03ce77c3cf5b5ccf",
+      "cluster_id": "c_7d19c56d297c71ba",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_7d19c56d297c71ba.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_7d19c56d297c71ba.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Civil Beat",
+          "source": "Honolulu Civil Beat",
+          "title": "HPD May Have Shared Your License Plate Data With The IRS",
+          "url": "https://www.civilbeat.org/2026/10/hpd-may-have-shared-your-license-plate-data-with-the-irs/",
+          "published_at": "2026-10-01T10:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": "222202c00c42b046",
+      "cluster_id": "c_a1d6c11f3f0b6791",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_a1d6c11f3f0b6791.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_a1d6c11f3f0b6791.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Civil Beat",
+          "source": "Honolulu Civil Beat",
+          "title": "Word Row: Oct. 1",
+          "url": "https://www.civilbeat.org/2026/10/word-row-oct-1/",
+          "published_at": "2026-10-01T10:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": "9839dd1352de730f",
+      "cluster_id": "c_d3ba88d89088f9a9",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_d3ba88d89088f9a9.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_d3ba88d89088f9a9.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Civil Beat",
+          "source": "Honolulu Civil Beat",
+          "title": "Olin Lagon: The Legacy Of Kalo May Teach You About Your Tomorrow",
+          "url": "https://www.civilbeat.org/2026/10/kalo-plant-legacy-lei-tomorrow/",
+          "published_at": "2026-10-01T10:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": "5acda450572bc631",
+      "cluster_id": "c_028e9218381027e3",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_028e9218381027e3.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_028e9218381027e3.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Massachusetts man indicted for alleged cyberstalking Stephen Miller\u2019s wife",
+          "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/massachusetts-man-indicted-for-alleged-cyberstalking-stephen-millers-wife/",
+          "published_at": "2026-10-01T22:36:00Z"
+        }
+      ]
+    },
+    {
+      "id": "eb29e1ef7174a965",
+      "cluster_id": "c_a41f5c32a3a5798c",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_a41f5c32a3a5798c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_a41f5c32a3a5798c.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Wall Street dips as rising Treasury yields outweigh software gains",
+          "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/wall-street-dips-as-rising-treasury-yields-outweigh-software-gains/",
+          "published_at": "2026-10-01T22:08:00Z"
+        }
+      ]
+    },
+    {
+      "id": "e3c0bf9a0e69f9c3",
+      "cluster_id": "c_6d3a924023433a5f",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_6d3a924023433a5f.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_6d3a924023433a5f.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "McCormick\u2019s price hikes spice up quarterly results despite sluggish demand",
+          "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/mccormicks-price-hikes-spice-up-quarterly-results-despite-sluggish-demand/",
+          "published_at": "2026-10-01T22:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": "fda1cddb85fa41d8",
+      "cluster_id": "c_7f36bb379dc3858c",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_7f36bb379dc3858c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_7f36bb379dc3858c.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Paramount names Mattel boss Kreiz as co-CEO",
+          "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/paramount-names-mattel-boss-kreiz-as-co-ceo/",
+          "published_at": "2026-10-01T21:47:00Z"
+        }
+      ]
+    },
+    {
+      "id": "3928e6d9a2f5b7c5",
+      "cluster_id": "c_16922842495db788",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_16922842495db788.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_16922842495db788.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "FDA advisers recommend flu vaccine strains",
+          "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/fda-advisers-recommend-flu-vaccine-strains-for-2027-southern-hemisphere-season/",
+          "published_at": "2026-10-01T20:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "30acf5519945fed4",
+      "cluster_id": "c_cadd7f954b95bc36",
+      "program": "AVIATION_BRIEF",
+      "report": "aviation_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_cadd7f954b95bc36.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_cadd7f954b95bc36.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Boeing workers approve latest contract offer, averting strike fears",
+          "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/boeing-workers-approve-latest-contract-offer-averting-strike-fears/",
+          "published_at": "2026-10-01T19:48:00Z"
+        }
+      ]
+    },
+    {
+      "id": "18515978b9f2eb18",
+      "cluster_id": "c_fedff68a564463b4",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_fedff68a564463b4.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_fedff68a564463b4.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Trump\u2019s threat to ban diesel exports sets off global alarms",
+          "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/trumps-threat-to-ban-diesel-exports-sets-off-global-alarms/",
+          "published_at": "2026-10-01T18:51:00Z"
+        }
+      ]
+    },
+    {
+      "id": "cf77bf65b1412b90",
+      "cluster_id": "c_c9d6d5e8638814f4",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_c9d6d5e8638814f4.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_c9d6d5e8638814f4.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Mortgage rates keep climbing, leading some buyers to riskier loans",
+          "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/mortgage-rates-keep-climbing-leading-some-buyers-to-riskier-loans/",
+          "published_at": "2026-10-01T18:23:00Z"
+        }
+      ]
+    },
+    {
+      "id": "1b2bb4edf49af5c4",
+      "cluster_id": "c_f5074e530bba5c17",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_f5074e530bba5c17.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_f5074e530bba5c17.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Tropical Storm Nolo expected to strengthen as it moves away from Hawaii",
+          "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/tropical-storm-nolo-continues-moving-away-from-hawaii/",
+          "published_at": "2026-10-01T17:42:00Z"
+        }
+      ]
+    },
+    {
+      "id": "12dcacdde0070d1e",
+      "cluster_id": "c_ffcd9c156044449f",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_ffcd9c156044449f.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_ffcd9c156044449f.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Tennessee inmate gets \u2018life-saving medical care\u2019 after surviving botched execution",
+          "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/tennessee-governor-pauses-executions-after-tragedy-of-failed-attempt/",
+          "published_at": "2026-10-01T17:11:00Z"
+        }
+      ]
+    },
+    {
+      "id": "f497839083b6989b",
+      "cluster_id": "c_4f313bd1216a8bd6",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_4f313bd1216a8bd6.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_4f313bd1216a8bd6.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Former Hawaii QB Luke Weaver leads San Jose State\u2019s offense",
+          "url": "https://www.staradvertiser.com/2026/10/01/sports/all-former-uh-and-current-san-jose-state-qb-luke-weaver-wanted-was-a-chance-to-start/",
+          "published_at": "2026-10-01T10:06:00Z"
+        }
+      ]
+    },
+    {
+      "id": "1cbc77c4a2b73974",
+      "cluster_id": "c_677f4fceceeb6e1c",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_677f4fceceeb6e1c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_677f4fceceeb6e1c.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Former Hawaii congresswoman Pat Saiki remembered as political trailblazer",
+          "url": "https://www.staradvertiser.com/2026/10/01/hawaii-news/former-hawaii-congresswoman-pat-saiki-remembered-as-political-trailblazer/",
+          "published_at": "2026-10-01T10:06:00Z"
+        }
+      ]
+    },
+    {
+      "id": "d225e65cc23193f1",
+      "cluster_id": "c_fc8d499efac2aa7d",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_fc8d499efac2aa7d.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_fc8d499efac2aa7d.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Television and radio \u2013 October 1, 2026",
+          "url": "https://www.staradvertiser.com/2026/10/01/sports/television-and-radio-october-1-2026/",
+          "published_at": "2026-10-01T10:05:09Z"
+        }
+      ]
+    },
+    {
+      "id": "1d7b5c3f37640059",
+      "cluster_id": "c_db87cf4391c69bdf",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_db87cf4391c69bdf.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_db87cf4391c69bdf.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Scoreboard \u2013 October 1, 2026",
+          "url": "https://www.staradvertiser.com/2026/10/01/sports/scoreboard-october-1-2026/",
+          "published_at": "2026-10-01T10:05:07Z"
+        }
+      ]
+    },
+    {
+      "id": "0f1c814fcd748a86",
+      "cluster_id": "c_0e21ef5f03b9fc83",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_0e21ef5f03b9fc83.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_0e21ef5f03b9fc83.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Curry praises the late Don Nelson, his first coach with the Warriors",
+          "url": "https://www.staradvertiser.com/2026/10/01/sports/curry-praises-the-late-don-nelson-his-first-coach-with-the-warriors/",
+          "published_at": "2026-10-01T10:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "acb20da4ebb5efce",
+      "cluster_id": "c_6e81e89359ad67f6",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_6e81e89359ad67f6.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_6e81e89359ad67f6.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Coach Lue looking for Clippers to be consistently tough-minded",
+          "url": "https://www.staradvertiser.com/2026/10/01/sports/coach-lue-looking-for-clippers-to-be-consistently-tough-minded/",
+          "published_at": "2026-10-01T10:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "52f9f4a9d7f362c4",
+      "cluster_id": "c_9ad8940fb2fa11d3",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_9ad8940fb2fa11d3.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_9ad8940fb2fa11d3.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Prep football preview: OIA playoff puzzle taking shape in D-I",
+          "url": "https://www.staradvertiser.com/2026/10/01/sports/hawaii-prep-world/prep-football-preview-oia-playoff-puzzle-taking-shape-in-d-i/",
+          "published_at": "2026-10-01T10:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "30be4b332640bde2",
+      "cluster_id": "c_0a6aa3213d554fbe",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_0a6aa3213d554fbe.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_0a6aa3213d554fbe.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "HPU women\u2019s volleyball falls to Jessup",
+          "url": "https://www.staradvertiser.com/2026/10/01/sports/hawaii-beat/hpu-womens-volleyball-falls-to-jessup/",
+          "published_at": "2026-10-01T10:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "23cea438368304e0",
+      "cluster_id": "c_219c39946ce6ac92",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_219c39946ce6ac92.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_219c39946ce6ac92.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "No. 4 Kahuku sweeps Roosevelt, earns bye in OIA playoffs",
+          "url": "https://www.staradvertiser.com/2026/10/01/sports/hawaii-prep-world/no-4-kahuku-sweeps-roosevelt-earns-bye-in-oia-playoffs/",
+          "published_at": "2026-10-01T10:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "93e190ff9a5018d7",
+      "cluster_id": "c_0c5f2c4735565632",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_0c5f2c4735565632.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_0c5f2c4735565632.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "Firefighters contain fire at ABC Junkyard in Waiawa after explosions reported",
+          "url": "https://www.hawaiinewsnow.com/2026/10/01/firefighters-contain-fire-abc-junkyard-waiawa-after-explosions-reported/",
+          "published_at": "2026-10-01T23:11:47Z"
+        }
+      ]
+    },
+    {
+      "id": "130ca6e3c3653ba8",
+      "cluster_id": "c_2fcc07056a814ccc",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_2fcc07056a814ccc.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_2fcc07056a814ccc.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "Senator introduces bill to protect workers during AI boom",
+          "url": "https://www.hawaiinewsnow.com/2026/10/01/senator-introduces-bill-protect-workers-during-ai-boom/",
+          "published_at": "2026-10-01T23:10:10Z"
+        }
+      ]
+    },
+    {
+      "id": "e413d52a80b780d1",
+      "cluster_id": "c_fbb9f14749bb295e",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_fbb9f14749bb295e.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_fbb9f14749bb295e.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "More than a dozen sickened in parasite outbreak linked to hotel pool, health officials say",
+          "url": "https://www.hawaiinewsnow.com/2026/10/01/more-than-dozen-sickened-parasite-outbreak-linked-hotel-pool-health-officials-say/",
+          "published_at": "2026-10-01T23:04:31Z"
+        }
+      ]
+    },
+    {
+      "id": "036839b075d68259",
+      "cluster_id": "c_7627b1d8e8d71120",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_7627b1d8e8d71120.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_7627b1d8e8d71120.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "Supreme Court to review immigrant detention policy",
+          "url": "https://www.hawaiinewsnow.com/2026/10/01/supreme-court-review-immigrant-detention-policy/",
+          "published_at": "2026-10-01T22:52:41Z"
+        }
+      ]
+    },
+    {
+      "id": "dad77bd254c6fb3e",
+      "cluster_id": "c_0d67a142b1bce9f1",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_0d67a142b1bce9f1.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_0d67a142b1bce9f1.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "Three Oahu elementary schools placed on lockdown during search for armed suspect",
+          "url": "https://www.hawaiinewsnow.com/2026/10/01/three-oahu-elementary-schools-placed-lockdown-during-search-armed-suspect/",
+          "published_at": "2026-10-01T22:39:08Z"
+        }
+      ]
+    },
+    {
+      "id": "11624e983cf1cde1",
+      "cluster_id": "c_203b464e6635a140",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_203b464e6635a140.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_203b464e6635a140.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "Amazon Prime members can save 20 cents at the pump for a limited time. Here\u2019s how.",
+          "url": "https://www.hawaiinewsnow.com/2026/10/01/amazon-prime-members-can-save-20-cents-pump-limited-time-heres-how/",
+          "published_at": "2026-10-01T22:18:47Z"
+        }
+      ]
+    },
+    {
+      "id": "83971e30cd0ea71e",
+      "cluster_id": "c_9ecdd828cd71860e",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_9ecdd828cd71860e.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_9ecdd828cd71860e.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "Kuhio Highway near Hanalei Bridge closed due to flooding",
+          "url": "https://www.hawaiinewsnow.com/2026/10/01/kuhio-highway-near-hanalei-bridge-closed-due-flooding/",
+          "published_at": "2026-10-01T21:58:49Z"
+        }
+      ]
+    },
+    {
+      "id": "f030effc13f99c74",
+      "cluster_id": "c_cf11e26ae64b182c",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_cf11e26ae64b182c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_cf11e26ae64b182c.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "Walmart recalls nearly 4.5 million grill wire brushes. Here are the impacted brushes",
+          "url": "https://www.hawaiinewsnow.com/2026/10/01/walmart-recalls-nearly-45-million-grill-wire-brushes-here-are-impacted-brushes/",
+          "published_at": "2026-10-01T21:56:37Z"
+        }
+      ]
+    },
+    {
+      "id": "abd1664630f14730",
+      "cluster_id": "c_e5b6dca70154fb4c",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_e5b6dca70154fb4c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_e5b6dca70154fb4c.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "Millions in Amazon settlement payouts are rolling out. Are you eligible?",
+          "url": "https://www.hawaiinewsnow.com/2026/10/01/millions-amazon-settlement-payouts-are-rolling-out-are-you-eligible/",
+          "published_at": "2026-10-01T21:53:49Z"
+        }
+      ]
+    },
+    {
+      "id": "f90d98c88015b0db",
+      "cluster_id": "c_a8ffb9cbd21c74e4",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_a8ffb9cbd21c74e4.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_a8ffb9cbd21c74e4.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "Witnesses describe Christa Pike \u2018snoring\u2019 and \u2018looking around\u2019 during botched execution attempt",
+          "url": "https://www.hawaiinewsnow.com/2026/10/01/witnesses-describe-christa-pike-snoring-looking-around-during-botched-execution-attempt/",
+          "published_at": "2026-10-01T21:22:01Z"
+        }
+      ]
+    },
+    {
+      "id": "27db23468a5d73da",
+      "cluster_id": "c_9b96b6ad3525fcb4",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_9b96b6ad3525fcb4.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_9b96b6ad3525fcb4.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "50-car pileup blocks major interstate, officials say",
+          "url": "https://www.hawaiinewsnow.com/2026/10/01/50-car-pileup-blocks-major-interstate-officials-say/",
+          "published_at": "2026-10-01T20:37:54Z"
+        }
+      ]
+    },
+    {
+      "id": "c6d68c0a2ba25d72",
+      "cluster_id": "c_1eee4e7b92eb5504",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_1eee4e7b92eb5504.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_1eee4e7b92eb5504.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "Patriots tight end Eli Raridon and wife announce death of newborn son",
+          "url": "https://www.hawaiinewsnow.com/2026/10/01/patriots-tight-end-eli-raridon-wife-announce-death-newborn-son/",
+          "published_at": "2026-10-01T20:33:06Z"
+        }
+      ]
+    },
+    {
+      "id": "6ab87c83a19f312d",
+      "cluster_id": "c_2cd1bc859e90fa97",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_2cd1bc859e90fa97.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_2cd1bc859e90fa97.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "SNAP benefit changes are in effect for millions of recipients. Here\u2019s what you need to know",
+          "url": "https://www.hawaiinewsnow.com/2026/10/01/snap-benefit-changes-are-effect-millions-recipients-heres-what-you-need-know/",
+          "published_at": "2026-10-01T20:04:12Z"
+        }
+      ]
+    },
+    {
+      "id": "1e8171104adaa231",
+      "cluster_id": "c_3d08d0ac6291176e",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_3d08d0ac6291176e.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_3d08d0ac6291176e.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "Your Hawaii Down Payment Could Buy an Entire House in Japan",
+          "url": "https://www.hawaiinewsnow.com/sponsored/akiyahub/your-hawaii-down-payment-could-buy-an-entire-house-japan-2/",
+          "published_at": "2026-10-01T19:30:25Z"
+        }
+      ]
+    },
+    {
+      "id": "14240c314feeeff6",
+      "cluster_id": "c_5a0c44441cc1d538",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_5a0c44441cc1d538.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_5a0c44441cc1d538.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "Court documents detail hours leading up to 2 Ole Miss students\u2019 suspected overdose deaths",
+          "url": "https://www.hawaiinewsnow.com/2026/10/01/court-documents-detail-hours-leading-up-2-ole-miss-students-suspected-overdose-deaths/",
+          "published_at": "2026-10-01T19:02:26Z"
+        }
+      ]
+    },
+    {
+      "id": "5f074943a8077c8b",
+      "cluster_id": "c_f106da8be1b80876",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_f106da8be1b80876.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_f106da8be1b80876.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "Personal bankruptcy filings up nearly 50% since 2022, analysis finds",
+          "url": "https://www.hawaiinewsnow.com/2026/10/01/personal-bankruptcy-filings-up-nearly-50-since-2022-analysis-finds/",
+          "published_at": "2026-10-01T18:43:47Z"
+        }
+      ]
+    },
+    {
+      "id": "97df217ed5fe83cf",
+      "cluster_id": "c_ad7af04196a20b09",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_ad7af04196a20b09.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_ad7af04196a20b09.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "High school teacher fired after offering students extra credit in return for cash donations, reports say",
+          "url": "https://www.hawaiinewsnow.com/2026/10/01/high-school-teacher-fired-after-offering-students-extra-credit-return-cash-donations-reports-say/",
+          "published_at": "2026-10-01T18:26:09Z"
+        }
+      ]
+    },
+    {
+      "id": "a5ccba05e570b6b1",
+      "cluster_id": "c_43cc9feda7d784d6",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_43cc9feda7d784d6.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_43cc9feda7d784d6.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "\u2018Shouldn\u2019t have taken 31 years\u2019: Victim\u2019s niece voices frustration before Christa Pike\u2019s botched execution",
+          "url": "https://www.hawaiinewsnow.com/2026/10/01/shouldnt-have-taken-31-years-victims-niece-voices-frustration-before-christa-pikes-botched-execution/",
+          "published_at": "2026-10-01T17:25:43Z"
+        }
+      ]
+    },
+    {
+      "id": "286cfb6941bec9ba",
+      "cluster_id": "c_99ee801c76b9fc3c",
+      "program": "SPACEX_BRIEF",
+      "report": "spacex_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/spacex_brief/c_99ee801c76b9fc3c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/spacex_brief/c_99ee801c76b9fc3c.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASASpaceflight",
+          "source": "NASASpaceflight",
+          "title": "Falcon Heavy set to launch classified NROL-97 to high-energy orbit",
+          "url": "https://www.nasaspaceflight.com/2026/10/nrol97-launch/",
+          "published_at": "2026-10-01T19:17:40Z"
+        }
+      ]
+    },
+    {
+      "id": "b68746d58e03d04f",
+      "cluster_id": "c_1b647b63e2542102",
+      "program": "SPACEX_BRIEF",
+      "report": "spacex_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/spacex_brief/c_1b647b63e2542102.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/spacex_brief/c_1b647b63e2542102.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASASpaceflight",
+          "source": "NASASpaceflight",
+          "title": "Starfish Otter, other payloads launch on Transporter 18",
+          "url": "https://www.nasaspaceflight.com/2026/10/transporter-18/",
+          "published_at": "2026-10-01T12:55:06Z"
+        }
+      ]
+    },
+    {
+      "id": "994b9ed2baa9f488",
+      "cluster_id": "c_d9022ce64648f8b4",
+      "program": "SPACEX_BRIEF",
+      "report": "spacex_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/spacex_brief/c_d9022ce64648f8b4.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/spacex_brief/c_d9022ce64648f8b4.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASASpaceflight",
+          "source": "NASASpaceflight",
+          "title": "Starship makes orbit, Flight 15 preps in full swing",
+          "url": "https://www.nasaspaceflight.com/2026/09/starship-14-orbit-flight-15/",
+          "published_at": "2026-09-30T15:17:07Z"
+        }
+      ]
+    },
+    {
+      "id": "e10225070331dd29",
+      "cluster_id": "c_d02011ec2382dd2f",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_d02011ec2382dd2f.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_d02011ec2382dd2f.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "Here\u2019s who\u2019s joining the S&P 500 in the index\u2019s latest shakeup",
+          "url": "https://www.marketwatch.com/story/heres-whos-joining-the-s-p-500-in-the-indexs-latest-shakeup-07280a15?mod=mw_rss_topstories",
+          "published_at": "2026-10-01T23:11:00Z"
+        }
+      ]
+    },
+    {
+      "id": "cfe00acfcee9b561",
+      "cluster_id": "c_c5543d7d2b042559",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_c5543d7d2b042559.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_c5543d7d2b042559.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "The hidden silver lining of high interest rates: safer, cheaper retirement income",
+          "url": "https://www.marketwatch.com/story/the-hidden-silver-lining-of-high-interest-rates-safer-cheaper-retirement-income-36e2e077?mod=mw_rss_topstories",
+          "published_at": "2026-10-01T21:27:00Z"
+        }
+      ]
+    },
+    {
+      "id": "ad77e763c8ac0024",
+      "cluster_id": "c_2e65e717b0ffe830",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_2e65e717b0ffe830.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_2e65e717b0ffe830.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "Nike\u2019s troubles are mounting, and sales could fall further",
+          "url": "https://www.marketwatch.com/story/nikes-troubles-are-mounting-and-sales-could-fall-further-2c19699d?mod=mw_rss_topstories",
+          "published_at": "2026-10-01T21:09:00Z"
+        }
+      ]
+    },
+    {
+      "id": "e6c8ee7335074b8e",
+      "cluster_id": "c_146c9829b9fa29fe",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_146c9829b9fa29fe.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_146c9829b9fa29fe.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "The stock market is anything but normal right now \u2014 and these charts show it",
+          "url": "https://www.marketwatch.com/story/the-stock-market-is-anything-but-normal-right-now-and-these-charts-show-it-91ea187d?mod=mw_rss_topstories",
+          "published_at": "2026-10-01T21:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2f3065751ec406a5",
+      "cluster_id": "c_71c93efea12b8ca9",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_71c93efea12b8ca9.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_71c93efea12b8ca9.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "Here\u2019s how much more groceries, clothing and household appliances could cost as diesel prices keep surging",
+          "url": "https://www.marketwatch.com/story/heres-how-much-more-groceries-clothing-and-household-appliances-could-cost-as-diesel-prices-keep-surging-771c9247?mod=mw_rss_topstories",
+          "published_at": "2026-10-01T20:58:00Z"
+        }
+      ]
+    },
+    {
+      "id": "0b49096d6d7459de",
+      "cluster_id": "c_2164d86c6392f963",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_2164d86c6392f963.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_2164d86c6392f963.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "Republicans sabotaged their own bill to prevent people in Congress from trading stocks. Why?",
+          "url": "https://www.marketwatch.com/story/republicans-sabotaged-their-own-bill-to-prevent-people-in-congress-from-trading-stocks-why-828ef40d?mod=mw_rss_topstories",
+          "published_at": "2026-10-01T20:58:00Z"
+        }
+      ]
+    },
+    {
+      "id": "8344c3bf9d1ade13",
+      "cluster_id": "c_965eb91d7bdb400a",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_965eb91d7bdb400a.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_965eb91d7bdb400a.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "Bond yields suddenly retreat from recent highs as buyers step back into the Treasury market",
+          "url": "https://www.marketwatch.com/story/bond-yields-suddenly-retreat-from-recent-highs-as-buyers-step-back-into-the-treasury-market-e3840e3d?mod=mw_rss_topstories",
+          "published_at": "2026-10-01T20:28:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2e7e1a8e113a39cf",
+      "cluster_id": "c_fcbec425d40a30eb",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_fcbec425d40a30eb.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_fcbec425d40a30eb.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "The Treasury Department started Trump accounts for 60 million kids \u2014 but families still have to take this step if they want one",
+          "url": "https://www.marketwatch.com/story/the-treasury-department-started-trump-accounts-for-60-million-kids-but-families-still-have-to-take-this-step-if-they-want-one-003d9282?mod=mw_rss_topstories",
+          "published_at": "2026-10-01T20:14:00Z"
+        }
+      ]
+    },
+    {
+      "id": "8e25fc3f5be0650c",
+      "cluster_id": "c_5fb3535d3444423c",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_5fb3535d3444423c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_5fb3535d3444423c.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "Financial stocks are falling below a key chart level to warn the worst is yet to come",
+          "url": "https://www.marketwatch.com/story/financial-stocks-are-falling-below-a-key-chart-level-to-warn-the-worst-is-yet-to-come-86e43092?mod=mw_rss_topstories",
+          "published_at": "2026-10-01T18:38:00Z"
+        }
+      ]
+    },
+    {
+      "id": "67bf46e7b59e2755",
+      "cluster_id": "c_07e7a4c6760c8604",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_07e7a4c6760c8604.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_07e7a4c6760c8604.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "This silent alarm in the bond market tells you which stocks to buy and which to avoid",
+          "url": "https://www.marketwatch.com/story/this-silent-alarm-in-the-bond-market-tells-you-which-stocks-to-buy-and-which-to-avoid-4568ac53?mod=mw_rss_topstories",
+          "published_at": "2026-10-01T18:10:00Z"
+        }
+      ]
+    },
+    {
+      "id": "63d5c1f75c0fbd69",
+      "cluster_id": "c_10d81d8760bdd9cb",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_10d81d8760bdd9cb.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_10d81d8760bdd9cb.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Business",
+          "title": "US says Europe should ready fuel supplies as Trump threatens diesel ban",
+          "url": "https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T22:21:16Z"
+        }
+      ]
+    },
+    {
+      "id": "8c4fb2e3cdb40bb2",
+      "cluster_id": "c_a9fb30e9b5b26fb3",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_a9fb30e9b5b26fb3.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_a9fb30e9b5b26fb3.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Business",
+          "title": "'It could cost me \u00a310k but I need the money now': Why Gen Z are opting out of pensions",
+          "url": "https://www.bbc.co.uk/news/articles/c68xk0ndqz8jo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T23:00:06Z"
+        }
+      ]
+    },
+    {
+      "id": "54650b4afa245b9e",
+      "cluster_id": "c_0edfcf8705b67323",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_0edfcf8705b67323.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_0edfcf8705b67323.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Business",
+          "title": "What's gone wrong at Nike? How the world's sportswear giant lost its mojo",
+          "url": "https://www.bbc.co.uk/news/articles/c6je85jzk9y7o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T23:08:02Z"
+        }
+      ]
+    },
+    {
+      "id": "8bb93932e04c61c9",
+      "cluster_id": "c_67253ecd2b138822",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_67253ecd2b138822.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_67253ecd2b138822.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Business",
+          "title": "HMRC urged to scrutinise tax implications of Man City case",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cjkg7g93y5yno?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T18:21:22Z"
+        }
+      ]
+    },
+    {
+      "id": "5c530e383ad6ddf9",
+      "cluster_id": "c_e916fd2cd3496319",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_e916fd2cd3496319.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_e916fd2cd3496319.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Business",
+          "title": "PM warned Rosebank oil field could breach West Bank sanctions",
+          "url": "https://www.bbc.co.uk/news/articles/cmrl6lz454lgo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T18:38:22Z"
+        }
+      ]
+    },
+    {
+      "id": "56ab32e03de9690b",
+      "cluster_id": "c_f58a74cd9c18c123",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_f58a74cd9c18c123.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_f58a74cd9c18c123.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Business",
+          "title": "The wealthy Cuban Americans ready and waiting for Havana to fall",
+          "url": "https://www.bbc.co.uk/news/articles/ckrerylrlg9vo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T23:00:05Z"
+        }
+      ]
+    },
+    {
+      "id": "40c8fa2dd101900f",
+      "cluster_id": "c_8d96d89a9151fedb",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_8d96d89a9151fedb.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_8d96d89a9151fedb.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Business",
+          "title": "Thames Water apologises after \u00a3145,000 customer billing mistake",
+          "url": "https://www.bbc.co.uk/news/articles/ck24j46424veo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T18:09:16Z"
+        }
+      ]
+    },
+    {
+      "id": "eeabb7d135652410",
+      "cluster_id": "c_991301cf1482436e",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_991301cf1482436e.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_991301cf1482436e.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Business",
+          "title": "AI boom could trigger market shocks, Bank of England boss warns",
+          "url": "https://www.bbc.co.uk/news/articles/cv8e30enrkxyo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T10:05:25Z"
+        }
+      ]
+    },
+    {
+      "id": "c830b661edbeff11",
+      "cluster_id": "c_bb9e77d196cd1c6f",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_bb9e77d196cd1c6f.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_bb9e77d196cd1c6f.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Business",
+          "title": "Trump's AI rebrand causes 'unprecedented' demand for Slovenian website names",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2z23xj555o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T11:37:46Z"
+        }
+      ]
+    },
+    {
+      "id": "9a53dfd4650fc8ec",
+      "cluster_id": "c_84ee4700e339bec1",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_84ee4700e339bec1.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_84ee4700e339bec1.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Business",
+          "title": "Vape tax comes into effect - but prices won't rise yet",
+          "url": "https://www.bbc.co.uk/news/articles/c6j4jrjgv2j7o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-09-30T23:02:11Z"
+        }
+      ]
+    },
+    {
+      "id": "e645801b8e22ee14",
+      "cluster_id": "c_dce2405924392be5",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_dce2405924392be5.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_dce2405924392be5.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Business",
+          "title": "Travelodge failed sex assault victim 'at every stage'",
+          "url": "https://www.bbc.co.uk/news/articles/c93429dg425o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T16:40:03Z"
+        }
+      ]
+    },
+    {
+      "id": "fe563b659c573000",
+      "cluster_id": "c_9713cef49a582163",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_9713cef49a582163.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_9713cef49a582163.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Business",
+          "title": "Employers should teach primary-age children about work, says Milburn",
+          "url": "https://www.bbc.co.uk/news/articles/cr2kwlw0p3v9o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T07:07:08Z"
+        }
+      ]
+    },
+    {
+      "id": "7f5be1eb9b436824",
+      "cluster_id": "c_cabaaed277a1b627",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_cabaaed277a1b627.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_cabaaed277a1b627.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Business",
+          "title": "Energy bills are rising by \u00a360 a year - here's how you can bring that down",
+          "url": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T07:08:22Z"
+        }
+      ]
+    },
+    {
+      "id": "9ee8341588cf85f3",
+      "cluster_id": "c_4f78e045bf84fbaf",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_4f78e045bf84fbaf.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_4f78e045bf84fbaf.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Business",
+          "title": "Household energy bills forecast to see biggest rise in four years",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0zvj4m1myo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-09-30T14:36:45Z"
+        }
+      ]
+    },
+    {
+      "id": "ad132750f585601c",
+      "cluster_id": "c_c3de8450f87ac456",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_c3de8450f87ac456.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_c3de8450f87ac456.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Business",
+          "title": "Greggs to shut four factories and cut 740 jobs",
+          "url": "https://www.bbc.co.uk/news/articles/cm7802ylq973o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-09-30T15:03:22Z"
+        }
+      ]
+    },
+    {
+      "id": "56bbc324893650b5",
+      "cluster_id": "c_edcfc5d72985d4c4",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_edcfc5d72985d4c4.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_edcfc5d72985d4c4.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Business",
+          "title": "Regulating AI 'not the right place to start' says Bailey",
+          "url": "https://www.bbc.co.uk/news/articles/cvzez7k0pn40o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-09-30T14:00:33Z"
+        }
+      ]
+    },
+    {
+      "id": "b8b87337205f5979",
+      "cluster_id": "c_2bcc98dcfd9df80d",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_2bcc98dcfd9df80d.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_2bcc98dcfd9df80d.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Business",
+          "title": "Africa's richest man launches Kenya oil refinery despite land protests",
+          "url": "https://www.bbc.co.uk/news/articles/cmkg8dpwy25po?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T07:04:27Z"
+        }
+      ]
+    },
+    {
+      "id": "daecb27028dac501",
+      "cluster_id": "c_4b91f2d323db6535",
+      "program": "SPACEX_BRIEF",
+      "report": "spacex_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/spacex_brief/c_4b91f2d323db6535.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/spacex_brief/c_4b91f2d323db6535.speak.txt",
+      "sources": [
+        {
+          "publisher": "Spaceflight Now",
+          "source": "Spaceflight Now",
+          "title": "Falcon Heavy to fly its first mission for U.S. spy satellite agency",
+          "url": "https://spaceflightnow.com/2026/10/01/falcon-heavy-to-fly-its-first-mission-for-u-s-spy-satellite-agency/",
+          "published_at": "2026-10-01T22:37:30Z"
+        }
+      ]
+    },
+    {
+      "id": "af4011fb6aa443e9",
+      "cluster_id": "c_885dd39f81f95577",
+      "program": "SPACEX_BRIEF",
+      "report": "spacex_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/spacex_brief/c_885dd39f81f95577.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/spacex_brief/c_885dd39f81f95577.speak.txt",
+      "sources": [
+        {
+          "publisher": "Spaceflight Now",
+          "source": "Spaceflight Now",
+          "title": "Fresh crew takes off for six-month stay aboard space station",
+          "url": "https://spaceflightnow.com/2026/10/01/fresh-crew-takes-off-for-six-month-stay-aboard-space-station/",
+          "published_at": "2026-10-01T20:46:05Z"
+        }
+      ]
+    },
+    {
+      "id": "5a6f02122e7cb1e1",
+      "cluster_id": "c_7626445edef42eba",
+      "program": "SPACEX_BRIEF",
+      "report": "spacex_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/spacex_brief/c_7626445edef42eba.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/spacex_brief/c_7626445edef42eba.speak.txt",
+      "sources": [
+        {
+          "publisher": "Spaceflight Now",
+          "source": "Spaceflight Now",
+          "title": "Launch preview: More than 100 spacecraft hitch a ride to orbit on SpaceX\u2019s Transporter-18",
+          "url": "https://spaceflightnow.com/2026/10/01/live-coverage-ai-datacenter-prototypes-energy-redirection-demonstrators-and-more-launching-on-spacexs-transporter-18/",
+          "published_at": "2026-10-01T17:51:39Z"
+        }
+      ]
+    },
+    {
+      "id": "b5920b90b62a168b",
+      "cluster_id": "c_1e373ac74f082d0e",
+      "program": "SPACEX_BRIEF",
+      "report": "spacex_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/spacex_brief/c_1e373ac74f082d0e.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/spacex_brief/c_1e373ac74f082d0e.speak.txt",
+      "sources": [
+        {
+          "publisher": "Spaceflight Now",
+          "source": "Spaceflight Now",
+          "title": "NASA, SpaceX launch next crewed mission to the International Space Station",
+          "url": "https://spaceflightnow.com/2026/10/01/live-coverage-nasa-spacex-to-launch-next-crewed-mission-to-the-international-space-station/",
+          "published_at": "2026-10-01T02:03:53Z"
+        }
+      ]
+    }
+  ]
+}

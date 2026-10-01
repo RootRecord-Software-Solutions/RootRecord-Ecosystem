@@ -1,37 +1,43 @@
 {
   "report": "news_update",
   "hour": 13,
-  "words": 569,
+  "words": 716,
   "sections": [
     {
       "id": "markets",
       "persona": "bruce",
-      "text": "RootRecord news update for October 1, 2026. Markets. the Securities and Exchange Commission reports that SEC Proposal Would Address How Investment Advisers and Funds Can Custody Crypto Assets Under the Federal Securities Laws. The Securities and Exchange Commission today proposed new rules and amendments to provide a tailored framework for the custody of crypto assets for registered investment advisers and regulated funds, i.e. registered investment companies and business\u2026 Published October 1, 2026. the Securities and Exchange Commission reports that SEC\u2019s Division of Examinations Announces New Exam Handbook. The Securities and Exchange Commission\u2019s Division of Examinations today published its new handbook, \u201cThe SEC Exam Handbook: A Practical Guide on Process and Engagement,\u201d which replaces and expands upon the previous examination brochure by providing\u2026 Published October 1, 2026. the Commodity Futures Trading Commission reports that CFTC Staff Extends Brexit-Related No-Action Positions. Published October 1, 2026.",
+      "text": "RootRecord news update for October 1, 2026. Markets. MarketWatch reports that Here\u2019s who\u2019s joining the S&P 500 in the index\u2019s latest shakeup. Twilio gets the nod, as current component Warner Bros Discovery is due to merger with Paramount. Published October 1, 2026. the BBC reports that What's gone wrong at Nike? How the world's sportswear giant lost its mojo. Several self-inflicted mistakes have cost the biggest sportswear brand on the planet in recent years. Published October 1, 2026. the BBC reports that 'It could cost me \u00a310k but I need the money now': Why Gen Z are opting out of pensions. A growing number of people are opting out of these schemes due to cost-of-living pressures. Published October 1, 2026. the BBC reports that The wealthy Cuban Americans ready and waiting for Havana to fall. Cuban exiles in Florida are increasingly hopeful that regime change in Cuba is now on the horizon. Published October 1, 2026.",
       "sources": [
         {
-          "publisher": "SEC",
-          "title": "SEC Proposal Would Address How Investment Advisers and Funds Can Custody Crypto Assets Under the Federal Securities Laws",
-          "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal",
-          "published_at": "2026-10-01T16:16:07Z"
+          "publisher": "MarketWatch",
+          "title": "Here\u2019s who\u2019s joining the S&P 500 in the index\u2019s latest shakeup",
+          "url": "https://www.marketwatch.com/story/heres-whos-joining-the-s-p-500-in-the-indexs-latest-shakeup-07280a15?mod=mw_rss_topstories",
+          "published_at": "2026-10-01T23:11:00Z"
         },
         {
-          "publisher": "SEC",
-          "title": "SEC\u2019s Division of Examinations Announces New Exam Handbook",
-          "url": "https://www.sec.gov/newsroom/press-releases/2026-99-secs-division-examinations-announces-new-exam-handbook",
-          "published_at": "2026-10-01T15:03:35Z"
+          "publisher": "BBC",
+          "title": "What's gone wrong at Nike? How the world's sportswear giant lost its mojo",
+          "url": "https://www.bbc.co.uk/news/articles/c6je85jzk9y7o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T23:08:02Z"
         },
         {
-          "publisher": "CFTC",
-          "title": "CFTC Staff Extends Brexit-Related No-Action Positions",
-          "url": "https://www.cftc.gov/PressRoom/PressReleases/9306-26",
-          "published_at": "2026-10-01T13:06:31Z"
+          "publisher": "BBC",
+          "title": "'It could cost me \u00a310k but I need the money now': Why Gen Z are opting out of pensions",
+          "url": "https://www.bbc.co.uk/news/articles/c68xk0ndqz8jo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T23:00:06Z"
+        },
+        {
+          "publisher": "BBC",
+          "title": "The wealthy Cuban Americans ready and waiting for Havana to fall",
+          "url": "https://www.bbc.co.uk/news/articles/ckrerylrlg9vo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T23:00:05Z"
         }
       ]
     },
     {
       "id": "defence",
       "persona": "carly",
-      "text": "National security. Defense News reports that US Navy awards RTX\u2019s Raytheon $24.4B for SM-6 missiles amid stockpile concerns. The deal for the SM-6 interceptors comes as the Pentagon pushes to replenish munitions stockpiles depleted by conflicts in the Middle East. Published October 1, 2026. Breaking Defense reports that DoD obligates $142B from reconciliation bill before deadline, leaving billions subject to cuts. Any funding from last year\u2019s reconciliation bill left unspent by the Pentagon suffers an 8.3 percent cut known as sequestration as fiscal 2027 starts. Published October 1, 2026. Breaking Defense reports that Can\u2019t start, won\u2019t start: Over 150 new military programs face delay under a CR. The Defense Department will be operating under a continuing resolution until lawmakers successfully pass a fiscal 2027 budget. Published October 1, 2026.",
+      "text": "National security. Defense News reports that US Navy awards RTX\u2019s Raytheon $24.4B for SM-6 missiles amid stockpile concerns. The deal for the SM-6 interceptors comes as the Pentagon pushes to replenish munitions stockpiles depleted by conflicts in the Middle East. Published October 1, 2026. Breaking Defense reports that DoD obligates $142B from reconciliation bill before deadline, leaving billions subject to cuts. Any funding from last year\u2019s reconciliation bill left unspent by the Pentagon suffers an 8.3 percent cut known as sequestration as fiscal 2027 starts. Published October 1, 2026. Breaking Defense reports that Can\u2019t start, won\u2019t start: Over 150 new military programs face delay under a CR. The Defense Department will be operating under a continuing resolution until lawmakers successfully pass a fiscal 2027 budget. Published October 1, 2026. Breaking Defense reports that How Hegseth envisions a new Autonomous Warfare Command. The Pentagon wants to combine drone procurement and operations under a new command, but Congress will have a say. Published October 1, 2026. The claims in this desk are the publisher's.",
       "sources": [
         {
           "publisher": "Defense News",
@@ -50,19 +56,44 @@
           "title": "Can\u2019t start, won\u2019t start: Over 150 new military programs face delay under a CR",
           "url": "https://breakingdefense.com/2026/10/cant-start-wont-start-over-150-new-military-programs-face-delay-under-a-cr/",
           "published_at": "2026-10-01T20:56:55Z"
+        },
+        {
+          "publisher": "Breaking Defense",
+          "title": "How Hegseth envisions a new Autonomous Warfare Command",
+          "url": "https://breakingdefense.com/2026/10/how-hegseth-envisions-a-new-autonomous-warfare-command/",
+          "published_at": "2026-10-01T20:15:00Z"
         }
       ]
     },
     {
       "id": "spacex",
       "persona": "ava",
-      "text": "SpaceX. No fresh items on the SpaceX desk.",
-      "sources": []
+      "text": "SpaceX. Spaceflight Now reports that Falcon Heavy to fly its first mission for U.S. spy satellite agency. The 14th Falcon Heavy rocket is scheduled to blast off on a clandestine mission from Launch Complex 39A at NASA\u2019s Kennedy Space Center at 11:53 p.m. EDT (0353 UTC). Published October 1, 2026. Spaceflight Now reports that Fresh crew takes off for six-month stay aboard space station. Strapped into a SpaceX Crew Dragon capsule, Crew 13 commander Jessica Watkins, pilot Luke Delaney, Russian cosmonaut Sergey Teteryatnikov and Canadian astronaut Joshua Kutryk blasted off from pad 40 at the Cape Canaveral Space Force Station at 11:10 a.m. EDT. Published October 1, 2026. NASASpaceflight reports that Falcon Heavy set to launch classified NROL-97 to high-energy orbit. SpaceX\u2019s Falcon Heavy is poised atop Launch Complex 39A once again, this time to launch\u2026 The post Falcon Heavy set to launch classified NROL-97 to high-energy orbit appeared first on NASASpaceFlight.com . Published October 1, 2026.",
+      "sources": [
+        {
+          "publisher": "Spaceflight Now",
+          "title": "Falcon Heavy to fly its first mission for U.S. spy satellite agency",
+          "url": "https://spaceflightnow.com/2026/10/01/falcon-heavy-to-fly-its-first-mission-for-u-s-spy-satellite-agency/",
+          "published_at": "2026-10-01T22:37:30Z"
+        },
+        {
+          "publisher": "Spaceflight Now",
+          "title": "Fresh crew takes off for six-month stay aboard space station",
+          "url": "https://spaceflightnow.com/2026/10/01/fresh-crew-takes-off-for-six-month-stay-aboard-space-station/",
+          "published_at": "2026-10-01T20:46:05Z"
+        },
+        {
+          "publisher": "NASASpaceflight",
+          "title": "Falcon Heavy set to launch classified NROL-97 to high-energy orbit",
+          "url": "https://www.nasaspaceflight.com/2026/10/nrol97-launch/",
+          "published_at": "2026-10-01T19:17:40Z"
+        }
+      ]
     },
     {
       "id": "hawaii",
       "persona": "bruce",
-      "text": "Hawaii. the Office of the Governor of Hawaii reports that RELEASE: FOURTH QUARTER HAWAI\u02bbI ANNUAL BUSINESS REPORTS DUE. STATE OF HAWAI\u02bbIKA MOKU \u02bb\u0100INA O HAWAI\u02bbI JOSH GREEN, M.D.GOVERNOR KE KIA\u02bb\u0100INA DEPARTMENT OF COMMERCE AND CONSUMER AFFAIRSKA \u02bbOIHANA PILI K\u0100LEPA NADINE Y. ANDODIRECTOR KA LUNA HO\u02bbOKELE BUSINESS REGISTRATION DIVISION TY Y. [\u2026] Published October 1, 2026. the Office of the Governor of Hawaii reports that NEWS RELEASE: NEW BIOSECURITY ACADEMY TO TRAIN FRONTLINE INSPECTORS IN FIGHT AGAINST INVASIVE SPECIES. STATE OF HAWAI\u02bbIKA MOKU \u02bb\u0100INA O HAWAI\u02bbI JOSH GREEN, M.D.GOVERNORKE KIA\u02bb\u0100INA DEPARTMENT OF AGRICULTURE AND BIOSECURITY\u02bbOIHANA MAHI\u02bbAI A KIA\u02bbI MEAOLA SHARON HURDCHAIRPERSONKA LUNA HO\u02bbOKELE DEAN M. MATSUKAWADEPUTY TO THE CHAIRPERSONKA [\u2026] Published October 1, 2026. the Honolulu Star-Advertiser reports that Tropical Storm Nolo expected to strengthen as it moves away from Hawaii. UPDATE: 1 p.m. Published October 1, 2026.",
+      "text": "Hawaii. the Office of the Governor of Hawaii reports that RELEASE: FOURTH QUARTER HAWAI\u02bbI ANNUAL BUSINESS REPORTS DUE. STATE OF HAWAI\u02bbIKA MOKU \u02bb\u0100INA O HAWAI\u02bbI JOSH GREEN, M.D.GOVERNOR KE KIA\u02bb\u0100INA DEPARTMENT OF COMMERCE AND CONSUMER AFFAIRSKA \u02bbOIHANA PILI K\u0100LEPA NADINE Y. ANDODIRECTOR KA LUNA HO\u02bbOKELE BUSINESS REGISTRATION DIVISION TY Y. [\u2026] Published October 1, 2026. the Office of the Governor of Hawaii reports that NEWS RELEASE: NEW BIOSECURITY ACADEMY TO TRAIN FRONTLINE INSPECTORS IN FIGHT AGAINST INVASIVE SPECIES. STATE OF HAWAI\u02bbIKA MOKU \u02bb\u0100INA O HAWAI\u02bbI JOSH GREEN, M.D.GOVERNORKE KIA\u02bb\u0100INA DEPARTMENT OF AGRICULTURE AND BIOSECURITY\u02bbOIHANA MAHI\u02bbAI A KIA\u02bbI MEAOLA SHARON HURDCHAIRPERSONKA LUNA HO\u02bbOKELE DEAN M. MATSUKAWADEPUTY TO THE CHAIRPERSONKA [\u2026] Published October 1, 2026. the Honolulu Star-Advertiser reports that Wall Street dips as rising Treasury yields outweigh software gains. The S&P 500 fell to a two-week low on Thursday as a global bond selloff, fueled by higher oil prices and inflation concerns, pushed US Treasury yields to multi-decade highs and overshadowed a rally in software stocks. Published October 1, 2026.",
       "sources": [
         {
           "publisher": "Office of the Governor of Hawaii",
@@ -78,37 +109,25 @@
         },
         {
           "publisher": "Honolulu Star-Advertiser",
-          "title": "Tropical Storm Nolo expected to strengthen as it moves away from Hawaii",
-          "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/tropical-storm-nolo-continues-moving-away-from-hawaii/",
-          "published_at": "2026-10-01T17:42:00Z"
+          "title": "Wall Street dips as rising Treasury yields outweigh software gains",
+          "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/wall-street-dips-as-rising-treasury-yields-outweigh-software-gains/",
+          "published_at": "2026-10-01T22:08:00Z"
         }
       ]
     },
     {
       "id": "also",
       "persona": "carly",
-      "text": "Also in the news. the Honolulu Star-Advertiser reports that Boeing workers approve latest contract offer, averting strike fears. Boeing\u2019s largest white-collar union said on Thursday its members approved a sweetened contract offer, easing fears of a strike that could have stalled work on two long-delayed jetliners and slowed the pace of aircraft deliveries. Published October 1, 2026. Breaking Defense reports that Over the Finnish line: Helsinki welcomes home first two F-35 jets. In 2021, Helsinki ordered 64 of the stealth aircraft in a deal valued at $9.4 billion as a replacement for aging US-made F/A-18 Hornet fourth-generation fighters. Published October 1, 2026. the U.K. Ministry of Defence reports that 30% boost to UK military transport aircraft availability under new deal. MoD extends \u00a3190 million contract with Airbus to maintain the RAF's A400M Atlas fleet, boosting aircraft availability while sustaining over 350 UK jobs. Published October 1, 2026. That is the news update.",
+      "text": "Also in the news. the Honolulu Star-Advertiser reports that Boeing workers approve latest contract offer, averting strike fears. Boeing\u2019s largest white-collar union said on Thursday its members approved a sweetened contract offer, easing fears of a strike that could have stalled work on two long-delayed jetliners and slowed the pace of aircraft deliveries. Published October 1, 2026. That is the news update.",
       "sources": [
         {
           "publisher": "Honolulu Star-Advertiser",
           "title": "Boeing workers approve latest contract offer, averting strike fears",
           "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/boeing-workers-approve-latest-contract-offer-averting-strike-fears/",
           "published_at": "2026-10-01T19:48:00Z"
-        },
-        {
-          "publisher": "Breaking Defense",
-          "title": "Over the Finnish line: Helsinki welcomes home first two F-35 jets",
-          "url": "https://breakingdefense.com/2026/10/over-the-finnish-line-helsinki-welcomes-home-first-two-f-35-jets/",
-          "published_at": "2026-10-01T17:58:00Z"
-        },
-        {
-          "publisher": "UK Ministry of Defence",
-          "title": "30% boost to UK military transport aircraft availability under new deal",
-          "url": "https://www.gov.uk/government/news/30-boost-to-uk-military-transport-aircraft-availability-under-new-deal",
-          "published_at": "2026-10-01T12:01:17Z"
         }
       ]
     }
   ],
-  "speak": "RootRecord news update for October 1, 2026. Markets. the Securities and Exchange Commission reports that SEC Proposal Would Address How Investment Advisers and Funds Can Custody Crypto Assets Under the Federal Securities Laws. The Securities and Exchange Commission today proposed new rules and amendments to provide a tailored framework for the custody of crypto assets for registered investment advisers and regulated funds, i.e. registered investment companies and business\u2026 Published October 1, 2026. the Securities and Exchange Commission reports that SEC\u2019s Division of Examinations Announces New Exam Handbook. The Securities and Exchange Commission\u2019s Division of Examinations today published its new handbook, \u201cThe SEC Exam Handbook: A Practical Guide on Process and Engagement,\u201d which replaces and expands upon the previous examination brochure by providing\u2026 Published October 1, 2026. the Commodity Futures Trading Commission reports that CFTC Staff Extends Brexit-Related No-Action Positions. Published October 1, 2026. National security. Defense News reports that US Navy awards RTX\u2019s Raytheon $24.4B for SM-6 missiles amid stockpile concerns. The deal for the SM-6 interceptors comes as the Pentagon pushes to replenish munitions stockpiles depleted by conflicts in the Middle East. Published October 1, 2026. Breaking Defense reports that DoD obligates $142B from reconciliation bill before deadline, leaving billions subject to cuts. Any funding from last year\u2019s reconciliation bill left unspent by the Pentagon suffers an 8.3 percent cut known as sequestration as fiscal 2027 starts. Published October 1, 2026. Breaking Defense reports that Can\u2019t start, won\u2019t start: Over 150 new military programs face delay under a CR. The Defense Department will be operating under a continuing resolution until lawmakers successfully pass a fiscal 2027 budget. Published October 1, 2026. SpaceX. No fresh items on the SpaceX desk. Hawaii. the Office of the Governor of Hawaii reports that RELEASE: FOURTH QUARTER HAWAI\u02bbI ANNUAL BUSINESS REPORTS DUE. STATE OF HAWAI\u02bbIKA MOKU \u02bb\u0100INA O HAWAI\u02bbI JOSH GREEN, M.D.GOVERNOR KE KIA\u02bb\u0100INA DEPARTMENT OF COMMERCE AND CONSUMER AFFAIRSKA \u02bbOIHANA PILI K\u0100LEPA NADINE Y. ANDODIRECTOR KA LUNA HO\u02bbOKELE BUSINESS REGISTRATION DIVISION TY Y. [\u2026] Published October 1, 2026. the Office of the Governor of Hawaii reports that NEWS RELEASE: NEW BIOSECURITY ACADEMY TO TRAIN FRONTLINE INSPECTORS IN FIGHT AGAINST INVASIVE SPECIES. STATE OF HAWAI\u02bbIKA MOKU \u02bb\u0100INA O HAWAI\u02bbI JOSH GREEN, M.D.GOVERNORKE KIA\u02bb\u0100INA DEPARTMENT OF AGRICULTURE AND BIOSECURITY\u02bbOIHANA MAHI\u02bbAI A KIA\u02bbI MEAOLA SHARON HURDCHAIRPERSONKA LUNA HO\u02bbOKELE DEAN M. MATSUKAWADEPUTY TO THE CHAIRPERSONKA [\u2026] Published October 1, 2026. the Honolulu Star-Advertiser reports that Tropical Storm Nolo expected to strengthen as it moves away from Hawaii. UPDATE: 1 p.m. Published October 1, 2026. Also in the news. the Honolulu Star-Advertiser reports that Boeing workers approve latest contract offer, averting strike fears. Boeing\u2019s largest white-collar union said on Thursday its members approved a sweetened contract offer, easing fears of a strike that could have stalled work on two long-delayed jetliners and slowed the pace of aircraft deliveries. Published October 1, 2026. Breaking Defense reports that Over the Finnish line: Helsinki welcomes home first two F-35 jets. In 2021, Helsinki ordered 64 of the stealth aircraft in a deal valued at $9.4 billion as a replacement for aging US-made F/A-18 Hornet fourth-generation fighters. Published October 1, 2026. the U.K. Ministry of Defence reports that 30% boost to UK military transport aircraft availability under new deal. MoD extends \u00a3190 million contract with Airbus to maintain the RAF's A400M Atlas fleet, boosting aircraft availability while sustaining over 350 UK jobs. Published October 1, 2026. That is the news update."
+  "speak": "RootRecord news update for October 1, 2026. Markets. MarketWatch reports that Here\u2019s who\u2019s joining the S&P 500 in the index\u2019s latest shakeup. Twilio gets the nod, as current component Warner Bros Discovery is due to merger with Paramount. Published October 1, 2026. the BBC reports that What's gone wrong at Nike? How the world's sportswear giant lost its mojo. Several self-inflicted mistakes have cost the biggest sportswear brand on the planet in recent years. Published October 1, 2026. the BBC reports that 'It could cost me \u00a310k but I need the money now': Why Gen Z are opting out of pensions. A growing number of people are opting out of these schemes due to cost-of-living pressures. Published October 1, 2026. the BBC reports that The wealthy Cuban Americans ready and waiting for Havana to fall. Cuban exiles in Florida are increasingly hopeful that regime change in Cuba is now on the horizon. Published October 1, 2026. National security. Defense News reports that US Navy awards RTX\u2019s Raytheon $24.4B for SM-6 missiles amid stockpile concerns. The deal for the SM-6 interceptors comes as the Pentagon pushes to replenish munitions stockpiles depleted by conflicts in the Middle East. Published October 1, 2026. Breaking Defense reports that DoD obligates $142B from reconciliation bill before deadline, leaving billions subject to cuts. Any funding from last year\u2019s reconciliation bill left unspent by the Pentagon suffers an 8.3 percent cut known as sequestration as fiscal 2027 starts. Published October 1, 2026. Breaking Defense reports that Can\u2019t start, won\u2019t start: Over 150 new military programs face delay under a CR. The Defense Department will be operating under a continuing resolution until lawmakers successfully pass a fiscal 2027 budget. Published October 1, 2026. Breaking Defense reports that How Hegseth envisions a new Autonomous Warfare Command. The Pentagon wants to combine drone procurement and operations under a new command, but Congress will have a say. Published October 1, 2026. The claims in this desk are the publisher's. SpaceX. Spaceflight Now reports that Falcon Heavy to fly its first mission for U.S. spy satellite agency. The 14th Falcon Heavy rocket is scheduled to blast off on a clandestine mission from Launch Complex 39A at NASA\u2019s Kennedy Space Center at 11:53 p.m. EDT (0353 UTC). Published October 1, 2026. Spaceflight Now reports that Fresh crew takes off for six-month stay aboard space station. Strapped into a SpaceX Crew Dragon capsule, Crew 13 commander Jessica Watkins, pilot Luke Delaney, Russian cosmonaut Sergey Teteryatnikov and Canadian astronaut Joshua Kutryk blasted off from pad 40 at the Cape Canaveral Space Force Station at 11:10 a.m. EDT. Published October 1, 2026. NASASpaceflight reports that Falcon Heavy set to launch classified NROL-97 to high-energy orbit. SpaceX\u2019s Falcon Heavy is poised atop Launch Complex 39A once again, this time to launch\u2026 The post Falcon Heavy set to launch classified NROL-97 to high-energy orbit appeared first on NASASpaceFlight.com . Published October 1, 2026. Hawaii. the Office of the Governor of Hawaii reports that RELEASE: FOURTH QUARTER HAWAI\u02bbI ANNUAL BUSINESS REPORTS DUE. STATE OF HAWAI\u02bbIKA MOKU \u02bb\u0100INA O HAWAI\u02bbI JOSH GREEN, M.D.GOVERNOR KE KIA\u02bb\u0100INA DEPARTMENT OF COMMERCE AND CONSUMER AFFAIRSKA \u02bbOIHANA PILI K\u0100LEPA NADINE Y. ANDODIRECTOR KA LUNA HO\u02bbOKELE BUSINESS REGISTRATION DIVISION TY Y. [\u2026] Published October 1, 2026. the Office of the Governor of Hawaii reports that NEWS RELEASE: NEW BIOSECURITY ACADEMY TO TRAIN FRONTLINE INSPECTORS IN FIGHT AGAINST INVASIVE SPECIES. STATE OF HAWAI\u02bbIKA MOKU \u02bb\u0100INA O HAWAI\u02bbI JOSH GREEN, M.D.GOVERNORKE KIA\u02bb\u0100INA DEPARTMENT OF AGRICULTURE AND BIOSECURITY\u02bbOIHANA MAHI\u02bbAI A KIA\u02bbI MEAOLA SHARON HURDCHAIRPERSONKA LUNA HO\u02bbOKELE DEAN M. MATSUKAWADEPUTY TO THE CHAIRPERSONKA [\u2026] Published October 1, 2026. the Honolulu Star-Advertiser reports that Wall Street dips as rising Treasury yields outweigh software gains. The S&P 500 fell to a two-week low on Thursday as a global bond selloff, fueled by higher oil prices and inflation concerns, pushed US Treasury yields to multi-decade highs and overshadowed a rally in software stocks. Published October 1, 2026. Also in the news. the Honolulu Star-Advertiser reports that Boeing workers approve latest contract offer, averting strike fears. Boeing\u2019s largest white-collar union said on Thursday its members approved a sweetened contract offer, easing fears of a strike that could have stalled work on two long-delayed jetliners and slowed the pace of aircraft deliveries. Published October 1, 2026. That is the news update."
 }
