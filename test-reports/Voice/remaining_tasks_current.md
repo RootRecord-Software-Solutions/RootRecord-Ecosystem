@@ -10,6 +10,6 @@ Source: report_board.py status (morning 09:00, midday 12:00, late 21:00).
 
 ## Spoken
 
-Remaining tasks at eleven a.m. Hawaiian Standard Time. Automated Reports are in active development and is expected to change. 1 item in the next hour. noon Midday report.
+Remaining tasks. Report generated at eleven a.m. Automated Reports are in active development and is expected to change. 1 item in the next hour. noon Midday report.
 
 _Template report; measured values only._
