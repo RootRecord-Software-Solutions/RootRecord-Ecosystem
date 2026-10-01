@@ -27,6 +27,7 @@ const AWS_STATE_FILE = path.join(DATA_DIR, 'aws-state.json');
 const HAWAII_FILE = path.join(DATA_DIR, 'hawaii.ndjson');
 const HAWAII_OFFSET_FILE = path.join(DATA_DIR, 'hawaii-offset.json');
 const PAGE_FILE = path.join(ROOT, 'index.html');
+const HOME_FILE = path.join(ROOT, 'home.html');
 
 fs.mkdirSync(DATA_DIR, { recursive: true });
 
@@ -114,6 +115,21 @@ const server = http.createServer((req, res) => {
   if (url.pathname === '/' || url.pathname === '/index.html') {
     res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' });
     fs.createReadStream(PAGE_FILE).pipe(res);
+    return;
+  }
+  if (url.pathname === '/home') {
+    fs.readFile(HOME_FILE, (err, buf) => {
+      if (err) {
+        res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
+        return res.end('Not found');
+      }
+      res.writeHead(200, {
+        'Content-Type': 'text/html; charset=utf-8',
+        'Cache-Control': 'no-store',
+        'X-Content-Type-Options': 'nosniff'
+      });
+      res.end(buf);
+    });
     return;
   }
   if (url.pathname === '/healthz') {

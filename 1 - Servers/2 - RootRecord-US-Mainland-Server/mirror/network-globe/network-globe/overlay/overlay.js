@@ -278,12 +278,12 @@
       card("signup", s.title || "Join Root Record", body);
     }
 
-    // ---- Website Home card (hidden by flag until Vercel is ready) ----
+    // ---- Services page. Same origin as the globe: /home ----
     var h = cfg.cards.home, homeUrl = safeUrl(h.url);
     if (h.enabled && homeUrl) {
-      card("home", h.title || "Website Home", [
+      card("home", h.title || "Root Record", [
         el("p", { text: h.blurb || "" }),
-        el("a", { class: "ov-btn", href: homeUrl, rel: "noopener", text: "Open website \u2192" })
+        el("a", { class: "ov-btn", href: homeUrl, text: "Continue" })
       ]);
     }
 
@@ -373,7 +373,7 @@
       item("\u2630", "Menu", toggle);
       item("\u25ce", "Globe", function () { Object.keys(cards).forEach(function (id) { setOpen(id, false); }); });
       if (cards.signup) item("\u271a", "Sign up", function () { setOpen("signup", true); });
-      if (cards.home) item("\u2302", "Website", null, homeUrl);
+      if (cards.home) item("\u2302", "Services", null, homeUrl);
       if (cards.status) item("\u2665", "Status", function () { setOpen("status", true); });
       if ((cfg.globe || {}).spinToggle !== false) item("\u21bb", "Spin on/off", function () { toggleSpin(); });
       rail.appendChild(el("div", { class: "ov-spacer" }));
