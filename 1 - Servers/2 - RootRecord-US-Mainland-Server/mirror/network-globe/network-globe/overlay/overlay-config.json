@@ -19,7 +19,7 @@
       "enabled": false,
       "url": "",
       "title": "Root Record",
-      "blurb": "The public site is the Vercel home page. This host is the globe process only while DNS still points www here."
+      "blurb": "The public site is https://www.rootrecord.cloud/ on Vercel. This host is not that page."
     },
     "status": {
       "enabled": true,

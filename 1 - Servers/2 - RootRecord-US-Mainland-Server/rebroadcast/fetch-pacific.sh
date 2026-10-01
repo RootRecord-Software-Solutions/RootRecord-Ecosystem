@@ -8,7 +8,9 @@ KNOWN=/home/ubuntu/.ssh/pacific_fetch_known_hosts
 mkdir -p "$DEST"
 
 pull() {
-  local name="$1" max="$2" dest="$DEST/$name"
+  local name="$1"
+  local max="$2"
+  local dest="$DEST/$name"
   local tmp bytes
   tmp=$(mktemp "$DEST/.$name.XXXXXX")
   if ! ssh -p 17022 -i "$KEY" -o BatchMode=yes -o ConnectTimeout=8 -o IdentitiesOnly=yes \

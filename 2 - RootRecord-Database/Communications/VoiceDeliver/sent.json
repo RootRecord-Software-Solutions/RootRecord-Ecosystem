@@ -4,28 +4,28 @@
     "message_id": 183
   },
   "solar_desk": {
-    "sha256": "1c1dbbc4233cb9b842723ea975f22f9272685a0e518ae53337012a349c0b41bf",
-    "message_id": 168
+    "sha256": "2abc27f5769d6c935e30a39d2136d5a7a83bf0b3eb623f32647e516143af331b",
+    "message_id": 214
   },
   "system_perf": {
-    "sha256": "0bbfddd48318a36d69ddd4560a2aa26dfc161953346407a2c323eb01bedbaca5",
-    "message_id": 193
+    "sha256": "4550288eaf19de4af799c62f31a101f37ccd4374a26ffc79b7d5a25768d0b461",
+    "message_id": 202
   },
   "remaining_tasks": {
-    "sha256": "a7ea21c50953020ef69b17a3e7fa7715a4a8c7317e708656ba5ee4a2c8998b95",
-    "message_id": 187
+    "sha256": "75f43c6ab93353d60f1cdcb99d38790231d08d206e6cf30a01d130c4f2da7433",
+    "message_id": 205
   },
   "kilauea_report": {
-    "sha256": "db0c514116fe286492089d4e4796dd25787f7ee512cc3a0c61fac12da4b69fff",
-    "message_id": 190
+    "sha256": "ebdc1dff4bdcf93c91c737353135871287539ba662ec4bff218ef6753725aea2",
+    "message_id": 211
   },
   "earthquake_report": {
-    "sha256": "4d4ee09da210ef78b387c7e4d0beb17046aa361b5212f0122f21925022d478d5",
-    "message_id": 196
+    "sha256": "97c49ed973c6c6954c8ca96c0da403ab2dcb1afc7c8ba7b23e630a6c059b69c3",
+    "message_id": 208
   },
   "security_desk": {
-    "sha256": "5f9d06570376a3f5c64da59a670c3d7548c71b7121b5d1d5cd6742a1e4a8c518",
-    "message_id": 199
+    "sha256": "201d8bf2862d5172aaf33826a7874945d1c8c5b3adeda6275b286c7447fc0e98",
+    "message_id": 218
   },
   "nws_weather": {
     "sha256": "7feab08bbcf43d86d159aef55b64c651bee1b0966a9e1affa540f08ee7b9e2e1",
@@ -48,7 +48,15 @@
     "message_id": 114
   },
   "bandwidth_desk": {
-    "sha256": "5e7e7c48daea0916343ad6e22db882dab5dfaf4af7e591dc1811710fc795d9ea",
-    "message_id": 180
+    "sha256": "6f367b14563565049940eb6ee18582245eee0191a8ff7ee2cccb4abe1855e3f8",
+    "message_id": 221
+  },
+  "late_report": {
+    "sha256": "2bc03475d1a0145d11c7d3e709681f63cad7f5ac6b4105015cf065aba770df69",
+    "message_id": 224
+  },
+  "hurricane_desk": {
+    "sha256": "933784ba827f940343c39dbfd0398b685758387c4102c05372f22350b51ff3cf",
+    "message_id": 227
   }
 }
