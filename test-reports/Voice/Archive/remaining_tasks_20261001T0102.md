@@ -1,4 +1,4 @@
-# Remaining tasks — 2026-10-01T09:01:59-10:00
+# Remaining tasks — 2026-10-01T01:02:07-10:00
 
 Source: report_board.py status (morning 09:02, midday 12:02, late 21:02).
 
@@ -8,6 +8,6 @@ Source: report_board.py status (morning 09:02, midday 12:02, late 21:02).
 
 ## Spoken
 
-Remaining tasks at nine oh one a.m. Hawaiian Standard Time. 1 item in the next hour. nine oh two a.m. Morning report.
+Remaining tasks at one oh two a.m. Hawaiian Standard Time. 0 items in the next hour. Next is nine oh two a.m. Morning report.
 
 _Template report; measured values only._

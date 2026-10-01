@@ -4,28 +4,28 @@
     "message_id": 183
   },
   "solar_desk": {
-    "sha256": "f4726088a45bbbf2a2fedb6667bbf05b791bb94e5c0c998b2585bd1f82ecf979",
-    "message_id": 2166
+    "sha256": "eaf8832accf16a19abbfef4d979f477ca22c693ffdfca0fa1764b4d79f1338be",
+    "message_id": 2181
   },
   "system_perf": {
-    "sha256": "fdab9d983e370c67eac51f8fb8c35a4c67119d55a01bdd79525a9375f86547ed",
-    "message_id": 2158
+    "sha256": "328b11dcc4a4aa37a63b4fc623dcdfe1553b44440c864ecd5e9cf348842535e4",
+    "message_id": 2173
   },
   "remaining_tasks": {
-    "sha256": "63948170691e12356c81efb4cea370a90c46d1ca2c8f2bc2aa2f3d924039437b",
-    "message_id": 2160
+    "sha256": "8e20f212bbf9ecbbdc083edc091a26c1652aa3c97c59b6190f393472a4adb57a",
+    "message_id": 2175
   },
   "kilauea_report": {
-    "sha256": "b57036255c57f319c5e5f53c4ad08a1fe5c3a549fb83fc78dd027ffe1654ffb4",
-    "message_id": 2164
+    "sha256": "4a09104ea98167848374998b129c87f760d8323038f79bc13dab66d10e84fdf2",
+    "message_id": 2179
   },
   "earthquake_report": {
-    "sha256": "1b715f3e8c548b82fc183828af16588a37aa76425cf5c1705593d71c94027178",
-    "message_id": 2162
+    "sha256": "5b45f8129be100f5445803d7a58ff56a26f420a8ab43a4e4e5cc1b0168a27887",
+    "message_id": 2177
   },
   "security_desk": {
-    "sha256": "7953f85dfffbef8442ed22f552dec8ab4ad7d2500b2d6e67821479af2c96ff07",
-    "message_id": 2169
+    "sha256": "432ab8734c3e04adaa0c159921c9168b944a00e4b76b7eea090bfbc5a6119395",
+    "message_id": 2184
   },
   "nws_weather": {
     "sha256": "5d8a5e0227b6e65f0a08dc79772961c57c0245705b41d796c77772f37dd5f6e0",
@@ -48,8 +48,8 @@
     "message_id": 114
   },
   "bandwidth_desk": {
-    "sha256": "ba2c24d11771db4b7c6076b69f21dde861e0f267ed7abf8c294e8aa72c26b4d1",
-    "message_id": 2171
+    "sha256": "a61d45d3866a1633f0b37c12c12746b4e2ff550416b34d9abbbb3a811b12b59f",
+    "message_id": 2186
   },
   "late_report": {
     "sha256": "2bc03475d1a0145d11c7d3e709681f63cad7f5ac6b4105015cf065aba770df69",
@@ -58,5 +58,9 @@
   "hurricane_desk": {
     "sha256": "933784ba827f940343c39dbfd0398b685758387c4102c05372f22350b51ff3cf",
     "message_id": 227
+  },
+  "morning_report": {
+    "sha256": "d2a669c6a65eb41f41580740215b914d49e49defaa569ab3eb76196a47a04293",
+    "message_id": 2188
   }
 }
