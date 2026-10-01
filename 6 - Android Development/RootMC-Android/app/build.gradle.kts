@@ -17,12 +17,12 @@ if (file("google-services.json").exists()) {
 
 android {
     namespace = "com.rootrecord.rootmc"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.rootrecord.rootmc"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 31
         versionName = "1.0.31"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"

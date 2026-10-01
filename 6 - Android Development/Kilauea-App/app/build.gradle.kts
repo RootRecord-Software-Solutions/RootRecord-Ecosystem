@@ -13,12 +13,12 @@ plugins {
 
 android {
     namespace = "com.rootrecord.kilauea.alerts"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.rootrecord.kilauea"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 47
         versionName = "1.0.47"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
