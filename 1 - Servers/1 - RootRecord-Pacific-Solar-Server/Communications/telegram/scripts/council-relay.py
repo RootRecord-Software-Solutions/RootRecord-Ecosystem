@@ -690,6 +690,13 @@ def main():  # info: def main
 
             mid = msg.get("message_id")  # info: set mid
             thread_id = msg.get("message_thread_id")  # info: set thread_id
+            if not is_private and only_for_a_person(text, voices):  # info: if not is_private and only_for_a_person
+                print("[ok] named a person, not a council voice — no reply")  # info: call print
+                continue  # info: continue
+            named = None if is_private else mentioned_voice(text, voices)  # info: set named
+            if named:  # info: if named
+                mark_seen(named, voices, ch, mid)  # info: call mark_seen
+                mark_typing(named, voices, ch)  # info: call mark_typing
             refresh_desk(cfg)  # info: call refresh_desk
             if is_private:  # info: if is_private :
                 continue_reply(cfg, state_dir, voices, poll_voice, msg, text, max_text)  # info: call continue_reply

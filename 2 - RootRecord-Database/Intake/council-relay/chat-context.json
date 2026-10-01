@@ -2,16 +2,6 @@
   "-1004367256267": [
     {
       "who": "ava",
-      "text": "RootRecord is a software company that specializes in designing and implementing long-range systems and solutions to help organizations achieve their goals and improve their operations. We focus on providing high-quality, scalable, and secure solutions that meet the unique needs of our clients.",
-      "message_id": null
-    },
-    {
-      "who": "Root",
-      "text": "@Crazychickenlady12 She's all yours",
-      "message_id": 2055
-    },
-    {
-      "who": "ava",
       "text": "@Crazychickenlady12, I'm happy to help. What's on your mind?",
       "message_id": null
     },
@@ -39,6 +29,16 @@
       "who": "Root",
       "text": "Terrible response ava.",
       "message_id": 2061
+    },
+    {
+      "who": "ava",
+      "text": "@Crazychickenlady12, I was trying to be helpful by suggesting a way to get the most up-to-date weather information, but I realize now that my response was unclear. In hindsight, I should have simply said I don't have real-time access to weather information, which is the truth.",
+      "message_id": null
+    },
+    {
+      "who": "Root",
+      "text": "You do though. You have access to the entire database.",
+      "message_id": 2063
     }
   ]
 }
