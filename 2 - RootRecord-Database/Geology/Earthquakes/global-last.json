@@ -1,20 +1,20 @@
 {
-  "at": "2026-09-30T23:53:55-10:00",
+  "at": "2026-10-01T00:01:10-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 36,
-  "count_m2": 36,
-  "count_m25": 35,
+  "count": 37,
+  "count_m2": 37,
+  "count_m25": 36,
   "largest": {
     "id": "us6000tymj",
     "mag": 5.6,
     "place": "94 km SW of Tamarindo, Costa Rica",
     "time_hst": "2026-09-30T11:55:26.169000-10:00"
   },
-  "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-01T09:52:57+00:00",
+  "new_this_run": 1,
+  "usgs_generated_utc": "2026-10-01T10:00:57+00:00",
   "events": [
     {
       "id": "aka2026tkytvy",
@@ -69,6 +69,28 @@
       "type": "earthquake",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyr4",
       "nearest": null
+    },
+    {
+      "id": "us6000tyqy",
+      "mag": 4.5,
+      "mag_type": "mb",
+      "place": "49 km SSE of Toktogul, Kyrgyzstan",
+      "time_utc": "2026-10-01T08:17:59.307000+00:00",
+      "time_hst": "2026-09-30T22:17:59.307000-10:00",
+      "lon": 73.1419,
+      "lat": 41.4538,
+      "depth_km": 10,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyqy",
+      "nearest": {
+        "location_id": "kg-bishkek",
+        "name": "Bishkek",
+        "country_code": "KG",
+        "admin1_code": null,
+        "km": 199.0
+      }
     },
     {
       "id": "us6000tyqw",
