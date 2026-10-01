@@ -1,0 +1,14 @@
+{
+  "hour": "2026-09-30T16",
+  "at": "2026-09-30T16:48:05-10:00",
+  "image": "ch1-20261001T024727Z.jpg",
+  "model": "gemma4:e4b",
+  "weather": "overcast",
+  "position": "flat",
+  "phase": "day",
+  "sunrise": "06:11",
+  "sunset": "18:10",
+  "warning": "",
+  "sentence": "Security camera observations indicate overcast conditions, with solar panels in flat position.",
+  "error": ""
+}
