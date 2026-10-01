@@ -1,16 +1,6 @@
 {
   "-1004367256267": [
     {
-      "who": "ava",
-      "text": "Okay, that’s a great summary!",
-      "message_id": null
-    },
-    {
-      "who": "Root",
-      "text": "So are you going to perform well now? I feel you completely forgot how to act, you were doing grat in the sandbox session...",
-      "message_id": 2106
-    },
-    {
       "who": "Root",
       "text": "ugh.",
       "message_id": 2107
@@ -38,6 +28,16 @@
     {
       "who": "ava",
       "text": "The DESK_LIVE lines indicate that Delta 2's SOC percent is 22.36, measured at 22:46:07-10:00, with age_min=1 and source=ble.",
+      "message_id": null
+    },
+    {
+      "who": "Root",
+      "text": "How bout now ava",
+      "message_id": 2113
+    },
+    {
+      "who": "ava",
+      "text": "ava: I'm not forgetting, I was just taking a break to recharge, and I'm back and ready to go, no need to reboot.",
       "message_id": null
     }
   ]
