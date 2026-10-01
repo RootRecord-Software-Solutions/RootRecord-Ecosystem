@@ -1,12 +1,12 @@
 {
-  "at": "2026-09-30T16:27:08-10:00",
+  "at": "2026-09-30T16:33:24-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 37,
-  "count_m2": 37,
-  "count_m25": 37,
+  "count": 36,
+  "count_m2": 36,
+  "count_m25": 36,
   "largest": {
     "id": "us6000tymj",
     "mag": 5.6,
@@ -14,7 +14,7 @@
     "time_hst": "2026-09-30T11:55:26.169000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-01T02:26:57+00:00",
+  "usgs_generated_utc": "2026-10-01T02:32:57+00:00",
   "events": [
     {
       "id": "us6000typ0",
@@ -668,22 +668,6 @@
       "tsunami": 0,
       "type": "earthquake",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyh0",
-      "nearest": null
-    },
-    {
-      "id": "us6000tygz",
-      "mag": 4.5,
-      "mag_type": "mb",
-      "place": "104 km SSE of Sarangani, Philippines",
-      "time_utc": "2026-09-30T02:30:44.716000+00:00",
-      "time_hst": "2026-09-29T16:30:44.716000-10:00",
-      "lon": 125.7472,
-      "lat": 4.5021,
-      "depth_km": 156.847,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tygz",
       "nearest": null
     }
   ]
