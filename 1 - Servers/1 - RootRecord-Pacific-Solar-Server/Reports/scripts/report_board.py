@@ -18,7 +18,7 @@ Ported unchanged: slot policy (mandatory + catch-up only for morning / midday), 
 12:00, midday before 17:00), prior-day expiry (unfinished mandatory -> missed, optional -> skipped_optional), 14-day
 history cap, oldest-first next_catchup_slot, late never caught up. Changed: G1 generated through report_generation
 (Grok/local engine + MP3) and then PLAYED the report; G3 runs the existing template roll-ups and never plays
-(playback BLOCKED). Slot times follow the G3 roll-up jobs (09:02 / 12:02 / 21:02), not G1's 10:00 / 11:55 / 22:00;
+(playback BLOCKED). Slot times follow the G3 roll-up jobs (09:00 / 12:00 / 21:00), not G1's 10:00 / 11:55 / 22:00;
 G1's evening slot was already removed there. A slot counts as done when <slot>_report_current.md was written today
 after its scheduled time. State: Database Reports/board/daily-reports-due.json (small; rewritten in place).
 """
@@ -41,9 +41,9 @@ STATE = DB / "Reports" / "board" / "daily-reports-due.json"  # info: set STATE
 REPORTS = Path(os.environ.get("RR_VOICE_REPORT_OUT", str(DB.parent / "test-reports" / "Voice")))  # info: set REPORTS
 VOICE = PACIFIC / "Media" / "Voice" / "scripts" / "voice_reports.py"  # info: set VOICE
 SLOTS = ("morning", "midday", "late")  # info: set SLOTS
-META = {"morning": {"hour": 9, "minute": 2, "mandatory": True, "catch_up_allowed": True},  # info: set META
-        "midday": {"hour": 12, "minute": 2, "mandatory": True, "catch_up_allowed": True},  # info: "midday" : { "hour" : 12 , "minute"
-        "late": {"hour": 21, "minute": 2, "mandatory": False, "catch_up_allowed": False}}  # info: "late" : { "hour" : 21 , "minute"
+META = {"morning": {"hour": 9, "minute": 0, "mandatory": True, "catch_up_allowed": True},  # info: set META
+        "midday": {"hour": 12, "minute": 0, "mandatory": True, "catch_up_allowed": True},  # info: "midday" : { "hour" : 12 , "minute"
+        "late": {"hour": 21, "minute": 0, "mandatory": False, "catch_up_allowed": False}}  # info: "late" : { "hour" : 21 , "minute"
 DONEISH = frozenset({"done", "missed", "skipped_optional"})  # info: set DONEISH
 RETRYABLE = frozenset({"due", "failed"})  # info: set RETRYABLE
 
@@ -154,6 +154,11 @@ def ensure_today(t: datetime) -> dict:  # info: def ensure_today
     for kind in SLOTS:  # info: for kind in SLOTS :
         if not isinstance(slots.get(kind), dict):  # info: if not isinstance ( slots . get (
             slots[kind] = _seed(kind, day)  # info: slots [ kind ] = _seed ( kind
+            continue  # info: continue
+        row, m = slots[kind], META[kind]  # info: row , m = slots [ kind ] , META [ kind ]
+        if row.get("hour") != m["hour"] or row.get("minute") != m["minute"]:  # info: if the stored clock is not the set time
+            row["hour"], row["minute"] = m["hour"], m["minute"]  # info: row [ "hour" ] , row [ "minute" ] = m [ "hour" ] , m [ "minute" ]
+            row["scheduled_at"] = f"{day}T{m['hour']:02d}:{m['minute']:02d}:00"  # info: row [ "scheduled_at" ] = the set clock
     return d  # info: return d
 
 
