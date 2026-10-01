@@ -19,6 +19,8 @@ ROOT = Path(__file__).resolve().parents[1]  # info: set ROOT
 CONF = ROOT / "config" / "relay.conf"  # info: set CONF
 VOICES = ROOT / "config" / "voices.conf"  # info: set VOICES
 PIPELINE_ORDER = ("ava", "bruce", "carly", "ava")  # info: set PIPELINE_ORDER
+# Desk-safe NPU tags only. gemma3:4b and larger FLM weights are refused: llama3.2:3b already maps ~10 GB.
+SAFE_NPU_MODELS = {"llama3.2:1b", "llama3.2:3b", "gemma3:1b"}  # info: set SAFE_NPU_MODELS
 SILENCE_RE = re.compile(  # info: set SILENCE_RE
     r"do not say anything|don'?t say anything|say nothing|stay silent|no replies?|nowhere near ready",  # info: r"do not say anything|don'?t say anything|say nothing|stay silent|no replies?|nowhere near ready" ,
     re.I,  # info: re . I ,
