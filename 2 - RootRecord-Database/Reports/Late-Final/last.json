@@ -1,12 +1,10 @@
 {
-  "at": "2026-09-30T00:02:39-10:00",
+  "at": "2026-09-30T23:03:46-10:00",
   "job": "voice_late_final_report",
-  "late_status": "open",
+  "late_status": "done",
   "dry_run": false,
   "night_sleep_folder": true,
   "voice": false,
-  "result": "ran",
-  "rc": 0,
-  "out": "{\"ok\": true, \"report\": \"late_report\", \"md\": \"/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/late_report_current.md\", \"sentences\": 7}",
-  "err": ""
+  "result": "skip",
+  "detail": "already_done"
 }
