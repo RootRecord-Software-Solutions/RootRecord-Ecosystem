@@ -146,8 +146,8 @@ def _has_data(fields: dict) -> bool:  # info: def _has_data
 
 
 # ====================================================
-# SECTION: function derive_charge_source
-# What it does: Delta AC in over 550 W or River AC in over 300 W is generator. Matching Delta output is a transfer.
+# SECTION: function _watts_match
+# What it does: True when two AC watt readings are the same transfer.
 # Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
 # ====================================================
 def _watts_match(a: float, b: float) -> bool:  # info: def _watts_match
