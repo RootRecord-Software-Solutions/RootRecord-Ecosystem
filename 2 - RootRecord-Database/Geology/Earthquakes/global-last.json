@@ -1,12 +1,12 @@
 {
-  "at": "2026-09-30T19:19:13-10:00",
+  "at": "2026-09-30T19:25:09-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 36,
-  "count_m2": 36,
-  "count_m25": 35,
+  "count": 35,
+  "count_m2": 35,
+  "count_m25": 34,
   "largest": {
     "id": "us6000tymj",
     "mag": 5.6,
@@ -14,7 +14,7 @@
     "time_hst": "2026-09-30T11:55:26.169000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-01T05:18:57+00:00",
+  "usgs_generated_utc": "2026-10-01T05:24:57+00:00",
   "events": [
     {
       "id": "aka2026tkmymd",
@@ -646,28 +646,6 @@
         "country_code": "NC",
         "admin1_code": null,
         "km": 249.8
-      }
-    },
-    {
-      "id": "us6000tyhn",
-      "mag": 4.6,
-      "mag_type": "mb",
-      "place": "3 km W of Thívai, Greece",
-      "time_utc": "2026-09-30T05:20:59.067000+00:00",
-      "time_hst": "2026-09-29T19:20:59.067000-10:00",
-      "lon": 23.2795,
-      "lat": 38.3276,
-      "depth_km": 9.833,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyhn",
-      "nearest": {
-        "location_id": "gr-athens",
-        "name": "Athens",
-        "country_code": "GR",
-        "admin1_code": null,
-        "km": 54.8
       }
     }
   ]
