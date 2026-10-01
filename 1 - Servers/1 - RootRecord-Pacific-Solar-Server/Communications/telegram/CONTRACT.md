@@ -5,7 +5,7 @@ Component: `Communications/telegram/scripts/council-relay.py`, started by `ensur
 ## Promises
 
 - Exactly one long-poll, Ava's token, chats listed in `config/relay.conf`.
-- Ava's replies use the `flm_model` column in `config/voices.conf` (`gemma3:4b`). Bruce and Carly stay on the relay default `llama3.2:3b`. Context stays 4096. The model loads for a reply and then stops.
+- Ava's replies use the `flm_model` column in `config/voices.conf` (`gemma3:1b`). Bruce and Carly stay on the relay default `llama3.2:3b`. Context stays 4096. The model loads for a reply and then stops.
 - The original council chat replies when `COUNCIL_REPLIES=1`.
 - The sandbox replies when `SANDBOX_REPLIES=1`.
 - Private DMs are held, not answered, while `RR_RELAY_REPLIES` is 0.
@@ -36,7 +36,8 @@ Component: `Communications/telegram/scripts/council-relay.py`, started by `ensur
 - A second getUpdates loop.
 - Printing a bot token.
 - Enabling quake or stats sends from this process.
-- Raising FLM context above 4096, or leaving a 3B model resident.
+- Raising FLM context above 4096, or leaving a model resident.
+- Pointing this relay at an FLM tag outside `gemma3:1b`, `llama3.2:1b`, and `llama3.2:3b`.
 - Treating a Telegram username as build permission.
 - Seeding interaction requests from the live council chat.
 - Treating a social "how are you" as a license to dump watts, or answering "No data" when the desk lines are present and the person asked what you see.

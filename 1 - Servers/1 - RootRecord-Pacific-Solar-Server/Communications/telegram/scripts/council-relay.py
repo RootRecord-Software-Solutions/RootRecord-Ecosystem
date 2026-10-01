@@ -266,6 +266,12 @@ def run_infer(cfg, voice, prompt, prior="", flm_model=""):  # info: def run_infe
         run = str(ROOT.parent.parent.parent / "System" / "scripts" / "plumbing" / "run-infer.sh")  # info: set run
     full = prompt if not prior else f"Prior turns:\n{prior}\n\nYour turn as {voice}.\nUser:\n{prompt}"  # info: set full
     env = os.environ.copy()  # info: set env
+    env["RR_NPU_ONLY"] = "1"  # info: env [ "RR_NPU_ONLY" ] = "1"
+    env["FLM_CTX_LEN"] = "4096"  # info: env [ "FLM_CTX_LEN" ] = "4096"
+    env["FLM_ON_DEMAND"] = "1"  # info: env [ "FLM_ON_DEMAND" ] = "1"
+    if flm_model and flm_model not in SAFE_NPU_MODELS:  # info: if flm_model and flm_model not in SAFE_NPU_MODELS
+        print(f"[warn] refused NPU tag {flm_model} — staying on the relay default", file=sys.stderr)  # info: call print
+        flm_model = ""  # info: set flm_model
     if flm_model:  # info: if flm_model
         env["FLM_MODEL"] = flm_model  # info: env [ "FLM_MODEL" ] = flm_model
     try:  # info: try

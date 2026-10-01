@@ -1,6 +1,6 @@
 {
   "voice": "ava",
-  "base_model": "gemma3:4b",
+  "base_model": "gemma3:1b",
   "source": "Ollama/Modelfiles/Production/ava-telegram.Modelfile",
   "temperature": 0.25,
   "max_tokens": 512,
