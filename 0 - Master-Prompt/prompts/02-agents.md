@@ -12,6 +12,8 @@ Current conceptual processing loop:
 
 This framework contains unresolved architectural questions. Do not invent final authority, values, memory boundaries, identity, or delegation rules.
 
+The live desk has a narrower contract than this prompt. Council order on a request is Ava, then Bruce, then Carly. Build eligibility is a numeric Telegram id. Agents cannot build. Read `5 - RootRecord-Library/Documentation/02-agents/INTERACTION-MODES.md` and `Documentation/01-operations/HANDOFF.md` before treating the loop above as permission.
+
 ## Advisory vs verification
 
 Agent output is advisory.
