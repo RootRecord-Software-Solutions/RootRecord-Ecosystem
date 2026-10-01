@@ -9,6 +9,7 @@
     <application
         android:allowBackup="false"
         android:label="Root Ops"
+        android:usesCleartextTraffic="true"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
         <activity

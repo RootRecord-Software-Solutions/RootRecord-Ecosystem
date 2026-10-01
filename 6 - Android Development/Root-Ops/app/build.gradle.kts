@@ -12,15 +12,15 @@ android {
         applicationId = "com.rootrecord.rootops"
         minSdk = 24
         targetSdk = 36
-        versionCode = 2
-        versionName = "0.2.0"
+        versionCode = 3
+        versionName = "0.3.0"
     }
 
     buildTypes {
         debug {
-            buildConfigField("String", "OPS_API_BASE_URL", "\"http://10.0.2.2:8787\"")
-            buildConfigField("String", "OPS_LOCAL_API_BASE_URL", "\"http://10.0.2.2:8787\"")
-            buildConfigField("String", "OPS_CLOUDFLARE_API_BASE_URL", "\"\"")
+            buildConfigField("String", "OPS_API_BASE_URL", "\"http://10.0.2.2:8799\"")
+            buildConfigField("String", "OPS_LOCAL_API_BASE_URL", "\"http://10.0.2.2:8799\"")
+            buildConfigField("String", "OPS_CLOUDFLARE_API_BASE_URL", "\"https://rootserver.rootrecord.cloud\"")
             buildConfigField("String", "OPS_BLUETOOTH_DEVICE_ADDRESS", "\"\"")
             buildConfigField("String", "OPS_BLUETOOTH_DEVICE_NAME", "\"\"")
         }
@@ -30,10 +30,9 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro",
             )
-            // OmniBook desk LAN fallback after Bluetooth; override in Connection Settings.
-            buildConfigField("String", "OPS_API_BASE_URL", "\"http://192.168.1.66:8787\"")
-            buildConfigField("String", "OPS_LOCAL_API_BASE_URL", "\"http://192.168.1.66:8787\"")
-            buildConfigField("String", "OPS_CLOUDFLARE_API_BASE_URL", "\"\"")
+            buildConfigField("String", "OPS_API_BASE_URL", "\"https://rootserver.rootrecord.cloud\"")
+            buildConfigField("String", "OPS_LOCAL_API_BASE_URL", "\"https://rootserver.rootrecord.cloud\"")
+            buildConfigField("String", "OPS_CLOUDFLARE_API_BASE_URL", "\"https://rootserver.rootrecord.cloud\"")
             buildConfigField("String", "OPS_BLUETOOTH_DEVICE_ADDRESS", "\"\"")
             buildConfigField("String", "OPS_BLUETOOTH_DEVICE_NAME", "\"\"")
         }

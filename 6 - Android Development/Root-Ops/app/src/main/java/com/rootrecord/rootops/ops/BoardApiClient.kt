@@ -217,7 +217,93 @@ private fun JSONObject.toMinecraftInfo(): MinecraftLiveInfo {
         jar = optString("jar").takeIf { it.isNotBlank() },
         plugins = optIntOrNull("plugins"),
         dirPresent = optBoolean("dir_present", false) || optBoolean("dirPresent", false),
+        testHost = test.optString("name").takeIf { it.isNotBlank() } ?: test.optString("host").takeIf { it.isNotBlank() },
+        testDetail = test.optString("detail").takeIf { it.isNotBlank() },
+        testProbed = if (test.has("probed") && !test.isNull("probed")) test.optBoolean("probed") else true,
     )
+}
+
+private fun JSONObject.toStackServices(): List<StackService> {
+    val arr = optJSONArray("services") ?: return emptyList()
+    val out = mutableListOf<StackService>()
+    for (i in 0 until arr.length()) {
+        val item = arr.optJSONObject(i) ?: continue
+        val id = item.optString("id").takeIf { it.isNotBlank() } ?: continue
+        out.add(StackService(id = id, label = item.optString("label", id), up = item.optBoolean("up", false)))
+    }
+    return out
+}
+
+private fun composePollerBoard(energy: JSONObject?, system: JSONObject?): RootBoardSnapshot {
+    val power = energy?.toPollerEnergyPower()
+    val host = system?.toSystemStatusHost()
+    return RootBoardSnapshot(
+        ok = power?.ok == true || host != null,
+        generatedAt = energy?.optString("updated")?.takeIf { it.isNotBlank() }
+            ?: system?.optString("generated_at")?.takeIf { it.isNotBlank() },
+        power = power,
+        host = host,
+        servers = listOf(
+            OpsServer("prod", "RootMC", ProviderKind.ROOTRECORD, ServerStatus.UNKNOWN, address = "play.rootmc.net"),
+            OpsServer("test", "ava-core", ProviderKind.ROOTRECORD, ServerStatus.UNKNOWN, address = "OptiPlex"),
+        ),
+    )
+}
+
+private fun JSONObject.toPollerEnergyPower(): PowerInfo {
+    val river = optDisplayNumber("riverSoc")
+    val delta = optDisplayNumber("deltaSoc")
+    val solar = optDisplayNumber("solarInW")
+    val ac = optDisplayNumber("acOut")
+    val devices = mutableListOf<PowerDevice>()
+    if (river != null || optString("riverSoc").isNotBlank()) {
+        devices.add(PowerDevice("River 2 Pro", river?.toInt(), river != null, null, null, ac, "B1"))
+    }
+    if (delta != null || optString("deltaSoc").isNotBlank()) {
+        devices.add(PowerDevice("Delta 2", delta?.toInt(), delta != null, solar, null, ac, "B2"))
+    }
+    return PowerInfo(
+        ok = devices.isNotEmpty(),
+        live = optString("status").equals("live", ignoreCase = true),
+        source = "EcoFlow samples on this desk",
+        batteryPct = delta ?: river,
+        solarInW = solar,
+        ebattInW = null,
+        loadW = ac,
+        state = optString("status").takeIf { it.isNotBlank() },
+        devices = devices,
+        detail = optString("note").takeIf { it.isNotBlank() },
+    )
+}
+
+private fun JSONObject.toSystemStatusHost(): HostInfo? {
+    val metrics = optJSONObject("current")?.optJSONObject("metrics") ?: return null
+    fun value(name: String): Double? = metrics.optJSONObject(name)?.optDoubleOrNull("value")
+    val total = value("mem_total_bytes")
+    val avail = value("mem_available_bytes")
+    val usedGb = if (total != null && avail != null) (total - avail) / (1024.0 * 1024.0 * 1024.0) else null
+    val totalGb = total?.div(1024.0 * 1024.0 * 1024.0)
+    return HostInfo(
+        cpuPct = value("cpu_percent"),
+        memPct = value("mem_used_percent"),
+        memUsedGb = usedGb,
+        memTotalGb = totalGb,
+        tempC = null,
+        hostBatteryPct = null,
+        diskPct = null,
+        gpuName = null,
+        load1 = value("load1"),
+        load5 = value("load5"),
+        load15 = value("load15"),
+        hostName = optString("host").takeIf { it.isNotBlank() },
+    )
+}
+
+private fun JSONObject.optDisplayNumber(name: String): Double? {
+    val text = optDisplayString(name) ?: return null
+    val cleaned = text.replace("%", "").replace("W", "", ignoreCase = true).trim()
+    if (cleaned.equals("No data", ignoreCase = true) || cleaned.equals("Waiting", ignoreCase = true)) return null
+    return cleaned.toDoubleOrNull()
 }
 
 private fun JSONObject.toInboxInfo() = InboxInfo(

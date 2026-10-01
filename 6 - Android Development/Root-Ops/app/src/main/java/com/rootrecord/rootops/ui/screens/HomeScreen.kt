@@ -48,12 +48,6 @@ fun HomeScreen(
     transport: OpsTransport,
     transportDetail: String,
     servers: List<OpsServer>,
-    selectedServerId: String,
-    onSelectServer: (String) -> Unit,
-    onServerAction: (String, String) -> Unit,
-    rconCommand: String,
-    onRconCommandChange: (String) -> Unit,
-    onRconSend: () -> Unit,
     audit: List<String>,
     board: RootBoardSnapshot?,
     boardError: String?,
@@ -100,17 +94,14 @@ fun HomeScreen(
             item {
                 PanelCard {
                     Text("No live servers yet", fontWeight = FontWeight.SemiBold)
-                    Text("Refresh after Bluetooth or LAN connects to Ava.", style = MaterialTheme.typography.bodySmall, color = AvaTextMuted)
+                    Text("Refresh after the desk poller answers.", style = MaterialTheme.typography.bodySmall, color = AvaTextMuted)
                 }
             }
         }
         items(servers, key = { it.id }) { server ->
-            Card(colors = CardDefaults.cardColors(containerColor = if (server.id == selectedServerId) Color(0xFF1C2A20) else AvaPanel)) {
+            Card(colors = CardDefaults.cardColors(containerColor = AvaPanel)) {
                 Column(
-                    Modifier.fillMaxWidth().padding(16.dp).clickable {
-                        onSelectServer(server.id)
-                        onOpenServices()
-                    },
+                    Modifier.fillMaxWidth().padding(16.dp).clickable { onOpenServices() },
                     verticalArrangement = Arrangement.spacedBy(10.dp),
                 ) {
                     Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
@@ -136,32 +127,6 @@ fun HomeScreen(
                             )
                         }
                     }
-                }
-                Row(
-                    Modifier.fillMaxWidth().padding(start = 16.dp, end = 16.dp, bottom = 16.dp),
-                    horizontalArrangement = Arrangement.spacedBy(8.dp),
-                ) {
-                    OutlinedButton(onClick = { onServerAction(server.id, "start") }) { Text("Start") }
-                    OutlinedButton(onClick = { onServerAction(server.id, "stop") }) { Text("Stop") }
-                    Button(onClick = { onServerAction(server.id, "restart") }) { Text("Restart") }
-                }
-            }
-        }
-        item {
-            val activeLabel = servers.firstOrNull { it.id == selectedServerId }?.name ?: selectedServerId.ifBlank { "none" }
-            PanelCard {
-                Text("Allowlisted RCON", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
-                Text("RootRecord · $activeLabel", style = MaterialTheme.typography.bodySmall, color = AvaTextMuted)
-                OutlinedTextField(
-                    value = rconCommand,
-                    onValueChange = onRconCommandChange,
-                    modifier = Modifier.fillMaxWidth(),
-                    singleLine = true,
-                    label = { Text("Command") },
-                    placeholder = { Text("list, say ..., save-all") },
-                )
-                Button(onClick = onRconSend, enabled = rconCommand.isNotBlank(), modifier = Modifier.fillMaxWidth()) {
-                    Text("Send command")
                 }
             }
         }

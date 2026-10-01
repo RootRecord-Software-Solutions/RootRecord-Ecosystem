@@ -62,8 +62,9 @@ fun SystemMetricsScreen(
                 }
                 item {
                     PanelCard {
-                        Text("Ava host", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
-                        InfoRow("Memory", listOfNotNull(host.memUsedGb?.let { "$it GB used" }, host.memTotalGb?.let { "$it GB total" }).joinToString(" / ").ifBlank { "—" })
+                        Text(host.hostName ?: "Pacific desk", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+                        InfoRow("Load", listOf(host.load1, host.load5, host.load15).joinToString(" / ") { it?.let { n -> String.format("%.2f", n) } ?: "—" })
+                        InfoRow("Memory", listOfNotNull(host.memUsedGb?.let { String.format("%.1f GB used", it) }, host.memTotalGb?.let { String.format("%.1f GB total", it) }).joinToString(" / ").ifBlank { "—" })
                         InfoRow("Temp", host.tempC?.let { "$it °C" } ?: "—")
                         InfoRow("Disk", formatPct(host.diskPct))
                         InfoRow("GPU", host.gpuName ?: "—")
@@ -99,7 +100,6 @@ fun SystemMetricsScreen(
                             StatusPill(if (mysql.live) "Live" else "Down", if (mysql.live) AvaAccent else AvaWarning)
                         }
                         InfoRow("Local 3306", if (mysql.local3306) "Open" else "Closed")
-                        InfoRow("Shockbyte", if (mysql.shockbyte) "Reachable" else "No")
                     }
                 }
             }

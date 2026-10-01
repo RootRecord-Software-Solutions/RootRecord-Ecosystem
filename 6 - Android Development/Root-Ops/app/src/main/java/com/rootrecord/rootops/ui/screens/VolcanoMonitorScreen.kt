@@ -28,7 +28,7 @@ import com.rootrecord.rootops.ui.theme.WaitingForLive
 @Composable
 fun VolcanoMonitorScreen(kilauea: KilaueaInfo?, onBack: () -> Unit, onRefresh: () -> Unit = {}) {
     val level = kilauea?.alertLevel?.replaceFirstChar { it.uppercase() } ?: "Unknown"
-    DetailScaffold(title = "Kīlauea Monitor", subtitle = "USGS via Ava board", onBack = onBack) { insets ->
+    DetailScaffold(title = "Kīlauea Monitor", subtitle = "USGS Hawaiian Volcano Observatory", onBack = onBack) { insets ->
         LazyColumn(
             modifier = Modifier.fillMaxSize().padding(insets).padding(horizontal = 16.dp),
             verticalArrangement = Arrangement.spacedBy(14.dp),
@@ -45,7 +45,7 @@ fun VolcanoMonitorScreen(kilauea: KilaueaInfo?, onBack: () -> Unit, onRefresh: (
                 item {
                     PanelCard {
                         Text(level, fontWeight = FontWeight.Bold, style = MaterialTheme.typography.titleMedium, color = AvaAccent)
-                        Text(kilauea.detail ?: "Alert level from the Ava Kīlauea feed.", color = AvaTextMuted)
+                        Text(kilauea.detail ?: "Alert level from the HVO Kīlauea feed.", color = AvaTextMuted)
                         InfoRow("Economy multiplier", kilauea.multiplier?.toString() ?: "—")
                         InfoRow("Nearby events", kilauea.eventsNearby?.toString() ?: "—")
                         InfoRow("Max magnitude", kilauea.maxMagnitude?.toString() ?: "—")

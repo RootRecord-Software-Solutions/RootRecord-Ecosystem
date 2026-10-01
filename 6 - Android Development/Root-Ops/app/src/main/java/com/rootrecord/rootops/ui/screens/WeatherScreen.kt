@@ -71,7 +71,7 @@ fun WeatherScreen(weather: WeatherInfo?, onBack: () -> Unit, onRefresh: () -> Un
                         PanelStat(
                             label = "Last pull",
                             value = formatIso(weather.updatedAt),
-                            detail = "From Ava weather feed",
+                            detail = "From the Hawaii state weather report",
                             modifier = Modifier.weight(1f),
                         )
                     }
@@ -84,7 +84,7 @@ fun WeatherScreen(weather: WeatherInfo?, onBack: () -> Unit, onRefresh: () -> Un
             }
             item {
                 Text(
-                    "National Weather Service via Ava board — county tiles are omitted until the API sends them.",
+                    "National Weather Service Honolulu. The phone shows today's zone line from the Hawaii state report.",
                     style = MaterialTheme.typography.labelSmall,
                     color = AvaTextMuted,
                 )

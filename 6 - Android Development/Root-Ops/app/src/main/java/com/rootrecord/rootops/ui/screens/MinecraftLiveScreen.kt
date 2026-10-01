@@ -55,12 +55,20 @@ fun MinecraftLiveScreen(minecraft: MinecraftLiveInfo?, onBack: () -> Unit, onRef
                 }
                 item {
                     PanelCard {
-                        Text("Test / local jar", fontWeight = FontWeight.Bold)
-                        InfoRow("Test online", if (minecraft.testOnline) "Yes" else "No")
-                        InfoRow("Test latency", minecraft.testLatencyMs?.let { "${it} ms" } ?: "—")
-                        InfoRow("Jar", minecraft.jar ?: "—")
-                        InfoRow("Plugins", minecraft.plugins?.toString() ?: "—")
-                        InfoRow("Server dir", if (minecraft.dirPresent) "Present" else "Missing")
+                        Text(minecraft.testHost ?: "ava-core", fontWeight = FontWeight.Bold)
+                        Text("OptiPlex test host", style = MaterialTheme.typography.labelSmall, color = AvaTextMuted)
+                        InfoRow(
+                            "Status",
+                            when {
+                                !minecraft.testProbed -> "Not probed from this desk"
+                                minecraft.testOnline -> "Online"
+                                else -> "Down"
+                            },
+                        )
+                        InfoRow("Latency", minecraft.testLatencyMs?.let { "${it} ms" } ?: "—")
+                        if (minecraft.testDetail != null) {
+                            Text(minecraft.testDetail, color = AvaTextMuted)
+                        }
                     }
                 }
             }

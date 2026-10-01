@@ -47,7 +47,7 @@ fun EcoFlowPowerScreen(power: PowerInfo?, onBack: () -> Unit, onRefresh: () -> U
         else -> AvaAccent
     }
     val onlineCount = power?.devices?.count { it.online } ?: 0
-    DetailScaffold(title = "EcoFlow / Power", subtitle = power?.source ?: "Ava solar snapshot", onBack = onBack) { insets ->
+    DetailScaffold(title = "EcoFlow / Power", subtitle = power?.source ?: "Delta 2 and River 2 Pro", onBack = onBack) { insets ->
         LazyColumn(
             modifier = Modifier.fillMaxSize().padding(insets).padding(horizontal = 16.dp),
             verticalArrangement = Arrangement.spacedBy(14.dp),
@@ -65,32 +65,32 @@ fun EcoFlowPowerScreen(power: PowerInfo?, onBack: () -> Unit, onRefresh: () -> U
                         }
                     }
                 }
-                item {
-                    val genColor = when {
-                        power.overCeiling == true -> AvaWarning
-                        power.generator == true -> AvaAccent
-                        else -> AvaTextMuted
-                    }
-                    PanelCard {
-                        Text("GENERATOR", style = MaterialTheme.typography.labelSmall, color = AvaTextMuted)
-                        Text(
-                            when {
-                                power.overCeiling == true -> "FAULT — over ceiling"
-                                power.generator == true -> "ON"
-                                power.bleGone == true -> "UNKNOWN"
-                                else -> "OFF"
-                            },
-                            style = MaterialTheme.typography.titleLarge,
-                            fontWeight = FontWeight.Bold,
-                            color = genColor,
-                        )
-                        Text(
-                            power.generatorCard
-                                ?: "Facts from the desk live file. Not a Settings toggle.",
-                            color = AvaTextMuted,
-                        )
-                        if (power.acInW != null) {
-                            Text("AC-in ${formatWatts(power.acInW)}", color = AvaTextMuted)
+                if (power.generator != null || power.overCeiling == true || power.bleGone == true) {
+                    item {
+                        val genColor = when {
+                            power.overCeiling == true -> AvaWarning
+                            power.generator == true -> AvaAccent
+                            else -> AvaTextMuted
+                        }
+                        PanelCard {
+                            Text("GENERATOR", style = MaterialTheme.typography.labelSmall, color = AvaTextMuted)
+                            Text(
+                                when {
+                                    power.overCeiling == true -> "FAULT — over ceiling"
+                                    power.generator == true -> "ON"
+                                    power.bleGone == true -> "UNKNOWN"
+                                    else -> "OFF"
+                                },
+                                style = MaterialTheme.typography.titleLarge,
+                                fontWeight = FontWeight.Bold,
+                                color = genColor,
+                            )
+                            if (power.generatorCard != null) {
+                                Text(power.generatorCard, color = AvaTextMuted)
+                            }
+                            if (power.acInW != null) {
+                                Text("AC-in ${formatWatts(power.acInW)}", color = AvaTextMuted)
+                            }
                         }
                     }
                 }

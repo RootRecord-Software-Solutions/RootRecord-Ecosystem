@@ -4,8 +4,8 @@ import kotlinx.coroutines.delay
 
 class MockOpsProvider : OpsProvider {
     private val initialServers = listOf(
-        OpsServer("prod", "Production", ProviderKind.ROOTRECORD, ServerStatus.ONLINE, 3, 20, "play.rootmc.net"),
-        OpsServer("test", "Test", ProviderKind.ROOTRECORD, ServerStatus.OFFLINE, 0, 10, "test.rootmc.net"),
+        OpsServer("prod", "RootMC", ProviderKind.ROOTRECORD, ServerStatus.UNKNOWN, address = "play.rootmc.net"),
+        OpsServer("test", "ava-core", ProviderKind.ROOTRECORD, ServerStatus.UNKNOWN, address = "OptiPlex"),
     )
 
     private val state = initialServers.toMutableList()

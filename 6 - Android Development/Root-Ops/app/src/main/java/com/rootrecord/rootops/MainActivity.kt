@@ -8,6 +8,7 @@ import android.provider.Settings
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -99,6 +100,7 @@ import kotlinx.coroutines.launch
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        enableEdgeToEdge()
         super.onCreate(savedInstanceState)
         setContent { RootOpsApp() }
     }
@@ -126,8 +128,8 @@ private val quickStatusRoutes = mapOf(
     "earthquake" to Routes.EARTHQUAKE,
     "power" to Routes.POWER,
     "reports" to Routes.REPORTS,
-    "media" to Routes.MEDIA,
-    "messaging" to Routes.MESSAGING,
+    "cameras" to Routes.MEDIA,
+    "services" to Routes.SERVICES,
     "minecraft" to Routes.MINECRAFT,
     "metrics" to Routes.METRICS,
 )
@@ -314,7 +316,7 @@ private fun RootOpsApp() {
                     title = {
                         Column {
                             Text("Root Ops", fontWeight = FontWeight.Bold)
-                            Text("Private control panel", style = MaterialTheme.typography.labelSmall)
+                            Text("Pacific desk", style = MaterialTheme.typography.labelSmall)
                         }
                     },
                     navigationIcon = {
@@ -348,12 +350,6 @@ private fun RootOpsApp() {
                         transport = activeTransport,
                         transportDetail = providerDetail,
                         servers = servers,
-                        selectedServerId = selectedServer,
-                        onSelectServer = { selectedServer = it },
-                        onServerAction = ::updateServer,
-                        rconCommand = rconCommand,
-                        onRconCommandChange = { rconCommand = it },
-                        onRconSend = ::sendRcon,
                         audit = audit,
                         board = board,
                         boardError = boardError,
@@ -365,38 +361,12 @@ private fun RootOpsApp() {
                     )
                 }
                 composable(Routes.SERVICES) {
-                    val server = servers.firstOrNull { it.id == selectedServer } ?: servers.firstOrNull()
-                    if (server == null) {
-                        RootRecordServicesScreen(
-                            server = OpsServer("none", "No live server", ProviderKind.ROOTRECORD, ServerStatus.UNKNOWN),
-                            origin = board?.origin,
-                            procs = board?.procs,
-                            tunnel = board?.tunnel,
-                            minecraft = board?.minecraft,
-                            rconCommand = rconCommand,
-                            onCommandChange = { rconCommand = it },
-                            onSend = ::sendRcon,
-                            onStart = {},
-                            onStop = {},
-                            onRestart = {},
-                            onBack = { navController.popBackStack() },
-                        )
-                    } else {
-                        RootRecordServicesScreen(
-                            server = server,
-                            origin = board?.origin,
-                            procs = board?.procs,
-                            tunnel = board?.tunnel,
-                            minecraft = board?.minecraft,
-                            rconCommand = rconCommand,
-                            onCommandChange = { rconCommand = it },
-                            onSend = ::sendRcon,
-                            onStart = { updateServer(server.id, "start") },
-                            onStop = { updateServer(server.id, "stop") },
-                            onRestart = { updateServer(server.id, "restart") },
-                            onBack = { navController.popBackStack() },
-                        )
-                    }
+                    RootRecordServicesScreen(
+                        servers = servers,
+                        services = board?.services.orEmpty(),
+                        tunnel = board?.tunnel,
+                        onBack = { navController.popBackStack() },
+                    )
                 }
                 composable(Routes.OPS_API) {
                     val cfg = remember(configRevision) { configStore.load() }
@@ -540,7 +510,7 @@ private fun SettingsDialog(
                         )
                         Column {
                             Text("Auto-Detect Workstation", fontWeight = FontWeight.Bold, style = MaterialTheme.typography.bodyMedium)
-                            Text("Connects to bonded 'Ava', 'RootRecord', or 'Desk'", style = MaterialTheme.typography.labelSmall, color = Color.White.copy(alpha = 0.6f))
+                            Text("Connects to a bonded RootRecord or Desk machine", style = MaterialTheme.typography.labelSmall, color = Color.White.copy(alpha = 0.6f))
                         }
                     }
                 }
@@ -593,7 +563,7 @@ private fun SettingsDialog(
                     value = localUrl,
                     onValueChange = { localUrl = it },
                     label = { Text("Localhost / LAN API Base URL") },
-                    placeholder = { Text("http://192.168.1.66:8787") },
+                    placeholder = { Text("https://rootserver.rootrecord.cloud") },
                     singleLine = true,
                     modifier = Modifier.fillMaxWidth(),
                 )

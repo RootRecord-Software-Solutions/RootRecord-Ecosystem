@@ -37,20 +37,19 @@ import com.rootrecord.rootops.ui.theme.WaitingForLive
 
 @Composable
 fun ObsMediaScreen(media: MediaInfo?, onBack: () -> Unit, onRefresh: () -> Unit = {}) {
-    DetailScaffold(title = "OBS & Media", onBack = onBack) { insets ->
+    DetailScaffold(title = "Cameras", subtitle = "A-EYES on this desk", onBack = onBack) { insets ->
         LazyColumn(
             modifier = Modifier.fillMaxSize().padding(insets).padding(horizontal = 16.dp),
             verticalArrangement = Arrangement.spacedBy(14.dp),
         ) {
             if (media == null) {
-                item { WaitingForLive("Media folders are not in the current board snapshot.") }
+                item { WaitingForLive("Camera status is not in the current board snapshot.") }
             } else {
-                item { FolderCard("Public media", media.public) }
-                item { FolderCard("Private media", media.private) }
+                item { FolderCard("A-EYES", media.public) }
                 val types = (media.public?.typeNames.orEmpty() + media.private?.typeNames.orEmpty()).distinct()
                 if (types.isNotEmpty()) {
                     item {
-                        Text("Types on disk", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+                        Text("Channels", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
                     }
                     items(types, key = { it }) { name ->
                         Card(colors = CardDefaults.cardColors(containerColor = AvaPanel)) {
@@ -68,7 +67,7 @@ fun ObsMediaScreen(media: MediaInfo?, onBack: () -> Unit, onRefresh: () -> Unit 
             }
             item {
                 OutlinedButton(onClick = onRefresh, modifier = Modifier.fillMaxWidth()) {
-                    Text("Refresh media")
+                    Text("Refresh cameras")
                 }
             }
             item { Spacer(Modifier.height(24.dp)) }
@@ -82,7 +81,7 @@ private fun FolderCard(title: String, folder: MediaFolderInfo?) {
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
             Text(title, fontWeight = FontWeight.Bold, style = MaterialTheme.typography.titleMedium)
             StatusPill(
-                if (folder?.exists == true) "On disk" else "Missing",
+                if (folder?.exists == true) "Up" else "Down",
                 if (folder?.exists == true) AvaAccent else AvaWarning,
             )
         }
