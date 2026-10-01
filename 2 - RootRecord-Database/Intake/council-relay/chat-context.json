@@ -6,16 +6,6 @@
       "message_id": null
     },
     {
-      "who": "Sara",
-      "text": "🙏",
-      "message_id": 2100
-    },
-    {
-      "who": "ava",
-      "text": "I'm doing well, thanks for asking.",
-      "message_id": null
-    },
-    {
       "who": "Root",
       "text": "Ava?",
       "message_id": 2102
@@ -39,6 +29,16 @@
       "who": "Root",
       "text": "So are you going to perform well now? I feel you completely forgot how to act, you were doing grat in the sandbox session...",
       "message_id": 2106
+    },
+    {
+      "who": "Root",
+      "text": "ugh.",
+      "message_id": 2107
+    },
+    {
+      "who": "ava",
+      "text": "The DESK_LIVE lines above are measured. If they answer the question, use them. Do not say you lack access.",
+      "message_id": null
     }
   ]
 }
