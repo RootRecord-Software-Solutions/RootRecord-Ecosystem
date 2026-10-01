@@ -1,21 +1,37 @@
 {
-  "at": "2026-09-30T16:49:03-10:00",
+  "at": "2026-09-30T17:00:09-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 35,
-  "count_m2": 35,
-  "count_m25": 35,
+  "count": 36,
+  "count_m2": 36,
+  "count_m25": 36,
   "largest": {
     "id": "us6000tymj",
     "mag": 5.6,
     "place": "94 km SW of Tamarindo, Costa Rica",
     "time_hst": "2026-09-30T11:55:26.169000-10:00"
   },
-  "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-01T02:48:57+00:00",
+  "new_this_run": 1,
+  "usgs_generated_utc": "2026-10-01T02:59:57+00:00",
   "events": [
+    {
+      "id": "us6000typ7",
+      "mag": 4.4,
+      "mag_type": "mb",
+      "place": "Fiji region",
+      "time_utc": "2026-10-01T02:40:40.210000+00:00",
+      "time_hst": "2026-09-30T16:40:40.210000-10:00",
+      "lon": -179.2476,
+      "lat": -20.9019,
+      "depth_km": 637.906,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000typ7",
+      "nearest": null
+    },
     {
       "id": "us6000typ0",
       "mag": 4.6,
