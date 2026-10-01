@@ -60,9 +60,9 @@ Nothing in the 2026-09-30 verify set is a confirmed failure. Run verify before b
 
 ## In progress
 
-The state aggregator writes schema 2: domains, drift, visibility, and projections. The context builder only switches slices for power questions versus scope questions. It is not a full per-request assembler.
+The state aggregator writes schema 2: domains, drift, visibility, and projections. The context builder switches slices for power questions versus scope questions. It is not a full per-request assembler.
 
-`jobs.py` still says `llama3.2:1b` and an Ollama fallback. The relay observes `llama3.2:3b` and no fallback. That disagreement is recorded as `configuration_drift`. Do not delete either side to make the warning go away without an operator decision.
+Non-council callers and `flm-warmup.sh` still default to `llama3.2:1b`. The council line in `jobs.py` names `llama3.2:3b` and no Ollama fallback, matching `ensure-relay.sh`.
 
 ## Next
 
