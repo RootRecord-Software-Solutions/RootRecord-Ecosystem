@@ -14,6 +14,7 @@ import json, subprocess, sys  # info: import json , subprocess , sys
 from pathlib import Path  # info: from pathlib import Path
 
 import audit  # info: import audit
+import gates  # info: import gates
 
 ROOT = Path("/home/rootrecord/RootRecord-Ecosystem")  # info: set ROOT
 REGISTRY = ROOT / "5 - RootRecord-Library" / "Documentation" / "02-agents" / "capabilities" / "capability-registry.json"  # info: set REGISTRY
