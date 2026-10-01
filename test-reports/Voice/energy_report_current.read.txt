@@ -1,1 +1,1 @@
-Energy desk report. Delta 2 battery 22%, solar input zero watts, output zero watts. Delta 2 is out of range. River 2 Pro battery 14%, solar input zero watts, output 114 watts.
+Energy desk report. Delta 2 battery 100%, solar input zero watts, output 77 watts. River 2 Pro battery 12%, solar input zero watts, output 123 watts. Security camera observations indicate rainy conditions, with solar panels in the morning position, left side up. Human intervention is needed. Daytime calls for the panels flat.
