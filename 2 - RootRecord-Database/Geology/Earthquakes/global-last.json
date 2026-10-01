@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-01T13:23:56-10:00",
+  "at": "2026-10-01T13:37:43-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
@@ -13,8 +13,8 @@
     "place": "0 km NNE of Yōkaichiba, Japan",
     "time_hst": "2026-10-01T02:27:11.864000-10:00"
   },
-  "new_this_run": 1,
-  "usgs_generated_utc": "2026-10-01T23:23:57+00:00",
+  "new_this_run": 0,
+  "usgs_generated_utc": "2026-10-01T23:36:57+00:00",
   "events": [
     {
       "id": "us6000tyxk",
