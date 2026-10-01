@@ -1,0 +1,222 @@
+{
+  "ok": true,
+  "count": 24,
+  "chimes": [
+    {
+      "hour": 0,
+      "persona": "ava",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "text": "It is currently midnight in Hawaii. Mountain Daylight Time is four a.m. Eastern time is six a.m. U.T.C. is ten a.m.",
+      "spoken": "It is currently midnight in hahwye-ee. Mountain Daylight Time is four a.m. Eastern time is six a.m. U.T.C. is ten a.m.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-00.wav"
+    },
+    {
+      "hour": 1,
+      "persona": "bruce",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "text": "It is currently one a.m. in Hawaii. Mountain Daylight Time is five a.m. Eastern time is seven a.m. U.T.C. is eleven a.m.",
+      "spoken": "It is currently one a.m. in hahwye-ee. Mountain Daylight Time is five a.m. Eastern time is seven a.m. U.T.C. is eleven a.m.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-01.wav"
+    },
+    {
+      "hour": 2,
+      "persona": "carly",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "text": "It is currently two a.m. in Hawaii. Mountain Daylight Time is six a.m. Eastern time is eight a.m. U.T.C. is noon.",
+      "spoken": "It is currently two a.m. in hahwye-ee. Mountain Daylight Time is six a.m. Eastern time is eight a.m. U.T.C. is noon.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-02.wav"
+    },
+    {
+      "hour": 3,
+      "persona": "ava",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "text": "It is currently three a.m. in Hawaii. Mountain Daylight Time is seven a.m. Eastern time is nine a.m. U.T.C. is one p.m.",
+      "spoken": "It is currently three a.m. in hahwye-ee. Mountain Daylight Time is seven a.m. Eastern time is nine a.m. U.T.C. is one p.m.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-03.wav"
+    },
+    {
+      "hour": 4,
+      "persona": "bruce",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "text": "It is currently four a.m. in Hawaii. Mountain Daylight Time is eight a.m. Eastern time is ten a.m. U.T.C. is two p.m.",
+      "spoken": "It is currently four a.m. in hahwye-ee. Mountain Daylight Time is eight a.m. Eastern time is ten a.m. U.T.C. is two p.m.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-04.wav"
+    },
+    {
+      "hour": 5,
+      "persona": "carly",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "text": "It is currently five a.m. in Hawaii. Mountain Daylight Time is nine a.m. Eastern time is eleven a.m. U.T.C. is three p.m.",
+      "spoken": "It is currently five a.m. in hahwye-ee. Mountain Daylight Time is nine a.m. Eastern time is eleven a.m. U.T.C. is three p.m.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-05.wav"
+    },
+    {
+      "hour": 6,
+      "persona": "ava",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "text": "It is currently six a.m. in Hawaii. Mountain Daylight Time is ten a.m. Eastern time is noon. U.T.C. is four p.m.",
+      "spoken": "It is currently six a.m. in hahwye-ee. Mountain Daylight Time is ten a.m. Eastern time is noon. U.T.C. is four p.m.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-06.wav"
+    },
+    {
+      "hour": 7,
+      "persona": "bruce",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "text": "It is currently seven a.m. in Hawaii. Mountain Daylight Time is eleven a.m. Eastern time is one p.m. U.T.C. is five p.m.",
+      "spoken": "It is currently seven a.m. in hahwye-ee. Mountain Daylight Time is eleven a.m. Eastern time is one p.m. U.T.C. is five p.m.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-07.wav"
+    },
+    {
+      "hour": 8,
+      "persona": "carly",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "text": "It is currently eight a.m. in Hawaii. Mountain Daylight Time is noon. Eastern time is two p.m. U.T.C. is six p.m.",
+      "spoken": "It is currently eight a.m. in hahwye-ee. Mountain Daylight Time is noon. Eastern time is two p.m. U.T.C. is six p.m.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-08.wav"
+    },
+    {
+      "hour": 9,
+      "persona": "ava",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "text": "It is currently nine a.m. in Hawaii. Mountain Daylight Time is one p.m. Eastern time is three p.m. U.T.C. is seven p.m.",
+      "spoken": "It is currently nine a.m. in hahwye-ee. Mountain Daylight Time is one p.m. Eastern time is three p.m. U.T.C. is seven p.m.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-09.wav"
+    },
+    {
+      "hour": 10,
+      "persona": "bruce",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "text": "It is currently ten a.m. in Hawaii. Mountain Daylight Time is two p.m. Eastern time is four p.m. U.T.C. is eight p.m.",
+      "spoken": "It is currently ten a.m. in hahwye-ee. Mountain Daylight Time is two p.m. Eastern time is four p.m. U.T.C. is eight p.m.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-10.wav"
+    },
+    {
+      "hour": 11,
+      "persona": "carly",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "text": "It is currently eleven a.m. in Hawaii. Mountain Daylight Time is three p.m. Eastern time is five p.m. U.T.C. is nine p.m.",
+      "spoken": "It is currently eleven a.m. in hahwye-ee. Mountain Daylight Time is three p.m. Eastern time is five p.m. U.T.C. is nine p.m.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-11.wav"
+    },
+    {
+      "hour": 12,
+      "persona": "ava",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "text": "It is currently noon in Hawaii. Mountain Daylight Time is four p.m. Eastern time is six p.m. U.T.C. is ten p.m.",
+      "spoken": "It is currently noon in hahwye-ee. Mountain Daylight Time is four p.m. Eastern time is six p.m. U.T.C. is ten p.m.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-12.wav"
+    },
+    {
+      "hour": 13,
+      "persona": "bruce",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "text": "It is currently one p.m. in Hawaii. Mountain Daylight Time is five p.m. Eastern time is seven p.m. U.T.C. is eleven p.m.",
+      "spoken": "It is currently one p.m. in hahwye-ee. Mountain Daylight Time is five p.m. Eastern time is seven p.m. U.T.C. is eleven p.m.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-13.wav"
+    },
+    {
+      "hour": 14,
+      "persona": "carly",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "text": "It is currently two p.m. in Hawaii. Mountain Daylight Time is six p.m. Eastern time is eight p.m. U.T.C. is midnight.",
+      "spoken": "It is currently two p.m. in hahwye-ee. Mountain Daylight Time is six p.m. Eastern time is eight p.m. U.T.C. is midnight.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-14.wav"
+    },
+    {
+      "hour": 15,
+      "persona": "ava",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "text": "It is currently three p.m. in Hawaii. Mountain Daylight Time is seven p.m. Eastern time is nine p.m. U.T.C. is one a.m.",
+      "spoken": "It is currently three p.m. in hahwye-ee. Mountain Daylight Time is seven p.m. Eastern time is nine p.m. U.T.C. is one a.m.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-15.wav"
+    },
+    {
+      "hour": 16,
+      "persona": "bruce",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "text": "It is currently four p.m. in Hawaii. Mountain Daylight Time is eight p.m. Eastern time is ten p.m. U.T.C. is two a.m.",
+      "spoken": "It is currently four p.m. in hahwye-ee. Mountain Daylight Time is eight p.m. Eastern time is ten p.m. U.T.C. is two a.m.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-16.wav"
+    },
+    {
+      "hour": 17,
+      "persona": "carly",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "text": "It is currently five p.m. in Hawaii. Mountain Daylight Time is nine p.m. Eastern time is eleven p.m. U.T.C. is three a.m.",
+      "spoken": "It is currently five p.m. in hahwye-ee. Mountain Daylight Time is nine p.m. Eastern time is eleven p.m. U.T.C. is three a.m.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-17.wav"
+    },
+    {
+      "hour": 18,
+      "persona": "ava",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "text": "It is currently six p.m. in Hawaii. Mountain Daylight Time is ten p.m. Eastern time is midnight. U.T.C. is four a.m.",
+      "spoken": "It is currently six p.m. in hahwye-ee. Mountain Daylight Time is ten p.m. Eastern time is midnight. U.T.C. is four a.m.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-18.wav"
+    },
+    {
+      "hour": 19,
+      "persona": "bruce",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "text": "It is currently seven p.m. in Hawaii. Mountain Daylight Time is eleven p.m. Eastern time is one a.m. U.T.C. is five a.m.",
+      "spoken": "It is currently seven p.m. in hahwye-ee. Mountain Daylight Time is eleven p.m. Eastern time is one a.m. U.T.C. is five a.m.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-19.wav"
+    },
+    {
+      "hour": 20,
+      "persona": "carly",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "text": "It is currently eight p.m. in Hawaii. Mountain Daylight Time is midnight. Eastern time is two a.m. U.T.C. is six a.m.",
+      "spoken": "It is currently eight p.m. in hahwye-ee. Mountain Daylight Time is midnight. Eastern time is two a.m. U.T.C. is six a.m.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-20.wav"
+    },
+    {
+      "hour": 21,
+      "persona": "ava",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "text": "It is currently nine p.m. in Hawaii. Mountain Daylight Time is one a.m. Eastern time is three a.m. U.T.C. is seven a.m.",
+      "spoken": "It is currently nine p.m. in hahwye-ee. Mountain Daylight Time is one a.m. Eastern time is three a.m. U.T.C. is seven a.m.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-21.wav"
+    },
+    {
+      "hour": 22,
+      "persona": "bruce",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "text": "It is currently ten p.m. in Hawaii. Mountain Daylight Time is two a.m. Eastern time is four a.m. U.T.C. is eight a.m.",
+      "spoken": "It is currently ten p.m. in hahwye-ee. Mountain Daylight Time is two a.m. Eastern time is four a.m. U.T.C. is eight a.m.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-22.wav"
+    },
+    {
+      "hour": 23,
+      "persona": "carly",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "text": "It is currently eleven p.m. in Hawaii. Mountain Daylight Time is three a.m. Eastern time is five a.m. U.T.C. is nine a.m.",
+      "spoken": "It is currently eleven p.m. in hahwye-ee. Mountain Daylight Time is three a.m. Eastern time is five a.m. U.T.C. is nine a.m.",
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-23.wav"
+    }
+  ]
+}

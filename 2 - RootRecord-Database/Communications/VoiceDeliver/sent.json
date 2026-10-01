@@ -30,5 +30,17 @@
   "nws_weather": {
     "sha256": "7feab08bbcf43d86d159aef55b64c651bee1b0966a9e1affa540f08ee7b9e2e1",
     "message_id": 88
+  },
+  "hourly_chime_00": {
+    "sha256": "ba94831bf299ebbb5952deda6032d28c31ce664e60c34716e2041da76538ab25",
+    "message_id": 91
+  },
+  "hourly_chime_01": {
+    "sha256": "7c8d5b6ee963f4860032bac22720371bb7027ab0defcf94a7b5b99b13d8693ef",
+    "message_id": 94
+  },
+  "hourly_chime_02": {
+    "sha256": "b83569597424272eef45796d516120a525374462e80c22a778606474f054a1f1",
+    "message_id": 97
   }
 }
