@@ -1,16 +1,16 @@
-# System Performance — 2026-10-01T11:00:36-10:00
+# System Performance — 2026-10-01T11:57:02-10:00
 
 Host: HI Pacific Solar Root Server
 
 | Metric | Value |
 |---|---|
-| CPU | 13.7% (load 2.75 / 2.56 / 2.96) |
-| RAM | 69.9% used (9.9 / 14.2 GB); swap used 4.0 GB |
-| Disk / | 31.8% used (159 / 502 GB) |
-| Host battery | 47% (Discharging, on battery) |
-| Uptime | 2h 6m |
-| Temp | 49.0°C (acpitz) |
-| iGPU | Advanced Micro Devices, Inc. [AMD/ATI] Krackan2 (rev c8) — 9.0% |
+| CPU | 6.8% (load 4.77 / 4.44 / 4.52) |
+| RAM | 45.3% used (6.4 / 14.2 GB); swap used 1.9 GB |
+| Disk / | 32.1% used (161 / 502 GB) |
+| Host battery | 33% (Charging, on AC) |
+| Uptime | 3h 2m |
+| Temp | 89.0°C (acpitz) |
+| iGPU | Advanced Micro Devices, Inc. [AMD/ATI] Krackan2 (rev c8) — 2.0% |
 | NPU | 0.0% (present) |
 
-_Template report (no LLM). Measured on the desk at 2026-10-01T11:00:36-10:00. A missing hardware row was not sampled._
+_Template report (no LLM). Measured on the desk at 2026-10-01T11:57:02-10:00. A missing hardware row was not sampled._
