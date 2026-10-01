@@ -666,7 +666,7 @@ EVERY_MINUTE = [  # info: set EVERY_MINUTE
         "id": "voice_system_perf",  # info: "id" : "voice_system_perf" ,
         "enabled": os.environ.get("RR_VOICE_SYSTEM_PERF", "0") == "1",  # info: "enabled" : os . environ . get (
         "description": "Bruce system report at :06. Host temperature is degrees Celsius. Voice note when RR_VOICE_DELIVER=1.",  # info: "description" : "Bruce system report at :06. Host temperature is degrees Celsius. Voice note when RR_VOICE_DELIVER=1." ,
-        "only_at_minutes": [6],  # info: "only_at_minutes" : [ 6 ] ,
+        "only_at_minutes": [0],  # info: "only_at_minutes" : [ 0 ] ,
         "builtin": "",  # info: "builtin" : "" ,
         "command": f'nice -n 10 python3 "{PACIFIC}/Media/Voice/scripts/system_perf.py"',  # info: "command" : f' nice -n 10 python3 " { PACIFIC } /Media/Voice/scripts/system_perf.py"
         "timeout_sec": 300,  # info: "timeout_sec" : 300 ,
@@ -691,7 +691,7 @@ EVERY_MINUTE = [  # info: set EVERY_MINUTE
         "id": "voice_nws_weather",  # info: "id" : "voice_nws_weather" ,
         "enabled": os.environ.get("RR_VOICE_NWS", "0") == "1",  # info: "enabled" : os . environ . get (
         "description": "Ava NWS Hawaii report from Database Weather/. Voice note when RR_VOICE_DELIVER=1.",  # info: "description" : "Ava NWS Hawaii report from Database Weather/. Voice note when RR_VOICE_DELIVER=1." ,
-        "only_at_minutes": [7, 22, 37, 52],  # info: "only_at_minutes" : [ 7 , 22 , 37
+        "only_at_minutes": [15, 30, 45],  # info: short NWS notice, off the hour
         "builtin": "",  # info: "builtin" : "" ,
         "command": f'nice -n 10 python3 "{PACIFIC}/Media/Voice/scripts/voice_reports.py" nws_weather',  # info: "command" : f' nice -n 10 python3 " { PACIFIC } /Media/Voice/scripts/voice_reports.py" nws_weather
         "timeout_sec": 300,  # info: "timeout_sec" : 300 ,
@@ -702,7 +702,7 @@ EVERY_MINUTE = [  # info: set EVERY_MINUTE
         "id": "voice_energy_report",  # info: "id" : "voice_energy_report" ,
         "enabled": os.environ.get("RR_VOICE_ENERGY", "0") == "1",  # info: "enabled" : os . environ . get (
         "description": "Refresh the hourly channel-1 solar look. The sentence is spoken on the hourly solar desk, not as a second voice note.",  # info: "description" : "Refresh the hourly channel-1 solar look. The sentence is spoken on the hourly solar desk, not as a second voice note." ,
-        "only_at_minutes": [15, 45],  # info: "only_at_minutes" : [ 15 , 45 ] ,
+        "only_at_minutes": [0, 30],  # info: "only_at_minutes" : [ 0 , 30 ] ,
         "builtin": "",  # info: "builtin" : "" ,
         "command": f'nice -n 10 python3 "{PACIFIC}/Media/Voice/scripts/voice_reports.py" energy_report',  # info: "command" : f' nice -n 10 python3 " { PACIFIC } /Media/Voice/scripts/voice_reports.py" energy_report
         "timeout_sec": 300,  # info: "timeout_sec" : 300 ,
@@ -713,7 +713,7 @@ EVERY_MINUTE = [  # info: set EVERY_MINUTE
         "id": "voice_remaining_tasks",  # info: "id" : "voice_remaining_tasks" ,
         "enabled": os.environ.get("RR_VOICE_REMAINING", "0") == "1",  # info: "enabled" : os . environ . get (
         "description": "Bruce remaining tasks from the report board. Voice note when RR_VOICE_DELIVER=1.",  # info: "description" : "Bruce remaining tasks from the report board. Voice note when RR_VOICE_DELIVER=1." ,
-        "only_at_minutes": [32],  # info: "only_at_minutes" : [ 32 ] ,
+        "only_at_minutes": [0],  # info: "only_at_minutes" : [ 0 ] ,
         "builtin": "",  # info: "builtin" : "" ,
         "command": f'nice -n 10 python3 "{PACIFIC}/Media/Voice/scripts/voice_reports.py" remaining_tasks',  # info: "command" : f' nice -n 10 python3 " { PACIFIC } /Media/Voice/scripts/voice_reports.py" remaining_tasks
         "timeout_sec": 300,  # info: "timeout_sec" : 300 ,
@@ -726,7 +726,7 @@ EVERY_MINUTE = [  # info: set EVERY_MINUTE
         "id": "voice_earthquake_report",  # info: "id" : "voice_earthquake_report" ,
         "enabled": os.environ.get("RR_VOICE_QUAKE", "0") == "1",  # info: "enabled" : os . environ . get (
         "description": "Carly USGS earthquake report at :08 from Database Geology/. Voice note when RR_VOICE_DELIVER=1.",  # info: "description" : "Carly USGS earthquake report at :08 from Database Geology/. Voice note when RR_VOICE_DELIVER=1." ,
-        "only_at_minutes": [8],  # info: "only_at_minutes" : [ 8 ] ,
+        "only_at_minutes": [0],  # info: "only_at_minutes" : [ 0 ] ,
         "builtin": "",  # info: "builtin" : "" ,
         "command": f'nice -n 10 python3 "{PACIFIC}/Media/Voice/scripts/voice_reports.py" earthquake_report',  # info: "command" : f' nice -n 10 python3 " { PACIFIC } /Media/Voice/scripts/voice_reports.py" earthquake_report
         "timeout_sec": 300,  # info: "timeout_sec" : 300 ,
@@ -740,7 +740,7 @@ EVERY_MINUTE = [  # info: set EVERY_MINUTE
         "id": "voice_kilauea_report",  # info: "id" : "voice_kilauea_report" ,
         "enabled": os.environ.get("RR_VOICE_KILAUEA", "0") == "1",  # info: "enabled" : os . environ . get (
         "description": "Carly Kilauea report at :03 from the HVO notice. Voice note when RR_VOICE_DELIVER=1.",  # info: "description" : "Carly Kilauea report at :03 from the HVO notice. Voice note when RR_VOICE_DELIVER=1." ,
-        "only_at_minutes": [3],  # info: "only_at_minutes" : [ 3 ] ,
+        "only_at_minutes": [0],  # info: "only_at_minutes" : [ 0 ] ,
         "builtin": "",  # info: "builtin" : "" ,
         "command": f'nice -n 10 python3 "{PACIFIC}/Media/Voice/scripts/voice_reports.py" kilauea_report',  # info: "command" : f' nice -n 10 python3 " { PACIFIC } /Media/Voice/scripts/voice_reports.py" kilauea_report
         "timeout_sec": 300,  # info: "timeout_sec" : 300 ,
@@ -764,7 +764,7 @@ EVERY_MINUTE = [  # info: set EVERY_MINUTE
         "id": "voice_solar_desk",  # info: "id" : "voice_solar_desk" ,
         "enabled": os.environ.get("RR_VOICE_SOLAR", "0") == "1",  # info: "enabled" : os . environ . get (
         "description": "Bruce hourly solar desk: packs, sun times, newest channel-1 still, and the last stored camera look. Voice note when RR_VOICE_DELIVER=1.",  # info: "description" : "Bruce hourly solar desk: packs, sun times, newest channel-1 still, and the last stored camera look. Voice note when RR_VOICE_DELIVER=1." ,
-        "only_at_minutes": [4],  # info: "only_at_minutes" : [ 4 ] ,
+        "only_at_minutes": [0],  # info: "only_at_minutes" : [ 0 ] ,
         "builtin": "",  # info: "builtin" : "" ,
         "command": f'nice -n 10 python3 "{PACIFIC}/Media/Voice/scripts/voice_reports.py" solar_desk',  # info: "command" : f' nice -n 10 python3 " { PACIFIC } /Media/Voice/scripts/voice_reports.py" solar_desk
         "timeout_sec": 300,  # info: "timeout_sec" : 300 ,

@@ -41,7 +41,7 @@ AWS/mainland mirror and recovery-oriented infrastructure. The repository is a mi
 
 https://github.com/RootRecord-Software-Solutions/RootRecord-Website
 
-Public home page. Desk source is Pacific `Website/Home/`. The `website` mirror row publishes that folder. Vercel builds this repository. The globe is the page background. AWS relays `/api/state` and `/api/operations`. Do not bind port 3001.
+Public home page. Desk source is Pacific `Website/Home/`. The `website` mirror row publishes that folder. Vercel builds this repository. The globe is the page background. AWS is not the site. `www` still answers from the globe process only because DNS has not moved. The data contract is Pacific `Website/HANDOFF-vercel-homepage-2026-09-30.md`. Do not bind port 3001. Do not call port 8787.
 
 The older `rootrecordsoftwaresolutions/RootRecord-Website` Next.js tree is not this site.
 
