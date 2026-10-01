@@ -1,16 +1,15 @@
 {
   "date": "2026-10-01",
-  "phase": 0.7052,
-  "phase_day": 0.69,
+  "phase": 0.6852,
   "phase_name": "Waning Gibbous",
-  "illumination": 64,
+  "illumination": 70,
   "moonrise": "22:23",
   "moonset": "11:20",
   "next_phase": "Last Quarter",
   "next_phase_date": "2026-10-03",
-  "source": "open-meteo",
+  "source": "calculated",
   "lat": 19.43,
   "lon": -155.23,
-  "fetched_at": "2026-10-01T10:08:36-10:00",
+  "fetched_at": "2026-10-01T10:56:13-10:00",
   "next_date": "2026-10-02"
 }
