@@ -1,1 +1,1 @@
-System performance report. Report generated at twelve oh one p.m.. CPU 8%. Memory 47% used, 6.6 of 14.2 gigabytes. Disk 32% used. Host battery 36%, on AC. Uptime 3 hours 7 minutes. Temperature 50.0 degrees Celsius. Integrated GPU 2.0 percent. NPU 0.0 percent, present. End of system report.
+System performance report. Report generated at one oh one p.m.. CPU 12%. Memory 56% used, 7.9 of 14.2 gigabytes. Disk 32% used. Host battery 76%, on AC. Uptime 4 hours 7 minutes. Temperature 47.0 degrees Celsius. Integrated GPU 11.0 percent. NPU 0.0 percent, present. End of system report.
