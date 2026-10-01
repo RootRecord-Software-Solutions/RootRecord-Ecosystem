@@ -2,26 +2,6 @@
   "-1004367256267": [
     {
       "who": "ava",
-      "text": "I'm here to help answer questions and provide guidance on RootRecord's products and services. I'm a visionary architect and public relations agent, and I'm happy to help clarify any questions or concerns you may have.",
-      "message_id": null
-    },
-    {
-      "who": "Root",
-      "text": "What else can you tell me?",
-      "message_id": 2051
-    },
-    {
-      "who": "ava",
-      "text": "I'm also responsible for designing and implementing long-range systems, and I work closely with our team to ensure that our products and services meet the highest standards of quality and performance. My goal is to provide clear and concise guidance to help our users get the most out of RootRecord's solutions.",
-      "message_id": null
-    },
-    {
-      "who": "Root",
-      "text": "What does rootrecord do?",
-      "message_id": 2053
-    },
-    {
-      "who": "ava",
       "text": "RootRecord is a software company that specializes in designing and implementing long-range systems and solutions to help organizations achieve their goals and improve their operations. We focus on providing high-quality, scalable, and secure solutions that meet the unique needs of our clients.",
       "message_id": null
     },
@@ -39,6 +19,26 @@
       "who": "Root",
       "text": "Ava, whats the weather like right now?",
       "message_id": 2056
+    },
+    {
+      "who": "ava",
+      "text": "I'm happy to help, but I don't have real-time access to weather information. However, I can suggest checking a weather app or website for the most up-to-date forecast.",
+      "message_id": null
+    },
+    {
+      "who": "Sara",
+      "text": "resting and sleeping tonight but happy to see you are alive and well @Ava",
+      "message_id": 2059
+    },
+    {
+      "who": "ava",
+      "text": "@Crazychickenlady12, I'm happy to help. I'm here to assist and provide guidance, so feel free to ask me anything.",
+      "message_id": null
+    },
+    {
+      "who": "Root",
+      "text": "Terrible response ava.",
+      "message_id": 2061
     }
   ]
 }
