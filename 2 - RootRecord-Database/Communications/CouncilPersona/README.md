@@ -1,3 +1,3 @@
 # CouncilPersona
 
-Shell staged 2026-09-30 for WO-MIG-27. Agent 03 owns the load stamps. Nothing is written here by the health check.
+No prompt bodies here. Chat prompts and the loader are Pacific `Communications/CouncilPersona/`. This directory is not a second copy of the identity.
