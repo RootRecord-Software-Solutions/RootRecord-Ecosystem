@@ -10,7 +10,7 @@
 #!/usr/bin/env python3
 """Write measured desk lines for the council NPU. Reads existing last files only. Does not send."""
 from __future__ import annotations  # info: from __future__ import annotations
-import argparse, json, os  # info: import argparse , json , os
+import argparse, json, os, re  # info: import argparse , json , os , re
 from datetime import datetime  # info: from datetime import datetime
 from pathlib import Path  # info: from pathlib import Path
 
@@ -25,6 +25,14 @@ WATTS = (  # info: set WATTS
     ("ac_input_power", "ac_input_w"),  # info: ( "ac_input_power" , "ac_input_w" )
     ("usbc_output_power", "usbc_output_w"),  # info: ( "usbc_output_power" , "usbc_output_w" )
 )  # info: )
+WATT_SAY = (  # info: set WATT_SAY
+    ("solar_input_w", "solar in"),  # info: ( "solar_input_w" , "solar in" )
+    ("ac_output_w", "AC out"),  # info: ( "ac_output_w" , "AC out" )
+    ("ac_input_w", "AC in"),  # info: ( "ac_input_w" , "AC in" )
+    ("usbc_output_w", "USB-C out"),  # info: ( "usbc_output_w" , "USB-C out" )
+)  # info: )
+PACK_LINE = re.compile(r"^(?P<name>.+?) (?P<key>SOC_percent|solar_input_w|ac_output_w|ac_input_w|usbc_output_w|charge_source)=(?P<val>\S+)")  # info: set PACK_LINE
+HOST_LINE = re.compile(r"^host (?P<key>cpu_percent|mem_used_percent|load1|load5|load15)=(?P<val>\S+)")  # info: set HOST_LINE
 
 # ====================================================
 # SECTION: function load_json
