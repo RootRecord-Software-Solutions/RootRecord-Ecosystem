@@ -31,7 +31,3 @@ Products on the public site are software Root Record ships: Business Manager by 
 ## Status feed
 
 The homepage, systems page, and status page request `https://api.rootrecord.cloud` for public readings. A missing reading stays missing. Counts and field values are shown only when that feed reports them.
-
-## Status feed
-
-The homepage, systems page, and status page request `https://api.rootrecord.cloud` for public readings. A missing reading stays missing. Counts and field values are shown only when that feed reports them.
