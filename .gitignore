@@ -2,6 +2,10 @@
 # Ignore the nested checkout so the ecosystem repo cannot record a gitlink.
 3 - RootRecord-Website/
 
+# Mirror worktrees for pacific, database, and library. Nested .git must not become a gitlink.
+# They cannot live under 2 - RootRecord-Database: rsync of that folder into the worktree loops.
+Github-worktrees/
+
 # Local archive of files removed from old repos. Stays on disk. Do not publish
 # (the tree can hold historical secrets and nested .git directories).
 Old repos deleted and merged/

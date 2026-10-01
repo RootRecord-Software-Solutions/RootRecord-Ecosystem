@@ -8,7 +8,7 @@
 # - The desk is canonical; AWS never commits or pulls. Nothing under ~/.env or any secret is copied.
 # - Flags are STATE (Root Monitor owns them): the deploy only creates missing flags from profile/.
 # - The deploy never starts/stops globe or legacy services: rr-fallback-apply --dry-run must be "in sync".
-# - Remote backup: ~/rootrecord/bin.bak-fallback-deploy-<HST ts>/; desk log Database/Logs/Mainland/aws-fallback-deploy.log
+# - Remote backup: ~/rootrecord/bin.bak-fallback-deploy-<HST ts>/; desk log 2 - RootRecord-Database/Logs/Network/aws-fallback-deploy.log
 # ==============================================================================
 set -euo pipefail
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -19,7 +19,7 @@ for a in "$@"; do case "$a" in --apply) MODE=apply;; --dry-run) MODE=dry-run;; -
 R=/home/ubuntu/rootrecord/fallback
 SSH=(ssh -o BatchMode=yes -o ConnectTimeout=10 "$ALIAS")
 TS="$(TZ=Pacific/Honolulu date +%Y%m%d-%H%M%S)"
-DLOG=/home/rootrecord/Database/Logs/Mainland/aws-fallback-deploy.log; mkdir -p "$(dirname "$DLOG")"
+DLOG="/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Logs/Network/aws-fallback-deploy.log"; mkdir -p "$(dirname "$DLOG")"
 say(){ echo "$(TZ=Pacific/Honolulu date '+%F %T HST') [$MODE] $*" | tee -a "$DLOG"; }
 
 # ---- stage + manifest
