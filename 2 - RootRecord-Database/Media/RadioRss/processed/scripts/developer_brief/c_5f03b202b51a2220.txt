@@ -1,0 +1,4 @@
+Developer brief. GitHub reports that Scheduled code scanning skips inactive repositories. Weekly scheduled scans for code scanning default setup and GitHub Code Quality now start only after a push or pull request triggers an analysis, rather than counting every kind of… The post Scheduled code scanning skips inactive repositories appeared first on The GitHub Blog . Published October 1, 2026.
+
+Sources:
+- GitHub | Scheduled code scanning skips inactive repositories | https://github.blog/changelog/2026-10-01-scheduled-code-scanning-skips-inactive-repositories | 2026-10-01T16:49:15Z | 5f03b202b51a2220cf2d

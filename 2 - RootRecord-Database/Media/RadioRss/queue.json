@@ -1420,6 +1420,13 @@
           "title": "DOH LIFTS SMOKE ADVISORY RELATED TO FIRE AT ABC TOWING & PARTS IN PEARL CITY",
           "url": "https://health.hawaii.gov/news/submenu/doh-lifts-smoke-advisory-related-to-fire-at-abc-towing-parts-in-pearl-city/",
           "published_at": "2026-10-01T23:05:59Z"
+        },
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "News Release \u2013 DOH Lifts Smoke Advisory Related to Fire at ABC Towing and Parts in Pearl City",
+          "url": "https://governor.hawaii.gov/main/news-release-doh-lifts-smoke-advisory-related-to-fire-at-abc-towing-and-parts-in-pearl-city/",
+          "published_at": "2026-10-01T23:06:39Z"
         }
       ]
     },
@@ -2551,7 +2558,7 @@
         {
           "publisher": "BBC",
           "source": "BBC Business",
-          "title": "US says Europe should ready fuel supplies as Trump threatens diesel ban",
+          "title": "US pressures Europe to release diesel reserves as Trump threatens export ban",
           "url": "https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&at_campaign=rss",
           "published_at": "2026-10-01T22:21:16Z"
         }
@@ -2914,6 +2921,366 @@
           "title": "NASA, SpaceX launch next crewed mission to the International Space Station",
           "url": "https://spaceflightnow.com/2026/10/01/live-coverage-nasa-spacex-to-launch-next-crewed-mission-to-the-international-space-station/",
           "published_at": "2026-10-01T02:03:53Z"
+        }
+      ]
+    },
+    {
+      "id": "c4de553c7e422dd9",
+      "cluster_id": "c_1c846a84cafa93c6",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_1c846a84cafa93c6.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_1c846a84cafa93c6.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Business",
+          "title": "Crypto thieves attack man in home and threaten to kill pregnant wife's baby in 'horrific' robbery",
+          "url": "https://www.bbc.co.uk/news/articles/c6eq84eygz0qo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T23:45:06Z"
+        }
+      ]
+    },
+    {
+      "id": "71c964e579a779dc",
+      "cluster_id": "c_5bb62b025596c649",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_5bb62b025596c649.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_5bb62b025596c649.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Business",
+          "title": "OpenAI fires workers for 'mishandling sensitive information'",
+          "url": "https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T08:20:32Z"
+        }
+      ]
+    },
+    {
+      "id": "8709127d6f31e6b8",
+      "cluster_id": "c_78cb53e4da93b326",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_78cb53e4da93b326.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_78cb53e4da93b326.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "In Ukraine, data centers \u2018facing increased attacks\u2019 in recent weeks: Ex-official",
+          "url": "https://breakingdefense.com/2026/10/in-ukraine-data-centers-facing-increased-attacks-in-recent-weeks-ex-official/",
+          "published_at": "2026-10-02T09:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "137b9e6139841fa8",
+      "cluster_id": "c_8f7b7788b848984d",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_8f7b7788b848984d.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_8f7b7788b848984d.speak.txt",
+      "sources": [
+        {
+          "publisher": "ESA",
+          "source": "ESA Top News",
+          "title": "Juice\u2019s September 2026 Earth flyby: the movie",
+          "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Juice_s_September_2026_Earth_flyby_the_movie",
+          "published_at": "2026-10-01T15:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "c740632c59b998d3",
+      "cluster_id": "c_6d09da153b93ef7c",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_6d09da153b93ef7c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_6d09da153b93ef7c.speak.txt",
+      "sources": [
+        {
+          "publisher": "ESA",
+          "source": "ESA Top News",
+          "title": "ESA at the 77th International Astronautical Congress",
+          "url": "https://www.esa.int/About_Us/Corporate_news/ESA_at_the_77th_International_Astronautical_Congress",
+          "published_at": "2026-10-01T14:20:00Z"
+        }
+      ]
+    },
+    {
+      "id": "efb33d166dbeaab4",
+      "cluster_id": "c_21123fde58d9f033",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_21123fde58d9f033.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_21123fde58d9f033.speak.txt",
+      "sources": [
+        {
+          "publisher": "ESA",
+          "source": "ESA Top News",
+          "title": "What happened this month at the European Space Agency? (September 2026)",
+          "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/What_happened_this_month_at_the_European_Space_Agency_September_2026",
+          "published_at": "2026-10-01T12:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "cc1a7237d3048b25",
+      "cluster_id": "c_8259a69b9c38978a",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_8259a69b9c38978a.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_8259a69b9c38978a.speak.txt",
+      "sources": [
+        {
+          "publisher": "ESA",
+          "source": "ESA Top News",
+          "title": "EarthCARE\u2019s view of volcanic plume boosts air safety",
+          "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/EarthCARE/EarthCARE_s_view_of_volcanic_plume_boosts_air_safety",
+          "published_at": "2026-10-01T07:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "4261e2808530353a",
+      "cluster_id": "c_47e55e08b43701d5",
+      "program": "CYBER_BRIEF",
+      "report": "cyber_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/cyber_brief/c_47e55e08b43701d5.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/cyber_brief/c_47e55e08b43701d5.speak.txt",
+      "sources": [
+        {
+          "publisher": "GitHub",
+          "source": "GitHub Changelog",
+          "title": "Rate limits for private vulnerability reports",
+          "url": "https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports",
+          "published_at": "2026-10-01T19:57:39Z"
+        }
+      ]
+    },
+    {
+      "id": "7883423be8d41483",
+      "cluster_id": "c_2acf3b377fe23921",
+      "program": "CYBER_BRIEF",
+      "report": "cyber_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/cyber_brief/c_2acf3b377fe23921.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/cyber_brief/c_2acf3b377fe23921.speak.txt",
+      "sources": [
+        {
+          "publisher": "GitHub",
+          "source": "GitHub Changelog",
+          "title": "Structured forms for private vulnerability reports",
+          "url": "https://github.blog/changelog/2026-10-01-structured-forms-for-private-vulnerability-reports",
+          "published_at": "2026-10-01T19:57:28Z"
+        }
+      ]
+    },
+    {
+      "id": "0de4abe4dcd5db85",
+      "cluster_id": "c_8de5440c7718087b",
+      "program": "DEVELOPER_BRIEF",
+      "report": "developer_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_8de5440c7718087b.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_8de5440c7718087b.speak.txt",
+      "sources": [
+        {
+          "publisher": "GitHub",
+          "source": "GitHub Changelog",
+          "title": "GitHub Copilot can now interact with desktop apps with computer use",
+          "url": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps",
+          "published_at": "2026-10-01T19:11:26Z"
+        }
+      ]
+    },
+    {
+      "id": "df018e6449b792e9",
+      "cluster_id": "c_1ea66c0b4ab7a4d5",
+      "program": "DEVELOPER_BRIEF",
+      "report": "developer_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_1ea66c0b4ab7a4d5.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_1ea66c0b4ab7a4d5.speak.txt",
+      "sources": [
+        {
+          "publisher": "GitHub",
+          "source": "GitHub Changelog",
+          "title": "GitHub Actions: macOS 14 runner image retirement",
+          "url": "https://github.blog/changelog/2026-10-01-github-actions-macos-14-runner-image-retirement",
+          "published_at": "2026-10-01T19:11:23Z"
+        }
+      ]
+    },
+    {
+      "id": "18d5a22322e2da3a",
+      "cluster_id": "c_79d3efb8930ee33c",
+      "program": "DEVELOPER_BRIEF",
+      "report": "developer_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_79d3efb8930ee33c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_79d3efb8930ee33c.speak.txt",
+      "sources": [
+        {
+          "publisher": "GitHub",
+          "source": "GitHub Changelog",
+          "title": "GitHub Copilot in VS Code, September 2026 releases",
+          "url": "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases",
+          "published_at": "2026-10-01T19:09:10Z"
+        }
+      ]
+    },
+    {
+      "id": "84f550c5bac55343",
+      "cluster_id": "c_0ff5a3a5b4c734f2",
+      "program": "DEVELOPER_BRIEF",
+      "report": "developer_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_0ff5a3a5b4c734f2.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_0ff5a3a5b4c734f2.speak.txt",
+      "sources": [
+        {
+          "publisher": "GitHub",
+          "source": "GitHub Changelog",
+          "title": "Accessibility statements highlighted on repository overview",
+          "url": "https://github.blog/changelog/2026-10-01-accessibility-statements-highlighted-on-repository-overview",
+          "published_at": "2026-10-01T19:04:32Z"
+        }
+      ]
+    },
+    {
+      "id": "41165141ab56fd1b",
+      "cluster_id": "c_49a57ea5f230d0be",
+      "program": "DEVELOPER_BRIEF",
+      "report": "developer_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_49a57ea5f230d0be.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_49a57ea5f230d0be.speak.txt",
+      "sources": [
+        {
+          "publisher": "GitHub",
+          "source": "GitHub Changelog",
+          "title": "Actions retention now covers checks, runs, and statuses",
+          "url": "https://github.blog/changelog/2026-10-01-actions-retention-now-covers-checks-runs-and-statuses",
+          "published_at": "2026-10-01T17:59:54Z"
+        }
+      ]
+    },
+    {
+      "id": "558899c88a7193e6",
+      "cluster_id": "c_5f03b202b51a2220",
+      "program": "DEVELOPER_BRIEF",
+      "report": "developer_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_5f03b202b51a2220.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_5f03b202b51a2220.speak.txt",
+      "sources": [
+        {
+          "publisher": "GitHub",
+          "source": "GitHub Changelog",
+          "title": "Scheduled code scanning skips inactive repositories",
+          "url": "https://github.blog/changelog/2026-10-01-scheduled-code-scanning-skips-inactive-repositories",
+          "published_at": "2026-10-01T16:49:15Z"
+        }
+      ]
+    },
+    {
+      "id": "2c43e27b80519cc4",
+      "cluster_id": "c_9bce90192d87af55",
+      "program": "DEVELOPER_BRIEF",
+      "report": "developer_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_9bce90192d87af55.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_9bce90192d87af55.speak.txt",
+      "sources": [
+        {
+          "publisher": "GitHub",
+          "source": "GitHub Changelog",
+          "title": "Code coverage uploads no longer fail CI for new branches",
+          "url": "https://github.blog/changelog/2026-10-01-code-coverage-uploads-no-longer-fail-ci-for-new-branches",
+          "published_at": "2026-10-01T16:49:05Z"
+        }
+      ]
+    },
+    {
+      "id": "9db074425bbbd11b",
+      "cluster_id": "c_a63a50b3be020681",
+      "program": "DEVELOPER_BRIEF",
+      "report": "developer_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_a63a50b3be020681.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_a63a50b3be020681.speak.txt",
+      "sources": [
+        {
+          "publisher": "GitHub",
+          "source": "GitHub Changelog",
+          "title": "Dynamic workflows in Copilot CLI and the Copilot app",
+          "url": "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app",
+          "published_at": "2026-10-01T16:30:10Z"
+        }
+      ]
+    },
+    {
+      "id": "a31cb7b09a4b7eaa",
+      "cluster_id": "c_cca76d1e412e131b",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_cca76d1e412e131b.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_cca76d1e412e131b.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "PUC TO HOST STATEWIDE PUBLIC INFORMATIONAL MEETINGS ON HAWAIIAN ELECTRIC\u2019S RESPONSE TO RECENT STORMS",
+          "url": "https://governor.hawaii.gov/newsroom/puc-to-host-statewide-public-informational-meetings-on-hawaiian-electrics-response-to-recent-storms/",
+          "published_at": "2026-10-02T00:25:45Z"
+        }
+      ]
+    },
+    {
+      "id": "b27a4c5232493952",
+      "cluster_id": "c_7efbaa73e85cfa93",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_7efbaa73e85cfa93.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_7efbaa73e85cfa93.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "NEWS RELEASE: OCTOBER USHERS IN CYBERSECURITY AWARENESS MONTH IN HAWAI\u2018I",
+          "url": "https://governor.hawaii.gov/newsroom/news-release-october-ushers-in-cybersecurity-awareness-month-in-hawaii/",
+          "published_at": "2026-10-01T23:54:00Z"
+        }
+      ]
+    },
+    {
+      "id": "6f86c878d400df38",
+      "cluster_id": "c_db18f0cbcd7cfbc9",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_db18f0cbcd7cfbc9.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_db18f0cbcd7cfbc9.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "NEWS RELEASE: DLIR Honors 2026 Workforce Development Heroes",
+          "url": "https://governor.hawaii.gov/newsroom/news-release-dlir-honors-2026-workforce-development-heroes-2/",
+          "published_at": "2026-10-01T23:48:39Z"
         }
       ]
     }

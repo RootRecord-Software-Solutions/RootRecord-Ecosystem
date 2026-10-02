@@ -1,0 +1,4 @@
+Developer brief. GitHub reports that GitHub Copilot can now interact with desktop apps with computer use. Computer use is now available in public preview in GitHub Copilot CLI and the GitHub Copilot app on macOS and Windows. Copilot can interact with desktop applications on your behalf… The post GitHub Copilot can now interact with desktop apps with computer use appeared first on The GitHub Blog . Published October 1, 2026.
+
+Sources:
+- GitHub | GitHub Copilot can now interact with desktop apps with computer use | https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps | 2026-10-01T19:11:26Z | 8de5440c7718087b5283

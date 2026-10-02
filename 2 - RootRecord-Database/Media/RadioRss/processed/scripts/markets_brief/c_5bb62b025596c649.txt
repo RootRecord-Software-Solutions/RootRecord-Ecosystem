@@ -1,0 +1,4 @@
+Market report. the BBC reports that OpenAI fires workers for 'mishandling sensitive information'. The former employees were investigated for sharing data with an outside AI evaluation group. Published October 2, 2026.
+
+Sources:
+- BBC | OpenAI fires workers for 'mishandling sensitive information' | https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=RSS&at_campaign=rss | 2026-10-02T08:20:32Z | 5bb62b025596c649bba8

@@ -10,12 +10,12 @@ NASA Goddard                 ○ UNKNOWN
 NASA Kennedy                 ○ UNKNOWN
 NASA Marshall                ○ UNKNOWN
 NASA JPL Center Feed         ○ UNKNOWN
-NASA JPL News                ○ UNKNOWN
+NASA JPL News                ○ DEGRADED
 NASA JPL Podcasts            ○ DISABLED
 NASA CNEOS                   ○ UNAVAILABLE
-ESA Top News                 ○ UNKNOWN
-ESA Space Science            ○ UNKNOWN
-ESA Human Spaceflight        ○ UNKNOWN
+ESA Top News                 ● HEALTHY
+ESA Space Science            ● HEALTHY
+ESA Human Spaceflight        ● HEALTHY
 ESA Earth Observation        ○ UNKNOWN
 ESA Technology               ○ UNKNOWN
 ESA Exploration              ○ UNAVAILABLE
@@ -58,7 +58,7 @@ Google AI                    ○ UNKNOWN
 CISA Cybersecurity Advisorie ○ UNAVAILABLE
 CISA News                    ○ UNAVAILABLE
 CISA Alerts                  ○ UNAVAILABLE
-GitHub Changelog             ○ UNKNOWN
+GitHub Changelog             ● HEALTHY
 Docker Blog                  ○ UNKNOWN
 Linux Kernel                 ○ UNKNOWN
 Cloudflare Blog              ○ UNKNOWN

@@ -1,0 +1,4 @@
+Developer brief. GitHub reports that Code coverage uploads no longer fail CI for new branches. Code coverage uploads from the GitHub Code Quality upload-code-coverage action no longer fail CI when you push a branch that doesn’t yet have an open pull request. Previously, the coverage… The post Code coverage uploads no longer fail CI for new branches appeared first on The GitHub Blog . Published October 1, 2026.
+
+Sources:
+- GitHub | Code coverage uploads no longer fail CI for new branches | https://github.blog/changelog/2026-10-01-code-coverage-uploads-no-longer-fail-ci-for-new-branches | 2026-10-01T16:49:05Z | 9bce90192d87af5502cd
