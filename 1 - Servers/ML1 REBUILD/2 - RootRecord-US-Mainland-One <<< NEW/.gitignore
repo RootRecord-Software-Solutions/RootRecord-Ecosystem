@@ -2,3 +2,11 @@
 .cloudflared/
 mirror/.cloudflared/
 **/*cloudflared*
+
+# Local station runtime
+rootrecord-radio/active
+rootrecord-radio/releases/
+rootrecord-radio/state/
+rootrecord-radio/deploy-pending
+rootrecord-radio/plays.log
+rootrecord-radio/watch.json

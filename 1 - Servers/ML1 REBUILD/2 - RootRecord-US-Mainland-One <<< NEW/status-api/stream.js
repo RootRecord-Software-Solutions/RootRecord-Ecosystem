@@ -172,14 +172,25 @@ function closeProc(proc) {
   try { proc.kill('SIGKILL'); } catch (err) {}
 }
 
+function missingTool(proc, bin) {
+  proc.on('error', (err) => {
+    if (err && err.code === 'ENOENT') {
+      log('dependency_missing', { bin: bin });
+      process.exit(127);
+    }
+  });
+}
+
 function openDecode(file) {
-  return spawn('ffmpeg', [
+  const proc = spawn('ffmpeg', [
     '-hide_banner', '-loglevel', 'error',
     '-i', file,
     '-f', 's16le', '-ar', String(RATE), '-ac', '2',
     '-flush_packets', '1',
     'pipe:1'
   ], { stdio: ['ignore', 'pipe', 'pipe'] });
+  missingTool(proc, 'ffmpeg');
+  return proc;
 }
 
 function Decoder(file) {
@@ -236,6 +247,7 @@ function startEncoder() {
     '-f', 'mp3', '-write_xing', '0', '-flush_packets', '1',
     'pipe:1'
   ], { stdio: ['pipe', 'pipe', 'pipe'] });
+  missingTool(encoder, 'ffmpeg');
   log('encoder_up', { pid: encoder.pid });
   encoder.stdout.on('data', (chunk) => {
     preroll.push(chunk);

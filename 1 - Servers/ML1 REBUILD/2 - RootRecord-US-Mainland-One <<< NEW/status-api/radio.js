@@ -8,7 +8,7 @@ const path = require('path');
 
 const AUDIO = process.env.RADIO_DIR || path.join(__dirname, '..', 'communications', 'rootrecord-radio', 'audio');
 const REPORTS = process.env.RADIO_REPORTS_DIR || path.join(AUDIO, 'reports');
-const PLAY_LOG = process.env.RADIO_PLAY_LOG || '/home/ubuntu/rootrecord-radio/plays.log';
+const PLAY_LOG = process.env.RADIO_PLAY_LOG || path.join(path.dirname(AUDIO), 'plays.log');
 const MUSIC_NAME = /^[A-Za-z0-9][A-Za-z0-9 ._-]{0,180}\.mp3$/;
 const REPORT_NAME = /^[a-z0-9]+(?:_[a-z0-9]+)*_current\.ogg$/;
 const CHIME_NAME = /^hour-(?:[01]\d|2[0-3])-(?:00|30)\.wav$/;
