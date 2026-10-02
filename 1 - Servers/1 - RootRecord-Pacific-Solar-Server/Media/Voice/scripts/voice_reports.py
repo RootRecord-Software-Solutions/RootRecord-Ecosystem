@@ -84,6 +84,7 @@ STORM_CLASS = {"HU": "Hurricane", "TS": "Tropical Storm", "TD": "Tropical Depres
                "PC": "Post-tropical Cyclone", "TY": "Typhoon", "STY": "Super Typhoon"}  # NHC classification codes
 DEVICES = (("delta2", "Delta 2"), ("river2pro", "River 2 Pro"))  # info: set DEVICES
 STALE_MIN = 30  # info: set STALE_MIN
+OFFLINE_SOC = 5  # info: set OFFLINE_SOC
 DELTA_GEN_W = 550  # info: Delta 2 AC in above this is the generator
 RIVER_GEN_W = 300  # info: River 2 Pro AC in above this is the generator
 # ====================================================
@@ -163,10 +164,14 @@ def energy_facts(t: datetime) -> list[dict]:  # info: def energy_facts
             age = int((t - datetime.fromisoformat(soc["at"])).total_seconds() // 60)  # info: set age
         except (KeyError, ValueError):  # info: except ( KeyError , ValueError ) :
             age = None  # info: set age
-        out.append({"name": name, "ok": True, "soc": round(float(soc["soc"])), "at": soc.get("at"), "age_min": age,  # info: out . append ( { "name" : name
-                    "solar_w": watts.get("solar_input_power"), "ac_out_w": watts.get("ac_output_power"),  # info: "solar_w" : watts . get ( "solar_input_power" )
-                    "usbc_out_w": watts.get("usbc_output_power"), "ac_in_w": watts.get("ac_input_power"),  # info: "usbc_out_w" : watts . get ( "usbc_output_power" )
-                    "charge": watts.get("charge_source")})  # info: "charge" : watts . get ( "charge_source" )
+        row = {"name": name, "ok": True, "soc": round(float(soc["soc"])), "at": soc.get("at"), "age_min": age,  # info: set row
+               "solar_w": watts.get("solar_input_power"), "ac_out_w": watts.get("ac_output_power"),  # info: "solar_w" : watts . get ( "solar_input_power" )
+               "usbc_out_w": watts.get("usbc_output_power"), "ac_in_w": watts.get("ac_input_power"),  # info: "usbc_out_w" : watts . get ( "usbc_output_power" )
+               "charge": watts.get("charge_source")}  # info: "charge" : watts . get ( "charge_source" )
+        row["off"] = (  # info: row [ "off" ] =
+            isinstance(age, int) and age > STALE_MIN and row["soc"] <= OFFLINE_SOC  # info: isinstance ( age , int ) and age > STALE_MIN and row [ "soc" ] <= OFFLINE_SOC
+        )  # info: )
+        out.append(row)  # info: out . append ( row )
     mark_supply(out)  # info: label generator or a Delta-to-River transfer
     return out  # info: return out
 
@@ -240,9 +245,18 @@ def supply_clause(f: dict) -> str:  # info: def supply_clause
 # ====================================================
 def range_clause(f: dict) -> str | None:  # info: def range_clause
     age = f.get("age_min")  # info: set age
-    if not f.get("ok") or age is None or age <= STALE_MIN:  # info: if not f . get ( "ok" ) or age is None or age <= STALE_MIN :
+    if f.get("off") or not f.get("ok") or age is None or age <= STALE_MIN:  # info: if f . get ( "off" ) or not f . get ( "ok" ) or age is None or age <= STALE_MIN :
         return None  # info: return None
     return f"{f['name']} is out of range."  # info: return f" { f [ 'name' ] } is out of range. "
+
+
+# ====================================================
+# SECTION: function off_sentence
+# What it does: One line when a pack at 5 percent or less has stopped reporting. Does not list watts.
+# Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
+# ====================================================
+def off_sentence(f: dict) -> str:  # info: def off_sentence
+    return f"{f['name']} discharged and powered off. Last reading was {f['soc']} percent."  # info: return f" { f [ 'name' ] } discharged and powered off. Last reading was { f [ 'soc' ] } percent. "
 
 
 # ====================================================
@@ -253,7 +267,7 @@ def range_clause(f: dict) -> str | None:  # info: def range_clause
 def reading_age_clause(f: dict) -> str:  # info: def reading_age_clause
     """Comma clause when a pack sample is at least 10 minutes old."""  # info: """Comma clause when a pack sample is at least 10 minutes old."""
     age = f.get("age_min")  # info: set age
-    if not f.get("ok") or not isinstance(age, int) or age < 10:  # info: if not f . get ( "ok" ) or not isinstance
+    if f.get("off") or not f.get("ok") or not isinstance(age, int) or age < 10:  # info: if f . get ( "off" ) or not f . get ( "ok" ) or not isinstance
         return ""  # info: return ""
     unit = "minute" if age == 1 else "minutes"  # info: set unit
     return f", reading is {age} {unit} old"  # info: return f" , reading is { age } { unit } old "
@@ -684,6 +698,10 @@ def b_energy_report(t: datetime):  # info: def b_energy_report
     for f in facts:  # info: for f in facts :
         if not f["ok"]:  # info: if not f [ "ok" ] :
             md.append(f"| {f['name']} | no reading | | | | | |")  # info: md . append ( f" | { f
+            continue  # info: continue
+        if f.get("off"):  # info: if f . get ( "off" ) :
+            md.append(f"| {f['name']} | powered off | | | | {f['at']} | {f['age_min']} min |")  # info: md . append ( f" | { f
+            sp.append(off_sentence(f))  # info: sp . append ( off_sentence ( f ) )
             continue  # info: continue
         md.append(f"| {f['name']} | {f['soc']}% | {f['solar_w']} W | {f['ac_out_w']} W | {f['usbc_out_w']} W | {f['at']} | {f['age_min']} min |")  # info: md . append ( f" | { f
         s = f"{f['name']} battery {f['soc']}%"  # info: set s
