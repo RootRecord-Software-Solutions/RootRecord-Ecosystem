@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-01T21:54:41-10:00",
+  "at": "2026-10-01T22:19:36-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 31,
-  "count_m2": 31,
-  "count_m25": 30,
+  "count": 29,
+  "count_m2": 29,
+  "count_m25": 28,
   "largest": {
     "id": "us6000tytg",
     "mag": 5.3,
@@ -14,7 +14,7 @@
     "time_hst": "2026-10-01T02:27:11.864000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-02T07:54:19+00:00",
+  "usgs_generated_utc": "2026-10-02T08:19:19+00:00",
   "events": [
     {
       "id": "us6000tyzx",
@@ -515,50 +515,6 @@
       "type": "earthquake",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyr4",
       "nearest": null
-    },
-    {
-      "id": "us6000tyqy",
-      "mag": 4.5,
-      "mag_type": "mb",
-      "place": "49 km SSE of Toktogul, Kyrgyzstan",
-      "time_utc": "2026-10-01T08:17:59.307000+00:00",
-      "time_hst": "2026-09-30T22:17:59.307000-10:00",
-      "lon": 73.1419,
-      "lat": 41.4538,
-      "depth_km": 10,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyqy",
-      "nearest": {
-        "location_id": "kg-bishkek",
-        "name": "Bishkek",
-        "country_code": "KG",
-        "admin1_code": null,
-        "km": 199.0
-      }
-    },
-    {
-      "id": "us6000tyqw",
-      "mag": 4.1,
-      "mag_type": "mb",
-      "place": "28 km SW of Buenos Aires, Mexico",
-      "time_utc": "2026-10-01T08:14:59.626000+00:00",
-      "time_hst": "2026-09-30T22:14:59.626000-10:00",
-      "lon": -92.6959,
-      "lat": 14.7356,
-      "depth_km": 71.276,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyqw",
-      "nearest": {
-        "location_id": "gt-guatemala-city",
-        "name": "Guatemala City",
-        "country_code": "GT",
-        "admin1_code": null,
-        "km": 234.5
-      }
     }
   ]
 }
