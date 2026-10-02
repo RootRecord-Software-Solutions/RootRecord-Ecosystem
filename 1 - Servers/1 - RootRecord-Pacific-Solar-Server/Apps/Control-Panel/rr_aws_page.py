@@ -47,10 +47,16 @@ class AwsFallbackPage:  # info: class AwsFallbackPage
             f"<tt>aws_fallback_alias</tt>={esc(self.awf_alias)}. Save settings, then leave and reopen this page "
             f"to apply a mode change. Press <b>Status</b> before trusting any toggle — until then rows show catalog defaults, not live AWS flags.",
             "rr-warn" if self.awf_mode == "write" else "dim-label", wrap=True, markup=True))
-        box.append(lbl(
-            "WRITE mode is live on this desk: Apply takes a dated AWS flags backup, then writes one flag. "
-            "Dry-run would confirm and write nothing. Locked / NEEDS SIGN-OFF / DECISION PENDING rows stay labelled.",
-            "dim-label", wrap=True))
+        if self.awf_mode == "write":
+            box.append(lbl(
+                "This page is in WRITE mode: Apply takes a dated AWS flags backup, then writes one flag. "
+                "Locked / NEEDS SIGN-OFF / DECISION PENDING rows stay labelled.",
+                "dim-label", wrap=True))
+        else:
+            box.append(lbl(
+                "This page is in DRY-RUN mode: confirms show the exact change and write nothing. "
+                "Locked / NEEDS SIGN-OFF / DECISION PENDING rows stay labelled.",
+                "dim-label", wrap=True))
         bar = Gtk.Box(spacing=8)  # info: set bar
         b = Gtk.Button(label="Status (read AWS flags, RAM, disk)")  # info: set b
         b.connect("clicked", lambda *_: self.awf_status())  # info: b . connect ( "clicked" , lambda *
