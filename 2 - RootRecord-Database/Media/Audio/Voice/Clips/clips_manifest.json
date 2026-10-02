@@ -273,6 +273,74 @@
       "source": "local status cue",
       "proposed": false
     },
+    "Ava/news_update_staged_half": {
+      "slug": "news_update_staged_half",
+      "persona": "Ava",
+      "kinds": [
+        "news_update",
+        "status"
+      ],
+      "text": "News report has been staged for the half hour.",
+      "spoken": "News report has been staged for the half hour.",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "sha256": "464c0c6fd98562e22e8e4dede0c3290f1b785e2bab095afea000c5e6d3bb3ad3",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.355,
+      "peak_dbfs": -5.96,
+      "rms_dbfs": -20.08,
+      "lead_silence_ms": 23,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 306,
+        "tail": 463
+      },
+      "render_s": 5.16,
+      "rendered": "2026-10-02T01:19:52-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Ava/news_update_staged_hour": {
+      "slug": "news_update_staged_hour",
+      "persona": "Ava",
+      "kinds": [
+        "news_update",
+        "status"
+      ],
+      "text": "News report has been staged for the hour.",
+      "spoken": "News report has been staged for the hour.",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "sha256": "9750df10aed6e5628ea6cde5872c91d1b800dbab60f91e6e1fa86b5e7ffe7155",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.089,
+      "peak_dbfs": -1.5,
+      "rms_dbfs": -22.05,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 304,
+        "tail": 457
+      },
+      "render_s": 5.05,
+      "rendered": "2026-10-02T01:19:45-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
     "Ava/news_update_starting": {
       "slug": "news_update_starting",
       "persona": "Ava",
@@ -2211,5 +2279,5 @@
       "proposed": false
     }
   },
-  "updated": "2026-10-02T01:19:39-10:00"
+  "updated": "2026-10-02T01:19:52-10:00"
 }

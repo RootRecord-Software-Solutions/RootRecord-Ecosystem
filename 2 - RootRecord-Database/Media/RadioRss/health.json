@@ -17,7 +17,7 @@
       "items_day": 10,
       "latency_ms": 298.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "25460"
+      "last_item_age_sec": "26379"
     },
     {
       "id": "nasa_recent",
@@ -35,7 +35,7 @@
       "items_day": 10,
       "latency_ms": 283.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "25460"
+      "last_item_age_sec": "26379"
     },
     {
       "id": "nasa_technology",
@@ -89,7 +89,7 @@
       "items_day": 10,
       "latency_ms": 302.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "61422"
+      "last_item_age_sec": "62341"
     },
     {
       "id": "nasa_artemis",
@@ -107,7 +107,7 @@
       "items_day": 10,
       "latency_ms": 700.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "136677"
+      "last_item_age_sec": "137596"
     },
     {
       "id": "nasa_goddard",
@@ -179,7 +179,7 @@
       "items_day": 10,
       "latency_ms": 295.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "674523"
+      "last_item_age_sec": "675442"
     },
     {
       "id": "jpl_news",
@@ -242,16 +242,16 @@
       "category": "space",
       "status": "HEALTHY",
       "reason": "",
-      "last_success": "2026-10-02T11:01:57Z",
+      "last_success": "2026-10-02T11:24:35Z",
       "last_failure": "",
       "consecutive_failures": 0,
       "http_status": 200,
       "parse_status": "ok",
       "items_received": 9,
       "items_day": 12,
-      "latency_ms": 445.0,
+      "latency_ms": 451.0,
       "duplicate_pct": 100.0,
-      "last_item_age_sec": "4160"
+      "last_item_age_sec": "5079"
     },
     {
       "id": "esa_space_science",
@@ -260,16 +260,16 @@
       "category": "space",
       "status": "HEALTHY",
       "reason": "",
-      "last_success": "2026-10-02T11:01:56Z",
+      "last_success": "2026-10-02T11:24:34Z",
       "last_failure": "",
       "consecutive_failures": 0,
       "http_status": 200,
       "parse_status": "ok",
       "items_received": 15,
       "items_day": 15,
-      "latency_ms": 917.0,
+      "latency_ms": 649.0,
       "duplicate_pct": 100.0,
-      "last_item_age_sec": "187460"
+      "last_item_age_sec": "188379"
     },
     {
       "id": "esa_human_spaceflight",
@@ -278,16 +278,16 @@
       "category": "space",
       "status": "HEALTHY",
       "reason": "",
-      "last_success": "2026-10-02T11:01:55Z",
+      "last_success": "2026-10-02T11:24:34Z",
       "last_failure": "",
       "consecutive_failures": 0,
       "http_status": 200,
       "parse_status": "ok",
       "items_received": 15,
-      "items_day": 16,
-      "latency_ms": 1217.0,
-      "duplicate_pct": 100.0,
-      "last_item_age_sec": "4160"
+      "items_day": 17,
+      "latency_ms": 1285.0,
+      "duplicate_pct": 93.3,
+      "last_item_age_sec": "3279"
     },
     {
       "id": "esa_earth_observation",
@@ -359,7 +359,7 @@
       "items_day": 15,
       "latency_ms": 904.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "154691"
+      "last_item_age_sec": "155610"
     },
     {
       "id": "nsf_events",
@@ -413,7 +413,7 @@
       "items_day": 20,
       "latency_ms": 500.0,
       "duplicate_pct": 100.0,
-      "last_item_age_sec": "342560"
+      "last_item_age_sec": "343479"
     },
     {
       "id": "nist_cybersecurity",
@@ -449,7 +449,7 @@
       "items_day": 20,
       "latency_ms": 848.0,
       "duplicate_pct": 100.0,
-      "last_item_age_sec": "83360"
+      "last_item_age_sec": "84279"
     },
     {
       "id": "nist_it",
@@ -647,7 +647,7 @@
       "items_day": 20,
       "latency_ms": 1207.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "52835"
+      "last_item_age_sec": "53754"
     },
     {
       "id": "ars_gadgets",
@@ -1052,16 +1052,16 @@
       "category": "developer_ecosystem",
       "status": "HEALTHY",
       "reason": "",
-      "last_success": "2026-10-02T11:01:58Z",
+      "last_success": "2026-10-02T11:24:36Z",
       "last_failure": "",
       "consecutive_failures": 0,
       "http_status": 304,
       "parse_status": "not_modified",
       "items_received": 0,
       "items_day": 10,
-      "latency_ms": 460.0,
+      "latency_ms": 795.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "54701"
+      "last_item_age_sec": "55620"
     },
     {
       "id": "docker_blog",
@@ -1079,7 +1079,7 @@
       "items_day": 10,
       "latency_ms": 1003.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "60188"
+      "last_item_age_sec": "61107"
     },
     {
       "id": "kernel_releases",
@@ -1115,7 +1115,7 @@
       "items_day": 20,
       "latency_ms": 1095.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "70518"
+      "last_item_age_sec": "71437"
     },
     {
       "id": "azure_blog",
@@ -1349,7 +1349,7 @@
       "items_day": 20,
       "latency_ms": 9456.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "162560"
+      "last_item_age_sec": "163479"
     },
     {
       "id": "eia_whats_new",
@@ -1367,7 +1367,7 @@
       "items_day": 10,
       "latency_ms": 10473.0,
       "duplicate_pct": 100.0,
-      "last_item_age_sec": "108560"
+      "last_item_age_sec": "109479"
     },
     {
       "id": "eia_press",
@@ -1385,7 +1385,7 @@
       "items_day": 11,
       "latency_ms": 909.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "1966160"
+      "last_item_age_sec": "1967079"
     },
     {
       "id": "eia_fuel_update",
@@ -1403,7 +1403,7 @@
       "items_day": 1,
       "latency_ms": 800.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "249255"
+      "last_item_age_sec": "250174"
     },
     {
       "id": "eia_heating_oil",
@@ -1421,7 +1421,7 @@
       "items_day": 1,
       "latency_ms": 644.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "15882370"
+      "last_item_age_sec": "15883289"
     },
     {
       "id": "fed_monetary",
@@ -1430,16 +1430,16 @@
       "category": "economics_finance",
       "status": "HEALTHY",
       "reason": "",
-      "last_success": "2026-10-02T11:01:58Z",
+      "last_success": "2026-10-02T11:24:36Z",
       "last_failure": "",
       "consecutive_failures": 0,
       "http_status": 304,
       "parse_status": "not_modified",
       "items_received": 0,
       "items_day": 12,
-      "latency_ms": 832.0,
+      "latency_ms": 963.0,
       "duplicate_pct": 20.0,
-      "last_item_age_sec": "1357760"
+      "last_item_age_sec": "1358679"
     },
     {
       "id": "fed_speeches",
@@ -1457,7 +1457,7 @@
       "items_day": 15,
       "latency_ms": 349.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "58160"
+      "last_item_age_sec": "59079"
     },
     {
       "id": "fed_supervision",
@@ -1475,7 +1475,7 @@
       "items_day": 15,
       "latency_ms": 459.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "166160"
+      "last_item_age_sec": "167079"
     },
     {
       "id": "fed_banking_letters",
@@ -1493,7 +1493,7 @@
       "items_day": 15,
       "latency_ms": 477.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "2048960"
+      "last_item_age_sec": "2049879"
     },
     {
       "id": "fed_working_papers",
@@ -1583,7 +1583,7 @@
       "items_day": 20,
       "latency_ms": 1190.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "7559"
+      "last_item_age_sec": "8478"
     },
     {
       "id": "sciencedaily_all",
@@ -1628,16 +1628,16 @@
       "category": "markets",
       "status": "HEALTHY",
       "reason": "",
-      "last_success": "2026-10-02T11:01:50Z",
+      "last_success": "2026-10-02T11:24:28Z",
       "last_failure": "",
       "consecutive_failures": 0,
       "http_status": 200,
       "parse_status": "ok",
       "items_received": 20,
       "items_day": 20,
-      "latency_ms": 2086.0,
+      "latency_ms": 2292.0,
       "duplicate_pct": 100.0,
-      "last_item_age_sec": "167900"
+      "last_item_age_sec": "168819"
     },
     {
       "id": "sec_press",
@@ -1655,7 +1655,7 @@
       "items_day": 20,
       "latency_ms": 2193.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "67993"
+      "last_item_age_sec": "68912"
     },
     {
       "id": "cftc_press",
@@ -1673,7 +1673,7 @@
       "items_day": 10,
       "latency_ms": 735.0,
       "duplicate_pct": 100.0,
-      "last_item_age_sec": "79369"
+      "last_item_age_sec": "80288"
     },
     {
       "id": "marketwatch_top",
@@ -1682,16 +1682,16 @@
       "category": "markets",
       "status": "HEALTHY",
       "reason": "",
-      "last_success": "2026-10-02T11:02:00Z",
+      "last_success": "2026-10-02T11:24:39Z",
       "last_failure": "",
       "consecutive_failures": 0,
       "http_status": 200,
       "parse_status": "ok",
       "items_received": 10,
       "items_day": 21,
-      "latency_ms": 1159.0,
-      "duplicate_pct": 80.0,
-      "last_item_age_sec": "560"
+      "latency_ms": 1221.0,
+      "duplicate_pct": 100.0,
+      "last_item_age_sec": "1479"
     },
     {
       "id": "bbc_business",
@@ -1700,16 +1700,16 @@
       "category": "markets",
       "status": "HEALTHY",
       "reason": "",
-      "last_success": "2026-10-02T11:01:48Z",
+      "last_success": "2026-10-02T11:24:26Z",
       "last_failure": "",
       "consecutive_failures": 0,
       "http_status": 200,
       "parse_status": "ok",
       "items_received": 20,
       "items_day": 23,
-      "latency_ms": 2016.0,
+      "latency_ms": 1988.0,
       "duplicate_pct": 100.0,
-      "last_item_age_sec": "1481"
+      "last_item_age_sec": "428"
     },
     {
       "id": "cnbc_markets",
@@ -1763,7 +1763,7 @@
       "items_day": 20,
       "latency_ms": 998.0,
       "duplicate_pct": 100.0,
-      "last_item_age_sec": "48048"
+      "last_item_age_sec": "48967"
     },
     {
       "id": "breaking_defense",
@@ -1772,16 +1772,16 @@
       "category": "national_security",
       "status": "HEALTHY",
       "reason": "",
-      "last_success": "2026-10-02T11:01:51Z",
+      "last_success": "2026-10-02T11:24:29Z",
       "last_failure": "",
       "consecutive_failures": 0,
       "http_status": 304,
       "parse_status": "not_modified",
       "items_received": 0,
       "items_day": 16,
-      "latency_ms": 784.0,
+      "latency_ms": 914.0,
       "duplicate_pct": 93.3,
-      "last_item_age_sec": "7760"
+      "last_item_age_sec": "8679"
     },
     {
       "id": "defense_news",
@@ -1790,16 +1790,16 @@
       "category": "national_security",
       "status": "HEALTHY",
       "reason": "",
-      "last_success": "2026-10-02T11:01:54Z",
+      "last_success": "2026-10-02T11:24:32Z",
       "last_failure": "",
       "consecutive_failures": 0,
       "http_status": 200,
       "parse_status": "ok",
       "items_received": 20,
       "items_day": 20,
-      "latency_ms": 1884.0,
+      "latency_ms": 2035.0,
       "duplicate_pct": 100.0,
-      "last_item_age_sec": "47014"
+      "last_item_age_sec": "47933"
     },
     {
       "id": "uk_mod",
@@ -1817,7 +1817,7 @@
       "items_day": 25,
       "latency_ms": 846.0,
       "duplicate_pct": 80.0,
-      "last_item_age_sec": "3194"
+      "last_item_age_sec": "4113"
     },
     {
       "id": "spacex_official",
@@ -1871,7 +1871,7 @@
       "items_day": 6,
       "latency_ms": 1318.0,
       "duplicate_pct": 60.0,
-      "last_item_age_sec": "57100"
+      "last_item_age_sec": "58019"
     },
     {
       "id": "spacenews_spacex",
@@ -1907,7 +1907,7 @@
       "items_day": 7,
       "latency_ms": 897.0,
       "duplicate_pct": 70.0,
-      "last_item_age_sec": "45110"
+      "last_item_age_sec": "46029"
     },
     {
       "id": "hawaii_governor",
@@ -1916,16 +1916,16 @@
       "category": "hawaii",
       "status": "HEALTHY",
       "reason": "",
-      "last_success": "2026-10-02T11:01:59Z",
+      "last_success": "2026-10-02T11:24:37Z",
       "last_failure": "",
       "consecutive_failures": 0,
       "http_status": 304,
       "parse_status": "not_modified",
       "items_received": 0,
       "items_day": 14,
-      "latency_ms": 686.0,
+      "latency_ms": 913.0,
       "duplicate_pct": 60.0,
-      "last_item_age_sec": "38615"
+      "last_item_age_sec": "39534"
     },
     {
       "id": "hawaii_dbedt",
@@ -1943,7 +1943,7 @@
       "items_day": 10,
       "latency_ms": 1781.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "125308"
+      "last_item_age_sec": "126227"
     },
     {
       "id": "hawaii_health",
@@ -1961,7 +1961,7 @@
       "items_day": 11,
       "latency_ms": 1323.0,
       "duplicate_pct": 90.0,
-      "last_item_age_sec": "30003"
+      "last_item_age_sec": "30922"
     },
     {
       "id": "civil_beat",
@@ -1970,16 +1970,16 @@
       "category": "hawaii",
       "status": "HEALTHY",
       "reason": "",
-      "last_success": "2026-10-02T11:01:52Z",
+      "last_success": "2026-10-02T11:24:30Z",
       "last_failure": "",
       "consecutive_failures": 0,
       "http_status": 304,
       "parse_status": "not_modified",
       "items_received": 0,
       "items_day": 16,
-      "latency_ms": 1100.0,
+      "latency_ms": 1194.0,
       "duplicate_pct": 40.0,
-      "last_item_age_sec": "4100"
+      "last_item_age_sec": "5019"
     },
     {
       "id": "star_advertiser",
@@ -1997,7 +1997,7 @@
       "items_day": 43,
       "latency_ms": 813.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "3800"
+      "last_item_age_sec": "4719"
     },
     {
       "id": "hawaii_news_now",
@@ -2015,7 +2015,7 @@
       "items_day": 35,
       "latency_ms": 1794.0,
       "duplicate_pct": 80.0,
-      "last_item_age_sec": "6546"
+      "last_item_age_sec": "7465"
     }
   ]
 }

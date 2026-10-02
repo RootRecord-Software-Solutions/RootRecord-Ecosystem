@@ -4665,7 +4665,7 @@
         {
           "publisher": "MarketWatch",
           "source": "MarketWatch Top Stories",
-          "title": "Another viral AI doomsday report claims \u2018it\u2019s over.\u2019 Why home prices could take a hit as screen-based jobs disappear.",
+          "title": "Another viral AI-doomsday report claims \u2018it\u2019s over.\u2019 Why home prices could take a hit as screen-based jobs disappear.",
           "url": "https://www.marketwatch.com/story/another-viral-ai-doomsday-report-claims-its-over-why-home-prices-could-take-a-hit-as-screen-based-jobs-disappear-4bed48bc?mod=mw_rss_topstories",
           "published_at": "2026-10-02T09:25:00Z"
         }
@@ -4845,7 +4845,7 @@
         {
           "publisher": "BBC",
           "source": "BBC Business",
-          "title": "UK diesel price hits \u00a32 a litre for first time, RAC says",
+          "title": "UK diesel price hits \u00a32 a litre as US calls for EU to release more stocks",
           "url": "https://www.bbc.co.uk/news/articles/crn8e86y5n0zo?at_medium=RSS&at_campaign=rss",
           "published_at": "2026-10-02T10:11:14Z"
         }
@@ -5359,6 +5359,24 @@
           "title": "Three reasons why this Wall Street market-making powerhouse says investors should reload on stocks now",
           "url": "https://www.marketwatch.com/story/three-reasons-why-this-wall-street-market-making-powerhouse-says-investors-should-reload-on-stocks-now-8e19ecce?mod=mw_rss_topstories",
           "published_at": "2026-10-02T10:48:00Z"
+        }
+      ]
+    },
+    {
+      "id": "056dec9add6e16f0",
+      "cluster_id": "c_f4b7e5e609ee5b77",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_f4b7e5e609ee5b77.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_f4b7e5e609ee5b77.speak.txt",
+      "sources": [
+        {
+          "publisher": "ESA",
+          "source": "ESA Human Spaceflight",
+          "title": "A guide to blood draws in orbit",
+          "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/A_guide_to_blood_draws_in_orbit",
+          "published_at": "2026-10-02T10:30:00Z"
         }
       ]
     }
