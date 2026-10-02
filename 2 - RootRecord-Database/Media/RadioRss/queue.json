@@ -4796,6 +4796,42 @@
           "published_at": "2026-10-02T07:05:00Z"
         }
       ]
+    },
+    {
+      "id": "7f98343edffba830",
+      "cluster_id": "c_f67c9ed9cd2670fa",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_f67c9ed9cd2670fa.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_f67c9ed9cd2670fa.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "Here\u2019s the bond-market alternative as U.S. and other developed markets debt deteriorate",
+          "url": "https://www.marketwatch.com/story/heres-the-bond-market-alternative-as-u-s-and-other-developed-markets-debt-deteriorate-e3d57b02?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T10:25:00Z"
+        }
+      ]
+    },
+    {
+      "id": "39987c53e4dff4ae",
+      "cluster_id": "c_4a8976baaa7eb42e",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_4a8976baaa7eb42e.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_4a8976baaa7eb42e.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "Brazil is holding an election \u2014 and for the stock market, there\u2019s more to gain than to lose, says fund manager",
+          "url": "https://www.marketwatch.com/story/brazil-is-holding-an-election-and-for-the-stock-market-theres-more-to-gain-than-to-lose-says-fund-manager-fa29f26e?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T10:22:00Z"
+        }
+      ]
     }
   ]
 }
