@@ -1,233 +1,157 @@
 {
   "collector": "ml2.radio_rss",
   "status": "ok",
-  "collected_at": "2026-10-02T13:44:29Z",
+  "collected_at": "2026-10-02T15:02:13Z",
   "rr_database_root": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank",
   "radio_root": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss",
   "poll": {
     "ok": true,
     "polled": [
       {
-        "feed": "hawaii_governor",
-        "ok": true,
-        "items": 10,
-        "duplicates": 1
-      },
-      {
-        "feed": "jpl_news",
-        "ok": false
-      },
-      {
-        "feed": "marketwatch_top",
-        "ok": true,
-        "items": 10,
-        "duplicates": 0
-      },
-      {
-        "feed": "microsoft_blog",
-        "ok": true,
-        "items": 10,
-        "duplicates": 0
-      },
-      {
-        "feed": "microsoft_news",
-        "ok": true,
-        "items": 10,
-        "duplicates": 0
-      },
-      {
-        "feed": "mit_news",
+        "feed": "abc_australia_top",
         "ok": true,
         "items": 20,
-        "duplicates": 0
+        "duplicates": 17
       },
       {
-        "feed": "mit_research",
+        "feed": "aljazeera_all",
+        "ok": true,
+        "items": 0
+      },
+      {
+        "feed": "azure_blog",
+        "ok": true,
+        "items": 0
+      },
+      {
+        "feed": "bbc_africa",
         "ok": true,
         "items": 20,
-        "duplicates": 0
+        "duplicates": 11
       },
       {
-        "feed": "nasa_artemis",
+        "feed": "bbc_asia",
         "ok": true,
-        "items": 10,
-        "duplicates": 0
+        "items": 17,
+        "duplicates": 17
       },
       {
-        "feed": "nasa_jpl",
+        "feed": "bbc_australia",
         "ok": true,
-        "items": 10,
-        "duplicates": 0
+        "items": 17,
+        "duplicates": 11
       },
       {
-        "feed": "nasa_news",
-        "ok": true,
-        "items": 10,
-        "duplicates": 0
-      },
-      {
-        "feed": "nasa_recent",
-        "ok": true,
-        "items": 10,
-        "duplicates": 0
-      },
-      {
-        "feed": "nasa_station",
-        "ok": true,
-        "items": 10,
-        "duplicates": 0
-      },
-      {
-        "feed": "nasaspaceflight",
-        "ok": false
-      },
-      {
-        "feed": "nature_news",
+        "feed": "bbc_business",
         "ok": true,
         "items": 20,
-        "duplicates": 0
+        "duplicates": 18
       },
       {
-        "feed": "nhc_atlantic",
-        "ok": true,
-        "items": 2,
-        "duplicates": 0
-      },
-      {
-        "feed": "nhc_eastern_pacific",
-        "ok": true,
-        "items": 7,
-        "duplicates": 1
-      },
-      {
-        "feed": "nist_cyber_insights",
+        "feed": "bbc_europe",
         "ok": true,
         "items": 20,
-        "duplicates": 0
+        "duplicates": 19
       },
       {
-        "feed": "nist_cybersecurity",
+        "feed": "bbc_latin_america",
         "ok": true,
-        "items": 0,
-        "duplicates": 0
+        "items": 17,
+        "duplicates": 17
       },
       {
-        "feed": "nist_news",
+        "feed": "bbc_middle_east",
         "ok": true,
         "items": 20,
-        "duplicates": 0
+        "duplicates": 18
       },
       {
-        "feed": "noaa_news",
+        "feed": "bbc_world",
         "ok": true,
-        "items": 10,
-        "duplicates": 0
+        "items": 20,
+        "duplicates": 19
       },
       {
-        "feed": "npr_national",
+        "feed": "bea_news",
         "ok": true,
-        "items": 10,
-        "duplicates": 0
+        "items": 20,
+        "duplicates": 20
       },
       {
-        "feed": "npr_news",
+        "feed": "berkeley_news",
         "ok": true,
-        "items": 10,
-        "duplicates": 0
+        "items": 0
       },
       {
-        "feed": "npr_politics",
+        "feed": "breaking_defense",
         "ok": true,
-        "items": 10,
-        "duplicates": 0
+        "items": 0
       },
       {
-        "feed": "npr_world",
+        "feed": "cisa_news",
         "ok": true,
         "items": 10,
-        "duplicates": 0
+        "duplicates": 10
+      },
+      {
+        "feed": "civil_beat",
+        "ok": true,
+        "items": 0
+      },
+      {
+        "feed": "defense_news",
+        "ok": true,
+        "items": 20,
+        "duplicates": 19
+      },
+      {
+        "feed": "esa_human_spaceflight",
+        "ok": true,
+        "items": 15,
+        "duplicates": 14
+      },
+      {
+        "feed": "esa_space_science",
+        "ok": true,
+        "items": 15,
+        "duplicates": 15
+      },
+      {
+        "feed": "esa_top_news",
+        "ok": true,
+        "items": 9,
+        "duplicates": 8
+      },
+      {
+        "feed": "fed_monetary",
+        "ok": true,
+        "items": 0
+      },
+      {
+        "feed": "github_changelog",
+        "ok": true,
+        "items": 0
+      },
+      {
+        "feed": "guardian_international",
+        "ok": true,
+        "items": 20,
+        "duplicates": 17
+      },
+      {
+        "feed": "harvard_gazette",
+        "ok": true,
+        "items": 0
       }
     ],
     "composed": [
-      "c_cca76d1e412e131b",
-      "c_7efbaa73e85cfa93",
-      "c_db18f0cbcd7cfbc9",
-      "c_d4a6c934956a83b2",
-      "c_7355d472b4018529",
-      "c_9251892a48fc8e27",
-      "c_2a0b65570e440426",
-      "c_03890ffc827fb0b7",
-      "c_87674d886e9c59c7",
-      "c_318145619184cb41",
-      "c_ca494ab91af20be4",
-      "c_154ac5d2e1cc627f",
-      "c_fdf76b5a955fb1ca",
-      "c_a2ae52b5822c00e0",
-      "c_2e65e717b0ffe830",
-      "c_4d8279cac482efbb",
-      "c_69b66d01904f07b9",
-      "c_146c9829b9fa29fe",
-      "c_e87466bc34f8e59b",
-      "c_d1a36831435c972b",
-      "c_a4ac54f641d42537",
-      "c_097a3b48c271b54c",
-      "c_5d2cad9c5cc3b836",
-      "c_545ebc6a5b547a1f",
-      "c_0f73a12b5a96c60b",
-      "c_50f8507c0decacc0",
-      "c_79a23b478722f211",
-      "c_10eef3344c045091",
-      "c_c19230a324aec6f0",
-      "c_0caf39fa551d415b",
-      "c_31901409a6b0a17b",
-      "c_92d5424a349e71d3",
-      "c_56b52133af14892b",
-      "c_854e396d2a0ba5da",
-      "c_85754e3b44d503bd",
-      "c_b03d063376c7c705",
-      "c_d2da6daa9e9dc7d1",
-      "c_044f7c5ad02eeb59",
-      "c_cd1b4a0f0edb16dd",
-      "c_c5c0c815cc352fd7",
-      "c_2faba2278a0fc16d",
-      "c_3a055345876ce88b",
-      "c_c090cb342430321e",
-      "c_190b83b955b3c345",
-      "c_8e438abfd028335c",
-      "c_b5881ed4efcb0cc9",
-      "c_f21050d43196cb2c",
-      "c_019a99e90e8a94b7",
-      "c_2a9d95c8bbe95b32",
-      "c_ab98a11141fb6474",
-      "c_35e635b0117144f8",
-      "c_708503efc7fc4591",
-      "c_4de38377c189cef5",
-      "c_d70249c4a0669a80",
-      "c_31b12b316fa8bf03",
-      "c_0b35b5a0ab67fd65",
-      "c_78d3fa9fc58982d4",
-      "c_5a7db1b042d9e960",
-      "c_6555bc76fdd90990",
-      "c_b7c939206e199e12",
-      "c_fff3f09f245a295a",
-      "c_3d48c6689fa68458",
-      "c_59a86e80df8c34b0",
-      "c_42703a63183e2ee7",
-      "c_5836fb6f9c5efd7e",
-      "c_13e0b8affb8a0fd4",
-      "c_94990b41c63b45e6",
-      "c_4cf05654c5ece817",
-      "c_5144672609ce97d3",
-      "c_efb06ad3824f8ec7",
-      "c_52fa408f3e064725",
-      "c_fcf18eaf65432fbf",
-      "c_1589812ea9fe2395",
-      "c_9accd98548f265fc"
+      "c_62059885853097df",
+      "c_86ad351a3839a216"
     ]
   },
   "handoff_core": 3,
   "handoff_stories": 80,
-  "handoff_story_bytes": 104760,
+  "handoff_story_bytes": 102585,
   "error": null,
   "pacific_job": "radio_rss_poll",
   "note": "vendor/RadioRss poll + queue export; no speak/push. Pacific radio_rss_poll stays in jobs.py (RR_LOCAL_DATA_POLL gate)."

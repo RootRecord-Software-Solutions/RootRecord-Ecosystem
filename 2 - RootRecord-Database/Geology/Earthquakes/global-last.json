@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-02T03:41:31-10:00",
+  "at": "2026-10-02T05:02:14-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
@@ -14,8 +14,68 @@
     "time_hst": "2026-10-01T18:44:53.423000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-02T13:41:19+00:00",
+  "usgs_generated_utc": "2026-10-02T15:01:19+00:00",
   "events": [
+    {
+      "id": "aka2026tnfazg",
+      "mag": 2.5,
+      "mag_type": "ml",
+      "place": "65 km ESE of Denali National Park, Alaska",
+      "time_utc": "2026-10-02T14:31:03.936000+00:00",
+      "time_hst": "2026-10-02T04:31:03.936000-10:00",
+      "lon": -150.553,
+      "lat": 63.275,
+      "depth_km": 135,
+      "status": "automatic",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tnfazg",
+      "nearest": null
+    },
+    {
+      "id": "us6000tz1c",
+      "mag": 5,
+      "mag_type": "mb",
+      "place": "6 km E of Inglewood, New Zealand",
+      "time_utc": "2026-10-02T13:57:15.838000+00:00",
+      "time_hst": "2026-10-02T03:57:15.838000-10:00",
+      "lon": 174.2598,
+      "lat": -39.1598,
+      "depth_km": 10,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz1c",
+      "nearest": {
+        "location_id": "nz-wellington",
+        "name": "Wellington",
+        "country_code": "NZ",
+        "admin1_code": null,
+        "km": 240.8
+      }
+    },
+    {
+      "id": "pr71535348",
+      "mag": 3.28,
+      "mag_type": "md",
+      "place": "65 km NE of Punta Cana, Dominican Republic",
+      "time_utc": "2026-10-02T13:29:01.410000+00:00",
+      "time_hst": "2026-10-02T03:29:01.410000-10:00",
+      "lon": -67.9175,
+      "lat": 18.954,
+      "depth_km": 31.57,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71535348",
+      "nearest": {
+        "location_id": "pr-san-juan",
+        "name": "San Juan",
+        "country_code": "PR",
+        "admin1_code": null,
+        "km": 197.3
+      }
+    },
     {
       "id": "pr2026275000",
       "mag": 2.96,
@@ -373,22 +433,6 @@
       "nearest": null
     },
     {
-      "id": "us6000tywf",
-      "mag": 2.6,
-      "mag_type": "ml",
-      "place": "58 km SSW of Whites City, New Mexico",
-      "time_utc": "2026-10-01T18:53:23.692000+00:00",
-      "time_hst": "2026-10-01T08:53:23.692000-10:00",
-      "lon": -104.5902,
-      "lat": 31.6815,
-      "depth_km": 7.512,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tywf",
-      "nearest": null
-    },
-    {
       "id": "tx2026tiooka",
       "mag": 3.1,
       "mag_type": "ml",
@@ -488,38 +532,6 @@
       "tsunami": 0,
       "type": "earthquake",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tlkkpe",
-      "nearest": null
-    },
-    {
-      "id": "us6000tyuf",
-      "mag": 4.8,
-      "mag_type": "mb",
-      "place": "127 km S of False Pass, Alaska",
-      "time_utc": "2026-10-01T14:46:19.877000+00:00",
-      "time_hst": "2026-10-01T04:46:19.877000-10:00",
-      "lon": -163.7238,
-      "lat": 53.7226,
-      "depth_km": 35,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyuf",
-      "nearest": null
-    },
-    {
-      "id": "us6000tyua",
-      "mag": 5,
-      "mag_type": "mb",
-      "place": "176 km NNE of Ruteng, Indonesia",
-      "time_utc": "2026-10-01T14:19:59.078000+00:00",
-      "time_hst": "2026-10-01T04:19:59.078000-10:00",
-      "lon": 120.9136,
-      "lat": -7.0805,
-      "depth_km": 10,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyua",
       "nearest": null
     }
   ]

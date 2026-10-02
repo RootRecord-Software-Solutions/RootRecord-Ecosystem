@@ -901,7 +901,7 @@
         {
           "publisher": "BBC",
           "source": "BBC Business",
-          "title": "US jobs market sees sharp slowdown in September",
+          "title": "US jobs market sees sharp slowdown ahead of midterm elections",
           "url": "https://www.bbc.co.uk/news/articles/cm2d6gg0642yo?at_medium=RSS&at_campaign=rss",
           "published_at": "2026-10-02T13:12:26Z"
         }
@@ -1504,7 +1504,7 @@
         {
           "publisher": "BBC",
           "source": "BBC World",
-          "title": "'Ashamed': Cornell students gather to voice anger over alleged gang rape",
+          "title": "Cornell students gather to voice anger over alleged gang rape",
           "url": "https://www.bbc.co.uk/news/articles/cm0e3ed1er1yo?at_medium=RSS&at_campaign=rss",
           "published_at": "2026-10-02T10:00:24Z"
         }
@@ -1774,7 +1774,7 @@
         {
           "publisher": "Breaking Defense",
           "source": "Breaking Defense",
-          "title": "Moroccan startup unveils prototye UAV that operates without GPS signal",
+          "title": "Moroccan startup unveils prototype UAV that operates without GPS signal",
           "url": "https://breakingdefense.com/2026/10/moroccan-startup-unveils-prototye-uav-that-operates-without-gps-signal/",
           "published_at": "2026-10-01T16:02:44Z"
         }
@@ -2663,7 +2663,7 @@
         {
           "publisher": "The Guardian",
           "source": "The Guardian International",
-          "title": "Over 560 schools disrupted in France on Friday as protests escalate into \u2018urban violence\u2019 \u2013 Europe live",
+          "title": "G7 to release 100m barrels from reserves to combat surging diesel prices \u2013 Europe live",
           "url": "https://www.theguardian.com/world/live/2026/oct/02/france-schools-protests-violence-ukraine-kallas-rome-pope-latest-news-updates",
           "published_at": "2026-10-02T13:02:28Z"
         }
@@ -2771,7 +2771,7 @@
         {
           "publisher": "The Guardian",
           "source": "The Guardian International",
-          "title": "The Filter Q&A: ask the Guardian\u2019s fashion stylist anything",
+          "title": "The Filter Q&A: the Guardian\u2019s fashion stylist answers your questions live",
           "url": "https://www.theguardian.com/thefilter/live/2026/oct/02/the-filter-qa-ask-the-guardians-fashion-stylist-anything",
           "published_at": "2026-10-02T07:58:51Z"
         }
@@ -2951,7 +2951,7 @@
         {
           "publisher": "The Guardian",
           "source": "The Guardian International",
-          "title": "\u2018We just want to be listened to\u2019: student protests shut schools across France",
+          "title": "Fires, fury and hundreds of arrests as France gripped by student protests",
           "url": "https://www.theguardian.com/world/2026/oct/02/student-protests-shut-schools-across-france",
           "published_at": "2026-10-02T12:57:16Z"
         }
@@ -3185,7 +3185,7 @@
         {
           "publisher": "MarketWatch",
           "source": "MarketWatch Top Stories",
-          "title": "Tesla\u2019s EV sales beat Wall Street\u2019s expectations again, and the stock jumps",
+          "title": "Tesla sold a lot more EVs than Wall Street expected, and the stock is surging",
           "url": "https://www.marketwatch.com/story/tesla-ev-sales-beat-wall-streets-expectations-again-and-the-stock-jumps-294a4f53?mod=mw_rss_topstories",
           "published_at": "2026-10-02T13:30:00Z"
         }
@@ -4437,6 +4437,312 @@
           "title": "What life under U.S. sanctions looks like for one ICC judge",
           "url": "https://www.npr.org/2026/10/01/nx-s1-5977815/trump-icc-sanctions-kimberly-prost",
           "published_at": "2026-10-01T08:42:13Z"
+        }
+      ]
+    },
+    {
+      "id": "c3090f22bb51b11b",
+      "cluster_id": "c_971a770ce61ef2c7",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_971a770ce61ef2c7.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_971a770ce61ef2c7.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Business",
+          "title": "Why UK diesel prices have breached the \u00a32 per litre mark",
+          "url": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T13:38:22Z"
+        }
+      ]
+    },
+    {
+      "id": "39c51236a6e3e6d6",
+      "cluster_id": "c_dfae8eff11fab3be",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_dfae8eff11fab3be.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_dfae8eff11fab3be.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "Navy, Raytheon ink $24.4B deal for SM-6 \u2018acceleration\u2019",
+          "url": "https://breakingdefense.com/2026/10/navy-raytheon-ink-24-4b-deal-for-sm-6-acceleration/",
+          "published_at": "2026-10-02T13:49:31Z"
+        }
+      ]
+    },
+    {
+      "id": "e683fb1947d49258",
+      "cluster_id": "c_f9c076c88ead7ff0",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_f9c076c88ead7ff0.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_f9c076c88ead7ff0.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Can India\u2019s \u2018cockroach\u2019 movement oust Modi\u2019s election chief?",
+          "url": "https://www.aljazeera.com/features/2026/10/2/can-indias-cockroach-movement-oust-modis-election-chief?traffic_source=rss",
+          "published_at": "2026-10-02T13:50:06Z"
+        }
+      ]
+    },
+    {
+      "id": "e706db15f25a03a4",
+      "cluster_id": "c_03adf04a1d794df7",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_03adf04a1d794df7.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_03adf04a1d794df7.speak.txt",
+      "sources": [
+        {
+          "publisher": "Defense News",
+          "source": "Defense News",
+          "title": "French Air Force plans loyal wingman flight in 2028 in sovereign AI push",
+          "url": "https://www.defensenews.com/global/europe/2026/10/02/french-air-force-plans-loyal-wingman-flight-in-2028-in-sovereign-ai-push/",
+          "published_at": "2026-10-02T13:59:10Z"
+        }
+      ]
+    },
+    {
+      "id": "63b4f2e6dc85e267",
+      "cluster_id": "c_def33f864caaf68c",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_def33f864caaf68c.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_def33f864caaf68c.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "\u2018I don\u2019t want to die on the sales floor\u2019: I\u2019m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?",
+          "url": "https://www.marketwatch.com/story/i-dont-want-to-die-on-the-sales-floor-im-67-and-earn-19-50-an-hour-at-a-big-box-store-when-can-i-finally-retire-369abcf9?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T14:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "cfc0bdba4104bad1",
+      "cluster_id": "c_3aa92bda97e8df54",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_3aa92bda97e8df54.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_3aa92bda97e8df54.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
+          "url": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T13:45:00Z"
+        }
+      ]
+    },
+    {
+      "id": "d4e8037fde7413df",
+      "cluster_id": "c_5dc86ab8ff02bcf5",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_5dc86ab8ff02bcf5.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_5dc86ab8ff02bcf5.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR News",
+          "title": "The U.S. added only 29,000 jobs in September as job market lacks spark",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5989140/jobs-labor-wages-federal-reserve",
+          "published_at": "2026-10-02T13:54:18Z"
+        }
+      ]
+    },
+    {
+      "id": "2e7cbbf6e4df50ff",
+      "cluster_id": "c_281ba12b6f778824",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_281ba12b6f778824.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_281ba12b6f778824.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "I've seen nearly 500 executions - but never one like Christa Pike's",
+          "url": "https://www.bbc.co.uk/news/articles/c6d949gq47x9o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T14:01:09Z"
+        }
+      ]
+    },
+    {
+      "id": "4f1e42f8c721e951",
+      "cluster_id": "c_edb6a8962443fb94",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_edb6a8962443fb94.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_edb6a8962443fb94.speak.txt",
+      "sources": [
+        {
+          "publisher": "Defense News",
+          "source": "Defense News",
+          "title": "Taiwan\u2019s first two F-16V fighter jets arrive to bolster defenses against China",
+          "url": "https://www.defensenews.com/global/asia-pacific/2026/10/02/taiwans-first-two-f-16v-fighter-jets-arrive-to-bolster-defenses-against-china/",
+          "published_at": "2026-10-02T14:15:53Z"
+        }
+      ]
+    },
+    {
+      "id": "b77738820ee97865",
+      "cluster_id": "c_02b042485faa2058",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_02b042485faa2058.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_02b042485faa2058.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "John Maynard Keynes: the cultured economist who governments turn to in a crisis",
+          "url": "https://www.theguardian.com/business/2026/oct/02/john-maynard-keynes-the-cultured-economist-who-governments-turn-to-in-a-crisis",
+          "published_at": "2026-10-02T14:00:09Z"
+        }
+      ]
+    },
+    {
+      "id": "0b8999513914bfc2",
+      "cluster_id": "c_a77baba25be94db1",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_a77baba25be94db1.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_a77baba25be94db1.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "Feeling wired? The truth about \u2018nervous system resets\u2019",
+          "url": "https://www.theguardian.com/lifeandstyle/ng-interactive/2026/oct/02/feeling-wired-the-truth-about-nervous-system-resets",
+          "published_at": "2026-10-02T14:00:09Z"
+        }
+      ]
+    },
+    {
+      "id": "dcfc9ffb67713ed0",
+      "cluster_id": "c_dc315954b085dfea",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_dc315954b085dfea.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_dc315954b085dfea.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "The simple secrets behind great ramen",
+          "url": "https://www.theguardian.com/food/2026/oct/02/secret-to-great-ramen-noodles-recipes-broth-japanese-food",
+          "published_at": "2026-10-02T14:00:09Z"
+        }
+      ]
+    },
+    {
+      "id": "30c9546f0c8ebf05",
+      "cluster_id": "c_425c1db9770fdb57",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_425c1db9770fdb57.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_425c1db9770fdb57.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Trump claims Europe agreed to release \u2018massive amount\u2019 diesel stockpile",
+          "url": "https://www.aljazeera.com/news/2026/10/2/trump-says-europe-agrees-to-release-massive-amount-diesel-stockpile?traffic_source=rss",
+          "published_at": "2026-10-02T14:14:18Z"
+        }
+      ]
+    },
+    {
+      "id": "d300a2f1d3da3ca3",
+      "cluster_id": "c_88f6ea6e61fcac4b",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_88f6ea6e61fcac4b.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_88f6ea6e61fcac4b.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Nepal plans to drain four glacial lakes after flooding disaster",
+          "url": "https://www.abc.net.au/news/2026-10-03/nepal-plans-drain-glacial-lakes-after-flooding-disaster/107223866",
+          "published_at": "2026-10-02T14:36:16Z"
+        }
+      ]
+    },
+    {
+      "id": "cad1ed49db117bd5",
+      "cluster_id": "c_b4dcfa15a986651e",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_b4dcfa15a986651e.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_b4dcfa15a986651e.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "Woman in alleged Cornell gang-rape case was \u2018failed\u2019 by system, New York governor says",
+          "url": "https://www.theguardian.com/us-news/2026/oct/02/new-york-cornell-alleged-gang-rape-kathy-hochul",
+          "published_at": "2026-10-02T14:33:17Z"
+        }
+      ]
+    },
+    {
+      "id": "9847ec63ba5560ac",
+      "cluster_id": "c_62059885853097df",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_62059885853097df.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_62059885853097df.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "India\u2019s Cockroach movement launches new protests over changes to voter roll",
+          "url": "https://www.theguardian.com/world/2026/oct/02/india-cockroach-movement-protests-mumbai-changes-voter-roll",
+          "published_at": "2026-10-02T14:42:16Z"
+        }
+      ]
+    },
+    {
+      "id": "7e1eba171cb2ee54",
+      "cluster_id": "c_86ad351a3839a216",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_86ad351a3839a216.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_86ad351a3839a216.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "\u2018The enemy is tearing our city apart\u2019: terror in Kyiv as Russia ramps up attacks",
+          "url": "https://www.theguardian.com/world/2026/oct/02/terror-kyiv-russia-ramps-up-attacks-ukraine",
+          "published_at": "2026-10-02T14:50:59Z"
         }
       ]
     }
