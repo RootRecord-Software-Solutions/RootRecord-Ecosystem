@@ -9,7 +9,7 @@
             <link>https://www.bbc.co.uk/news/business</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 02 Oct 2026 09:20:49 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Oct 2026 10:34:35 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/business/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
@@ -31,12 +31,12 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca3a/live/a79a57d0-be2a-11f1-bc2e-018d645d8d21.jpg"/>
         </item>
         <item>
-            <title><![CDATA[US pressures Europe to release diesel reserves as Trump threatens export ban]]></title>
-            <description><![CDATA[President Donald Trump has threatened to ban diesel exports in a bid to ease prices in the US ahead of the November elections.]]></description>
-            <link>https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&amp;at_campaign=rss</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo#0</guid>
-            <pubDate>Fri, 02 Oct 2026 08:54:00 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/95a3/live/c2123c20-be1d-11f1-8202-6fffc4c0ebaa.jpg"/>
+            <title><![CDATA[UK diesel price hits £2 a litre for first time, RAC says]]></title>
+            <description><![CDATA[The motoring body says diesel price rises are showing no signs of slowing, "heaping more misery" onto drivers.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/crn8e86y5n0zo?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/crn8e86y5n0zo#0</guid>
+            <pubDate>Fri, 02 Oct 2026 10:11:14 GMT</pubDate>
+            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eafc/live/b2d4f150-bd71-11f1-8134-9503562e5ca9.jpg"/>
         </item>
         <item>
             <title><![CDATA[Crypto thieves attack man in home and threaten to kill pregnant wife's baby in 'horrific' robbery]]></title>
@@ -77,6 +77,14 @@
             <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/cmrl6lz454lgo#1</guid>
             <pubDate>Thu, 01 Oct 2026 18:38:22 GMT</pubDate>
             <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fcdd/live/d6080670-bd8b-11f1-b442-f3f672c979ff.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[US pressures Europe to release diesel reserves as Trump threatens export ban]]></title>
+            <description><![CDATA[President Donald Trump has threatened to ban diesel exports in a bid to ease prices in the US ahead of the November elections.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo#1</guid>
+            <pubDate>Fri, 02 Oct 2026 08:54:00 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/95a3/live/c2123c20-be1d-11f1-8202-6fffc4c0ebaa.jpg"/>
         </item>
         <item>
             <title><![CDATA[HMRC urged to scrutinise tax implications of Man City case]]></title>
@@ -408,14 +416,6 @@ Martin explains who premium bonds are best for, and who they aren’t so good fo
             <guid isPermaLink="false">https://www.bbc.co.uk/sounds/play/m00325cs#5</guid>
             <pubDate>Thu, 01 Oct 2026 11:30:00 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/images/ic/240x135/p0m2ffyg.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Greggs to cut 740 jobs and close factories]]></title>
-            <description><![CDATA[High street bakery brand Greggs has announced plans to shut four of its factories and cut 740 jobs.]]></description>
-            <link>https://www.bbc.co.uk/news/videos/cj4gkn1xg6ddo?at_medium=RSS&amp;at_campaign=rss</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/videos/cj4gkn1xg6ddo#5</guid>
-            <pubDate>Wed, 30 Sep 2026 12:54:22 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7da6/live/c35a1600-bccb-11f1-bc2e-018d645d8d21.jpg"/>
         </item>
     </channel>
 </rss>

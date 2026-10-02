@@ -4832,6 +4832,49 @@
           "published_at": "2026-10-02T10:22:00Z"
         }
       ]
+    },
+    {
+      "id": "6fcf3d0963e30287",
+      "cluster_id": "c_740fd77b33746b34",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_740fd77b33746b34.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_740fd77b33746b34.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Business",
+          "title": "UK diesel price hits \u00a32 a litre for first time, RAC says",
+          "url": "https://www.bbc.co.uk/news/articles/crn8e86y5n0zo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T10:11:14Z"
+        }
+      ]
+    },
+    {
+      "id": "3e239de243932426",
+      "cluster_id": "c_b7aae103cb135ca4",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_b7aae103cb135ca4.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_b7aae103cb135ca4.speak.txt",
+      "sources": [
+        {
+          "publisher": "ESA",
+          "source": "ESA Human Spaceflight",
+          "title": "Beyond the airlock - Sophie Adenot's three spacewalks",
+          "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Beyond_the_airlock_-_Sophie_Adenot_s_three_spacewalks",
+          "published_at": "2026-10-02T10:00:00Z"
+        },
+        {
+          "publisher": "ESA",
+          "source": "ESA Top News",
+          "title": "Beyond the airlock - Sophie Adenot's three spacewalks",
+          "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Beyond_the_airlock_-_Sophie_Adenot_s_three_spacewalks",
+          "published_at": "2026-10-02T10:00:00Z"
+        }
+      ]
     }
   ]
 }
