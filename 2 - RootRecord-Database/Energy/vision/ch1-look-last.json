@@ -1,18 +1,20 @@
 {
   "hour": "2026-10-01T18",
   "at": "2026-10-01T18:00:55-10:00",
-  "image": "ch1-20261002T035528Z.jpg",
+  "image": "ch1-20261002T043157Z.jpg",
   "model": "gemma4:e4b",
-  "weather": "overcast",
+  "weather": "dark",
   "position": "flat",
   "phase": "evening",
   "sunrise": "06:11",
   "sunset": "18:08",
   "error": "",
-  "solar_w": 0,
+  "solar_w": null,
   "late": true,
-  "low_light": true,
+  "low_light": false,
   "warning": "Human intervention is needed. Evening calls for the right side up.",
   "note": "",
-  "sentence": "Security camera observations indicate overcast conditions, with solar panels in flat position. Human intervention is needed. Evening calls for the right side up."
+  "sentence": "Security camera observations indicate dark conditions, with solar panels in flat position. Human intervention is needed. Evening calls for the right side up.",
+  "blank": false,
+  "infrared": true
 }
