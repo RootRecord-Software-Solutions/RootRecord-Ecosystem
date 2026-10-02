@@ -1,0 +1,40 @@
+{
+  "format": "24 kHz 16-bit PCM mono WAV",
+  "clips": {
+    "Bruce/system_perf_starting": {
+      "slug": "system_perf_starting",
+      "persona": "Bruce",
+      "kinds": [
+        "system_perf",
+        "status"
+      ],
+      "text": "System report is about to generate.",
+      "spoken": "System report is about to generate.",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "sha256": "ee7e3bc7d6b0b416552cd82d8a1d1565a952ff5f9c75dcd814ef36e56c128254",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.449,
+      "peak_dbfs": -3.11,
+      "rms_dbfs": -20.09,
+      "lead_silence_ms": 23,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 218,
+        "tail": 558
+      },
+      "render_s": 5.39,
+      "rendered": "2026-10-02T00:05:20-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    }
+  },
+  "updated": "2026-10-02T00:05:20-10:00"
+}
