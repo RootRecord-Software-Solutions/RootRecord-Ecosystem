@@ -1,6 +1,6 @@
 # US-Mainland-One
 
-Current as of 2026-10-02 ~03:02 HST. This page is the live host. The operator guide is [2026-10-01 radio station](../01-Operations/2026-10-01-radio-station.md). The 2026-09-29 import, globe, and fallback inventory is [below](#2026-09-29-import-and-pause). That section is that day's continuity node. It is not the live host.
+Current as of 2026-10-02 ~03:04 HST. This page is the live host. The operator guide is [2026-10-01 radio station](../01-Operations/2026-10-01-radio-station.md). The 2026-09-29 import, globe, and fallback inventory is [below](#2026-09-29-import-and-pause). That section is that day's continuity node. It is not the live host.
 
 | Field | Value |
 | --- | --- |
@@ -17,9 +17,15 @@ Current as of 2026-10-02 ~03:02 HST. This page is the live host. The operator gu
 | **SSH** | `ssh ml1` and `ssh rr-aws` use `ml1.rootrecord.cloud`. Direct fallback is `rr-aws-ip` |
 | **Tunnel** | Mainland-One `939b16f7-7d13-4776-bd4d-80fe8021fc72`. Routes: `ml1.rootrecord.cloud` SSH, `radio.rootrecord.cloud` to `127.0.0.1:8092` |
 
-## AWS Fallback tree missing (2026-10-02 ~03:00–03:02 HST)
+## AWS Fallback runtime restored (2026-10-02 ~03:01–03:04 HST)
 
-Root Monitor’s **AWS Fallback** page still aims at ML1 via alias `rr-aws-ip` and path `/home/ubuntu/rootrecord/fallback`. That tree is **missing** after the radio-only / wipe layout: SSH reaches the host, but the fallback flag/runtime directory is gone, so Status cannot read flag files and panel toggles show **unavailable**. Not an ML2 collector issue — public API is ML2 (`api.rootrecord.cloud` → `:8091`; see [US-Mainland-Two](./US-Mainland-Two.md) First-test scope). Live Pacific flip already `RR_LOCAL_DATA_POLL=0`; banks keep landing. Options noted (**not decided**): Master retargets that page, or leave classic AWS Fallback dark and drive API/data-poll from the Automations toggle instead. Operator distinction: [Control-Panel-GTK](../11-Runtime-Jobs-and-Control/Control-Panel-GTK.md), [Desk-Automations](../11-Runtime-Jobs-and-Control/Desk-Automations-and-Service-Windows.md), Operators Handbook.
+Master recreated ML1 AWS Fallback. Path `/home/ubuntu/rootrecord/fallback` **restored**. Desk deploy: `OLD FILES/fallback/deploy-aws-fallback.sh --apply` release `20261002-030103-92360344`.
+
+**Activate path:** first activate **ROLLED BACK** — `globe_web` / history flags=1 but `network-globe-web` + `connection-history` are **masked** on radio-only ML1 (health wants `:8090`). Then: flags `globe_web` / history / ingest / `feed_8787` = **0**; failed release restored as `app` symlink; `rr-fallback-apply --dry-run` = in sync; runner timer active. **No unmask** of globe units.
+
+**Desk Status SSH:** `deployed=1`, MemAvailable ~1319 MB, disk free ~2280 MB, `cloudflared-network-globe` active. Root Monitor AWS Fallback **Status bindable again** (Master: ON/OFF after recreate); panel alias still **`rr-aws-ip` (ML1)** — leave it; don’t confuse with ML2 API. Classic activate expecting `:8090` **won’t pass by design** (globe units masked / flags forced off). Public API remains **ML2** — **do not retarget** without Alexander ask. Distinct from Automations data-poll (`RR_LOCAL_DATA_POLL=0` unchanged). See [US-Mainland-Two](./US-Mainland-Two.md) First-test scope · [Control-Panel-GTK](../11-Runtime-Jobs-and-Control/Control-Panel-GTK.md).
+
+**Brief history (~03:00–03:02):** after radio-only/wipe the fallback tree was missing; Status could not read flags and toggles showed unavailable. That gap is closed by this restore.
 
 ## Live host check (2026-10-02 ~01:56–01:58 HST, read-only)
 
