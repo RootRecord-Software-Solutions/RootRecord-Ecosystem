@@ -8,13 +8,13 @@
       "persona": "ava",
       "voice": "af_heart",
       "speed": 1.0,
-      "text": "It is currently midnight in Hawaii. Mountain Daylight Time is four a.m. Eastern time is six a.m. U.T.C. is ten a.m.",
-      "spoken": "It is currently midnight in Hawaii. Mountain Daylight Time is four a.m. Eastern time is six a.m. U.T.C. is ten a.m.",
+      "text": "Report generated at midnight. Mountain Daylight Time is four a.m. Eastern time is six a.m. Universal time is ten a.m.",
+      "spoken": "Report generated at midnight. Mountain Daylight Time is four a.m. Eastern time is six a.m. Universal time is ten a.m.",
       "phrases": [
-        "It is currently midnight in Hawaii.",
+        "Report generated at midnight.",
         "Mountain Daylight Time is four a.m.",
         "Eastern time is six a.m.",
-        "U.T.C. is ten a.m."
+        "Universal time is ten a.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-00-00.wav"
     },
@@ -24,13 +24,13 @@
       "persona": "ava",
       "voice": "af_heart",
       "speed": 1.0,
-      "text": "It is currently twelve thirty a.m. in Hawaii. Mountain Daylight Time is four thirty a.m. Eastern time is six thirty a.m. U.T.C. is ten thirty a.m.",
-      "spoken": "It is currently twelve thirty a.m. in Hawaii. Mountain Daylight Time is four thirty a.m. Eastern time is six thirty a.m. U.T.C. is ten thirty a.m.",
+      "text": "Report generated at twelve thirty a.m. Mountain Daylight Time is four thirty a.m. Eastern time is six thirty a.m. Universal time is ten thirty a.m.",
+      "spoken": "Report generated at twelve thirty a.m. Mountain Daylight Time is four thirty a.m. Eastern time is six thirty a.m. Universal time is ten thirty a.m.",
       "phrases": [
-        "It is currently twelve thirty a.m. in Hawaii.",
+        "Report generated at twelve thirty a.m.",
         "Mountain Daylight Time is four thirty a.m.",
         "Eastern time is six thirty a.m.",
-        "U.T.C. is ten thirty a.m."
+        "Universal time is ten thirty a.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-00-30.wav"
     },
@@ -40,13 +40,13 @@
       "persona": "bruce",
       "voice": "am_echo",
       "speed": 1.0,
-      "text": "It is currently one a.m. in Hawaii. Mountain Daylight Time is five a.m. Eastern time is seven a.m. U.T.C. is eleven a.m.",
-      "spoken": "It is currently one a.m. in Hawaii. Mountain Daylight Time is five a.m. Eastern time is seven a.m. U.T.C. is eleven a.m.",
+      "text": "Report generated at one a.m. Mountain Daylight Time is five a.m. Eastern time is seven a.m. Universal time is eleven a.m.",
+      "spoken": "Report generated at one a.m. Mountain Daylight Time is five a.m. Eastern time is seven a.m. Universal time is eleven a.m.",
       "phrases": [
-        "It is currently one a.m. in Hawaii.",
+        "Report generated at one a.m.",
         "Mountain Daylight Time is five a.m.",
         "Eastern time is seven a.m.",
-        "U.T.C. is eleven a.m."
+        "Universal time is eleven a.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-01-00.wav"
     },
@@ -56,13 +56,13 @@
       "persona": "bruce",
       "voice": "am_echo",
       "speed": 1.0,
-      "text": "It is currently one thirty a.m. in Hawaii. Mountain Daylight Time is five thirty a.m. Eastern time is seven thirty a.m. U.T.C. is eleven thirty a.m.",
-      "spoken": "It is currently one thirty a.m. in Hawaii. Mountain Daylight Time is five thirty a.m. Eastern time is seven thirty a.m. U.T.C. is eleven thirty a.m.",
+      "text": "Report generated at one thirty a.m. Mountain Daylight Time is five thirty a.m. Eastern time is seven thirty a.m. Universal time is eleven thirty a.m.",
+      "spoken": "Report generated at one thirty a.m. Mountain Daylight Time is five thirty a.m. Eastern time is seven thirty a.m. Universal time is eleven thirty a.m.",
       "phrases": [
-        "It is currently one thirty a.m. in Hawaii.",
+        "Report generated at one thirty a.m.",
         "Mountain Daylight Time is five thirty a.m.",
         "Eastern time is seven thirty a.m.",
-        "U.T.C. is eleven thirty a.m."
+        "Universal time is eleven thirty a.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-01-30.wav"
     },
@@ -72,13 +72,13 @@
       "persona": "carly",
       "voice": "af_nova",
       "speed": 1.0,
-      "text": "It is currently two a.m. in Hawaii. Mountain Daylight Time is six a.m. Eastern time is eight a.m. U.T.C. is noon.",
-      "spoken": "It is currently two a.m. in Hawaii. Mountain Daylight Time is six a.m. Eastern time is eight a.m. U.T.C. is noon.",
+      "text": "Report generated at two a.m. Mountain Daylight Time is six a.m. Eastern time is eight a.m. Universal time is noon.",
+      "spoken": "Report generated at two a.m. Mountain Daylight Time is six a.m. Eastern time is eight a.m. Universal time is noon.",
       "phrases": [
-        "It is currently two a.m. in Hawaii.",
+        "Report generated at two a.m.",
         "Mountain Daylight Time is six a.m.",
         "Eastern time is eight a.m.",
-        "U.T.C. is noon."
+        "Universal time is noon."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-02-00.wav"
     },
@@ -88,13 +88,13 @@
       "persona": "carly",
       "voice": "af_nova",
       "speed": 1.0,
-      "text": "It is currently two thirty a.m. in Hawaii. Mountain Daylight Time is six thirty a.m. Eastern time is eight thirty a.m. U.T.C. is twelve thirty p.m.",
-      "spoken": "It is currently two thirty a.m. in Hawaii. Mountain Daylight Time is six thirty a.m. Eastern time is eight thirty a.m. U.T.C. is twelve thirty p.m.",
+      "text": "Report generated at two thirty a.m. Mountain Daylight Time is six thirty a.m. Eastern time is eight thirty a.m. Universal time is twelve thirty p.m.",
+      "spoken": "Report generated at two thirty a.m. Mountain Daylight Time is six thirty a.m. Eastern time is eight thirty a.m. Universal time is twelve thirty p.m.",
       "phrases": [
-        "It is currently two thirty a.m. in Hawaii.",
+        "Report generated at two thirty a.m.",
         "Mountain Daylight Time is six thirty a.m.",
         "Eastern time is eight thirty a.m.",
-        "U.T.C. is twelve thirty p.m."
+        "Universal time is twelve thirty p.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-02-30.wav"
     },
@@ -104,13 +104,13 @@
       "persona": "ava",
       "voice": "af_heart",
       "speed": 1.0,
-      "text": "It is currently three a.m. in Hawaii. Mountain Daylight Time is seven a.m. Eastern time is nine a.m. U.T.C. is one p.m.",
-      "spoken": "It is currently three a.m. in Hawaii. Mountain Daylight Time is seven a.m. Eastern time is nine a.m. U.T.C. is one p.m.",
+      "text": "Report generated at three a.m. Mountain Daylight Time is seven a.m. Eastern time is nine a.m. Universal time is one p.m.",
+      "spoken": "Report generated at three a.m. Mountain Daylight Time is seven a.m. Eastern time is nine a.m. Universal time is one p.m.",
       "phrases": [
-        "It is currently three a.m. in Hawaii.",
+        "Report generated at three a.m.",
         "Mountain Daylight Time is seven a.m.",
         "Eastern time is nine a.m.",
-        "U.T.C. is one p.m."
+        "Universal time is one p.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-03-00.wav"
     },
@@ -120,13 +120,13 @@
       "persona": "ava",
       "voice": "af_heart",
       "speed": 1.0,
-      "text": "It is currently three thirty a.m. in Hawaii. Mountain Daylight Time is seven thirty a.m. Eastern time is nine thirty a.m. U.T.C. is one thirty p.m.",
-      "spoken": "It is currently three thirty a.m. in Hawaii. Mountain Daylight Time is seven thirty a.m. Eastern time is nine thirty a.m. U.T.C. is one thirty p.m.",
+      "text": "Report generated at three thirty a.m. Mountain Daylight Time is seven thirty a.m. Eastern time is nine thirty a.m. Universal time is one thirty p.m.",
+      "spoken": "Report generated at three thirty a.m. Mountain Daylight Time is seven thirty a.m. Eastern time is nine thirty a.m. Universal time is one thirty p.m.",
       "phrases": [
-        "It is currently three thirty a.m. in Hawaii.",
+        "Report generated at three thirty a.m.",
         "Mountain Daylight Time is seven thirty a.m.",
         "Eastern time is nine thirty a.m.",
-        "U.T.C. is one thirty p.m."
+        "Universal time is one thirty p.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-03-30.wav"
     },
@@ -136,13 +136,13 @@
       "persona": "bruce",
       "voice": "am_echo",
       "speed": 1.0,
-      "text": "It is currently four a.m. in Hawaii. Mountain Daylight Time is eight a.m. Eastern time is ten a.m. U.T.C. is two p.m.",
-      "spoken": "It is currently four a.m. in Hawaii. Mountain Daylight Time is eight a.m. Eastern time is ten a.m. U.T.C. is two p.m.",
+      "text": "Report generated at four a.m. Mountain Daylight Time is eight a.m. Eastern time is ten a.m. Universal time is two p.m.",
+      "spoken": "Report generated at four a.m. Mountain Daylight Time is eight a.m. Eastern time is ten a.m. Universal time is two p.m.",
       "phrases": [
-        "It is currently four a.m. in Hawaii.",
+        "Report generated at four a.m.",
         "Mountain Daylight Time is eight a.m.",
         "Eastern time is ten a.m.",
-        "U.T.C. is two p.m."
+        "Universal time is two p.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-04-00.wav"
     },
@@ -152,13 +152,13 @@
       "persona": "bruce",
       "voice": "am_echo",
       "speed": 1.0,
-      "text": "It is currently four thirty a.m. in Hawaii. Mountain Daylight Time is eight thirty a.m. Eastern time is ten thirty a.m. U.T.C. is two thirty p.m.",
-      "spoken": "It is currently four thirty a.m. in Hawaii. Mountain Daylight Time is eight thirty a.m. Eastern time is ten thirty a.m. U.T.C. is two thirty p.m.",
+      "text": "Report generated at four thirty a.m. Mountain Daylight Time is eight thirty a.m. Eastern time is ten thirty a.m. Universal time is two thirty p.m.",
+      "spoken": "Report generated at four thirty a.m. Mountain Daylight Time is eight thirty a.m. Eastern time is ten thirty a.m. Universal time is two thirty p.m.",
       "phrases": [
-        "It is currently four thirty a.m. in Hawaii.",
+        "Report generated at four thirty a.m.",
         "Mountain Daylight Time is eight thirty a.m.",
         "Eastern time is ten thirty a.m.",
-        "U.T.C. is two thirty p.m."
+        "Universal time is two thirty p.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-04-30.wav"
     },
@@ -168,13 +168,13 @@
       "persona": "carly",
       "voice": "af_nova",
       "speed": 1.0,
-      "text": "It is currently five a.m. in Hawaii. Mountain Daylight Time is nine a.m. Eastern time is eleven a.m. U.T.C. is three p.m.",
-      "spoken": "It is currently five a.m. in Hawaii. Mountain Daylight Time is nine a.m. Eastern time is eleven a.m. U.T.C. is three p.m.",
+      "text": "Report generated at five a.m. Mountain Daylight Time is nine a.m. Eastern time is eleven a.m. Universal time is three p.m.",
+      "spoken": "Report generated at five a.m. Mountain Daylight Time is nine a.m. Eastern time is eleven a.m. Universal time is three p.m.",
       "phrases": [
-        "It is currently five a.m. in Hawaii.",
+        "Report generated at five a.m.",
         "Mountain Daylight Time is nine a.m.",
         "Eastern time is eleven a.m.",
-        "U.T.C. is three p.m."
+        "Universal time is three p.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-05-00.wav"
     },
@@ -184,13 +184,13 @@
       "persona": "carly",
       "voice": "af_nova",
       "speed": 1.0,
-      "text": "It is currently five thirty a.m. in Hawaii. Mountain Daylight Time is nine thirty a.m. Eastern time is eleven thirty a.m. U.T.C. is three thirty p.m.",
-      "spoken": "It is currently five thirty a.m. in Hawaii. Mountain Daylight Time is nine thirty a.m. Eastern time is eleven thirty a.m. U.T.C. is three thirty p.m.",
+      "text": "Report generated at five thirty a.m. Mountain Daylight Time is nine thirty a.m. Eastern time is eleven thirty a.m. Universal time is three thirty p.m.",
+      "spoken": "Report generated at five thirty a.m. Mountain Daylight Time is nine thirty a.m. Eastern time is eleven thirty a.m. Universal time is three thirty p.m.",
       "phrases": [
-        "It is currently five thirty a.m. in Hawaii.",
+        "Report generated at five thirty a.m.",
         "Mountain Daylight Time is nine thirty a.m.",
         "Eastern time is eleven thirty a.m.",
-        "U.T.C. is three thirty p.m."
+        "Universal time is three thirty p.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-05-30.wav"
     },
@@ -200,13 +200,13 @@
       "persona": "ava",
       "voice": "af_heart",
       "speed": 1.0,
-      "text": "It is currently six a.m. in Hawaii. Mountain Daylight Time is ten a.m. Eastern time is noon. U.T.C. is four p.m.",
-      "spoken": "It is currently six a.m. in Hawaii. Mountain Daylight Time is ten a.m. Eastern time is noon. U.T.C. is four p.m.",
+      "text": "Report generated at six a.m. Mountain Daylight Time is ten a.m. Eastern time is noon. Universal time is four p.m.",
+      "spoken": "Report generated at six a.m. Mountain Daylight Time is ten a.m. Eastern time is noon. Universal time is four p.m.",
       "phrases": [
-        "It is currently six a.m. in Hawaii.",
+        "Report generated at six a.m.",
         "Mountain Daylight Time is ten a.m.",
         "Eastern time is noon.",
-        "U.T.C. is four p.m."
+        "Universal time is four p.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-06-00.wav"
     },
@@ -216,13 +216,13 @@
       "persona": "ava",
       "voice": "af_heart",
       "speed": 1.0,
-      "text": "It is currently six thirty a.m. in Hawaii. Mountain Daylight Time is ten thirty a.m. Eastern time is twelve thirty p.m. U.T.C. is four thirty p.m.",
-      "spoken": "It is currently six thirty a.m. in Hawaii. Mountain Daylight Time is ten thirty a.m. Eastern time is twelve thirty p.m. U.T.C. is four thirty p.m.",
+      "text": "Report generated at six thirty a.m. Mountain Daylight Time is ten thirty a.m. Eastern time is twelve thirty p.m. Universal time is four thirty p.m.",
+      "spoken": "Report generated at six thirty a.m. Mountain Daylight Time is ten thirty a.m. Eastern time is twelve thirty p.m. Universal time is four thirty p.m.",
       "phrases": [
-        "It is currently six thirty a.m. in Hawaii.",
+        "Report generated at six thirty a.m.",
         "Mountain Daylight Time is ten thirty a.m.",
         "Eastern time is twelve thirty p.m.",
-        "U.T.C. is four thirty p.m."
+        "Universal time is four thirty p.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-06-30.wav"
     },
@@ -232,13 +232,13 @@
       "persona": "bruce",
       "voice": "am_echo",
       "speed": 1.0,
-      "text": "It is currently seven a.m. in Hawaii. Mountain Daylight Time is eleven a.m. Eastern time is one p.m. U.T.C. is five p.m.",
-      "spoken": "It is currently seven a.m. in Hawaii. Mountain Daylight Time is eleven a.m. Eastern time is one p.m. U.T.C. is five p.m.",
+      "text": "Report generated at seven a.m. Mountain Daylight Time is eleven a.m. Eastern time is one p.m. Universal time is five p.m.",
+      "spoken": "Report generated at seven a.m. Mountain Daylight Time is eleven a.m. Eastern time is one p.m. Universal time is five p.m.",
       "phrases": [
-        "It is currently seven a.m. in Hawaii.",
+        "Report generated at seven a.m.",
         "Mountain Daylight Time is eleven a.m.",
         "Eastern time is one p.m.",
-        "U.T.C. is five p.m."
+        "Universal time is five p.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-07-00.wav"
     },
@@ -248,13 +248,13 @@
       "persona": "bruce",
       "voice": "am_echo",
       "speed": 1.0,
-      "text": "It is currently seven thirty a.m. in Hawaii. Mountain Daylight Time is eleven thirty a.m. Eastern time is one thirty p.m. U.T.C. is five thirty p.m.",
-      "spoken": "It is currently seven thirty a.m. in Hawaii. Mountain Daylight Time is eleven thirty a.m. Eastern time is one thirty p.m. U.T.C. is five thirty p.m.",
+      "text": "Report generated at seven thirty a.m. Mountain Daylight Time is eleven thirty a.m. Eastern time is one thirty p.m. Universal time is five thirty p.m.",
+      "spoken": "Report generated at seven thirty a.m. Mountain Daylight Time is eleven thirty a.m. Eastern time is one thirty p.m. Universal time is five thirty p.m.",
       "phrases": [
-        "It is currently seven thirty a.m. in Hawaii.",
+        "Report generated at seven thirty a.m.",
         "Mountain Daylight Time is eleven thirty a.m.",
         "Eastern time is one thirty p.m.",
-        "U.T.C. is five thirty p.m."
+        "Universal time is five thirty p.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-07-30.wav"
     },
@@ -264,13 +264,13 @@
       "persona": "carly",
       "voice": "af_nova",
       "speed": 1.0,
-      "text": "It is currently eight a.m. in Hawaii. Mountain Daylight Time is noon. Eastern time is two p.m. U.T.C. is six p.m.",
-      "spoken": "It is currently eight a.m. in Hawaii. Mountain Daylight Time is noon. Eastern time is two p.m. U.T.C. is six p.m.",
+      "text": "Report generated at eight a.m. Mountain Daylight Time is noon. Eastern time is two p.m. Universal time is six p.m.",
+      "spoken": "Report generated at eight a.m. Mountain Daylight Time is noon. Eastern time is two p.m. Universal time is six p.m.",
       "phrases": [
-        "It is currently eight a.m. in Hawaii.",
+        "Report generated at eight a.m.",
         "Mountain Daylight Time is noon.",
         "Eastern time is two p.m.",
-        "U.T.C. is six p.m."
+        "Universal time is six p.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-08-00.wav"
     },
@@ -280,13 +280,13 @@
       "persona": "carly",
       "voice": "af_nova",
       "speed": 1.0,
-      "text": "It is currently eight thirty a.m. in Hawaii. Mountain Daylight Time is twelve thirty p.m. Eastern time is two thirty p.m. U.T.C. is six thirty p.m.",
-      "spoken": "It is currently eight thirty a.m. in Hawaii. Mountain Daylight Time is twelve thirty p.m. Eastern time is two thirty p.m. U.T.C. is six thirty p.m.",
+      "text": "Report generated at eight thirty a.m. Mountain Daylight Time is twelve thirty p.m. Eastern time is two thirty p.m. Universal time is six thirty p.m.",
+      "spoken": "Report generated at eight thirty a.m. Mountain Daylight Time is twelve thirty p.m. Eastern time is two thirty p.m. Universal time is six thirty p.m.",
       "phrases": [
-        "It is currently eight thirty a.m. in Hawaii.",
+        "Report generated at eight thirty a.m.",
         "Mountain Daylight Time is twelve thirty p.m.",
         "Eastern time is two thirty p.m.",
-        "U.T.C. is six thirty p.m."
+        "Universal time is six thirty p.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-08-30.wav"
     },
@@ -296,13 +296,13 @@
       "persona": "ava",
       "voice": "af_heart",
       "speed": 1.0,
-      "text": "It is currently nine a.m. in Hawaii. Mountain Daylight Time is one p.m. Eastern time is three p.m. U.T.C. is seven p.m.",
-      "spoken": "It is currently nine a.m. in Hawaii. Mountain Daylight Time is one p.m. Eastern time is three p.m. U.T.C. is seven p.m.",
+      "text": "Report generated at nine a.m. Mountain Daylight Time is one p.m. Eastern time is three p.m. Universal time is seven p.m.",
+      "spoken": "Report generated at nine a.m. Mountain Daylight Time is one p.m. Eastern time is three p.m. Universal time is seven p.m.",
       "phrases": [
-        "It is currently nine a.m. in Hawaii.",
+        "Report generated at nine a.m.",
         "Mountain Daylight Time is one p.m.",
         "Eastern time is three p.m.",
-        "U.T.C. is seven p.m."
+        "Universal time is seven p.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-09-00.wav"
     },
@@ -312,13 +312,13 @@
       "persona": "ava",
       "voice": "af_heart",
       "speed": 1.0,
-      "text": "It is currently nine thirty a.m. in Hawaii. Mountain Daylight Time is one thirty p.m. Eastern time is three thirty p.m. U.T.C. is seven thirty p.m.",
-      "spoken": "It is currently nine thirty a.m. in Hawaii. Mountain Daylight Time is one thirty p.m. Eastern time is three thirty p.m. U.T.C. is seven thirty p.m.",
+      "text": "Report generated at nine thirty a.m. Mountain Daylight Time is one thirty p.m. Eastern time is three thirty p.m. Universal time is seven thirty p.m.",
+      "spoken": "Report generated at nine thirty a.m. Mountain Daylight Time is one thirty p.m. Eastern time is three thirty p.m. Universal time is seven thirty p.m.",
       "phrases": [
-        "It is currently nine thirty a.m. in Hawaii.",
+        "Report generated at nine thirty a.m.",
         "Mountain Daylight Time is one thirty p.m.",
         "Eastern time is three thirty p.m.",
-        "U.T.C. is seven thirty p.m."
+        "Universal time is seven thirty p.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-09-30.wav"
     },
@@ -328,13 +328,13 @@
       "persona": "bruce",
       "voice": "am_echo",
       "speed": 1.0,
-      "text": "It is currently ten a.m. in Hawaii. Mountain Daylight Time is two p.m. Eastern time is four p.m. U.T.C. is eight p.m.",
-      "spoken": "It is currently ten a.m. in Hawaii. Mountain Daylight Time is two p.m. Eastern time is four p.m. U.T.C. is eight p.m.",
+      "text": "Report generated at ten a.m. Mountain Daylight Time is two p.m. Eastern time is four p.m. Universal time is eight p.m.",
+      "spoken": "Report generated at ten a.m. Mountain Daylight Time is two p.m. Eastern time is four p.m. Universal time is eight p.m.",
       "phrases": [
-        "It is currently ten a.m. in Hawaii.",
+        "Report generated at ten a.m.",
         "Mountain Daylight Time is two p.m.",
         "Eastern time is four p.m.",
-        "U.T.C. is eight p.m."
+        "Universal time is eight p.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-10-00.wav"
     },
@@ -344,13 +344,13 @@
       "persona": "bruce",
       "voice": "am_echo",
       "speed": 1.0,
-      "text": "It is currently ten thirty a.m. in Hawaii. Mountain Daylight Time is two thirty p.m. Eastern time is four thirty p.m. U.T.C. is eight thirty p.m.",
-      "spoken": "It is currently ten thirty a.m. in Hawaii. Mountain Daylight Time is two thirty p.m. Eastern time is four thirty p.m. U.T.C. is eight thirty p.m.",
+      "text": "Report generated at ten thirty a.m. Mountain Daylight Time is two thirty p.m. Eastern time is four thirty p.m. Universal time is eight thirty p.m.",
+      "spoken": "Report generated at ten thirty a.m. Mountain Daylight Time is two thirty p.m. Eastern time is four thirty p.m. Universal time is eight thirty p.m.",
       "phrases": [
-        "It is currently ten thirty a.m. in Hawaii.",
+        "Report generated at ten thirty a.m.",
         "Mountain Daylight Time is two thirty p.m.",
         "Eastern time is four thirty p.m.",
-        "U.T.C. is eight thirty p.m."
+        "Universal time is eight thirty p.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-10-30.wav"
     },
@@ -360,13 +360,13 @@
       "persona": "carly",
       "voice": "af_nova",
       "speed": 1.0,
-      "text": "It is currently eleven a.m. in Hawaii. Mountain Daylight Time is three p.m. Eastern time is five p.m. U.T.C. is nine p.m.",
-      "spoken": "It is currently eleven a.m. in Hawaii. Mountain Daylight Time is three p.m. Eastern time is five p.m. U.T.C. is nine p.m.",
+      "text": "Report generated at eleven a.m. Mountain Daylight Time is three p.m. Eastern time is five p.m. Universal time is nine p.m.",
+      "spoken": "Report generated at eleven a.m. Mountain Daylight Time is three p.m. Eastern time is five p.m. Universal time is nine p.m.",
       "phrases": [
-        "It is currently eleven a.m. in Hawaii.",
+        "Report generated at eleven a.m.",
         "Mountain Daylight Time is three p.m.",
         "Eastern time is five p.m.",
-        "U.T.C. is nine p.m."
+        "Universal time is nine p.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-11-00.wav"
     },
@@ -376,13 +376,13 @@
       "persona": "carly",
       "voice": "af_nova",
       "speed": 1.0,
-      "text": "It is currently eleven thirty a.m. in Hawaii. Mountain Daylight Time is three thirty p.m. Eastern time is five thirty p.m. U.T.C. is nine thirty p.m.",
-      "spoken": "It is currently eleven thirty a.m. in Hawaii. Mountain Daylight Time is three thirty p.m. Eastern time is five thirty p.m. U.T.C. is nine thirty p.m.",
+      "text": "Report generated at eleven thirty a.m. Mountain Daylight Time is three thirty p.m. Eastern time is five thirty p.m. Universal time is nine thirty p.m.",
+      "spoken": "Report generated at eleven thirty a.m. Mountain Daylight Time is three thirty p.m. Eastern time is five thirty p.m. Universal time is nine thirty p.m.",
       "phrases": [
-        "It is currently eleven thirty a.m. in Hawaii.",
+        "Report generated at eleven thirty a.m.",
         "Mountain Daylight Time is three thirty p.m.",
         "Eastern time is five thirty p.m.",
-        "U.T.C. is nine thirty p.m."
+        "Universal time is nine thirty p.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-11-30.wav"
     },
@@ -392,13 +392,13 @@
       "persona": "ava",
       "voice": "af_heart",
       "speed": 1.0,
-      "text": "It is currently noon in Hawaii. Mountain Daylight Time is four p.m. Eastern time is six p.m. U.T.C. is ten p.m.",
-      "spoken": "It is currently noon in Hawaii. Mountain Daylight Time is four p.m. Eastern time is six p.m. U.T.C. is ten p.m.",
+      "text": "Report generated at noon. Mountain Daylight Time is four p.m. Eastern time is six p.m. Universal time is ten p.m.",
+      "spoken": "Report generated at noon. Mountain Daylight Time is four p.m. Eastern time is six p.m. Universal time is ten p.m.",
       "phrases": [
-        "It is currently noon in Hawaii.",
+        "Report generated at noon.",
         "Mountain Daylight Time is four p.m.",
         "Eastern time is six p.m.",
-        "U.T.C. is ten p.m."
+        "Universal time is ten p.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-12-00.wav"
     },
@@ -408,13 +408,13 @@
       "persona": "ava",
       "voice": "af_heart",
       "speed": 1.0,
-      "text": "It is currently twelve thirty p.m. in Hawaii. Mountain Daylight Time is four thirty p.m. Eastern time is six thirty p.m. U.T.C. is ten thirty p.m.",
-      "spoken": "It is currently twelve thirty p.m. in Hawaii. Mountain Daylight Time is four thirty p.m. Eastern time is six thirty p.m. U.T.C. is ten thirty p.m.",
+      "text": "Report generated at twelve thirty p.m. Mountain Daylight Time is four thirty p.m. Eastern time is six thirty p.m. Universal time is ten thirty p.m.",
+      "spoken": "Report generated at twelve thirty p.m. Mountain Daylight Time is four thirty p.m. Eastern time is six thirty p.m. Universal time is ten thirty p.m.",
       "phrases": [
-        "It is currently twelve thirty p.m. in Hawaii.",
+        "Report generated at twelve thirty p.m.",
         "Mountain Daylight Time is four thirty p.m.",
         "Eastern time is six thirty p.m.",
-        "U.T.C. is ten thirty p.m."
+        "Universal time is ten thirty p.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-12-30.wav"
     },
@@ -424,13 +424,13 @@
       "persona": "bruce",
       "voice": "am_echo",
       "speed": 1.0,
-      "text": "It is currently one p.m. in Hawaii. Mountain Daylight Time is five p.m. Eastern time is seven p.m. U.T.C. is eleven p.m.",
-      "spoken": "It is currently one p.m. in Hawaii. Mountain Daylight Time is five p.m. Eastern time is seven p.m. U.T.C. is eleven p.m.",
+      "text": "Report generated at one p.m. Mountain Daylight Time is five p.m. Eastern time is seven p.m. Universal time is eleven p.m.",
+      "spoken": "Report generated at one p.m. Mountain Daylight Time is five p.m. Eastern time is seven p.m. Universal time is eleven p.m.",
       "phrases": [
-        "It is currently one p.m. in Hawaii.",
+        "Report generated at one p.m.",
         "Mountain Daylight Time is five p.m.",
         "Eastern time is seven p.m.",
-        "U.T.C. is eleven p.m."
+        "Universal time is eleven p.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-13-00.wav"
     },
@@ -440,13 +440,13 @@
       "persona": "bruce",
       "voice": "am_echo",
       "speed": 1.0,
-      "text": "It is currently one thirty p.m. in Hawaii. Mountain Daylight Time is five thirty p.m. Eastern time is seven thirty p.m. U.T.C. is eleven thirty p.m.",
-      "spoken": "It is currently one thirty p.m. in Hawaii. Mountain Daylight Time is five thirty p.m. Eastern time is seven thirty p.m. U.T.C. is eleven thirty p.m.",
+      "text": "Report generated at one thirty p.m. Mountain Daylight Time is five thirty p.m. Eastern time is seven thirty p.m. Universal time is eleven thirty p.m.",
+      "spoken": "Report generated at one thirty p.m. Mountain Daylight Time is five thirty p.m. Eastern time is seven thirty p.m. Universal time is eleven thirty p.m.",
       "phrases": [
-        "It is currently one thirty p.m. in Hawaii.",
+        "Report generated at one thirty p.m.",
         "Mountain Daylight Time is five thirty p.m.",
         "Eastern time is seven thirty p.m.",
-        "U.T.C. is eleven thirty p.m."
+        "Universal time is eleven thirty p.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-13-30.wav"
     },
@@ -456,13 +456,13 @@
       "persona": "carly",
       "voice": "af_nova",
       "speed": 1.0,
-      "text": "It is currently two p.m. in Hawaii. Mountain Daylight Time is six p.m. Eastern time is eight p.m. U.T.C. is midnight.",
-      "spoken": "It is currently two p.m. in Hawaii. Mountain Daylight Time is six p.m. Eastern time is eight p.m. U.T.C. is midnight.",
+      "text": "Report generated at two p.m. Mountain Daylight Time is six p.m. Eastern time is eight p.m. Universal time is midnight.",
+      "spoken": "Report generated at two p.m. Mountain Daylight Time is six p.m. Eastern time is eight p.m. Universal time is midnight.",
       "phrases": [
-        "It is currently two p.m. in Hawaii.",
+        "Report generated at two p.m.",
         "Mountain Daylight Time is six p.m.",
         "Eastern time is eight p.m.",
-        "U.T.C. is midnight."
+        "Universal time is midnight."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-14-00.wav"
     },
@@ -472,13 +472,13 @@
       "persona": "carly",
       "voice": "af_nova",
       "speed": 1.0,
-      "text": "It is currently two thirty p.m. in Hawaii. Mountain Daylight Time is six thirty p.m. Eastern time is eight thirty p.m. U.T.C. is twelve thirty a.m.",
-      "spoken": "It is currently two thirty p.m. in Hawaii. Mountain Daylight Time is six thirty p.m. Eastern time is eight thirty p.m. U.T.C. is twelve thirty a.m.",
+      "text": "Report generated at two thirty p.m. Mountain Daylight Time is six thirty p.m. Eastern time is eight thirty p.m. Universal time is twelve thirty a.m.",
+      "spoken": "Report generated at two thirty p.m. Mountain Daylight Time is six thirty p.m. Eastern time is eight thirty p.m. Universal time is twelve thirty a.m.",
       "phrases": [
-        "It is currently two thirty p.m. in Hawaii.",
+        "Report generated at two thirty p.m.",
         "Mountain Daylight Time is six thirty p.m.",
         "Eastern time is eight thirty p.m.",
-        "U.T.C. is twelve thirty a.m."
+        "Universal time is twelve thirty a.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-14-30.wav"
     },
@@ -488,13 +488,13 @@
       "persona": "ava",
       "voice": "af_heart",
       "speed": 1.0,
-      "text": "It is currently three p.m. in Hawaii. Mountain Daylight Time is seven p.m. Eastern time is nine p.m. U.T.C. is one a.m.",
-      "spoken": "It is currently three p.m. in Hawaii. Mountain Daylight Time is seven p.m. Eastern time is nine p.m. U.T.C. is one a.m.",
+      "text": "Report generated at three p.m. Mountain Daylight Time is seven p.m. Eastern time is nine p.m. Universal time is one a.m.",
+      "spoken": "Report generated at three p.m. Mountain Daylight Time is seven p.m. Eastern time is nine p.m. Universal time is one a.m.",
       "phrases": [
-        "It is currently three p.m. in Hawaii.",
+        "Report generated at three p.m.",
         "Mountain Daylight Time is seven p.m.",
         "Eastern time is nine p.m.",
-        "U.T.C. is one a.m."
+        "Universal time is one a.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-15-00.wav"
     },
@@ -504,13 +504,13 @@
       "persona": "ava",
       "voice": "af_heart",
       "speed": 1.0,
-      "text": "It is currently three thirty p.m. in Hawaii. Mountain Daylight Time is seven thirty p.m. Eastern time is nine thirty p.m. U.T.C. is one thirty a.m.",
-      "spoken": "It is currently three thirty p.m. in Hawaii. Mountain Daylight Time is seven thirty p.m. Eastern time is nine thirty p.m. U.T.C. is one thirty a.m.",
+      "text": "Report generated at three thirty p.m. Mountain Daylight Time is seven thirty p.m. Eastern time is nine thirty p.m. Universal time is one thirty a.m.",
+      "spoken": "Report generated at three thirty p.m. Mountain Daylight Time is seven thirty p.m. Eastern time is nine thirty p.m. Universal time is one thirty a.m.",
       "phrases": [
-        "It is currently three thirty p.m. in Hawaii.",
+        "Report generated at three thirty p.m.",
         "Mountain Daylight Time is seven thirty p.m.",
         "Eastern time is nine thirty p.m.",
-        "U.T.C. is one thirty a.m."
+        "Universal time is one thirty a.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-15-30.wav"
     },
@@ -520,13 +520,13 @@
       "persona": "bruce",
       "voice": "am_echo",
       "speed": 1.0,
-      "text": "It is currently four p.m. in Hawaii. Mountain Daylight Time is eight p.m. Eastern time is ten p.m. U.T.C. is two a.m.",
-      "spoken": "It is currently four p.m. in Hawaii. Mountain Daylight Time is eight p.m. Eastern time is ten p.m. U.T.C. is two a.m.",
+      "text": "Report generated at four p.m. Mountain Daylight Time is eight p.m. Eastern time is ten p.m. Universal time is two a.m.",
+      "spoken": "Report generated at four p.m. Mountain Daylight Time is eight p.m. Eastern time is ten p.m. Universal time is two a.m.",
       "phrases": [
-        "It is currently four p.m. in Hawaii.",
+        "Report generated at four p.m.",
         "Mountain Daylight Time is eight p.m.",
         "Eastern time is ten p.m.",
-        "U.T.C. is two a.m."
+        "Universal time is two a.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-16-00.wav"
     },
@@ -536,13 +536,13 @@
       "persona": "bruce",
       "voice": "am_echo",
       "speed": 1.0,
-      "text": "It is currently four thirty p.m. in Hawaii. Mountain Daylight Time is eight thirty p.m. Eastern time is ten thirty p.m. U.T.C. is two thirty a.m.",
-      "spoken": "It is currently four thirty p.m. in Hawaii. Mountain Daylight Time is eight thirty p.m. Eastern time is ten thirty p.m. U.T.C. is two thirty a.m.",
+      "text": "Report generated at four thirty p.m. Mountain Daylight Time is eight thirty p.m. Eastern time is ten thirty p.m. Universal time is two thirty a.m.",
+      "spoken": "Report generated at four thirty p.m. Mountain Daylight Time is eight thirty p.m. Eastern time is ten thirty p.m. Universal time is two thirty a.m.",
       "phrases": [
-        "It is currently four thirty p.m. in Hawaii.",
+        "Report generated at four thirty p.m.",
         "Mountain Daylight Time is eight thirty p.m.",
         "Eastern time is ten thirty p.m.",
-        "U.T.C. is two thirty a.m."
+        "Universal time is two thirty a.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-16-30.wav"
     },
@@ -552,13 +552,13 @@
       "persona": "carly",
       "voice": "af_nova",
       "speed": 1.0,
-      "text": "It is currently five p.m. in Hawaii. Mountain Daylight Time is nine p.m. Eastern time is eleven p.m. U.T.C. is three a.m.",
-      "spoken": "It is currently five p.m. in Hawaii. Mountain Daylight Time is nine p.m. Eastern time is eleven p.m. U.T.C. is three a.m.",
+      "text": "Report generated at five p.m. Mountain Daylight Time is nine p.m. Eastern time is eleven p.m. Universal time is three a.m.",
+      "spoken": "Report generated at five p.m. Mountain Daylight Time is nine p.m. Eastern time is eleven p.m. Universal time is three a.m.",
       "phrases": [
-        "It is currently five p.m. in Hawaii.",
+        "Report generated at five p.m.",
         "Mountain Daylight Time is nine p.m.",
         "Eastern time is eleven p.m.",
-        "U.T.C. is three a.m."
+        "Universal time is three a.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-17-00.wav"
     },
@@ -568,13 +568,13 @@
       "persona": "carly",
       "voice": "af_nova",
       "speed": 1.0,
-      "text": "It is currently five thirty p.m. in Hawaii. Mountain Daylight Time is nine thirty p.m. Eastern time is eleven thirty p.m. U.T.C. is three thirty a.m.",
-      "spoken": "It is currently five thirty p.m. in Hawaii. Mountain Daylight Time is nine thirty p.m. Eastern time is eleven thirty p.m. U.T.C. is three thirty a.m.",
+      "text": "Report generated at five thirty p.m. Mountain Daylight Time is nine thirty p.m. Eastern time is eleven thirty p.m. Universal time is three thirty a.m.",
+      "spoken": "Report generated at five thirty p.m. Mountain Daylight Time is nine thirty p.m. Eastern time is eleven thirty p.m. Universal time is three thirty a.m.",
       "phrases": [
-        "It is currently five thirty p.m. in Hawaii.",
+        "Report generated at five thirty p.m.",
         "Mountain Daylight Time is nine thirty p.m.",
         "Eastern time is eleven thirty p.m.",
-        "U.T.C. is three thirty a.m."
+        "Universal time is three thirty a.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-17-30.wav"
     },
@@ -584,13 +584,13 @@
       "persona": "ava",
       "voice": "af_heart",
       "speed": 1.0,
-      "text": "It is currently six p.m. in Hawaii. Mountain Daylight Time is ten p.m. Eastern time is midnight. U.T.C. is four a.m.",
-      "spoken": "It is currently six p.m. in Hawaii. Mountain Daylight Time is ten p.m. Eastern time is midnight. U.T.C. is four a.m.",
+      "text": "Report generated at six p.m. Mountain Daylight Time is ten p.m. Eastern time is midnight. Universal time is four a.m.",
+      "spoken": "Report generated at six p.m. Mountain Daylight Time is ten p.m. Eastern time is midnight. Universal time is four a.m.",
       "phrases": [
-        "It is currently six p.m. in Hawaii.",
+        "Report generated at six p.m.",
         "Mountain Daylight Time is ten p.m.",
         "Eastern time is midnight.",
-        "U.T.C. is four a.m."
+        "Universal time is four a.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-18-00.wav"
     },
@@ -600,13 +600,13 @@
       "persona": "ava",
       "voice": "af_heart",
       "speed": 1.0,
-      "text": "It is currently six thirty p.m. in Hawaii. Mountain Daylight Time is ten thirty p.m. Eastern time is twelve thirty a.m. U.T.C. is four thirty a.m.",
-      "spoken": "It is currently six thirty p.m. in Hawaii. Mountain Daylight Time is ten thirty p.m. Eastern time is twelve thirty a.m. U.T.C. is four thirty a.m.",
+      "text": "Report generated at six thirty p.m. Mountain Daylight Time is ten thirty p.m. Eastern time is twelve thirty a.m. Universal time is four thirty a.m.",
+      "spoken": "Report generated at six thirty p.m. Mountain Daylight Time is ten thirty p.m. Eastern time is twelve thirty a.m. Universal time is four thirty a.m.",
       "phrases": [
-        "It is currently six thirty p.m. in Hawaii.",
+        "Report generated at six thirty p.m.",
         "Mountain Daylight Time is ten thirty p.m.",
         "Eastern time is twelve thirty a.m.",
-        "U.T.C. is four thirty a.m."
+        "Universal time is four thirty a.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-18-30.wav"
     },
@@ -616,13 +616,13 @@
       "persona": "bruce",
       "voice": "am_echo",
       "speed": 1.0,
-      "text": "It is currently seven p.m. in Hawaii. Mountain Daylight Time is eleven p.m. Eastern time is one a.m. U.T.C. is five a.m.",
-      "spoken": "It is currently seven p.m. in Hawaii. Mountain Daylight Time is eleven p.m. Eastern time is one a.m. U.T.C. is five a.m.",
+      "text": "Report generated at seven p.m. Mountain Daylight Time is eleven p.m. Eastern time is one a.m. Universal time is five a.m.",
+      "spoken": "Report generated at seven p.m. Mountain Daylight Time is eleven p.m. Eastern time is one a.m. Universal time is five a.m.",
       "phrases": [
-        "It is currently seven p.m. in Hawaii.",
+        "Report generated at seven p.m.",
         "Mountain Daylight Time is eleven p.m.",
         "Eastern time is one a.m.",
-        "U.T.C. is five a.m."
+        "Universal time is five a.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-19-00.wav"
     },
@@ -632,13 +632,13 @@
       "persona": "bruce",
       "voice": "am_echo",
       "speed": 1.0,
-      "text": "It is currently seven thirty p.m. in Hawaii. Mountain Daylight Time is eleven thirty p.m. Eastern time is one thirty a.m. U.T.C. is five thirty a.m.",
-      "spoken": "It is currently seven thirty p.m. in Hawaii. Mountain Daylight Time is eleven thirty p.m. Eastern time is one thirty a.m. U.T.C. is five thirty a.m.",
+      "text": "Report generated at seven thirty p.m. Mountain Daylight Time is eleven thirty p.m. Eastern time is one thirty a.m. Universal time is five thirty a.m.",
+      "spoken": "Report generated at seven thirty p.m. Mountain Daylight Time is eleven thirty p.m. Eastern time is one thirty a.m. Universal time is five thirty a.m.",
       "phrases": [
-        "It is currently seven thirty p.m. in Hawaii.",
+        "Report generated at seven thirty p.m.",
         "Mountain Daylight Time is eleven thirty p.m.",
         "Eastern time is one thirty a.m.",
-        "U.T.C. is five thirty a.m."
+        "Universal time is five thirty a.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-19-30.wav"
     },
@@ -648,13 +648,13 @@
       "persona": "carly",
       "voice": "af_nova",
       "speed": 1.0,
-      "text": "It is currently eight p.m. in Hawaii. Mountain Daylight Time is midnight. Eastern time is two a.m. U.T.C. is six a.m.",
-      "spoken": "It is currently eight p.m. in Hawaii. Mountain Daylight Time is midnight. Eastern time is two a.m. U.T.C. is six a.m.",
+      "text": "Report generated at eight p.m. Mountain Daylight Time is midnight. Eastern time is two a.m. Universal time is six a.m.",
+      "spoken": "Report generated at eight p.m. Mountain Daylight Time is midnight. Eastern time is two a.m. Universal time is six a.m.",
       "phrases": [
-        "It is currently eight p.m. in Hawaii.",
+        "Report generated at eight p.m.",
         "Mountain Daylight Time is midnight.",
         "Eastern time is two a.m.",
-        "U.T.C. is six a.m."
+        "Universal time is six a.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-20-00.wav"
     },
@@ -664,13 +664,13 @@
       "persona": "carly",
       "voice": "af_nova",
       "speed": 1.0,
-      "text": "It is currently eight thirty p.m. in Hawaii. Mountain Daylight Time is twelve thirty a.m. Eastern time is two thirty a.m. U.T.C. is six thirty a.m.",
-      "spoken": "It is currently eight thirty p.m. in Hawaii. Mountain Daylight Time is twelve thirty a.m. Eastern time is two thirty a.m. U.T.C. is six thirty a.m.",
+      "text": "Report generated at eight thirty p.m. Mountain Daylight Time is twelve thirty a.m. Eastern time is two thirty a.m. Universal time is six thirty a.m.",
+      "spoken": "Report generated at eight thirty p.m. Mountain Daylight Time is twelve thirty a.m. Eastern time is two thirty a.m. Universal time is six thirty a.m.",
       "phrases": [
-        "It is currently eight thirty p.m. in Hawaii.",
+        "Report generated at eight thirty p.m.",
         "Mountain Daylight Time is twelve thirty a.m.",
         "Eastern time is two thirty a.m.",
-        "U.T.C. is six thirty a.m."
+        "Universal time is six thirty a.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-20-30.wav"
     },
@@ -680,13 +680,13 @@
       "persona": "ava",
       "voice": "af_heart",
       "speed": 1.0,
-      "text": "It is currently nine p.m. in Hawaii. Mountain Daylight Time is one a.m. Eastern time is three a.m. U.T.C. is seven a.m.",
-      "spoken": "It is currently nine p.m. in Hawaii. Mountain Daylight Time is one a.m. Eastern time is three a.m. U.T.C. is seven a.m.",
+      "text": "Report generated at nine p.m. Mountain Daylight Time is one a.m. Eastern time is three a.m. Universal time is seven a.m.",
+      "spoken": "Report generated at nine p.m. Mountain Daylight Time is one a.m. Eastern time is three a.m. Universal time is seven a.m.",
       "phrases": [
-        "It is currently nine p.m. in Hawaii.",
+        "Report generated at nine p.m.",
         "Mountain Daylight Time is one a.m.",
         "Eastern time is three a.m.",
-        "U.T.C. is seven a.m."
+        "Universal time is seven a.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-21-00.wav"
     },
@@ -696,13 +696,13 @@
       "persona": "ava",
       "voice": "af_heart",
       "speed": 1.0,
-      "text": "It is currently nine thirty p.m. in Hawaii. Mountain Daylight Time is one thirty a.m. Eastern time is three thirty a.m. U.T.C. is seven thirty a.m.",
-      "spoken": "It is currently nine thirty p.m. in Hawaii. Mountain Daylight Time is one thirty a.m. Eastern time is three thirty a.m. U.T.C. is seven thirty a.m.",
+      "text": "Report generated at nine thirty p.m. Mountain Daylight Time is one thirty a.m. Eastern time is three thirty a.m. Universal time is seven thirty a.m.",
+      "spoken": "Report generated at nine thirty p.m. Mountain Daylight Time is one thirty a.m. Eastern time is three thirty a.m. Universal time is seven thirty a.m.",
       "phrases": [
-        "It is currently nine thirty p.m. in Hawaii.",
+        "Report generated at nine thirty p.m.",
         "Mountain Daylight Time is one thirty a.m.",
         "Eastern time is three thirty a.m.",
-        "U.T.C. is seven thirty a.m."
+        "Universal time is seven thirty a.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-21-30.wav"
     },
@@ -712,13 +712,13 @@
       "persona": "bruce",
       "voice": "am_echo",
       "speed": 1.0,
-      "text": "It is currently ten p.m. in Hawaii. Mountain Daylight Time is two a.m. Eastern time is four a.m. U.T.C. is eight a.m.",
-      "spoken": "It is currently ten p.m. in Hawaii. Mountain Daylight Time is two a.m. Eastern time is four a.m. U.T.C. is eight a.m.",
+      "text": "Report generated at ten p.m. Mountain Daylight Time is two a.m. Eastern time is four a.m. Universal time is eight a.m.",
+      "spoken": "Report generated at ten p.m. Mountain Daylight Time is two a.m. Eastern time is four a.m. Universal time is eight a.m.",
       "phrases": [
-        "It is currently ten p.m. in Hawaii.",
+        "Report generated at ten p.m.",
         "Mountain Daylight Time is two a.m.",
         "Eastern time is four a.m.",
-        "U.T.C. is eight a.m."
+        "Universal time is eight a.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-22-00.wav"
     },
@@ -728,13 +728,13 @@
       "persona": "bruce",
       "voice": "am_echo",
       "speed": 1.0,
-      "text": "It is currently ten thirty p.m. in Hawaii. Mountain Daylight Time is two thirty a.m. Eastern time is four thirty a.m. U.T.C. is eight thirty a.m.",
-      "spoken": "It is currently ten thirty p.m. in Hawaii. Mountain Daylight Time is two thirty a.m. Eastern time is four thirty a.m. U.T.C. is eight thirty a.m.",
+      "text": "Report generated at ten thirty p.m. Mountain Daylight Time is two thirty a.m. Eastern time is four thirty a.m. Universal time is eight thirty a.m.",
+      "spoken": "Report generated at ten thirty p.m. Mountain Daylight Time is two thirty a.m. Eastern time is four thirty a.m. Universal time is eight thirty a.m.",
       "phrases": [
-        "It is currently ten thirty p.m. in Hawaii.",
+        "Report generated at ten thirty p.m.",
         "Mountain Daylight Time is two thirty a.m.",
         "Eastern time is four thirty a.m.",
-        "U.T.C. is eight thirty a.m."
+        "Universal time is eight thirty a.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-22-30.wav"
     },
@@ -744,13 +744,13 @@
       "persona": "carly",
       "voice": "af_nova",
       "speed": 1.0,
-      "text": "It is currently eleven p.m. in Hawaii. Mountain Daylight Time is three a.m. Eastern time is five a.m. U.T.C. is nine a.m.",
-      "spoken": "It is currently eleven p.m. in Hawaii. Mountain Daylight Time is three a.m. Eastern time is five a.m. U.T.C. is nine a.m.",
+      "text": "Report generated at eleven p.m. Mountain Daylight Time is three a.m. Eastern time is five a.m. Universal time is nine a.m.",
+      "spoken": "Report generated at eleven p.m. Mountain Daylight Time is three a.m. Eastern time is five a.m. Universal time is nine a.m.",
       "phrases": [
-        "It is currently eleven p.m. in Hawaii.",
+        "Report generated at eleven p.m.",
         "Mountain Daylight Time is three a.m.",
         "Eastern time is five a.m.",
-        "U.T.C. is nine a.m."
+        "Universal time is nine a.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-23-00.wav"
     },
@@ -760,13 +760,13 @@
       "persona": "carly",
       "voice": "af_nova",
       "speed": 1.0,
-      "text": "It is currently eleven thirty p.m. in Hawaii. Mountain Daylight Time is three thirty a.m. Eastern time is five thirty a.m. U.T.C. is nine thirty a.m.",
-      "spoken": "It is currently eleven thirty p.m. in Hawaii. Mountain Daylight Time is three thirty a.m. Eastern time is five thirty a.m. U.T.C. is nine thirty a.m.",
+      "text": "Report generated at eleven thirty p.m. Mountain Daylight Time is three thirty a.m. Eastern time is five thirty a.m. Universal time is nine thirty a.m.",
+      "spoken": "Report generated at eleven thirty p.m. Mountain Daylight Time is three thirty a.m. Eastern time is five thirty a.m. Universal time is nine thirty a.m.",
       "phrases": [
-        "It is currently eleven thirty p.m. in Hawaii.",
+        "Report generated at eleven thirty p.m.",
         "Mountain Daylight Time is three thirty a.m.",
         "Eastern time is five thirty a.m.",
-        "U.T.C. is nine thirty a.m."
+        "Universal time is nine thirty a.m."
       ],
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Chimes/hour-23-30.wav"
     }
