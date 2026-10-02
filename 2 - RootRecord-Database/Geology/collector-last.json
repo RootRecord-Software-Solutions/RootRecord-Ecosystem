@@ -1,34 +1,34 @@
 {
   "ok": true,
-  "at": "2026-10-01T17:41:32-10:00",
+  "at": "2026-10-01T17:53:59-10:00",
   "what": "all",
   "dry_run": false,
   "sources": {
     "hawaii": {
       "ok": true,
-      "count": 59,
+      "count": 55,
       "new": 0,
       "new_m2": 0,
-      "ms": 894
+      "ms": 390
     },
     "global": {
       "ok": true,
       "count": 29,
       "new": 0,
-      "ms": 348
+      "ms": 366
     },
     "hvo_notices": {
       "ok": true,
       "count": 47,
       "new": 0,
-      "ms": 8214
+      "ms": 3057
     },
     "hvo_status": {
       "ok": true,
       "volcanoes": 8,
       "kilauea": "WATCH",
       "mauna_loa": "NORMAL",
-      "ms": 1739
+      "ms": 714
     }
   }
 }
