@@ -75,7 +75,7 @@ The AWS live copy is now `connection-history.py` in this folder (sha256 `ed1423a
 - The cursor `data/hawaii-history-cursor.json` (inode + offset) is persisted, so an in-place trim or a restart no longer re-counts the feed.
 - `GLOBE_HISTORY_SEND=0` exists for test copies only.
 
-Record: Library `07-testing/2026-09-29-aws-globe-history-batched-commits.md`.
+Record: Library `07-Testing/2026-09-29-aws-globe-history-batched-commits.md`.
 
 
 ## Overlay include (2026-09-29 16:10 HST, globe-overlay work)

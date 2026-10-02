@@ -69,7 +69,7 @@ Rationale: decisions come from the operator; this digest only aggregates measure
 ## State at session close (~22:44 HST)
 
 - **Runtime:** poller `active`; BLE `active`; last poller log line 22:42 HST
-- **Library / docs:** 1 testing records dated 2026-10-01 in the 07-testing index
+- **Library / docs:** 1 testing records dated 2026-10-01 in the 07-Testing index
 - **GitHub / sync:** ok (last github_sync_all line 22:42 HST)
 - **Next useful step:** Review this digest.
 
@@ -85,4 +85,4 @@ Filename when saved:
 2026-10-01 System Operator Worklog — Session 01.md
 ```
 
-Weekly archive: move closed sessions older than the current week into `Documentation/01-operations/archive/` (or dated weekly folder) without rewriting content.
+Weekly archive: move closed sessions older than the current week into `Documentation/01-Operations/Archive/` (or dated weekly folder) without rewriting content.

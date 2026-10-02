@@ -97,4 +97,4 @@ Filename when saved:
 2026-10-01 RootRecord Checkpoint — 22_44 HST.md
 ```
 
-Weekly archive: move checkpoints older than the current week into `Documentation/01-operations/archive/` without rewriting content.
+Weekly archive: move checkpoints older than the current week into `Documentation/01-Operations/Archive/` without rewriting content.

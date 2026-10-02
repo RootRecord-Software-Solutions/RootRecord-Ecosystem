@@ -59,4 +59,4 @@ Examples:
 2026-09-27 Cloudflare Tunnel Recovery Log.md
 ```
 
-Weekly archive: move closed event logs older than the current week into `Documentation/01-operations/archive/` without rewriting content.
+Weekly archive: move closed event logs older than the current week into `Documentation/01-Operations/Archive/` without rewriting content.

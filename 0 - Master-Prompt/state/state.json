@@ -46,7 +46,7 @@
   "work": {
     "status": "active",
     "active_task": "Operator decisions only. Runtime cutover is live.",
-    "remaining_work": "5 - RootRecord-Library/Documentation/01-operations/2026-09-30-whats-left-for-alexander.md",
+    "remaining_work": "5 - RootRecord-Library/Documentation/01-Operations/2026-09-30-whats-left-for-alexander.md",
     "last_action": "Recorded the 2026-09-30 desk check. Delta 2 silence marked normal.",
     "next_action": "Alexander chooses website/mainland rows, daylight timelapse, and any gated jobs to enable.",
     "verified_at": "2026-09-30T11:29:00Z"

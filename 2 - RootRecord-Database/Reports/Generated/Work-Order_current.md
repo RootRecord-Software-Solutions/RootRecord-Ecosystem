@@ -6,7 +6,7 @@
 | **Date** | 2026-10-01 (HST) |
 | **Status** | OPEN — generated draft, not on the active index |
 | **Owner** | RootRecord |
-| **Related** | Library 07-testing, 08-ideas and the operator worklog of the day |
+| **Related** | Library 07-Testing, 08-Ideas and the operator worklog of the day |
 
 **Scope:** In scope: the listed sign-off items and friction from today's sources. Not in scope: executing any of them; this is a generated draft.
 
@@ -72,8 +72,8 @@ Collect the open operator sign-off items and measured friction for the day in on
 
 | Path | Role |
 |------|------|
-| `Library Documentation/07-testing/README.md` | Testing record index (source) |
-| `Library Documentation/01-operations/0 - Human Operator Work Logs/` | Operator worklogs; sign-off list (source) |
+| `Library Documentation/07-Testing/README.md` | Testing record index (source) |
+| `Library Documentation/01-Operations/0 - Human Operator Work Logs/` | Operator worklogs; sign-off list (source) |
 | `/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Logs/AI/Inference/inference_current.jsonl` | Inference JSONL (source) |
 | `/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Logs/Automations/automations_current.log` | Poller log (source) |
 
@@ -115,13 +115,13 @@ WO-GEN-desk-signoff-backlog.md
 Location:
 
 ```text
-Documentation/06-development/Work-Orders/
+Documentation/06-Development/Work-Orders/
 ```
 
 **Drafts (not on active index)** — use:
 
 ```text
-Documentation/06-development/Work-Orders/drafts/
+Documentation/06-Development/Work-Orders/drafts/
 ```
 
 See `drafts/README.md` and WO-WOGEN-001. Do not auto-promote.
@@ -129,7 +129,7 @@ See `drafts/README.md` and WO-WOGEN-001. Do not auto-promote.
 **Closed WOs:** set Status → COMPLETE/CLOSED → `git mv` into:
 
 ```text
-Documentation/06-development/Work-Orders/Complete/
+Documentation/06-Development/Work-Orders/Complete/
 ```
 
-Human session logs archive under `Documentation/01-operations/archive/YYYY-Www/` (WO-ARCH) — separate from closed work orders.
+Human session logs archive under `Documentation/01-Operations/Archive/YYYY-Www/` (WO-ARCH) — separate from closed work orders.

@@ -1,7 +1,7 @@
 # fallback/: AWS fallback runtime (desk-canonical)
 
 The desk is the main copy. AWS (`rr-aws-ip`, t3.micro, 908 MB) runs a **small fallback**: the globe, tunnel, a desk
-watch and a relay buffer. It is not a full offload. Design: Library `08-ideas/2026-09-29-aws-fallback-rebuild.md`
+watch and a relay buffer. It is not a full offload. Design: Library `08-Ideas/2026-09-29-aws-fallback-rebuild.md`
 (Phase 2 section). This folder is **not** in the desk auto-sync (the Mainland checkout stays uncommitted until the
 `mainland` sync row is signed off).
 

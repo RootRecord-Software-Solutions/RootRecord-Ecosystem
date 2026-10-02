@@ -9,7 +9,7 @@ prompts:
     file: prompts/01-architecture.md
     required: true
   - id: agents
-    file: prompts/02-agents.md
+    file: prompts/02-Agents.md
     required: true
   - id: development
     file: prompts/03-development.md

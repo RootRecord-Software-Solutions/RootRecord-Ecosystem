@@ -8,7 +8,7 @@ RootRecord-Ecosystem is a **flattened, sanitized snapshot of the broader RootRec
 
 It exists so the ecosystem can be viewed as a whole: servers, databases, communications, cloud/web components, libraries, documentation, and supporting infrastructure can be inspected together without requiring every component to be understood in isolation.
 
-A new agent with no prior chat should start at [HANDOFF.md](5%20-%20RootRecord-Library/Documentation/01-operations/HANDOFF.md), then the [system map](5%20-%20RootRecord-Library/Documentation/12-Pacific-Server-Current-Architecture/SYSTEM-MAP.md). On the live Pacific desk, run `bash verify.sh` before changing runtime. Generated telemetry under `2 - RootRecord-Database/System/status/` is not source and is not auto-committed.
+A new agent with no prior chat should start at [HANDOFF.md](5%20-%20RootRecord-Library/Documentation/01-Operations/HANDOFF.md), then the [system map](5%20-%20RootRecord-Library/Documentation/12-Pacific-Server-Current-Architecture/SYSTEM-MAP.md). On the live Pacific desk, run `bash verify.sh` before changing runtime. Generated telemetry under `2 - RootRecord-Database/System/status/` is not source and is not auto-committed.
 
 ---
 
@@ -152,7 +152,7 @@ Poor candidates for this repository:
 **Repository:** Public  
 **Role:** Canonical RootRecord ecosystem umbrella/context repository  
 **Default branch:** main  
-**Runtime check:** 2026-09-30 01:24 HST — Pacific poller, tunnel, River 2 Pro, cameras, weather, and GitHub sync are up from this tree. Delta 2 is dead and does not transmit. Operator decisions still open: [What's left for Alexander](5%20-%20RootRecord-Library/Documentation/01-operations/2026-09-30-whats-left-for-alexander.md).
+**Runtime check:** 2026-09-30 01:24 HST — Pacific poller, tunnel, River 2 Pro, cameras, weather, and GitHub sync are up from this tree. Delta 2 is dead and does not transmit. Operator decisions still open: [What's left for Alexander](5%20-%20RootRecord-Library/Documentation/01-Operations/2026-09-30-whats-left-for-alexander.md).
 
 The repository is intended to remain a clean, sanitized public representation of the broader RootRecord ecosystem.
 

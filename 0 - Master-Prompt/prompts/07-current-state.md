@@ -1,6 +1,6 @@
 # Current State
 
-**Checked:** 2026-09-30 01:24 HST, with an afternoon council update below. Mainland SSH and the 2026-10-01 rename: `5 - RootRecord-Library/Documentation/01-operations/2026-10-01-mainland-rename-and-ssh-tunnels.md`. Operator remaining work: `5 - RootRecord-Library/Documentation/01-operations/2026-09-30-whats-left-for-alexander.md`. Continuity: `5 - RootRecord-Library/Documentation/01-operations/HANDOFF.md`.
+**Checked:** 2026-09-30 01:24 HST, with an afternoon council update below. Mainland SSH and the 2026-10-01 rename: `5 - RootRecord-Library/Documentation/01-Operations/2026-10-01-mainland-rename-and-ssh-tunnels.md`. Operator remaining work: `5 - RootRecord-Library/Documentation/01-Operations/2026-09-30-whats-left-for-alexander.md`. Continuity: `5 - RootRecord-Library/Documentation/01-Operations/HANDOFF.md`.
 
 ## Baseline
 

@@ -3,7 +3,7 @@
 
 INFO (future agents): must read
 - Desk-canonical. Source: US-Mainland-One `fallback/`, deployed by `fallback/deploy-aws-fallback.sh`.
-  Never edit on AWS. Design: Library 08-ideas/2026-09-29-aws-fallback-rebuild.md.
+  Never edit on AWS. Design: Library 08-Ideas/2026-09-29-aws-fallback-rebuild.md.
 - Oneshot on a timer, so there is 0 MB resident between ticks. Stdlib only, lazy imports.
 - Truth = ~/rootrecord/fallback/flags/<id> ("1"/"0"). Service-type flags are applied by the root
   rr-fallback-apply (path unit), NOT here. This tick runs only the in-process functions:

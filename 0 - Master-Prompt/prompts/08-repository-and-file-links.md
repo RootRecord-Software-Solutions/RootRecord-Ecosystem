@@ -6,7 +6,7 @@ This file is the navigation index for major RootRecord files that are repeatedly
 
 ## Current desk (2026-09-30)
 
-Operator remaining work: `5 - RootRecord-Library/Documentation/01-operations/2026-09-30-whats-left-for-alexander.md`.
+Operator remaining work: `5 - RootRecord-Library/Documentation/01-Operations/2026-09-30-whats-left-for-alexander.md`.
 
 Git root: `/home/rootrecord/RootRecord-Ecosystem`  
 Remote: https://github.com/RootRecord-Software-Solutions/RootRecord-Ecosystem
@@ -40,7 +40,7 @@ Boundary rule: knowledge goes to Library, executable runtime goes to Pacific, by
 
 Sync catalog: `1 - Servers/1 - RootRecord-Pacific-Solar-Server/Github/scripts/repos.conf`. Enabled rows are `ecosystem`, `pacific`, `database`, `library`, `website`, `website-personal`, and `mainland`. `skills` is disabled. Pacific, Database, and Library are mirror publishes of the live folders. `website` and `website-personal` both mirror-publish `Website/Home/`, to the org and to the personal account. Deeper narrative: `5 - RootRecord-Library/Documentation/12-Pacific-Server-Current-Architecture/Repository-Ownership-Model.md`.
 
-Publication, short form (WO-DATA, 2026-09-29): energy samples, system samples, worklogs, logs, weather daemon output, and camera media stay local. The skip list is `Github/scripts/ecosystem-skip-autocommit.txt`. Geology SQLite stays local. Geology `*-last.json` and `Daily/*.jsonl` are still tracked; that publication is not signed off. Users/PII retention and timelapse-master retention are still open. Full labels: `5 - RootRecord-Library/Documentation/06-development/Work-Orders/Database_Boundary_Work_Order_WO-DATA-2026-09-27.md`.
+Publication, short form (WO-DATA, 2026-09-29): energy samples, system samples, worklogs, logs, weather daemon output, and camera media stay local. The skip list is `Github/scripts/ecosystem-skip-autocommit.txt`. Geology SQLite stays local. Geology `*-last.json` and `Daily/*.jsonl` are still tracked; that publication is not signed off. Users/PII retention and timelapse-master retention are still open. Full labels: `5 - RootRecord-Library/Documentation/06-Development/Work-Orders/Database_Boundary_Work_Order_WO-DATA-2026-09-27.md`.
 
 ## Historical links
 

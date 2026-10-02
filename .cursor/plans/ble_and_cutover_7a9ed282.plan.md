@@ -24,7 +24,7 @@ The previous pass kept re-reading work orders because the migration matrix has n
 
 Right now both packs are `source: api` with frozen numbers (Delta 2 stuck at 7% / 57 W AC, River 2 Pro stuck at 100% / 64 W). Last real Delta 2 BLE sample was **19:49 HST** (`soc=11.39%`). River 2 Pro had already fallen to the API earlier the same evening while Delta 2 was still on BLE, so those are two faults, not one.
 
-`Energy/.venv` is missing again. [lib/py](1 - Servers/1 - RootRecord-Pacific-Solar-Server/Energy/lib/py) then uses system `python3`, `eflib`/`bleak` fail, and [read_runner.py](1 - Servers/1 - RootRecord-Pacific-Solar-Server/Energy/lib/read_runner.py) silently switches to the EcoFlow cloud API. That is the same failure recorded at 03:20 HST in [2026-09-29-ecoflow-stale-data-energy-venv.md](5 - RootRecord-Library/Documentation/07-testing/2026-09-29-ecoflow-stale-data-energy-venv.md). The venv is git-ignored, so a clean tree or a sync can drop it without a commit.
+`Energy/.venv` is missing again. [lib/py](1 - Servers/1 - RootRecord-Pacific-Solar-Server/Energy/lib/py) then uses system `python3`, `eflib`/`bleak` fail, and [read_runner.py](1 - Servers/1 - RootRecord-Pacific-Solar-Server/Energy/lib/read_runner.py) silently switches to the EcoFlow cloud API. That is the same failure recorded at 03:20 HST in [2026-09-29-ecoflow-stale-data-energy-venv.md](5 - RootRecord-Library/Documentation/07-Testing/2026-09-29-ecoflow-stale-data-energy-venv.md). The venv is git-ignored, so a clean tree or a sync can drop it without a commit.
 
 ```mermaid
 flowchart LR
@@ -56,4 +56,4 @@ Standing rule stays: do not delete or retire the old repos in this pass. “New 
 
 After BLE is green, check running units and the poller for leftover `/home/rootrecord/Database` or `~/.ollama/skills` executables. Repoint only what is still live. Leave historical evidence files and the kept G2 tree alone.
 
-Do not reopen the 33 missing / 22 partial matrix rows. Those are blocked on speaker playback, Telegram or Discord sends, cloud spend, product repos, or deletes. Updating [WO-SRV](5 - RootRecord-Library/Documentation/06-development/Work-Orders/Servers_Cutover_Work_Order_WO-SRV-2026-09-27.md) is one short status line after the BLE recheck, not another survey.
+Do not reopen the 33 missing / 22 partial matrix rows. Those are blocked on speaker playback, Telegram or Discord sends, cloud spend, product repos, or deletes. Updating [WO-SRV](5 - RootRecord-Library/Documentation/06-Development/Work-Orders/Servers_Cutover_Work_Order_WO-SRV-2026-09-27.md) is one short status line after the BLE recheck, not another survey.

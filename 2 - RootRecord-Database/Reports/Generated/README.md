@@ -1,7 +1,7 @@
 # Reports / Generated
 
 Machine-written reports in the exact structure of the Library operations templates
-(`Documentation/01-operations/templates/`), filled from measured data by Pacific `Reports/template_fill.py`.
+(`Documentation/01-Operations/Templates/`), filled from measured data by Pacific `Reports/template_fill.py`.
 
 | File | Template |
 | --- | --- |

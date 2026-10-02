@@ -2,7 +2,7 @@
 
 Added 2026-09-29 ~14:20–14:35 HST. The globe page stays a full-screen interactive globe, with glass cards over it: Sign up, Website Home and Live status. There's also an optional left rail. Vanilla JS/CSS with no dependencies, about 21 KB unminified.
 
-Design doc: Library `Documentation/08-ideas/2026-09-29-globe-landing-overlay.md`. Test record: Library `Documentation/07-testing/2026-09-29-globe-landing-overlay-preview.md`.
+Design doc: Library `Documentation/08-Ideas/2026-09-29-globe-landing-overlay.md`. Test record: Library `Documentation/07-Testing/2026-09-29-globe-landing-overlay-preview.md`.
 
 ## Files
 
