@@ -1,13 +1,20 @@
 {
-  "at": "2026-10-02T03:52:38-10:00",
+  "at": "2026-10-02T04:04:53-10:00",
   "iface": "wlo1",
   "link": "wireless",
-  "hour": null,
+  "hour": {
+    "seconds": 3622,
+    "rx": 54729946,
+    "tx": 10614123,
+    "total": 65344069,
+    "iface": "wlo1",
+    "link": "wireless"
+  },
   "day": {
-    "seconds": 93772,
-    "rx": 87548426,
-    "tx": 10843057,
-    "total": 98391483,
+    "seconds": 94507,
+    "rx": 113429312,
+    "tx": 19716874,
+    "total": 133146186,
     "iface": "wlo1",
     "link": "wireless"
   }
