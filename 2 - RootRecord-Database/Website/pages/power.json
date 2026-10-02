@@ -1,7 +1,7 @@
 {
   "resource": "power",
   "title": "Power / solar",
-  "as_of": "Thursday, October 1, 2026 \u00b7 20:43 Hawaiian Standard Time",
+  "as_of": "Thursday, October 1, 2026 \u00b7 20:46 Hawaiian Standard Time",
   "devices": {
     "delta2": {
       "watts": {
