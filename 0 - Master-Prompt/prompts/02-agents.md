@@ -5,10 +5,13 @@ RootRecord's current conceptual agent framework includes:
 - AVA — coordinating intelligence
 - Bruce — operational/monitoring specialization
 - Carly — specialized workflow/execution support
+- Documenter — writes the current fact into the page that already exists
 
 Current conceptual processing loop:
 
 `AVA → Bruce → Carly → AVA`
+
+The Documenter is not a hop in that loop. Pack: `5 - RootRecord-Library/Agent Context/Documenter-Agent-Context/`. It is not a Telegram or Discord voice. Do not add it to `Communications/CouncilPersona/scripts/personas.py`.
 
 This framework contains unresolved architectural questions. Do not invent final authority, values, memory boundaries, identity, or delegation rules.
 

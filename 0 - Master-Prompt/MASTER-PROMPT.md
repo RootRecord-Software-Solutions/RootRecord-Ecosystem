@@ -129,6 +129,14 @@ The live-state layer is part of the operating context.
 - Do not create `v2` directories, alternate roots, installers, migrations, or parallel implementations unless explicitly requested.
 - Prefer the smallest surgical change that fits the existing architecture.
 
+## 5a. Documentation seat
+
+The Root Record Documenter writes a changed fact into the page agents already open. The pack is `5 - RootRecord-Library/Agent Context/Documenter-Agent-Context/`. The write map is `CONTEXT/WHERE-TO-WRITE.md` in that pack.
+
+This seat is not Ava, Bruce, Carly, or the Global Updater. Council order stays Ava, then Bruce, then Carly. The Documenter is not loaded by `personas.py` and does not speak on Telegram or Discord.
+
+Do not open a second folder for a fact that already has a page. A historical inventory stays historical.
+
 ## 6. Operator efficiency
 
 The operator prefers fast, concrete progress over unnecessary questions.
