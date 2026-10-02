@@ -5379,6 +5379,60 @@
           "published_at": "2026-10-02T10:30:00Z"
         }
       ]
+    },
+    {
+      "id": "4cec7f1698bdacdc",
+      "cluster_id": "c_e87466bc34f8e59b",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_e87466bc34f8e59b.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_e87466bc34f8e59b.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "I\u2019m in my 20s and keep getting laid off. Should I invest in my employer\u2019s 401(k) or look into other options?",
+          "url": "https://www.marketwatch.com/story/im-in-my-20s-and-keep-getting-laid-off-should-i-invest-in-my-employers-401-k-or-look-into-other-options-387b34d3?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T11:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "ec5558df0e55ec73",
+      "cluster_id": "c_dc8988485ddcfa76",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_dc8988485ddcfa76.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_dc8988485ddcfa76.speak.txt",
+      "sources": [
+        {
+          "publisher": "UK Ministry of Defence",
+          "source": "UK Ministry of Defence",
+          "title": "Guidance: Veterans of the LGBT Ban: Financial Recognition Scheme",
+          "url": "https://www.gov.uk/government/publications/veterans-of-the-lgbt-ban-financial-recognition-scheme",
+          "published_at": "2026-10-02T11:00:01Z"
+        }
+      ]
+    },
+    {
+      "id": "79bee05e2ee96131",
+      "cluster_id": "c_fa3ed6bfb3c1db77",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_fa3ed6bfb3c1db77.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_fa3ed6bfb3c1db77.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "Ken Urker, Gypsy Rose Blanchard\u2019s ex-fianc\u00e9, found dead on his birthday, reports say",
+          "url": "https://www.hawaiinewsnow.com/2026/10/02/ken-urker-gypsy-rose-blanchards-ex-fianc-found-dead-his-birthday-reports-say/",
+          "published_at": "2026-10-02T10:56:57Z"
+        }
+      ]
     }
   ]
 }
