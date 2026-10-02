@@ -1,7 +1,7 @@
-# Earthquake report — 2026-10-02T03:55:05-10:00
+# Earthquake report — 2026-10-02T04:24:59-10:00
 
 ## Hawaii Changes Since Last Report
-- M1.8 about 25 km ESE of Naalehu, Hawaii (2026-10-02T03:37:51.240000-10:00)
+- No new earthquakes.
 
 ## Hawaii 24-Hour M2.5+ Summary
 - 0 earthquakes.
