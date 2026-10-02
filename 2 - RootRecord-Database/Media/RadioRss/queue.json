@@ -6160,7 +6160,7 @@
         {
           "publisher": "ABC News Australia",
           "source": "ABC News Australia Top Stories",
-          "title": "From prison to billionaire data centre operator, the incredible story of Oliver Curtis",
+          "title": "Inside Australia's biggest stock market float since Telstra as Firmus releases IPO",
           "url": "https://www.abc.net.au/news/2026-10-03/the-incredible-story-of-oliver-curtis/107222356",
           "published_at": "2026-10-02T18:59:38Z"
         }
@@ -7260,6 +7260,24 @@
           "title": "DLNR News Release \u2013 L\u0101na\u02bbi Axis Deer Hunting Season Announced",
           "url": "https://governor.hawaii.gov/main/dlnr-news-release-lana%ca%bbi-axis-deer-hunting-season-announced/",
           "published_at": "2026-10-02T22:48:16Z"
+        }
+      ]
+    },
+    {
+      "id": "7df7a1d4b6bd44cc",
+      "cluster_id": "c_b15c3f608ae63f3f",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_b15c3f608ae63f3f.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_b15c3f608ae63f3f.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Complaint over senior NT public servant who ran private NDIS provider",
+          "url": "https://www.abc.net.au/news/2026-10-03/public-servant-sole-director-private-ndis-provider-alice-springs/107151490",
+          "published_at": "2026-10-02T22:49:59Z"
         }
       ]
     }
