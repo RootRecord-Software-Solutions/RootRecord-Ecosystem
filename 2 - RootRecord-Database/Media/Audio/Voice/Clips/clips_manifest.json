@@ -205,6 +205,142 @@
       "source": "local status cue",
       "proposed": false
     },
+    "Ava/news_update_failed": {
+      "slug": "news_update_failed",
+      "persona": "Ava",
+      "kinds": [
+        "news_update",
+        "status"
+      ],
+      "text": "News report was generated but failed to send.",
+      "spoken": "News report was generated but failed to send.",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "sha256": "0f4b639a37954aff05b5f2587154259c49d9bf5a6cba93eb8df09334384b0a9b",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.662,
+      "peak_dbfs": -4.7,
+      "rms_dbfs": -20.15,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 303,
+        "tail": 435
+      },
+      "render_s": 4.72,
+      "rendered": "2026-10-02T01:19:33-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Ava/news_update_sent": {
+      "slug": "news_update_sent",
+      "persona": "Ava",
+      "kinds": [
+        "news_update",
+        "status"
+      ],
+      "text": "News report was sent successfully.",
+      "spoken": "News report was sent successfully.",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "sha256": "29dc9314409df4f13d2c1ef93587c5d6d2ef8e3c6215440e1ae92d11321de8cc",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 1.79,
+      "peak_dbfs": -3.33,
+      "rms_dbfs": -20.05,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 299,
+        "tail": 460
+      },
+      "render_s": 4.94,
+      "rendered": "2026-10-02T01:19:39-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Ava/news_update_starting": {
+      "slug": "news_update_starting",
+      "persona": "Ava",
+      "kinds": [
+        "news_update",
+        "status"
+      ],
+      "text": "News report is about to generate.",
+      "spoken": "News report is about to generate.",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "sha256": "11341e912aba3573324c239e3df3b32b9e9f411e3f799b7eef3d649d7faa2295",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 1.953,
+      "peak_dbfs": -5.99,
+      "rms_dbfs": -20.21,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 302,
+        "tail": 420
+      },
+      "render_s": 4.69,
+      "rendered": "2026-10-02T01:19:21-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Ava/news_update_transit": {
+      "slug": "news_update_transit",
+      "persona": "Ava",
+      "kinds": [
+        "news_update",
+        "status"
+      ],
+      "text": "News report has been generated and is in transit.",
+      "spoken": "News report has been generated and is in transit.",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "sha256": "66f221977a3abc58b69776d2bc88d8d8d03482456165c891f82ba5aad571a5bf",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.96,
+      "peak_dbfs": -3.83,
+      "rms_dbfs": -20.1,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 307,
+        "tail": 434
+      },
+      "render_s": 5.16,
+      "rendered": "2026-10-02T01:19:27-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
     "Ava/nws_weather_failed": {
       "slug": "nws_weather_failed",
       "persona": "Ava",
@@ -2075,5 +2211,5 @@
       "proposed": false
     }
   },
-  "updated": "2026-10-02T00:58:42-10:00"
+  "updated": "2026-10-02T01:19:39-10:00"
 }
