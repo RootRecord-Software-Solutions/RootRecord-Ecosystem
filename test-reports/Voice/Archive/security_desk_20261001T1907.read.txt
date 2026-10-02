@@ -1,0 +1,1 @@
+Security desk. Report generated at seven oh seven p.m. The firewall is not set to start on boot. OpenSSH service is active. 371 TCP listeners. 25 established connections. Failed sign-ins: 0 in the last hour, 0 in the last twenty four hours.
