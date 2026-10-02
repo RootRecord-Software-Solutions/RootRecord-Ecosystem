@@ -1,4 +1,4 @@
-# Remaining tasks — 2026-10-01T16:00:00-10:00
+# Remaining tasks — 2026-10-01T17:00:00-10:00
 
 Automated Reports are in active development and is expected to change
 
@@ -10,6 +10,6 @@ Source: report_board.py status (morning 09:00, midday 12:00, late 21:00).
 
 ## Spoken
 
-Remaining tasks. Report generated at four p.m. Automated Reports are in active development and is expected to change. 0 items in the next hour. Next is nine p.m. Late report.
+Remaining tasks. Report generated at five p.m. Automated Reports are in active development and is expected to change. 0 items in the next hour. Next is nine p.m. Late report.
 
 _Template report; measured values only._

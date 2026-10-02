@@ -1,11 +1,11 @@
-# Current report — 2026-10-01T16:30:00-10:00
+# Current report — 2026-10-01T17:00:00-10:00
 
 Automated Reports are in active development and is expected to change
 
 ## Energy
 
-- Delta 2: SOC 98%, solar 0 W, AC out 72 W, USB-C out 0 W, age 0 min
-- River 2 Pro: SOC 25%, solar 0 W, AC out 49 W, USB-C out 0 W, on generator, AC in 849 watts, age 0 min
+- Delta 2: SOC 93%, solar 0 W, AC out 62 W, USB-C out 0 W, age 2 min
+- River 2 Pro: SOC 63%, solar 0.0 W, AC out 0.0 W, USB-C out 0.0 W, on generator, AC in 804 watts, age 0 min
 
 ## Sun and moon
 
@@ -21,43 +21,43 @@ Automated Reports are in active development and is expected to change
 - Kahului: low 71 to 76
 - Hilo: low 67 to 73 at the shore
 - Kailua-Kona: low 69 to 76 at the shore
-- Alerts updated: 2026-10-02T02:30:00+00:00
+- Alerts updated: 2026-10-02T03:03:17+00:00
 
 ## Geology
 
-- Hawaii: 4 magnitude 2.5 or greater in 24 h, largest M3.41, sample age 6 min
-- Global: 31 magnitude 2.5 or greater in 24 h, largest M5.3, sample age 6 min
+- Hawaii: 4 magnitude 2.5 or greater in 24 h, largest M3.41, sample age 9 min
+- Global: 30 magnitude 2.5 or greater in 24 h, largest M5.3, sample age 9 min
 - Kilauea: WATCH / ORANGE, erupting True
 - Mauna Loa: NORMAL / GREEN
 
 ## Hurricanes
 
-- Tropical Storm Nolo: 366 nm from Līhuʻe, bearing west
+- Tropical Storm Nolo: 391 nm from Līhuʻe, bearing west
 
 ## Host
 
-- CPU 25.3%, load 6.78 / 5.00 / 5.43
-- Memory 69.0% used (9.8 / 14.2 GB)
-- Disk 33.0% used (166 / 502 GB)
-- Uptime 7h 41m
-- Temperature 73.0 C
+- CPU 54.2%, load 11.19 / 19.78 / 16.70
+- Memory 76.0% used (10.8 / 14.2 GB)
+- Disk 33.1% used (166 / 502 GB)
+- Uptime 8h 16m
+- Temperature 83.0 C
 
 ## Security
 
 - Firewall starts on boot: False
 - SSH active: True
-- TCP listeners: 350
-- Established connections: 27
+- TCP listeners: 353
+- Established connections: 32
 - Failed sign-ins, last hour / 24 h: 0 / 0
 
 ## Bandwidth
 
-- Last hour: 594743675 bytes down, 2408543902 bytes up
-- Last 24 h: 5217607215 bytes down, 10303196648 bytes up
+- Last hour: 465226396 bytes down, 565254459 bytes up
+- Last 24 h: 5506550042 bytes down, 10300355218 bytes up
 
 ## Camera
 
-- Solar panel still age: 1 min
+- Solar panel still age: 9 min
 - Security camera observations indicate rainy conditions, with solar panels in flat position.
 
 ## Report board
@@ -68,7 +68,7 @@ Automated Reports are in active development and is expected to change
 
 ## Official weather
 
-- AFD, age 0.4 h
+- AFD, age 1.0 h
 
 ## Work orders
 
@@ -76,6 +76,6 @@ Automated Reports are in active development and is expected to change
 
 ## Spoken
 
-Current report. Report generated at four thirty p.m. Automated Reports are in active development and is expected to change. Battery levels: Delta 2 at 98%, River 2 Pro at 25%. Solar input zero watts. Sunrise six eleven a.m., sunset six oh eight p.m. Moon is Waning Gibbous, 67 percent lit. No active Hawaii alerts. Forecast for tonight: Partly cloudy. Temperatures. Honolulu high n/a, low around 77. Lihue high n/a, low 68 to 77. Kahului high n/a, low 71 to 76. Hilo high n/a, low 67 to 73 at the shore. Kailua-Kona high n/a, low 69 to 76 at the shore. Local earthquakes, last twenty four hours: 4 magnitude 2.5 or greater. Kilauea alert level watch, erupting. Mauna Loa alert level normal. Tropical Storm Nolo is about 366 nautical miles from Līhuʻe. Host CPU 25%, memory 69% used, disk 33% used, temperature 73.0 degrees Celsius. Security. Failed sign-ins 0 in the last hour, 0 in the last twenty four hours. Last hour bandwidth: 567.2 megabytes down, 2.24 gigabytes up. Solar panel still is 1 minutes old. Security camera observations indicate rainy conditions, with solar panels in flat position. Report board: Morning report done, Midday report due, Late report pending. Official weather product AFD is on file. 10 open work order items. End of current report.
+Current report. Report generated at five p.m. Automated Reports are in active development and is expected to change. Battery levels: Delta 2 at 93%, River 2 Pro at 63%. Solar input zero watts. Sunrise six eleven a.m., sunset six oh eight p.m. Moon is Waning Gibbous, 67 percent lit. No active Hawaii alerts. Forecast for tonight: Partly cloudy. Temperatures. Honolulu high n/a, low around 77. Lihue high n/a, low 68 to 77. Kahului high n/a, low 71 to 76. Hilo high n/a, low 67 to 73 at the shore. Kailua-Kona high n/a, low 69 to 76 at the shore. Local earthquakes, last twenty four hours: 4 magnitude 2.5 or greater. Kilauea alert level watch, erupting. Mauna Loa alert level normal. Tropical Storm Nolo is about 391 nautical miles from Līhuʻe. Host CPU 54%, memory 76% used, disk 33% used, temperature 83.0 degrees Celsius. Security. Failed sign-ins 0 in the last hour, 0 in the last twenty four hours. Last hour bandwidth: 443.7 megabytes down, 539.1 megabytes up. Solar panel still is 9 minutes old. Security camera observations indicate rainy conditions, with solar panels in flat position. Report board: Morning report done, Midday report due, Late report pending. Official weather product AFD is on file. 10 open work order items. End of current report.
 
 _Template report; measured values only._
