@@ -2,7 +2,3 @@
 .cloudflared/
 mirror/.cloudflared/
 **/*cloudflared*
-
-# GitHub sync, identity, and profile
-.github/
-references/
