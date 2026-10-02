@@ -1,6 +1,142 @@
 {
   "format": "24 kHz 16-bit PCM mono WAV",
   "clips": {
+    "Ava/current_report_failed": {
+      "slug": "current_report_failed",
+      "persona": "Ava",
+      "kinds": [
+        "current_report",
+        "status"
+      ],
+      "text": "Current report was generated but failed to send.",
+      "spoken": "Current report was generated but failed to send.",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "sha256": "2acc5c754cb0354cb2482ccbde52a18091d347c4765f90848f4d6c218d58559e",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.662,
+      "peak_dbfs": -4.82,
+      "rms_dbfs": -20.11,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 279,
+        "tail": 435
+      },
+      "render_s": 5.5,
+      "rendered": "2026-10-02T00:09:33-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Ava/current_report_sent": {
+      "slug": "current_report_sent",
+      "persona": "Ava",
+      "kinds": [
+        "current_report",
+        "status"
+      ],
+      "text": "Current report was sent successfully.",
+      "spoken": "Current report was sent successfully.",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "sha256": "834b9462167d82d6a75401421588425f88a80f7c5ab7fd417883196b7777a0f4",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 1.794,
+      "peak_dbfs": -5.57,
+      "rms_dbfs": -20.1,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 280,
+        "tail": 451
+      },
+      "render_s": 4.94,
+      "rendered": "2026-10-02T00:09:39-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Ava/current_report_starting": {
+      "slug": "current_report_starting",
+      "persona": "Ava",
+      "kinds": [
+        "current_report",
+        "status"
+      ],
+      "text": "Current report is about to generate.",
+      "spoken": "Current report is about to generate.",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "sha256": "271f7664399ea0c83e7965b862dd8a15e88c6fcc857cc7a241f6885ae294e5e5",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.008,
+      "peak_dbfs": -6.54,
+      "rms_dbfs": -20.05,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 278,
+        "tail": 413
+      },
+      "render_s": 5.35,
+      "rendered": "2026-10-02T00:09:20-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Ava/current_report_transit": {
+      "slug": "current_report_transit",
+      "persona": "Ava",
+      "kinds": [
+        "current_report",
+        "status"
+      ],
+      "text": "Current report has been generated and is in transit.",
+      "spoken": "Current report has been generated and is in transit.",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "sha256": "97841ea90de88d0bd33c1f47cf87c212684d6a99c983689a3227df1f092e38a2",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 3.015,
+      "peak_dbfs": -5.05,
+      "rms_dbfs": -20.03,
+      "lead_silence_ms": 24,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 280,
+        "tail": 430
+      },
+      "render_s": 5.6,
+      "rendered": "2026-10-02T00:09:27-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
     "Ava/nws_weather_failed": {
       "slug": "nws_weather_failed",
       "persona": "Ava",
@@ -273,6 +409,142 @@
       "source": "local status cue",
       "proposed": false
     },
+    "Bruce/solar_desk_failed": {
+      "slug": "solar_desk_failed",
+      "persona": "Bruce",
+      "kinds": [
+        "solar_desk",
+        "status"
+      ],
+      "text": "Solar report was generated but failed to send.",
+      "spoken": "Solar report was generated but failed to send.",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "sha256": "1165e5d49dbe428da6209e8f102372919dfe85ddf8d4ea31594f1eb6625339ac",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.964,
+      "peak_dbfs": -1.65,
+      "rms_dbfs": -20.26,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 222,
+        "tail": 614
+      },
+      "render_s": 5.46,
+      "rendered": "2026-10-02T00:08:11-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Bruce/solar_desk_sent": {
+      "slug": "solar_desk_sent",
+      "persona": "Bruce",
+      "kinds": [
+        "solar_desk",
+        "status"
+      ],
+      "text": "Solar report was sent successfully.",
+      "spoken": "Solar report was sent successfully.",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "sha256": "0c4ed3f3cb8b5e432d478e10199e1ebb2d14351ab0df74c667b16b0b08c05c92",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.192,
+      "peak_dbfs": -2.01,
+      "rms_dbfs": -20.09,
+      "lead_silence_ms": 20,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 233,
+        "tail": 550
+      },
+      "render_s": 5.39,
+      "rendered": "2026-10-02T00:08:18-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Bruce/solar_desk_starting": {
+      "slug": "solar_desk_starting",
+      "persona": "Bruce",
+      "kinds": [
+        "solar_desk",
+        "status"
+      ],
+      "text": "Solar report is about to generate.",
+      "spoken": "Solar report is about to generate.",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "sha256": "7114506e94f3ff6bf4a1eb06782cf39521c130e5accd252f042c0d7b98d20d61",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.374,
+      "peak_dbfs": -3.9,
+      "rms_dbfs": -20.13,
+      "lead_silence_ms": 24,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 218,
+        "tail": 558
+      },
+      "render_s": 4.86,
+      "rendered": "2026-10-02T00:07:58-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Bruce/solar_desk_transit": {
+      "slug": "solar_desk_transit",
+      "persona": "Bruce",
+      "kinds": [
+        "solar_desk",
+        "status"
+      ],
+      "text": "Solar report has been generated and is in transit.",
+      "spoken": "Solar report has been generated and is in transit.",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "sha256": "20cfaca5f872df3158dffcb0ac944e99c49345e9bd7a653431c6c76382d8357f",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 3.384,
+      "peak_dbfs": -1.72,
+      "rms_dbfs": -20.15,
+      "lead_silence_ms": 24,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 223,
+        "tail": 593
+      },
+      "render_s": 5.16,
+      "rendered": "2026-10-02T00:08:05-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
     "Bruce/system_perf_failed": {
       "slug": "system_perf_failed",
       "persona": "Bruce",
@@ -401,6 +673,210 @@
       },
       "render_s": 4.95,
       "rendered": "2026-10-02T00:05:38-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/bandwidth_desk_failed": {
+      "slug": "bandwidth_desk_failed",
+      "persona": "Carly",
+      "kinds": [
+        "bandwidth_desk",
+        "status"
+      ],
+      "text": "Bandwidth report was generated but failed to send.",
+      "spoken": "Bandwidth report was generated but failed to send.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "3588bcfdcd3c02a367bd34efb15e9ce0433fe9727730a15e6a5d592b26baf77a",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.854,
+      "peak_dbfs": -3.3,
+      "rms_dbfs": -20.38,
+      "lead_silence_ms": 22,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 259,
+        "tail": 712
+      },
+      "render_s": 5.61,
+      "rendered": "2026-10-02T00:09:07-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/bandwidth_desk_sent": {
+      "slug": "bandwidth_desk_sent",
+      "persona": "Carly",
+      "kinds": [
+        "bandwidth_desk",
+        "status"
+      ],
+      "text": "Bandwidth report was sent successfully.",
+      "spoken": "Bandwidth report was sent successfully.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "3d61c82f2f2a6ae6033238c84443f97ab402348b705d779e15394a219a4d3946",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.176,
+      "peak_dbfs": -4.02,
+      "rms_dbfs": -20.3,
+      "lead_silence_ms": 20,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 256,
+        "tail": 668
+      },
+      "render_s": 5.18,
+      "rendered": "2026-10-02T00:09:13-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/bandwidth_desk_starting": {
+      "slug": "bandwidth_desk_starting",
+      "persona": "Carly",
+      "kinds": [
+        "bandwidth_desk",
+        "status"
+      ],
+      "text": "Bandwidth report is about to generate.",
+      "spoken": "Bandwidth report is about to generate.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "74cc4c33a9b1e84bef3311f30b436a258a591db5c4efc4381fcccab681b2fa1f",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.353,
+      "peak_dbfs": -3.98,
+      "rms_dbfs": -20.26,
+      "lead_silence_ms": 22,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 258,
+        "tail": 663
+      },
+      "render_s": 5.8,
+      "rendered": "2026-10-02T00:08:53-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/bandwidth_desk_transit": {
+      "slug": "bandwidth_desk_transit",
+      "persona": "Carly",
+      "kinds": [
+        "bandwidth_desk",
+        "status"
+      ],
+      "text": "Bandwidth report has been generated and is in transit.",
+      "spoken": "Bandwidth report has been generated and is in transit.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "d73209cca7a47cb392e9b34e9a37656fcd5114fa2bc93281bcc48e1e7787ce9e",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 3.248,
+      "peak_dbfs": -2.6,
+      "rms_dbfs": -20.37,
+      "lead_silence_ms": 22,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 260,
+        "tail": 667
+      },
+      "render_s": 5.99,
+      "rendered": "2026-10-02T00:09:00-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/earthquake_report_failed": {
+      "slug": "earthquake_report_failed",
+      "persona": "Carly",
+      "kinds": [
+        "earthquake_report",
+        "status"
+      ],
+      "text": "Earthquake report was generated but failed to send.",
+      "spoken": "Earthquake report was generated but failed to send.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "0c034297daf3f166e8f382f3060edd534f49c4178bd9c1e2f45bb9c2ea80e7a2",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.848,
+      "peak_dbfs": -3.63,
+      "rms_dbfs": -20.46,
+      "lead_silence_ms": 23,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 240,
+        "tail": 712
+      },
+      "render_s": 5.43,
+      "rendered": "2026-10-02T00:07:22-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/earthquake_report_sent": {
+      "slug": "earthquake_report_sent",
+      "persona": "Carly",
+      "kinds": [
+        "earthquake_report",
+        "status"
+      ],
+      "text": "Earthquake report was sent successfully.",
+      "spoken": "Earthquake report was sent successfully.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "0019aba0ebea8e3907ce2a1c16479617d7feed8c8c4ab7bb4707e93bc109a143",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.195,
+      "peak_dbfs": -3.57,
+      "rms_dbfs": -20.34,
+      "lead_silence_ms": 21,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 237,
+        "tail": 668
+      },
+      "render_s": 4.82,
+      "rendered": "2026-10-02T00:07:28-10:00",
       "engine": {
         "kokoro": "0.9.4",
         "misaki": "0.9.4",
@@ -612,7 +1088,279 @@
       },
       "source": "local status cue",
       "proposed": false
+    },
+    "Carly/kilauea_report_failed": {
+      "slug": "kilauea_report_failed",
+      "persona": "Carly",
+      "kinds": [
+        "kilauea_report",
+        "status"
+      ],
+      "text": "Kilauea report was generated but failed to send.",
+      "spoken": "keelah-wayuh report was generated but failed to send.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "2c611706d048a25df1cb2d2c9eb8a13084d97495d9c3616a6316d843fd6ca6d0",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.956,
+      "peak_dbfs": -4.38,
+      "rms_dbfs": -20.3,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 232,
+        "tail": 712
+      },
+      "render_s": 5.01,
+      "rendered": "2026-10-02T00:07:46-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/kilauea_report_sent": {
+      "slug": "kilauea_report_sent",
+      "persona": "Carly",
+      "kinds": [
+        "kilauea_report",
+        "status"
+      ],
+      "text": "Kilauea report was sent successfully.",
+      "spoken": "keelah-wayuh report was sent successfully.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "b0874311e2e1cc436b2558cc7db5a6f1700d0d7732f82a908d23be08effb271b",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.26,
+      "peak_dbfs": -4.16,
+      "rms_dbfs": -20.13,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 230,
+        "tail": 660
+      },
+      "render_s": 4.97,
+      "rendered": "2026-10-02T00:07:53-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/kilauea_report_starting": {
+      "slug": "kilauea_report_starting",
+      "persona": "Carly",
+      "kinds": [
+        "kilauea_report",
+        "status"
+      ],
+      "text": "Kilauea report is about to generate.",
+      "spoken": "keelah-wayuh report is about to generate.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "39c93a1ae557d541f5efb231a9a73a50fab4fb48037ca4149152e75dfb202893",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.552,
+      "peak_dbfs": -5.26,
+      "rms_dbfs": -20.32,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 229,
+        "tail": 670
+      },
+      "render_s": 4.91,
+      "rendered": "2026-10-02T00:07:34-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/kilauea_report_transit": {
+      "slug": "kilauea_report_transit",
+      "persona": "Carly",
+      "kinds": [
+        "kilauea_report",
+        "status"
+      ],
+      "text": "Kilauea report has been generated and is in transit.",
+      "spoken": "keelah-wayuh report has been generated and is in transit.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "5ef8c0b99c62f980d717b060fdcd7c2dcddbea0e278c68792cd03ec63d2f78ad",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 3.348,
+      "peak_dbfs": -3.78,
+      "rms_dbfs": -20.26,
+      "lead_silence_ms": 24,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 234,
+        "tail": 668
+      },
+      "render_s": 5.32,
+      "rendered": "2026-10-02T00:07:40-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/security_desk_failed": {
+      "slug": "security_desk_failed",
+      "persona": "Carly",
+      "kinds": [
+        "security_desk",
+        "status"
+      ],
+      "text": "Security report was generated but failed to send.",
+      "spoken": "Security report was generated but failed to send.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "214460c24d34f3bb7ada385cc4a3499cc2eeb9f71abcd6def0a1c14d24af3cdb",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.949,
+      "peak_dbfs": -4.69,
+      "rms_dbfs": -20.2,
+      "lead_silence_ms": 22,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 215,
+        "tail": 712
+      },
+      "render_s": 5.69,
+      "rendered": "2026-10-02T00:08:39-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/security_desk_sent": {
+      "slug": "security_desk_sent",
+      "persona": "Carly",
+      "kinds": [
+        "security_desk",
+        "status"
+      ],
+      "text": "Security report was sent successfully.",
+      "spoken": "Security report was sent successfully.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "ee3ab34e1e5f9d4b4cc98c0251175e70d29ab98d23447119e6fa1ed2f1ae15bb",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.237,
+      "peak_dbfs": -4.08,
+      "rms_dbfs": -20.21,
+      "lead_silence_ms": 18,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 212,
+        "tail": 676
+      },
+      "render_s": 5.16,
+      "rendered": "2026-10-02T00:08:45-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/security_desk_starting": {
+      "slug": "security_desk_starting",
+      "persona": "Carly",
+      "kinds": [
+        "security_desk",
+        "status"
+      ],
+      "text": "Security report is about to generate.",
+      "spoken": "Security report is about to generate.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "ba09063a2a49738eae9efabef9a39a953bdaf8b87f9d1ca41d4f54d0c4e24a07",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.47,
+      "peak_dbfs": -5.17,
+      "rms_dbfs": -20.21,
+      "lead_silence_ms": 20,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 210,
+        "tail": 670
+      },
+      "render_s": 5.7,
+      "rendered": "2026-10-02T00:08:25-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/security_desk_transit": {
+      "slug": "security_desk_transit",
+      "persona": "Carly",
+      "kinds": [
+        "security_desk",
+        "status"
+      ],
+      "text": "Security report has been generated and is in transit.",
+      "spoken": "Security report has been generated and is in transit.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "929b6c418b4de9613153ef345dc52ff5ce83ef03dd5a25b5e2e4a36e4da2d6a7",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 3.292,
+      "peak_dbfs": -4.12,
+      "rms_dbfs": -20.15,
+      "lead_silence_ms": 22,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 215,
+        "tail": 668
+      },
+      "render_s": 6.14,
+      "rendered": "2026-10-02T00:08:32-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
     }
   },
-  "updated": "2026-10-02T00:07:15-10:00"
+  "updated": "2026-10-02T00:09:39-10:00"
 }
