@@ -28,8 +28,8 @@
     "message_id": 2308
   },
   "nws_weather": {
-    "sha256": "6e825482f38e6c71dc7f9bf6d52d48a7b12207d252dc05249349538220233031",
-    "message_id": 2314
+    "sha256": "426686e2928bad457eb234cfd5420faa4dd067bb78b488f97389c8630ebce821",
+    "message_id": 2316
   },
   "hourly_chime_00": {
     "sha256": "ba94831bf299ebbb5952deda6032d28c31ce664e60c34716e2041da76538ab25",
@@ -64,7 +64,7 @@
     "message_id": 2188
   },
   "current_report": {
-    "sha256": "73faf4288f68d7c45051feb5bdf9658b64f0b9f265f257466e4305b627003061",
-    "message_id": 2312
+    "sha256": "e79896590383f03affe64476c73c68b885e3645ba733eb5c4c82e11dd4bccb38",
+    "message_id": 2318
   }
 }
