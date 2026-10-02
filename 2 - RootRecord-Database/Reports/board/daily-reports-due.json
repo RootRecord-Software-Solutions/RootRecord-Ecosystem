@@ -1,40 +1,38 @@
 {
-  "day": "2026-10-01",
+  "day": "2026-10-02",
   "slots": {
     "morning": {
-      "status": "done",
-      "scheduled_at": "2026-10-01T09:00:00",
+      "status": "pending",
+      "scheduled_at": "2026-10-02T09:00:00",
       "hour": 9,
       "minute": 0,
       "mandatory": true,
       "catch_up_allowed": true,
-      "completed_at": "2026-10-01T09:25:16-10:00",
+      "completed_at": null,
       "error": null,
       "started_at": null
     },
     "midday": {
-      "status": "due",
-      "scheduled_at": "2026-10-01T12:00:00",
+      "status": "pending",
+      "scheduled_at": "2026-10-02T12:00:00",
       "hour": 12,
       "minute": 0,
       "mandatory": true,
       "catch_up_allowed": true,
       "completed_at": null,
       "error": null,
-      "started_at": null,
-      "marked_due_at": "2026-10-01T12:03:48-10:00"
+      "started_at": null
     },
     "late": {
-      "status": "done",
-      "scheduled_at": "2026-10-01T21:00:00",
+      "status": "pending",
+      "scheduled_at": "2026-10-02T21:00:00",
       "hour": 21,
       "minute": 0,
       "mandatory": false,
       "catch_up_allowed": false,
-      "completed_at": "2026-10-01T21:14:33-10:00",
+      "completed_at": null,
       "error": null,
-      "started_at": null,
-      "marked_due_at": "2026-10-01T21:07:24-10:00"
+      "started_at": null
     }
   },
   "history": {
@@ -78,7 +76,47 @@
           "marked_due_at": "2026-09-30T21:03:31-10:00"
         }
       }
+    },
+    "2026-10-01": {
+      "day": "2026-10-01",
+      "slots": {
+        "morning": {
+          "status": "done",
+          "scheduled_at": "2026-10-01T09:00:00",
+          "hour": 9,
+          "minute": 0,
+          "mandatory": true,
+          "catch_up_allowed": true,
+          "completed_at": "2026-10-01T09:25:16-10:00",
+          "error": null,
+          "started_at": null
+        },
+        "midday": {
+          "status": "missed",
+          "scheduled_at": "2026-10-01T12:00:00",
+          "hour": 12,
+          "minute": 0,
+          "mandatory": true,
+          "catch_up_allowed": true,
+          "completed_at": "2026-10-02T00:50:38-10:00",
+          "error": "unfinished_after_midnight",
+          "started_at": null,
+          "marked_due_at": "2026-10-01T12:03:48-10:00"
+        },
+        "late": {
+          "status": "done",
+          "scheduled_at": "2026-10-01T21:00:00",
+          "hour": 21,
+          "minute": 0,
+          "mandatory": false,
+          "catch_up_allowed": false,
+          "completed_at": "2026-10-01T21:14:33-10:00",
+          "error": null,
+          "started_at": null,
+          "marked_due_at": "2026-10-01T21:07:24-10:00"
+        }
+      }
     }
   },
-  "updated_at": "2026-10-01T23:33:31-10:00"
+  "updated_at": "2026-10-02T00:55:53-10:00"
 }

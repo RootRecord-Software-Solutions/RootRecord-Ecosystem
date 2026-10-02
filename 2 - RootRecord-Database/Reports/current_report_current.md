@@ -1,28 +1,28 @@
-# Current report — 2026-10-01T23:30:00-10:00
+# Current report — 2026-10-02T00:55:53-10:00
 
 Automated Reports are in active development and is expected to change
 
 ## Energy
 
-- Delta 2: SOC 1%, solar 0 W, AC out 0 W, USB-C out 0 W, age 19 min
-- River 2 Pro: SOC 98%, solar 0 W, AC out 82 W, USB-C out 20 W, age 18 min
+- Delta 2: discharged and powered off, last 1%
+- River 2 Pro: SOC 82%, solar 0 W, AC out 58 W, USB-C out 29 W, age 45 min
 
 ## Sun and moon
 
-- Sun: 06:11 / 18:08 (2026-10-01)
-- Moon: Waning Gibbous, 65% lit, rise 22:23, set 11:20
+- Sun: 06:12 / 18:08 (2026-10-02)
+- Moon: Waning Gibbous, 64% lit, rise 23:27, set 12:23
 
 ## Weather
 
 - Flash Flood Warning — Kauai, HI
 - Flood Advisory — Kauai, HI
 - State forecast (1019 PM HST Thu Oct 1 2026): Rest Of Tonight: Showers on Kauai and Oahu. isolated showers Maui County. Lows 71 to 76. East winds around 15 mph.
-- Alerts updated: 2026-10-02T09:31:23+00:00
+- Alerts updated: 2026-10-02T10:52:06+00:00
 
 ## Geology
 
-- Hawaii: 1 magnitude 2.5 or greater in 24 h, largest M2.55, sample age 6 min
-- Global: 26 magnitude 2.5 or greater in 24 h, largest M5.3, sample age 6 min
+- Hawaii: 0 magnitude 2.5 or greater in 24 h, sample age 8 min
+- Global: 27 magnitude 2.5 or greater in 24 h, largest M5.3, sample age 8 min
 - Kilauea: WATCH / ORANGE, erupting True
 - Mauna Loa: NORMAL / GREEN
 
@@ -32,38 +32,38 @@ Automated Reports are in active development and is expected to change
 
 ## Host
 
-- CPU 3.0%, load 3.92 / 2.33 / 1.65
-- Memory 47.8% used (6.8 / 14.2 GB)
-- Disk 35.1% used (176 / 502 GB)
-- Uptime 0h 28m
-- Temperature 97.0 C
+- CPU 2.5%, load 0.96 / 1.85 / 2.06
+- Memory 39.9% used (5.7 / 14.2 GB)
+- Disk 35.3% used (177 / 502 GB)
+- Uptime 1h 50m
+- Temperature 63.0 C
 
 ## Security
 
 - Firewall starts on boot: False
 - SSH active: True
-- TCP listeners: 22
-- Established connections: 33
+- TCP listeners: 40
+- Established connections: 26
 - Failed sign-ins, last hour / 24 h: 0 / 0
 
 ## Bandwidth
 
-- Not enough samples yet
+- Last hour: 459746007 bytes down, 124833301 bytes up
 
 ## Camera
 
-- Solar panel still age: 1 min
+- Solar panel still age: 8 min
 - Security camera observations indicate dark conditions, with solar panels in flat position.
 
 ## Report board
 
-- Morning report 2026-10-01T09:00:00 done
-- Midday report 2026-10-01T12:00:00 due
-- Late report 2026-10-01T21:00:00 done
+- Morning report 2026-10-02T09:00:00 pending
+- Midday report 2026-10-02T12:00:00 pending
+- Late report 2026-10-02T21:00:00 pending
 
 ## Official weather
 
-- AFD, age 3.0 h
+- AFD, age 4.4 h
 
 ## Work orders
 
@@ -71,6 +71,6 @@ Automated Reports are in active development and is expected to change
 
 ## Spoken
 
-Current report. Report generated at eleven thirty p.m. Automated Reports are in active development and is expected to change. Battery levels: Delta 2 at 1%, River 2 Pro at 98%. Solar input zero watts. Delta 2 reading is 19 minutes old. River 2 Pro reading is 18 minutes old. Sunrise six eleven a.m., sunset six oh eight p.m. Moon is Waning Gibbous, 65 percent lit. 2 active weather alerts, including Flash Flood Warning. Forecast for rest of tonight: Showers on Kauai and Oahu. Local earthquakes, last twenty four hours: 1 magnitude 2.5 or greater. Kilauea alert level watch, erupting. Mauna Loa alert level normal. Tropical Storm Nolo is about 414 nautical miles from Līhuʻe. Host CPU 3%, memory 48% used, disk 35% used, temperature 97.0 degrees Celsius. Security. Failed sign-ins 0 in the last hour, 0 in the last twenty four hours. Bandwidth data is not on file yet. Solar panel still is 1 minutes old. Security camera observations indicate dark conditions, with solar panels in flat position. Report board: Morning report done, Midday report due, Late report done. Official weather product AFD is on file. 8 open work order items. End of current report.
+Current report. Report generated at twelve fifty five a.m. Automated Reports are in active development and is expected to change. Battery levels: River 2 Pro at 82%. Solar input zero watts. River 2 Pro state of charge up 24 percent from yesterday. River 2 Pro reading is 45 minutes old. Delta 2 discharged and powered off. Last reading was 1 percent. River 2 Pro is out of range. Sunrise six twelve a.m., sunset six oh eight p.m. Moon is Waning Gibbous, 64 percent lit. 2 active weather alerts, including Flash Flood Warning. Forecast for rest of tonight: Showers on Kauai and Oahu. Local earthquakes, last twenty four hours: 0 magnitude 2.5 or greater. Kilauea alert level watch, erupting. Mauna Loa alert level normal. Tropical Storm Nolo is about 414 nautical miles from Līhuʻe. Host CPU 2%, memory 40% used, disk 35% used, temperature 63.0 degrees Celsius. Security. Failed sign-ins 0 in the last hour, 0 in the last twenty four hours. Last hour bandwidth: 438.4 megabytes down, 119.1 megabytes up. Solar panel still is 8 minutes old. Security camera observations indicate dark conditions, with solar panels in flat position. Report board: Morning report pending, Midday report pending, Late report pending. Official weather product AFD is on file. 8 open work order items. End of current report.
 
 _Template report; measured values only._

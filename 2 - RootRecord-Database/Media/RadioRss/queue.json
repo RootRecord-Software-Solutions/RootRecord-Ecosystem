@@ -4875,6 +4875,456 @@
           "published_at": "2026-10-02T10:00:00Z"
         }
       ]
+    },
+    {
+      "id": "ec32f15ff622f856",
+      "cluster_id": "c_76d338541831e267",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_76d338541831e267.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_76d338541831e267.speak.txt",
+      "sources": [
+        {
+          "publisher": "UK Ministry of Defence",
+          "source": "UK Ministry of Defence",
+          "title": "Transparency data: Military court centres court listings",
+          "url": "https://www.gov.uk/government/publications/military-court-centres-court-listings",
+          "published_at": "2026-10-02T10:16:06Z"
+        }
+      ]
+    },
+    {
+      "id": "cdfce458c91eae62",
+      "cluster_id": "c_1d85cd461b35bdff",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_1d85cd461b35bdff.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_1d85cd461b35bdff.speak.txt",
+      "sources": [
+        {
+          "publisher": "UK Ministry of Defence",
+          "source": "UK Ministry of Defence",
+          "title": "MOD War Detectives (the Joint Casualty and Compassionate Centre Commemorations team): our future services, current appeals and past cases",
+          "url": "https://www.gov.uk/guidance/mod-war-detectives-the-joint-casualty-and-compassionate-centre-commemorations-team-our-future-services-current-appeals-and-past-cases",
+          "published_at": "2026-10-02T10:02:27Z"
+        }
+      ]
+    },
+    {
+      "id": "31ed216f9640e971",
+      "cluster_id": "c_666b1fdd8395aefd",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_666b1fdd8395aefd.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_666b1fdd8395aefd.speak.txt",
+      "sources": [
+        {
+          "publisher": "UK Ministry of Defence",
+          "source": "UK Ministry of Defence",
+          "title": "Six Scottish soldiers buried in France 108 years after their deaths",
+          "url": "https://www.gov.uk/government/news/six-scottish-soldiers-buried-in-france-108-years-after-their-deaths",
+          "published_at": "2026-10-02T10:02:14Z"
+        }
+      ]
+    },
+    {
+      "id": "17714625bb4fb0e1",
+      "cluster_id": "c_40e467ccc24b389f",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_40e467ccc24b389f.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_40e467ccc24b389f.speak.txt",
+      "sources": [
+        {
+          "publisher": "UK Ministry of Defence",
+          "source": "UK Ministry of Defence",
+          "title": "Graves of five soldiers killed in Normandy identified",
+          "url": "https://www.gov.uk/government/news/graves-of-five-soldiers-killed-in-normandy-identified",
+          "published_at": "2026-10-02T10:01:57Z"
+        }
+      ]
+    },
+    {
+      "id": "50feb37c7832b674",
+      "cluster_id": "c_1c0b81815f92e636",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_1c0b81815f92e636.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_1c0b81815f92e636.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "How the Hawaii and San Jose State football teams match up",
+          "url": "https://www.staradvertiser.com/2026/10/02/sports/how-the-hawaii-and-san-jose-state-football-teams-match-up/",
+          "published_at": "2026-10-02T10:06:00Z"
+        }
+      ]
+    },
+    {
+      "id": "e90169676897f856",
+      "cluster_id": "c_520fcc502333f5a7",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_520fcc502333f5a7.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_520fcc502333f5a7.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Hawaii Supreme Court upholds Maui wildfire attorney fee caps",
+          "url": "https://www.staradvertiser.com/2026/10/02/hawaii-news/hawaii-supreme-court-upholds-maui-wildfire-attorney-fee-caps/",
+          "published_at": "2026-10-02T10:06:00Z"
+        }
+      ]
+    },
+    {
+      "id": "191ab9c6f2e9658c",
+      "cluster_id": "c_bb894aa387a3a7ec",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_bb894aa387a3a7ec.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_bb894aa387a3a7ec.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "5 Questions: Judith Mills Wong, League of Women Voters of Hawaii president",
+          "url": "https://www.staradvertiser.com/2026/10/02/editorial/name-in-the-news/5-questions-judith-mills-wong-league-of-women-voters-of-hawaii-president/",
+          "published_at": "2026-10-02T10:06:00Z"
+        }
+      ]
+    },
+    {
+      "id": "31fcbc7f2dc95e65",
+      "cluster_id": "c_b8f9ef669ff4a59a",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_b8f9ef669ff4a59a.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_b8f9ef669ff4a59a.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Scoreboard \u2013 October 2, 2026",
+          "url": "https://www.staradvertiser.com/2026/10/02/sports/scoreboard/scoreboard-october-2-2026/",
+          "published_at": "2026-10-02T10:05:38Z"
+        }
+      ]
+    },
+    {
+      "id": "79ee847285d6a251",
+      "cluster_id": "c_8486f2fe41d72f82",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_8486f2fe41d72f82.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_8486f2fe41d72f82.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Television and radio \u2013 October 2, 2026",
+          "url": "https://www.staradvertiser.com/2026/10/02/sports/television-and-radio-october-2-2026/",
+          "published_at": "2026-10-02T10:05:13Z"
+        }
+      ]
+    },
+    {
+      "id": "1b1bb5482580e9e3",
+      "cluster_id": "c_2c94bde392b37af8",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_2c94bde392b37af8.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_2c94bde392b37af8.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Hawaii basketball standout Alika Smith gets probation in theft case",
+          "url": "https://www.staradvertiser.com/2026/10/02/hawaii-news/hawaii-basketball-standout-alika-smith-gets-probation-in-theft-case/",
+          "published_at": "2026-10-02T10:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "249b0663f216fd12",
+      "cluster_id": "c_83024d20ae453771",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_83024d20ae453771.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_83024d20ae453771.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Letter: Republicans must vote out Trump sycophants",
+          "url": "https://www.staradvertiser.com/2026/10/02/editorial/letters/letter-republicans-must-vote-out-trump-sycophants/",
+          "published_at": "2026-10-02T10:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "bcf52d1b57a8ed38",
+      "cluster_id": "c_f72fd7f9015a96ca",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_f72fd7f9015a96ca.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_f72fd7f9015a96ca.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Letter: Be cautious, but keep AI development moving",
+          "url": "https://www.staradvertiser.com/2026/10/02/editorial/letters/letter-be-cautious-but-keep-ai-development-moving/",
+          "published_at": "2026-10-02T10:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "682f493e9d8d4876",
+      "cluster_id": "c_fbf84bd4b75f8172",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_fbf84bd4b75f8172.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_fbf84bd4b75f8172.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Letter: Reveal HMSA executive pay prior to merger",
+          "url": "https://www.staradvertiser.com/2026/10/02/editorial/letters/letter-reveal-hmsa-executive-pay-prior-to-merger/",
+          "published_at": "2026-10-02T10:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "019227119cacb746",
+      "cluster_id": "c_e837026b1b2333ce",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_e837026b1b2333ce.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_e837026b1b2333ce.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Letter: Near-miss hurricanes as instructive as direct hits",
+          "url": "https://www.staradvertiser.com/2026/10/02/editorial/letters/letter-near-miss-hurricanes-as-instructive-as-direct-hits/",
+          "published_at": "2026-10-02T10:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "6d0ff543ecf5aa40",
+      "cluster_id": "c_b2898cd64fe743ca",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_b2898cd64fe743ca.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_b2898cd64fe743ca.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Freshman Cameron Holcomb has been the Rainbow Wahine\u2019s ace in the hole",
+          "url": "https://www.staradvertiser.com/2026/10/02/sports/freshman-cameron-holcomb-has-been-the-rainbow-wahines-ace-in-the-hole/",
+          "published_at": "2026-10-02T10:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "5ce86d224198adeb",
+      "cluster_id": "c_3821ac88c0dd8028",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_3821ac88c0dd8028.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_3821ac88c0dd8028.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Golden State\u2019s Horford pushes on to 20th season",
+          "url": "https://www.staradvertiser.com/2026/10/02/sports/golden-states-horford-pushes-on-to-20th-season/",
+          "published_at": "2026-10-02T10:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "95931d0715f5fb51",
+      "cluster_id": "c_af4a740d0b8e3cc1",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_af4a740d0b8e3cc1.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_af4a740d0b8e3cc1.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "\u2019Iolani volleyball heading to states",
+          "url": "https://www.staradvertiser.com/2026/10/02/sports/hawaii-prep-world/iolani-volleyball-heading-to-states/",
+          "published_at": "2026-10-02T10:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "a87225bf78020668",
+      "cluster_id": "c_68e5b4dd714a423b",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_68e5b4dd714a423b.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_68e5b4dd714a423b.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "UH Hilo, Chaminade volleyball teams win",
+          "url": "https://www.staradvertiser.com/2026/10/02/sports/hawaii-beat/uh-hilo-chaminade-volleyball-teams-win-3/",
+          "published_at": "2026-10-02T10:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "ff10cc8cd892b96d",
+      "cluster_id": "c_7b0fc39a31ee29be",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_7b0fc39a31ee29be.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_7b0fc39a31ee29be.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "State set to appeal $500,000 award to ex-HTA exec Choy",
+          "url": "https://www.staradvertiser.com/2026/10/02/hawaii-news/state-set-to-appeal-500000-award-to-ex-hta-exec-choy/",
+          "published_at": "2026-10-02T10:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "71d7850b140b95d8",
+      "cluster_id": "c_ea60f707db976b6f",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_ea60f707db976b6f.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_ea60f707db976b6f.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Kalaupapa patients, staff, unable to return due to power outage",
+          "url": "https://www.staradvertiser.com/2026/10/02/hawaii-news/kalaupapa-patients-staff-unable-to-return-due-to-power-outage/",
+          "published_at": "2026-10-02T10:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "31748be247abbd07",
+      "cluster_id": "c_dc17f7da2109a61a",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_dc17f7da2109a61a.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_dc17f7da2109a61a.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Makiki building will house homeless teens, young adults",
+          "url": "https://www.staradvertiser.com/2026/10/02/hawaii-news/makiki-building-will-house-homeless-teens-young-adults/",
+          "published_at": "2026-10-02T10:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "1edb189956f92985",
+      "cluster_id": "c_0332971c55963236",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_0332971c55963236.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_0332971c55963236.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Kokua Line: Does gift-card law apply to national chains in Hawaii?",
+          "url": "https://www.staradvertiser.com/2026/10/02/hawaii-news/kokua-line/kokua-line-does-gift-card-law-apply-to-national-chains-in-hawaii/",
+          "published_at": "2026-10-02T10:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "545b119b9faa867e",
+      "cluster_id": "c_0c6f66c9cf8cbec9",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_0c6f66c9cf8cbec9.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_0c6f66c9cf8cbec9.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Man from India pleads guilty to defrauding Kaneohe kupuna",
+          "url": "https://www.staradvertiser.com/2026/10/02/hawaii-news/man-from-india-pleads-guilty-to-defrauding-kaneohe-kupuna/",
+          "published_at": "2026-10-02T10:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "7a313d3effbf8bf8",
+      "cluster_id": "c_a8ac4705d219103d",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_a8ac4705d219103d.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_a8ac4705d219103d.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Rearview Mirror: Sites hold long histories of what was there before",
+          "url": "https://www.staradvertiser.com/2026/10/02/hawaii-news/rearview-mirror/rearview-mirror-sites-hold-long-histories-of-what-was-there-before/",
+          "published_at": "2026-10-02T10:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "8d5dabef5f2796f2",
+      "cluster_id": "c_4556eb9c2283b429",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_4556eb9c2283b429.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_4556eb9c2283b429.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "\u2018He\u2019s Not a Hero\u2019: Sen. Fevella pushes state to challenge jury\u2019s wrongful termination ruling",
+          "url": "https://www.hawaiinewsnow.com/2026/10/02/hes-not-hero-sen-fevella-pushes-state-challenge-jurys-wrongful-termination-ruling/",
+          "published_at": "2026-10-02T09:20:14Z"
+        }
+      ]
     }
   ]
 }
