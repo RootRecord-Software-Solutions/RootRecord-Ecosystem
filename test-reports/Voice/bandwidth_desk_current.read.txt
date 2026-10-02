@@ -1,1 +1,1 @@
-Bandwidth desk. Report generated at two eleven p.m. This host is on wireless. Last hour: 980.3 megabytes down, 1.51 gigabytes up, 2.47 gigabytes total. Last twenty four hours: 3.96 gigabytes down, 4.20 gigabytes up, 8.16 gigabytes total.
+Bandwidth desk. Report generated at three twelve p.m. This host is on wireless. Last hour: 415.2 megabytes down, 2.53 gigabytes up, 2.94 gigabytes total. Last twenty four hours: 4.36 gigabytes down, 6.73 gigabytes up, 11.09 gigabytes total.

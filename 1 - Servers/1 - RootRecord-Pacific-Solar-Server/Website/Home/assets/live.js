@@ -134,6 +134,8 @@
     var parts = [];
     if (reading.soc !== null) parts.push(T.pct(reading.soc));
     if (reading.solar !== null) parts.push(T.watts(reading.solar) + " solar");
+    if (reading.chargeSource === "generator" && reading.acIn !== null) parts.push("generator " + T.watts(reading.acIn));
+    else if (reading.acIn !== null && reading.acIn > 5) parts.push(T.watts(reading.acIn) + " AC in");
     return parts.length ? parts.join(" · ") : "NO READING";
   }
 
@@ -142,6 +144,7 @@
       text(prefix + "-soc", "NO READING");
       text(prefix + "-solar", "NO READING");
       text(prefix + "-ac", "NO READING");
+      text(prefix + "-acin", "NO READING");
       text(prefix + "-usb", "NO READING");
       text(prefix + "-at", "—");
       text("st-" + prefix, "NO PUBLIC SIGNAL");
@@ -152,6 +155,12 @@
     text(prefix + "-soc", reading.soc === null ? "NO READING" : T.pct(reading.soc));
     text(prefix + "-solar", reading.solar === null ? "NO READING" : T.watts(reading.solar));
     text(prefix + "-ac", reading.acOut === null ? "NO READING" : T.watts(reading.acOut));
+    text(prefix + "-acin", reading.acIn === null ? "NO READING" : T.watts(reading.acIn));
+    var acInLabel = document.getElementById(prefix + "-acin-label");
+    if (acInLabel) {
+      var who = prefix === "river" ? "River" : "Delta";
+      acInLabel.textContent = reading.chargeSource === "generator" ? who + " generator" : who + " AC in";
+    }
     text(prefix + "-usb", reading.usbc === null ? "NO READING" : T.watts(reading.usbc));
     text(prefix + "-at", reading.at ? T.formatHst(reading.at, true) : "—");
     text("st-" + prefix, obsWord(reading.at, staleMs));
