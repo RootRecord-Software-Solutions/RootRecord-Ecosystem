@@ -31,13 +31,14 @@ Boundary rule: knowledge goes to Library, executable runtime goes to Pacific, by
 | Library | Knowledge | `5 - RootRecord-Library/` · https://github.com/RootRecord-Software-Solutions/RootRecord-Library | Architecture, work orders, agent context, guides | Runtime code, databases, camera media |
 | Pacific | Runtime | `1 - Servers/1 - RootRecord-Pacific-Solar-Server/` · https://github.com/RootRecord-Software-Solutions/RootRecord-Pacific-Solar-Server | Services, jobs, automation, monitors | The data files those jobs write |
 | Database | Persistence | `2 - RootRecord-Database/` · https://github.com/RootRecord-Software-Solutions/RootRecord-Database | Logs, media layout, telemetry, canonical data paths | Application logic |
-| Mainland | Continuity directory inside the umbrella | Desk path `1 - Servers/2 - RootRecord-US-Mainland-Server/`. GitHub `rootrecordsoftwaresolutions/US-Mainland-Server` exists. This directory is not its own git repository | Recovery and mainland files in the umbrella | A nested `.git`. The `mainland` sync row is disabled and its configured path is an old snapshot, not this directory |
+| Mainland One | Continuity directory inside the umbrella | Desk path `1 - Servers/2 - RootRecord-US-Mainland-One/`. GitHub `RootRecord-Software-Solutions/US-Mainland-One`. The `mainland` row publishes this folder | Recovery and mainland files in the umbrella | A nested `.git` |
+| Mainland Two | YouTube station, its own repository | Desk path `1 - Servers/3 - RootRecord-US-Mainland-Two/`. GitHub `RootRecord-Software-Solutions/US-Mainland-Two` | Station code and configuration | Generated media. The umbrella gitignores this checkout |
 | Website | Public page, Vercel source | Desk path `1 - Servers/1 - RootRecord-Pacific-Solar-Server/Website/Home/`. `website` publishes it to https://github.com/RootRecord-Software-Solutions/RootRecord-Website. `website-personal` publishes the same folder to https://github.com/rootrecordsoftwaresolutions/RootRecord-Website | `index.html`, `vercel.json`, this folder's README | A nested `.git`. Desk scripts stay in `Website/` outside `Home/` and publish with Pacific. `3 - RootRecord-Website/` is not on this desk. Do not bind port 3001. Do not call port 8787. `www` is `https://www.rootrecord.cloud/` on Vercel. `ssh.rootrecord.cloud` is A `18.118.30.226`. `api.rootrecord.cloud` is A `18.118.30.226`. Caddy on AWS proxies it to `127.0.0.1:8091`. Reports are at `https://www.rootrecord.cloud/reports/`. Data contract: `Website/HANDOFF-vercel-homepage-2026-09-30.md`. `rootserver.rootrecord.cloud` is the poller on `:8799` |
 | Weather data | Hawaiʻi weather publication | GitHub `rootrecordsoftwaresolutions/RootRecord-Weather-Database` | Published weather products | The Pacific weather daemon's local tree, which stays under Database `Weather/` and is not auto-published from the umbrella |
 
 `/home/rootrecord/Database/` is not on this desk. Sync flags are `2 - RootRecord-Database/Github/flags/`.
 
-Sync catalog: `1 - Servers/1 - RootRecord-Pacific-Solar-Server/Github/scripts/repos.conf`. Enabled rows are `ecosystem`, `pacific`, `database`, `library`, `website`, and `website-personal`. `skills` and `mainland` are disabled. Pacific, Database, and Library are mirror publishes of the live folders. `website` and `website-personal` both mirror-publish `Website/Home/`, to the org and to the personal account. Deeper narrative: `5 - RootRecord-Library/Documentation/03-Pacific-Server-Current-Architecture/Repository-Ownership-Model.md`.
+Sync catalog: `1 - Servers/1 - RootRecord-Pacific-Solar-Server/Github/scripts/repos.conf`. Enabled rows are `ecosystem`, `pacific`, `database`, `library`, `website`, `website-personal`, and `mainland`. `skills` is disabled. Pacific, Database, and Library are mirror publishes of the live folders. `website` and `website-personal` both mirror-publish `Website/Home/`, to the org and to the personal account. Deeper narrative: `5 - RootRecord-Library/Documentation/03-Pacific-Server-Current-Architecture/Repository-Ownership-Model.md`.
 
 Publication, short form (WO-DATA, 2026-09-29): energy samples, system samples, worklogs, logs, weather daemon output, and camera media stay local. The skip list is `Github/scripts/ecosystem-skip-autocommit.txt`. Geology SQLite stays local. Geology `*-last.json` and `Daily/*.jsonl` are still tracked; that publication is not signed off. Users/PII retention and timelapse-master retention are still open. Full labels: `5 - RootRecord-Library/Documentation/06-development/Work-Orders/Database_Boundary_Work_Order_WO-DATA-2026-09-27.md`.
 
@@ -75,21 +76,28 @@ The state snapshot is current machine-readable context. The state history is the
 - [`energy/lib/ble_client.py`](https://github.com/rootrecordsoftwaresolutions/Solar-Pacific-RootRecord-Server/blob/main/energy/lib/ble_client.py)
 - [`automations/scripts/jobs.py`](https://github.com/rootrecordsoftwaresolutions/Solar-Pacific-RootRecord-Server/blob/main/automations/scripts/jobs.py)
 
-## US Mainland Server
+## US Mainland One
 
 Repository:
-https://github.com/rootrecordsoftwaresolutions/US-Mainland-Server
+https://github.com/RootRecord-Software-Solutions/US-Mainland-One
 
 ### Network globe / recovery
 
-- [`mirror/network-globe/server.js`](https://github.com/rootrecordsoftwaresolutions/US-Mainland-Server/blob/main/mirror/network-globe/server.js)
-- [`mirror/network-globe/HAWAII-MERGE.md`](https://github.com/rootrecordsoftwaresolutions/US-Mainland-Server/blob/main/mirror/network-globe/HAWAII-MERGE.md)
-- [`mirror/network-globe/start.sh`](https://github.com/rootrecordsoftwaresolutions/US-Mainland-Server/blob/main/mirror/network-globe/start.sh)
-- [`mirror/network-globe/package.json`](https://github.com/rootrecordsoftwaresolutions/US-Mainland-Server/blob/main/mirror/network-globe/package.json)
-- [`mirror/network-globe/README.md`](https://github.com/rootrecordsoftwaresolutions/US-Mainland-Server/blob/main/mirror/network-globe/README.md)
-- [`RECOVERY.md`](https://github.com/rootrecordsoftwaresolutions/US-Mainland-Server/blob/main/RECOVERY.md)
+- [`mirror/network-globe/server.js`](https://github.com/RootRecord-Software-Solutions/US-Mainland-One/blob/main/mirror/network-globe/server.js)
+- [`mirror/network-globe/HAWAII-MERGE.md`](https://github.com/RootRecord-Software-Solutions/US-Mainland-One/blob/main/mirror/network-globe/HAWAII-MERGE.md)
+- [`mirror/network-globe/start.sh`](https://github.com/RootRecord-Software-Solutions/US-Mainland-One/blob/main/mirror/network-globe/start.sh)
+- [`mirror/network-globe/package.json`](https://github.com/RootRecord-Software-Solutions/US-Mainland-One/blob/main/mirror/network-globe/package.json)
+- [`mirror/network-globe/README.md`](https://github.com/RootRecord-Software-Solutions/US-Mainland-One/blob/main/mirror/network-globe/README.md)
+- [`RECOVERY.md`](https://github.com/RootRecord-Software-Solutions/US-Mainland-One/blob/main/RECOVERY.md)
 
 Important: the repository is a mirror/recovery representation. Verify the deployed AWS path before treating a GitHub mirror file as live runtime state.
+
+## US Mainland Two
+
+Repository:
+https://github.com/RootRecord-Software-Solutions/US-Mainland-Two
+
+Desk checkout: `1 - Servers/3 - RootRecord-US-Mainland-Two/`. This folder has its own git repository. The umbrella ignores it.
 
 ## RootRecord Website
 

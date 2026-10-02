@@ -53,7 +53,8 @@ Domain roles:
 These remotes describe earlier homes. They are not the git root of this desk:
 
 - Solar Pacific RootRecord Server: https://github.com/rootrecordsoftwaresolutions/Solar-Pacific-RootRecord-Server
-- US Mainland Server: https://github.com/rootrecordsoftwaresolutions/US-Mainland-Server
+- US Mainland One: https://github.com/RootRecord-Software-Solutions/US-Mainland-One
+- US Mainland Two: https://github.com/RootRecord-Software-Solutions/US-Mainland-Two
 - RootRecord Website: https://github.com/RootRecord-Software-Solutions/RootRecord-Website
 - RootRecord Master Prompt: https://github.com/rootrecordsoftwaresolutions/RootRecord-Master-Prompt
 

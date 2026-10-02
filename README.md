@@ -47,7 +47,7 @@ The current snapshot includes material from the major RootRecord areas:
 | Area | Role |
 | --- | --- |
 | `0 - Master-Prompt/` | Cross-project operating rules, prompt files, and live-state notes |
-| `1 - Servers/` | Pacific runtime, the US Mainland continuity tree, and the public page under Pacific `Website/Home/` |
+| `1 - Servers/` | Pacific runtime, Mainland One, Mainland Two, and the public page under Pacific `Website/Home/` |
 | `2 - RootRecord-Database/` | Persistent data, telemetry, logs, and media layout |
 | `4 - RootRecord-Node/` | Node-related snapshot material |
 | `5 - RootRecord-Library/` | Architecture, guides, agent context, and work orders |
@@ -64,7 +64,8 @@ The principal source repositories represented by this snapshot are:
 - **RootRecord-Database**
 - **RootRecord-Pacific-Solar-Server**
 - **RootRecord-Website** — public page, synced from Pacific `Website/Home/`
-- **RootRecord-US-Mainland-Server**
+- **RootRecord-US-Mainland-One**
+- **US-Mainland-Two**
 
 Those GitHub repositories keep their own histories. In this checkout they are folders, not separate clones. The desk sync catalog publishes `pacific`, `database`, `library`, and `website` from mirror worktrees. `website` publishes only `Website/Home/`.
 
@@ -175,7 +176,8 @@ GitHub source repositories, when they are still the domain remote:
 - RootRecord-Database
 - RootRecord-Pacific-Solar-Server
 - RootRecord-Website — public page, from Pacific `Website/Home/`
-- RootRecord-US-Mainland-Server
+- RootRecord-US-Mainland-One
+- US-Mainland-Two
 
 ---
 

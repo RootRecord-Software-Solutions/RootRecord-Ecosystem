@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-01T19:27:35-10:00",
+  "at": "2026-10-01T19:40:05-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 30,
-  "count_m2": 30,
-  "count_m25": 29,
+  "count": 29,
+  "count_m2": 29,
+  "count_m25": 28,
   "largest": {
     "id": "us6000tytg",
     "mag": 5.3,
@@ -14,7 +14,7 @@
     "time_hst": "2026-10-01T02:27:11.864000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-02T05:27:19+00:00",
+  "usgs_generated_utc": "2026-10-02T05:39:19+00:00",
   "events": [
     {
       "id": "us6000tyzl",
@@ -526,22 +526,6 @@
       "tsunami": 0,
       "type": "earthquake",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyqx",
-      "nearest": null
-    },
-    {
-      "id": "us6000tyq7",
-      "mag": 5,
-      "mag_type": "mb",
-      "place": "38 km WSW of Palimbang, Philippines",
-      "time_utc": "2026-10-01T05:34:10.634000+00:00",
-      "time_hst": "2026-09-30T19:34:10.634000-10:00",
-      "lon": 123.8599,
-      "lat": 6.1116,
-      "depth_km": 10,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyq7",
       "nearest": null
     }
   ]

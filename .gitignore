@@ -2,9 +2,9 @@
 # Ignore the nested checkout so the ecosystem repo cannot record a gitlink.
 3 - RootRecord-Website/
 
-# YouTube station checkout: US-Mainland-Server-2 is its own repo.
+# YouTube station checkout: US-Mainland-Two is its own repo.
 # Ignore the nested checkout so the ecosystem repo cannot record a gitlink.
-1 - Servers/3 - RootRecord-US-Mainland-Server 2/
+1 - Servers/3 - RootRecord-US-Mainland-Two/
 
 # Mirror worktrees for pacific, database, and library. Nested .git must not become a gitlink.
 # They cannot live under 2 - RootRecord-Database: rsync of that folder into the worktree loops.

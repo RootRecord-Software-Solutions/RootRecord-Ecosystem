@@ -16,7 +16,8 @@ Remote: https://github.com/RootRecord-Software-Solutions/RootRecord-Ecosystem
 | Pacific runtime | `1 - Servers/1 - RootRecord-Pacific-Solar-Server/` | Poller, jobs, energy, weather, cameras |
 | Database | `2 - RootRecord-Database/` | Telemetry, logs, media |
 | Website | none on this desk | Local Next site removed 2026-09-30. Do not start one. Port 3001 stays closed. `rootserver.rootrecord.cloud` is the poller on `:8799` |
-| Mainland | `1 - Servers/2 - RootRecord-US-Mainland-Server/` | Desk copy. Sync row disabled |
+| Mainland One | `1 - Servers/2 - RootRecord-US-Mainland-One/` | Desk copy. `mainland` publishes it to `US-Mainland-One` |
+| Mainland Two | `1 - Servers/3 - RootRecord-US-Mainland-Two/` | Own repository, `US-Mainland-Two`. Ignored by the umbrella |
 | Library | `5 - RootRecord-Library/` | Docs, work orders, agent context |
 | Node | `4 - RootRecord-Node/` | Placeholder |
 | Android | `6 - Android Development/` | App trees. Build still unverified |

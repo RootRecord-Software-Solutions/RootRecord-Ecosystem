@@ -83,7 +83,7 @@ Security camera runtime writes captured media to the canonical Database media tr
 | **[RootRecord-Ecosystem](https://github.com/RootRecord-Software-Solutions/RootRecord-Ecosystem)** | Public umbrella and this desk's git root |
 | **[RootRecord-Pacific-Solar-Server](https://github.com/RootRecord-Software-Solutions/RootRecord-Pacific-Solar-Server)** | Primary executable runtime |
 | **[RootRecord-Library](https://github.com/RootRecord-Software-Solutions/RootRecord-Library)** | Docs, agent context & work orders |
-| **[US-Mainland-Server](https://github.com/rootrecordsoftwaresolutions/US-Mainland-Server)** | Continuity node |
+| **[US-Mainland-One](https://github.com/RootRecord-Software-Solutions/US-Mainland-One)** | Continuity node |
 
 ---
 

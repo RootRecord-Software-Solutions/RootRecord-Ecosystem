@@ -33,7 +33,7 @@ Primary local/server skills, automations, energy, agent lanes, communications, o
 
 ### US Mainland Server
 
-https://github.com/rootrecordsoftwaresolutions/US-Mainland-Server
+https://github.com/RootRecord-Software-Solutions/US-Mainland-One
 
 AWS/mainland mirror and recovery-oriented infrastructure. The repository is a mirror/recovery source for the mainland system; do not assume every mirrored file is the live deployed state without verification.
 
