@@ -5325,6 +5325,42 @@
           "published_at": "2026-10-02T09:20:14Z"
         }
       ]
+    },
+    {
+      "id": "ccfc3c87b2ab8a0c",
+      "cluster_id": "c_0d71971bbd237012",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_0d71971bbd237012.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_0d71971bbd237012.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "TV dinner overload? The frozen-food aisle may be too crowded for its own good.",
+          "url": "https://www.marketwatch.com/story/tv-dinner-overload-the-frozen-food-aisle-may-be-too-crowded-for-its-own-good-55bfed39?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T11:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "b99ba8b8a44fc9d4",
+      "cluster_id": "c_318145619184cb41",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_318145619184cb41.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_318145619184cb41.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "Three reasons why this Wall Street market-making powerhouse says investors should reload on stocks now",
+          "url": "https://www.marketwatch.com/story/three-reasons-why-this-wall-street-market-making-powerhouse-says-investors-should-reload-on-stocks-now-8e19ecce?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T10:48:00Z"
+        }
+      ]
     }
   ]
 }

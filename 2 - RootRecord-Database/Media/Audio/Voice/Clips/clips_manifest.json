@@ -409,6 +409,39 @@
       "source": "local status cue",
       "proposed": false
     },
+    "Ava/stack_all_sent": {
+      "slug": "stack_all_sent",
+      "persona": "Ava",
+      "kinds": [
+        "status"
+      ],
+      "text": "All reports have been sent successfully. Heavy work may resume.",
+      "spoken": "All reports have been sent successfully. Heavy work may resume.",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "sha256": "226018c924c1f36fb9735dca0a983ff24a80003e219fbf7974ecfdc53d786909",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 3.574,
+      "peak_dbfs": -4.77,
+      "rms_dbfs": -20.11,
+      "lead_silence_ms": 24,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 307,
+        "tail": 444
+      },
+      "render_s": 6.14,
+      "rendered": "2026-10-02T00:58:42-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
     "Bruce/remaining_tasks_failed": {
       "slug": "remaining_tasks_failed",
       "persona": "Bruce",
@@ -2042,5 +2075,5 @@
       "proposed": false
     }
   },
-  "updated": "2026-10-02T00:23:07-10:00"
+  "updated": "2026-10-02T00:58:42-10:00"
 }
