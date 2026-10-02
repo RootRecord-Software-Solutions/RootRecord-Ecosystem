@@ -6,6 +6,9 @@
 # Ignore the nested checkout so the ecosystem repo cannot record a gitlink.
 1 - Servers/3 - RootRecord-US-Mainland-Two/
 
+# US-Mainland-One is its own GitHub repo. This folder is only the mirror source.
+1 - Servers/2 - RootRecord-US-Mainland-One/
+
 # Mirror worktrees for pacific, database, and library. Nested .git must not become a gitlink.
 # They cannot live under 2 - RootRecord-Database: rsync of that folder into the worktree loops.
 Github-worktrees/
