@@ -1,14 +1,14 @@
-# Solar desk — 2026-10-02T03:27:35-10:00
+# Solar desk — 2026-10-02T03:56:33-10:00
 
-- Delta 2 discharged and powered off. Last reading was 1 percent.
-- River 2 Pro: state of charge 32%, solar input 0 W, AC out 39 W, USB-C out 20 W
+- Delta 2: state of charge 3%, solar input 0 W, AC out 0 W, USB-C out 0 W
+- River 2 Pro: state of charge 21%, solar input 0 W, AC out 46.0 W, USB-C out 11 W
 - Sun: 06:12 / 18:08 (2026-10-02, Open-Meteo)
-- Solar panel still age: 8 min (`ch1-20261002T131901Z.jpg`)
+- Solar panel still age: 4 min (`ch1-20261002T135220Z.jpg`)
 - Security camera observations indicate dark conditions, with solar panels in flat position.
 
 ## Spoken
 
-Solar desk. Report generated at three twenty seven a.m. Delta 2 discharged and powered off. Last reading was 1 percent. River 2 Pro: state of charge 32%, AC out 39 watts, USB-C out 20 watts. River 2 Pro state of charge down 42 percent from yesterday. River 2 Pro output up 28 percent from yesterday. Sunrise was six twelve a.m., sunset is six oh eight p.m. Solar panel still is 8 minutes old. Security camera observations indicate dark conditions, with solar panels in flat position.
+Solar desk. Report generated at three fifty six a.m. Delta 2: state of charge 3%, idle. River 2 Pro: state of charge 21%, AC out 46 watts, USB-C out 11 watts. Delta 2 state of charge up 200 percent from yesterday. Delta 2 output down 100 percent from yesterday. River 2 Pro state of charge down 62 percent from yesterday. River 2 Pro output up 24 percent from yesterday. Sunrise was six twelve a.m., sunset is six oh eight p.m. Solar panel still is 4 minutes old. Security camera observations indicate dark conditions, with solar panels in flat position.
 
 _Source: Database Energy/soc + Energy/watts (EcoFlow BLE), Energy/sun/sun-times-last.json, the newest ch1 still, and Energy/vision/ch1-look-last.json (refreshed this hour when needed)._
 
