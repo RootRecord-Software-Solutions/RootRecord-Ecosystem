@@ -1,7 +1,7 @@
 {
   "collector": "ml2.radio_rss",
   "status": "ok",
-  "collected_at": "2026-10-02T23:26:48Z",
+  "collected_at": "2026-10-02T23:46:34Z",
   "rr_database_root": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank",
   "radio_root": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss",
   "poll": {
@@ -11,13 +11,12 @@
         "feed": "abc_australia_top",
         "ok": true,
         "items": 20,
-        "duplicates": 17
+        "duplicates": 15
       },
       {
         "feed": "aljazeera_all",
         "ok": true,
-        "items": 20,
-        "duplicates": 16
+        "items": 0
       },
       {
         "feed": "bbc_latin_america",
@@ -51,7 +50,8 @@
       {
         "feed": "breaking_defense",
         "ok": true,
-        "items": 0
+        "items": 15,
+        "duplicates": 15
       },
       {
         "feed": "cisa_news",
@@ -117,8 +117,7 @@
       {
         "feed": "noaa_news",
         "ok": true,
-        "items": 10,
-        "duplicates": 8
+        "items": 0
       },
       {
         "feed": "npr_national",
@@ -146,12 +145,14 @@
       }
     ],
     "composed": [
-      "c_b15c3f608ae63f3f"
+      "c_511dc47a32b8bd68",
+      "c_9ac38c07012f53f0",
+      "c_ddb4913770c54c54"
     ]
   },
   "handoff_core": 3,
   "handoff_stories": 80,
-  "handoff_story_bytes": 104414,
+  "handoff_story_bytes": 104487,
   "error": null,
   "pacific_job": "radio_rss_poll",
   "note": "vendor/RadioRss poll + queue export; no speak/push. Pacific radio_rss_poll stays in jobs.py (RR_LOCAL_DATA_POLL gate)."

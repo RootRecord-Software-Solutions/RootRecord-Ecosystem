@@ -7280,6 +7280,60 @@
           "published_at": "2026-10-02T22:49:59Z"
         }
       ]
+    },
+    {
+      "id": "0e42ef80fc3b31c2",
+      "cluster_id": "c_511dc47a32b8bd68",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_511dc47a32b8bd68.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_511dc47a32b8bd68.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "'It breaks you': Friend of stabbed pilot speaks out",
+          "url": "https://www.abc.net.au/news/2026-10-03/captain-smit-machchhar-friend-pilot-tells-of-shock-and-relief/107223014",
+          "published_at": "2026-10-02T23:27:22Z"
+        }
+      ]
+    },
+    {
+      "id": "a132224edeecbe6c",
+      "cluster_id": "c_9ac38c07012f53f0",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_9ac38c07012f53f0.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_9ac38c07012f53f0.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Roosters met with Rabbi Eli Schlanger days before Bondi attack",
+          "url": "https://www.abc.net.au/news/2026-10-03/roosters-met-with-rabbi-eli-schlanger-days-before-bondi-attack/107223728",
+          "published_at": "2026-10-02T21:51:34Z"
+        }
+      ]
+    },
+    {
+      "id": "ca257f7deab6e854",
+      "cluster_id": "c_ddb4913770c54c54",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_ddb4913770c54c54.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_ddb4913770c54c54.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Labor's working holiday visa policy risks regional seats, experts say",
+          "url": "https://www.abc.net.au/news/2026-10-03/labor-risks-seats-with-working-holiday-visa-policy/107222324",
+          "published_at": "2026-10-02T23:08:36Z"
+        }
+      ]
     }
   ]
 }

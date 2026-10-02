@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Most-Viewed Bills</title>
+<link>https://www.congress.gov/rss/</link>
+<atom:link rel="self" type="application/rss+xml" href="https://www.congress.gov/rss/most-viewed-bills.xml" />
+<description>Most-Viewed bills searched on congress.gov, compiled from weekly usage statistics.</description>
+<pubDate>Sun, 27 Sep 2026 00:00:00 -0400</pubDate>
+<item>
+    <title>Most-Viewed Bills - Week of September 27, 2026</title>
+    <description><![CDATA[<ol><li><a href='https://www.congress.gov/bill/119th-congress/house-bill/6509'>H.R.6509</a> [119th] - SAFE Drugs Act of 2025</li> <li><a href='https://www.congress.gov/bill/119th-congress/senate-bill/4668'>S.4668</a> [119th] - Protect College Sports Act of 2026</li> <li><a href='https://www.congress.gov/bill/119th-congress/house-bill/1'>H.R.1</a> [119th] - An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.</li> <li><a href='https://www.congress.gov/bill/119th-congress/senate-bill/2296'>S.2296</a> [119th] - National Defense Authorization Act for Fiscal Year 2026</li> <li><a href='https://www.congress.gov/bill/119th-congress/house-bill/5334'>H.R.5334</a> [119th] - Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</li> <li><a href='https://www.congress.gov/bill/119th-congress/senate-bill/2976'>S.2976</a> [119th] - HIRE Act</li> <li><a href='https://www.congress.gov/bill/117th-congress/senate-bill/596'>S.596</a> [117th] - Treat and Reduce Obesity Act of 2021</li> <li><a href='https://www.congress.gov/bill/119th-congress/house-bill/5316'>H.R.5316</a> [119th] - Drug Shortage Compounding Patient Access Act of 2025</li> <li><a href='https://www.congress.gov/bill/118th-congress/senate-bill/3516'>S.3516</a> [118th] - A bill to impose a fee on certain remittance transfers to fund border security.</li> <li><a href='https://www.congress.gov/bill/119th-congress/house-bill/5269'>H.R.5269</a> [119th] - RESULTS Act</li> </ol>]]></description>
+    <link>https://www.congress.gov/most-viewed-bills</link>
+    <guid isPermaLink='false'>September 27, 2026</guid>
+</item>
+</channel>
+</rss>
