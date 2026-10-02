@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-02T05:22:04-10:00",
+  "at": "2026-10-02T05:42:32-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 28,
-  "count_m2": 28,
-  "count_m25": 27,
+  "count": 29,
+  "count_m2": 29,
+  "count_m25": 28,
   "largest": {
     "id": "us6000tyzl",
     "mag": 5.1,
@@ -14,8 +14,30 @@
     "time_hst": "2026-10-01T18:44:53.423000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-02T15:21:19+00:00",
+  "usgs_generated_utc": "2026-10-02T15:42:19+00:00",
   "events": [
+    {
+      "id": "us6000tz1q",
+      "mag": 4.8,
+      "mag_type": "mb",
+      "place": "78 km WSW of San Nicolas, Philippines",
+      "time_utc": "2026-10-02T15:10:19.729000+00:00",
+      "time_hst": "2026-10-02T05:10:19.729000-10:00",
+      "lon": 119.4593,
+      "lat": 14.571,
+      "depth_km": 10,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz1q",
+      "nearest": {
+        "location_id": "ph-manila",
+        "name": "Manila",
+        "country_code": "PH",
+        "admin1_code": null,
+        "km": 163.7
+      }
+    },
     {
       "id": "aka2026tnfazg",
       "mag": 2.5,
@@ -160,8 +182,8 @@
     },
     {
       "id": "nc75442791",
-      "mag": 3.68,
-      "mag_type": "ml",
+      "mag": 3.27,
+      "mag_type": "mw",
       "place": "10 km WSW of South Lake Tahoe, CA",
       "time_utc": "2026-10-02T10:00:11.230000+00:00",
       "time_hst": "2026-10-02T00:00:11.230000-10:00",

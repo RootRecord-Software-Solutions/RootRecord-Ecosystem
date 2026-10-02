@@ -2,13 +2,13 @@
   "day": "2026-10-02",
   "slots": {
     "morning": {
-      "status": "pending",
+      "status": "done",
       "scheduled_at": "2026-10-02T09:00:00",
       "hour": 9,
       "minute": 0,
       "mandatory": true,
       "catch_up_allowed": true,
-      "completed_at": null,
+      "completed_at": "2026-10-02T09:02:00-10:00",
       "error": null,
       "started_at": null
     },
@@ -118,5 +118,5 @@
       }
     }
   },
-  "updated_at": "2026-10-02T05:30:38-10:00"
+  "updated_at": "2026-10-02T11:27:54-10:00"
 }

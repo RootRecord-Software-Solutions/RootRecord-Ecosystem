@@ -1,11 +1,11 @@
-# Current report — 2026-10-02T05:30:37-10:00
+# Current report — 2026-10-02T11:27:53-10:00
 
 Automated Reports are in active development and is expected to change
 
 ## Energy
 
-- Delta 2: discharged and powered off, last 3%
-- River 2 Pro: SOC 5%, solar 0 W, AC out 78 W, USB-C out 9 W, age 0 min
+- Delta 2: SOC 7%, solar 94 W, AC out 0 W, USB-C out 0 W, age 0 min
+- River 2 Pro: discharged and powered off, last 0%
 
 ## Sun and moon
 
@@ -23,31 +23,30 @@ Automated Reports are in active development and is expected to change
 - Mountain View: high 78 to 84 near the shore to around 69 at 4000 feet, low 65 to 73 near the shore to around 55 at 4000 feet
 - Volcano: high around 69 at 4000 feet, low around 55 at 4000 feet
 - Kailua-Kona: high around 86 at the shore, low 70 to 77 at the shore
-- Alerts updated: 2026-10-02T15:11:42+00:00
+- Alerts updated: 2026-10-02T15:33:14+00:00
 
 ## Geology
 
-- Hawaii: 0 magnitude 2.5 or greater in 24 h, sample age 8 min
-- Global: 27 magnitude 2.5 or greater in 24 h, largest M5.1, sample age 8 min
+- Hawaii: 0 magnitude 2.5 or greater in 24 h, sample age 345 min
+- Global: 28 magnitude 2.5 or greater in 24 h, largest M5.1, sample age 345 min
 - Kilauea: WATCH / ORANGE, erupting True
-- Kilauea photo: Photo viewed: yes. Conditions: glow; Lava glow visible against dark sky.
+- Kilauea photo: Photo viewed: yes. Conditions: glow; Lava glowing on the surface of the ocean..
 - Mauna Loa: NORMAL / GREEN
 
 ## Hurricanes
 
 - Tropical Storm Nolo: 440 nm from Līhuʻe, bearing west
-- Tropical Storm Nolo: 440 nm from Līhuʻe
 
 ## Host
 
-- CPU 1.3%, load 0.77 / 1.38 / 1.57
-- Memory 16.0% used (2.3 / 14.2 GB)
-- Disk 35.8% used (180 / 502 GB)
-- Uptime 1h 54m
-- Root server last online: 2026-10-02T05:20:56-10:00
-- Uptime percent: 1%
-- Average offline: 653 s
-- Temperature 51.0 C
+- CPU 1.8%, load 3.08 / 2.17 / 1.56
+- Memory 24.0% used (3.4 / 14.2 GB)
+- Disk 36.0% used (181 / 502 GB)
+- Uptime 7h 51m
+- Root server last online: 2026-10-02T11:20:01-10:00
+- Uptime percent: 10%
+- Average offline: 396 s
+- Temperature 84.0 C
 - Host power mode: performance
 
 ## Security
@@ -55,13 +54,12 @@ Automated Reports are in active development and is expected to change
 - Firewall starts on boot: False
 - SSH active: True
 - TCP listeners: 10
-- Established connections: 14
+- Established connections: 0
 - Failed sign-ins, last hour / 24 h: 0 / 2
 
 ## Bandwidth
 
-- Last hour: 327735590 bytes down, 44547726 bytes up
-- Last 24 h: 508120364 bytes down, 73823532 bytes up
+- Last hour: 0 bytes down, 0 bytes up
 
 ## Site traffic (Mainland analytics)
 
@@ -74,18 +72,18 @@ Automated Reports are in active development and is expected to change
 
 ## Camera
 
-- Solar panel still age: 9 min
+- Solar panel still age: 393 min
 - Security camera observations indicate dark conditions, with solar panels in flat position.
 
 ## Report board
 
-- Morning report 2026-10-02T09:00:00 pending
+- Morning report 2026-10-02T09:00:00 done
 - Midday report 2026-10-02T12:00:00 pending
 - Late report 2026-10-02T21:00:00 pending
 
 ## Official weather
 
-- AFD, age 0.1 h
+- AFD, age 5.7 h
 
 ## Work orders
 
@@ -93,6 +91,6 @@ Automated Reports are in active development and is expected to change
 
 ## Spoken
 
-Current report. Report generated at five thirty a.m. Automated Reports are in active development and is expected to change. Battery levels: River 2 Pro at 5%. Solar input zero watts. River 2 Pro state of charge down 90 percent from yesterday. Delta 2 discharged and powered off. Last reading was 3 percent. Sunrise six twelve a.m., sunset six oh eight p.m. Moon is Waning Gibbous, 61 percent lit. No active Hawaii alerts. Forecast for today: Mostly sunny. Temperatures. Honolulu high 83 to 88, low 74 to 79. Lihue high 75 to 86, low 67 to 79. Kahului high 82 to 88, low 65 to 73. Hilo high 78 to 84 at the shore, low 65 to 73 at the shore. Mountain View high 78 to 84 near the shore to around 69 at 4000 feet, low 65 to 73 near the shore to around 55 at 4000 feet. Volcano high around 69 at 4000 feet, low around 55 at 4000 feet. Kailua-Kona high around 86 at the shore, low 70 to 77 at the shore. Local earthquakes, last twenty four hours: 0 magnitude 2.5 or greater. Kilauea alert level watch, erupting. Photo viewed: yes. Conditions: glow; Lava glow visible against dark sky. Mauna Loa alert level normal. Tropical Storm Nolo is about 440 nautical miles from Līhuʻe. Host CPU 1%, memory 16% used, disk 36% used, temperature 51.0 degrees Celsius. Root server was last online at five twenty a.m.. Uptime 1 percent. Average offline time 10 minutes. Host power mode is performance. Security. Failed sign-ins 0 in the last hour, 2 in the last twenty four hours. Last hour bandwidth: 312.6 megabytes down, 42.5 megabytes up. Site traffic for today. API saw 94 requests from 21 unique visitors. Home proxy signal: 35 requests from 10 visitors. That is partial Home coverage from telemetry pages only, not full www pageviews. Radio listeners: max 1, average 0.9, about 210 listen minutes estimated. Solar panel still is 9 minutes old. Security camera observations indicate dark conditions, with solar panels in flat position. Report board: Morning report pending, Midday report pending, Late report pending. Official weather product AFD is on file. 8 open work order items. End of current report.
+Current report. Report generated at eleven twenty seven a.m. Automated Reports are in active development and is expected to change. Battery levels: Delta 2 at 7%. Solar input 94 watts. Delta 2 state of charge down 73 percent from yesterday. River 2 Pro discharged and powered off. Last reading was 0 percent. Sunrise six twelve a.m., sunset six oh eight p.m. Moon is Waning Gibbous, 61 percent lit. No active Hawaii alerts. Forecast for today: Mostly sunny. Temperatures. Honolulu high 83 to 88, low 74 to 79. Lihue high 75 to 86, low 67 to 79. Kahului high 82 to 88, low 65 to 73. Hilo high 78 to 84 at the shore, low 65 to 73 at the shore. Mountain View high 78 to 84 near the shore to around 69 at 4000 feet, low 65 to 73 near the shore to around 55 at 4000 feet. Volcano high around 69 at 4000 feet, low around 55 at 4000 feet. Kailua-Kona high around 86 at the shore, low 70 to 77 at the shore. Local earthquakes, last twenty four hours: 0 magnitude 2.5 or greater. Kilauea alert level watch, erupting. Photo viewed: yes. Conditions: glow; Lava glowing on the surface of the ocean.. Mauna Loa alert level normal. Tropical Storm Nolo is about 440 nautical miles from Līhuʻe. Host CPU 2%, memory 24% used, disk 36% used, temperature 84.0 degrees Celsius. Root server was last online at eleven twenty a.m.. Uptime 10 percent. Average offline time 6 minutes. Host power mode is performance. Security. Failed sign-ins 0 in the last hour, 2 in the last twenty four hours. Last hour bandwidth: 0 bytes down, 0 bytes up. Site traffic for today. API saw 94 requests from 21 unique visitors. Home proxy signal: 35 requests from 10 visitors. That is partial Home coverage from telemetry pages only, not full www pageviews. Radio listeners: max 1, average 0.9, about 210 listen minutes estimated. Solar panel still is 393 minutes old. Security camera observations indicate dark conditions, with solar panels in flat position. Report board: Morning report done, Midday report pending, Late report pending. Official weather product AFD is on file. 8 open work order items. End of current report.
 
 _Template report; measured values only._

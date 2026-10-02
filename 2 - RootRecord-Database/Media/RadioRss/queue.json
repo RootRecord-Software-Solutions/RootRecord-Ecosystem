@@ -4812,7 +4812,7 @@
         {
           "publisher": "MarketWatch",
           "source": "MarketWatch Top Stories",
-          "title": "\u2018Complete destruction of the economy is all but certain\u2019: Top jobs and home prices are at risk, a new report on AI says",
+          "title": "\u2018Complete disruption of the economy is all but certain\u2019: Top jobs and home prices are at risk, a new report on AI says",
           "url": "https://www.marketwatch.com/story/another-viral-ai-doomsday-report-claims-its-over-why-home-prices-could-take-a-hit-as-screen-based-jobs-disappear-4bed48bc?mod=mw_rss_topstories",
           "published_at": "2026-10-02T14:49:00Z"
         }
@@ -5038,6 +5038,96 @@
           "title": "More celebrities are embracing grey hair. For other women, it can come at a cost",
           "url": "https://www.theguardian.com/fashion/2026/oct/02/celebrities-grey-hair-olivia-colman-lisa-bonet-women-ageism-workplace-dye",
           "published_at": "2026-10-02T14:54:37Z"
+        }
+      ]
+    },
+    {
+      "id": "b39bb5957dfb51a9",
+      "cluster_id": "c_347bf91477cbc43b",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_347bf91477cbc43b.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_347bf91477cbc43b.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "Berkowitz out at DoD Space Policy office",
+          "url": "https://breakingdefense.com/2026/10/berkowitz-out-at-dod-space-policy-office/",
+          "published_at": "2026-10-02T15:26:14Z"
+        }
+      ]
+    },
+    {
+      "id": "72f6170d1a913a3f",
+      "cluster_id": "c_e10dbb6cca27a6d4",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_e10dbb6cca27a6d4.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_e10dbb6cca27a6d4.speak.txt",
+      "sources": [
+        {
+          "publisher": "Defense News",
+          "source": "Defense News",
+          "title": "Ukraine war fatigue fuels defense-spending downgrade plan in Italy",
+          "url": "https://www.defensenews.com/global/europe/2026/10/02/ukraine-war-fatigue-fuels-defense-spending-downgrade-plan-in-italy/",
+          "published_at": "2026-10-02T15:29:29Z"
+        }
+      ]
+    },
+    {
+      "id": "ccd900e66a54b000",
+      "cluster_id": "c_8b3b191df005a208",
+      "program": "AVIATION_BRIEF",
+      "report": "aviation_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/aviation_brief/c_8b3b191df005a208.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/aviation_brief/c_8b3b191df005a208.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "US Coast Guard says it has intercepted ship carrying fuel to Cuba",
+          "url": "https://www.theguardian.com/world/2026/oct/02/us-coast-guard-says-it-has-intercepted-ship-carrying-fuel-to-cuba",
+          "published_at": "2026-10-02T15:13:23Z"
+        }
+      ]
+    },
+    {
+      "id": "a9311e3d873da1d2",
+      "cluster_id": "c_0e5de4fca8763c2d",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_0e5de4fca8763c2d.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_0e5de4fca8763c2d.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "This couple took out an adjustable-rate mortgage when rates were over 8%. Here\u2019s how it worked out.",
+          "url": "https://www.marketwatch.com/story/this-couple-took-out-an-adjustable-rate-mortgage-when-rates-were-over-8-heres-how-it-worked-out-d52e592a?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T15:37:00Z"
+        }
+      ]
+    },
+    {
+      "id": "95b953ee9e620322",
+      "cluster_id": "c_198c3ce41b8f5bdb",
+      "program": "SCIENCE_BRIEF",
+      "report": "science_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/science_brief/c_198c3ce41b8f5bdb.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/science_brief/c_198c3ce41b8f5bdb.speak.txt",
+      "sources": [
+        {
+          "publisher": "Nature",
+          "source": "Nature",
+          "title": "Nature has rights \u2014 it is time the world recognized them",
+          "url": "https://www.nature.com/articles/d41586-026-03145-5",
+          "published_at": "2026-10-02T00:00:00Z"
         }
       ]
     }

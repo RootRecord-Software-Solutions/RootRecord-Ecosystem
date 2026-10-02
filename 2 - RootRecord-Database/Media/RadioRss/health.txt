@@ -10,7 +10,7 @@ NASA Goddard                 ○ UNKNOWN
 NASA Kennedy                 ○ UNKNOWN
 NASA Marshall                ○ UNKNOWN
 NASA JPL Center Feed         ● HEALTHY
-NASA JPL News                ○ DEGRADED
+NASA JPL News                ○ UNHEALTHY
 NASA JPL Podcasts            ○ DISABLED
 NASA CNEOS                   ○ UNAVAILABLE
 ESA Top News                 ● HEALTHY
@@ -103,7 +103,7 @@ Defense News                 ● HEALTHY
 UK Ministry of Defence       ○ UNKNOWN
 SpaceX                       ○ UNAVAILABLE
 Space.com                    ○ DISABLED
-NASASpaceflight              ○ DEGRADED
+NASASpaceflight              ○ UNHEALTHY
 SpaceNews                    ○ UNKNOWN
 Spaceflight Now              ○ UNKNOWN
 Hawaii Governor              ● HEALTHY
