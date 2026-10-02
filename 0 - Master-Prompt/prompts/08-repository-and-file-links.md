@@ -33,7 +33,7 @@ Boundary rule: knowledge goes to Library, executable runtime goes to Pacific, by
 | Database | Persistence | `2 - RootRecord-Database/` · https://github.com/RootRecord-Software-Solutions/RootRecord-Database | Logs, media layout, telemetry, canonical data paths | Application logic |
 | Mainland One | Continuity directory inside the umbrella | Desk path `1 - Servers/2 - RootRecord-US-Mainland-One/`. GitHub `RootRecord-Software-Solutions/US-Mainland-One`. The `mainland` row publishes this folder | Recovery and mainland files in the umbrella | A nested `.git` |
 | Mainland Two | YouTube station, its own repository | Desk path `1 - Servers/3 - RootRecord-US-Mainland-Two/`. GitHub `RootRecord-Software-Solutions/US-Mainland-Two` | Station code and configuration | Generated media. The umbrella gitignores this checkout |
-| Website | Public page, Vercel source | Desk path `1 - Servers/1 - RootRecord-Pacific-Solar-Server/Website/Home/`. `website` publishes it to https://github.com/RootRecord-Software-Solutions/RootRecord-Website. `website-personal` publishes the same folder to https://github.com/rootrecordsoftwaresolutions/RootRecord-Website | `index.html`, `vercel.json`, this folder's README | A nested `.git`. Desk scripts stay in `Website/` outside `Home/` and publish with Pacific. `3 - RootRecord-Website/` is not on this desk. Do not bind port 3001. Do not call port 8787. `www` is `https://www.rootrecord.cloud/` on Vercel. `ssh.rootrecord.cloud` is A `18.118.30.226`. `api.rootrecord.cloud` is A `18.118.30.226`. Caddy on AWS proxies it to `127.0.0.1:8091`. Reports are at `https://www.rootrecord.cloud/reports/`. Data contract: `Website/HANDOFF-vercel-homepage-2026-09-30.md`. `rootserver.rootrecord.cloud` is the poller on `:8799` |
+| Website | Public page, Vercel source | Desk path `1 - Servers/1 - RootRecord-Pacific-Solar-Server/Website/Home/`. `website` publishes it to https://github.com/RootRecord-Software-Solutions/RootRecord-Website. `website-personal` publishes the same folder to https://github.com/rootrecordsoftwaresolutions/RootRecord-Website | `index.html`, `vercel.json`, this folder's README | A nested `.git`. Desk scripts stay in `Website/` outside `Home/` and publish with Pacific. `3 - RootRecord-Website/` is not on this desk. Do not bind port 3001. Do not call port 8787. `www` is `https://www.rootrecord.cloud/` on Vercel. Do not point `www` at the Mainland tunnel. `ssh.rootrecord.cloud` is retired. Mainland One is radio. The listener stream is `https://radio.rootrecord.cloud/radio/live.mp3`. `api.rootrecord.cloud` is aimed at Mainland Two and is not live yet. Reports are at `https://www.rootrecord.cloud/reports/`. Data contract: `Website/HANDOFF-vercel-homepage-2026-09-30.md`. `rootserver.rootrecord.cloud` is the Pacific poller on `:8799` |
 | Weather data | Hawaiʻi weather publication | GitHub `rootrecordsoftwaresolutions/RootRecord-Weather-Database` | Published weather products | The Pacific weather daemon's local tree, which stays under Database `Weather/` and is not auto-published from the umbrella |
 
 `/home/rootrecord/Database/` is not on this desk. Sync flags are `2 - RootRecord-Database/Github/flags/`.
@@ -81,6 +81,8 @@ The state snapshot is current machine-readable context. The state history is the
 Repository:
 https://github.com/RootRecord-Software-Solutions/US-Mainland-One
 
+Mainland One is radio only. The host runtime is `/home/ubuntu/rootrecord-radio`. Desk SSH is `ml1.rootrecord.cloud` on tunnel Mainland-One (`939b16f7-7d13-4776-bd4d-80fe8021fc72`). `radio.rootrecord.cloud` is HTTP to `127.0.0.1:8092`. The listener stream is `https://radio.rootrecord.cloud/radio/live.mp3`. The station library is Opus. There is no music bed on the live host. The links below are the older globe tree in the repository. They are not the live radio. Earthquake and hurricane voice reports stay on the Pacific poller. Pollers have not moved to Mainland Two.
+
 ### Network globe / recovery
 
 - [`mirror/network-globe/server.js`](https://github.com/RootRecord-Software-Solutions/US-Mainland-One/blob/main/mirror/network-globe/server.js)
@@ -97,7 +99,7 @@ Important: the repository is a mirror/recovery representation. Verify the deploy
 Repository:
 https://github.com/RootRecord-Software-Solutions/US-Mainland-Two
 
-Desk checkout: `1 - Servers/3 - RootRecord-US-Mainland-Two/`. This folder has its own git repository. The umbrella ignores it.
+Desk checkout: `1 - Servers/3 - RootRecord-US-Mainland-Two/`. This folder has its own git repository. The umbrella ignores it. Tunnel id `bd8e68a4-8a97-4b20-afd9-b058473a0a22`. `ml2.rootrecord.cloud` is SSH. Direct fallback `ml2-ip` is `3.149.238.83`. `api.rootrecord.cloud` is aimed here. The API process is not there yet. Pollers are planned to move here later. They have not moved.
 
 ## RootRecord Website
 
