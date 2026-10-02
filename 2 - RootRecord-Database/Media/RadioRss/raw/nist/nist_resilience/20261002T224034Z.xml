@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="https://www.nist.gov/">
+  <channel>
+    <title>News and Events Feed by Topic</title>
+    <link>https://www.nist.gov/topics</link>
+    <description/>
+    <language>en</language>
+    <atom:link href="https://www.nist.gov/news-events/resilience/rss.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+  <title>NIST Provides Updates on National Construction Safety Team Activities</title>
+  <link>https://www.nist.gov/news-events/news/2026/09/nist-provides-updates-national-construction-safety-team-activities</link>
+  <description>  The presentations highlighted the importance of NIST applying its own expertise and the expertise of others through collaborations and contracts.
+
+</description>
+  <pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1921646</guid>
+    </item>
+<item>
+  <title>NIST National Construction Safety Team Advisory Committee Meeting Scheduled for Sept. 23 and 24, 2026</title>
+  <link>https://www.nist.gov/news-events/news/2026/08/nist-national-construction-safety-team-advisory-committee-meeting-scheduled</link>
+  <description>  Anyone wishing to attend the virtual meeting must register by 5 p.m. EDT on Wednesday, Sept. 16.
+
+</description>
+  <pubDate>Thu, 13 Aug 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1918446</guid>
+    </item>
+<item>
+  <title>NIST Releases Technical Findings on What Caused the 2021 Partial Collapse of Champlain Towers South</title>
+  <link>https://www.nist.gov/news-events/news/2026/06/nist-releases-technical-findings-what-caused-2021-partial-collapse</link>
+  <description>  In an investigation that began just days after the tragedy, the team examined two dozen possible scenarios for where and why the collapse started.
+
+</description>
+  <pubDate>Mon, 22 Jun 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1914816</guid>
+    </item>
+<item>
+  <title>2026 NIST-NSF Disaster Resilience Research Symposium</title>
+  <link>https://www.nist.gov/news-events/events/2026/08/2026-nist-nsf-disaster-resilience-research-symposium</link>
+  <description>  In cooperation with the National Science Foundation, the Engineering Laboratory at NIST, Gaithersburg, is proud to host the 9th annual symposium featuring the Disaster Resilience Grant Research Program recipients on August 18th-19th, 2026. This in
+
+</description>
+  <pubDate>Tue, 18 Aug 2026 00:00:00 -0400</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1913921</guid>
+    </item>
+<item>
+  <title>National Construction Safety Team Advisory Committee Meeting Fall 2026</title>
+  <link>https://www.nist.gov/news-events/events/2026/09/national-construction-safety-team-advisory-committee-meeting-fall-2026</link>
+  <description>  The National Construction Safety Team (NCST) Advisory Committee advises NIST on carrying out investigations of building failures conducted under the authorities of the NCST Act. The NCST Advisory Committee will hold a web conference on September 23
+
+</description>
+  <pubDate>Wed, 23 Sep 2026 00:00:00 -0400</pubDate>
+    <dc:creator>Pauline Truong</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1913236</guid>
+    </item>
+<item>
+  <title>NIST Submits Annual Report to Congress Summarizing FY 2025 Progress on National Construction Safety Team Investigations</title>
+  <link>https://www.nist.gov/news-events/news/2026/03/nist-submits-annual-report-congress-summarizing-fy-2025-progress-national</link>
+  <description>  The report includes an overview of work completed on the Champlain Towers South investigation.
+
+</description>
+  <pubDate>Thu, 19 Mar 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1909186</guid>
+    </item>
+<item>
+  <title>NIST’s Glenn Bell Is Awarded Institution of Structural Engineers Gold Medal</title>
+  <link>https://www.nist.gov/news-events/news/2025/11/nists-glenn-bell-awarded-institution-structural-engineers-gold-medal</link>
+  <description>  Bell is the associate lead of NIST’s investigation into the 2021 partial collapse of the Champlain Towers South condominium.
+
+</description>
+  <pubDate>Fri, 14 Nov 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1898646</guid>
+    </item>
+<item>
+  <title>NIST Engineers Design 5 New Ways to Connect Concrete Pieces for More Resilient Buildings</title>
+  <link>https://www.nist.gov/news-events/news/2025/09/nist-engineers-design-5-new-ways-connect-concrete-pieces-more-resilient</link>
+  <description>  One of the biggest challenges with precast concrete is connecting the concrete pieces at a job site.
+
+</description>
+  <pubDate>Mon, 29 Sep 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1898156</guid>
+    </item>
+<item>
+  <title>Champlain Towers South Investigation Nears Completion of Technical Work</title>
+  <link>https://www.nist.gov/news-events/news/2025/09/champlain-towers-south-investigation-nears-completion-technical-work</link>
+  <description>  Investigators share likely failure scenarios, advance indicators of building’s distress.
+
+</description>
+  <pubDate>Tue, 09 Sep 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1897011</guid>
+    </item>
+<item>
+  <title>NIST to Provide Updates on Construction Safety Team Investigations in September Advisory Committee Meeting</title>
+  <link>https://www.nist.gov/news-events/news/2025/08/nist-provide-updates-construction-safety-team-investigations-september</link>
+  <description>  The public meetings will include updates on NIST’s investigations into the impacts of Hurricane Maria and the partial collapse of the Champlain Towers South.
+
+</description>
+  <pubDate>Wed, 06 Aug 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1888046</guid>
+    </item>
+<item>
+  <title>Second Seminar on Building an In-Space Circular Economy</title>
+  <link>https://www.nist.gov/news-events/events/2025/08/second-seminar-building-space-circular-economy</link>
+  <description>  About the Event This event was the second seminar in a series of events on building the in-space circular economy. The seminar was an opportunity to hear from leading experts, practitioners, and representatives from government and academic bodies to
+
+</description>
+  <pubDate>Wed, 27 Aug 2025 08:30:00 -0400</pubDate>
+    <dc:creator>Vontress Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1888001</guid>
+    </item>
+<item>
+  <title>NIST Shares Preliminary Findings From Hurricane Maria Investigation</title>
+  <link>https://www.nist.gov/news-events/news/2025/07/nist-shares-preliminary-findings-hurricane-maria-investigation</link>
+  <description>  As NIST’s National Construction Safety Team nears the end of its investigation, it has released a video update that highlights significant milestones and preliminary findings.
+
+</description>
+  <pubDate>Mon, 14 Jul 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1886656</guid>
+    </item>
+<item>
+  <title>2025 NIST-NSF Disaster Resilience Research Grant Symposium</title>
+  <link>https://www.nist.gov/news-events/events/2025/08/2025-nist-nsf-disaster-resilience-research-grant-symposium</link>
+  <description>  In cooperation with the National Science Foundation, the Engineering Laboratory at NIST, Gaithersburg, will host the annual symposium featuring the Disaster Resilience Research Grant Program recipients. This virtual event will showcase a wide range
+
+</description>
+  <pubDate>Tue, 12 Aug 2025 10:00:00 -0400</pubDate>
+    <dc:creator>Pauline Truong</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1886071</guid>
+    </item>
+<item>
+  <title>Bioinspired Materials Can Take a Punch</title>
+  <link>https://www.nist.gov/news-events/news/2025/06/bioinspired-materials-can-take-punch</link>
+  <description>  Scientists develop new impact-resistant material based on the exoskeleton of the mantis shrimp.
+
+</description>
+  <pubDate>Tue, 24 Jun 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1884801</guid>
+    </item>
+<item>
+  <title>NIST Releases Extensive Video Update on Champlain Towers South Investigation</title>
+  <link>https://www.nist.gov/news-events/news/2025/06/nist-releases-extensive-video-update-champlain-towers-south-investigation</link>
+  <description>  The update reviews the investigation’s history, shares preliminary findings and highlights potential impacts.
+
+</description>
+  <pubDate>Mon, 23 Jun 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Robin Materese</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1884316</guid>
+    </item>
+<item>
+  <title>NIST Researcher Leads Workshop on Whole Community Preparedness at Smart Cities Conference</title>
+  <link>https://www.nist.gov/news-events/news/2025/04/nist-researcher-leads-workshop-whole-community-preparedness-smart-cities</link>
+  <description>  On 16 April 2025, NIST researcher Michael Dunaway and colleagues organized and led a workshop on “Whole Community Preparedness for Smart, Connected Cities” at the TechConnect Smart Cities Conference in San Antonio, TX. This event was the second in a
+
+</description>
+  <pubDate>Tue, 01 Apr 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Rachel Kotary</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1880811</guid>
+    </item>
+<item>
+  <title>NIST Updates Critical Wildfire Evacuation and Sheltering Guidance</title>
+  <link>https://www.nist.gov/news-events/news/2025/04/nist-updates-critical-wildfire-evacuation-and-sheltering-guidance</link>
+  <description>  The ESCAPE report redefines how to save lives in the face of fast-moving wildfires.
+
+</description>
+  <pubDate>Thu, 24 Apr 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1880676</guid>
+    </item>
+<item>
+  <title>Champlain Towers South Investigation Team Provides Update to Structural Engineers</title>
+  <link>https://www.nist.gov/news-events/news/2025/04/champlain-towers-south-investigation-team-provides-update-structural</link>
+  <description>  This outreach will help ensure that the team’s findings and recommendations lead to improvements to codes, standards and practices.
+
+</description>
+  <pubDate>Fri, 11 Apr 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1879721</guid>
+    </item>
+<item>
+  <title>Congratulations to the 2024 Baldrige Award Recipients!</title>
+  <link>https://www.nist.gov/news-events/news/2025/04/congratulations-2024-baldrige-award-recipients</link>
+  <description>  BALTIMORE INNER HARBOR, Md.—Dr. Eric K. Lin, Acting Associate Director for Innovation and Industry Services at the National Institute of Standards and Technology (NIST), presented five U.S. organizations on March 30, 2025, with the Malcolm Baldrige
+
+</description>
+  <pubDate>Mon, 14 Apr 2025 12:00:00 +0000</pubDate>
+    <dc:creator>LouAnn Scott</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1879576</guid>
+    </item>
+<item>
+  <title>National Construction Safety Team Advisory Committee</title>
+  <link>https://www.nist.gov/news-events/events/2025/09/national-construction-safety-team-advisory-committee</link>
+  <description>  The National Construction Safety Team (NCST) Advisory Committee advises NIST on carrying out investigations of building failures conducted under the authorities of the NCST Act. The NCST Advisory Committee will hold a virtual meeting on September 9
+
+</description>
+  <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
+    <dc:creator>Pauline Truong</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1878331</guid>
+    </item>
+<item>
+  <title>Additive Construction – The Path to Standardization Continues III</title>
+  <link>https://www.nist.gov/news-events/events/2025/08/additive-construction-path-standardization-continues-iii</link>
+  <description>  The event, Additive Construction – The Path to Standardization Continues, will bring together industry and academic stakeholders to discuss gaps in the current standard documents and how the gaps can be filled. Building on previous engagements, this
+
+</description>
+  <pubDate>Mon, 18 Aug 2025 00:00:00 -0400</pubDate>
+    <dc:creator>Pauline Truong</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1876851</guid>
+    </item>
+<item>
+  <title>NIST Report to Congress Provides Update on Champlain Towers South Investigation</title>
+  <link>https://www.nist.gov/news-events/news/2025/02/nist-report-congress-provides-update-champlain-towers-south-investigation</link>
+  <description>  The report notes that the team has completed all experimental work on the physical evidence from the building’s structural elements.
+
+</description>
+  <pubDate>Wed, 05 Feb 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1874146</guid>
+    </item>
+<item>
+  <title>Spotlight: NIST Researcher Studies How Communities Can ‘Bounce Back’ After a Disaster</title>
+  <link>https://www.nist.gov/news-events/news/2024/10/spotlight-nist-researcher-studies-how-communities-can-bounce-back-after</link>
+  <description>  Meet Jennifer Helgeson, a research economist at NIST who studies community resilience.
+
+</description>
+  <pubDate>Fri, 25 Oct 2024 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1871636</guid>
+    </item>
+<item>
+  <title>NIST Hosts Workshop on “Whole Community Preparedness for Smart Cities and Communities”</title>
+  <link>https://www.nist.gov/news-events/news/2024/10/nist-hosts-workshop-whole-community-preparedness-smart-cities-and</link>
+  <description>  On 27-28 August 2024, NIST’s Smart Connected Systems Division hosted a workshop at the George H. W. Bush School of Government and Public Service in Washington D.C. to examine an approach to “Whole Community Preparedness for Smart Cities and
+
+</description>
+  <pubDate>Tue, 01 Oct 2024 12:00:00 +0000</pubDate>
+    <dc:creator>Rachel Kotary</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1868326</guid>
+    </item>
+<item>
+  <title>NIST Transfers Evidence From Champlain Towers South to Miami-Dade Police Department</title>
+  <link>https://www.nist.gov/news-events/news/2024/11/nist-transfers-evidence-champlain-towers-south-miami-dade-police-department</link>
+  <description>  The National Construction Safety Team has reached an important milestone in its investigation into the 2021 partial collapse of Champlain Towers South.
+
+</description>
+  <pubDate>Thu, 21 Nov 2024 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1867666</guid>
+    </item>
+<item>
+  <title>Revision of Baldrige Framework to Increase its Value as Improvement Guide</title>
+  <link>https://www.nist.gov/news-events/news/2024/10/revision-baldrige-framework-increase-its-value-improvement-guide</link>
+  <description>  During its current revision, the Baldrige Excellence Framework®, the core document of the Baldrige Program, is undergoing revolutionary change—being reorganized, simplified, and refocused—to make it as easy to use as possible and to expand its value
+
+</description>
+  <pubDate>Mon, 21 Oct 2024 12:00:00 +0000</pubDate>
+    <dc:creator>LouAnn Scott</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1864621</guid>
+    </item>
+<item>
+  <title>5x5: The Public Safety Innovation Summit</title>
+  <link>https://www.nist.gov/news-events/events/2025/06/5x5-public-safety-innovation-summit</link>
+  <description>  REGISTER NOW 5x5 ― the confirmation of a strong and clear signal ― and the place to make your voice heard and drive public safety communications forward. In 2025, the FirstNet Authority and the National Institute of Standards and Technology’s Public
+
+</description>
+  <pubDate>Tue, 03 Jun 2025 00:00:00 -0400</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1862471</guid>
+    </item>
+<item>
+  <title>NIST Provides Update on Champlain Towers South Investigation</title>
+  <link>https://www.nist.gov/news-events/news/2024/09/nist-provides-update-champlain-towers-south-investigation</link>
+  <description>  Work continues to determine cause of the 2021 tragedy and to develop science-based recommendations to improve building safety.
+
+</description>
+  <pubDate>Thu, 12 Sep 2024 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1861171</guid>
+    </item>
+<item>
+  <title>NIST’s Long Phan and Marc Levitan Receive Service to America Medal</title>
+  <link>https://www.nist.gov/news-events/news/2024/09/nists-long-phan-and-marc-levitan-receive-service-america-medal</link>
+  <description>  The award recognizes their efforts to develop standards and building codes to make structures resistant to tornadoes.
+
+</description>
+  <pubDate>Tue, 10 Sep 2024 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1860776</guid>
+    </item>
+<item>
+  <title>Workshop on Functional Recovery Performance Targets</title>
+  <link>https://www.nist.gov/news-events/events/2024/10/workshop-functional-recovery-performance-targets</link>
+  <description>  A NIST-sponsored, one and one-half day, in-person workshop bringing together a diverse group of stakeholders from outside the engineering/code development world with knowledge and interest in functional recovery concepts. In a series of breakout
+
+</description>
+  <pubDate>Tue, 08 Oct 2024 00:00:00 -0400</pubDate>
+    <dc:creator>Jennifer Gerlock</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1860541</guid>
+    </item>
+<item>
+  <title>Workshop on Whole Community Public Safety and Resilience in Smart Cities</title>
+  <link>https://www.nist.gov/news-events/events/2024/08/workshop-whole-community-public-safety-and-resilience-smart-cities</link>
+  <description>  The Smart Connected Systems Division of NIST is launching a research project to define technology applications, analyses, key performance indicators, and decision systems for public safety planning to more effectively respond to and recover from
+
+</description>
+  <pubDate>Tue, 27 Aug 2024 00:00:00 -0400</pubDate>
+    <dc:creator>Sabina Mohan</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1855546</guid>
+    </item>
+<item>
+  <title>Tornadoes Are Deadly. These New Building Codes Will Save Lives.</title>
+  <link>https://www.nist.gov/news-events/news/2024/07/tornadoes-are-deadly-these-new-building-codes-will-save-lives</link>
+  <description>  NIST research has led to the first building code provision for tornado resilience.
+
+</description>
+  <pubDate>Tue, 09 Jul 2024 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1852981</guid>
+    </item>
+<item>
+  <title>Spotlight: NIST Researchers Are Helping Make Communities More Resilient Through Wind Tunnel Testing of Building Models</title>
+  <link>https://www.nist.gov/news-events/news/2024/06/spotlight-nist-researchers-are-helping-make-communities-more-resilient</link>
+  <description>  NIST researchers are helping by evaluating building structures through wind tunnel testing.
+
+</description>
+  <pubDate>Tue, 11 Jun 2024 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1852186</guid>
+    </item>
+<item>
+  <title>Additive Construction – The Path to Standardization II</title>
+  <link>https://www.nist.gov/news-events/events/2024/08/additive-construction-path-standardization-ii</link>
+  <description>  The National Institute of Standards and Technology (NIST) Engineering Laboratory (EL) Materials and Structural Systems Division (MSSD) studies the durability and service life of infrastructure materials (polymer, concrete, engineered composites) for
+
+</description>
+  <pubDate>Tue, 20 Aug 2024 00:00:00 -0400</pubDate>
+    <dc:creator>Sabina Mohan</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1849456</guid>
+    </item>
+<item>
+  <title>2024 NIST-NSF Disaster Resilience Research Symposium</title>
+  <link>https://www.nist.gov/news-events/events/2024/08/2024-nist-nsf-disaster-resilience-research-symposium</link>
+  <description>  In cooperation with the National Science Foundation, the Engineering Laboratory at NIST, Gaithersburg, is proud to host the 7th annual symposium featuring the Disaster Resilience Grant Research Program recipients on August 20 and 21, 2024. This
+
+</description>
+  <pubDate>Tue, 20 Aug 2024 00:00:00 -0400</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1849431</guid>
+    </item>
+<item>
+  <title>NIST to Provide Public Update on Hurricane Maria and Champlain Towers South Investigations During Advisory Committee Meeting March 6-7, 2024</title>
+  <link>https://www.nist.gov/news-events/news/2024/03/nist-provide-public-update-hurricane-maria-and-champlain-towers-south</link>
+  <description>  The meeting will be livestreamed each day.
+
+</description>
+  <pubDate>Mon, 04 Mar 2024 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1841511</guid>
+    </item>
+<item>
+  <title>NIST Engineer Glenn Bell Elected to the National Academy of Engineering</title>
+  <link>https://www.nist.gov/news-events/news/2024/02/nist-engineer-glenn-bell-elected-national-academy-engineering</link>
+  <description>  Bell specializes in forensic engineering, or the study of structural failures.
+
+</description>
+  <pubDate>Mon, 26 Feb 2024 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1840481</guid>
+    </item>
+<item>
+  <title>NIST is Requesting Public Input on Published Strategic Plan for Smart Cities Program</title>
+  <link>https://www.nist.gov/news-events/news/2024/01/nist-requesting-public-input-published-strategic-plan-smart-cities-program</link>
+  <description>  The Global Community Technology Challenge (GCTC) is a U.S. smart cities and communities program led by the Smart Connected Systems Division of the National Institute of Standards and Technology (NIST). The GCTC was formed in 2014 as a partnership of
+
+</description>
+  <pubDate>Thu, 25 Jan 2024 12:00:00 +0000</pubDate>
+    <dc:creator>David A. Wollman</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1837666</guid>
+    </item>
+<item>
+  <title>NIST and NSF Award Nearly $7.1 Million to 15 Universities to Support Disaster Resilience</title>
+  <link>https://www.nist.gov/news-events/news/2024/01/nist-and-nsf-award-nearly-71-million-15-universities-support-disaster</link>
+  <description>  The grants will fund research that will improve the ability of buildings, infrastructure and communities to withstand severe natural hazards.
+
+</description>
+  <pubDate>Thu, 18 Jan 2024 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1836331</guid>
+    </item>
+<item>
+  <title>5x5: The Public Safety Innovation Summit</title>
+  <link>https://www.nist.gov/news-events/events/2024/06/5x5-public-safety-innovation-summit</link>
+  <description>  5x5 ― the confirmation of a strong and clear signal ― and the place to make your voice heard and drive public safety communications forward. In 2024, the FirstNet Authority and the National Institute of Standards and Technology’s Public Safety
+
+</description>
+  <pubDate>Tue, 25 Jun 2024 00:00:00 -0400</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1834271</guid>
+    </item>
+
+  </channel>
+</rss>

@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <title>Science - Ars Technica</title>
+        <atom:link href="https://arstechnica.com/science/feed/" rel="self" type="application/rss+xml" />
+        <link>https://arstechnica.com</link>
+        <description>Serving the Technologist since 1998. News, reviews, and analysis.</description>
+        <lastBuildDate>Fri, 02 Oct 2026 20:14:58 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>
+            hourly        </sy:updatePeriod>
+        <sy:updateFrequency>
+            1        </sy:updateFrequency>
+        
+<image>
+	<url>https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-60x60.png</url>
+	<title>Science - Ars Technica</title>
+	<link>https://arstechnica.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+            <item>
+                <title>The 2008 economic crisis changed the US&#039;s relationship with energy</title>
+                <link>https://arstechnica.com/science/2026/10/the-2008-economic-crisis-changed-the-uss-relationship-to-energy/</link>
+                                    <comments>https://arstechnica.com/science/2026/10/the-2008-economic-crisis-changed-the-uss-relationship-to-energy/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Fri, 02 Oct 2026 18:56:21 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[carbon emissions]]></category>
+		<category><![CDATA[economic growth]]></category>
+		<category><![CDATA[Energy]]></category>
+		<category><![CDATA[gdp]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/10/the-2008-economic-crisis-changed-the-uss-relationship-to-energy/</guid>
+
+                                    <description>
+                        <![CDATA[It wasn't obvious at the time, but the US uncoupled carbon emissions and GDP growth.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>One argument that often comes up about climate change is that fossil fuels are good because they powered economic growth that has left most people better off overall. And, to an extent, that has been true, but it's also an extremely limited perspective.</p>
+<p>It's pretty obvious now that the growth they powered has come with very high costs that we've only recently started to pay, in the form of damages and disruptions from extreme weather events. With things like sea level rise expected to continue for centuries even if we hit net zero, it's difficult to estimate how expensive that growth will eventually be.</p>
+<p>But that perspective is also limited: We now have better ways to power our growth—ways that are less environmentally damaging now and won't leave our descendants with a carbon debt that will be difficult to manage.</p><p><a href="https://arstechnica.com/science/2026/10/the-2008-economic-crisis-changed-the-uss-relationship-to-energy/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/10/the-2008-economic-crisis-changed-the-uss-relationship-to-energy/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>20</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1487351817-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1487351817-500x500.jpg" width="500" height="500" />
+<media:credit>Ryan J Lane</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Research roundup: 6 cool science stories we almost missed</title>
+                <link>https://arstechnica.com/science/2026/10/research-roundup-6-cool-science-stories-we-almost-missed-6/</link>
+                                    <comments>https://arstechnica.com/science/2026/10/research-roundup-6-cool-science-stories-we-almost-missed-6/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Fri, 02 Oct 2026 18:17:27 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Archaeology]]></category>
+		<category><![CDATA[biomaterials]]></category>
+		<category><![CDATA[cosmoramas]]></category>
+		<category><![CDATA[Dark Matter]]></category>
+		<category><![CDATA[engineering]]></category>
+		<category><![CDATA[Galileo Galilei]]></category>
+		<category><![CDATA[Large Hadron Collider]]></category>
+		<category><![CDATA[materials science]]></category>
+		<category><![CDATA[Physics]]></category>
+		<category><![CDATA[psychoaoctive compounds]]></category>
+		<category><![CDATA[quantum entanglement]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[telescopes]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/10/research-roundup-6-cool-science-stories-we-almost-missed-6/</guid>
+
+                                    <description>
+                        <![CDATA[Also: Spooky action at the LHC, Ice Age psychoactive use, yeast for building homes on Mars, and more.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>It’s a regrettable reality that there is never enough time to cover all the interesting scientific stories we come across. So every month, we highlight a handful of the best stories that nearly slipped through the cracks. September’s list includes a tantalizing hint of the elusive dark matter at the LUX-ZEPLIN detector; entangled Z bosons at the Large Hadron Collider; possible use of psychoactive substances in the Late Pleistocene; and an intriguing technical description of a telescope attributed to Galileo.</p>
+<h2>A hint of dark matter?</h2>
+<div class="ars-video ars-video--horizontal"><div><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/bKCsiK4ZZBY?start=0&amp;wmode=transparent"></div></div></div>
+<p>Physicists believe dark matter makes up roughly 85 percent of matter in our universe, with the strongest (but not only) candidate being so-called weakly interacting massive particles (WIMPs). But directly detecting WIMPs, or other alternative hypothetical dark matter particles, has eluded physicists for decades. We might have our first glimpse, however, courtesy of the LUX-ZEPLIN detector buried deep in a gold mine in South Dakota. Those potentially exciting results were presented in a scientific talk at the <a href="https://indico-icehap.phys.s.chiba-u.ac.jp/event/3/contributions/471/">2026 TeV Particle Astrophysics conference</a> in Japan, with <a href="https://arxiv.org/abs/2609.02823">a preprint</a> available on the arXiv. (It has been submitted to Physical Review Letters for peer review.)</p>
+<p>The announcement came with strong caveats: the signal is just a hint, well below the threshold needed to confirm discovery, and might just be a statistical fluke. Anyone who regularly follows dark matter news knows that past tantalizing anomalies evaporated as more data came in. But the LUX-ZEPLIN team was unable to account for this event and decided to report their result to the broader physics community. They are still collecting data, as is the XENONnT at the Gran Sasso National Laboratory in Italy. And China's PandaX detector is currently being built.</p><p><a href="https://arstechnica.com/science/2026/10/research-roundup-6-cool-science-stories-we-almost-missed-6/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/10/research-roundup-6-cool-science-stories-we-almost-missed-6/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>2</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/darkmatter-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/darkmatter-500x500.jpg" width="500" height="500" />
+<media:credit>Greg Stewart, SLAC National Accelerator Laboratory</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Rocket Report: SpaceX completes launch triple-header; Rocket Lab nets big contract</title>
+                <link>https://arstechnica.com/space/2026/10/rocket-report-spacex-completes-launch-triple-header-rocket-lab-nets-big-contract/</link>
+                                    <comments>https://arstechnica.com/space/2026/10/rocket-report-spacex-completes-launch-triple-header-rocket-lab-nets-big-contract/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Stephen Clark]]>
+                </dc:creator>
+                <pubDate>Fri, 02 Oct 2026 13:54:34 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[blue origin]]></category>
+		<category><![CDATA[Boeing]]></category>
+		<category><![CDATA[falcon 9]]></category>
+		<category><![CDATA[rocket lab]]></category>
+		<category><![CDATA[rocket report]]></category>
+		<category><![CDATA[spacex]]></category>
+		<category><![CDATA[starliner]]></category>
+		<category><![CDATA[starship]]></category>
+		<category><![CDATA[united launch alliance]]></category>
+		<category><![CDATA[vulcan]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/10/rocket-report-spacex-completes-launch-triple-header-rocket-lab-nets-big-contract/</guid>
+
+                                    <description>
+                        <![CDATA[Blue Origin seeks FAA approval for up to 50 New Glenn launches and 50 booster landings per year.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Welcome to Edition 9.13 of the Rocket Report!</p>
+<p>This week, SpaceX celebrated the first orbital launch of its new Starship rocket. I'm not sure many people, at least those outside of SpaceX, expected it to take 14 flights of Starship before it technically reached low-Earth orbit, but Monday morning's launch finally added that to SpaceX's list of accomplishments with its new super-heavy rocket. Starship had gone 99 percent of the way to orbit before, only held back by safety concerns around the possibility of stranding the huge rocket in space.</p>
+<p>What was most notable for SpaceX with this Starship flight was that it unlocked a massive growth potential for Starlink, with the first 26 of the network's new-generation Starlink V3 satellites successfully deployed Monday.</p><p><a href="https://arstechnica.com/space/2026/10/rocket-report-spacex-completes-launch-triple-header-rocket-lab-nets-big-contract/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/10/rocket-report-spacex-completes-launch-triple-header-rocket-lab-nets-big-contract/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>42</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/falcon9_falconheavy-1152x648-1790915768.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/falcon9_falconheavy-500x500.jpg" width="500" height="500" />
+<media:credit>SpaceX</media:credit><media:text>A Falcon 9 rocket climbs into the sky to begin the Crew-13 mission to the International Space Station as a Falcon Heavy rocket awaits its launch window Thursday about 3.5 miles away at Kennedy Space Center, Florida.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Venus&#039; mysterious haze is actually cosmic dust</title>
+                <link>https://arstechnica.com/science/2026/10/venus-mysterious-haze-is-actually-cosmic-dust/</link>
+                                    <comments>https://arstechnica.com/science/2026/10/venus-mysterious-haze-is-actually-cosmic-dust/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Elizabeth Rayne]]>
+                </dc:creator>
+                <pubDate>Thu, 01 Oct 2026 22:27:04 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[astronomy]]></category>
+		<category><![CDATA[atmospheric science]]></category>
+		<category><![CDATA[Haze]]></category>
+		<category><![CDATA[planetary science]]></category>
+		<category><![CDATA[Venus]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/10/venus-mysterious-haze-is-actually-cosmic-dust/</guid>
+
+                                    <description>
+                        <![CDATA[A physical model show that iron dust and sulfuric acid create the right properties.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Venus is shrouded in a veil of mystery. The yellowish “lower haze” at the bottom of its atmosphere was discovered by the <a href="https://ui.adsabs.harvard.edu/scan/manifest/2002ESASP.514...13T">Venera and Pioneer Venus probes</a> in the 1970s. These spacecraft were some of the first to successfully send images of the planet back to Earth, but the haze they saw went unexplained for decades. Now the mystery Venus was keeping has been unveiled.</p>
+<p>What nobody knew then was that the haze is an accumulation of particles from meteorites. “Shooting stars” that burn up in the atmosphere leave behind cosmic dust particles, and after sulfuric acid interacts with these particles, it leaves behind a haze. Planetary scientist Hiroki Karyu and his research team at Tohoku University in Sendai City, Japan, finally figured out how the haze formed using a microphysical model. This type of model involves <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7507216/">microphysics</a>—the micro-scale processes that create clouds and precipitation on Earth and other bodies.</p>
+<p>“The continuous influx of cosmic dust is sufficient to sustain this lower haze layer with the particle size distribution observed by the entry probes,” Karyu <a href="https://www.nature.com/articles/s41550-026-02843-4">said</a> in a study published in Nature Astronomy. “These haze particles of cosmic origin act as efficient condensation nuclei, promoting cloud formation in the main cloud deck even far from their initial source.”</p><p><a href="https://arstechnica.com/science/2026/10/venus-mysterious-haze-is-actually-cosmic-dust/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/10/venus-mysterious-haze-is-actually-cosmic-dust/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>42</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/image-1152x510.jpeg" type="image/jpeg" medium="image" width="1152" height="510">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/image-500x500-1790890738.jpeg" width="500" height="500" />
+<media:credit>JAXA / ISAS / DARTS / DAMIA BOUIC.</media:credit></media:content>
+            </item>
+                    <item>
+                <title>SpaceX describes surgical intervention before launch of latest crew mission</title>
+                <link>https://arstechnica.com/space/2026/10/spacex-describes-surgical-intervention-before-launch-of-latest-crew-mission/</link>
+                                    <comments>https://arstechnica.com/space/2026/10/spacex-describes-surgical-intervention-before-launch-of-latest-crew-mission/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Stephen Clark]]>
+                </dc:creator>
+                <pubDate>Thu, 01 Oct 2026 22:07:33 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[commercial crew]]></category>
+		<category><![CDATA[Commercial space]]></category>
+		<category><![CDATA[crew dragon]]></category>
+		<category><![CDATA[Crew-13]]></category>
+		<category><![CDATA[human spaceflight]]></category>
+		<category><![CDATA[international space station]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[spacex]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/10/spacex-describes-surgical-intervention-before-launch-of-latest-crew-mission/</guid>
+
+                                    <description>
+                        <![CDATA[With Crew-13, Jessica Watkins became the first Black woman to lead a mission into space.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A four-person crew rocketed into orbit Thursday from Cape Canaveral Space Force Station, Florida, heading for a six-month expedition on the International Space Station.</p>
+<p>Riding a Falcon 9 rocket and Dragon spacecraft, the four crew members departed from Space Launch Complex-40 at Cape Canaveral at 11:10 am EDT (15:10 UTC) Thursday. Nine minutes later, they were in orbit to begin closing in on the space station for docking Thursday evening.</p>
+<p>The launch was delayed from mid-September to replace a balky valve in the Dragon spacecraft's propulsion system, a task that involved cutting into a propellant line inside the ship to swap out a faulty component.</p><p><a href="https://arstechnica.com/space/2026/10/spacex-describes-surgical-intervention-before-launch-of-latest-crew-mission/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/10/spacex-describes-surgical-intervention-before-launch-of-latest-crew-mission/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>61</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/crewdragon1crew13-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/crewdragon1crew13-500x500.jpg" width="500" height="500" />
+<media:credit>SpaceX</media:credit><media:text>SpaceX's Crew Dragon "Grace" spacecraft stacked atop its trunk section during preparations for the Crew-13 mission at Cape Canaveral Space Force Station, Florida.</media:text></media:content>
+            </item>
+                    <item>
+                <title>With most information hidden, the game Stratego had stumped AI—until now</title>
+                <link>https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/</link>
+                                    <comments>https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jacek Krywko]]>
+                </dc:creator>
+                <pubDate>Thu, 01 Oct 2026 16:28:04 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Computer science]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[hidden information]]></category>
+		<category><![CDATA[strategy]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/</guid>
+
+                                    <description>
+                        <![CDATA[Adding in a second neural network that guesses the identity of hidden pieces was key.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Deep Blue took down Garry Kasparov at chess in 1997, AlphaGo beat Lee Sedol at Go in 2016, and poker bots have been beating professionals for years. But one classic game called <em>Stratego</em> held out. Even DeepMind, with its exceptional budget, couldn't build a machine that reliably beat the best human players.</p>
+<p>Now, a team of researchers from Carnegie Mellon, MIT, New York University, and Stanford University has done it. Their AI, called Ataraxos, beat Pim Niemeijer, arguably the best <em>Stratego</em> player of all time, 15 games to one, with four draws. And it took just 16 GPUs and a few thousand dollars to train it.</p>
+<h2>Hidden armies</h2>
+<p>In <em>Stratego</em>, each player gets 40 pieces representing military ranks, from a marshal down to a spy, plus bombs and a flag. You win by capturing the opponent's flag. Your opponent knows <em>where</em> your pieces are, but not <em>what</em> they are. Identities are revealed only when two pieces collide in battle—the weaker one is removed, and the identity of the winner is revealed. That makes <em>Stratego</em> an imperfect-information game, just like poker, which computers cracked years ago. “There's something super distinctive about <em>Stratego</em>, which is that it is a massive amount of hidden information that unfolds over a very long time scale,” said Eugene Vinitsky, a researcher at NYU and co-author of the study.</p><p><a href="https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>55</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1864707238-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1864707238-500x500.jpg" width="500" height="500" />
+<media:credit>Vectorwin</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Dinosaur-killing impact crater might have been teeming with life</title>
+                <link>https://arstechnica.com/science/2026/09/dinosaur-killing-impact-crater-might-have-been-teeming-with-life/</link>
+                                    <comments>https://arstechnica.com/science/2026/09/dinosaur-killing-impact-crater-might-have-been-teeming-with-life/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Elizabeth Rayne]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Sep 2026 21:54:12 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Chixculub]]></category>
+		<category><![CDATA[Earth science]]></category>
+		<category><![CDATA[geology]]></category>
+		<category><![CDATA[hydrothermal vents]]></category>
+		<category><![CDATA[impacts]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/09/dinosaur-killing-impact-crater-might-have-been-teeming-with-life/</guid>
+
+                                    <description>
+                        <![CDATA[Hot, nutrient water might have lasted for over 5 million years after the impact.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>About 66 million years ago, the <a href="https://www.lpi.usra.edu/science/kring/Chicxulub/regional-effects/">Chicxulub asteroid</a> smashed into Earth, kicking up tsunamis and dropping hot debris that annihilated non-avian dinosaurs and many other species. But not everything it left in its wake was destructive. This space rock hit what is now the partially submerged Yucatan Peninsula, and at the bottom of the ocean, the impact generated enough heat to create a <a href="https://oceanexplorer.noaa.gov/wp-content/uploads/2022/10/hydrothermal-vents-fact-sheet.pdf">hydrothermal system</a> that persisted for 8 million years and may have been a hotbed of life.</p>
+<p>When researchers drilled for samples in the impact zone in 2016, they studied the types of rock that had formed as a result of the asteroid strike. This gave more insight into what happened in the immediate and long-term aftermath of this cataclysmic event.</p>
+<p>The collision was intense enough to cause deformation far beneath the surface. Subterranean effects reached 35 km (almost 22 miles) down, and included the melting an immense amount of rock. Exposure to seawater made that rock porous. As hot water seeped into the pores, a hydrothermal system formed. The hot water gushing into an isolated region of the freezing depths could have attracted microorganisms and possibly other life forms that were otherwise struggling to survive.</p><p><a href="https://arstechnica.com/science/2026/09/dinosaur-killing-impact-crater-might-have-been-teeming-with-life/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/09/dinosaur-killing-impact-crater-might-have-been-teeming-with-life/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>57</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1042124682-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1042124682-500x500.jpg" width="500" height="500" />
+<media:credit>MARK GARLICK/SCIENCE PHOTO LIBRARY</media:credit></media:content>
+            </item>
+                    <item>
+                <title>A local network of implants uses your body as the wiring</title>
+                <link>https://arstechnica.com/science/2026/09/scientists-built-implants-that-talk-to-each-other-through-body-tissue/</link>
+                                    <comments>https://arstechnica.com/science/2026/09/scientists-built-implants-that-talk-to-each-other-through-body-tissue/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jacek Krywko]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Sep 2026 21:06:56 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[bioengineering]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[implants]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/09/scientists-built-implants-that-talk-to-each-other-through-body-tissue/</guid>
+
+                                    <description>
+                        <![CDATA[It's possible to send electrical signals right through human tissues.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Most implants like pacemakers and insulin pumps work in isolation. To help them coordinate with each other, a team of Georgia Tech researchers built a networking system that sends signals through body tissue instead of antennas and radio waves.</p>
+<h2>Radio problems</h2>
+<p>Implants that communicate today mostly rely on radio protocols like Bluetooth Low Energy or near-field communication (NFC). Both are a poor fit for in-body data transfer, says Alex Abramson, a Georgia Tech engineer and co-author of the new study.</p>
+<p>The first problem is power. “If you want an implant to remain in an active state such that it can respond within milliseconds, it's very difficult to do that with the Bluetooth system,” Abramson said. According to the paper, Bluetooth components, when they’re activated, can cut an implant's battery life by up to 90 percent.</p><p><a href="https://arstechnica.com/science/2026/09/scientists-built-implants-that-talk-to-each-other-through-body-tissue/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/09/scientists-built-implants-that-talk-to-each-other-through-body-tissue/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>27</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1531989233-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1531989233-500x500.jpg" width="500" height="500" />
+<media:credit>Arturo Peña Romano Medina</media:credit><media:text>Sending signals to and among implants could be simpler.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Google figures out how to watermark AI-designed proteins</title>
+                <link>https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/</link>
+                                    <comments>https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Sep 2026 15:54:52 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[deepmind]]></category>
+		<category><![CDATA[protein design]]></category>
+		<category><![CDATA[proteins]]></category>
+		<category><![CDATA[watermarking]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/</guid>
+
+                                    <description>
+                        <![CDATA[Intended to help with biosecurity, it works with a popular AI protein design tool.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>AI-based tools seem to be causing security threats on a nearly daily basis, in part because we've been slow to recognize potential threats. One area where we seem to be ahead of the game, however, is in biosecurity.</p>
+<p>As with most things biological, utility goes hand in hand with threats. We've developed increasingly sophisticated tools for designing proteins and seen some major successes, such as AI-designed enzymes that can <a href="https://arstechnica.com/science/2025/02/using-ai-to-design-proteins-is-now-easy-making-enzymes-remains-hard/">digest plastics</a> or <a href="https://arstechnica.com/science/2025/01/researchers-use-ai-to-design-proteins-that-block-snake-venom-toxins/">block venom proteins</a>. But these same tools could be used to make toxins or alter the behavior of viral proteins.</p>
+<p>And the software we use to identify DNA sequences that encode potentially threatening proteins <a href="https://arstechnica.com/science/2025/10/do-ai-designed-proteins-create-a-biosecurity-vulnerability/">doesn't pick out AI-designed proteins</a>, since nobody has characterized them well enough to know that they're threats. Nearly a year after that risk was flagged, it still wasn't clear what anyone could do about it.</p><p><a href="https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>32</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2204734561-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2204734561-500x500.jpg" width="500" height="500" />
+<media:credit> ALIOUI Mohammed Elamine</media:credit></media:content>
+            </item>
+                    <item>
+                <title>What butterfly wings have in common with barbershop poles</title>
+                <link>https://arstechnica.com/science/2026/09/what-butterfly-wings-have-in-common-with-barbershop-poles/</link>
+                                    <comments>https://arstechnica.com/science/2026/09/what-butterfly-wings-have-in-common-with-barbershop-poles/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Sep 2026 15:00:56 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[butterflies]]></category>
+		<category><![CDATA[butterfly wings]]></category>
+		<category><![CDATA[entomology]]></category>
+		<category><![CDATA[optical illusions]]></category>
+		<category><![CDATA[structural color]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/09/what-butterfly-wings-have-in-common-with-barbershop-poles/</guid>
+
+                                    <description>
+                        <![CDATA[Wing patterns, flight dynamics create "motion dazzle" effect, make it harder to gauge speed, direction.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Old-fashioned striped barbershop poles turn in place on a vertical axis, but humans <a href="https://en.wikipedia.org/wiki/Barberpole_illusion">typically perceive</a> the stripes moving upward rather than turning with the pole. It's a well-known visual illusion arising from processing biases in human vision. According to a new paper published in the journal Nature, a similar effect could explain how butterflies often evade predatory birds: Their flight patterns and wing patterns combine to make it hard for predators to accurately gauge speed and direction.</p>
+<p>"The stripes and spots on many butterflies’ wings interfere with the way visual systems try to guess the direction and speed of moving things, boosting false motion cues while hiding the butterfly's true heading," <a href="https://www.eurekalert.org/news-releases/1145531">said co-author George Hancock</a> of the University of Exeter in Cornwall. "The illusions interfere with the predator’s most basic visual targeting system and disrupt the final ‘ballistic attack’ in the tens of milliseconds when it commits to grabbing its prey, with no time to change course. As a result, birds and other predators will often simply miss."</p>
+<p>Butterfly wings have <a href="https://arstechnica.com/science/2021/11/metamorphosis-scientists-watch-butterfly-wings-grow-inside-chrysalis-in-real-time/">long fascinated</a> scientists, ever since the first documentation of the growth of said wings back in 1938. By 2021, researchers at MIT had <a href="https://www.pnas.org/doi/full/10.1073/pnas.2112009118">captured on video</a> the unique structural growth of butterfly wings—continuously, as a butterfly develops inside its chrysalis—for the very first time. Butterfly wings are an example of structural color in nature: the bright iridescent colors don’t come from pigment molecules but from what physicists call <a href="https://blogs.scientificamerican.com/cocktail-party-physics/shiny-things-an-ode-to-photonic-crystals/">photonic crystals</a>. The scales of chitin (a polysaccharide common to insects) are arranged like roof tiles. Essentially, they form a <a href="https://io9.gizmodo.com/5783709/the-colorful-story-of-diffraction-grating">diffraction grating</a>, except photonic crystals only produce certain colors, or wavelengths, of light, while a diffraction grating will produce the entire spectrum.</p><p><a href="https://arstechnica.com/science/2026/09/what-butterfly-wings-have-in-common-with-barbershop-poles/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/09/what-butterfly-wings-have-in-common-with-barbershop-poles/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>21</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/butterfly1-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/butterfly1-500x500-1790621009.jpg" width="500" height="500" />
+<media:credit>George Hancock</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Less protein for maggots means longer lives for fruit flies</title>
+                <link>https://arstechnica.com/science/2026/09/fruit-flies-remember-their-larval-diet-which-influences-their-longevity/</link>
+                                    <comments>https://arstechnica.com/science/2026/09/fruit-flies-remember-their-larval-diet-which-influences-their-longevity/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jacek Krywko]]>
+                </dc:creator>
+                <pubDate>Tue, 29 Sep 2026 14:39:25 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[amino acids]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[diet]]></category>
+		<category><![CDATA[Drosophila]]></category>
+		<category><![CDATA[Longevity]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/09/fruit-flies-remember-their-larval-diet-which-influences-their-longevity/</guid>
+
+                                    <description>
+                        <![CDATA[Eating less protein as larvae may limit their ability to produce proteins as adults.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Back in the 1930s, scientists noticed that water fleas and rats fed restricted diets while young went on to live longer. The same effect has since turned up in fruit flies and mice. What we did not know was how a meal eaten in infancy could affect health weeks, months, or even years later. A recent Nature study might have found the answer.</p>
+<p>A team led by Fumiaki Obata, a biologist at the RIKEN Center for Biosystems Dynamics Research in Kobe, Japan, found a protein that carries a record into adulthood of what fruit flies ate as larvae, influencing how long they live.</p>
+<h2>Hungry maggots</h2>
+<p>Lab fruit flies are fed a mix of yeast and sugar, with yeast being their main source of protein. “We decreased only the yeast concentration in the diet, from eight percent to either one or two percent,” Obata explains. This low-protein diet was introduced roughly halfway through the larval period. Once the flies emerged from their pupae as adults, they returned to standard food.</p><p><a href="https://arstechnica.com/science/2026/09/fruit-flies-remember-their-larval-diet-which-influences-their-longevity/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/09/fruit-flies-remember-their-larval-diet-which-influences-their-longevity/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>8</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1914127482-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1914127482-500x500.jpg" width="500" height="500" />
+<media:credit>Tomasz Klejdysz</media:credit></media:content>
+            </item>
+                    <item>
+                <title>New device captures carbon dioxide by pumping it across a battery</title>
+                <link>https://arstechnica.com/science/2026/09/new-device-captures-carbon-dioxide-by-pumping-it-across-a-battery/</link>
+                                    <comments>https://arstechnica.com/science/2026/09/new-device-captures-carbon-dioxide-by-pumping-it-across-a-battery/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scott K. Johnson]]>
+                </dc:creator>
+                <pubDate>Mon, 28 Sep 2026 20:31:06 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[carbon capture]]></category>
+		<category><![CDATA[direct air capture]]></category>
+		<category><![CDATA[direct air carbon capture]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/09/new-device-captures-carbon-dioxide-by-pumping-it-across-a-battery/</guid>
+
+                                    <description>
+                        <![CDATA[The design requires less energy to capture CO<sub>2</sub> than current systems.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Equipment to capture carbon dioxide from ambient air or smokestacks generally works through a sort of reversible filter. Air is passed through granules or a liquid that absorbs the CO<sub>2</sub>, then that CO<sub>2</sub>-loaded substance undergoes a process (usually heating) that causes it to let go of all that CO<sub>2</sub>. The resulting gas can be collected in a separated stream.</p>
+<p>It’s also possible to do a similar sort of operation on a smaller scale—like inside a battery. A new study from a team led by James Buchen of the University of Delaware demonstrates an example of a battery-based electrochemical carbon-capture technique that they say is more viable than previous attempts. It has the potential to require less energy—and therefore be cheaper—than the reversible-filter designs that currently dominate.</p>
+<h2>Carbon chemistry</h2>
+<p>The basic idea behind a device of this type is that hydroxide produced at the battery cathode reacts with CO<sub>2</sub>, converting it to carbonate or bicarbonate that passes through the separator membrane to the anode. There, the lower pH causes the reaction to reverse, with carbonate turning back into CO<sub>2</sub> gas. The role of the cathode is to produce hydroxide ions; the role of the anode is to consume them.</p><p><a href="https://arstechnica.com/science/2026/09/new-device-captures-carbon-dioxide-by-pumping-it-across-a-battery/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/09/new-device-captures-carbon-dioxide-by-pumping-it-across-a-battery/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>55</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1695996169-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1695996169-500x500.jpg" width="500" height="500" />
+<media:credit>MirageC</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Scientists solve 1840s space weather mystery</title>
+                <link>https://arstechnica.com/science/2026/09/scientists-solve-1840s-space-weather-mystery/</link>
+                                    <comments>https://arstechnica.com/science/2026/09/scientists-solve-1840s-space-weather-mystery/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Mon, 28 Sep 2026 17:56:36 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[geophysics]]></category>
+		<category><![CDATA[solar flares]]></category>
+		<category><![CDATA[space weather]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/09/scientists-solve-1840s-space-weather-mystery/</guid>
+
+                                    <description>
+                        <![CDATA[19th century Nature account of 1841 train delayed by geomagnetic storm got year wrong—due to a typo.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The infamous <a href="https://en.wikipedia.org/wiki/Carrington_Event">Carrington Event</a> of 1859 has long been considered the first extreme space weather event, but there have been reports of minor disturbances to telegraph equipment during geomagnetic storms since the late 1840s. In 2013, scholars discovered an anonymous report published in 1871 in Nature describing how a "very intense magnetic disturbance" disrupted rail travel in Exeter on the southern coast of England in October 1841. If accurate, this would be the earliest such account. However, according to <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2026SW005239">a paper</a> published in the journal Space Weather, that 1841 date is most likely a typo, with the real railway disruption occurring several years later.</p>
+<p>"Space weather is often discussed as a modern challenge because of our dependence on technologies such as satellites, communications systems and electricity networks," <a href="https://www.eurekalert.org/news-releases/1143888">said co-author Jim Wild</a> of Lancaster University. "What this study shows is that society has been experiencing the effects of space weather on technology for almost as long as electrical technologies have existed. The Exeter train delay is a fascinating story because it sits right at the point where emerging technologies first began to encounter the realities of the space environment."</p>
+<p>The Carrington Event remains the most powerful geomagnetic storm in the scientific record, with strong auroral displays occurring all over the world, causing sparking and even a few fires in telegraph stations. Some of the auroras were so bright that people reported being able to read the newspaper by their light. The telegraph was a relatively <a href="https://en.wikipedia.org/wiki/Electrical_telegraph">new technology</a> at the time, having first emerged in the 1830s, and the geomagnetically induced current—from a likely coronal mass injection from the Sun—knocked out telegraph systems. Some operators found they were still able to transmit and receive messages even after disconnecting the power supply, relying just on the powerful auroral current.</p><p><a href="https://arstechnica.com/science/2026/09/scientists-solve-1840s-space-weather-mystery/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/09/scientists-solve-1840s-space-weather-mystery/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>37</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/spaceweather-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/spaceweather-500x500.jpg" width="500" height="500" />
+<media:credit>J.A. Wild et al., 2026</media:credit><media:text>The magnetogram recorded at Greenwich Magnetic Observatory (London) from 11:20 UT on 18 October 1848 to 00:20 UT on 19 October 1848. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Is solar&#039;s growth finally slowing in the US?</title>
+                <link>https://arstechnica.com/science/2026/09/is-solars-growth-finally-slowing-in-the-us/</link>
+                                    <comments>https://arstechnica.com/science/2026/09/is-solars-growth-finally-slowing-in-the-us/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Fri, 25 Sep 2026 18:27:18 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Energy]]></category>
+		<category><![CDATA[green energy]]></category>
+		<category><![CDATA[power generation]]></category>
+		<category><![CDATA[renewable energy]]></category>
+		<category><![CDATA[US Grid]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/09/is-solars-growth-finally-slowing-in-the-us/</guid>
+
+                                    <description>
+                        <![CDATA[Renewables easily cover changes in US demand, which is rising by 2% in 2026.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Normally, we try to update you quarterly on what's going on with the US electric grid since it provides a nice view of developing trends and smooths out some month-to-month randomness. Unfortunately, I was out of the office when last month's data was released, so this will be a seven-month update on 2026 trends.</p>
+<p>The top line item is that energy use is continuing to rise, albeit not as quickly as headlines about data centers might lead people to believe. Beyond data centers, there's a growing electrification—things like EVs and heat pumps—that is shifting energy demands onto the grid. Despite all of this, electricity use has risen by only 2 percent compared to the same period last year. At this time the previous year, demand had risen by 3 percent compared to the year prior.</p>
+<p>Some of this may be due to continued improvements in efficiency, which had largely kept electricity demand stable throughout the early 2000s. And some of it may be because more data centers are <a href="https://arstechnica.com/tech-policy/2026/09/new-jersey-fines-data-center-1-1m-after-satellite-pics-expose-62-gas-generators/">generating their own power</a> so that demand doesn't show up on the grid. So far, the growth in demand hasn't reached apocalyptic levels.</p><p><a href="https://arstechnica.com/science/2026/09/is-solars-growth-finally-slowing-in-the-us/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/09/is-solars-growth-finally-slowing-in-the-us/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>58</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1486053188-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1486053188-500x500.jpg" width="500" height="500" />
+<media:credit>Lu ShaoJi</media:credit><media:text>The largest US offshore wind farm will come online this year, but the technology's future here is cloudy.</media:text></media:content>
+            </item>
+                    <item>
+                <title>With PRIMA, NASA will try to build a billion-dollar space telescope in record time</title>
+                <link>https://arstechnica.com/space/2026/09/nasa-green-lights-billion-dollar-infrared-observatory-for-launch-in-early-2030s/</link>
+                                    <comments>https://arstechnica.com/space/2026/09/nasa-green-lights-billion-dollar-infrared-observatory-for-launch-in-early-2030s/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Stephen Clark]]>
+                </dc:creator>
+                <pubDate>Fri, 25 Sep 2026 14:07:46 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[astronomy]]></category>
+		<category><![CDATA[astrophysics]]></category>
+		<category><![CDATA[black holes]]></category>
+		<category><![CDATA[exoplanets]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[Prima]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/09/nasa-green-lights-billion-dollar-infrared-observatory-for-launch-in-early-2030s/</guid>
+
+                                    <description>
+                        <![CDATA[NASA's PRIMA mission will use spare parts from Webb to do major science at a lower cost.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The first in a new class of space telescopes is on track to reach the launch pad in the early 2030s, NASA announced this week.</p>
+<p>The PRIMA mission will be the first of NASA's Probe Explorers, a new line of observatories intended to do more science for less money. The agency's space telescopes typically fall into lower-cost "Explorer-class" missions, with cost caps in the range of a few hundred million dollars, or flagship observatories like the recently launched Nancy Grace Roman Space Telescope, which came with a price tag of some $4.3 billion.</p>
+<p>With the Probe Explorers, NASA officials seek to find a better balance between the smaller Explorer missions and multibillion-dollar flagships. NASA has studied potential Probe Explorer mission concepts for several years after an independent panel of scientists recommended the new mission category. But it wasn't clear until recently whether NASA's science budget, which is <a href="https://arstechnica.com/space/2026/01/nasas-science-budget-wont-be-a-train-wreck-after-all/">under pressure from the Trump administration</a>, would be sufficient to actually start developing one.</p><p><a href="https://arstechnica.com/space/2026/09/nasa-green-lights-billion-dollar-infrared-observatory-for-launch-in-early-2030s/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/09/nasa-green-lights-billion-dollar-infrared-observatory-for-launch-in-early-2030s/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>54</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/prima_art-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/prima_art-500x500.jpg" width="500" height="500" />
+<media:credit>NASA</media:credit><media:text>Artist's illustration of the PRIMA telescope.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Contrary to some reports, you don&#039;t have two brains</title>
+                <link>https://arstechnica.com/science/2026/09/contrary-to-some-reports-you-dont-have-two-brains/</link>
+                                    <comments>https://arstechnica.com/science/2026/09/contrary-to-some-reports-you-dont-have-two-brains/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Wed, 23 Sep 2026 18:47:36 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[brain development]]></category>
+		<category><![CDATA[cell fates]]></category>
+		<category><![CDATA[developmental biology]]></category>
+		<category><![CDATA[neurobiology]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/09/contrary-to-some-reports-you-dont-have-two-brains/</guid>
+
+                                    <description>
+                        <![CDATA[A bad press release makes a good excuse to look at how developmental biology works.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Late last week, we started seeing headlines about how new research was suggesting we might have <a href="https://www.yahoo.com/news/science/articles/scientists-discover-humans-may-actually-110417169.html">two brains</a> instead of the one that seems to show up on MRI scans. As is so often the case, these rumors can be traced back to a <a href="https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html">single press release</a> put out by one of the universities where the work was done.</p>
+<p>You do not have two brains. It's a silly way to look at the results of the new paper.</p>
+<p>But there are far better ways to look at the results, ways that can help us understand how the brain gets put together and illustrate some of the general ideas behind developmental biology. So let's take a look at what the research actually shows and place it in the context of brain development.</p><p><a href="https://arstechnica.com/science/2026/09/contrary-to-some-reports-you-dont-have-two-brains/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/09/contrary-to-some-reports-you-dont-have-two-brains/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>58</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2230128500-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2230128500-500x500.jpg" width="500" height="500" />
+<media:credit>KATERYNA KON/SCIENCE PHOTO LIBRARY</media:credit><media:text>While the hindbrain may form a distinct fate first, most of the volume of the mature brain (pink) comes from the forebrain.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Small undersea volcanoes may unleash outsized tsunamis</title>
+                <link>https://arstechnica.com/science/2026/09/small-undersea-volcanoes-may-unleash-outsized-tsunamis/</link>
+                                    <comments>https://arstechnica.com/science/2026/09/small-undersea-volcanoes-may-unleash-outsized-tsunamis/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Yook Ji Hun ]]>
+                </dc:creator>
+                <pubDate>Wed, 23 Sep 2026 11:15:30 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Earth science]]></category>
+		<category><![CDATA[eruptions]]></category>
+		<category><![CDATA[geology]]></category>
+		<category><![CDATA[Hunga]]></category>
+		<category><![CDATA[Hunga Tonga]]></category>
+		<category><![CDATA[tsunamis]]></category>
+		<category><![CDATA[volcanoes]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/09/small-undersea-volcanoes-may-unleash-outsized-tsunamis/</guid>
+
+                                    <description>
+                        <![CDATA[Post-eruption imaging of the Hunga caldera gives new details of its collapse.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Krakatau, a volcanic island in Indonesia, killed more than 30,000 people when it erupted in 1883. One might assume that volcanic debris posed the major threat, yet many of the victims died from a tsunami caused by the volcanic eruption instead.</p>
+<p>Volcanoes at sea can pose hazards quite different from those on land, as their impact can vary depending on how the volcanic activity interacts with seawater. In the deep ocean, high water pressure can suppress explosive volcanic activity, making eruptions less destructive. But closer to the surface, the lower water pressure and the high temperatures of volcanic material can cause violent explosions. Yet scientists still do not fully understand the conditions under which volcanic activity can cause a tsunami.</p>
+<p>To better understand these risks, an international team of researchers examined the 2022 Hunga eruption in Tonga, focusing on the rapid caldera collapse that may have amplified its powerful tsunami. Calderas form when the ground above a magma reservoir collapses as the magma drains away. Comparisons of seafloor topography before and after the eruption showed that a roughly 4-kilometer-wide caldera sank by about a kilometer during the eruption.</p><p><a href="https://arstechnica.com/science/2026/09/small-undersea-volcanoes-may-unleash-outsized-tsunamis/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/09/small-undersea-volcanoes-may-unleash-outsized-tsunamis/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>50</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1248375228-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1248375228-500x500.jpg" width="500" height="500" />
+<media:credit>TELUSA FOTU</media:credit><media:text>The Hunga volcano during a 2009 eruption.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Effort begins to fill the void left by terminated US climate report</title>
+                <link>https://arstechnica.com/science/2026/09/effort-begins-to-fill-the-void-left-by-terminated-us-climate-report/</link>
+                                    <comments>https://arstechnica.com/science/2026/09/effort-begins-to-fill-the-void-left-by-terminated-us-climate-report/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scott K. Johnson]]>
+                </dc:creator>
+                <pubDate>Tue, 22 Sep 2026 16:26:30 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[national climate assessment]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/09/effort-begins-to-fill-the-void-left-by-terminated-us-climate-report/</guid>
+
+                                    <description>
+                        <![CDATA[First paper added to community collection is a roadmap for research.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Last year, the Trump administration did what it could to <a href="https://arstechnica.com/science/2025/04/trump-admin-may-be-trying-to-sabotage-the-national-climate-assessment/">shut down work</a> on the next US National Climate Assessment, eliminating funding for the US Global Change Research Program and booting hundreds of contributing authors. The administration even took past reports offline, forcing others to <a href="https://nca5.climate.us/">host copies</a> so the information would still be accessible. And this all comes despite the fact that these reports are legally required.</p>
+<p>Later in the year, the American Geophysical Union and American Meteorological Society <a href="https://news.agu.org/press-release/agu-and-ams-invite-proposals-for-us-climate-collection/">announced an effort</a> to give researchers a central place to compile the kind of work that would have fed the next US report, as well as potential regional and local reports. This “<a href="https://usclimatecollection.org/">US Climate Collection</a>” works differently from the US Global Change Research Program or the International Panel on Climate Change (IPCC). Rather than facilitating the writing of a giant, coordinated report, the groups are inviting teams of researchers to publish peer-reviewed papers in scientific journals, which will then be added to a centralized resource for future report-writers.</p>
+<p>The first paper has now been added to that collection. It’s the work of 175 authors (many of whom had been working on the US report), and it is actually being published in two journals—one operated by the American Geophysical Union and one by the American Meteorological Society. That’s because this paper is intended to provide a roadmap to prioritize future contributions.</p><p><a href="https://arstechnica.com/science/2026/09/effort-begins-to-fill-the-void-left-by-terminated-us-climate-report/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/09/effort-begins-to-fill-the-void-left-by-terminated-us-climate-report/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>29</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-154344707-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-154344707-500x500.jpg" width="500" height="500" />
+<media:credit>Joe Raedle</media:credit><media:text>Even when the government would prefer to ignore them, climate impacts keep arriving.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Russel Vought will reportedly be given veto power over all NIH grants</title>
+                <link>https://arstechnica.com/science/2026/09/trump-planning-to-hand-veto-power-over-nih-grants-to-political-appointee/</link>
+                                    <comments>https://arstechnica.com/science/2026/09/trump-planning-to-hand-veto-power-over-nih-grants-to-political-appointee/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Mon, 21 Sep 2026 16:40:26 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Bhattacharya]]></category>
+		<category><![CDATA[grants]]></category>
+		<category><![CDATA[NIH]]></category>
+		<category><![CDATA[OMB]]></category>
+		<category><![CDATA[science funding]]></category>
+		<category><![CDATA[Trump]]></category>
+		<category><![CDATA[Vought]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/09/trump-planning-to-hand-veto-power-over-nih-grants-to-political-appointee/</guid>
+
+                                    <description>
+                        <![CDATA[Pending move comes over the objections of the NIH director.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Friday, The Washington Post reported on <a href="https://www.washingtonpost.com/politics/2026/09/18/vought-pushes-scrutiny-nih-grants-oval-office-clash/">a contentious White House meeting</a> in which the director of the National Institutes of Health (NIH), Jay Bhattacharya, tried to fend off yet another effort to place funding decisions under political control. The move came from Russell Vought, head of the Office of Management and Budget (OMB), which has sought to limit and control research funds. The Post suggested that Bhattacharya ended up on the losing side of the fight.</p>
+<p>This initial leak has been confirmed and expanded on by outlets such as <a href="https://www.nytimes.com/2026/09/20/science/nih-omb-grants-bhattacharya-vought.html?unlocked_article_code=1.ClE.Q7fi.orvsdo7EXsaA&amp;smid=url-share">The New York Times</a> and <a href="https://www.politico.com/news/2026/09/19/nih-grants-trump-vought-bhattacharya-harvard-01085413">Politico</a>. It now appears that the administration is drafting an executive order that would give Vought veto power over every individual grant awarded by the NIH.</p>
+<h2>If at first you don't succeed</h2>
+<p>The NIH is the largest funder of biomedical research on the planet, and its $47 billion budget is larger than that of the next 10 research funders combined. Its funding, distributed largely through grants to academic researchers at universities, supports everything from basic biological research to clinical trials and has helped the biotechnology industry flourish.</p><p><a href="https://arstechnica.com/science/2026/09/trump-planning-to-hand-veto-power-over-nih-grants-to-political-appointee/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/09/trump-planning-to-hand-veto-power-over-nih-grants-to-political-appointee/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>167</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2287518863-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2287518863-500x500.jpg" width="500" height="500" />
+<media:credit>Bill Clark</media:credit></media:content>
+            </item>
+                    <item>
+                <title>T. rex teeth indicate it ran as warm as an elephant</title>
+                <link>https://arstechnica.com/science/2026/09/t-rex-teeth-indicate-it-ran-as-warm-as-an-elephant/</link>
+                                    <comments>https://arstechnica.com/science/2026/09/t-rex-teeth-indicate-it-ran-as-warm-as-an-elephant/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jacek Krywko]]>
+                </dc:creator>
+                <pubDate>Sun, 20 Sep 2026 09:00:11 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[dinosaurs]]></category>
+		<category><![CDATA[paleontology]]></category>
+		<category><![CDATA[phsiology]]></category>
+		<category><![CDATA[warm blooded]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/09/t-rex-teeth-indicate-it-ran-as-warm-as-an-elephant/</guid>
+
+                                    <description>
+                        <![CDATA[Isotope ratios provide a hint that the giants were actively managing temperatures.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>For most of the last century, <em>T. rex</em> was pictured as a sluggish, tail-dragging reptile that had to warm up in the sun before it could go anywhere. Then, further research changed that view, replacing it with the active, bird-like animal shown in the movie <em>Jurassic Park</em>. But whether <em>T. rex</em> used warm blood to power that activity remained a question. Now we might have gotten closer to an answer.</p>
+<p>A team of researchers led by Randon J. Flores and Robert A. Eagle, geochemists at the University of California, Los Angeles, has measured the <em>T. rex</em> body temperature by analyzing its teeth. This dental thermometer read about 36° Celsius—roughly the body temperature of a modern elephant.</p>
+<h2>Dental thermometry</h2>
+<p>Paleontologists have long argued about dinosaur physiology based on indirect evidence like bone microstructure, growth rates, and where fossils turn up on the map. Some studies suggested many dinosaurs were endotherms, generating their own body heat like birds and mammals. Others argued that each lineage may have had its own thermal strategy.</p><p><a href="https://arstechnica.com/science/2026/09/t-rex-teeth-indicate-it-ran-as-warm-as-an-elephant/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/09/t-rex-teeth-indicate-it-ran-as-warm-as-an-elephant/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>56</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1485364132-1152x648-1789756447.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1485364132-500x500-1789756455.jpg" width="500" height="500" />
+<media:credit>duoogle</media:credit></media:content>
+            </item>
+            </channel>
+</rss>

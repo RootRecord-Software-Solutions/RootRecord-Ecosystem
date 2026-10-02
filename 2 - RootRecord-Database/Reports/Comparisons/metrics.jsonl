@@ -1117,3 +1117,5 @@
 {"at":"2026-10-02T12:31:57-10:00","key":"analytics.radio.listeners_max","value":3.0}
 {"at":"2026-10-02T12:31:57-10:00","key":"analytics.radio.listen_minutes_est","value":1020.0}
 {"at":"2026-10-02T12:31:57-10:00","key":"tasks.open","value":8.0}
+{"at":"2026-10-02T12:52:38-10:00","key":"hurricane.Nolo.nm","value":474.0}
+{"at":"2026-10-02T12:52:38-10:00","key":"hurricane.Nolo.knots","value":65.0}

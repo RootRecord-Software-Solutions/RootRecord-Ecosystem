@@ -7136,6 +7136,78 @@
           "published_at": "2026-10-02T19:13:50Z"
         }
       ]
+    },
+    {
+      "id": "304c477a3a328dce",
+      "cluster_id": "c_4f9ccdc7bd876d3b",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_4f9ccdc7bd876d3b.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_4f9ccdc7bd876d3b.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Why Carney\u2019s economic overhaul is clashing with Canada\u2019s unions",
+          "url": "https://www.aljazeera.com/economy/2026/10/2/why-carneys-economic-overhaul-is-clashing-with-canadas-unions?traffic_source=rss",
+          "published_at": "2026-10-02T22:14:34Z"
+        }
+      ]
+    },
+    {
+      "id": "ab7f3ca7b035411b",
+      "cluster_id": "c_6e7a748b03d9865f",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_6e7a748b03d9865f.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_6e7a748b03d9865f.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Police bodycam shows Luigi Mangione arrest at Pennsylvania McDonald\u2019s",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/police-bodycam-shows-luigi-mangione-arrest-at-pennsylvania?traffic_source=rss",
+          "published_at": "2026-10-02T21:59:11Z"
+        }
+      ]
+    },
+    {
+      "id": "0b3121b591b41820",
+      "cluster_id": "c_960939b43750ccdc",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_960939b43750ccdc.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_960939b43750ccdc.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Israel could\u2019ve ended Gaza war, freed captives sooner: Israel ex-negotiator",
+          "url": "https://www.aljazeera.com/news/2026/10/2/israel-couldve-ended-gaza-war-freed-captives-sooner-israel-ex-negotiator?traffic_source=rss",
+          "published_at": "2026-10-02T21:53:17Z"
+        }
+      ]
+    },
+    {
+      "id": "e88c34ac4c69e5a2",
+      "cluster_id": "c_7c547589df2cc625",
+      "program": "DEVELOPER_BRIEF",
+      "report": "developer_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/developer_brief/c_7c547589df2cc625.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/developer_brief/c_7c547589df2cc625.speak.txt",
+      "sources": [
+        {
+          "publisher": "GitHub",
+          "source": "GitHub Changelog",
+          "title": "Stateless GitHub App installation tokens rolled out",
+          "url": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
+          "published_at": "2026-10-02T22:18:23Z"
+        }
+      ]
     }
   ]
 }
