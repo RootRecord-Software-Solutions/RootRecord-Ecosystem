@@ -62,14 +62,7 @@ RootRecord-Library/
 │  ├─ Bruce-Agent-Context/
 │  └─ Carly-Agent-Context/
 ├─ Documentation/
-│  ├─ 00-architecture/          Decisions, Governance, Schemas. Topic pages live in the numbered folders.
-│  ├─ 10-AI-and-Agent-Runtime/
-│  ├─ 11-Runtime-Jobs-and-Control/
-│  ├─ 12-Pacific-Server-Current-Architecture/
-│  ├─ 13-Migration-and-Legacy-Recovery/
-│  ├─ 14-Products-Repositories-and-Applications/
-│  ├─ 15-Domains-and-External-Systems/
-│  ├─ 16-Communications/
+│  ├─ 00-architecture/          Decisions, Governance, Schemas.
 │  ├─ 01-operations/
 │  ├─ 02-agents/
 │  ├─ 03-security/
@@ -80,6 +73,13 @@ RootRecord-Library/
 │  ├─ 07-testing/
 │  ├─ 08-ideas/
 │  ├─ 09-desired-upgrades/
+│  ├─ 10-AI-and-Agent-Runtime/
+│  ├─ 11-Runtime-Jobs-and-Control/
+│  ├─ 12-Pacific-Server-Current-Architecture/
+│  ├─ 13-Migration-and-Legacy-Recovery/
+│  ├─ 14-Products-Repositories-and-Applications/
+│  ├─ 15-Domains-and-External-Systems/
+│  ├─ 16-Communications/
 │  └─ archive/
 ├─ Guides & Tutorials/        How to read and edit code, teaching desk
 ├─ prompts/                   Pointer only. The how-to lives in Guides.
