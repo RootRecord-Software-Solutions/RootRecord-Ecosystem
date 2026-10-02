@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-02T02:46:08-10:00",
+  "at": "2026-10-02T02:51:30-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 28,
-  "count_m2": 28,
-  "count_m25": 27,
+  "count": 29,
+  "count_m2": 29,
+  "count_m25": 28,
   "largest": {
     "id": "us6000tyzl",
     "mag": 5.1,
@@ -14,7 +14,7 @@
     "time_hst": "2026-10-01T18:44:53.423000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-02T12:45:19+00:00",
+  "usgs_generated_utc": "2026-10-02T12:51:19+00:00",
   "events": [
     {
       "id": "us6000tz12",
@@ -198,6 +198,22 @@
       "tsunami": 0,
       "type": "earthquake",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyzy",
+      "nearest": null
+    },
+    {
+      "id": "aka2026tmocjx",
+      "mag": 4,
+      "mag_type": "ml",
+      "place": "75 km SE of Adak, Alaska",
+      "time_utc": "2026-10-02T06:02:57.320000+00:00",
+      "time_hst": "2026-10-01T20:02:57.320000-10:00",
+      "lon": -175.993,
+      "lat": 51.328,
+      "depth_km": 17.3,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tmocjx",
       "nearest": null
     },
     {

@@ -8,7 +8,7 @@ Pacific Solar Server desk panel. Written for someone sitting at the machine who 
 
 This handbook is a picture of one night. Battery percentages, log ages, and "PASS" dots will be different when you open it tomorrow. The layout, the buttons, and the rules will not.
 
-**Current enhance (2026-10-02 ~02:32 HST, Master → Wren, desk-local):** Automations **data-poll toggle** (Local Pacific vs ML2 / `RR_LOCAL_DATA_POLL`) landed under Pacific `Apps/Control-Panel/` — new `Lib/rr_data_poll.py`; `Lib/rr_settings.py` defaults dry-run / desired=local / apply_dropin=false; Automations section Local Pacific vs ML2; Settings keys; README + example `Automations/config/data_poll_mode.example.yaml`. Toggle not replacement; confirm before write; no auto poller restart; live collectors not flipped this session. Prior: Energy header/page **LOW** / **CRITICAL** / **STALE**; refresh stamp; AWS Fallback mode-aware; Settings → Panel AWS keys; `Lib/rr_migration.json` **as_of 2026-10-02 00:20 HST** — **6 BLOCKED / 8 VERIFY PENDING**. Safety unchanged. **Needs Alexander:** restart Root Monitor to load the GTK; B2 ~1% check; migration closes still his.
+**Current enhance (2026-10-02 ~02:32 UI / ~02:50 live flip HST, Master → Wren, desk-local):** Automations **data-poll toggle** (Local Pacific vs ML2 / `RR_LOCAL_DATA_POLL`) under Pacific `Apps/Control-Panel/` — `Lib/rr_data_poll.py`; code defaults dry-run / desired=local / apply_dropin=false; Automations Local Pacific vs ML2; Settings keys; example `Automations/config/data_poll_mode.example.yaml`. Toggle not replacement; confirm before write; panel does not auto-restart the poller. **Live (~02:50 HST):** write mode applied — `desired=ml2`, drop-in `rr-data-poll.conf` `RR_LOCAL_DATA_POLL=0`, intent `data_poll_mode.yaml` `mode=remote`, poller restarted; verified `live_raw=0` / `live_label=ML2 offload`, `:8799` HTTP 200. Clears earlier “not flipped” / default-local-ON-as-current-live notes. Prior: Energy header/page **LOW** / **CRITICAL** / **STALE**; refresh stamp; AWS Fallback mode-aware; Settings → Panel AWS keys; `Lib/rr_migration.json` **as_of 2026-10-02 00:20 HST** — **6 BLOCKED / 8 VERIFY PENDING**. Safety unchanged. **Needs Alexander:** B2 ~1% check; migration closes still his.
 
 ---
 
@@ -312,10 +312,12 @@ How many lines: `log_lines` in Settings → Panel, default 40.
 
 ### Data poll — Local Pacific vs ML2 (2026-10-02)
 
-Top of the Automations page. Shows the live poller `RR_LOCAL_DATA_POLL` state (unset = Local Pacific ON), panel desired mode, and an AWS Fallback-style toggle (`Data poll: Local Pacific` / `Data poll: ML2`).
+Top of the Automations page. Shows the live poller `RR_LOCAL_DATA_POLL` state (unset/`1` = Local Pacific ON fail-safe; `0` = ML2 offload), panel desired mode, and an AWS Fallback-style toggle (`Data poll: Local Pacific` / `Data poll: ML2`).
 
-- **DRY-RUN** (default, `data_poll_toggle_mode`): confirm shows the exact change, then writes nothing. Toast: `dry-run: data poll → … not written`.
-- **WRITE** (Settings → Panel sign-off): confirm → saves `data_poll_desired` + Database `System/control-panel/data_poll_mode.yaml`. Live collectors stay running. Optional `data_poll_apply_dropin` also writes `rr-data-poll.conf`; you still restart the poller yourself after ML2 stream banks are verified.
+**Current live (~02:50 HST):** `desired=ml2` / intent `mode=remote` / drop-in `RR_LOCAL_DATA_POLL=0`; poller restarted; verified `live_raw=0` / `live_label=ML2 offload`, `:8799` HTTP 200. Collectors stay installed; gate flipped only.
+
+- **DRY-RUN** (code default, `data_poll_toggle_mode`): confirm shows the exact change, then writes nothing. Toast: `dry-run: data poll → … not written`.
+- **WRITE** (Settings → Panel sign-off): confirm → saves `data_poll_desired` + Database `System/control-panel/data_poll_mode.yaml`. Home collectors stay installed (toggle not replacement). Optional `data_poll_apply_dropin` also writes `rr-data-poll.conf`; you still restart the poller yourself after ML2 stream banks are verified.
 - Fail-safe: prefer Local Pacific if AWS/ML2 is down. Never delete home collectors. EcoFlow/Energy stay Pacific-only.
 - Gated job ids are labelled `RR_LOCAL_DATA_POLL gate` in the job list.
 
