@@ -9,7 +9,7 @@
             <link>https://www.bbc.co.uk/news/business</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 02 Oct 2026 10:39:57 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Oct 2026 12:11:18 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/business/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
@@ -31,11 +31,11 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca3a/live/a79a57d0-be2a-11f1-bc2e-018d645d8d21.jpg"/>
         </item>
         <item>
-            <title><![CDATA[UK diesel price hits £2 a litre for first time, RAC says]]></title>
-            <description><![CDATA[The motoring body says diesel price rises are showing no signs of slowing, "heaping more misery" onto drivers.]]></description>
+            <title><![CDATA[UK diesel price hits £2 a litre as US calls for Europe to release more stocks]]></title>
+            <description><![CDATA[The RAC says diesel price rises are showing no signs of slowing, "heaping more misery" onto drivers.]]></description>
             <link>https://www.bbc.co.uk/news/articles/crn8e86y5n0zo?at_medium=RSS&amp;at_campaign=rss</link>
             <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/crn8e86y5n0zo#0</guid>
-            <pubDate>Fri, 02 Oct 2026 10:11:14 GMT</pubDate>
+            <pubDate>Fri, 02 Oct 2026 11:17:31 GMT</pubDate>
             <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eafc/live/b2d4f150-bd71-11f1-8134-9503562e5ca9.jpg"/>
         </item>
         <item>
@@ -320,6 +320,14 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/985c/live/f13cd3e0-96f7-11f1-870d-5d08c49babb2.jpg"/>
         </item>
         <item>
+            <title><![CDATA[Sky-high fuel prices push costs up on customers and charities]]></title>
+            <description><![CDATA[Growing fuel costs are leading to an increase in costs for charities and other businesses.]]></description>
+            <link>https://www.bbc.co.uk/news/videos/cmwyv44wvre9o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/videos/cmwyv44wvre9o#3</guid>
+            <pubDate>Fri, 02 Oct 2026 11:36:08 GMT</pubDate>
+            <media:thumbnail width="240" height="426" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6b2/live/663bc740-be54-11f1-bc2e-018d645d8d21.jpg"/>
+        </item>
+        <item>
             <title><![CDATA[Diesel prices in NI at highest level since Iran war began]]></title>
             <description><![CDATA[The average price of a litre of diesel hit 193.3p this week, according to NI Consumer Council data.]]></description>
             <link>https://www.bbc.co.uk/news/articles/c64g7gn4v99go?at_medium=RSS&amp;at_campaign=rss</link>
@@ -342,14 +350,6 @@
             <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/c3n070vxkjl9o#3</guid>
             <pubDate>Fri, 02 Oct 2026 07:00:57 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fdc7/live/4ee5a0b0-be32-11f1-bc2e-018d645d8d21.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Lorry training firm 'riding out' record diesel price]]></title>
-            <description><![CDATA[Fuel prices have been steadily rising since the US-Israel war with Iran began in February.]]></description>
-            <link>https://www.bbc.co.uk/news/articles/cqm2m27mjpx5o?at_medium=RSS&amp;at_campaign=rss</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/cqm2m27mjpx5o#3</guid>
-            <pubDate>Fri, 02 Oct 2026 05:33:54 GMT</pubDate>
-            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d2b/live/e6763e50-bdc2-11f1-964e-45603b94c961.jpg"/>
         </item>
         <item>
             <title><![CDATA[My hometown shows that high streets have to change or die]]></title>
@@ -400,6 +400,14 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/645f/live/09d85870-be3a-11f1-bc2e-018d645d8d21.jpg"/>
         </item>
         <item>
+            <title><![CDATA[Business Daily]]></title>
+            <description><![CDATA[Protests about 87-year-old Mariacarmen Abascal's eviction reignited the housing debate]]></description>
+            <link>https://www.bbc.co.uk/sounds/play/w3ct8g9w?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/sounds/play/w3ct8g9w#5</guid>
+            <pubDate>Thu, 01 Oct 2026 20:30:00 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/images/ic/240x135/p0pdd20t.jpg"/>
+        </item>
+        <item>
             <title><![CDATA[Is it time to ditch premium bonds?]]></title>
             <description><![CDATA[Martin Lewis says though they are the UK's most popular form of savings, not everybody benefits from them.
  
@@ -408,14 +416,6 @@ Martin explains who premium bonds are best for, and who they aren’t so good fo
             <guid isPermaLink="false">https://www.bbc.co.uk/news/videos/cmy5z5qx19pwo#5</guid>
             <pubDate>Thu, 01 Oct 2026 15:28:18 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31ef/live/ec05bb30-bda8-11f1-bc2e-018d645d8d21.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[The Bottom Line]]></title>
-            <description><![CDATA[How does the antiques industry work and is it accurately portrayed on television shows?]]></description>
-            <link>https://www.bbc.co.uk/sounds/play/m00325cs?at_medium=RSS&amp;at_campaign=rss</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/sounds/play/m00325cs#5</guid>
-            <pubDate>Thu, 01 Oct 2026 11:30:00 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/images/ic/240x135/p0m2ffyg.jpg"/>
         </item>
     </channel>
 </rss>

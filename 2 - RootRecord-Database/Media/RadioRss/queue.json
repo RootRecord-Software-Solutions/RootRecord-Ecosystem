@@ -5433,6 +5433,24 @@
           "published_at": "2026-10-02T10:56:57Z"
         }
       ]
+    },
+    {
+      "id": "3b691c16b2d5ecbe",
+      "cluster_id": "c_664713669cfe06a7",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_664713669cfe06a7.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_664713669cfe06a7.speak.txt",
+      "sources": [
+        {
+          "publisher": "Defense News",
+          "source": "Defense News",
+          "title": "US leaders send mixed messages to Indo-Pacific nations",
+          "url": "https://www.defensenews.com/global/asia-pacific/2026/10/02/us-leaders-send-mixed-messages-to-indo-pacific-nations/",
+          "published_at": "2026-10-02T11:55:33Z"
+        }
+      ]
     }
   ]
 }
