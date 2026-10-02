@@ -4634,6 +4634,24 @@
           "published_at": "2026-10-01T18:26:12Z"
         }
       ]
+    },
+    {
+      "id": "796bc2b732fbffb9",
+      "cluster_id": "c_7b8878004f13e06a",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_7b8878004f13e06a.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_7b8878004f13e06a.speak.txt",
+      "sources": [
+        {
+          "publisher": "ESA",
+          "source": "ESA Top News",
+          "title": "Earth from Space: Typhoon Surigae",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Earth_from_Space_Typhoon_Surigae",
+          "published_at": "2026-10-02T09:00:00Z"
+        }
+      ]
     }
   ]
 }
