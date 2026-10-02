@@ -15,8 +15,11 @@ fi
 exec 9>/tmp/rr-radio-watch.lock
 flock -n 9 || exit 0
 
-HERE="$(cd "$(dirname "$0")/.." && pwd)"
-ROOT="${RADIO_ROOT:-$HERE/rootrecord-radio}"
+REAL="$(readlink -f "$0")"
+# shellcheck source=runtime-path.sh
+. "$(dirname "$REAL")/runtime-path.sh"
+ROOT="$(runtime_root "$0")" || exit 1
+HERE="$(cd "$ROOT/.." && pwd)"
 STATE="${RADIO_WATCH_STATE:-$ROOT/watch.json}"
 mkdir -p "$(dirname "$STATE")" "$ROOT/state"
 

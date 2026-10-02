@@ -12,12 +12,22 @@ const fs = require('fs');
 const path = require('path');
 const { spawn } = require('child_process');
 
+function runtimeRoot() {
+  if (process.env.RADIO_ROOT) return path.resolve(process.env.RADIO_ROOT);
+  const cwd = process.cwd();
+  if (fs.existsSync(path.join(cwd, 'audio'))) return cwd;
+  const beside = path.resolve(__dirname, '..', 'rootrecord-radio');
+  if (fs.existsSync(path.join(beside, 'audio'))) return beside;
+  return cwd;
+}
+
 const HOST = process.env.HOST || '127.0.0.1';
 const PORT = Number(process.env.PORT || 8092);
-const AUDIO = process.env.RADIO_DIR || '/home/ubuntu/rootrecord-radio/audio';
+const RUNTIME = runtimeRoot();
+const AUDIO = process.env.RADIO_DIR || path.join(RUNTIME, 'audio');
 const REPORTS = process.env.RADIO_REPORTS_DIR || path.join(AUDIO, 'reports');
-const HEARTBEAT = process.env.RADIO_HEARTBEAT || '/home/ubuntu/rootrecord-radio/state/heartbeat';
-const DEPLOY_FILE = process.env.RADIO_DEPLOY_PENDING || '/home/ubuntu/rootrecord-radio/deploy-pending';
+const HEARTBEAT = process.env.RADIO_HEARTBEAT || path.join(RUNTIME, 'state', 'heartbeat');
+const DEPLOY_FILE = process.env.RADIO_DEPLOY_PENDING || path.join(RUNTIME, 'deploy-pending');
 const RELEASE = process.env.RADIO_RELEASE || '';
 process.env.RADIO_DIR = AUDIO;
 process.env.RADIO_REPORTS_DIR = REPORTS;

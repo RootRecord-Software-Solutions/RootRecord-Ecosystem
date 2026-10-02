@@ -6,7 +6,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const AUDIO = process.env.RADIO_DIR || path.join(__dirname, '..', 'communications', 'rootrecord-radio', 'audio');
+const RUNTIME = process.env.RADIO_ROOT || process.cwd();
+const AUDIO = process.env.RADIO_DIR || path.join(RUNTIME, 'audio');
 const REPORTS = process.env.RADIO_REPORTS_DIR || path.join(AUDIO, 'reports');
 const PLAY_LOG = process.env.RADIO_PLAY_LOG || path.join(path.dirname(AUDIO), 'plays.log');
 const MUSIC_NAME = /^[A-Za-z0-9][A-Za-z0-9 ._-]{0,180}\.mp3$/;

@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-01T21:20:19-10:00",
+  "at": "2026-10-01T21:34:48-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 31,
-  "count_m2": 31,
-  "count_m25": 30,
+  "count": 32,
+  "count_m2": 32,
+  "count_m25": 31,
   "largest": {
     "id": "us6000tytg",
     "mag": 5.3,
@@ -14,7 +14,7 @@
     "time_hst": "2026-10-01T02:27:11.864000-10:00"
   },
   "new_this_run": 1,
-  "usgs_generated_utc": "2026-10-02T07:20:19+00:00",
+  "usgs_generated_utc": "2026-10-02T07:34:19+00:00",
   "events": [
     {
       "id": "us6000tyzx",
@@ -30,6 +30,22 @@
       "tsunami": 0,
       "type": "earthquake",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyzx",
+      "nearest": null
+    },
+    {
+      "id": "us6000tyzy",
+      "mag": 4.5,
+      "mag_type": "mb",
+      "place": "101 km NE of Ruteng, Indonesia",
+      "time_utc": "2026-10-02T06:48:06.954000+00:00",
+      "time_hst": "2026-10-01T20:48:06.954000-10:00",
+      "lon": 121.0985,
+      "lat": -7.9511,
+      "depth_km": 10,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyzy",
       "nearest": null
     },
     {

@@ -10,3 +10,7 @@ rootrecord-radio/state/
 rootrecord-radio/deploy-pending
 rootrecord-radio/plays.log
 rootrecord-radio/watch.json
+rootrecord-radio/radio-run.sh
+rootrecord-radio/radio-station-watch.sh
+rootrecord-radio/radio-plays-purge.sh
+rootrecord-radio/radio-watch.sh

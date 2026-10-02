@@ -4,17 +4,16 @@
 # failure for systemd to restart. This script does not schedule audio.
 set -u
 
-SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-if [[ -z "${RADIO_ROOT:-}" ]]; then
-  if [[ -d "$SCRIPT_DIR/../rootrecord-radio/audio" ]]; then
-    RADIO_ROOT="$(cd "$SCRIPT_DIR/../rootrecord-radio" && pwd)"
-  elif [[ -d "$SCRIPT_DIR/audio" ]]; then
-    RADIO_ROOT="$SCRIPT_DIR"
-  else
-    RADIO_ROOT="/home/ubuntu/rootrecord-radio"
-  fi
+REAL="$(readlink -f "$0")"
+LIB="$(dirname "$REAL")/runtime-path.sh"
+if [[ -f "$LIB" ]]; then
+  # shellcheck source=runtime-path.sh
+  . "$LIB"
+  ROOT="$(runtime_root "$0")" || exit 1
+else
+  ROOT="${RADIO_ROOT:-$(cd "$(dirname "$0")" && pwd)}"
 fi
-ROOT="$RADIO_ROOT"
+export RADIO_ROOT="$ROOT"
 ACTIVE="$ROOT/active"
 PENDING="${RADIO_DEPLOY_PENDING:-$ROOT/deploy-pending}"
 export RADIO_DIR="${RADIO_DIR:-$ROOT/audio}"

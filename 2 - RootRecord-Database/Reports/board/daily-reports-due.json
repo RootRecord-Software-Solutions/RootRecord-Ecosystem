@@ -25,13 +25,13 @@
       "marked_due_at": "2026-10-01T12:03:48-10:00"
     },
     "late": {
-      "status": "due",
+      "status": "done",
       "scheduled_at": "2026-10-01T21:00:00",
       "hour": 21,
       "minute": 0,
       "mandatory": false,
       "catch_up_allowed": false,
-      "completed_at": null,
+      "completed_at": "2026-10-01T21:14:33-10:00",
       "error": null,
       "started_at": null,
       "marked_due_at": "2026-10-01T21:07:24-10:00"
@@ -80,5 +80,5 @@
       }
     }
   },
-  "updated_at": "2026-10-01T21:12:28-10:00"
+  "updated_at": "2026-10-01T21:35:56-10:00"
 }
