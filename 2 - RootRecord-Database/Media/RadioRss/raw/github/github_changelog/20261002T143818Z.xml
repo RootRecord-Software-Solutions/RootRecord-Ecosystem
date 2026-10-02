@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Archive: 2026 - GitHub Changelog</title>
+	<atom:link href="https://github.blog/changelog/feed/" rel="self" type="application/rss+xml" />
+	<link>https://github.blog/changelog/</link>
+	<description>Updates, ideas, and inspiration from GitHub to help developers build and design software.</description>
+	<lastBuildDate>Fri, 02 Oct 2026 13:20:12 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=7.1.2</generator>
+
+<image>
+	<url>https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=32%2C32</url>
+	<title>Archive: 2026 - GitHub Changelog</title>
+	<link>https://github.blog/changelog/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">153214340</site>	<item>
+		<title>Confidential comments on repository security advisories</title>
+		<link>https://github.blog/changelog/2026-10-02-confidential-comments-on-repository-security-advisories</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Fri, 02 Oct 2026 13:15:40 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-10-02-confidential-comments-on-repository-security-advisories</guid>
+
+					<description><![CDATA[<p>You can now post confidential comments on repository security advisories. Confidential comments are visible only to people with write access to the repository, so you can discuss a report with&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-10-02-confidential-comments-on-repository-security-advisories">Confidential comments on repository security advisories</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>You can now post confidential comments on repository security advisories. Confidential comments are visible only to people with write access to the repository, so you can discuss a report with your team without the reporter or other invited collaborators seeing it.</p>
+<p>Previously, every comment on an advisory was visible to all of its collaborators, including the reporter. To discuss suspected abuse, investigation details, or coordination notes, you had to move the conversation somewhere else and lose it from the advisory&rsquo;s history.</p>
+<p>With this update:</p>
+<ul>
+<li>Select <strong>Confidential. Only maintainers will see this comment</strong> below the comment box before you post.</li>
+<li>Confidential comments are clearly marked in the advisory timeline.</li>
+<li>Reporters and invited collaborators without write access can&rsquo;t see confidential comments and aren&rsquo;t notified about them.</li>
+<li>Access follows current repository permissions. If someone loses write access, they can no longer read confidential comments.</li>
+<li>Views of confidential comments are recorded in the audit log.</li>
+</ul>
+<p>You can&rsquo;t switch a comment between confidential and regular after you post it. Confidential comments are available in the GraphQL API, but they aren&rsquo;t returned by the REST API.</p>
+<p>This is available for public repositories with private vulnerability reporting enabled on GitHub Free, GitHub Pro, GitHub Team, and GitHub Enterprise Cloud.</p>
+<p><a href="https://docs.github.com/code-security/concepts/vulnerability-reporting-and-management/repository-security-advisories">Learn more about repository security advisories</a>.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-10-02-confidential-comments-on-repository-security-advisories">Confidential comments on repository security advisories</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Release]]></category>
+<category domain="changelog-label"><![CDATA[supply chain security]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">99244</post-id>	</item>
+		<item>
+		<title>Rate limits for private vulnerability reports</title>
+		<link>https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Thu, 01 Oct 2026 19:57:39 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports</guid>
+
+					<description><![CDATA[<p>Open source maintainers are receiving more low-quality and automated vulnerability reports, which can bury the reports that matter. Rate limits cap how many new reports a single account can submit&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports">Rate limits for private vulnerability reports</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>Open source maintainers are receiving more low-quality and automated vulnerability reports, which can bury the reports that matter. Rate limits cap how many new reports a single account can submit in a day, both to your repository and across GitHub. This helps protect you from bulk and automated submissions, while legitimate researchers can still reach you.</p>
+<p>With this update:</p>
+<ul>
+<li>Private vulnerability reporting now applies daily per-user rate limits to new reports. </li>
+<li>Reporters who reach a limit see a message asking them to try again later.</li>
+<li>Limits apply only to new reports. Comments on existing advisories aren&rsquo;t affected.</li>
+<li>Repository administrators can set a custom daily overall reporting limit for their repository.</li>
+<li>Repository administrators can add trusted reporters to an allow list so they&rsquo;re never rate limited.</li>
+</ul>
+<p>To configure these settings, go to your repository&rsquo;s settings, select <strong>Advanced Security</strong>, and click <strong>Settings</strong> next to &ldquo;Private vulnerability reporting.&rdquo;</p>
+<p>This is available for public repositories with private vulnerability reporting enabled on GitHub Free, GitHub Pro, GitHub Team, and GitHub Enterprise Cloud.</p>
+<p>Learn more in <a href="https://docs.github.com/code-security/how-tos/report-and-fix-vulnerabilities/configure-vulnerability-reporting/configure-for-a-repository">our docs about configuring private vulnerability reporting</a>.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports">Rate limits for private vulnerability reports</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Improvement]]></category>
+<category domain="changelog-label"><![CDATA[supply chain security]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">99231</post-id>	</item>
+		<item>
+		<title>Structured forms for private vulnerability reports</title>
+		<link>https://github.blog/changelog/2026-10-01-structured-forms-for-private-vulnerability-reports</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Thu, 01 Oct 2026 19:57:28 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-10-01-structured-forms-for-private-vulnerability-reports</guid>
+
+					<description><![CDATA[<p>Private vulnerability reports can now use a structured form that asks reporters for the details you need to assess a vulnerability, including a reproducible proof of concept. A single free-text&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-10-01-structured-forms-for-private-vulnerability-reports">Structured forms for private vulnerability reports</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>Private vulnerability reports can now use a structured form that asks reporters for the details you need to assess a vulnerability, including a reproducible proof of concept.</p>
+<p>A single free-text box made it easy to submit low-quality or AI-generated reports and hard for you to find the signal in them. Now, by default, reporters must fill in four required fields: summary, details, proof of concept (at least 150 characters), and impact. Their answers are combined into the advisory description, so you review and edit the report as you do today.</p>
+<p>With this update:</p>
+<ul>
+<li>You can customize the form by adding a <code>.github/VULNERABILITY_REPORT.yml</code> file to your repository&rsquo;s default branch. To apply a form to all repositories you own, add it to your organization or account&rsquo;s <code>.github</code> repository. Forms use issue form syntax, and fields support <code>min_length</code> so you can require a minimum level of detail. If your form is invalid, the default form is used.</li>
+<li>You can require reporters to assign a CWE before they submit, from <strong>Settings</strong> &gt; <strong>Advanced Security</strong> &gt; <strong>Private vulnerability reporting</strong>. Organization and enterprise owners can enforce this setting through a policy.</li>
+<li>If your repository has a security policy, reporters see a banner linking to your <code>SECURITY.md</code> before they submit.</li>
+<li>Reporters can check &ldquo;I used AI assistance to find or write up this report&rdquo; to disclose AI use.</li>
+</ul>
+<p>If you add a custom form, reports submitted through the REST API must match it. The default form isn&rsquo;t enforced for the API, so existing integrations keep working. When an API submission doesn&rsquo;t match, the error points to a new endpoint that returns the form your repository enforces.</p>
+<p>This is available for public repositories with private vulnerability reporting enabled on GitHub Free, GitHub Pro, GitHub Team, and GitHub Enterprise Cloud.</p>
+<p><a href="https://docs.github.com/code-security/how-tos/report-and-fix-vulnerabilities/report-privately">Learn more about privately reporting a security vulnerability</a>.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-10-01-structured-forms-for-private-vulnerability-reports">Structured forms for private vulnerability reports</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Release]]></category>
+<category domain="changelog-label"><![CDATA[supply chain security]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">99229</post-id>	</item>
+		<item>
+		<title>GitHub Copilot can now interact with desktop apps with computer use</title>
+		<link>https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Thu, 01 Oct 2026 19:11:26 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps</guid>
+
+					<description><![CDATA[<p>Computer use is now available in public preview in GitHub Copilot CLI and the GitHub Copilot app on macOS and Windows. Copilot can interact with desktop applications on your behalf&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps">GitHub Copilot can now interact with desktop apps with computer use</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>Computer use is now available in public preview in GitHub Copilot CLI and the GitHub Copilot app on macOS and Windows.</p>
+<p>Copilot can interact with desktop applications on your behalf (e.g., reading accessible app content and visual context, clicking controls, entering and editing text, pressing keys, scrolling, dragging, and navigating workflows across applications). This expands the tasks Copilot can help automate, including workflows in legacy and GUI-only software that do not provide an API, command-line interface, or MCP integration.</p>
+<p><video loop controls autoplay muted width="100%" aria-label="Copilot uses computer-use tools to navigate an expense-report workflow in Safari." src="https://github.com/user-attachments/assets/866a9adf-4b90-4aef-9f92-b21dae47c551"><br>
+</video></p>
+<p>Copilot uses computer-use tools to navigate an expense-report workflow in Safari.</p>
+<p>You remain in control. Copilot asks for approval before controlling an app, and you can review or reset apps that you have chosen to always allow. On macOS, computer use also guides you through the required Accessibility and Screen Recording permissions. Organization-managed settings can disable the feature.</p>
+<p>To get started:</p>
+<ul>
+<li>In Copilot CLI, run <code>/computer on</code>. Use <code>/computer show</code> to check its status and <code>/computer off</code> to disable it.</li>
+<li>In the GitHub Copilot app, open <strong>Settings</strong>, select <strong>Computer Use</strong>, and turn on <strong>Enable Computer Use</strong>. You can also use <code>/computer on</code>.</li>
+</ul>
+<p>Computer use works best when you describe the outcome you want, the applications involved, and any important constraints. For example, you can ask Copilot to summarize notifications in a browser, update content in a presentation, or move information through a workflow in a desktop application.</p>
+<p>Learn more about <a href="https://docs.github.com/copilot/concepts/agents/computer-use">computer use in GitHub Copilot CLI and the GitHub Copilot app</a></p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps">GitHub Copilot can now interact with desktop apps with computer use</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Release]]></category>
+<category domain="changelog-label"><![CDATA[client apps]]></category>
+<category domain="changelog-label"><![CDATA[copilot]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">99220</post-id>	</item>
+		<item>
+		<title>GitHub Actions: macOS 14 runner image retirement</title>
+		<link>https://github.blog/changelog/2026-10-01-github-actions-macos-14-runner-image-retirement</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Thu, 01 Oct 2026 19:11:23 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-10-01-github-actions-macos-14-runner-image-retirement</guid>
+
+					<description><![CDATA[<p>The macOS 14 runner image will be retired on November 2, 2026. To raise awareness of the upcoming removal, jobs using macOS 14 will temporarily fail during the following scheduled&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-10-01-github-actions-macos-14-runner-image-retirement">GitHub Actions: macOS 14 runner image retirement</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>The macOS 14 runner image will be retired on November 2, 2026. To raise awareness of the upcoming removal, jobs using macOS 14 will temporarily fail during the following scheduled brownout periods:</p>
+<ul>
+<li>October 5, 14:00 UTC to October 6, 00:00 UTC</li>
+<li>October 12, 14:00 UTC to October 13, 00:00 UTC</li>
+<li>October 16, 14:00 UTC to October 17, 00:00 UTC</li>
+<li>October 19, 14:00 UTC to October 20, 00:00 UTC</li>
+<li>October 23, 14:00 UTC to October 24, 00:00 UTC</li>
+<li>October 26, 14:00 UTC to October 27, 00:00 UTC</li>
+<li>October 29, 14:00 UTC to October 30, 00:00 UTC</li>
+<li>October 30, 14:00 UTC to October 31, 00:00 UTC</li>
+</ul>
+<p>This deprecation includes the following labels:</p>
+<ul>
+<li><code>macos-14</code></li>
+<li><code>macos-14-large</code></li>
+<li><code>macos-14-xlarge</code></li>
+</ul>
+<p>During the lead-up to retirement, GitHub may reduce macOS 14 runner capacity, which could result in longer queue times for jobs that continue to use these labels.</p>
+<h3 id="what-you-need-to-do" id="what-you-need-to-do" ><a class="heading-link" href="#what-you-need-to-do">What you need to do<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h3>
+<p>Update your workflow files to use one of the following macOS arm64 labels:</p>
+<ul>
+<li><code>macos-latest</code> (<code>macos-26</code>)</li>
+<li><code>macos-15</code></li>
+<li><code>macos-latest-xlarge</code> (<code>macos-26-xlarge</code>)</li>
+<li><code>macos-15-xlarge</code></li>
+</ul>
+<p>For up-to-date information about available tools and software, see the <a href="https://github.com/actions/runner-images">runner images repository</a>. If you run into problems or need help, contact <a href="https://support.github.com/contact?form%5Bsubject%5D=Re%3A+GitHub+Actions&amp;tags=dotcom-contact-params">GitHub Support</a>.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-10-01-github-actions-macos-14-runner-image-retirement">GitHub Actions: macOS 14 runner image retirement</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Retired]]></category>
+<category domain="changelog-label"><![CDATA[actions]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">99219</post-id>	</item>
+		<item>
+		<title>GitHub Copilot in VS Code, September 2026 releases</title>
+		<link>https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Thu, 01 Oct 2026 19:09:10 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-10-01-github-copilot-in-visual-studio-code-september-2026-releases</guid>
+
+					<description><![CDATA[<p>This changelog covers VS Code v1.136 through v1.140, shipped throughout September 2026. September&#8217;s releases streamline agent-driven development from implementation through pull request merge. Automations handle repeatable tasks, agent merge helps&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases">GitHub Copilot in VS Code, September 2026 releases</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>This changelog covers VS Code <a href="https://aka.ms/VSCode/Release">v1.136 through v1.140</a>, shipped throughout September 2026.</p>
+<p>September&rsquo;s releases streamline agent-driven development from implementation through pull request merge. Automations handle repeatable tasks, agent merge helps land changes, and improved session management keeps work organized.</p>
+<p>Agents are also more flexible across workspaces, Dev Containers, and apps, while GitHub context helps you collaborate without breaking your flow.</p>
+<h2 id="agents-window" id="agents-window" ><a class="heading-link" href="#agents-window">Agents window<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>Agents window updates made it easier to automate work, manage sessions, and move changes from implementation to merge.</p>
+<ul>
+<li><strong>Let HydraFusion coordinate models:</strong> If eligible, enable preview features and select HydraFusion in the model picker to choose models and workflows for your coding tasks automatically. This feature is in research preview.
+</li>
+<li>
+<p><strong>Schedule recurring work:</strong> Use automations to run tasks on an hourly, daily, or weekly schedule or run them on demand. Start from a template or use your own prompt. This feature is in preview.</p>
+</li>
+<li>
+<p><strong>Get pull requests ready to merge:</strong> Enable agent merge in an active session to let the agent handle review feedback, failed checks, merge conflicts, and workflow reruns. This feature is in preview.</p>
+</li>
+<li>
+<p><strong>Create pull requests from agent sessions:</strong> Open the pull request form from a Copilot, Claude, or Codex agent session in the Agents window to review and edit the title and description, choose draft and merge options, and create the pull request.</p>
+</li>
+<li>
+<p><strong>Navigate related chats and sessions:</strong> Agents can now decide to create new chats or sessions. Easily switch to the source chat with the navigation link, or use the sessions list to view all related chats organized in a hierarchical view.</p>
+</li>
+<li>
+<p><strong>Keep completed sessions organized:</strong> Use <strong>Mark as Done</strong> suggestions after a session&rsquo;s pull requests merge, or configure automatic cleanup to keep your session list manageable. This feature is in preview.</p>
+</li>
+<li>
+<p><strong>See when sessions need attention:</strong> Enable the application badge to surface new results, input requests, and pull request checks on your dock, launcher, or taskbar. This feature is in preview.</p>
+</li>
+<li>
+<p><strong>Start Dev Container sessions from the Agents window:</strong> Select <strong>Use Dev Container</strong> from a local or remote folder&rsquo;s menu to run an agent session with your project&rsquo;s configured tools and dependencies, including on SSH, Tunnel, and WSL hosts.</p>
+</li>
+</ul>
+<p><video loop controls autoplay muted width="100%" src="https://github.com/user-attachments/assets/1eb0ee16-dadd-4a8d-977f-f04a31c01874"></video></p>
+<h2 id="workspaces-and-environments" id="workspaces-and-environments" ><a class="heading-link" href="#workspaces-and-environments">Workspaces and environments<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>Workspace and environment updates make it easier to continue conversations with the project context agents need.</p>
+<ul>
+<li><strong>Continue quick chats in a workspace:</strong> Start a general Copilot chat without a workspace, then attach a local folder when you want to make the conversation specific to that project.
+</li>
+<li>
+<p><strong>Continue Codex work across apps:</strong> Pick up a Codex conversation from the ChatGPT app in VS Code and start working on your codebase without copying and pasting context or files.</p>
+</li>
+</ul>
+<p><video loop controls autoplay muted width="100%" src="https://github.com/user-attachments/assets/d7e09a40-73dd-46be-b1ee-d409431f304c"></video></p>
+<h2 id="chat-and-integrations" id="chat-and-integrations" ><a class="heading-link" href="#chat-and-integrations">Chat and integrations<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>Chat updates keep agent conversations flowing and make it easier to bring in GitHub context.</p>
+<ul>
+<li><strong>Keep active chats uninterrupted:</strong> When an agent sends a message to an ongoing chat, it no longer interrupts the active turn.
+</li>
+<li>
+<p><strong>Attach GitHub context to any chat:</strong> Add a GitHub issue or pull request from <strong>Add Context</strong>, or paste its URL into the new-session input.</p>
+</li>
+</ul>
+<p><video loop controls autoplay muted width="100%" src="https://github.com/user-attachments/assets/721c1d83-f862-4f40-99d4-d9d8f3a52a8d"></video></p>
+<p>Browse the full release notes for <a href="https://aka.ms/VSCode/Release">VS Code 1.136, 1.137, 1.138, 1.139, and 1.140</a> to explore everything that&rsquo;s new.</p>
+<p>Download the latest version of <a href="https://code.visualstudio.com">VS Code</a> and, as always, happy coding!</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases">GitHub Copilot in VS Code, September 2026 releases</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Release]]></category>
+<category domain="changelog-label"><![CDATA[copilot]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">99218</post-id>	</item>
+		<item>
+		<title>Accessibility statements highlighted on repository overview</title>
+		<link>https://github.blog/changelog/2026-10-01-accessibility-statements-highlighted-on-repository-overview</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Thu, 01 Oct 2026 19:04:32 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-09-30-accessibility-statements-highlighted-on-repository-overview</guid>
+
+					<description><![CDATA[<p>You can now find an ACCESSIBILITY.md file in your repository&#8217;s root, the .github/ directory, or the docs/ directory highlighted on the repository overview. You can also add or propose an&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-10-01-accessibility-statements-highlighted-on-repository-overview">Accessibility statements highlighted on repository overview</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>You can now find an <code>ACCESSIBILITY.md</code> file in your repository&rsquo;s root, the <code>.github/</code> directory, or the <code>docs/</code> directory highlighted on the repository overview. You can also add or propose an accessibility statement from a public repository&rsquo;s Community Standards page.</p>
+<p>This improvement is available on all GitHub plans on github.com and will be available in GitHub Enterprise Server 3.24.</p>
+<p>For more information, see <a href="https://docs.github.com/communities/setting-up-your-project-for-healthy-contributions/adding-an-accessibility-page-to-your-repository">Adding an accessibility page to your repository</a>.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-10-01-accessibility-statements-highlighted-on-repository-overview">Accessibility statements highlighted on repository overview</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Improvement]]></category>
+<category domain="changelog-label"><![CDATA[ecosystem &amp; accessibility]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">99173</post-id>	</item>
+		<item>
+		<title>Actions retention now covers checks, runs, and statuses</title>
+		<link>https://github.blog/changelog/2026-10-01-actions-retention-now-covers-checks-runs-and-statuses</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Thu, 01 Oct 2026 17:59:54 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-10-01-actions-retention-now-covers-checks-runs-and-statuses</guid>
+
+					<description><![CDATA[<p>As previously announced, checks, workflow runs, and statuses are now governed by the same GitHub Actions retention setting that controls how long artifacts and logs are kept. These records are&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-10-01-actions-retention-now-covers-checks-runs-and-statuses">Actions retention now covers checks, runs, and statuses</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>As <a href="https://github.blog/changelog/2026-08-27-actions-retention-will-cover-checks-workflow-runs-and-statuses/">previously announced</a>, checks, workflow runs, and statuses are now governed by the same GitHub Actions retention setting that controls how long artifacts and logs are kept.</p>
+<p>These records are automatically cleaned up when they exceed the retention period configured for your enterprise, organization, or repository. This applies to checks and statuses created by GitHub Actions and third-party applications.</p>
+<p>The setting is labeled &ldquo;Check, workflow run, status, artifact and log retention&rdquo; in the UI. Repository retention remains subject to organization and enterprise caps, and the maximum retention for public repositories is 90 days. Changing the setting won&rsquo;t restore data that was previously removed.</p>
+<p>Review or update the <a href="https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository#setting-the-artifact-and-log-retention-period-for-a-repository">artifact and log retention period for your repository</a>. The expanded retention policy applies to GitHub Actions on github.com.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-10-01-actions-retention-now-covers-checks-runs-and-statuses">Actions retention now covers checks, runs, and statuses</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Retired]]></category>
+<category domain="changelog-label"><![CDATA[actions]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">99215</post-id>	</item>
+		<item>
+		<title>Scheduled code scanning skips inactive repositories</title>
+		<link>https://github.blog/changelog/2026-10-01-scheduled-code-scanning-skips-inactive-repositories</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Thu, 01 Oct 2026 16:49:15 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-10-01-scheduled-code-scanning-skips-inactive-repositories</guid>
+
+					<description><![CDATA[<p>Weekly scheduled scans for code scanning default setup and GitHub Code Quality now start only after a push or pull request triggers an analysis, rather than counting every kind of&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-10-01-scheduled-code-scanning-skips-inactive-repositories">Scheduled code scanning skips inactive repositories</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>Weekly scheduled scans for code scanning default setup and GitHub Code Quality now start only after a push or pull request triggers an analysis, rather than counting every kind of scan as recent activity.</p>
+<p>Previously, activity for a repository was based on any unscheduled scan, including the one-time validation scan that runs when you first enable default setup and scans triggered by a change in detected languages. That meant enabling default setup or rolling out a security configuration across many repositories at once could make a dormant repository look active for another six months and trigger weekly scheduled scans you didn&rsquo;t expect.</p>
+<p>The current behavior is as follows:</p>
+<ul>
+<li>Enabling default setup still runs an initial validation scan and populates findings right away.</li>
+<li>Weekly scheduled scanning only begins once a push or pull request triggers an analysis.</li>
+<li>This determination is based on analysis history, not on Git activity from before scanning was enabled.</li>
+<li>Activity continues to be shared between code scanning and Code Quality.</li>
+</ul>
+<p>If you manage code scanning or Code Quality across many repositories, you should see fewer unexpected weekly scans on repositories that haven&rsquo;t had recent development activity. This makes scanning behavior more predictable when you apply security configurations at scale. No configuration change is needed on your part.</p>
+<p>This applies to GitHub Enterprise Cloud today and will be supported in GitHub Enterprise Server 3.24. Learn more about <a href="https://docs.github.com/code-security/how-tos/find-and-fix-code-vulnerabilities/configure-code-scanning/configure-code-scanning">configuring default setup for code scanning</a>.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-10-01-scheduled-code-scanning-skips-inactive-repositories">Scheduled code scanning skips inactive repositories</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Improvement]]></category>
+<category domain="changelog-label"><![CDATA[application security]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">99211</post-id>	</item>
+		<item>
+		<title>Code coverage uploads no longer fail CI for new branches</title>
+		<link>https://github.blog/changelog/2026-10-01-code-coverage-uploads-no-longer-fail-ci-for-new-branches</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Thu, 01 Oct 2026 16:49:05 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-10-01-code-coverage-uploads-no-longer-fail-ci-for-new-branches</guid>
+
+					<description><![CDATA[<p>Code coverage uploads from the GitHub Code Quality upload-code-coverage action no longer fail CI when you push a branch that doesn&#8217;t yet have an open pull request. Previously, the coverage&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-10-01-code-coverage-uploads-no-longer-fail-ci-for-new-branches">Code coverage uploads no longer fail CI for new branches</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>Code coverage uploads from the GitHub Code Quality <code>upload-code-coverage</code> action no longer fail CI when you push a branch that doesn&rsquo;t yet have an open pull request.</p>
+<p>Previously, the coverage API required a pull request number for any push to a non-default branch. Since that number only exists once a pull request is open, pushing a new branch before opening a pull request caused the coverage-upload step to fail, even though nothing was actually wrong with your workflow.</p>
+<p>Now, when the action runs on a push to a branch without an associated pull request, it skips the upload instead of failing, and explains why in an Actions notice and step summary. This applies to:</p>
+<ul>
+<li>Pushes to branches that don&rsquo;t yet have an open pull request.</li>
+<li>Subsequent pushes to those branches, until a pull request is opened.</li>
+</ul>
+<p>Uploads for pushes to your default branch, and for supported pull request events, continue to work exactly as before, so you don&rsquo;t need to change any existing workflow configuration.</p>
+<p>If your workflow uploads coverage only on <code>push</code> events, opening a pull request won&rsquo;t trigger a new upload by itself&mdash;coverage resumes on the next push to that branch. If you want coverage to upload as soon as a pull request opens, add a <code>pull_request</code> trigger to your workflow.</p>
+<p>This change is available now on GitHub Enterprise Cloud and GitHub Team, including GitHub Enterprise Cloud with data residency. It isn&rsquo;t available on GitHub Enterprise Server. Learn more about <a href="https://docs.github.com/code-security/how-tos/maintain-quality-code/set-up-code-coverage">setting up code coverage for your repository</a>.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-10-01-code-coverage-uploads-no-longer-fail-ci-for-new-branches">Code coverage uploads no longer fail CI for new branches</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Improvement]]></category>
+<category domain="changelog-label"><![CDATA[application security]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">99209</post-id>	</item>
+	</channel>
+</rss>
