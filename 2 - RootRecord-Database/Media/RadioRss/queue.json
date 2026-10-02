@@ -67,7 +67,7 @@
         {
           "publisher": "ABC News Australia",
           "source": "ABC News Australia Top Stories",
-          "title": "The stolen Ukrainian teen who became the poster boy for Putin's propaganda",
+          "title": "Ukrainian teen recounts brainwashing to become Moscow's 'poster child'",
           "url": "https://www.abc.net.au/news/2026-10-02/denys-kostev-how-russia-turned-a-stolen-teen-into-poster-child/107192742",
           "published_at": "2026-10-02T02:05:30Z"
         }
@@ -103,7 +103,7 @@
         {
           "publisher": "ABC News Australia",
           "source": "ABC News Australia Top Stories",
-          "title": "'I was fighting for my life': flydubai pilot recounts harrowing mid-flight attack",
+          "title": "Flydubai 'hero' pilot says praying gave him courage",
           "url": "https://www.abc.net.au/news/2026-10-02/indian-prime-talks-with-flydubai-pilot/107223576",
           "published_at": "2026-10-02T08:53:39Z"
         }
@@ -937,7 +937,7 @@
         {
           "publisher": "BBC",
           "source": "BBC Business",
-          "title": "UK diesel price hits \u00a32 a litre as US calls for Europe to release more stocks",
+          "title": "UK diesel prices top \u00a32 a litre for first time, RAC says",
           "url": "https://www.bbc.co.uk/news/articles/crn8e86y5n0zo?at_medium=RSS&at_campaign=rss",
           "published_at": "2026-10-02T11:17:31Z"
         }
@@ -2771,7 +2771,7 @@
         {
           "publisher": "The Guardian",
           "source": "The Guardian International",
-          "title": "The Filter Q&A: the Guardian\u2019s fashion stylist answers your questions live",
+          "title": "\u2018I\u2019m in my early 50s. Where do I shop?\u2019: The Guardian\u2019s fashion stylist answered your questions",
           "url": "https://www.theguardian.com/thefilter/live/2026/oct/02/the-filter-qa-ask-the-guardians-fashion-stylist-anything",
           "published_at": "2026-10-02T07:58:51Z"
         }
@@ -3257,7 +3257,7 @@
         {
           "publisher": "MarketWatch",
           "source": "MarketWatch Top Stories",
-          "title": "To win the humanoid-robots race, the U.S. needs this critical machine component that\u2019s hard to find",
+          "title": "The U.S. can\u2019t find enough of this critical machine component to win the humanoid-robots race",
           "url": "https://www.marketwatch.com/story/to-win-the-humanoid-robots-race-the-u-s-needs-this-critical-machine-component-thats-hard-to-find-ca244571?mod=mw_rss_topstories",
           "published_at": "2026-10-02T12:30:00Z"
         }
@@ -4668,7 +4668,7 @@
         {
           "publisher": "Al Jazeera",
           "source": "Al Jazeera",
-          "title": "G7 announces oil reserve release, as Trump hails Europe diesel deal",
+          "title": "G7 to release 100m oil barrels as Trump hails Europe diesel deal",
           "url": "https://www.aljazeera.com/news/2026/10/2/trump-says-europe-agrees-to-release-massive-amount-diesel-stockpile?traffic_source=rss",
           "published_at": "2026-10-02T14:14:18Z"
         }
@@ -4966,6 +4966,13 @@
           "title": "Spanish PM S\u00e1nchez loses key housing crisis vote after eviction of woman, 87",
           "url": "https://www.bbc.co.uk/news/articles/c623dlk4y75mo?at_medium=RSS&at_campaign=rss",
           "published_at": "2026-10-02T15:07:19Z"
+        },
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "Spanish PM S\u00e1nchez loses key housing crisis vote after eviction of woman, 87",
+          "url": "https://www.bbc.co.uk/news/articles/c623dlk4y75mo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T15:30:12Z"
         }
       ]
     },
@@ -5089,7 +5096,7 @@
         {
           "publisher": "The Guardian",
           "source": "The Guardian International",
-          "title": "US Coast Guard says it has intercepted ship carrying fuel to Cuba",
+          "title": "US Coast Guard says it intercepted ship carrying fuel to Cuba",
           "url": "https://www.theguardian.com/world/2026/oct/02/us-coast-guard-says-it-has-intercepted-ship-carrying-fuel-to-cuba",
           "published_at": "2026-10-02T15:13:23Z"
         }
@@ -5107,7 +5114,7 @@
         {
           "publisher": "MarketWatch",
           "source": "MarketWatch Top Stories",
-          "title": "This couple took out an adjustable-rate mortgage when rates were over 8%. Here\u2019s how it worked out.",
+          "title": "This couple took out an adjustable-rate mortgage at 6.8% in 2023. Here\u2019s how it\u2019s worked out.",
           "url": "https://www.marketwatch.com/story/this-couple-took-out-an-adjustable-rate-mortgage-when-rates-were-over-8-heres-how-it-worked-out-d52e592a?mod=mw_rss_topstories",
           "published_at": "2026-10-02T15:37:00Z"
         }
@@ -5128,6 +5135,1901 @@
           "title": "Nature has rights \u2014 it is time the world recognized them",
           "url": "https://www.nature.com/articles/d41586-026-03145-5",
           "published_at": "2026-10-02T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2ae14de6c3a8a7f2",
+      "cluster_id": "c_6054dabe1f149fa9",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_6054dabe1f149fa9.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_6054dabe1f149fa9.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "Intensified Russian strikes are tearing Kyiv apart, warns mayor",
+          "url": "https://www.bbc.co.uk/news/articles/c6wyv44y4ywjo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T15:26:37Z"
+        }
+      ]
+    },
+    {
+      "id": "afeb0f2e6452c15a",
+      "cluster_id": "c_b0f2b8334df1f3fc",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_b0f2b8334df1f3fc.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_b0f2b8334df1f3fc.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "More than 10 million older adults are now living in poverty as Social Security cuts loom: \u2018I don\u2019t know how anyone is making it\u2019",
+          "url": "https://www.marketwatch.com/story/more-than-10-million-older-adults-are-now-living-in-poverty-as-social-security-cuts-loom-i-dont-know-how-anyone-is-making-it-237ab798?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T15:49:00Z"
+        }
+      ]
+    },
+    {
+      "id": "5e6bcef76e8108c3",
+      "cluster_id": "c_0d34b160d3f1110f",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_0d34b160d3f1110f.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_0d34b160d3f1110f.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "Europe\u2019s leaders rush to release diesel from stockpiles as fuel shock hangs over U.S. midterms",
+          "url": "https://www.marketwatch.com/story/europes-leaders-rush-to-release-diesel-from-stockpiles-as-fuel-shock-hangs-over-u-s-midterms-80bf0f38?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T15:42:00Z"
+        }
+      ]
+    },
+    {
+      "id": "8c25f81b6c2e93f4",
+      "cluster_id": "c_6b8f6704675b9d49",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/space_brief/c_6b8f6704675b9d49.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/space_brief/c_6b8f6704675b9d49.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA Artemis",
+          "title": "NASA Opens Applications for Next Class of Flight Directors",
+          "url": "https://www.nasa.gov/news-release/nasa-opens-applications-for-next-class-of-flight-directors/",
+          "published_at": "2026-10-02T15:49:26Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "NASA Opens Applications for Next Class of Flight Directors",
+          "url": "https://www.nasa.gov/news-release/nasa-opens-applications-for-next-class-of-flight-directors/",
+          "published_at": "2026-10-02T15:49:26Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "NASA Opens Applications for Next Class of Flight Directors",
+          "url": "https://www.nasa.gov/news-release/nasa-opens-applications-for-next-class-of-flight-directors/",
+          "published_at": "2026-10-02T15:49:26Z"
+        }
+      ]
+    },
+    {
+      "id": "764c64340308836e",
+      "cluster_id": "c_2ecd7f043512bafc",
+      "program": "AVIATION_BRIEF",
+      "report": "aviation_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/aviation_brief/c_2ecd7f043512bafc.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/aviation_brief/c_2ecd7f043512bafc.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "Suicide by plane or terrorism? Speculation over motive in flight 1073 attack",
+          "url": "https://www.theguardian.com/world/2026/oct/02/aviation-security-flydubai-flight-israel",
+          "published_at": "2026-10-02T15:40:05Z"
+        }
+      ]
+    },
+    {
+      "id": "7d28f03abf6a6b63",
+      "cluster_id": "c_42c188ecdc5f3885",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_42c188ecdc5f3885.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_42c188ecdc5f3885.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "\u2018Stand on the right side of history\u2019: Starbucks urged to close stores in China\u2019s Xinjiang",
+          "url": "https://www.theguardian.com/business/2026/oct/02/starbucks-urged-close-stores-in-chinas-xinjiang",
+          "published_at": "2026-10-02T15:44:48Z"
+        }
+      ]
+    },
+    {
+      "id": "9af174241f416f64",
+      "cluster_id": "c_9d0158710623c02c",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_9d0158710623c02c.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_9d0158710623c02c.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Trump to name intelligence chief Jay Clayton as AI tsar: Reports",
+          "url": "https://www.aljazeera.com/news/2026/10/2/reports-trump-to-name-intel-chief-clayton-as-ai-tsar?traffic_source=rss",
+          "published_at": "2026-10-02T16:06:15Z"
+        }
+      ]
+    },
+    {
+      "id": "b8bc1f75cfdf9211",
+      "cluster_id": "c_f26f4f754d009a5c",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_f26f4f754d009a5c.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_f26f4f754d009a5c.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Does the punishment fit the crime? Controversy erupts around \u2018Cornell 7\u2019",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/does-the-punishment-fit-the-crime-controversy-erupts-around-cornell?traffic_source=rss",
+          "published_at": "2026-10-02T16:02:39Z"
+        }
+      ]
+    },
+    {
+      "id": "d6278a36e7a7b581",
+      "cluster_id": "c_a737a3901c21c0cc",
+      "program": "AVIATION_BRIEF",
+      "report": "aviation_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/aviation_brief/c_a737a3901c21c0cc.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/aviation_brief/c_a737a3901c21c0cc.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "NASA Model Wing Lights Up During First Pressure Sensitive Paint Tests",
+          "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
+          "published_at": "2026-10-02T16:10:55Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "NASA Model Wing Lights Up During First Pressure Sensitive Paint Tests",
+          "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
+          "published_at": "2026-10-02T16:10:55Z"
+        }
+      ]
+    },
+    {
+      "id": "82d3477316328191",
+      "cluster_id": "c_c801559ceacaea37",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_c801559ceacaea37.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_c801559ceacaea37.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "Riot police clash with students as education protests rage in France",
+          "url": "https://www.bbc.co.uk/news/articles/ck3r5dxxwqzpo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T16:26:09Z"
+        }
+      ]
+    },
+    {
+      "id": "256bb072edfef780",
+      "cluster_id": "c_55d38dbd82dbff3a",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_55d38dbd82dbff3a.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_55d38dbd82dbff3a.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "Woman at centre of Cornell rape inquiry was 'failed' by officials, says New York governor",
+          "url": "https://www.bbc.co.uk/news/articles/cqvg04718lr9o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T16:07:15Z"
+        }
+      ]
+    },
+    {
+      "id": "022684ba8738d41c",
+      "cluster_id": "c_a75b6ec0545309b8",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_a75b6ec0545309b8.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_a75b6ec0545309b8.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "The incredible science of memory manipulation",
+          "url": "https://www.theguardian.com/science/video/2026/oct/02/scientists-could-one-day-remove-your-bad-memories-heres-how",
+          "published_at": "2026-10-02T10:55:50Z"
+        }
+      ]
+    },
+    {
+      "id": "d4245248afe38383",
+      "cluster_id": "c_0f7881a556ef1b04",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_0f7881a556ef1b04.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_0f7881a556ef1b04.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "G7 to release up to 100m barrels of emergency oil and diesel reserves",
+          "url": "https://www.theguardian.com/business/2026/oct/02/g7-release-barrels-oil-diesel-reserves-emergency",
+          "published_at": "2026-10-02T15:57:13Z"
+        }
+      ]
+    },
+    {
+      "id": "57cefe0459efee9c",
+      "cluster_id": "c_9e82fec909bb6d7f",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_9e82fec909bb6d7f.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_9e82fec909bb6d7f.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "Peter Thiel revealed as secret buyer of Bel Air mansion that sold for $130m",
+          "url": "https://www.theguardian.com/technology/2026/oct/02/peter-thiel-mansion-bel-air",
+          "published_at": "2026-10-02T16:22:51Z"
+        }
+      ]
+    },
+    {
+      "id": "9476a31accf4f2c4",
+      "cluster_id": "c_62d371136a425a4f",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_62d371136a425a4f.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_62d371136a425a4f.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "Barking beautiful: the 2026 Dog Photography awards \u2013 in pictures",
+          "url": "https://www.theguardian.com/artanddesign/gallery/2026/oct/03/barking-beautiful-the-2026-dog-photography-awards-in-pictures",
+          "published_at": "2026-10-02T15:00:10Z"
+        }
+      ]
+    },
+    {
+      "id": "078682f2dc50c7a0",
+      "cluster_id": "c_062cc194a966093d",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_062cc194a966093d.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_062cc194a966093d.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "How the Banco Master scandal injected chaos into Brazil\u2019s presidential race",
+          "url": "https://www.aljazeera.com/features/longform/2026/10/2/how-the-banco-master-scandal-injected-chaos-into-brazils-presidential-race?traffic_source=rss",
+          "published_at": "2026-10-02T16:36:38Z"
+        }
+      ]
+    },
+    {
+      "id": "0f2f9bd788da839d",
+      "cluster_id": "c_1eab6127b86da960",
+      "program": "AVIATION_BRIEF",
+      "report": "aviation_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/aviation_brief/c_1eab6127b86da960.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/aviation_brief/c_1eab6127b86da960.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Taiwan Coast Guard confronts Chinese fishing boats in Dongsha waters",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/aje-onl-nf_taiwan-coast-guard-fires-water-cannon-on-chinese-021026?traffic_source=rss",
+          "published_at": "2026-10-02T16:23:02Z"
+        }
+      ]
+    },
+    {
+      "id": "15693d359f20038e",
+      "cluster_id": "c_c2d45272e7c65b00",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_c2d45272e7c65b00.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_c2d45272e7c65b00.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "US adds just 29,000 jobs as unemployment rises before midterm elections",
+          "url": "https://www.aljazeera.com/economy/2026/10/2/us-job-growth-slows-as-unemployment-rises-before-midterm-elections?traffic_source=rss",
+          "published_at": "2026-10-02T16:20:46Z"
+        }
+      ]
+    },
+    {
+      "id": "0ae3914e234764b7",
+      "cluster_id": "c_172d54d688ecb3e1",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/space_brief/c_172d54d688ecb3e1.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/space_brief/c_172d54d688ecb3e1.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "La NASA abre solicitudes para pr\u00f3xima promoci\u00f3n de directores de vuelo",
+          "url": "https://www.nasa.gov/news-release/la-nasa-abre-solicitudes-para-proxima-promocion-de-directores-de-vuelo/",
+          "published_at": "2026-10-02T16:36:25Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "La NASA abre solicitudes para pr\u00f3xima promoci\u00f3n de directores de vuelo",
+          "url": "https://www.nasa.gov/news-release/la-nasa-abre-solicitudes-para-proxima-promocion-de-directores-de-vuelo/",
+          "published_at": "2026-10-02T16:36:25Z"
+        }
+      ]
+    },
+    {
+      "id": "a1aa6d4cfe8df243",
+      "cluster_id": "c_fa9eae01dd25f323",
+      "program": "SCIENCE_BRIEF",
+      "report": "science_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/science_brief/c_fa9eae01dd25f323.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/science_brief/c_fa9eae01dd25f323.speak.txt",
+      "sources": [
+        {
+          "publisher": "Nature",
+          "source": "Nature",
+          "title": "\u2018Learning about physics changed my life\u2019: author Hernan Diaz on his new novel Ply",
+          "url": "https://www.nature.com/articles/d41586-026-03057-4",
+          "published_at": "2026-10-02T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "f080a4819bf1dfde",
+      "cluster_id": "c_8b6734198d7439e0",
+      "program": "SCIENCE_BRIEF",
+      "report": "science_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/science_brief/c_8b6734198d7439e0.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/science_brief/c_8b6734198d7439e0.speak.txt",
+      "sources": [
+        {
+          "publisher": "Nature",
+          "source": "Nature",
+          "title": "Can you name the women who have won a science Nobel prize?",
+          "url": "https://www.nature.com/articles/d41586-026-03133-9",
+          "published_at": "2026-10-02T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "68005ebbe319dec1",
+      "cluster_id": "c_0d67a8802a280b67",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_0d67a8802a280b67.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_0d67a8802a280b67.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "Pentagon partners with CIA\u2019s In-Q-Tel for \u2018technology scouting\u2019",
+          "url": "https://breakingdefense.com/2026/10/pentagon-partners-with-cias-in-q-tel-for-technology-scouting/",
+          "published_at": "2026-10-02T16:38:57Z"
+        }
+      ]
+    },
+    {
+      "id": "ace696173367f0bf",
+      "cluster_id": "c_338f04febb76e134",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_338f04febb76e134.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_338f04febb76e134.speak.txt",
+      "sources": [
+        {
+          "publisher": "UC Berkeley",
+          "source": "UC Berkeley News",
+          "title": "To decipher local laws, researchers used AI to build a database of millions of them",
+          "url": "https://news.berkeley.edu/2026/10/02/to-decipher-local-laws-researchers-used-ai-to-build-a-database-of-millions-of-them/",
+          "published_at": "2026-10-02T17:02:26Z"
+        }
+      ]
+    },
+    {
+      "id": "835652edd674c1ab",
+      "cluster_id": "c_f678ca9914e9af3f",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_f678ca9914e9af3f.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_f678ca9914e9af3f.speak.txt",
+      "sources": [
+        {
+          "publisher": "MIT News",
+          "source": "MIT News",
+          "title": "Documenting the tech worker movement",
+          "url": "https://news.mit.edu/2026/documenting-tech-worker-movement-0918",
+          "published_at": "2026-10-02T17:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "87a94c9365e3e4cf",
+      "cluster_id": "c_0fe6e5cc8898cf54",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_0fe6e5cc8898cf54.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_0fe6e5cc8898cf54.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "After yearslong delay, Taiwan receives first pair of new F-16s",
+          "url": "https://breakingdefense.com/2026/10/after-yearslong-delay-taiwan-receives-first-pair-of-new-f-16s/",
+          "published_at": "2026-10-02T17:20:31Z"
+        }
+      ]
+    },
+    {
+      "id": "4d5f2faadee88e70",
+      "cluster_id": "c_83673d5e20d88240",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_83673d5e20d88240.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_83673d5e20d88240.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "Why bond investors quickly lost their enthusiasm for weak jobs figures",
+          "url": "https://www.marketwatch.com/story/why-bond-investors-quickly-lost-their-enthusiasm-for-weak-labor-figures-7a9727da?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T17:38:00Z"
+        }
+      ]
+    },
+    {
+      "id": "b54bf9dc659f7ad1",
+      "cluster_id": "c_b07c2a7c8b325ebc",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_b07c2a7c8b325ebc.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_b07c2a7c8b325ebc.speak.txt",
+      "sources": [
+        {
+          "publisher": "MIT News",
+          "source": "MIT News",
+          "title": "MIT releases financials and endowment figures for 2026",
+          "url": "https://news.mit.edu/2026/mit-releases-financials-and-endowment-figures-1002",
+          "published_at": "2026-10-02T20:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "21720885f1b917be",
+      "cluster_id": "c_e877472cf0c48945",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/space_brief/c_e877472cf0c48945.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/space_brief/c_e877472cf0c48945.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "NASA Campaign Explores Clouds Spawned by Wildfires",
+          "url": "https://science.nasa.gov/earth/natural-disasters/wildfires/nasa-campaign-explores-clouds-spawned-by-wildfires/",
+          "published_at": "2026-10-02T16:34:57Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "NASA Campaign Explores Clouds Spawned by Wildfires",
+          "url": "https://science.nasa.gov/earth/natural-disasters/wildfires/nasa-campaign-explores-clouds-spawned-by-wildfires/",
+          "published_at": "2026-10-02T16:34:57Z"
+        }
+      ]
+    },
+    {
+      "id": "ade39fc6bbecd16a",
+      "cluster_id": "c_58e5feabf9ef2519",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_58e5feabf9ef2519.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_58e5feabf9ef2519.speak.txt",
+      "sources": [
+        {
+          "publisher": "UC Berkeley",
+          "source": "UC Berkeley News",
+          "title": "Tribal members saw pinyon-juniper woodlands declining. A new study confirms it.",
+          "url": "https://ourenvironment.berkeley.edu/news/tribal-members-saw-pinyon-juniper-woodlands-declining-new-study-confirms-it",
+          "published_at": "2026-10-02T17:34:29Z"
+        }
+      ]
+    },
+    {
+      "id": "38b889e3da03a0f6",
+      "cluster_id": "c_65b0cf77eaa1a3a4",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_65b0cf77eaa1a3a4.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_65b0cf77eaa1a3a4.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "Olivia Dean accused of plagiarism on her I\u2019ve Seen It track",
+          "url": "https://www.theguardian.com/music/2026/oct/02/olivia-dean-ive-seen-it-plagiarism",
+          "published_at": "2026-10-02T17:25:35Z"
+        }
+      ]
+    },
+    {
+      "id": "d5eb9a99cee37920",
+      "cluster_id": "c_742cf112803c712d",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_742cf112803c712d.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_742cf112803c712d.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "News Release \u2013 DOH Closes Legend Seafood Restaurant Due to Multiple Food Safety Violations",
+          "url": "https://governor.hawaii.gov/newsroom/news-release-doh-closes-legend-seafood-restaurant-due-to-multiple-food-safety-violations/",
+          "published_at": "2026-10-02T02:45:18Z"
+        }
+      ]
+    },
+    {
+      "id": "ed3b02d308bc4817",
+      "cluster_id": "c_4a16608384cfecf7",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_4a16608384cfecf7.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_4a16608384cfecf7.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "How much higher can bond yields rise \u2014 and what does it mean for stocks?",
+          "url": "https://www.marketwatch.com/story/how-much-higher-can-bond-yields-rise-and-what-does-it-mean-for-stocks-12883d6c?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T17:48:00Z"
+        }
+      ]
+    },
+    {
+      "id": "0fcdd5f631042ea9",
+      "cluster_id": "c_7e138c2bdd60e78b",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_7e138c2bdd60e78b.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_7e138c2bdd60e78b.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Magnitude-4.8 earthquake rattles rural Victoria",
+          "url": "https://www.abc.net.au/news/2026-10-03/earthquake-strikes-near-leongatha-gippsland-victoria/107224300",
+          "published_at": "2026-10-02T17:47:38Z"
+        }
+      ]
+    },
+    {
+      "id": "325ddc1f350434d8",
+      "cluster_id": "c_a1b130a890cc0d4e",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_a1b130a890cc0d4e.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_a1b130a890cc0d4e.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "\u2018I want the truth\u2019: NY governor appoints prosecutor in Cornell rape case",
+          "url": "https://www.aljazeera.com/news/2026/10/2/i-want-the-truth-ny-governor-appoints-prosecutor-in-cornell-rape-case?traffic_source=rss",
+          "published_at": "2026-10-02T17:43:30Z"
+        }
+      ]
+    },
+    {
+      "id": "2b7a6e8bcbf34cb0",
+      "cluster_id": "c_afe56ea00c420ae8",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_afe56ea00c420ae8.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_afe56ea00c420ae8.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Jerusalem Daily: Who gets to run in Israel\u2019s elections?",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/jerusalem-daily-who-gets-to-run-in-israels-elections?traffic_source=rss",
+          "published_at": "2026-10-02T17:30:06Z"
+        }
+      ]
+    },
+    {
+      "id": "0d0638e6cce25bcd",
+      "cluster_id": "c_eb8605df564a57f4",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_eb8605df564a57f4.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_eb8605df564a57f4.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Business",
+          "title": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
+          "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T17:29:56Z"
+        },
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
+          "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T20:25:19Z"
+        }
+      ]
+    },
+    {
+      "id": "5b766abc70acfe91",
+      "cluster_id": "c_720686cb6255a8a9",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_720686cb6255a8a9.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_720686cb6255a8a9.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "Long-range radar deal puts Ireland on course to shrink capability gap",
+          "url": "https://breakingdefense.com/2026/10/long-range-radar-deal-puts-ireland-on-course-to-shrink-capability-gap/",
+          "published_at": "2026-10-02T18:20:00Z"
+        }
+      ]
+    },
+    {
+      "id": "528417abf4856d1b",
+      "cluster_id": "c_ddfb75710a5ccc51",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_ddfb75710a5ccc51.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_ddfb75710a5ccc51.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Beau Lamarre-Condon was impassive until his former friend testified against him",
+          "url": "https://www.abc.net.au/news/2026-10-03/beau-lamarre-condon-murder-trial-former-friends-spark-reaction/107218418",
+          "published_at": "2026-10-02T18:39:37Z"
+        }
+      ]
+    },
+    {
+      "id": "e6b80caae3b46663",
+      "cluster_id": "c_1daea4c785ba3d8a",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_1daea4c785ba3d8a.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_1daea4c785ba3d8a.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Israeli barrier cuts off water to West Bank Palestinians before elections",
+          "url": "https://www.aljazeera.com/news/2026/10/2/israeli-barrier-cuts-off-water-to-west-bank-palestinians-before-elections?traffic_source=rss",
+          "published_at": "2026-10-02T18:18:42Z"
+        }
+      ]
+    },
+    {
+      "id": "1d6490fa97da3fe4",
+      "cluster_id": "c_da0822ccdc6663ce",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_da0822ccdc6663ce.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_da0822ccdc6663ce.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Israel\u2019s Supreme Court overturns election panel ban on Arab parties",
+          "url": "https://www.aljazeera.com/news/2026/10/2/israels-supreme-court-overturns-election-panel-ban-on-arab-parties?traffic_source=rss",
+          "published_at": "2026-10-02T18:11:37Z"
+        }
+      ]
+    },
+    {
+      "id": "23b3fdfc7b45c623",
+      "cluster_id": "c_156eea2399f0a61f",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_156eea2399f0a61f.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_156eea2399f0a61f.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR News",
+          "title": "October 1 ushered in a new era in U.S. foreign aid. What's the plan? Will it work?",
+          "url": "https://www.npr.org/2026/10/02/g-s1-146042/foreign-aid-united-states-healthcare-america-first",
+          "published_at": "2026-10-02T18:16:07Z"
+        },
+        {
+          "publisher": "NPR",
+          "source": "NPR World",
+          "title": "October 1 ushered in a new era in U.S. foreign aid. What's the plan? Will it work?",
+          "url": "https://www.npr.org/2026/10/02/g-s1-146042/foreign-aid-united-states-healthcare-america-first",
+          "published_at": "2026-10-02T18:16:07Z"
+        }
+      ]
+    },
+    {
+      "id": "c85213e12961edeb",
+      "cluster_id": "c_e4a4223cee19765a",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_e4a4223cee19765a.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_e4a4223cee19765a.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "News Release: Librarians Agree- Every Story Matters",
+          "url": "https://governor.hawaii.gov/newsroom/news-release-librarians-agree-every-story-matters/",
+          "published_at": "2026-10-02T18:45:58Z"
+        }
+      ]
+    },
+    {
+      "id": "ff6df5d1e8a9013f",
+      "cluster_id": "c_fe67a994a9b107bf",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_fe67a994a9b107bf.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_fe67a994a9b107bf.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "The government can take 15% of Social Security benefits to repay student loans. These proposals seek to stop it.",
+          "url": "https://www.marketwatch.com/story/the-government-can-take-15-of-social-security-benefits-to-repay-student-loans-these-proposals-seek-to-stop-it-102622fa?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T18:50:00Z"
+        }
+      ]
+    },
+    {
+      "id": "55ffe3b74607bb7e",
+      "cluster_id": "c_4daa9d08e57bba10",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_4daa9d08e57bba10.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_4daa9d08e57bba10.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "These bond strategies can help you get a safe 5% return on your cash",
+          "url": "https://www.marketwatch.com/story/these-bond-strategies-can-help-you-get-a-safe-5-return-on-your-cash-5fa45ccd?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T18:48:00Z"
+        }
+      ]
+    },
+    {
+      "id": "a1840dfeb7138772",
+      "cluster_id": "c_9518d1bb22948e2d",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_9518d1bb22948e2d.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_9518d1bb22948e2d.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "Cars have become unaffordable for many Americans. Here\u2019s what the numbers show.",
+          "url": "https://www.marketwatch.com/story/heres-the-most-you-should-be-spending-on-your-car-payment-whether-you-make-60-000-or-over-150-000-ee1c228c?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T18:47:00Z"
+        }
+      ]
+    },
+    {
+      "id": "9da013100cf33c59",
+      "cluster_id": "c_0a1c41fc00895b80",
+      "program": "AVIATION_BRIEF",
+      "report": "aviation_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/aviation_brief/c_0a1c41fc00895b80.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/aviation_brief/c_0a1c41fc00895b80.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "NASA\u2019s DAVINCI Probe Can Stand the Heat",
+          "url": "https://www.nasa.gov/image-article/nasas-davinci-probe-can-stand-the-heat/",
+          "published_at": "2026-10-02T19:00:36Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "NASA\u2019s DAVINCI Probe Can Stand the Heat",
+          "url": "https://www.nasa.gov/image-article/nasas-davinci-probe-can-stand-the-heat/",
+          "published_at": "2026-10-02T19:00:36Z"
+        }
+      ]
+    },
+    {
+      "id": "52ee7b98dc9c261b",
+      "cluster_id": "c_121bcfe8cec5492a",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_121bcfe8cec5492a.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_121bcfe8cec5492a.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Trump says Europe agreed to release \u2018massive amount\u2019 of diesel reserves",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/aje-onl-nf_ig_thumb_diesel-021026?traffic_source=rss",
+          "published_at": "2026-10-02T19:01:45Z"
+        }
+      ]
+    },
+    {
+      "id": "0d71ff2e164d8699",
+      "cluster_id": "c_c5e7c79b0df6165e",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_c5e7c79b0df6165e.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_c5e7c79b0df6165e.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Sudan\u2019s army says it captured RSF stronghold in North Kordofan",
+          "url": "https://www.aljazeera.com/news/2026/10/2/sudans-army-says-it-captured-rsf-stronghold-in-north-kordofan?traffic_source=rss",
+          "published_at": "2026-10-02T18:51:54Z"
+        }
+      ]
+    },
+    {
+      "id": "3227e324e4d82543",
+      "cluster_id": "c_2ebd80bfda9820bf",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_2ebd80bfda9820bf.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_2ebd80bfda9820bf.speak.txt",
+      "sources": [
+        {
+          "publisher": "Defense News",
+          "source": "Defense News",
+          "title": "Saudis plan assault on Houthis to break Red Sea chokehold",
+          "url": "https://www.defensenews.com/global/mideast-africa/2026/10/02/saudis-plan-assault-on-houthis-to-break-red-sea-chokehold/",
+          "published_at": "2026-10-02T19:00:24Z"
+        }
+      ]
+    },
+    {
+      "id": "201caf1f0fff2f66",
+      "cluster_id": "c_75a0856587b3b240",
+      "program": "DEVELOPER_BRIEF",
+      "report": "developer_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/developer_brief/c_75a0856587b3b240.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/developer_brief/c_75a0856587b3b240.speak.txt",
+      "sources": [
+        {
+          "publisher": "GitHub",
+          "source": "GitHub Changelog",
+          "title": "Selected models in GitHub Copilot deprecated",
+          "url": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
+          "published_at": "2026-10-02T18:24:19Z"
+        }
+      ]
+    },
+    {
+      "id": "4a8339ab91bd98d3",
+      "cluster_id": "c_f10198cf474634a6",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_f10198cf474634a6.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_f10198cf474634a6.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "King Charles III to acknowledge \u2018darkest days\u2019 of Britain\u2019s colonial rule during Caribbean tour",
+          "url": "https://www.theguardian.com/uk-news/2026/oct/02/king-charles-darkest-days-britain-colonial-rule-caribbean-tour",
+          "published_at": "2026-10-02T19:02:56Z"
+        }
+      ]
+    },
+    {
+      "id": "1842bcf4fda8f6fd",
+      "cluster_id": "c_62c4e4e6e26f0c36",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_62c4e4e6e26f0c36.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_62c4e4e6e26f0c36.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "US arrests California man for allegedly smuggling $300m worth of computer servers to China",
+          "url": "https://www.theguardian.com/us-news/2026/oct/02/arrest-smuggled-computer-servers-china",
+          "published_at": "2026-10-02T18:46:29Z"
+        }
+      ]
+    },
+    {
+      "id": "5455746ec1ab31ef",
+      "cluster_id": "c_b0e8969e86140643",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_b0e8969e86140643.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_b0e8969e86140643.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "Cornell case raises questions about rise of ketamine in sexual assaults: \u2018You might not realize you\u2019re being touched\u2019",
+          "url": "https://www.theguardian.com/society/2026/oct/02/cornell-rape-assault-ketamine-laws",
+          "published_at": "2026-10-02T18:49:33Z"
+        }
+      ]
+    },
+    {
+      "id": "7cf12b6a19153c26",
+      "cluster_id": "c_2be42db49d3bb2d5",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_2be42db49d3bb2d5.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_2be42db49d3bb2d5.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "From prison to billionaire data centre operator, the incredible story of Oliver Curtis",
+          "url": "https://www.abc.net.au/news/2026-10-03/the-incredible-story-of-oliver-curtis/107222356",
+          "published_at": "2026-10-02T18:59:38Z"
+        }
+      ]
+    },
+    {
+      "id": "0ca2cc20a08cd168",
+      "cluster_id": "c_2d57351f4141d339",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_2d57351f4141d339.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_2d57351f4141d339.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Ivory still legal to sell in Australia despite 2019 promise to ban it",
+          "url": "https://www.abc.net.au/news/science/2026-10-03/domestic-trade-ban-of-elephant-ivory-abandoned/107165470",
+          "published_at": "2026-10-02T19:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "af5de75cca204016",
+      "cluster_id": "c_a8de034e0525ff10",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_a8de034e0525ff10.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_a8de034e0525ff10.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Switzerland's 'wake-up call' as glaciers melt in record-breaking summer",
+          "url": "https://www.abc.net.au/news/2026-10-03/swiss-glaciers-shed-five-per-cent-of-ice-volume-in-2026/107219004",
+          "published_at": "2026-10-02T19:04:55Z"
+        }
+      ]
+    },
+    {
+      "id": "95b41a1cfa1f9202",
+      "cluster_id": "c_daca9428a01a0bfc",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_daca9428a01a0bfc.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_daca9428a01a0bfc.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "Christa Pike remains on ventilator after failed execution in Tennessee",
+          "url": "https://www.theguardian.com/us-news/2026/oct/02/christa-pike-failed-execution-unconcious",
+          "published_at": "2026-10-02T19:10:28Z"
+        }
+      ]
+    },
+    {
+      "id": "28db2187e6a897da",
+      "cluster_id": "c_5c0d2f8fc8b2f449",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_5c0d2f8fc8b2f449.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_5c0d2f8fc8b2f449.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Arab party leader withdraws from Israeli elections",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/arab-party-leader-withdraws-from-israeli-elections?traffic_source=rss",
+          "published_at": "2026-10-02T19:10:23Z"
+        }
+      ]
+    },
+    {
+      "id": "f416418d04040bab",
+      "cluster_id": "c_09f9fc016eaee397",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_09f9fc016eaee397.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_09f9fc016eaee397.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "Does AI have a soul? Pope Leo and Anthropic clash.",
+          "url": "https://www.marketwatch.com/story/does-ai-have-a-soul-pope-leo-and-anthropic-clash-0c1669fb?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T19:32:00Z"
+        }
+      ]
+    },
+    {
+      "id": "0cac40c78d1c6e82",
+      "cluster_id": "c_d41a2b09854d3547",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_d41a2b09854d3547.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_d41a2b09854d3547.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "\u2018I\u2019m never selling\u2019: I\u2019m 47 and buy bitcoin with every dollar I earn. Am I crazy?",
+          "url": "https://www.marketwatch.com/story/im-never-selling-im-47-and-buy-bitcoin-with-every-dollar-i-earn-am-i-crazy-364d2a64?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T19:08:00Z"
+        }
+      ]
+    },
+    {
+      "id": "520937d16bbe5bfe",
+      "cluster_id": "c_156a447f22d65aec",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_156a447f22d65aec.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_156a447f22d65aec.speak.txt",
+      "sources": [
+        {
+          "publisher": "MIT News",
+          "source": "MIT News",
+          "title": "Computational tools for society\u2019s most complex challenges",
+          "url": "https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002",
+          "published_at": "2026-10-02T19:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "b4c6039690ad75fa",
+      "cluster_id": "c_83251fbf2e821b95",
+      "program": "SPACEX_BRIEF",
+      "report": "spacex_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/spacex_brief/c_83251fbf2e821b95.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/spacex_brief/c_83251fbf2e821b95.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "Heading Home: NASA\u2019s SpaceX Crew-12 Concludes Station Science Mission",
+          "url": "https://www.nasa.gov/missions/station/iss-research/heading-home-nasas-spacex-crew-12-concludes-station-science-mission/",
+          "published_at": "2026-10-02T19:30:00Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "Heading Home: NASA\u2019s SpaceX Crew-12 Concludes Station Science Mission",
+          "url": "https://www.nasa.gov/missions/station/iss-research/heading-home-nasas-spacex-crew-12-concludes-station-science-mission/",
+          "published_at": "2026-10-02T19:30:00Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Space Station",
+          "title": "Heading Home: NASA\u2019s SpaceX Crew-12 Concludes Station Science Mission",
+          "url": "https://www.nasa.gov/missions/station/iss-research/heading-home-nasas-spacex-crew-12-concludes-station-science-mission/",
+          "published_at": "2026-10-02T19:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "f91a93ceeefbd809",
+      "cluster_id": "c_21632d830c1a51e2",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_21632d830c1a51e2.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_21632d830c1a51e2.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "A 'bent' syringe and a closed curtain: Inside Christa Pike's botched US execution",
+          "url": "https://www.abc.net.au/news/2026-10-03/christa-pike-botched-execution-timeline/107221564",
+          "published_at": "2026-10-02T19:27:50Z"
+        }
+      ]
+    },
+    {
+      "id": "7bfc53df94e17f06",
+      "cluster_id": "c_b5fecbe73978a982",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_b5fecbe73978a982.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_b5fecbe73978a982.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Tedesco and Ponga went through different worlds to meet in NRL grand final",
+          "url": "https://www.abc.net.au/news/2026-10-03/james-tedesco-kalyn-ponga-nrl-grand-final-2026/107223224",
+          "published_at": "2026-10-02T19:27:50Z"
+        }
+      ]
+    },
+    {
+      "id": "546a853e319bba48",
+      "cluster_id": "c_4615012ceb957dd8",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_4615012ceb957dd8.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_4615012ceb957dd8.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR News",
+          "title": "Germany's political center fights for relevance after far-right and far-left gains",
+          "url": "https://www.npr.org/2026/10/02/g-s1-146108/germany-politics-center-afd-die-linke-cdu-merz",
+          "published_at": "2026-10-02T19:22:57Z"
+        },
+        {
+          "publisher": "NPR",
+          "source": "NPR World",
+          "title": "Germany's political center fights for relevance after far-right and far-left gains",
+          "url": "https://www.npr.org/2026/10/02/g-s1-146108/germany-politics-center-afd-die-linke-cdu-merz",
+          "published_at": "2026-10-02T19:22:57Z"
+        }
+      ]
+    },
+    {
+      "id": "83a022b5b3bea3c7",
+      "cluster_id": "c_545511ecb8e1336d",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_545511ecb8e1336d.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_545511ecb8e1336d.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "G7 to release 100 million barrels of oil in bid to curb soaring prices",
+          "url": "https://www.abc.net.au/news/2026-10-03/g7-to-release-100m-barrels-oil-in-bid-to-curb-soaring-prices/107224282",
+          "published_at": "2026-10-02T19:50:53Z"
+        }
+      ]
+    },
+    {
+      "id": "f55c87ff374637df",
+      "cluster_id": "c_38b0738e38c6d310",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_38b0738e38c6d310.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_38b0738e38c6d310.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Is a 'fantasy' now driving Australia's power reliability outlook?",
+          "url": "https://www.abc.net.au/news/2026-10-03/aemo-under-fire-over-rose-tinted-power-reliability-forecasts/107189716",
+          "published_at": "2026-10-02T19:51:50Z"
+        }
+      ]
+    },
+    {
+      "id": "6f3aaac2d0d05383",
+      "cluster_id": "c_f61b84553b73f486",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_f61b84553b73f486.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_f61b84553b73f486.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "GDIT replaces longtime president Gilliland",
+          "url": "https://breakingdefense.com/2026/10/gdit-replaces-longtime-president-gilliland/",
+          "published_at": "2026-10-02T20:18:22Z"
+        }
+      ]
+    },
+    {
+      "id": "5f757b1b4fc0385a",
+      "cluster_id": "c_24c8ce2b1e29ca88",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_24c8ce2b1e29ca88.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_24c8ce2b1e29ca88.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Greens see red-hot anger as an opportunity to take on Hanson, Labor",
+          "url": "https://www.abc.net.au/news/2026-10-02/greens-anger-populist-left/107220586",
+          "published_at": "2026-10-02T12:33:41Z"
+        }
+      ]
+    },
+    {
+      "id": "f8ae4edb12415eba",
+      "cluster_id": "c_93f272be73566f23",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_93f272be73566f23.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_93f272be73566f23.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "NY governor slams handling of Cornell 'gang-rape' case",
+          "url": "https://www.abc.net.au/news/2026-10-03/ny-governor-slams-handling-of-cornell-gang-rape-allegation/107224330",
+          "published_at": "2026-10-02T20:12:41Z"
+        }
+      ]
+    },
+    {
+      "id": "e2b0bd46d02e736b",
+      "cluster_id": "c_6206ba33f8edbb1b",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_6206ba33f8edbb1b.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_6206ba33f8edbb1b.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "This city saw 1 in 3 home sellers slash their asking price in September to attract reluctant buyers",
+          "url": "https://www.marketwatch.com/story/this-city-saw-1-in-3-home-sellers-slash-their-asking-price-in-september-to-attract-reluctant-buyers-7f16a0c3?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T20:26:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2c949c0039d099ca",
+      "cluster_id": "c_22b089112bcfc1de",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_22b089112bcfc1de.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_22b089112bcfc1de.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "Saving your retirement could come down to this simple writing exercise",
+          "url": "https://www.marketwatch.com/story/saving-your-retirement-could-come-down-to-this-simple-writing-exercise-c25734a9?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T20:24:00Z"
+        }
+      ]
+    },
+    {
+      "id": "ccfc3c87b2ab8a0c",
+      "cluster_id": "c_0d71971bbd237012",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_0d71971bbd237012.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_0d71971bbd237012.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "TV dinner overload? The frozen-food aisle may be too crowded for its own good.",
+          "url": "https://www.marketwatch.com/story/tv-dinner-overload-the-frozen-food-aisle-may-be-too-crowded-for-its-own-good-55bfed39?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T20:16:00Z"
+        }
+      ]
+    },
+    {
+      "id": "b79fabbb0ab76126",
+      "cluster_id": "c_2c33caaebb7a056a",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_2c33caaebb7a056a.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_2c33caaebb7a056a.speak.txt",
+      "sources": [
+        {
+          "publisher": "MIT News",
+          "source": "MIT News",
+          "title": "Met Warehouse dedication ceremony launches new era",
+          "url": "https://news.mit.edu/2026/met-warehouse-dedication-ceremony-launches-new-era-1002",
+          "published_at": "2026-10-02T20:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "9182d6fc91096ddb",
+      "cluster_id": "c_7a2b815f9eb32984",
+      "program": "MAINLAND_WEATHER_BRIEF",
+      "report": "mainland_weather_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_7a2b815f9eb32984.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_7a2b815f9eb32984.speak.txt",
+      "sources": [
+        {
+          "publisher": "National Hurricane Center",
+          "source": "NHC Eastern North Pacific",
+          "title": "Hurricane Rachel Public Advisory Number 23",
+          "url": "https://www.nhc.noaa.gov/text/refresh/MIATCPEP3+shtml/022031.shtml",
+          "published_at": "2026-10-02T20:31:27Z"
+        }
+      ]
+    },
+    {
+      "id": "b908e461c7d18f44",
+      "cluster_id": "c_ba76ac5e8d907562",
+      "program": "MAINLAND_WEATHER_BRIEF",
+      "report": "mainland_weather_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_ba76ac5e8d907562.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_ba76ac5e8d907562.speak.txt",
+      "sources": [
+        {
+          "publisher": "National Hurricane Center",
+          "source": "NHC Eastern North Pacific",
+          "title": "Hurricane Rachel Forecast Advisory Number 23",
+          "url": "https://www.nhc.noaa.gov/text/refresh/MIATCMEP3+shtml/022031.shtml",
+          "published_at": "2026-10-02T20:31:27Z"
+        }
+      ]
+    },
+    {
+      "id": "fcf29dfa7ee7ae85",
+      "cluster_id": "c_2c8dafb254f2ca03",
+      "program": "MAINLAND_WEATHER_BRIEF",
+      "report": "mainland_weather_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_2c8dafb254f2ca03.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_2c8dafb254f2ca03.speak.txt",
+      "sources": [
+        {
+          "publisher": "National Hurricane Center",
+          "source": "NHC Eastern North Pacific",
+          "title": "Hurricane Rachel Forecast Discussion Number 23",
+          "url": "https://www.nhc.noaa.gov/text/refresh/MIATCDEP3+shtml/022031.shtml",
+          "published_at": "2026-10-02T20:31:52Z"
+        }
+      ]
+    },
+    {
+      "id": "38ed584fdaa96bf3",
+      "cluster_id": "c_4184d42eb0fe4449",
+      "program": "MAINLAND_WEATHER_BRIEF",
+      "report": "mainland_weather_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_4184d42eb0fe4449.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_4184d42eb0fe4449.speak.txt",
+      "sources": [
+        {
+          "publisher": "National Hurricane Center",
+          "source": "NHC Eastern North Pacific",
+          "title": "Hurricane Rachel Wind Speed Probabilities Number 23",
+          "url": "https://www.nhc.noaa.gov/text/refresh/MIAPWSEP3+shtml/022031.shtml",
+          "published_at": "2026-10-02T20:31:52Z"
+        }
+      ]
+    },
+    {
+      "id": "4b9b52d3d4d5458b",
+      "cluster_id": "c_2420d4a105dd2081",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_2420d4a105dd2081.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_2420d4a105dd2081.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR National",
+          "title": "'Disturbed' by Cornell rape investigation, NY governor puts state AG in charge",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5986110/disturbed-by-cornell-rape-investigation-ny-governor-puts-state-ag-in-charge",
+          "published_at": "2026-10-02T20:18:59Z"
+        }
+      ]
+    },
+    {
+      "id": "35f568f275107ab4",
+      "cluster_id": "c_a68ab974a3f40d90",
+      "program": "AVIATION_BRIEF",
+      "report": "aviation_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/aviation_brief/c_a68ab974a3f40d90.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/aviation_brief/c_a68ab974a3f40d90.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR National",
+          "title": "Talk of drones and a burning flame on Trump's D.C. arch worries aviation experts",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5983708/talk-of-drones-and-a-burning-flame-on-trumps-d-c-arch-worries-aviation-experts",
+          "published_at": "2026-10-02T20:18:57Z"
+        }
+      ]
+    },
+    {
+      "id": "a687fa2c252cb24c",
+      "cluster_id": "c_4b34979a1397b5c2",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_4b34979a1397b5c2.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_4b34979a1397b5c2.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR World",
+          "title": "The G7 will release 100 million reserve barrels of diesel fuel over the next 4 months",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5989397/the-g7-will-release-100-million-reserve-barrels-of-diesel-fuel-over-the-next-4-months",
+          "published_at": "2026-10-02T20:23:49Z"
+        }
+      ]
+    },
+    {
+      "id": "6fb7043be095cee4",
+      "cluster_id": "c_92c979cd7082a2f8",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_92c979cd7082a2f8.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_92c979cd7082a2f8.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "Hawaii\u2019s centuries-old sea arch collapses into Pacific after series of rough storms",
+          "url": "https://www.theguardian.com/us-news/2026/oct/02/hawaii-holei-sea-arch-collapses",
+          "published_at": "2026-10-02T20:16:35Z"
+        }
+      ]
+    },
+    {
+      "id": "35b15004e6df2cd6",
+      "cluster_id": "c_d2f33d223089a0f8",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_d2f33d223089a0f8.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_d2f33d223089a0f8.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "Cameron Winter at Carnegie Hall review \u2013 Paul Thomas Anderson\u2019s sumptuous recording is an immediate classic",
+          "url": "https://www.theguardian.com/film/2026/oct/02/cameron-winter-carnegie-hall-review-paul-thomas-anderson",
+          "published_at": "2026-10-02T20:13:24Z"
+        }
+      ]
+    },
+    {
+      "id": "42cc360a668fcfe2",
+      "cluster_id": "c_42a01e33baec806d",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_42a01e33baec806d.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_42a01e33baec806d.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Iraq grants Iranian airlines 40 daily Najaf flights after US exemption",
+          "url": "https://www.aljazeera.com/news/2026/10/2/iraq-grants-iranian-airlines-40-daily-najaf-flights-after-us-exemption?traffic_source=rss",
+          "published_at": "2026-10-02T20:32:02Z"
+        }
+      ]
+    },
+    {
+      "id": "3ff3686051a75408",
+      "cluster_id": "c_6d286c2707c6cefc",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_6d286c2707c6cefc.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_6d286c2707c6cefc.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "California leads lawsuit against Trump fuel efficiency standards rollback",
+          "url": "https://www.aljazeera.com/economy/2026/10/2/california-leads-lawsuit-against-trump-fuel-efficiency-standards-rollback?traffic_source=rss",
+          "published_at": "2026-10-02T20:28:07Z"
+        }
+      ]
+    },
+    {
+      "id": "641965f7f1205881",
+      "cluster_id": "c_ca235c5680ed7bc0",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_ca235c5680ed7bc0.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_ca235c5680ed7bc0.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "News Release \u2013 DOH Alerts Public to Sierra Nevada Cheese Company Recall of All Graziers Raw Milk Cheeses",
+          "url": "https://governor.hawaii.gov/newsroom/news-release-doh-alerts-public-to-sierra-nevada-cheese-company-recall-of-all-graziers-raw-milk-cheeses/",
+          "published_at": "2026-10-02T20:22:12Z"
+        }
+      ]
+    },
+    {
+      "id": "6194ea0a00d12db7",
+      "cluster_id": "c_2e52a1aa3e3a2097",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_2e52a1aa3e3a2097.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_2e52a1aa3e3a2097.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "NEWS RELEASE \u2013 DHS ANNOUNCES SNAP REPLACEMENT BENEFITS FOR HOUSEHOLDS IMPACTED BY HURRICANE NOLO AND A SUBSEQUENT WILDFIRE",
+          "url": "https://governor.hawaii.gov/newsroom/news-release-dhs-announces-snap-replacement-benefits-for-households-impacted-by-hurricane-nolo-and-a-subsequent-wildfire/",
+          "published_at": "2026-10-02T19:26:20Z"
+        }
+      ]
+    },
+    {
+      "id": "7f587dafb3ca0e5f",
+      "cluster_id": "c_fb10701016cee55d",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_fb10701016cee55d.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_fb10701016cee55d.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "Why mixing politics with your stock portfolio might be costing you money",
+          "url": "https://www.marketwatch.com/story/why-mixing-politics-with-your-stock-portfolio-might-be-costing-you-money-5b4aabfb?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T20:43:00Z"
+        }
+      ]
+    },
+    {
+      "id": "87bbc53679b9583a",
+      "cluster_id": "c_5404a33c553960fd",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_5404a33c553960fd.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_5404a33c553960fd.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Victoria is about to have the most unpredictable election in living memory",
+          "url": "https://www.abc.net.au/news/2026-10-03/victorian-state-election-unpredictable-casey-briggs-analysis/107216078",
+          "published_at": "2026-10-02T20:49:03Z"
+        }
+      ]
+    },
+    {
+      "id": "ac9408272bb90211",
+      "cluster_id": "c_f9335b4f25cd340d",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_f9335b4f25cd340d.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_f9335b4f25cd340d.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Man charged with preparing terrorist acts against Nigel Farage",
+          "url": "https://www.abc.net.au/news/2026-10-03/nigel-farage-ann-widdecombe-murder-joshua-kerry-terrorism-charge/107224414",
+          "published_at": "2026-10-02T20:45:24Z"
+        }
+      ]
+    },
+    {
+      "id": "df74f674c26d4a8d",
+      "cluster_id": "c_817c9caabb7289cb",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_817c9caabb7289cb.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_817c9caabb7289cb.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Geelong notch seventh-straight AFLW win as Scheer fires against Richmond",
+          "url": "https://www.abc.net.au/news/2026-10-03/scheer-brilliance-helps-in-form-cats-overcome-tigers-aflw/107224008",
+          "published_at": "2026-10-02T20:36:10Z"
+        }
+      ]
+    },
+    {
+      "id": "7d24312eaa10de34",
+      "cluster_id": "c_fa0806d9c62e4907",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_fa0806d9c62e4907.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_fa0806d9c62e4907.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Christa Pike unconscious, on ventilator after botched execution: Lawyers",
+          "url": "https://www.aljazeera.com/news/2026/10/2/christa-pike-unconscious-on-ventilator-after-botched-execution-lawyers?traffic_source=rss",
+          "published_at": "2026-10-02T20:57:32Z"
+        }
+      ]
+    },
+    {
+      "id": "a78d2c7bc88e91f9",
+      "cluster_id": "c_dc31c5100677dd5e",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_dc31c5100677dd5e.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_dc31c5100677dd5e.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "FlyDubai pilot hailed as \u2018national hero\u2019 as he describes attack",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/flydubai-pilot-hailed-as-national-hero-as-he-describes-attack?traffic_source=rss",
+          "published_at": "2026-10-02T20:54:49Z"
+        }
+      ]
+    },
+    {
+      "id": "afb79ec18564289e",
+      "cluster_id": "c_e34eef93f5b4da81",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_e34eef93f5b4da81.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_e34eef93f5b4da81.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say",
+          "url": "https://www.bbc.co.uk/news/articles/c3kgqw7zvz47o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T20:32:07Z"
+        }
+      ]
+    },
+    {
+      "id": "13cabbf86a8cf477",
+      "cluster_id": "c_6ab1f1a9292c038a",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_6ab1f1a9292c038a.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_6ab1f1a9292c038a.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "Hawaii's iconic 550-year-old H\u014dlei Sea Arch collapses",
+          "url": "https://www.bbc.co.uk/news/articles/crd6dy4xepgyo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T21:00:41Z"
+        }
+      ]
+    },
+    {
+      "id": "2882b03c47102299",
+      "cluster_id": "c_a0921bf9c0cb52af",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_a0921bf9c0cb52af.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_a0921bf9c0cb52af.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "Brazil\u2019s Lula says only he can stop rise of fascism under Bolsonaro\u2019s son",
+          "url": "https://www.theguardian.com/world/2026/oct/02/brazil-lula-stop-fascism-bolsonaro-son",
+          "published_at": "2026-10-02T21:12:29Z"
+        }
+      ]
+    },
+    {
+      "id": "22baaf9198ac40d5",
+      "cluster_id": "c_6fe314f51bec216c",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_6fe314f51bec216c.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_6fe314f51bec216c.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "War review \u2013 Sienna Miller and Dominic West\u2019s hellish divorce drama is massive, massive fun",
+          "url": "https://www.theguardian.com/tv-and-radio/2026/oct/02/war-review-george-kay-sienna-miller-dominic-west",
+          "published_at": "2026-10-02T21:05:40Z"
+        }
+      ]
+    },
+    {
+      "id": "e6649f03548767d0",
+      "cluster_id": "c_ef8a5580ba8d49b3",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_ef8a5580ba8d49b3.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_ef8a5580ba8d49b3.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR World",
+          "title": "How Brazil's two leading presidential candidates are talking about crime",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5986091/how-brazils-two-leading-presidential-candidates-are-talking-about-crime",
+          "published_at": "2026-10-02T21:07:41Z"
+        }
+      ]
+    },
+    {
+      "id": "40c7c28c2e50339c",
+      "cluster_id": "c_69ac3faed2714644",
+      "program": "SCIENCE_BRIEF",
+      "report": "science_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/science_brief/c_69ac3faed2714644.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/science_brief/c_69ac3faed2714644.speak.txt",
+      "sources": [
+        {
+          "publisher": "Nature",
+          "source": "Nature",
+          "title": "Location, location, location: how to edit genes only in the cells you want",
+          "url": "https://www.nature.com/articles/d41586-026-03037-8",
+          "published_at": "2026-10-02T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "939c4af00c7839ba",
+      "cluster_id": "c_04b85a5b60724c39",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_04b85a5b60724c39.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_04b85a5b60724c39.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "One Nation makes election promise to revive Victoria's timber sector",
+          "url": "https://www.abc.net.au/news/2026-10-03/victorian-election-logging-promises-one-nation-alp-coalition/107156520",
+          "published_at": "2026-10-02T21:16:23Z"
+        }
+      ]
+    },
+    {
+      "id": "cae2d51b57f460b9",
+      "cluster_id": "c_cb89723db1f8bba8",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_cb89723db1f8bba8.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_cb89723db1f8bba8.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Israeli general: Gaza captives could have been freed a year earlier",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/israeli-general-gaza-captives-could-have-been-freed-a-year-earlier?traffic_source=rss",
+          "published_at": "2026-10-02T21:15:58Z"
         }
       ]
     }

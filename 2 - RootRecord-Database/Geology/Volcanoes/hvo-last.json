@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-02T05:42:32-10:00",
+  "at": "2026-10-02T11:55:54-10:00",
   "source": "https://volcanoes.usgs.gov/hans-public/api/volcano/getMonitoredVolcanoes",
   "observatory": "HVO",
   "count": 8,
@@ -27,9 +27,9 @@
       "vnum": "332010",
       "alert_level": "WATCH",
       "color_code": "ORANGE",
-      "status_sent_utc": "2026-10-01 19:05:15",
-      "status_notice_id": "DOI-USGS-HVO-2026-10-01T01:30:09+00:00",
-      "status_notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T01:30:09+00:00"
+      "status_sent_utc": "2026-10-02 19:45:09",
+      "status_notice_id": "DOI-USGS-HVO-2026-10-02T18:13:04+00:00",
+      "status_notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-02T18:13:04+00:00"
     },
     {
       "name": "Mauna Kea",

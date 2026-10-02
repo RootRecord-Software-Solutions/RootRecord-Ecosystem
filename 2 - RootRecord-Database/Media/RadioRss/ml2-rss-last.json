@@ -1,7 +1,7 @@
 {
   "collector": "ml2.radio_rss",
   "status": "ok",
-  "collected_at": "2026-10-02T15:42:30Z",
+  "collected_at": "2026-10-02T21:55:52Z",
   "rr_database_root": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank",
   "radio_root": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss",
   "poll": {
@@ -14,18 +14,44 @@
         "duplicates": 17
       },
       {
-        "feed": "aljazeera_all",
+        "feed": "azure_blog",
         "ok": true,
         "items": 0
+      },
+      {
+        "feed": "bbc_africa",
+        "ok": true,
+        "items": 20,
+        "duplicates": 11
+      },
+      {
+        "feed": "bbc_asia",
+        "ok": true,
+        "items": 17,
+        "duplicates": 17
+      },
+      {
+        "feed": "bbc_australia",
+        "ok": true,
+        "items": 17,
+        "duplicates": 11
+      },
+      {
+        "feed": "bbc_business",
+        "ok": true,
+        "items": 20,
+        "duplicates": 18
+      },
+      {
+        "feed": "bbc_europe",
+        "ok": true,
+        "items": 20,
+        "duplicates": 19
       },
       {
         "feed": "hawaii_governor",
         "ok": true,
         "items": 0
-      },
-      {
-        "feed": "jpl_news",
-        "ok": false
       },
       {
         "feed": "marketwatch_top",
@@ -59,41 +85,35 @@
         "feed": "nasa_artemis",
         "ok": true,
         "items": 10,
-        "duplicates": 9
+        "duplicates": 8
       },
       {
         "feed": "nasa_jpl",
         "ok": true,
-        "items": 10,
-        "duplicates": 10
+        "items": 0
       },
       {
         "feed": "nasa_news",
         "ok": true,
         "items": 10,
-        "duplicates": 10
+        "duplicates": 9
       },
       {
         "feed": "nasa_recent",
         "ok": true,
         "items": 10,
-        "duplicates": 10
+        "duplicates": 9
       },
       {
         "feed": "nasa_station",
         "ok": true,
-        "items": 10,
-        "duplicates": 10
-      },
-      {
-        "feed": "nasaspaceflight",
-        "ok": false
+        "items": 0
       },
       {
         "feed": "nature_news",
         "ok": true,
         "items": 20,
-        "duplicates": 19
+        "duplicates": 20
       },
       {
         "feed": "nhc_atlantic",
@@ -110,47 +130,24 @@
       {
         "feed": "nist_cyber_insights",
         "ok": true,
-        "items": 20,
-        "duplicates": 20
+        "items": 0
       },
       {
         "feed": "nist_cybersecurity",
         "ok": true,
-        "items": 0,
-        "duplicates": 0
-      },
-      {
-        "feed": "nist_news",
-        "ok": true,
-        "items": 20,
-        "duplicates": 20
-      },
-      {
-        "feed": "noaa_news",
-        "ok": true,
         "items": 0
       },
       {
-        "feed": "npr_national",
+        "feed": "nsf_news",
         "ok": true,
-        "items": 10,
-        "duplicates": 9
-      },
-      {
-        "feed": "npr_news",
-        "ok": true,
-        "items": 10,
-        "duplicates": 9
+        "items": 0
       }
     ],
-    "composed": [
-      "c_0e5de4fca8763c2d",
-      "c_198c3ce41b8f5bdb"
-    ]
+    "composed": []
   },
   "handoff_core": 3,
   "handoff_stories": 80,
-  "handoff_story_bytes": 104885,
+  "handoff_story_bytes": 104882,
   "error": null,
   "pacific_job": "radio_rss_poll",
   "note": "vendor/RadioRss poll + queue export; no speak/push. Pacific radio_rss_poll stays in jobs.py (RR_LOCAL_DATA_POLL gate)."

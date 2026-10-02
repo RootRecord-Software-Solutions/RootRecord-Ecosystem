@@ -1,13 +1,13 @@
-# Midday report — 2026-10-01T12:00:00-10:00
+# Midday report — 2026-10-02T12:05:07-10:00
 
 Automated Reports are in active development and is expected to change
 
 ## Measured
 
-- Batteries: Delta 2 26%, River 2 Pro 6%; solar input 104 W
+- Batteries: Delta 2 13%, River 2 Pro 16%; solar input 118.0 W
 - NWS alerts active: 0
-- Forecast Today: Partly sunny. Windward and mountains, numerous showers. Leeward, scattered showers through the day. Highs 84 to 89. Southeast winds around 15 mph.
-- Host CPU 17%, memory 75% used
-- Open work-order items: 10
+- Forecast Today: Mostly sunny. Scattered showers on Kauai and Oahu. isolated showers Maui County. Highs 84 to 89. East winds around 15 mph.
+- Host CPU 72%, memory 36% used
+- Open work-order items: 8
 
 _Template report; measured values only._

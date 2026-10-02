@@ -19,7 +19,7 @@ ESA Human Spaceflight        ● HEALTHY
 ESA Earth Observation        ○ UNKNOWN
 ESA Technology               ○ UNKNOWN
 ESA Exploration              ○ UNAVAILABLE
-NSF News                     ○ UNKNOWN
+NSF News                     ● HEALTHY
 NSF Events                   ○ UNKNOWN
 NSF Statistics               ○ UNKNOWN
 NIST News                    ● HEALTHY
@@ -71,7 +71,7 @@ FAA Safety                   ○ UNAVAILABLE
 FAA Commercial Space Transpo ○ UNAVAILABLE
 FAA Aviation Technology      ○ UNAVAILABLE
 NTSB Press Releases          ○ UNKNOWN
-NTSB Investigations          ○ UNKNOWN
+NTSB Investigations          ● HEALTHY
 NTSB Reports                 ○ UNKNOWN
 NTSB Events                  ○ UNKNOWN
 EIA Today in Energy          ○ UNKNOWN
