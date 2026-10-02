@@ -2,8 +2,8 @@
 
 | Field | Value |
 | --- | --- |
-| **Work Order ID** | WO-GEN-2026-09-29 |
-| **Date** | 2026-09-29 (HST) |
+| **Work Order ID** | WO-GEN-2026-10-01 |
+| **Date** | 2026-10-01 (HST) |
 | **Status** | OPEN — generated draft, not on the active index |
 | **Owner** | RootRecord |
 | **Related** | Library 07-testing, 08-ideas and the operator worklog of the day |
@@ -25,96 +25,39 @@ Collect the open operator sign-off items and measured friction for the day in on
 | Item | Location / status |
 | --- | --- |
 | A-EYES_Work_Order_WO-AEYES-2026-09-27 | OPEN — Ready for additions |
-| AgentContext_CanonicalHome_Work_Order_WO-AGENT-2026-09-27 | OPEN — Investigate before consolidate |
-| Cloudflare_Tunnel_Recovery_Work_Order_WO-CF-2026-09-27 | OPEN — Config recovery (paths updated 2026-09-28) |
-| Database_Boundary_Work_Order_WO-DATA-2026-09-27 | IN PROGRESS — canonical Database root standardized in active Pacific source; hi… |
-| Ecosystem_Migration_Work_Order_WO-ECO-2026-09-27 | IN PROGRESS — Pacific runtime cut over to Ecosystem Servers path; G3 runtime ve… |
-| GitHub_Catalog_Hygiene_Work_Order_WO-GH-2026-09-27 | IN PROGRESS — Pacific `Github/` sync PASS (post-reboot evidence 2026-09-29); we… |
-| MasterPrompt_RepoMap_Work_Order_WO-MAP-2026-09-27 | OPEN — Unblocked for Pacific name; write map when ready |
-| Old_Server_Selective_Recovery_Work_Order_WO-OLD-2026-09-28 | OPEN — Blocked until G2 residual domains land in G3 |
-| Ops_Weekly_Archive_Work_Order_WO-ARCH-2026-09-27 | OPEN — Spec ready; implementation owned by WO-RPT-001 Phase D |
+| Database_Boundary_Work_Order_WO-DATA-2026-09-27 | IN PROGRESS — canonical path is in place and the 01:09 HST boot wrote River sam… |
+| Ecosystem_Migration_Work_Order_WO-ECO-2026-09-27 | IN PROGRESS — Pacific runtime is live on the Ecosystem path (confirmed again 20… |
+| GitHub_Catalog_Hygiene_Work_Order_WO-GH-2026-09-27 | IN PROGRESS — desk publishes `ecosystem` (inplace) and `pacific`, `database`, `… |
+| Old_Server_Selective_Recovery_Work_Order_WO-OLD-2026-09-28 | OPEN — G3 is running the live jobs. The first new G1 packet is still not recove… |
 | Servers_Cutover_Work_Order_WO-SRV-2026-09-27 | IN PROGRESS — G3 PASS: poller on canonical root, network globe, BLE owner, cam… |
-| WO-COM-001-Communications-Surface | Draft |
+| WO-COM-001-Communications-Surface | Draft — sandbox replies on as of 2026-09-30 afternoon. Live council and private… |
 | WO-COM-002-Discord-Bot-Credential-Rotation | OPEN |
-| WO-ECO-001-Action-Plan | COMPLETE (LIVE + soak) — 2026-09-28 ~16:40 HST |
-| WO-ECO-001-Energy-Domain-Import | Phase 1 COMPLETE / LIVE — soak confirmed 2026-09-28 ~16:39–16:40 HST |
-| WO-GH-001-Github-Pull-Authority | Draft |
-| WO-RPT-001-Action-Plan | not recorded |
-| WO-RPT-001-Reports-Worklog-Domain-Import | Foundation PASS (A–E; `worklog_scan` PASS — `2 - RootRecord-Database/Logs/Migra… |
-| WO-SRV-001-Residual-Jobs-Path-Rewire | Draft — blocked on WO-ECO-001 (and later domain imports) |
-| WO-SYS-001-Poller-Observability | Log path slice complete — wired to RootRecord-Database |
+| WO-ECO-001-Energy-Domain-Import | IN PROGRESS — Phase 1 reads signed off and archived 2026-09-29 ~21:41 HST. Phas… |
+| WO-SRV-001-Residual-Jobs-Path-Rewire | Draft — path check 2026-09-29 22:24 HST: `jobs.py` has no `~/.ollama/skills/` j… |
 | WO-WEB-001-Public-Status-Solar-Board | Draft |
-| WO-WEB-002-Public-Site-Foundation | Draft |
+| WO-WEB-002-Public-Site-Foundation | The public page is Pacific `Website/Home/`, published to `RootRecord-Software-S… |
 | WO-WOGEN-001-Work-Order-Generator | Draft — architecture only; not accepted for execution |
-| WO-WXG-001-Weather-Geology-Import | Draft — after Energy |
+| WO-WXG-001-Weather-Geology-Import | Draft — Weather poller recycled 2026-09-30 02:24:58 HST to load resource edits.… |
 
 ### 2.2 Completed so far
 
-- [x] Poller realigned to new Database root — PASS
-- [x] Weather hook from Pacific with Weather/.venv — PASS
-- [x] Status viewer: poller-dashboard single-window launcher; docs-only pulls don't reload — PASS
-- [x] Post-reboot (02:28 HST boot): all services — PASS (NPU PARTIAL at the time, see next record)
-- [x] NPU / FastFlowLM install and validate — PASS
-- [x] Database Title-case folder rename (one stack restart) — PASS
-- [ ] OOM incident: resident FLM warmup (llama3.2:3b) — FAIL → fixed; fix PASS
-- [ ] Laptop battery bar B3 on dashboard — LANDED / VERIFY PENDING
-- [x] EcoFlow stale data: Energy/.venv — PASS (freshness); battery levels flagged
-- [x] NPU route: llama3.2:1b on demand — PASS (route); own-session fix VERIFY PENDING
-- [x] AI inference JSONL + FLM log redaction + AI processing report — PASS; run-infer rc now 0 (kill fix); report job gated OFF
-- [x] Weather + relay supervisor (dry run) — PASS (logic); live VERIFY PENDING (next poller start)
-- [x] Pacific npu-status.sh (idle) — PASS (idle); lock-held run VERIFY PENDING
-- [x] Relay quiet-mode inbox + replay (parse only) — PASS (parse); live VERIFY PENDING (next poller start)
-- [x] Weather retention dry run — PASS (dry run: 0 to move); apply OFF pending review
-- [x] Kokoro-82M G3 port: one clip per persona — PASS (format/resources); by-ear VERIFY PENDING
-- [x] Kokoro phrase-clip cache, stitcher, QC, system_perf — PASS (68/68 QC; ASR 59/68); listen list VERIFY PENDING; job…
-- [x] Hawaiian place-name pronunciation sheet — PASS (text 99/99); by-ear VERIFY PENDING
-- [x] Specialist router unit test (no models) — PASS (35/35 labelled; held-out 5/8 informational; log priva…
-- [x] Specialists: 2 live tiny requests (Ollama rr-energy + FLM rr-weather system message) — PASS (gate honoured; 6.3 s / 5.1 s; nothing resident after)
+- [ ] Mainland One tunnel SSH; Mainland Two direct SSH; ml2 tunnel blocked on Cloudflare login — Evening gate: PASS `ssh ml1`; FAIL `ml1.rootrecord.cloud`;…
 
 ### 2.3 Known friction
 
-- OOM incident: resident FLM warmup (llama3.2:3b) — FAIL → fixed; fix PASS
-- Laptop battery bar B3 on dashboard — LANDED / VERIFY PENDING
-- NPU route: llama3.2:1b on demand — PASS (route); own-session fix VERIFY PENDING
-- Weather + relay supervisor (dry run) — PASS (logic); live VERIFY PENDING (next poller start)
-- Pacific npu-status.sh (idle) — PASS (idle); lock-held run VERIFY PENDING
-- Relay quiet-mode inbox + replay (parse only) — PASS (parse); live VERIFY PENDING (next poller start)
-- Kokoro-82M G3 port: one clip per persona — PASS (format/resources); by-ear VERIFY PENDING
-- Kokoro phrase-clip cache, stitcher, QC, system_perf — PASS (68/68 QC; ASR 59/68); listen list VERIFY PENDING; job…
-- Hawaiian place-name pronunciation sheet — PASS (text 99/99); by-ear VERIFY PENDING
-- Poller job `github_sync_all` FAIL at 01:19 HST
-- Poller job `council_relay` FAIL at 01:19 HST
-- Poller job `github_sync_all` FAIL at 01:49 HST
-- Poller job `github_sync_all` FAIL at 02:13 HST
-- Poller job `github_sync_all` FAIL at 02:27 HST
-- Poller job `github_sync_all` FAIL at 03:08 HST
-- Poller job `security_camera_frame_grab` FAIL at 03:10 HST
-- Poller job `flm_npu_warmup` FAIL at 03:11 HST
-- Poller job `flm_npu_warmup` FAIL at 03:11 HST
-- Poller job `flm_npu_warmup` FAIL at 03:11 HST
-- Poller job `flm_npu_warmup` FAIL at 03:11 HST
-- Poller job `flm_npu_warmup` FAIL at 03:12 HST
-- Poller job `flm_npu_warmup` FAIL at 03:12 HST
-- Poller job `flm_npu_warmup` FAIL at 03:12 HST
-- Poller job `flm_npu_warmup` FAIL at 03:12 HST
-- Poller job `flm_npu_warmup` FAIL at 03:13 HST
-- Poller job `flm_npu_warmup` FAIL at 03:13 HST
-- Poller job `flm_npu_warmup` FAIL at 03:13 HST
+- Mainland One tunnel SSH; Mainland Two direct SSH; ml2 tunnel blocked on Cloudfl… — Evening gate: PASS `ssh ml1`; FAIL `ml1.rootrecord.cloud`;…
+- Poller job `github_sync_all` FAIL at 01:46 HST
+- Poller job `github_sync_all` FAIL at 01:53 HST
+- Poller job `voice_earthquake_report` FAIL at 10:02 HST
+- Poller job `voice_system_perf` FAIL at 11:00 HST
+- Poller job `github_sync_all` FAIL at 11:06 HST
+- Poller job `voice_solar_desk` FAIL at 12:07 HST
 
 ---
 
 ## 3. Tasks
 
-1. Poller restart
-2. sudo: `OLLAMA_KEEP_ALIVE=0` in `ollama.service`
-3. Hardware tests: Energy arm/disarm and AC always-on (actuating)
-4. Enabling voice output or Telegram sends
-5. Removing internal copies after the external-drive backup
-6. Security remediation: camera stills in the public Database repo
-7. External drive `/dev/sda1` (DATABASE) — BLOCKED
-8. G2 retirement of any file (all KEPT). Weather repo decision (PROPOSED, not approved).
-9. Weather retention apply: review `Logs/Weather/Retention/weather-retention_dry-run_2026-09-29_0404.m…
-10. Relay replay sends: `relay-inbox-replay.py --send` with `RR_RELAY_REPLIES=1`
+1. No open sign-off items
 
 ---
 
@@ -155,7 +98,7 @@ Collect the open operator sign-off items and measured friction for the day in on
 
 ---
 
-*Work order prepared 2026-09-29 HST. Update status when closed.*
+*Work order prepared 2026-10-01 HST. Update status when closed.*
 
 ---
 
@@ -164,7 +107,7 @@ Collect the open operator sign-off items and measured friction for the day in on
 **Active / accepted WOs** — filename when saved:
 
 ```text
-Desk_Signoff_Backlog_Work_Order_WO-GEN-2026-09-29.md
+Desk_Signoff_Backlog_Work_Order_WO-GEN-2026-10-01.md
 # or
 WO-GEN-desk-signoff-backlog.md
 ```

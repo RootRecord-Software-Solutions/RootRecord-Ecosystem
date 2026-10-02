@@ -1,7 +1,7 @@
 # AI Inference Activity Log
 
-**Date:** 2026-10-01  
-**Scope:** Inference requests recorded by run-infer.sh on 2026-10-01 (metadata only, no prompt text).  
+**Date:** 2026-09-29  
+**Scope:** Inference requests recorded by run-infer.sh on 2026-09-29 (metadata only, no prompt text).  
 **Timezone:** HST  
 **Status:** IN PROGRESS
 
@@ -9,14 +9,20 @@
 
 ## Timeline
 
-22:44 — No inference requests recorded for this date
+03:59 — npu-flm `llama3.2:1b` for ava (caller g3-voice-ailog-test): 4641 ms, rc 0, cold start
+
+04:22 — npu-flm `llama3.2:1b` for ava (caller sf-fix-test): 4241 ms, rc 0, cold start
+
+04:30 — npu-flm `llama3.2:1b` for ava (caller voice_rollup): 6163 ms, rc 0, cold start
+
+04:31 — npu-flm `llama3.2:1b` for rr-exec (caller template_fill): 7655 ms, rc 0, cold start
 
 ---
 
 ## Outcomes
 
-- 0 requests; p50 not recorded ms, max not recorded ms
-- 0 Ollama fallbacks, 0 non-zero exit codes; lowest MemAvailable after a request not recorded MB
+- 4 requests; p50 5402 ms, max 7655 ms
+- 0 Ollama fallbacks, 0 non-zero exit codes; lowest MemAvailable after a request 7281 MB
 
 ---
 
@@ -39,8 +45,8 @@
 
 ## Close
 
-**Closed:** 2026-10-01 22:44 HST  
-**Status:** 0 requests, 0 fallbacks, 0 non-zero exit codes.
+**Closed:** 2026-09-29 04:31 HST  
+**Status:** 4 requests, 0 fallbacks, 0 non-zero exit codes.
 
 ---
 
@@ -49,7 +55,7 @@
 Filename when saved:
 
 ```text
-2026-10-01 AI Inference Activity Log.md
+2026-09-29 AI Inference Activity Log.md
 ```
 
 Examples:

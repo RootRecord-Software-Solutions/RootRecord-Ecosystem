@@ -1,34 +1,22 @@
 {
-  "generated": "2026-09-29T04:34:05-10:00",
-  "date": "2026-09-29",
+  "generated": "2026-10-01T22:44:05-10:00",
+  "date": "2026-10-01",
   "specialist": "rr-exec",
   "results": {
-    "workorder": {
-      "template": "TEMPLATE Work Order.md",
-      "output": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/Work-Order_current.md",
+    "worklog": {
+      "template": "TEMPLATE System Operator Worklog — Session.md",
+      "output": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/System-Operator-Worklog-Session_current.md",
       "validation": {
         "ok": true,
         "errors": [],
         "unsupported_numbers": [],
-        "headings": 12,
-        "tables": 3,
-        "fields": 8
+        "headings": 11,
+        "tables": 2,
+        "fields": 7
       },
       "draft": {
-        "draft_mode": "model",
-        "model_called": true,
-        "mem_avail_mb_before": 11928,
-        "lock_idle": true,
-        "rc": 0,
-        "latency_ms": 9245,
-        "reply_chars": 792,
-        "mem_avail_mb_after": 11794,
-        "backend": "npu-flm",
-        "fields": {
-          "INTENT": "fallback (missing)",
-          "SCOPE": "fallback (missing)"
-        },
-        "reply_preview": "I am RootRecord, and I cannot see the desk. The backlog work order exists to address the 10 operator sign-off items, which require restarts, and to perform hardware tests to ensure the system is functioning correctly. The scope of the work order is to perform these tasks, and it is out of scope to…"
+        "draft_mode": "none",
+        "model_called": false
       }
     },
     "checkpoint": {
@@ -41,6 +29,40 @@
         "headings": 12,
         "tables": 3,
         "fields": 1
+      },
+      "draft": {
+        "draft_mode": "none",
+        "model_called": false
+      }
+    },
+    "event": {
+      "template": "TEMPLATE Event Action Log.md",
+      "output": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/Event-Action-Log_current.md",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "unsupported_numbers": [],
+        "headings": 7,
+        "tables": 1,
+        "fields": 6
+      },
+      "draft": {
+        "draft_mode": "none",
+        "model_called": false
+      }
+    },
+    "workorder": {
+      "template": "TEMPLATE Work Order.md",
+      "output": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/Work-Order_current.md",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "unsupported_numbers": [
+          "08"
+        ],
+        "headings": 12,
+        "tables": 3,
+        "fields": 8
       },
       "draft": {
         "draft_mode": "none",
