@@ -19,12 +19,12 @@ The AWS host fills this block in and pushes it to GitHub. A desk publish keeps t
 
 | | |
 | --- | --- |
-| Checked | 2026-10-01 13:30 HST |
-| Commit | `a9ecdb3` Merge remote-tracking branch 'origin/main' |
+| Checked | 2026-10-01 14:15 HST |
+| Commit | `feb07d3` status: AWS live README 2026-10-02T00:00Z |
 | Checkout | even with GitHub; local edits: communications/rootrecord-radio/audio/reports/nws_weather_current.ogg,network-globe/package-lock.json |
-| Last pull | 2026-10-01T23:29:49+00:00 — Already up to date. |
+| Last pull | 2026-10-02T00:14:09+00:00 — Already up to date. |
 | Disk | 2.3G free of 6.7G (66% used) |
-| Uptime | up 5 days, 8 hours, 46 minutes |
+| Uptime | up 5 days, 9 hours, 32 minutes |
 | rr-status-api | active (enabled) |
 | network-globe-web | active (enabled) |
 | network-globe-feed | active (enabled) |
@@ -35,7 +35,7 @@ The AWS host fills this block in and pushes it to GitHub. A desk publish keeps t
 | rr-radio-plays-purge.timer | active (enabled) |
 | rr-radio-watch.timer | active (enabled) |
 | rr-radio-stream | active (enabled) |
-| Play log | 20 line(s) since the hourly wipe |
+| Play log | 0 line(s) since the hourly wipe |
 <!-- aws-status:end -->
 
 ---

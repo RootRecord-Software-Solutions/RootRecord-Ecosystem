@@ -135,7 +135,6 @@ function closeProc(proc) {
 function openDecode(file) {
   return spawn('ffmpeg', [
     '-hide_banner', '-loglevel', 'error',
-    '-fflags', 'nobuffer',
     '-i', file,
     '-f', 's16le', '-ar', String(RATE), '-ac', '2',
     '-flush_packets', '1',
@@ -193,11 +192,11 @@ function startEncoder() {
     prerollBytes += chunk.length;
     while (prerollBytes > 32768 && preroll.length > 1) prerollBytes -= preroll.shift().length;
     for (const res of clients) {
-      if (res.writableLength > 1024 * 1024) {
+      if (res.writableEnded || res.destroyed) {
         clients.delete(res);
-        res.end();
         continue;
       }
+      if (res.writableLength > 1024 * 1024) continue;
       try { res.write(chunk); } catch (err) { clients.delete(res); }
     }
   });
@@ -519,7 +518,10 @@ const server = http.createServer((req, res) => {
       res.end();
       return;
     }
-    res.socket && res.socket.setNoDelay(true);
+    if (res.socket) {
+      res.socket.setTimeout(0);
+      res.socket.setNoDelay(true);
+    }
     for (const chunk of preroll) res.write(chunk);
     clients.add(res);
     const drop = () => clients.delete(res);
@@ -530,6 +532,11 @@ const server = http.createServer((req, res) => {
   res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
   res.end('Not found\n');
 });
+
+server.requestTimeout = 0;
+server.headersTimeout = 0;
+server.timeout = 0;
+server.keepAliveTimeout = 0;
 
 server.listen(PORT, HOST, () => {
   console.log('station listening on ' + HOST + ':' + PORT);
