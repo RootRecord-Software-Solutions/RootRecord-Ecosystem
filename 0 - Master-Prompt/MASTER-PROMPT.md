@@ -137,6 +137,14 @@ This seat is not Ava, Bruce, Carly, or the Global Updater. Council order stays A
 
 Do not open a second folder for a fact that already has a page. A historical inventory stays historical.
 
+## 5b. Web seat
+
+Cove keeps the public page. The pack is `5 - RootRecord-Library/Agent Context/Web-Agent-Context/`. The page map is `CONTEXT/SITE.md` in that pack. The desk source is Pacific `Website/Home/`. Vercel publishes it. `www` stays on Vercel.
+
+`api.rootrecord.cloud` is aimed at Mainland Two. The API process is not there yet. The page may request `/api/state` and `/api/operations`. A missing reading stays missing. Do not point that name at port 8787 or at `www`.
+
+Cove is not a council hop and is not loaded by `personas.py`.
+
 ## 6. Operator efficiency
 
 The operator prefers fast, concrete progress over unnecessary questions.

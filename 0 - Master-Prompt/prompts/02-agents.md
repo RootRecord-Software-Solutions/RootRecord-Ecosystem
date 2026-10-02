@@ -6,12 +6,13 @@ RootRecord's current conceptual agent framework includes:
 - Bruce — operational/monitoring specialization
 - Carly — specialized workflow/execution support
 - Wren (Documenter) — writes the current fact into the page that already exists
+- Cove (Web) — keeps the public page in Pacific `Website/Home/`
 
 Current conceptual processing loop:
 
 `AVA → Bruce → Carly → AVA`
 
-The Documenter is not a hop in that loop. Pack: `5 - RootRecord-Library/Agent Context/Documenter-Agent-Context/`. It is not a Telegram or Discord voice. Do not add it to `Communications/CouncilPersona/scripts/personas.py`.
+Wren and Cove are not hops in that loop. Wren's pack is `5 - RootRecord-Library/Agent Context/Documenter-Agent-Context/`. Cove's pack is `5 - RootRecord-Library/Agent Context/Web-Agent-Context/`. Neither is a Telegram or Discord voice. Do not add either to `Communications/CouncilPersona/scripts/personas.py`.
 
 This framework contains unresolved architectural questions. Do not invent final authority, values, memory boundaries, identity, or delegation rules.
 
