@@ -6196,7 +6196,7 @@
         {
           "publisher": "ABC News Australia",
           "source": "ABC News Australia Top Stories",
-          "title": "Switzerland's 'wake-up call' as glaciers melt in record-breaking summer",
+          "title": "Swiss count cost of 'unprecedented' glacier melting over European summer",
           "url": "https://www.abc.net.au/news/2026-10-03/swiss-glaciers-shed-five-per-cent-of-ice-volume-in-2026/107219004",
           "published_at": "2026-10-02T19:04:55Z"
         }
@@ -7030,6 +7030,92 @@
           "title": "Israeli general: Gaza captives could have been freed a year earlier",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/israeli-general-gaza-captives-could-have-been-freed-a-year-earlier?traffic_source=rss",
           "published_at": "2026-10-02T21:15:58Z"
+        }
+      ]
+    },
+    {
+      "id": "9c862278ea5ab57d",
+      "cluster_id": "c_ac150cf6f7b33e7a",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_ac150cf6f7b33e7a.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_ac150cf6f7b33e7a.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Fishers warn snapper, kingfish prices could soar under proposed catch limits",
+          "url": "https://www.abc.net.au/news/2026-10-03/proposed-snapper-yellowtail-kingfish-changes-prices-availability/107161156",
+          "published_at": "2026-10-02T21:27:48Z"
+        }
+      ]
+    },
+    {
+      "id": "d7a31d8a292cf48c",
+      "cluster_id": "c_4329bf4f81a386ff",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_4329bf4f81a386ff.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_4329bf4f81a386ff.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Bosnia\u2019s elections explained",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/bosnias-elections-explained?traffic_source=rss",
+          "published_at": "2026-10-02T21:21:47Z"
+        }
+      ]
+    },
+    {
+      "id": "7d3d5a6fff0b320e",
+      "cluster_id": "c_743e5f6a4ac28528",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_743e5f6a4ac28528.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_743e5f6a4ac28528.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "Army to establish new autonomy command, acquisition executive",
+          "url": "https://breakingdefense.com/2026/10/army-to-establish-new-autonomy-command-acquisition-executive/",
+          "published_at": "2026-10-02T21:46:37Z"
+        }
+      ]
+    },
+    {
+      "id": "403d356d867106e7",
+      "cluster_id": "c_7e95d9ccbf7cf827",
+      "program": "MAINLAND_POLITICS_BRIEF",
+      "report": "mainland_politics_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_7e95d9ccbf7cf827.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_7e95d9ccbf7cf827.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR National",
+          "title": "As Trump's proposed arch looms over D.C., protesters pin their hopes on the midterms",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5985789/trump-arch-protest-veterans-midterms",
+          "published_at": "2026-10-02T21:44:07Z"
+        },
+        {
+          "publisher": "NPR",
+          "source": "NPR News",
+          "title": "As Trump's proposed arch looms over D.C., protesters pin their hopes on the midterms",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5985789/trump-arch-protest-veterans-midterms",
+          "published_at": "2026-10-02T21:44:07Z"
+        },
+        {
+          "publisher": "NPR",
+          "source": "NPR Politics",
+          "title": "As Trump's proposed arch looms over D.C., protesters pin their hopes on the midterms",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5985789/trump-arch-protest-veterans-midterms",
+          "published_at": "2026-10-02T21:44:07Z"
         }
       ]
     }

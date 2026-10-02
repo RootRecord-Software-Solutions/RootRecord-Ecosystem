@@ -70,5 +70,9 @@
   "kilauea_image_check": {
     "sha256": "43d40daa4486c1a3383b6c62ed4c30fa131d44532b83dd4e2baa51448a056f56",
     "message_id": 2642
+  },
+  "midday_report": {
+    "sha256": "a740fdac5c7fc2a447b05b41d444456865d77cbeaab613f67f80ad40cb8a8ffa",
+    "message_id": 2663
   }
 }
