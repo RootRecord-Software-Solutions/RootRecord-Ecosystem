@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-02T00:06:49-10:00",
-  "source": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&starttime=2026-10-01T10%3A06%3A49&minmagnitude=1.0&minlatitude=18.5&maxlatitude=22.5&minlongitude=-160.5&maxlongitude=-154.5",
+  "at": "2026-10-02T00:14:58-10:00",
+  "source": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&starttime=2026-10-01T10%3A14%3A58&minmagnitude=1.0&minlatitude=18.5&maxlatitude=22.5&minlongitude=-160.5&maxlongitude=-154.5",
   "window_h": 24,
   "min_mag": 1.0,
   "bbox": {
@@ -10,7 +10,7 @@
     "maxlongitude": -154.5
   },
   "count": 36,
-  "count_m2": 7,
+  "count_m2": 9,
   "count_m25": 0,
   "largest": {
     "id": "hv75047187",
@@ -19,10 +19,57 @@
     "time_hst": "2026-10-01T03:36:26.180000-10:00"
   },
   "kilauea_150km_count": 36,
-  "new_this_run": 0,
-  "new_local_m2_ids": [],
-  "usgs_generated_utc": "2026-10-02T10:06:49+00:00",
+  "new_this_run": 2,
+  "new_local_m2_ids": [
+    "hv75048112",
+    "hv75048107"
+  ],
+  "usgs_generated_utc": "2026-10-02T10:14:59+00:00",
   "events": [
+    {
+      "id": "hv75048112",
+      "mag": 2.23,
+      "mag_type": "ml",
+      "place": "5 km SW of Volcano, Hawaii",
+      "time_utc": "2026-10-02T10:08:59.340000+00:00",
+      "time_hst": "2026-10-02T00:08:59.340000-10:00",
+      "lon": -155.279830932617,
+      "lat": 19.4133338928223,
+      "depth_km": -0.330000013113022,
+      "status": "automatic",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75048112",
+      "nearest": {
+        "location_id": "us-hawaii-volcano-village",
+        "name": "Volcano Village",
+        "country_code": "US",
+        "admin1_code": "HI",
+        "km": 6.9
+      }
+    },
+    {
+      "id": "hv75048107",
+      "mag": 2.26,
+      "mag_type": "ml",
+      "place": "4 km SW of Volcano, Hawaii",
+      "time_utc": "2026-10-02T10:08:35.470000+00:00",
+      "time_hst": "2026-10-02T00:08:35.470000-10:00",
+      "lon": -155.27116394043,
+      "lat": 19.4190006256104,
+      "depth_km": 0.419999986886978,
+      "status": "automatic",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75048107",
+      "nearest": {
+        "location_id": "us-hawaii-volcano-village",
+        "name": "Volcano Village",
+        "country_code": "US",
+        "admin1_code": "HI",
+        "km": 6.1
+      }
+    },
     {
       "id": "hv75048072",
       "mag": 1.78,
@@ -769,50 +816,6 @@
         "country_code": "US",
         "admin1_code": "HI",
         "km": 7.1
-      }
-    },
-    {
-      "id": "hv75046967",
-      "mag": 1.81,
-      "mag_type": "ml",
-      "place": "5 km WSW of Volcano, Hawaii",
-      "time_utc": "2026-10-01T10:13:12.320000+00:00",
-      "time_hst": "2026-10-01T00:13:12.320000-10:00",
-      "lon": -155.27799987793,
-      "lat": 19.4249992370605,
-      "depth_km": -0.189999997615814,
-      "status": "automatic",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75046967",
-      "nearest": {
-        "location_id": "us-hawaii-volcano-village",
-        "name": "Volcano Village",
-        "country_code": "US",
-        "admin1_code": "HI",
-        "km": 7.0
-      }
-    },
-    {
-      "id": "hv75046947",
-      "mag": 1.77,
-      "mag_type": "md",
-      "place": "4 km SW of Pāhala, Hawaii",
-      "time_utc": "2026-10-01T10:07:01.990000+00:00",
-      "time_hst": "2026-10-01T00:07:01.990000-10:00",
-      "lon": -155.507827758789,
-      "lat": 19.1735000610352,
-      "depth_km": 30.2299995422363,
-      "status": "automatic",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75046947",
-      "nearest": {
-        "location_id": "us-hawaii-volcano-village",
-        "name": "Volcano Village",
-        "country_code": "US",
-        "admin1_code": "HI",
-        "km": 40.3
       }
     }
   ]

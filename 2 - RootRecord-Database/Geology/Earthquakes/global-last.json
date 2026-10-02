@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-02T00:06:49-10:00",
+  "at": "2026-10-02T00:14:58-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 28,
-  "count_m2": 28,
-  "count_m25": 27,
+  "count": 29,
+  "count_m2": 29,
+  "count_m25": 28,
   "largest": {
     "id": "us6000tytg",
     "mag": 5.3,
@@ -14,7 +14,7 @@
     "time_hst": "2026-10-01T02:27:11.864000-10:00"
   },
   "new_this_run": 1,
-  "usgs_generated_utc": "2026-10-02T10:05:57+00:00",
+  "usgs_generated_utc": "2026-10-02T10:14:57+00:00",
   "events": [
     {
       "id": "nc75442791",
@@ -26,7 +26,7 @@
       "lon": -120.083168029785,
       "lat": 38.8899993896484,
       "depth_km": 7.01000022888184,
-      "status": "automatic",
+      "status": "reviewed",
       "tsunami": 0,
       "type": "earthquake",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75442791",
@@ -52,6 +52,22 @@
       "tsunami": 0,
       "type": "earthquake",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tmvtvv",
+      "nearest": null
+    },
+    {
+      "id": "us6000tz0c",
+      "mag": 2.5,
+      "mag_type": "ml",
+      "place": "53 km NW of Toyah, Texas",
+      "time_utc": "2026-10-02T09:43:17.130000+00:00",
+      "time_hst": "2026-10-01T23:43:17.130000-10:00",
+      "lon": -104.2248,
+      "lat": 31.6215,
+      "depth_km": 9.304,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz0c",
       "nearest": null
     },
     {
