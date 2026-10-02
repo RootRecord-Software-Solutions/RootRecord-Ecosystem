@@ -1,15 +1,15 @@
 {
-  "date": "2026-10-01",
-  "phase": 0.7028,
+  "date": "2026-10-02",
+  "phase": 0.7057,
   "phase_name": "Waning Gibbous",
-  "illumination": 65,
-  "moonrise": "22:23",
-  "moonset": "11:20",
+  "illumination": 64,
+  "moonrise": "23:27",
+  "moonset": "12:23",
   "next_phase": "Last Quarter",
   "next_phase_date": "2026-10-03",
   "source": "calculated",
   "lat": 19.43,
   "lon": -155.23,
-  "fetched_at": "2026-10-01T22:11:15-10:00",
-  "next_date": "2026-10-02"
+  "fetched_at": "2026-10-02T00:01:01-10:00",
+  "next_date": "2026-10-03"
 }
