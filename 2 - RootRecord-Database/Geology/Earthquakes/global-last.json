@@ -1,21 +1,37 @@
 {
-  "at": "2026-10-01T20:11:27-10:00",
+  "at": "2026-10-01T20:19:03-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 29,
-  "count_m2": 29,
-  "count_m25": 28,
+  "count": 30,
+  "count_m2": 30,
+  "count_m25": 29,
   "largest": {
     "id": "us6000tytg",
     "mag": 5.3,
     "place": "0 km NNE of Yōkaichiba, Japan",
     "time_hst": "2026-10-01T02:27:11.864000-10:00"
   },
-  "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-02T06:11:19+00:00",
+  "new_this_run": 1,
+  "usgs_generated_utc": "2026-10-02T06:18:19+00:00",
   "events": [
+    {
+      "id": "us6000tyzt",
+      "mag": 4.8,
+      "mag_type": "mb",
+      "place": "192 km WNW of Tobelo, Indonesia",
+      "time_utc": "2026-10-02T05:38:55.084000+00:00",
+      "time_hst": "2026-10-01T19:38:55.084000-10:00",
+      "lon": 126.4944,
+      "lat": 2.5781,
+      "depth_km": 10,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyzt",
+      "nearest": null
+    },
     {
       "id": "us6000tyzl",
       "mag": 5.1,
