@@ -4,10 +4,10 @@ Automated Reports are in active development and is expected to change
 
 ## Measured
 
-- Batteries: Delta 2 26%, River 2 Pro 6%; solar input 104 W
+- Batteries: Delta 2 89%, River 2 Pro 100%; solar input 0 W
 - NWS alerts active: 0
-- Forecast Today: Partly sunny. Windward and mountains, numerous showers. Leeward, scattered showers through the day. Highs 84 to 89. Southeast winds around 15 mph.
-- Host CPU 71%, memory 83% used
+- Forecast Tonight: Partly cloudy. Windward and mountains, numerous showers in the evening, then scattered showers after midnight. Leeward, scattered showers. Lows 73 to 78. East winds around 15 mph.
+- Host CPU 4%, memory 66% used
 - Open work-order items: 10
 
 _Template report; measured values only._
