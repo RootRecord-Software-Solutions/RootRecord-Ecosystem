@@ -1,0 +1,4 @@
+Developer brief. Docker reports that Trust Docker for the agents you don’t. At WeAreDevelopers, Docker introduced Cloud Sandboxes, the open Sandbox Kit specification, and a commitment to bring Kits to the CNCF for neutral governance. Published October 1, 2026.
+
+Sources:
+- Docker | Trust Docker for the agents you don’t | https://www.docker.com/blog/docker-cloud-sandboxes-wearedevelopers-recap/ | 2026-10-01T18:26:12Z | 7241335f677e379d6dc5

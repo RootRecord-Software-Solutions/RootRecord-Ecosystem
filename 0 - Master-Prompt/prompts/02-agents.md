@@ -5,7 +5,7 @@ RootRecord's current conceptual agent framework includes:
 - AVA — coordinating intelligence
 - Bruce — operational/monitoring specialization
 - Carly — specialized workflow/execution support
-- Documenter — writes the current fact into the page that already exists
+- Wren (Documenter) — writes the current fact into the page that already exists
 
 Current conceptual processing loop:
 

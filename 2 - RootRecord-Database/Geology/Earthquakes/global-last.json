@@ -1,20 +1,20 @@
 {
-  "at": "2026-10-01T23:20:06-10:00",
+  "at": "2026-10-01T23:27:20-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 28,
-  "count_m2": 28,
-  "count_m25": 27,
+  "count": 27,
+  "count_m2": 27,
+  "count_m25": 26,
   "largest": {
     "id": "us6000tytg",
     "mag": 5.3,
     "place": "0 km NNE of Yōkaichiba, Japan",
     "time_hst": "2026-10-01T02:27:11.864000-10:00"
   },
-  "new_this_run": 1,
-  "usgs_generated_utc": "2026-10-02T09:19:57+00:00",
+  "new_this_run": 0,
+  "usgs_generated_utc": "2026-10-02T09:26:57+00:00",
   "events": [
     {
       "id": "nn00925155",
@@ -476,22 +476,6 @@
       "tsunami": 0,
       "type": "earthquake",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tysi",
-      "nearest": null
-    },
-    {
-      "id": "aka2026tkytvy",
-      "mag": 2.6,
-      "mag_type": "ml",
-      "place": "48 km NE of Chase, Alaska",
-      "time_utc": "2026-10-01T09:23:37.666000+00:00",
-      "time_hst": "2026-09-30T23:23:37.666000-10:00",
-      "lon": -149.372,
-      "lat": 62.728,
-      "depth_km": 66.1,
-      "status": "automatic",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tkytvy",
       "nearest": null
     }
   ]

@@ -1,0 +1,1 @@
+Developer brief. Cloudflare reports that Support for modern cryptographic algorithms in Workers. Cloudflare Workers is adding opt-in support for post-quantum-resistant algorithms ML-KEM and ML-DSA. You can try it today. Published October 1, 2026.

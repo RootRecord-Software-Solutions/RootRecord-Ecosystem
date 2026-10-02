@@ -35,12 +35,12 @@ NIST Manufacturing           ○ UNKNOWN
 NIST Standards               ○ UNKNOWN
 NIST Resilience              ○ UNKNOWN
 NIST Transportation          ○ UNKNOWN
-Ars Technica Technology Lab  ○ UNKNOWN
+Ars Technica Technology Lab  ● HEALTHY
 Ars Technica Gear and Gadget ○ UNKNOWN
 Ars Technica Cars            ○ UNKNOWN
 Ars Technica The Scientific  ○ UNKNOWN
 Ars Technica All News        ○ DISABLED
-The Register Security        ○ UNKNOWN
+The Register Security        ● HEALTHY
 The Register On-Prem         ○ UNKNOWN
 The Register Off-Prem        ○ UNKNOWN
 The Register Software        ○ UNKNOWN
@@ -59,9 +59,9 @@ CISA Cybersecurity Advisorie ○ UNAVAILABLE
 CISA News                    ○ UNAVAILABLE
 CISA Alerts                  ○ UNAVAILABLE
 GitHub Changelog             ● HEALTHY
-Docker Blog                  ○ UNKNOWN
+Docker Blog                  ● HEALTHY
 Linux Kernel                 ○ UNKNOWN
-Cloudflare Blog              ○ UNKNOWN
+Cloudflare Blog              ● HEALTHY
 Microsoft Azure Blog         ○ UNKNOWN
 Kubernetes                   ○ UNAVAILABLE
 AWS What's New               ○ UNAVAILABLE
@@ -70,9 +70,9 @@ FAA Press Releases           ○ UNAVAILABLE
 FAA Safety                   ○ UNAVAILABLE
 FAA Commercial Space Transpo ○ UNAVAILABLE
 FAA Aviation Technology      ○ UNAVAILABLE
-NTSB Press Releases          ○ UNKNOWN
+NTSB Press Releases          ● HEALTHY
 NTSB Investigations          ● HEALTHY
-NTSB Reports                 ○ UNKNOWN
+NTSB Reports                 ● HEALTHY
 NTSB Events                  ○ UNKNOWN
 EIA Today in Energy          ● HEALTHY
 EIA What's New               ● HEALTHY
@@ -87,7 +87,7 @@ Federal Reserve Working Pape ○ UNKNOWN
 Federal Reserve Press Releas ○ UNAVAILABLE
 NPR News                     ○ UNKNOWN
 The Guardian International   ○ UNKNOWN
-Al Jazeera                   ○ UNKNOWN
+Al Jazeera                   ● HEALTHY
 ScienceDaily                 ○ UNKNOWN
 Bureau of Labor Statistics   ○ DISABLED
 Bureau of Economic Analysis  ● HEALTHY

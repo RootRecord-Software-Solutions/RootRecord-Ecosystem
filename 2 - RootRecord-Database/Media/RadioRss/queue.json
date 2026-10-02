@@ -1802,7 +1802,7 @@
         {
           "publisher": "Honolulu Star-Advertiser",
           "source": "Honolulu Star-Advertiser",
-          "title": "Tropical Storm Nolo expected to strengthen as it moves away from Hawaii",
+          "title": "Tropical Storm Nolo threatens Papahanaumokuakea Marine National Monument",
           "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/tropical-storm-nolo-continues-moving-away-from-hawaii/",
           "published_at": "2026-10-01T17:42:00Z"
         }
@@ -2000,7 +2000,7 @@
         {
           "publisher": "Hawaii News Now",
           "source": "Hawaii News Now",
-          "title": "Firefighters contain fire at ABC Junkyard in Waiawa after explosions reported",
+          "title": "Firefighters contain fire at ABC Junkyard in Waiawa after explosions reported, advisory lifted",
           "url": "https://www.hawaiinewsnow.com/2026/10/01/firefighters-contain-fire-abc-junkyard-waiawa-after-explosions-reported/",
           "published_at": "2026-10-01T23:11:47Z"
         }
@@ -2864,7 +2864,7 @@
         {
           "publisher": "Spaceflight Now",
           "source": "Spaceflight Now",
-          "title": "Falcon Heavy to fly its first mission for U.S. spy satellite agency",
+          "title": "Falcon Heavy flies its first mission for U.S. spy satellite agency",
           "url": "https://spaceflightnow.com/2026/10/01/falcon-heavy-to-fly-its-first-mission-for-u-s-spy-satellite-agency/",
           "published_at": "2026-10-01T22:37:30Z"
         }
@@ -3671,6 +3671,967 @@
           "title": "Securing Water and Wastewater Operational Technology Environments",
           "url": "https://www.nist.gov/blogs/cybersecurity-insights/securing-water-and-wastewater-operational-technology-environments",
           "published_at": "2026-10-01T12:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "dd24d6ee119e89c5",
+      "cluster_id": "c_9546275585c5de80",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_9546275585c5de80.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/defence_brief/c_9546275585c5de80.speak.txt",
+      "sources": [
+        {
+          "publisher": "UK Ministry of Defence",
+          "source": "UK Ministry of Defence",
+          "title": "UK leads major Joint Expeditionary Force Exercise as defence ministers meet in Iceland",
+          "url": "https://www.gov.uk/government/news/uk-leads-major-joint-expeditionary-force-exercise-as-defence-ministers-meet-in-iceland",
+          "published_at": "2026-10-02T05:00:02Z"
+        }
+      ]
+    },
+    {
+      "id": "6fe49ae06765c60e",
+      "cluster_id": "c_df3c522be5a0ef90",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_df3c522be5a0ef90.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_df3c522be5a0ef90.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii Department of Health",
+          "source": "Hawaii Department of Health",
+          "title": "DOH CLOSES LEGEND SEAFOOD RESTAURANT DUE TO MULTIPLE FOOD SAFETY VIOLATIONS",
+          "url": "https://health.hawaii.gov/news/newsroom/doh-closes-legend-seafood-restaurant-due-to-multiple-food-safety-violations/",
+          "published_at": "2026-10-02T02:49:17Z"
+        }
+      ]
+    },
+    {
+      "id": "6cb62ba8c86840fa",
+      "cluster_id": "c_02fed44d6f7e1db4",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_02fed44d6f7e1db4.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_02fed44d6f7e1db4.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Holei Sea Arch has collapsed",
+          "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/holei-sea-arch-has-collapsed/",
+          "published_at": "2026-10-02T03:45:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2ec5433071e64a40",
+      "cluster_id": "c_71a14badc4f1638d",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_71a14badc4f1638d.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_71a14badc4f1638d.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "Lifeguards revive pulse in man pulled from Hanauma Bay",
+          "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/lifeguards-revive-pulse-in-man-pulled-from-hanauma-bay/",
+          "published_at": "2026-10-02T03:26:00Z"
+        },
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "Lifeguards revive unresponsive man at Hanauma Bay",
+          "url": "https://www.hawaiinewsnow.com/2026/10/02/lifeguards-revive-unresponsive-man-hanauma-bay/",
+          "published_at": "2026-10-02T03:13:20Z"
+        }
+      ]
+    },
+    {
+      "id": "c3baf09e60730a09",
+      "cluster_id": "c_835791335af4e19c",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_835791335af4e19c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_835791335af4e19c.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "DOH closes Legend at Chinatown Cultural Plaza for multiple violations",
+          "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/doh-closes-legend-at-chinese-cultural-plaza-for-multiple-violations/",
+          "published_at": "2026-10-02T03:12:00Z"
+        }
+      ]
+    },
+    {
+      "id": "66be19ad61cff41c",
+      "cluster_id": "c_62df8c6a5ce396e8",
+      "program": "SPACEX_BRIEF",
+      "report": "spacex_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/spacex_brief/c_62df8c6a5ce396e8.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/spacex_brief/c_62df8c6a5ce396e8.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "source": "Honolulu Star-Advertiser",
+          "title": "SpaceX launches 13th long-duration astronaut crew to International Space Station",
+          "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/spacex-launches-13th-long-duration-astronaut-crew-to-international-space-station/",
+          "published_at": "2026-10-02T01:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "0721f2e74bbfde31",
+      "cluster_id": "c_875005d8025ab56a",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_875005d8025ab56a.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_875005d8025ab56a.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "First Alert Forecast: Flash Flood Warning for northern half of Kauai",
+          "url": "https://www.hawaiinewsnow.com/2026/10/02/first-alert-forecast-flash-flood-warning-northern-half-kauai/",
+          "published_at": "2026-10-02T09:08:14Z"
+        }
+      ]
+    },
+    {
+      "id": "21b150e57c1a6404",
+      "cluster_id": "c_b21c3efd5b59d791",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_b21c3efd5b59d791.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_b21c3efd5b59d791.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "Mokulele Airlines celebrates return of daily flights from Kona to Kahului",
+          "url": "https://www.hawaiinewsnow.com/2026/10/02/mokulele-airlines-celebrates-return-daily-flights-kona-kahului/",
+          "published_at": "2026-10-02T06:53:23Z"
+        }
+      ]
+    },
+    {
+      "id": "1279e4c16a8c964c",
+      "cluster_id": "c_cc0c6b59ab13d35e",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_cc0c6b59ab13d35e.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_cc0c6b59ab13d35e.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "State reaches settlement with Monsanto over PCB contamination",
+          "url": "https://www.hawaiinewsnow.com/2026/10/02/state-reaches-settlement-with-monsanto-over-pcb-contamination/",
+          "published_at": "2026-10-02T06:43:07Z"
+        }
+      ]
+    },
+    {
+      "id": "636f9393df961ed9",
+      "cluster_id": "c_9af2b2065a95692c",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_9af2b2065a95692c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_9af2b2065a95692c.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "Shopper describes chaotic scene after truck plows through Hilo Longs Drugs",
+          "url": "https://www.hawaiinewsnow.com/2026/10/02/shopper-describes-chaotic-scene-after-truck-plows-through-hilo-longs-drugs/",
+          "published_at": "2026-10-02T06:37:43Z"
+        }
+      ]
+    },
+    {
+      "id": "15f44102b5857879",
+      "cluster_id": "c_04bed5ceee658771",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_04bed5ceee658771.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_04bed5ceee658771.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "New Biosecurity Academy aims to boost inspector ranks",
+          "url": "https://www.hawaiinewsnow.com/2026/10/02/new-biosecurity-academy-aims-boost-inspector-ranks/",
+          "published_at": "2026-10-02T06:00:39Z"
+        }
+      ]
+    },
+    {
+      "id": "24356118f1313b6a",
+      "cluster_id": "c_7701ac20b735ba12",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_7701ac20b735ba12.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_7701ac20b735ba12.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "Poipu resort recovery: Major resort, vacation rentals face extensive damage from Hurricane Lowell",
+          "url": "https://www.hawaiinewsnow.com/2026/10/02/poipu-resort-recovery-major-resort-vacation-rentals-face-extensive-damage-hurricane-lowell/",
+          "published_at": "2026-10-02T05:02:01Z"
+        }
+      ]
+    },
+    {
+      "id": "8a20ff552ec75c17",
+      "cluster_id": "c_1bb44cddd00da4af",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_1bb44cddd00da4af.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_1bb44cddd00da4af.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "Inside Jade Food: The family crafting Hawaii\u2019s favorite crack seed for over 60 years",
+          "url": "https://www.hawaiinewsnow.com/2026/10/02/inside-jade-food-family-crafting-hawaiis-favorite-crack-seed-over-60-years/",
+          "published_at": "2026-10-02T04:41:51Z"
+        }
+      ]
+    },
+    {
+      "id": "bcf8a446f887619f",
+      "cluster_id": "c_2147934c211eb1b8",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_2147934c211eb1b8.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_2147934c211eb1b8.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "Hundreds take to Honolulu streets for 32nd annual Men\u2019s March Against Violence",
+          "url": "https://www.hawaiinewsnow.com/2026/10/02/hundreds-take-honolulu-streets-32nd-annual-mens-march-against-violence/",
+          "published_at": "2026-10-02T04:30:19Z"
+        }
+      ]
+    },
+    {
+      "id": "2290b185a196ee1d",
+      "cluster_id": "c_24526cf7f2a3df0c",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_24526cf7f2a3df0c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_24526cf7f2a3df0c.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "\u2018Ignored red flags\u2019: Attorney for Moanalua HS victim says school, DOE failed to protect student athletes",
+          "url": "https://www.hawaiinewsnow.com/2026/10/02/ignored-red-flags-attorney-moanalua-hs-victim-says-school-doe-failed-protect-student-athletes/",
+          "published_at": "2026-10-02T04:28:13Z"
+        }
+      ]
+    },
+    {
+      "id": "feb6b266fa8d0399",
+      "cluster_id": "c_8438d48975e9f6dd",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_8438d48975e9f6dd.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_8438d48975e9f6dd.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "\u2018Disgusting\u2019: Cleanup crew describes sights, smells inside damaged Happy Days",
+          "url": "https://www.hawaiinewsnow.com/2026/10/02/disgusting-cleanup-crew-describes-sights-smells-inside-damaged-happy-days/",
+          "published_at": "2026-10-02T04:26:17Z"
+        }
+      ]
+    },
+    {
+      "id": "16847b73ad4f9729",
+      "cluster_id": "c_9d2ae8b422b63ebd",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_9d2ae8b422b63ebd.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_9d2ae8b422b63ebd.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "Four Kailua schools placed on lockdown during search for armed burglar, suspect arrested",
+          "url": "https://www.hawaiinewsnow.com/2026/10/01/four-kailua-schools-placed-lockdown-during-search-armed-suspect/",
+          "published_at": "2026-10-02T04:05:40Z"
+        }
+      ]
+    },
+    {
+      "id": "e75833804c770177",
+      "cluster_id": "c_7baa24b7a87ab037",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_7baa24b7a87ab037.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_7baa24b7a87ab037.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "East Molokai residents push back against planned power outages",
+          "url": "https://www.hawaiinewsnow.com/2026/10/02/east-molokai-residents-push-back-against-planned-power-outages/",
+          "published_at": "2026-10-02T03:50:11Z"
+        }
+      ]
+    },
+    {
+      "id": "5ad044909d915f8f",
+      "cluster_id": "c_5611cfb319b64b4e",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_5611cfb319b64b4e.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_5611cfb319b64b4e.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "Fire sparks call to shut down illegal junkyard",
+          "url": "https://www.hawaiinewsnow.com/2026/10/02/fire-sparks-call-shut-down-illegal-junkyard/",
+          "published_at": "2026-10-02T03:49:40Z"
+        }
+      ]
+    },
+    {
+      "id": "a1ade2b93a8d91ce",
+      "cluster_id": "c_f5d8cf96ddaae8df",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_f5d8cf96ddaae8df.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_f5d8cf96ddaae8df.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "99th annual Maui County Fair welcomes back fairgoers with new eats, rides and vendors",
+          "url": "https://www.hawaiinewsnow.com/2026/10/02/99th-annual-maui-county-fair-welcomes-back-fairgoers-with-new-eats-rides-vendors/",
+          "published_at": "2026-10-02T03:00:45Z"
+        }
+      ]
+    },
+    {
+      "id": "15a030d26044c1a9",
+      "cluster_id": "c_db58a33db8784ff6",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_db58a33db8784ff6.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_db58a33db8784ff6.speak.txt",
+      "sources": [
+        {
+          "publisher": "Hawaii News Now",
+          "source": "Hawaii News Now",
+          "title": "Temporary road closure in Ocean View due to police investigation",
+          "url": "https://www.hawaiinewsnow.com/2026/10/02/temporary-road-closure-ocean-view-due-police-investigation/",
+          "published_at": "2026-10-02T02:57:57Z"
+        }
+      ]
+    },
+    {
+      "id": "21e40f8011858f77",
+      "cluster_id": "c_eb09c399da4c9d05",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_eb09c399da4c9d05.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_eb09c399da4c9d05.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "UK arrests British-Iranian suspect over RAF \u2018plot\u2019: What we know",
+          "url": "https://www.aljazeera.com/news/2026/10/2/uk-arrests-british-iranian-suspect-over-raf-plot-what-we-know?traffic_source=rss",
+          "published_at": "2026-10-02T09:03:21Z"
+        }
+      ]
+    },
+    {
+      "id": "49911649b91fe603",
+      "cluster_id": "c_9e47b655f05f1e7e",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_9e47b655f05f1e7e.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_9e47b655f05f1e7e.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "US delivers F-16V fighter jets to Taiwan as island eyes threat from China",
+          "url": "https://www.aljazeera.com/news/2026/10/2/us-delivers-f-16v-fighter-jets-to-taiwan-as-island-eyes-threat-from-china?traffic_source=rss",
+          "published_at": "2026-10-02T08:26:22Z"
+        }
+      ]
+    },
+    {
+      "id": "29c42cfd5e41803c",
+      "cluster_id": "c_680b103ff8f99bb8",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_680b103ff8f99bb8.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_680b103ff8f99bb8.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "\u2018They are crying\u2019: Refugees in Malaysia in fear amid Myanmar deportation",
+          "url": "https://www.aljazeera.com/features/2026/10/2/they-are-crying-refugees-in-malaysia-in-fear-amid-myanmar-deportation?traffic_source=rss",
+          "published_at": "2026-10-02T08:14:18Z"
+        }
+      ]
+    },
+    {
+      "id": "a391e83060d7fce9",
+      "cluster_id": "c_cd36b0ce5f71d473",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_cd36b0ce5f71d473.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_cd36b0ce5f71d473.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Russia tries to freeze Ukraine as it suffers record casualties and retreats",
+          "url": "https://www.aljazeera.com/news/2026/10/2/russia-tries-to-freeze-ukraine-as-it-suffers-record-casualties-and-retreats?traffic_source=rss",
+          "published_at": "2026-10-02T08:03:02Z"
+        }
+      ]
+    },
+    {
+      "id": "60cfdd400d6649ff",
+      "cluster_id": "c_413e46b82d5d0350",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_413e46b82d5d0350.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_413e46b82d5d0350.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Indian police detain politicians at protests over election chief",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/02-10-clip-india-protests-election-jantar-mantar-in-mp4?traffic_source=rss",
+          "published_at": "2026-10-02T07:59:49Z"
+        }
+      ]
+    },
+    {
+      "id": "3d886923f10a6e2c",
+      "cluster_id": "c_440b72f56db00daa",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_440b72f56db00daa.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_440b72f56db00daa.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Lawyers for US inmate who survived lethal injections demand release",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/clip-christia-pike-execution-mp4?traffic_source=rss",
+          "published_at": "2026-10-02T07:58:08Z"
+        }
+      ]
+    },
+    {
+      "id": "3c083b064ab1fbf9",
+      "cluster_id": "c_69c433ac7877c86a",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_69c433ac7877c86a.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_69c433ac7877c86a.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "How the fighting in Ethiopia spread beyond Tigray, in maps and charts",
+          "url": "https://www.aljazeera.com/news/2026/10/2/how-the-fighting-in-ethiopia-spread-beyond-tigray-in-maps-and-charts?traffic_source=rss",
+          "published_at": "2026-10-02T07:17:02Z"
+        }
+      ]
+    },
+    {
+      "id": "6fb6a35f6fbe4d23",
+      "cluster_id": "c_f29bf33e5a54e088",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_f29bf33e5a54e088.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_f29bf33e5a54e088.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Miami judge rules federal noncitizen voting law violates US Constitution",
+          "url": "https://www.aljazeera.com/news/2026/10/2/miami-judge-rules-federal-noncitizen-voting-law-violates-us-constitution?traffic_source=rss",
+          "published_at": "2026-10-02T06:26:48Z"
+        }
+      ]
+    },
+    {
+      "id": "d3aebe79603fd61b",
+      "cluster_id": "c_046a5e7963cacb74",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_046a5e7963cacb74.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_046a5e7963cacb74.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Greece pushes EU to suspend asylum during mass migration surges",
+          "url": "https://www.aljazeera.com/news/2026/10/2/greece-pushes-eu-to-suspend-asylum-during-mass-migration-surges?traffic_source=rss",
+          "published_at": "2026-10-02T06:16:14Z"
+        }
+      ]
+    },
+    {
+      "id": "5a94383b579b6196",
+      "cluster_id": "c_1dbfa6d2833d31f8",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_1dbfa6d2833d31f8.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_1dbfa6d2833d31f8.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Election debate cancelled in Brazil, bomb scare outside Supreme Court",
+          "url": "https://www.aljazeera.com/news/2026/10/2/election-debate-cancelled-in-brazil-bomb-scare-outside-supreme-court?traffic_source=rss",
+          "published_at": "2026-10-02T06:09:57Z"
+        }
+      ]
+    },
+    {
+      "id": "964c7d9fb267139e",
+      "cluster_id": "c_479e98931bfd576f",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_479e98931bfd576f.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_479e98931bfd576f.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Asian Games 2026: Taiwan\u2019s gender-row boxer Lin Yu-ting wins gold medal",
+          "url": "https://www.aljazeera.com/sports/2026/10/2/asian-games-aichi-nagoya-2026-boxing-taiwan-lin-yu-ting-gold?traffic_source=rss",
+          "published_at": "2026-10-02T06:03:19Z"
+        }
+      ]
+    },
+    {
+      "id": "26fc1fdebe7e7c6a",
+      "cluster_id": "c_4c3408b29c65e5ac",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_4c3408b29c65e5ac.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_4c3408b29c65e5ac.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "How Switzerland lost 20 percent of its ice in five years",
+          "url": "https://www.aljazeera.com/news/2026/10/2/how-switzerland-lost-20-percent-of-its-ice-in-five-years?traffic_source=rss",
+          "published_at": "2026-10-02T04:59:58Z"
+        }
+      ]
+    },
+    {
+      "id": "cd5ac33e3f3e26aa",
+      "cluster_id": "c_928fb21daaf50611",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_928fb21daaf50611.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_928fb21daaf50611.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Nepal avalanche kills at least 15 expedition workers",
+          "url": "https://www.aljazeera.com/news/2026/10/2/nepal-avalanche-kills-at-least-15-expedition-workers?traffic_source=rss",
+          "published_at": "2026-10-02T04:53:49Z"
+        }
+      ]
+    },
+    {
+      "id": "c2122cdd2a173428",
+      "cluster_id": "c_cdaa65ba623d263c",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_cdaa65ba623d263c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_cdaa65ba623d263c.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Student protests in Chile turn to violent clashes with police",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/student-protests-in-chile-turn-to-violent-clashes-with-police?traffic_source=rss",
+          "published_at": "2026-10-02T04:49:52Z"
+        }
+      ]
+    },
+    {
+      "id": "12d919a0958d1ef8",
+      "cluster_id": "c_1d22dfdba1680e01",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_1d22dfdba1680e01.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_1d22dfdba1680e01.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Arab-Israeli party leader drops election bid",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/arab-israeli-party-leader-drops-election-bid?traffic_source=rss",
+          "published_at": "2026-10-02T04:41:21Z"
+        }
+      ]
+    },
+    {
+      "id": "7182d641f851be5c",
+      "cluster_id": "c_c30b4145b86df5e8",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_c30b4145b86df5e8.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_c30b4145b86df5e8.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Eritrea severs diplomatic ties with Ethiopia in row over Tigray",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/eritrea-severs-diplomatic-ties-with-ethiopia-in-row-over-tigray?traffic_source=rss",
+          "published_at": "2026-10-02T04:40:14Z"
+        }
+      ]
+    },
+    {
+      "id": "1b2c92e4ef6c1224",
+      "cluster_id": "c_bee85cdedaef98e1",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_bee85cdedaef98e1.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_bee85cdedaef98e1.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Iran urges Iraq to lift flight ban amid US sanctions",
+          "url": "https://www.aljazeera.com/news/2026/10/2/iran-urges-iraq-to-lift-flight-ban-amid-us-sanctions?traffic_source=rss",
+          "published_at": "2026-10-02T04:34:33Z"
+        }
+      ]
+    },
+    {
+      "id": "ad596c7357ee5e88",
+      "cluster_id": "c_da7b66339f2b333b",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_da7b66339f2b333b.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_da7b66339f2b333b.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "FAO official says he lost his job for criticising Israeli policies in Gaza",
+          "url": "https://www.aljazeera.com/news/2026/10/2/fao-official-says-he-lost-his-job-for-criticising-israeli-policies-in-gaza?traffic_source=rss",
+          "published_at": "2026-10-02T04:02:44Z"
+        }
+      ]
+    },
+    {
+      "id": "ab03c3fc51311d86",
+      "cluster_id": "c_b85a9977839f9607",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_b85a9977839f9607.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_b85a9977839f9607.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Indian artist takes \u2018deleted voter\u2019 song to Cockroach protest",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/indian-artist-takes-deleted-voter-song-to-cockroach-protest?traffic_source=rss",
+          "published_at": "2026-10-02T03:49:23Z"
+        }
+      ]
+    },
+    {
+      "id": "2f83df08dea70596",
+      "cluster_id": "c_827d0953228d680d",
+      "program": "AVIATION_BRIEF",
+      "report": "aviation_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_827d0953228d680d.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_827d0953228d680d.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "US to send third aircraft carrier towards Iran: US official to Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/2/us-to-send-third-aircraft-carrier-towards-iran-us-official-to-al-jazeera?traffic_source=rss",
+          "published_at": "2026-10-02T03:14:47Z"
+        }
+      ]
+    },
+    {
+      "id": "583bf091576d2bae",
+      "cluster_id": "c_7be5e7ab1f8944e0",
+      "program": "TECH_BRIEF",
+      "report": "tech_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/tech_brief/c_7be5e7ab1f8944e0.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/tech_brief/c_7be5e7ab1f8944e0.speak.txt",
+      "sources": [
+        {
+          "publisher": "Ars Technica",
+          "source": "Ars Technica Technology Lab",
+          "title": "Hacks of 2 federal agencies in a month have spilled a bonanza of sensitive data",
+          "url": "https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data/",
+          "published_at": "2026-10-01T20:28:45Z"
+        }
+      ]
+    },
+    {
+      "id": "ac4add6bbd20b626",
+      "cluster_id": "c_885903bf9c2cbfa8",
+      "program": "TECH_BRIEF",
+      "report": "tech_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/tech_brief/c_885903bf9c2cbfa8.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/tech_brief/c_885903bf9c2cbfa8.speak.txt",
+      "sources": [
+        {
+          "publisher": "Ars Technica",
+          "source": "Ars Technica Technology Lab",
+          "title": "Memory executives expect RAM shortage to continue through 2028",
+          "url": "https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/",
+          "published_at": "2026-10-01T17:49:56Z"
+        }
+      ]
+    },
+    {
+      "id": "0027c02a6bf62bd6",
+      "cluster_id": "c_6e57e5540644c724",
+      "program": "DEVELOPER_BRIEF",
+      "report": "developer_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_6e57e5540644c724.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_6e57e5540644c724.speak.txt",
+      "sources": [
+        {
+          "publisher": "Cloudflare",
+          "source": "Cloudflare Blog",
+          "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
+          "url": "https://blog.cloudflare.com/clef-decision-models/",
+          "published_at": "2026-10-01T15:34:02Z"
+        }
+      ]
+    },
+    {
+      "id": "7f2b897cfa1e3430",
+      "cluster_id": "c_83a4d802390ec559",
+      "program": "DEVELOPER_BRIEF",
+      "report": "developer_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_83a4d802390ec559.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_83a4d802390ec559.speak.txt",
+      "sources": [
+        {
+          "publisher": "Cloudflare",
+          "source": "Cloudflare Blog",
+          "title": "One year later: Sovereign AI and the fight for choice",
+          "url": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
+          "published_at": "2026-10-01T13:04:19Z"
+        }
+      ]
+    },
+    {
+      "id": "313f303d838d6971",
+      "cluster_id": "c_b2b7d3adc2ba25ba",
+      "program": "DEVELOPER_BRIEF",
+      "report": "developer_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_b2b7d3adc2ba25ba.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_b2b7d3adc2ba25ba.speak.txt",
+      "sources": [
+        {
+          "publisher": "Cloudflare",
+          "source": "Cloudflare Blog",
+          "title": "Introducing Workers KV Instant \u2014 powered by Quicksilver",
+          "url": "https://blog.cloudflare.com/workers-kv-instant/",
+          "published_at": "2026-10-01T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "38432eec06b9968c",
+      "cluster_id": "c_739a289882a022e1",
+      "program": "DEVELOPER_BRIEF",
+      "report": "developer_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_739a289882a022e1.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_739a289882a022e1.speak.txt",
+      "sources": [
+        {
+          "publisher": "Cloudflare",
+          "source": "Cloudflare Blog",
+          "title": "Cloudflare OS: your company\u2019s agent workspace, managed for you",
+          "url": "https://blog.cloudflare.com/managed-cloudflare-os/",
+          "published_at": "2026-10-01T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "09e07bcd7e223e29",
+      "cluster_id": "c_4ee3bcd6a9156d67",
+      "program": "DEVELOPER_BRIEF",
+      "report": "developer_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_4ee3bcd6a9156d67.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_4ee3bcd6a9156d67.speak.txt",
+      "sources": [
+        {
+          "publisher": "Cloudflare",
+          "source": "Cloudflare Blog",
+          "title": "Announcing Cloudflare K2: serverless event streams",
+          "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
+          "published_at": "2026-10-01T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "fc8362beb0be7bfd",
+      "cluster_id": "c_088eba45bf5894da",
+      "program": "DEVELOPER_BRIEF",
+      "report": "developer_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_088eba45bf5894da.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_088eba45bf5894da.speak.txt",
+      "sources": [
+        {
+          "publisher": "Cloudflare",
+          "source": "Cloudflare Blog",
+          "title": "We want you to build the next Git platform on Cloudflare",
+          "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+          "published_at": "2026-10-01T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "987b294bc1241885",
+      "cluster_id": "c_44387a0b7df87913",
+      "program": "DEVELOPER_BRIEF",
+      "report": "developer_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_44387a0b7df87913.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_44387a0b7df87913.speak.txt",
+      "sources": [
+        {
+          "publisher": "Cloudflare",
+          "source": "Cloudflare Blog",
+          "title": "AI Search is now generally available",
+          "url": "https://blog.cloudflare.com/ai-search-ga/",
+          "published_at": "2026-10-01T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2c35cc4319328dd5",
+      "cluster_id": "c_aeefab6ff11bbad4",
+      "program": "DEVELOPER_BRIEF",
+      "report": "developer_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_aeefab6ff11bbad4.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_aeefab6ff11bbad4.speak.txt",
+      "sources": [
+        {
+          "publisher": "Cloudflare",
+          "source": "Cloudflare Blog",
+          "title": "Support for modern cryptographic algorithms in Workers",
+          "url": "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support/",
+          "published_at": "2026-10-01T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2e757f5f30ba7da4",
+      "cluster_id": "c_5258a16bbc09b062",
+      "program": "DEVELOPER_BRIEF",
+      "report": "developer_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_5258a16bbc09b062.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_5258a16bbc09b062.speak.txt",
+      "sources": [
+        {
+          "publisher": "Cloudflare",
+          "source": "Cloudflare Blog",
+          "title": "Introducing Cloudflare Basin: an open, serverless data platform, now generally available",
+          "url": "https://blog.cloudflare.com/cloudflare-basin/",
+          "published_at": "2026-10-01T12:58:00Z"
+        }
+      ]
+    },
+    {
+      "id": "c3eaf3ccb71b5fc6",
+      "cluster_id": "c_7241335f677e379d",
+      "program": "DEVELOPER_BRIEF",
+      "report": "developer_brief",
+      "priority": "normal",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_7241335f677e379d.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/developer_brief/c_7241335f677e379d.speak.txt",
+      "sources": [
+        {
+          "publisher": "Docker",
+          "source": "Docker Blog",
+          "title": "Trust Docker for the agents you don\u2019t",
+          "url": "https://www.docker.com/blog/docker-cloud-sandboxes-wearedevelopers-recap/",
+          "published_at": "2026-10-01T18:26:12Z"
         }
       ]
     }
