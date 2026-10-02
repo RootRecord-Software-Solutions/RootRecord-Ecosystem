@@ -211,3 +211,12 @@
 # Scoped path index (WO-MIG-42): paths.txt, mtimes, and the counts log are runtime.
 /System/PathIndex/
 /Logs/System/PathIndex/
+
+# Mainland metrics daily banks + datapack binaries (keep READMEs)
+System/metrics/*/Daily/*.jsonl
+Network/datapacks/inbox/**
+Network/datapacks/processed/**
+!Network/datapacks/**/README.md
+!Network/datapacks/**/.gitkeep
+Network/datapacks/state/*.json
+Logs/System/mainland-stream-receive.jsonl
