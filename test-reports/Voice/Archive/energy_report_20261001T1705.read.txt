@@ -1,0 +1,1 @@
+Energy desk report. Report generated at five oh two p.m. Delta 2 battery 94%, solar input zero watts, output 65 watts. River 2 Pro battery 60%, solar input zero watts, output zero watts, on generator, AC in 805 watts. Solar panel still is 1 minutes old.
