@@ -1,10 +1,10 @@
 {
   "resource": "weather",
   "title": "Weather",
-  "as_of": "Friday, October 2, 2026 \u00b7 00:16 Hawaiian Standard Time",
+  "as_of": "Friday, October 2, 2026 \u00b7 00:20 Hawaiian Standard Time",
   "report": {
     "file": "Hawaii_State_Weather_Report_current.md",
-    "generated": "2026-10-02T00:03:13-10:00 HST",
+    "generated": "2026-10-02T00:18:59-10:00 HST",
     "sections": 35
   }
 }
