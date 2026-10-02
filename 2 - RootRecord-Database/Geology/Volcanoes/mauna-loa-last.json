@@ -1,25 +1,21 @@
 {
-  "at": "2026-10-02T02:20:11-10:00",
-  "name": "Mauna Loa",
+  "source": "usgs-hans",
+  "collected_at": "2026-10-02T12:30:39Z",
   "vnum": "332020",
-  "alert_level": "NORMAL",
-  "color_code": "GREEN",
-  "status_sent_utc": "2026-10-01 21:30:20",
-  "status_notice_id": "DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
-  "status_notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
-  "latest_notice": {
+  "record": {
+    "volcano_name": "Mauna Loa",
+    "vnum": "332020",
     "sent_utc": "2026-10-01 21:30:20",
-    "id": "DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
-    "type": "Monthly Update",
-    "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
-    "synopsis": "Mauna Loa earthquake counts decreased in September compared to August, and minor inflation continues."
+    "sent_unixtime": 1790890220,
+    "alert_level": "NORMAL",
+    "color_code": "GREEN",
+    "volcano_cd": "hi6",
+    "obs_fullname": "Hawaiian Volcano Observatory",
+    "obs_abbr": "hvo",
+    "notice_type_cd": "MU",
+    "notice_identifier": "DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
+    "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
+    "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-10-01T01:33:14+00:00"
   },
-  "latest_activity_notice": null,
-  "headline": "quiet",
-  "erupting": null,
-  "multiplier": 1.0,
-  "sources": [
-    "https://volcanoes.usgs.gov/hans-public/api/volcano/getMonitoredVolcanoes",
-    "https://volcanoes.usgs.gov/hans-public/api/notice/getNewestOrRecent"
-  ]
+  "collector": "ml2.geology"
 }

@@ -1,80 +1,3885 @@
 {
-  "at": "2026-10-02T02:20:11-10:00",
-  "source": "https://volcanoes.usgs.gov/hans-public/api/volcano/getMonitoredVolcanoes",
-  "observatory": "HVO",
-  "count": 8,
-  "volcanoes": [
+  "source": "usgs-hans",
+  "collected_at": "2026-10-02T12:30:39Z",
+  "monitored": [
     {
-      "name": "Haleakala",
-      "vnum": "332060",
+      "volcano_name": "Akutan",
+      "vnum": "311320",
+      "sent_utc": "2019-09-06 18:29:39",
+      "sent_unixtime": 1567794579,
       "alert_level": "NORMAL",
       "color_code": "GREEN",
-      "status_sent_utc": "2026-10-01 21:30:20",
-      "status_notice_id": "DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
-      "status_notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T01:33:14+00:00"
+      "volcano_cd": "ak6",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-AVO-2019-09-04T15:47:55-08:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2019-09-04T15:47:55-08:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2019-09-04T15:47:55-08:00"
     },
     {
-      "name": "Hualalai",
-      "vnum": "332040",
+      "volcano_name": "Alaskan Volcanoes",
+      "vnum": null,
+      "sent_utc": "2010-08-20 20:39:48",
+      "sent_unixtime": 1282336788,
       "alert_level": "NORMAL",
       "color_code": "GREEN",
-      "status_sent_utc": "2026-10-01 21:30:20",
-      "status_notice_id": "DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
-      "status_notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T01:33:14+00:00"
+      "volcano_cd": "avo",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "WU",
+      "notice_identifier": "DOI-USGS-AVO-2010-08-20T20:39:48-00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2010-08-20T20:39:48-00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2010-08-20T20:39:48-00:00"
     },
     {
-      "name": "Kilauea",
-      "vnum": "332010",
+      "volcano_name": "Aniakchak",
+      "vnum": "312090",
+      "sent_utc": "2026-05-05 22:31:29",
+      "sent_unixtime": 1778020289,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak14",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-AVO-2026-05-05T20:15:40+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-05-05T20:15:40+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-05-05T20:15:40+00:00"
+    },
+    {
+      "volcano_name": "Atka volcanic complex",
+      "vnum": "311160",
+      "sent_utc": "2026-07-21 20:08:42",
+      "sent_unixtime": 1784664522,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak17",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "VV",
+      "notice_identifier": "DOI-USGS-AVO-2026-07-21T18:52:50+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-07-21T18:52:50+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-07-21T18:52:50+00:00"
+    },
+    {
+      "volcano_name": "Augustine",
+      "vnum": "313010",
+      "sent_utc": "2019-09-06 18:29:39",
+      "sent_unixtime": 1567794579,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak20",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-AVO-2019-09-04T15:47:55-08:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2019-09-04T15:47:55-08:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2019-09-04T15:47:55-08:00"
+    },
+    {
+      "volcano_name": "Cleveland",
+      "vnum": "311240",
+      "sent_utc": "2024-07-08 21:06:48",
+      "sent_unixtime": 1720472808,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak52",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "DU",
+      "notice_identifier": "DOI-USGS-AVO-2024-07-08T20:56:42+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2024-07-08T20:56:42+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2024-07-08T20:56:42+00:00"
+    },
+    {
+      "volcano_name": "Dutton",
+      "vnum": "312011",
+      "sent_utc": "2019-09-06 18:29:39",
+      "sent_unixtime": 1567794579,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak83",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-AVO-2019-09-04T15:47:55-08:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2019-09-04T15:47:55-08:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2019-09-04T15:47:55-08:00"
+    },
+    {
+      "volcano_name": "Edgecumbe",
+      "vnum": "315040",
+      "sent_utc": "2024-02-09 19:57:42",
+      "sent_unixtime": 1707508662,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak90",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-AVO-2024-02-09T15:07:09+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2024-02-09T15:07:09+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2024-02-09T15:07:09+00:00"
+    },
+    {
+      "volcano_name": "Fisher",
+      "vnum": "311350",
+      "sent_utc": "2026-03-09 19:18:33",
+      "sent_unixtime": 1773083913,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak100",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-AVO-2026-03-09T19:02:39+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-03-09T19:02:39+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-03-09T19:02:39+00:00"
+    },
+    {
+      "volcano_name": "Gareloi",
+      "vnum": "311070",
+      "sent_utc": "2026-10-01 20:35:44",
+      "sent_unixtime": 1790886944,
+      "alert_level": "ADVISORY",
+      "color_code": "YELLOW",
+      "volcano_cd": "ak106",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "DU",
+      "notice_identifier": "DOI-USGS-AVO-2026-10-01T19:24:56+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-10-01T19:24:56+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-10-01T19:24:56+00:00"
+    },
+    {
+      "volcano_name": "Great Sitkin",
+      "vnum": "311120",
+      "sent_utc": "2026-10-01 20:35:44",
+      "sent_unixtime": 1790886944,
       "alert_level": "WATCH",
       "color_code": "ORANGE",
-      "status_sent_utc": "2026-10-01 19:05:15",
-      "status_notice_id": "DOI-USGS-HVO-2026-10-01T01:30:09+00:00",
-      "status_notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T01:30:09+00:00"
+      "volcano_cd": "ak111",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "DU",
+      "notice_identifier": "DOI-USGS-AVO-2026-10-01T19:24:56+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-10-01T19:24:56+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-10-01T19:24:56+00:00"
     },
     {
-      "name": "Mauna Kea",
+      "volcano_name": "Griggs",
+      "vnum": "312190",
+      "sent_utc": "2022-03-18 23:33:23",
+      "sent_unixtime": 1647646403,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak112",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-AVO-2022-03-17T21:43:51-08:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2022-03-17T21:43:51-08:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2022-03-17T21:43:51-08:00"
+    },
+    {
+      "volcano_name": "Iliamna",
+      "vnum": "313020",
+      "sent_utc": "2026-08-14 21:05:43",
+      "sent_unixtime": 1786741543,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak124",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "WU",
+      "notice_identifier": "DOI-USGS-AVO-2026-08-14T18:40:26+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-08-14T18:40:26+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-08-14T18:40:26+00:00"
+    },
+    {
+      "volcano_name": "Isanotski",
+      "vnum": "311370",
+      "sent_utc": null,
+      "sent_unixtime": 0,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak135",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "",
+      "notice_identifier": null,
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/"
+    },
+    {
+      "volcano_name": "Kanaga",
+      "vnum": "311110",
+      "sent_utc": "2024-02-27 20:55:59",
+      "sent_unixtime": 1709067359,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak144",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "DU",
+      "notice_identifier": "DOI-USGS-AVO-2024-02-27T20:50:25+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2024-02-27T20:50:25+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2024-02-27T20:50:25+00:00"
+    },
+    {
+      "volcano_name": "Katmai",
+      "vnum": "312170",
+      "sent_utc": "2026-09-01 00:04:06",
+      "sent_unixtime": 1788221046,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak147",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "VV",
+      "notice_identifier": "DOI-USGS-AVO-2026-08-31T23:56:18+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-08-31T23:56:18+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-08-31T23:56:18+00:00"
+    },
+    {
+      "volcano_name": "Korovin",
+      "vnum": "311161",
+      "sent_utc": "2020-12-04 20:29:15",
+      "sent_unixtime": 1607113755,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak171",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "WU",
+      "notice_identifier": "DOI-USGS-AVO-2020-12-04T11:03:22-09:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2020-12-04T11:03:22-09:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2020-12-04T11:03:22-09:00"
+    },
+    {
+      "volcano_name": "Little Sitkin",
+      "vnum": "311050",
+      "sent_utc": "2022-07-14 22:40:33",
+      "sent_unixtime": 1657838433,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak182",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-AVO-2022-07-14T12:59:15-08:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2022-07-14T12:59:15-08:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2022-07-14T12:59:15-08:00"
+    },
+    {
+      "volcano_name": "Mageik",
+      "vnum": "312150",
+      "sent_utc": "2023-01-11 23:08:56",
+      "sent_unixtime": 1673478536,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak187",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-AVO-2023-01-10T15:48:26-08:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2023-01-10T15:48:26-08:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2023-01-10T15:48:26-08:00"
+    },
+    {
+      "volcano_name": "Makushin",
+      "vnum": "311310",
+      "sent_utc": "2020-12-16 00:59:56",
+      "sent_unixtime": 1608080396,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak188",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "VV",
+      "notice_identifier": "DOI-USGS-AVO-2020-12-15T15:50:51-09:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2020-12-15T15:50:51-09:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2020-12-15T15:50:51-09:00"
+    },
+    {
+      "volcano_name": "Martin",
+      "vnum": "312140",
+      "sent_utc": "2023-01-11 23:08:56",
+      "sent_unixtime": 1673478536,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak189",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-AVO-2023-01-10T15:48:26-08:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2023-01-10T15:48:26-08:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2023-01-10T15:48:26-08:00"
+    },
+    {
+      "volcano_name": "Novarupta",
+      "vnum": "312180",
+      "sent_utc": "2022-03-18 23:33:23",
+      "sent_unixtime": 1647646403,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak203",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-AVO-2022-03-17T21:43:51-08:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2022-03-17T21:43:51-08:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2022-03-17T21:43:51-08:00"
+    },
+    {
+      "volcano_name": "Okmok",
+      "vnum": "311290",
+      "sent_utc": "2026-01-30 02:55:41",
+      "sent_unixtime": 1769741741,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak206",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-AVO-2026-01-30T02:40:46+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-01-30T02:40:46+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-01-30T02:40:46+00:00"
+    },
+    {
+      "volcano_name": "Pavlof",
+      "vnum": "312030",
+      "sent_utc": "2026-01-23 21:37:59",
+      "sent_unixtime": 1769204279,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak210",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "WU",
+      "notice_identifier": "DOI-USGS-AVO-2026-01-23T19:43:47+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-01-23T19:43:47+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-01-23T19:43:47+00:00"
+    },
+    {
+      "volcano_name": "Redoubt",
+      "vnum": "313030",
+      "sent_utc": "2010-04-23 20:27:31",
+      "sent_unixtime": 1272054451,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak231",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "WU",
+      "notice_identifier": "DOI-USGS-AVO-2010-04-23T20:27:31-00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2010-04-23T20:27:31-00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2010-04-23T20:27:31-00:00"
+    },
+    {
+      "volcano_name": "Semisopochnoi",
+      "vnum": "311060",
+      "sent_utc": "2026-02-27 20:55:44",
+      "sent_unixtime": 1772225744,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak248",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "WU",
+      "notice_identifier": "DOI-USGS-AVO-2026-02-27T19:24:53+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-02-27T19:24:53+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-02-27T19:24:53+00:00"
+    },
+    {
+      "volcano_name": "Shishaldin",
+      "vnum": "311360",
+      "sent_utc": "2026-10-01 20:35:44",
+      "sent_unixtime": 1790886944,
+      "alert_level": "ADVISORY",
+      "color_code": "YELLOW",
+      "volcano_cd": "ak252",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "DU",
+      "notice_identifier": "DOI-USGS-AVO-2026-10-01T19:24:56+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-10-01T19:24:56+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-10-01T19:24:56+00:00"
+    },
+    {
+      "volcano_name": "Snowy Mountain",
+      "vnum": "312200",
+      "sent_utc": "2022-03-18 23:33:23",
+      "sent_unixtime": 1647646403,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak257",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-AVO-2022-03-17T21:43:51-08:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2022-03-17T21:43:51-08:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2022-03-17T21:43:51-08:00"
+    },
+    {
+      "volcano_name": "Spurr",
+      "vnum": "313040",
+      "sent_utc": "2025-08-22 19:07:53",
+      "sent_unixtime": 1755889673,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak260",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "WU",
+      "notice_identifier": "DOI-USGS-AVO-2025-08-22T17:55:28+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2025-08-22T17:55:28+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2025-08-22T17:55:28+00:00"
+    },
+    {
+      "volcano_name": "Takawangha",
+      "vnum": "311090",
+      "sent_utc": "2024-01-29 23:13:47",
+      "sent_unixtime": 1706570027,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak277",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-AVO-2024-01-29T13:07:12-08:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2024-01-29T13:07:12-08:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2024-01-29T13:07:12-08:00"
+    },
+    {
+      "volcano_name": "Tanaga",
+      "vnum": "311080",
+      "sent_utc": "2024-01-29 23:13:47",
+      "sent_unixtime": 1706570027,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak280",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-AVO-2024-01-29T13:07:12-08:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2024-01-29T13:07:12-08:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2024-01-29T13:07:12-08:00"
+    },
+    {
+      "volcano_name": "Trident",
+      "vnum": "312160",
+      "sent_utc": "2024-01-10 20:04:36",
+      "sent_unixtime": 1704917076,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak288",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "VV",
+      "notice_identifier": "DOI-USGS-AVO-2024-01-10T09:56:45-09:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2024-01-10T09:56:45-09:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2024-01-10T09:56:45-09:00"
+    },
+    {
+      "volcano_name": "Ugashik-Peulik",
+      "vnum": "312130",
+      "sent_utc": "2022-10-19 23:05:08",
+      "sent_unixtime": 1666220708,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak295",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-AVO-2022-10-19T14:33:01-08:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2022-10-19T14:33:01-08:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2022-10-19T14:33:01-08:00"
+    },
+    {
+      "volcano_name": "Ukinrek Maars",
+      "vnum": "312131",
+      "sent_utc": "2022-10-19 23:05:08",
+      "sent_unixtime": 1666220708,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak296",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-AVO-2022-10-19T14:33:01-08:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2022-10-19T14:33:01-08:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2022-10-19T14:33:01-08:00"
+    },
+    {
+      "volcano_name": "Veniaminof",
+      "vnum": "312070",
+      "sent_utc": "2021-07-09 21:30:29",
+      "sent_unixtime": 1625866229,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak301",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "WU",
+      "notice_identifier": "DOI-USGS-AVO-2021-07-09T09:59:02-08:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2021-07-09T09:59:02-08:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2021-07-09T09:59:02-08:00"
+    },
+    {
+      "volcano_name": "Westdahl",
+      "vnum": "311340",
+      "sent_utc": "2026-03-09 19:18:33",
+      "sent_unixtime": 1773083913,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak322",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-AVO-2026-03-09T19:02:39+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-03-09T19:02:39+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-03-09T19:02:39+00:00"
+    },
+    {
+      "volcano_name": "Wrangell",
+      "vnum": "315020",
+      "sent_utc": "2024-10-01 18:04:56",
+      "sent_unixtime": 1727805896,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ak326",
+      "obs_fullname": "Alaska Volcano Observatory",
+      "obs_abbr": "avo",
+      "notice_type_cd": "VV",
+      "notice_identifier": "DOI-USGS-AVO-2024-09-30T20:22:08+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2024-09-30T20:22:08+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2024-09-30T20:22:08+00:00"
+    },
+    {
+      "volcano_name": "Clear Lake Volcanic Field",
+      "vnum": "323100",
+      "sent_utc": null,
+      "sent_unixtime": 0,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ca4",
+      "obs_fullname": "California Volcano Observatory",
+      "obs_abbr": "calvo",
+      "notice_type_cd": "",
+      "notice_identifier": null,
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/"
+    },
+    {
+      "volcano_name": "Coso Volcanic Field",
+      "vnum": "323180",
+      "sent_utc": "2019-07-11 23:36:44",
+      "sent_unixtime": 1562888204,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ca5",
+      "obs_fullname": "California Volcano Observatory",
+      "obs_abbr": "calvo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-CALVO-2019-07-11T16:18:15-07:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-CALVO-2019-07-11T16:18:15-07:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-CALVO-2019-07-11T16:18:15-07:00"
+    },
+    {
+      "volcano_name": "Lassen Volcanic Center",
+      "vnum": "323080",
+      "sent_utc": "2009-11-18 16:05:08",
+      "sent_unixtime": 1258560308,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ca9",
+      "obs_fullname": "California Volcano Observatory",
+      "obs_abbr": "calvo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-CALVO-2009-11-18T16:05:08-00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-CALVO-2009-11-18T16:05:08-00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-CALVO-2009-11-18T16:05:08-00:00"
+    },
+    {
+      "volcano_name": "Long Valley Caldera",
+      "vnum": "323822",
+      "sent_utc": "2012-01-13 01:46:31",
+      "sent_unixtime": 1326419191,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ca11",
+      "obs_fullname": "California Volcano Observatory",
+      "obs_abbr": "calvo",
+      "notice_type_cd": "WU",
+      "notice_identifier": "DOI-USGS-CALVO-2012-01-13T01:46:31-00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-CALVO-2012-01-13T01:46:31-00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-CALVO-2012-01-13T01:46:31-00:00"
+    },
+    {
+      "volcano_name": "Mammoth Mountain",
+      "vnum": "323150",
+      "sent_utc": null,
+      "sent_unixtime": 0,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ca12",
+      "obs_fullname": "California Volcano Observatory",
+      "obs_abbr": "calvo",
+      "notice_type_cd": "",
+      "notice_identifier": null,
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/"
+    },
+    {
+      "volcano_name": "Medicine Lake volcano",
+      "vnum": "323020",
+      "sent_utc": null,
+      "sent_unixtime": 0,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ca13",
+      "obs_fullname": "California Volcano Observatory",
+      "obs_abbr": "calvo",
+      "notice_type_cd": "",
+      "notice_identifier": null,
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/"
+    },
+    {
+      "volcano_name": "Mono Lake Volcanic Field",
+      "vnum": "323110",
+      "sent_utc": null,
+      "sent_unixtime": 0,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ca15",
+      "obs_fullname": "California Volcano Observatory",
+      "obs_abbr": "calvo",
+      "notice_type_cd": "",
+      "notice_identifier": null,
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/"
+    },
+    {
+      "volcano_name": "Mono-Inyo Craters",
+      "vnum": "323120",
+      "sent_utc": null,
+      "sent_unixtime": 0,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ca21",
+      "obs_fullname": "California Volcano Observatory",
+      "obs_abbr": "calvo",
+      "notice_type_cd": "",
+      "notice_identifier": null,
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/"
+    },
+    {
+      "volcano_name": "Mount Shasta",
+      "vnum": "323010",
+      "sent_utc": null,
+      "sent_unixtime": 0,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ca16",
+      "obs_fullname": "California Volcano Observatory",
+      "obs_abbr": "calvo",
+      "notice_type_cd": "",
+      "notice_identifier": null,
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/"
+    },
+    {
+      "volcano_name": "Salton Buttes",
+      "vnum": "323200",
+      "sent_utc": null,
+      "sent_unixtime": 0,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ca20",
+      "obs_fullname": "California Volcano Observatory",
+      "obs_abbr": "calvo",
+      "notice_type_cd": "",
+      "notice_identifier": null,
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/"
+    },
+    {
+      "volcano_name": "Ubehebe Craters",
+      "vnum": "323160",
+      "sent_utc": null,
+      "sent_unixtime": 0,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "ca19",
+      "obs_fullname": "California Volcano Observatory",
+      "obs_abbr": "calvo",
+      "notice_type_cd": "",
+      "notice_identifier": null,
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/"
+    },
+    {
+      "volcano_name": "Cascade Range",
+      "vnum": null,
+      "sent_utc": "2026-09-25 18:54:50",
+      "sent_unixtime": 1790362490,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "cas",
+      "obs_fullname": "Cascades Volcano Observatory",
+      "obs_abbr": "cvo",
+      "notice_type_cd": "WU",
+      "notice_identifier": "DOI-USGS-CVO-2026-09-25T18:50:13+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-CVO-2026-09-25T18:50:13+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-CVO-2026-09-25T18:50:13+00:00"
+    },
+    {
+      "volcano_name": "Crater Lake",
+      "vnum": "322160",
+      "sent_utc": null,
+      "sent_unixtime": 0,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "or4",
+      "obs_fullname": "Cascades Volcano Observatory",
+      "obs_abbr": "cvo",
+      "notice_type_cd": "",
+      "notice_identifier": null,
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/"
+    },
+    {
+      "volcano_name": "Glacier Peak",
+      "vnum": "321020",
+      "sent_utc": null,
+      "sent_unixtime": 0,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "wa3",
+      "obs_fullname": "Cascades Volcano Observatory",
+      "obs_abbr": "cvo",
+      "notice_type_cd": "",
+      "notice_identifier": null,
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/"
+    },
+    {
+      "volcano_name": "Mount Adams",
+      "vnum": "321040",
+      "sent_utc": "2024-10-03 19:37:15",
+      "sent_unixtime": 1727984235,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "wa1",
+      "obs_fullname": "Cascades Volcano Observatory",
+      "obs_abbr": "cvo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-CVO-2024-10-03T19:20:03+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-CVO-2024-10-03T19:20:03+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-CVO-2024-10-03T19:20:03+00:00"
+    },
+    {
+      "volcano_name": "Mount Baker",
+      "vnum": "321010",
+      "sent_utc": null,
+      "sent_unixtime": 0,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "wa2",
+      "obs_fullname": "Cascades Volcano Observatory",
+      "obs_abbr": "cvo",
+      "notice_type_cd": "",
+      "notice_identifier": null,
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/"
+    },
+    {
+      "volcano_name": "Mount Hood",
+      "vnum": "322010",
+      "sent_utc": "2021-06-06 04:38:06",
+      "sent_unixtime": 1622954286,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "or12",
+      "obs_fullname": "Cascades Volcano Observatory",
+      "obs_abbr": "cvo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-CVO-2021-06-05T21:16:00-07:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-CVO-2021-06-05T21:16:00-07:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-CVO-2021-06-05T21:16:00-07:00"
+    },
+    {
+      "volcano_name": "Mount Jefferson",
+      "vnum": "322020",
+      "sent_utc": null,
+      "sent_unixtime": 0,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "or13",
+      "obs_fullname": "Cascades Volcano Observatory",
+      "obs_abbr": "cvo",
+      "notice_type_cd": "",
+      "notice_identifier": null,
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/"
+    },
+    {
+      "volcano_name": "Mount Rainier",
+      "vnum": "321030",
+      "sent_utc": "2025-08-25 22:38:40",
+      "sent_unixtime": 1756161520,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "wa6",
+      "obs_fullname": "Cascades Volcano Observatory",
+      "obs_abbr": "cvo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-CVO-2025-08-25T22:19:13+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-CVO-2025-08-25T22:19:13+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-CVO-2025-08-25T22:19:13+00:00"
+    },
+    {
+      "volcano_name": "Mount St. Helens",
+      "vnum": "321050",
+      "sent_utc": "2025-09-16 17:42:02",
+      "sent_unixtime": 1758044522,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "wa4",
+      "obs_fullname": "Cascades Volcano Observatory",
+      "obs_abbr": "cvo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-CVO-2025-09-16T17:22:23+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-CVO-2025-09-16T17:22:23+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-CVO-2025-09-16T17:22:23+00:00"
+    },
+    {
+      "volcano_name": "Newberry",
+      "vnum": "322110",
+      "sent_utc": "2024-12-18 21:47:10",
+      "sent_unixtime": 1734558430,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "or15",
+      "obs_fullname": "Cascades Volcano Observatory",
+      "obs_abbr": "cvo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-CVO-2024-12-18T21:18:02+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-CVO-2024-12-18T21:18:02+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-CVO-2024-12-18T21:18:02+00:00"
+    },
+    {
+      "volcano_name": "Three Sisters",
+      "vnum": "322070",
+      "sent_utc": "2022-01-31 20:45:17",
+      "sent_unixtime": 1643661917,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "or20",
+      "obs_fullname": "Cascades Volcano Observatory",
+      "obs_abbr": "cvo",
+      "notice_type_cd": "IS",
+      "notice_identifier": "DOI-USGS-CVO-2022-01-27T16:18:45-08:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-CVO-2022-01-27T16:18:45-08:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-CVO-2022-01-27T16:18:45-08:00"
+    },
+    {
+      "volcano_name": "Haleakala",
+      "vnum": "332060",
+      "sent_utc": "2026-10-01 21:30:20",
+      "sent_unixtime": 1790890220,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "hi1",
+      "obs_fullname": "Hawaiian Volcano Observatory",
+      "obs_abbr": "hvo",
+      "notice_type_cd": "MU",
+      "notice_identifier": "DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-10-01T01:33:14+00:00"
+    },
+    {
+      "volcano_name": "Hualalai",
+      "vnum": "332040",
+      "sent_utc": "2026-10-01 21:30:20",
+      "sent_unixtime": 1790890220,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "hi2",
+      "obs_fullname": "Hawaiian Volcano Observatory",
+      "obs_abbr": "hvo",
+      "notice_type_cd": "MU",
+      "notice_identifier": "DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-10-01T01:33:14+00:00"
+    },
+    {
+      "volcano_name": "Kilauea",
+      "vnum": "332010",
+      "sent_utc": "2026-10-01 19:05:15",
+      "sent_unixtime": 1790881515,
+      "alert_level": "WATCH",
+      "color_code": "ORANGE",
+      "volcano_cd": "hi3",
+      "obs_fullname": "Hawaiian Volcano Observatory",
+      "obs_abbr": "hvo",
+      "notice_type_cd": "DU",
+      "notice_identifier": "DOI-USGS-HVO-2026-10-01T01:30:09+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T01:30:09+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-10-01T01:30:09+00:00"
+    },
+    {
+      "volcano_name": "Mauna Kea",
       "vnum": "332030",
+      "sent_utc": "2026-10-01 21:30:20",
+      "sent_unixtime": 1790890220,
       "alert_level": "NORMAL",
       "color_code": "GREEN",
-      "status_sent_utc": "2026-10-01 21:30:20",
-      "status_notice_id": "DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
-      "status_notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T01:33:14+00:00"
+      "volcano_cd": "hi5",
+      "obs_fullname": "Hawaiian Volcano Observatory",
+      "obs_abbr": "hvo",
+      "notice_type_cd": "MU",
+      "notice_identifier": "DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-10-01T01:33:14+00:00"
     },
     {
-      "name": "Mauna Loa",
+      "volcano_name": "Mauna Loa",
       "vnum": "332020",
+      "sent_utc": "2026-10-01 21:30:20",
+      "sent_unixtime": 1790890220,
       "alert_level": "NORMAL",
       "color_code": "GREEN",
-      "status_sent_utc": "2026-10-01 21:30:20",
-      "status_notice_id": "DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
-      "status_notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T01:33:14+00:00"
+      "volcano_cd": "hi6",
+      "obs_fullname": "Hawaiian Volcano Observatory",
+      "obs_abbr": "hvo",
+      "notice_type_cd": "MU",
+      "notice_identifier": "DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-10-01T01:33:14+00:00"
     },
     {
-      "name": "Ofu-Olosega",
+      "volcano_name": "Ofu-Olosega",
       "vnum": "244010",
+      "sent_utc": "2026-10-01 22:00:03",
+      "sent_unixtime": 1790892003,
       "alert_level": "NORMAL",
       "color_code": "GREEN",
-      "status_sent_utc": "2026-10-01 22:00:03",
-      "status_notice_id": "DOI-USGS-HVO-2026-10-01T21:44:23+00:00",
-      "status_notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T21:44:23+00:00"
+      "volcano_cd": "nmi20",
+      "obs_fullname": "Hawaiian Volcano Observatory",
+      "obs_abbr": "hvo",
+      "notice_type_cd": "MU",
+      "notice_identifier": "DOI-USGS-HVO-2026-10-01T21:44:23+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T21:44:23+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-10-01T21:44:23+00:00"
     },
     {
-      "name": "Ta'u Island",
+      "volcano_name": "Ta'u Island",
       "vnum": "244001",
+      "sent_utc": "2026-10-01 22:00:03",
+      "sent_unixtime": 1790892003,
       "alert_level": "NORMAL",
       "color_code": "GREEN",
-      "status_sent_utc": "2026-10-01 22:00:03",
-      "status_notice_id": "DOI-USGS-HVO-2026-10-01T21:44:23+00:00",
-      "status_notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T21:44:23+00:00"
+      "volcano_cd": "nmi21",
+      "obs_fullname": "Hawaiian Volcano Observatory",
+      "obs_abbr": "hvo",
+      "notice_type_cd": "MU",
+      "notice_identifier": "DOI-USGS-HVO-2026-10-01T21:44:23+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T21:44:23+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-10-01T21:44:23+00:00"
     },
     {
-      "name": "Tutuila Island",
+      "volcano_name": "Tutuila Island",
       "vnum": "244020",
+      "sent_utc": "2026-10-01 22:00:03",
+      "sent_unixtime": 1790892003,
       "alert_level": "NORMAL",
       "color_code": "GREEN",
-      "status_sent_utc": "2026-10-01 22:00:03",
-      "status_notice_id": "DOI-USGS-HVO-2026-10-01T21:44:23+00:00",
-      "status_notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T21:44:23+00:00"
+      "volcano_cd": "nmi22",
+      "obs_fullname": "Hawaiian Volcano Observatory",
+      "obs_abbr": "hvo",
+      "notice_type_cd": "MU",
+      "notice_identifier": "DOI-USGS-HVO-2026-10-01T21:44:23+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T21:44:23+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-10-01T21:44:23+00:00"
+    },
+    {
+      "volcano_name": "Ahyi Seamount",
+      "vnum": "284141",
+      "sent_utc": "2026-10-01 20:39:46",
+      "sent_unixtime": 1790887186,
+      "alert_level": "ADVISORY",
+      "color_code": "YELLOW",
+      "volcano_cd": "nmi2",
+      "obs_fullname": "Northern Mariana Islands",
+      "obs_abbr": "nmi",
+      "notice_type_cd": "WU",
+      "notice_identifier": "DOI-USGS-NMI-2026-10-01T20:37:33+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-NMI-2026-10-01T20:37:33+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-NMI-2026-10-01T20:37:33+00:00"
+    },
+    {
+      "volcano_name": "Yellowstone",
+      "vnum": "325010",
+      "sent_utc": "2026-10-01 15:10:08",
+      "sent_unixtime": 1790867408,
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "volcano_cd": "wy1",
+      "obs_fullname": "Yellowstone Volcano Observatory",
+      "obs_abbr": "yvo",
+      "notice_type_cd": "MU",
+      "notice_identifier": "DOI-USGS-YVO-2026-10-01T15:02:43+00:00",
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-YVO-2026-10-01T15:02:43+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-YVO-2026-10-01T15:02:43+00:00"
     }
-  ]
+  ],
+  "newest_or_recent": [
+    {
+      "sentUtc": "2026-10-01 20:35:44",
+      "sent_unixtime": 1790886944,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-10-01T19:24:56+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Shishaldin, Gareloi",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level unrest continues.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        },
+        {
+          "synopsis": "A single brief explosion was detected in geophysical data at 07:27 AM AKDT (15:27 UTC) prompting a change in the Aviation Color Code/Volcano Alert Level to YELLOW/ADVISORY. No further signs of unrest have been detected.\r\n",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak106",
+          "volcanoName": "Gareloi",
+          "vnum": "311070"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-10-01T19:24:56+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-10-01T19:24:56+00:00"
+    },
+    {
+      "sentUtc": "2026-10-01 16:42:52",
+      "sent_unixtime": 1790872972,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-10-01T15:57:08+00:00",
+      "noticeType": "Volcano Observatory Notice for Aviation",
+      "noticeTypeCd": "VV",
+      "noticeCategory": "Event Response / Information Statement",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Gareloi",
+      "sections": [
+        {
+          "synopsis": "A single brief explosion was detected in geophysical data at 07:27 AM AKDT (15:27 UTC). Aviation Color Code/ Volcano Alert Level was changed to YELLOW/ADVISORY. It is unknown if an ash cloud was produced due to cloud cover at the volcano.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak106",
+          "volcanoName": "Gareloi",
+          "vnum": "311070"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/vona/DOI-USGS-AVO-2026-10-01T15:57:08+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-10-01T15:57:08+00:00"
+    },
+    {
+      "sentUtc": "2026-10-01 16:42:52",
+      "sent_unixtime": 1790872972,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-10-01T15:57:08+00:00",
+      "noticeType": "Volcano Activity Notification",
+      "noticeTypeCd": "VAN",
+      "noticeCategory": "Event Response / Information Statement",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Gareloi",
+      "sections": [
+        {
+          "synopsis": "A single brief explosion was detected in geophysical data at 07:27 AM AKDT (15:27 UTC). Aviation Color Code/ Volcano Alert Level was changed to YELLOW/ADVISORY. It is unknown if an ash cloud was produced due to cloud cover at the volcano.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak106",
+          "volcanoName": "Gareloi",
+          "vnum": "311070"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-10-01T15:57:08+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-10-01T15:57:08+00:00"
+    },
+    {
+      "sentUtc": "2026-09-30 19:47:37",
+      "sent_unixtime": 1790797657,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-30T19:42:09+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level unrest continues.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-30T19:42:09+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-30T19:42:09+00:00"
+    },
+    {
+      "sentUtc": "2026-09-29 19:52:26",
+      "sent_unixtime": 1790711546,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-29T18:26:19+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level unrest continues.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-29T18:26:19+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-29T18:26:19+00:00"
+    },
+    {
+      "sentUtc": "2026-09-28 20:41:27",
+      "sent_unixtime": 1790628087,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-28T19:52:01+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level unrest continues.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-28T19:52:01+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-28T19:52:01+00:00"
+    },
+    {
+      "sentUtc": "2026-09-27 19:16:03",
+      "sent_unixtime": 1790536563,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-27T19:14:32+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level unrest continues.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-27T19:14:32+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-27T19:14:32+00:00"
+    },
+    {
+      "sentUtc": "2026-09-26 17:32:59",
+      "sent_unixtime": 1790443979,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-26T17:30:39+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level unrest continues.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-26T17:30:39+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-26T17:30:39+00:00"
+    },
+    {
+      "sentUtc": "2026-09-25 20:04:31",
+      "sent_unixtime": 1790366671,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-25T20:02:50+00:00",
+      "noticeType": "Weekly Update",
+      "noticeTypeCd": "WU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava continues within the summit crater associated with low-level seismicity and steaming.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Unrest continues with small earthquakes, tremor, infrasound signals, and gas emissions.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-25T20:02:50+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-25T20:02:50+00:00"
+    },
+    {
+      "sentUtc": "2026-09-25 19:25:30",
+      "sent_unixtime": 1790364330,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-25T17:07:39+00:00",
+      "noticeType": "Weekly Update",
+      "noticeTypeCd": "WU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava continues within the summit crater associated with low-level seismicity and steaming.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Unrest continues with small earthquakes, tremor, infrasound signals, and gas emissions.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-25T17:07:39+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-25T17:07:39+00:00"
+    },
+    {
+      "sentUtc": "2026-09-24 17:39:59",
+      "sent_unixtime": 1790271599,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-24T17:37:59+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level unrest continues.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-24T17:37:59+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-24T17:37:59+00:00"
+    },
+    {
+      "sentUtc": "2026-09-23 17:54:19",
+      "sent_unixtime": 1790186059,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-23T17:51:33+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level unrest continues.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-23T17:51:33+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-23T17:51:33+00:00"
+    },
+    {
+      "sentUtc": "2026-09-22 19:46:57",
+      "sent_unixtime": 1790106417,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-22T19:44:36+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level unrest continues.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-22T19:44:36+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-22T19:44:36+00:00"
+    },
+    {
+      "sentUtc": "2026-09-21 17:24:15",
+      "sent_unixtime": 1790011455,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-21T17:19:17+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level seismic unrest continues.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-21T17:19:17+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-21T17:19:17+00:00"
+    },
+    {
+      "sentUtc": "2026-09-20 19:15:04",
+      "sent_unixtime": 1789931704,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-20T19:12:56+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level seismic unrest continues.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-20T19:12:56+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-20T19:12:56+00:00"
+    },
+    {
+      "sentUtc": "2026-09-19 17:37:04",
+      "sent_unixtime": 1789839424,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-19T17:34:59+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues, accompanied by weak seismicity.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level seismic unrest continues.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-19T17:34:59+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-19T17:34:59+00:00"
+    },
+    {
+      "sentUtc": "2026-09-18 18:35:15",
+      "sent_unixtime": 1789756515,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-18T17:43:20+00:00",
+      "noticeType": "Weekly Update",
+      "noticeTypeCd": "WU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava continues within the summit crater associated with low-level seismicity and steaming.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Unrest continues with small earthquakes, tremor, infrasound signals, and gas emissions.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-18T17:43:20+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-18T17:43:20+00:00"
+    },
+    {
+      "sentUtc": "2026-09-17 21:06:10",
+      "sent_unixtime": 1789679170,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-17T21:04:50+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues, accompanied by weak seismicity.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level seismic unrest continues.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-17T21:04:50+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-17T21:04:50+00:00"
+    },
+    {
+      "sentUtc": "2026-09-16 21:25:22",
+      "sent_unixtime": 1789593922,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-16T20:32:40+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues, accompanied by weak seismicity.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level seismic unrest continues.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-16T20:32:40+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-16T20:32:40+00:00"
+    },
+    {
+      "sentUtc": "2026-09-15 17:01:41",
+      "sent_unixtime": 1789491701,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-15T16:52:28+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues, accompanied by weak seismicity.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level seismic unrest continues.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-15T16:52:28+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-15T16:52:28+00:00"
+    },
+    {
+      "sentUtc": "2026-09-14 20:53:03",
+      "sent_unixtime": 1789419183,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-14T20:51:00+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues, accompanied by weak seismicity.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level seismic unrest and gas emissions continue.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-14T20:51:00+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-14T20:51:00+00:00"
+    },
+    {
+      "sentUtc": "2026-09-13 18:56:31",
+      "sent_unixtime": 1789325791,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-13T18:54:33+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues, accompanied by weak seismicity.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level seismic unrest and gas emissions continue.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-13T18:54:33+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-13T18:54:33+00:00"
+    },
+    {
+      "sentUtc": "2026-09-12 19:08:39",
+      "sent_unixtime": 1789240119,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-12T19:05:44+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues, accompanied by weak seismicity.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level seismic unrest continues, accompanied by weak seismicity.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-12T19:05:44+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-12T19:05:44+00:00"
+    },
+    {
+      "sentUtc": "2026-09-11 19:48:03",
+      "sent_unixtime": 1789156083,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-11T17:55:45+00:00",
+      "noticeType": "Weekly Update",
+      "noticeTypeCd": "WU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Kupreanof, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava continues within the summit crater associated with low-level seismicity.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Mount Kupreanof relatively quiet; volcano lowered to UNASSIGNED.",
+          "colorCode": "UNASSIGNED",
+          "alertLevel": "UNASSIGNED",
+          "volcanoCd": "ak175",
+          "volcanoName": "Kupreanof",
+          "vnum": "312060"
+        },
+        {
+          "synopsis": "Unrest continues with small earthquakes, tremor, infrasound signals, and gas emissions.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-11T17:55:45+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-11T17:55:45+00:00"
+    },
+    {
+      "sentUtc": "2026-09-10 18:12:58",
+      "sent_unixtime": 1789063978,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-10T18:10:34+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues, with weak seismicity and steaming.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level seismic unrest continues, with weak seismicity and a summit gas plume.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-10T18:10:34+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-10T18:10:34+00:00"
+    },
+    {
+      "sentUtc": "2026-09-09 18:41:30",
+      "sent_unixtime": 1788979290,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-09T18:25:36+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Kupreanof, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues, with weak seismicity, steaming, and elevated temperatures.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Seismic activity at a very low level; weak steaming continues. Volcano lowered to UNASSIGNED.",
+          "colorCode": "UNASSIGNED",
+          "alertLevel": "UNASSIGNED",
+          "volcanoCd": "ak175",
+          "volcanoName": "Kupreanof",
+          "vnum": "312060"
+        },
+        {
+          "synopsis": "Low-level seismic unrest continues, with weak seismicity and a summit gas plume.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-09T18:25:36+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-09T18:25:36+00:00"
+    },
+    {
+      "sentUtc": "2026-09-08 22:31:37",
+      "sent_unixtime": 1788906697,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-08T22:30:01+00:00",
+      "noticeType": "Volcano Observatory Notice for Aviation",
+      "noticeTypeCd": "VV",
+      "noticeCategory": "Event Response / Information Statement",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Kupreanof",
+      "sections": [
+        {
+          "synopsis": "Volcanic activity at Mount Kupreanof has declined to background levels.",
+          "colorCode": "UNASSIGNED",
+          "alertLevel": "UNASSIGNED",
+          "volcanoCd": "ak175",
+          "volcanoName": "Kupreanof",
+          "vnum": "312060"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/vona/DOI-USGS-AVO-2026-09-08T22:30:01+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-08T22:30:01+00:00"
+    },
+    {
+      "sentUtc": "2026-09-08 22:31:37",
+      "sent_unixtime": 1788906697,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-08T22:30:01+00:00",
+      "noticeType": "Volcano Activity Notification",
+      "noticeTypeCd": "VAN",
+      "noticeCategory": "Event Response / Information Statement",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Kupreanof",
+      "sections": [
+        {
+          "synopsis": "Volcanic activity at Mount Kupreanof has declined to background levels.",
+          "colorCode": "UNASSIGNED",
+          "alertLevel": "UNASSIGNED",
+          "volcanoCd": "ak175",
+          "volcanoName": "Kupreanof",
+          "vnum": "312060"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-08T22:30:01+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-08T22:30:01+00:00"
+    },
+    {
+      "sentUtc": "2026-09-08 22:20:04",
+      "sent_unixtime": 1788906004,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-04T19:18:06+00:00",
+      "noticeType": "Volcano Observatory Notice for Aviation",
+      "noticeTypeCd": "VV",
+      "noticeCategory": "Event Response / Information Statement",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Kupreanof",
+      "sections": [
+        {
+          "synopsis": "Volcanic activity at Mount Kupreanof has declined to background levels.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak175",
+          "volcanoName": "Kupreanof",
+          "vnum": "312060"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/vona/DOI-USGS-AVO-2026-09-04T19:18:06+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-04T19:18:06+00:00"
+    },
+    {
+      "sentUtc": "2026-09-08 22:20:04",
+      "sent_unixtime": 1788906004,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-04T19:18:06+00:00",
+      "noticeType": "Volcano Activity Notification",
+      "noticeTypeCd": "VAN",
+      "noticeCategory": "Event Response / Information Statement",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Kupreanof",
+      "sections": [
+        {
+          "synopsis": "Volcanic activity at Mount Kupreanof has declined to background levels.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak175",
+          "volcanoName": "Kupreanof",
+          "vnum": "312060"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-04T19:18:06+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-04T19:18:06+00:00"
+    },
+    {
+      "sentUtc": "2026-09-08 19:02:17",
+      "sent_unixtime": 1788894137,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-08T18:44:57+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Kupreanof, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Seismic activity at a very low level.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak175",
+          "volcanoName": "Kupreanof",
+          "vnum": "312060"
+        },
+        {
+          "synopsis": "Low-level seismic unrest continues.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-08T18:44:57+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-08T18:44:57+00:00"
+    },
+    {
+      "sentUtc": "2026-09-07 19:46:25",
+      "sent_unixtime": 1788810385,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-07T19:41:47+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Kupreanof, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level seismic activity continues to decline. Steaming and minor SO2 observed. ",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak175",
+          "volcanoName": "Kupreanof",
+          "vnum": "312060"
+        },
+        {
+          "synopsis": "Low-level seismic unrest continues. Steaming observed. ",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-07T19:41:47+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-07T19:41:47+00:00"
+    },
+    {
+      "sentUtc": "2026-09-06 20:00:00",
+      "sent_unixtime": 1788724800,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-06T19:57:26+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Kupreanof, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level seismic activity continues to decline.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak175",
+          "volcanoName": "Kupreanof",
+          "vnum": "312060"
+        },
+        {
+          "synopsis": "Low-level seismic unrest continues. Steaming observed. ",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-06T19:57:26+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-06T19:57:26+00:00"
+    },
+    {
+      "sentUtc": "2026-09-05 18:37:00",
+      "sent_unixtime": 1788633420,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-05T18:33:56+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Kupreanof, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues. Steaming and elevated surface temperatures observed.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level seismic activity continues but has declined from previous levels. ",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak175",
+          "volcanoName": "Kupreanof",
+          "vnum": "312060"
+        },
+        {
+          "synopsis": "Low-level seismic unrest continues. Steaming observed. ",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-05T18:33:56+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-05T18:33:56+00:00"
+    },
+    {
+      "sentUtc": "2026-09-04 20:16:44",
+      "sent_unixtime": 1788553004,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-04T18:48:35+00:00",
+      "noticeType": "Weekly Update",
+      "noticeTypeCd": "WU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Kupreanof, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava continues within the summit crater associated with low-level seismicity.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level unrest at Mount Kupreanof has declined this week.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak175",
+          "volcanoName": "Kupreanof",
+          "vnum": "312060"
+        },
+        {
+          "synopsis": "Unrest continues with small earthquakes, tremor, infrasound signals and gas emissions detected. ",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-04T18:48:35+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-04T18:48:35+00:00"
+    },
+    {
+      "sentUtc": "2026-09-03 18:44:11",
+      "sent_unixtime": 1788461051,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-03T18:42:29+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Kupreanof, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues. ",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level seismic activity continues but has declined from previous levels. ",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak175",
+          "volcanoName": "Kupreanof",
+          "vnum": "312060"
+        },
+        {
+          "synopsis": "Low-level seismic unrest continues.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-03T18:42:29+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-03T18:42:29+00:00"
+    },
+    {
+      "sentUtc": "2026-09-02 19:24:57",
+      "sent_unixtime": 1788377097,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-02T19:21:24+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Kupreanof, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues. ",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level seismic activity continues but has declined from previous levels. ",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak175",
+          "volcanoName": "Kupreanof",
+          "vnum": "312060"
+        },
+        {
+          "synopsis": "Low-level seismic unrest continues. Steaming and sulfur dioxide detected.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-02T19:21:24+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-02T19:21:24+00:00"
+    },
+    {
+      "sentUtc": "2026-09-01 18:52:25",
+      "sent_unixtime": 1788288745,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-09-01T18:50:30+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Great Sitkin, Kupreanof, Shishaldin",
+      "sections": [
+        {
+          "synopsis": "Slow eruption of lava within the summit crater continues. ",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "ak111",
+          "volcanoName": "Great Sitkin",
+          "vnum": "311120"
+        },
+        {
+          "synopsis": "Low-level seismic activity continues. ",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak175",
+          "volcanoName": "Kupreanof",
+          "vnum": "312060"
+        },
+        {
+          "synopsis": "Low-level seismic unrest continues. ",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "ak252",
+          "volcanoName": "Shishaldin",
+          "vnum": "311360"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-09-01T18:50:30+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-09-01T18:50:30+00:00"
+    },
+    {
+      "sentUtc": "2026-09-01 00:04:06",
+      "sent_unixtime": 1788221046,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-08-31T23:56:18+00:00",
+      "noticeType": "Volcano Observatory Notice for Aviation",
+      "noticeTypeCd": "VV",
+      "noticeCategory": "Event Response / Information Statement",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Katmai",
+      "sections": [
+        {
+          "synopsis": "Resuspended ash observed from 1912 eruption. Aviation color code and alert level remain at GREEN/NORMAL.",
+          "colorCode": "GREEN",
+          "alertLevel": "NORMAL",
+          "volcanoCd": "ak147",
+          "volcanoName": "Katmai",
+          "vnum": "312170"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/vona/DOI-USGS-AVO-2026-08-31T23:56:18+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-08-31T23:56:18+00:00"
+    },
+    {
+      "sentUtc": "2026-09-01 00:04:06",
+      "sent_unixtime": 1788221046,
+      "noticeIdentifier": "DOI-USGS-AVO-2026-08-31T23:56:18+00:00",
+      "noticeType": "Volcano Activity Notification",
+      "noticeTypeCd": "VAN",
+      "noticeCategory": "Event Response / Information Statement",
+      "obs": "avo",
+      "obsFullname": "Alaska Volcano Observatory",
+      "volcanoes": "Katmai",
+      "sections": [
+        {
+          "synopsis": "Resuspended ash observed from 1912 eruption. Aviation color code and alert level remain at GREEN/NORMAL.",
+          "colorCode": "GREEN",
+          "alertLevel": "NORMAL",
+          "volcanoCd": "ak147",
+          "volcanoName": "Katmai",
+          "vnum": "312170"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-08-31T23:56:18+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-AVO-2026-08-31T23:56:18+00:00"
+    },
+    {
+      "sentUtc": "2026-09-29 18:09:18",
+      "sent_unixtime": 1790705358,
+      "noticeIdentifier": "DOI-USGS-CALVO-2026-09-29T17:10:10+00:00",
+      "noticeType": "Weekly Update",
+      "noticeTypeCd": "WU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "calvo",
+      "obsFullname": "California Volcano Observatory",
+      "volcanoes": "",
+      "sections": [
+        {
+          "synopsis": "CA volcanoes were at normal background levels of seismicity and deformation during the past week.",
+          "colorCode": "UNASSIGNED",
+          "alertLevel": "UNASSIGNED",
+          "volcanoCd": null,
+          "volcanoName": null,
+          "vnum": null
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-CALVO-2026-09-29T17:10:10+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-CALVO-2026-09-29T17:10:10+00:00"
+    },
+    {
+      "sentUtc": "2026-09-22 16:26:17",
+      "sent_unixtime": 1790094377,
+      "noticeIdentifier": "DOI-USGS-CALVO-2026-09-22T15:52:03+00:00",
+      "noticeType": "Weekly Update",
+      "noticeTypeCd": "WU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "calvo",
+      "obsFullname": "California Volcano Observatory",
+      "volcanoes": "",
+      "sections": [
+        {
+          "synopsis": "CA volcanoes were at normal background levels of seismicity and deformation during the past week.",
+          "colorCode": "UNASSIGNED",
+          "alertLevel": "UNASSIGNED",
+          "volcanoCd": null,
+          "volcanoName": null,
+          "vnum": null
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-CALVO-2026-09-22T15:52:03+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-CALVO-2026-09-22T15:52:03+00:00"
+    },
+    {
+      "sentUtc": "2026-09-15 17:00:53",
+      "sent_unixtime": 1789491653,
+      "noticeIdentifier": "DOI-USGS-CALVO-2026-09-15T16:25:32+00:00",
+      "noticeType": "Weekly Update",
+      "noticeTypeCd": "WU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "calvo",
+      "obsFullname": "California Volcano Observatory",
+      "volcanoes": "",
+      "sections": [
+        {
+          "synopsis": "CA volcanoes were at normal background levels of seismicity and deformation during the past week.",
+          "colorCode": "UNASSIGNED",
+          "alertLevel": "UNASSIGNED",
+          "volcanoCd": null,
+          "volcanoName": null,
+          "vnum": null
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-CALVO-2026-09-15T16:25:32+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-CALVO-2026-09-15T16:25:32+00:00"
+    },
+    {
+      "sentUtc": "2026-09-08 18:56:54",
+      "sent_unixtime": 1788893814,
+      "noticeIdentifier": "DOI-USGS-CALVO-2026-09-08T18:46:32+00:00",
+      "noticeType": "Weekly Update",
+      "noticeTypeCd": "WU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "calvo",
+      "obsFullname": "California Volcano Observatory",
+      "volcanoes": "",
+      "sections": [
+        {
+          "synopsis": "CA volcanoes were at normal background levels of seismicity and deformation during the past week.",
+          "colorCode": "UNASSIGNED",
+          "alertLevel": "UNASSIGNED",
+          "volcanoCd": null,
+          "volcanoName": null,
+          "vnum": null
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-CALVO-2026-09-08T18:46:32+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-CALVO-2026-09-08T18:46:32+00:00"
+    },
+    {
+      "sentUtc": "2026-09-01 20:12:42",
+      "sent_unixtime": 1788293562,
+      "noticeIdentifier": "DOI-USGS-CALVO-2026-09-01T15:18:22+00:00",
+      "noticeType": "Weekly Update",
+      "noticeTypeCd": "WU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "calvo",
+      "obsFullname": "California Volcano Observatory",
+      "volcanoes": "",
+      "sections": [
+        {
+          "synopsis": "CA volcanoes were at normal background levels of seismicity and deformation during the past week.",
+          "colorCode": "UNASSIGNED",
+          "alertLevel": "UNASSIGNED",
+          "volcanoCd": null,
+          "volcanoName": null,
+          "vnum": null
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-CALVO-2026-09-01T15:18:22+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-CALVO-2026-09-01T15:18:22+00:00"
+    },
+    {
+      "sentUtc": "2026-09-25 18:54:50",
+      "sent_unixtime": 1790362490,
+      "noticeIdentifier": "DOI-USGS-CVO-2026-09-25T18:50:13+00:00",
+      "noticeType": "Weekly Update",
+      "noticeTypeCd": "WU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "cvo",
+      "obsFullname": "Cascades Volcano Observatory",
+      "volcanoes": "Cascade Range",
+      "sections": [
+        {
+          "synopsis": "All volcanoes are at normal levels.",
+          "colorCode": "GREEN",
+          "alertLevel": "NORMAL",
+          "volcanoCd": "cas",
+          "volcanoName": "Cascade Range",
+          "vnum": null
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-CVO-2026-09-25T18:50:13+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-CVO-2026-09-25T18:50:13+00:00"
+    },
+    {
+      "sentUtc": "2026-09-18 19:05:40",
+      "sent_unixtime": 1789758340,
+      "noticeIdentifier": "DOI-USGS-CVO-2026-09-18T19:01:18+00:00",
+      "noticeType": "Weekly Update",
+      "noticeTypeCd": "WU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "cvo",
+      "obsFullname": "Cascades Volcano Observatory",
+      "volcanoes": "Cascade Range",
+      "sections": [
+        {
+          "synopsis": "All volcanoes are at normal levels.",
+          "colorCode": "GREEN",
+          "alertLevel": "NORMAL",
+          "volcanoCd": "cas",
+          "volcanoName": "Cascade Range",
+          "vnum": null
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-CVO-2026-09-18T19:01:18+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-CVO-2026-09-18T19:01:18+00:00"
+    },
+    {
+      "sentUtc": "2026-09-11 19:00:18",
+      "sent_unixtime": 1789153218,
+      "noticeIdentifier": "DOI-USGS-CVO-2026-09-11T18:17:28+00:00",
+      "noticeType": "Weekly Update",
+      "noticeTypeCd": "WU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "cvo",
+      "obsFullname": "Cascades Volcano Observatory",
+      "volcanoes": "Cascade Range",
+      "sections": [
+        {
+          "synopsis": "All volcanoes are at normal levels.",
+          "colorCode": "GREEN",
+          "alertLevel": "NORMAL",
+          "volcanoCd": "cas",
+          "volcanoName": "Cascade Range",
+          "vnum": null
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-CVO-2026-09-11T18:17:28+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-CVO-2026-09-11T18:17:28+00:00"
+    },
+    {
+      "sentUtc": "2026-09-04 20:05:35",
+      "sent_unixtime": 1788552335,
+      "noticeIdentifier": "DOI-USGS-CVO-2026-09-04T19:58:17+00:00",
+      "noticeType": "Weekly Update",
+      "noticeTypeCd": "WU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "cvo",
+      "obsFullname": "Cascades Volcano Observatory",
+      "volcanoes": "Cascade Range",
+      "sections": [
+        {
+          "synopsis": "All volcanoes are at normal levels.",
+          "colorCode": "GREEN",
+          "alertLevel": "NORMAL",
+          "volcanoCd": "cas",
+          "volcanoName": "Cascade Range",
+          "vnum": null
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-CVO-2026-09-04T19:58:17+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-CVO-2026-09-04T19:58:17+00:00"
+    },
+    {
+      "sentUtc": "2026-10-01 22:00:03",
+      "sent_unixtime": 1790892003,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-10-01T21:44:23+00:00",
+      "noticeType": "Monthly Update",
+      "noticeTypeCd": "MU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Ofu-Olosega, Ta'u Island, Tutuila Island",
+      "sections": [
+        {
+          "synopsis": "No activity of concern for Ofu-Olosega.",
+          "colorCode": "GREEN",
+          "alertLevel": "NORMAL",
+          "volcanoCd": "nmi20",
+          "volcanoName": "Ofu-Olosega",
+          "vnum": "244010"
+        },
+        {
+          "synopsis": "No activity of concern for Taʻū Island",
+          "colorCode": "GREEN",
+          "alertLevel": "NORMAL",
+          "volcanoCd": "nmi21",
+          "volcanoName": "Ta'u Island",
+          "vnum": "244001"
+        },
+        {
+          "synopsis": "No activity of concern for Tutuila Island",
+          "colorCode": "GREEN",
+          "alertLevel": "NORMAL",
+          "volcanoCd": "nmi22",
+          "volcanoName": "Tutuila Island",
+          "vnum": "244020"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T21:44:23+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-10-01T21:44:23+00:00"
+    },
+    {
+      "sentUtc": "2026-10-01 21:30:20",
+      "sent_unixtime": 1790890220,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
+      "noticeType": "Monthly Update",
+      "noticeTypeCd": "MU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Mauna Loa, Hualalai, Haleakala, Mauna Kea, Kama'ehuakanaloa",
+      "sections": [
+        {
+          "synopsis": "Mauna Loa earthquake counts decreased in September compared to August, and minor inflation continues.",
+          "colorCode": "GREEN",
+          "alertLevel": "NORMAL",
+          "volcanoCd": "hi6",
+          "volcanoName": "Mauna Loa",
+          "vnum": "332020"
+        },
+        {
+          "synopsis": "No activity of concern for Hualālai.",
+          "colorCode": "GREEN",
+          "alertLevel": "NORMAL",
+          "volcanoCd": "hi2",
+          "volcanoName": "Hualalai",
+          "vnum": "332040"
+        },
+        {
+          "synopsis": "No activity of concern for Haleakalā.",
+          "colorCode": "GREEN",
+          "alertLevel": "NORMAL",
+          "volcanoCd": "hi1",
+          "volcanoName": "Haleakala",
+          "vnum": "332060"
+        },
+        {
+          "synopsis": "No activity of concern for Mauna Kea.",
+          "colorCode": "GREEN",
+          "alertLevel": "NORMAL",
+          "volcanoCd": "hi5",
+          "volcanoName": "Mauna Kea",
+          "vnum": "332030"
+        },
+        {
+          "synopsis": "No activity of concern for Kamaʻehuakanaloa.",
+          "colorCode": "UNASSIGNED",
+          "alertLevel": "UNASSIGNED",
+          "volcanoCd": "hi4",
+          "volcanoName": "Kama'ehuakanaloa",
+          "vnum": "332000"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-10-01T01:33:14+00:00"
+    },
+    {
+      "sentUtc": "2026-10-01 19:05:15",
+      "sent_unixtime": 1790881515,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-10-01T01:30:09+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "A shallow intrusion of magma occurred overnight within the summit region near the existing eruption location. North and south vent continue to have intermittent overflows, spatter, and strong glow. There is no anomalous activity outside of the summit.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T01:30:09+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-10-01T01:30:09+00:00"
+    },
+    {
+      "sentUtc": "2026-10-01 09:01:09",
+      "sent_unixtime": 1790845269,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-10-01T08:14:21+00:00",
+      "noticeType": "Status Report",
+      "noticeTypeCd": "SR",
+      "noticeCategory": "Event Response / Information Statement",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "A shallow intrusion of magma is occurring within the summit region near the existing eruption location in Hawai'i Volcanoes National Park. ",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T08:14:21+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-10-01T08:14:21+00:00"
+    },
+    {
+      "sentUtc": "2026-09-30 19:25:36",
+      "sent_unixtime": 1790796336,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-30T18:39:21+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Intermittent overflows and spatter from both north and south vents occurred over the past day Halema'uma'u crater at the summit of Kīlauea. West vent had occasional glow overnight. There is no anomalous activity outside of the summit.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-30T18:39:21+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-30T18:39:21+00:00"
+    },
+    {
+      "sentUtc": "2026-09-29 19:02:11",
+      "sent_unixtime": 1790708531,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-29T16:47:40+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Numerous rapid cycles of south vent overflows and drainback occurred overnight within Halema'uma'u crater at the summit of Kīlauea. The north and south vents had strong glow and intermittent spatter. There is no anomalous activity outside of the summit.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-29T16:47:40+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-29T16:47:40+00:00"
+    },
+    {
+      "sentUtc": "2026-09-29 17:54:03",
+      "sent_unixtime": 1790704443,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-29T16:38:42+00:00",
+      "noticeType": "Volcano Observatory Notice for Aviation",
+      "noticeTypeCd": "VV",
+      "noticeCategory": "Event Response / Information Statement",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "The Halemaʻumaʻu eruption of Kīlauea volcano is currently erupting small overflows from both the north and south vents. It is not possible to forecast the onset of episode 55 fountains or if they will occur.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/vona/DOI-USGS-HVO-2026-09-29T16:38:42+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-29T16:38:42+00:00"
+    },
+    {
+      "sentUtc": "2026-09-29 17:54:03",
+      "sent_unixtime": 1790704443,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-29T16:38:42+00:00",
+      "noticeType": "Volcano Activity Notification",
+      "noticeTypeCd": "VAN",
+      "noticeCategory": "Event Response / Information Statement",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "The Halemaʻumaʻu eruption of Kīlauea volcano is currently erupting small overflows from both the north and south vents. It is not possible to forecast the onset of episode 55 fountains or if they will occur.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-29T16:38:42+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-29T16:38:42+00:00"
+    },
+    {
+      "sentUtc": "2026-09-28 18:21:13",
+      "sent_unixtime": 1790619673,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-28T16:49:27+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Small overflows from the north vent continue within Halema'uma'u crater at the summit of Kīlauea. All vents have strong glow and intermittent spatter. There is no anomalous activity outside of the summit.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-28T16:49:27+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-28T16:49:27+00:00"
+    },
+    {
+      "sentUtc": "2026-09-27 18:50:55",
+      "sent_unixtime": 1790535055,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-27T17:29:16+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Small overflows from the north vent continue, along with tiny overflows from the south vent starting overnight. All vents have strong glow and intermittent spatter. There is no anomalous activity outside of the summit.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-27T17:29:16+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-27T17:29:16+00:00"
+    },
+    {
+      "sentUtc": "2026-09-26 18:41:56",
+      "sent_unixtime": 1790448116,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-26T17:04:14+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Small overflows from the north vent continue for the fourth day. All vents have strong glow, with overflows and intermittent spatter from the north vent. There is no anomalous activity outside of the summit.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-26T17:04:14+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-26T17:04:14+00:00"
+    },
+    {
+      "sentUtc": "2026-09-25 19:24:30",
+      "sent_unixtime": 1790364270,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-25T17:09:44+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Precursory overflows from the north vent continue for the third day. All vents have strong glow, with overflows and intermittent spatter from the north vent. There is no anomalous activity outside of the summit.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-25T17:09:44+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-25T17:09:44+00:00"
+    },
+    {
+      "sentUtc": "2026-09-24 18:43:24",
+      "sent_unixtime": 1790275404,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-24T17:15:03+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Precursory overflows from the north vent resumed on September 22. Strong glow from all vents continued with intermittent spatter from the north and south vents. There is no anomalous activity outside of the summit.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-24T17:15:03+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-24T17:15:03+00:00"
+    },
+    {
+      "sentUtc": "2026-09-23 18:23:22",
+      "sent_unixtime": 1790187802,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-23T17:16:19+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Precursory overflows from the north vent resumed last night. Strong glow from all vents continued with intermittent spatter from the north and south vents. There is no anomalous activity outside of the summit.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-23T17:16:19+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-23T17:16:19+00:00"
+    },
+    {
+      "sentUtc": "2026-09-23 09:52:52",
+      "sent_unixtime": 1790157172,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-23T08:36:47+00:00",
+      "noticeType": "Volcano Observatory Notice for Aviation",
+      "noticeTypeCd": "VV",
+      "noticeCategory": "Event Response / Information Statement",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Eruption of precursory lava flows from the north vent of the of the ongoing Halemaʻumaʻu eruption restarted around 10:10 p.m. HST on September 22, 2026. It is unclear if this activity will lead to a lava fountaining episode.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/vona/DOI-USGS-HVO-2026-09-23T08:36:47+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-23T08:36:47+00:00"
+    },
+    {
+      "sentUtc": "2026-09-23 09:52:52",
+      "sent_unixtime": 1790157172,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-23T08:36:47+00:00",
+      "noticeType": "Volcano Activity Notification",
+      "noticeTypeCd": "VAN",
+      "noticeCategory": "Event Response / Information Statement",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Eruption of precursory lava flows from the north vent of the of the ongoing Halemaʻumaʻu eruption restarted around 10:10 p.m. HST on September 22, 2026. It is unclear if this activity will lead to a lava fountaining episode.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-23T08:36:47+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-23T08:36:47+00:00"
+    },
+    {
+      "sentUtc": "2026-09-22 18:51:35",
+      "sent_unixtime": 1790103095,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-22T18:28:29+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "The north, south, and west vents continue to glow with minor intermittent spatter from the north and south vents. Minor summit inflation continued overnight. There is no anomalous activity outside of the summit.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-22T18:28:29+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-22T18:28:29+00:00"
+    },
+    {
+      "sentUtc": "2026-09-21 19:28:29",
+      "sent_unixtime": 1790018909,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-21T18:34:00+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "The north, south, and west vents continue to glow with minor intermittent spatter from the north vent. Minor summit inflation occurred overnight. There is no anomalous activity outside of the summit.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-21T18:34:00+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-21T18:34:00+00:00"
+    },
+    {
+      "sentUtc": "2026-09-20 18:39:40",
+      "sent_unixtime": 1789929580,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-20T18:06:49+00:00",
+      "noticeType": "Volcano Observatory Notice for Aviation",
+      "noticeTypeCd": "VV",
+      "noticeCategory": "Event Response / Information Statement",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "The Halemaʻumaʻu eruption of Kīlauea volcano is currently paused, current forecast for episode XX fountaining onset is MONTH XX-XX. ",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/vona/DOI-USGS-HVO-2026-09-20T18:06:49+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-20T18:06:49+00:00"
+    },
+    {
+      "sentUtc": "2026-09-20 18:39:40",
+      "sent_unixtime": 1789929580,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-20T18:06:49+00:00",
+      "noticeType": "Volcano Activity Notification",
+      "noticeTypeCd": "VAN",
+      "noticeCategory": "Event Response / Information Statement",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "The Halemaʻumaʻu eruption of Kīlauea volcano is currently paused, current forecast for episode XX fountaining onset is MONTH XX-XX. ",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-20T18:06:49+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-20T18:06:49+00:00"
+    },
+    {
+      "sentUtc": "2026-09-20 18:04:00",
+      "sent_unixtime": 1789927440,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-20T17:31:14+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "The north, south, and west vents continue to glow and emit flames with minor intermittent spatter. Minor summit inflation occurred overnight. There is no anomalous activity outside of the summit.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-20T17:31:14+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-20T17:31:14+00:00"
+    },
+    {
+      "sentUtc": "2026-09-19 20:27:29",
+      "sent_unixtime": 1789849649,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-19T18:24:20+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "There is currently no active lava on the ground. The north and west vents continue to glow and emit flames. Minor summit inflation occurred overnight. There is no anomalous activity outside of the summit.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-19T18:24:20+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-19T18:24:20+00:00"
+    },
+    {
+      "sentUtc": "2026-09-18 19:16:42",
+      "sent_unixtime": 1789759002,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-18T18:18:44+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "There is currently no active lava on the ground. The north, south, and west vents continue to glow and emit flames, with minor intermittent spatter. Minor summit inflation occurred overnight. There is no anomalous activity outside of the summit.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-18T18:18:44+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-18T18:18:44+00:00"
+    },
+    {
+      "sentUtc": "2026-09-18 07:03:11",
+      "sent_unixtime": 1789714991,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-18T06:56:18+00:00",
+      "noticeType": "Information Statement",
+      "noticeTypeCd": "IS",
+      "noticeCategory": "Event Response / Information Statement",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "",
+      "sections": [
+        {
+          "synopsis": "Magnitude-4.1 earthquake near Pāhala, Island of Hawaiʻi",
+          "colorCode": "UNASSIGNED",
+          "alertLevel": "UNASSIGNED",
+          "volcanoCd": null,
+          "volcanoName": null,
+          "vnum": null
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-18T06:56:18+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-18T06:56:18+00:00"
+    },
+    {
+      "sentUtc": "2026-09-17 20:01:00",
+      "sent_unixtime": 1789675260,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-17T17:15:57+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "The new vents stagnated last night, there is currently no active lava on the ground. The north, south, and west vents continue to glow. A minor summit deflation began at about 5 pm HST last night. There is no anomalous activity outside of the summit.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-17T17:15:57+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-17T17:15:57+00:00"
+    },
+    {
+      "sentUtc": "2026-09-16 20:16:33",
+      "sent_unixtime": 1789589793,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-16T18:27:10+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Five new vents have now opened on and near the northwest wall of Halemaʻumaʻu crater and produced small lava flows. Spattering continues from the north vent, periodic bursts from south and west vents. Summit inflation is stalled, tremor is increasing.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-16T18:27:10+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-16T18:27:10+00:00"
+    },
+    {
+      "sentUtc": "2026-09-16 00:11:18",
+      "sent_unixtime": 1789517478,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-15T03:18:09+00:00",
+      "noticeType": "Status Report",
+      "noticeTypeCd": "SR",
+      "noticeCategory": "Event Response / Information Statement",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "New vents opened at Kīlauea summit eruption site last night. Kīlauea summit region is pressurized above the level required to start a fountaining episode. Additional changes to the type of activity/eruption location could potentially occur. ",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-15T03:18:09+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-15T03:18:09+00:00"
+    },
+    {
+      "sentUtc": "2026-09-15 20:48:24",
+      "sent_unixtime": 1789505304,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-15T17:29:36+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Two new vents opened on and near the northwest wall of Halemaʻumaʻu crater last night and produced small lava flows. Spattering continues from the north vent with periodic bursts from south vent. Summit inflation stalled with opening of the new vents.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-15T17:29:36+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-15T17:29:36+00:00"
+    },
+    {
+      "sentUtc": "2026-09-14 19:37:12",
+      "sent_unixtime": 1789414632,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-14T16:21:34+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Kīlauea has been intermittently erupting bursts of spatter building a small cone around the north vent in Halemaʻumaʻu; no precursory flows since September 12. Summit inflation stalled last night further delaying the onset of episode 55 fountaining.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-14T16:21:34+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-14T16:21:34+00:00"
+    },
+    {
+      "sentUtc": "2026-09-13 19:15:50",
+      "sent_unixtime": 1789326950,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-13T16:25:26+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Kīlauea volcano is intermittently erupting short, precursory lava flows with 104 recorded since this activity began on September 7. The onset of episode 55 fountaining is likely today or tomorrow, if conditions remain favorable.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-13T16:25:26+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-13T16:25:26+00:00"
+    },
+    {
+      "sentUtc": "2026-09-13 18:33:53",
+      "sent_unixtime": 1789324433,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-13T18:25:16+00:00",
+      "noticeType": "Information Statement",
+      "noticeTypeCd": "IS",
+      "noticeCategory": "Event Response / Information Statement",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "",
+      "sections": [
+        {
+          "synopsis": "Magnitude-4.0 earthquake south of Pāhala, Island of Hawaiʻi. Light shaking reported, no damage expected.",
+          "colorCode": "UNASSIGNED",
+          "alertLevel": "UNASSIGNED",
+          "volcanoCd": null,
+          "volcanoName": null,
+          "vnum": null
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-13T18:25:16+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-13T18:25:16+00:00"
+    },
+    {
+      "sentUtc": "2026-09-12 17:37:09",
+      "sent_unixtime": 1789234629,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-12T16:10:43+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Kīlauea volcano is intermittently erupting short, precursory lava flows with over 100 recorded since the activity that began September 7. The onset of episode 55 fountaining is likely today or tomorrow, if inflation patterns remain consistent.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-12T16:10:43+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-12T16:10:43+00:00"
+    },
+    {
+      "sentUtc": "2026-09-11 17:51:18",
+      "sent_unixtime": 1789149078,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-11T16:16:02+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Kīlauea volcano is intermittently erupting short, precursory lava flows continuing the activity that began September 7. Summit inflation returned last night. Episode 55 fountaining is likely today, September 11, if inflation patterns remain consistent.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-11T16:16:02+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-11T16:16:02+00:00"
+    },
+    {
+      "sentUtc": "2026-09-10 18:21:01",
+      "sent_unixtime": 1789064461,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-10T16:30:02+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Kīlauea volcano is intermittently erupting short, precursory lava flows continuing the activity that began September 7. The forecast window for onset of episode 55 fountaining is now September 10-11 given no change in summit inflation since yesterday.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-10T16:30:02+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-10T16:30:02+00:00"
+    },
+    {
+      "sentUtc": "2026-09-09 17:49:20",
+      "sent_unixtime": 1788976160,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-09T16:27:18+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Kīlauea volcano is erupting. Precursory overflows, which began on September 7, continued for the past 24 hours. A forecast window of September 9-10 is likely for the start of episode 55 fountaining.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-09T16:27:18+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-09T16:27:18+00:00"
+    },
+    {
+      "sentUtc": "2026-09-08 18:38:53",
+      "sent_unixtime": 1788892733,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-08T17:26:59+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Kīlauea volcano is not erupting; the summit eruption in Halemaʻumaʻu is paused. Precursory overflows started yesterday afternoon, but stopped overnight during summit deflation. A forecast window of September 8-10 is likely for the start of episode 55.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-08T17:26:59+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-08T17:26:59+00:00"
+    },
+    {
+      "sentUtc": "2026-09-07 23:00:41",
+      "sent_unixtime": 1788822041,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-07T20:09:10+00:00",
+      "noticeType": "Volcano Observatory Notice for Aviation",
+      "noticeTypeCd": "VV",
+      "noticeCategory": "Event Response / Information Statement",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Precursory low-level eruptive activity before episode 55 of the ongoing Halemaʻumaʻu eruption began around 15:45 p.m. HST on September  7, 2026.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/vona/DOI-USGS-HVO-2026-09-07T20:09:10+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-07T20:09:10+00:00"
+    },
+    {
+      "sentUtc": "2026-09-07 23:00:41",
+      "sent_unixtime": 1788822041,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-07T20:09:10+00:00",
+      "noticeType": "Volcano Activity Notification",
+      "noticeTypeCd": "VAN",
+      "noticeCategory": "Event Response / Information Statement",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Precursory low-level eruptive activity before episode 55 of the ongoing Halemaʻumaʻu eruption began around 15:45 p.m. HST on September  7, 2026.",
+          "colorCode": "ORANGE",
+          "alertLevel": "WATCH",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-07T20:09:10+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-07T20:09:10+00:00"
+    },
+    {
+      "sentUtc": "2026-09-07 18:58:33",
+      "sent_unixtime": 1788807513,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-07T18:10:59+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Kīlauea volcano is not erupting; the summit eruption in Halemaʻumaʻu is paused. The summit inflated rapidly during the past 24 hours but appears to be stalling this morning. A forecast window of September 7-10 is likely for the start of episode 55.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-07T18:10:59+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-07T18:10:59+00:00"
+    },
+    {
+      "sentUtc": "2026-09-06 18:35:35",
+      "sent_unixtime": 1788719735,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-06T17:34:33+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Kīlauea volcano is not erupting; the summit eruption in Halemaʻumaʻu is paused. The summit inflated rapidly during the past 24 hours after being stalled the previous day. A forecast window of September 7-10 is likely for the start of episode 55.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-06T17:34:33+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-06T17:34:33+00:00"
+    },
+    {
+      "sentUtc": "2026-09-05 18:32:40",
+      "sent_unixtime": 1788633160,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-05T17:59:41+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Kīlauea volcano is not erupting; the summit eruption in Halemaʻumaʻu is paused. Summit inflation remains stalled for the past 24 hours after a day of deflation. A forecast window of September 7-13 is likely for the next fountain episode.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-05T17:59:41+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-05T17:59:41+00:00"
+    },
+    {
+      "sentUtc": "2026-09-04 18:07:31",
+      "sent_unixtime": 1788545251,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-04T17:41:43+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Kīlauea volcano is not erupting; the summit eruption in Halemaʻumaʻu is paused. The summit is currently in a deflationary step since yesterday morning. A forecast window of September 7-13 is likely for the next fountain episode.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-04T17:41:43+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-04T17:41:43+00:00"
+    },
+    {
+      "sentUtc": "2026-09-03 19:02:37",
+      "sent_unixtime": 1788462157,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-03T17:56:29+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Kīlauea volcano is not erupting; the summit eruption in Halemaʻumaʻu is paused. Summit reinflation has continued over the past day. A forecast window of September 7-12 is likely for the next fountain episode.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-03T17:56:29+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-03T17:56:29+00:00"
+    },
+    {
+      "sentUtc": "2026-09-03 18:56:27",
+      "sent_unixtime": 1788461787,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-03T18:54:02+00:00",
+      "noticeType": "Monthly Update",
+      "noticeTypeCd": "MU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Ofu-Olosega, Ta'u Island, Tutuila Island",
+      "sections": [
+        {
+          "synopsis": "No activity of concern for Ofu-Olosega.",
+          "colorCode": "GREEN",
+          "alertLevel": "NORMAL",
+          "volcanoCd": "nmi20",
+          "volcanoName": "Ofu-Olosega",
+          "vnum": "244010"
+        },
+        {
+          "synopsis": "No activity of concern for Taʻū Island",
+          "colorCode": "GREEN",
+          "alertLevel": "NORMAL",
+          "volcanoCd": "nmi21",
+          "volcanoName": "Ta'u Island",
+          "vnum": "244001"
+        },
+        {
+          "synopsis": "No activity of concern for Tutuila Island",
+          "colorCode": "GREEN",
+          "alertLevel": "NORMAL",
+          "volcanoCd": "nmi22",
+          "volcanoName": "Tutuila Island",
+          "vnum": "244020"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-03T18:54:02+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-03T18:54:02+00:00"
+    },
+    {
+      "sentUtc": "2026-09-03 18:41:34",
+      "sent_unixtime": 1788460894,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-03T18:26:38+00:00",
+      "noticeType": "Monthly Update",
+      "noticeTypeCd": "MU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Mauna Loa, Hualalai, Haleakala, Mauna Kea, Kama'ehuakanaloa",
+      "sections": [
+        {
+          "synopsis": "Mauna Loa earthquake counts increased in August, while the summit region showed no other signs of deformation.",
+          "colorCode": "GREEN",
+          "alertLevel": "NORMAL",
+          "volcanoCd": "hi6",
+          "volcanoName": "Mauna Loa",
+          "vnum": "332020"
+        },
+        {
+          "synopsis": "No activity of concern for Hualālai.",
+          "colorCode": "GREEN",
+          "alertLevel": "NORMAL",
+          "volcanoCd": "hi2",
+          "volcanoName": "Hualalai",
+          "vnum": "332040"
+        },
+        {
+          "synopsis": "No activity of concern for Haleakalā.",
+          "colorCode": "GREEN",
+          "alertLevel": "NORMAL",
+          "volcanoCd": "hi1",
+          "volcanoName": "Haleakala",
+          "vnum": "332060"
+        },
+        {
+          "synopsis": "No activity of concern for Mauna Kea.",
+          "colorCode": "GREEN",
+          "alertLevel": "NORMAL",
+          "volcanoCd": "hi5",
+          "volcanoName": "Mauna Kea",
+          "vnum": "332030"
+        },
+        {
+          "synopsis": "No activity of concern for Kamaʻehuakanaloa.",
+          "colorCode": "UNASSIGNED",
+          "alertLevel": "UNASSIGNED",
+          "volcanoCd": "hi4",
+          "volcanoName": "Kama'ehuakanaloa",
+          "vnum": "332000"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-03T18:26:38+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-03T18:26:38+00:00"
+    },
+    {
+      "sentUtc": "2026-09-02 19:30:04",
+      "sent_unixtime": 1788377404,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-02T18:33:37+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Kīlauea volcano is not erupting; the summit eruption in Halemaʻumaʻu is paused. Summit reinflation has increased over the past day. A forecast window of September 7-12 is likely for the next fountain episode.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-02T18:33:37+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-02T18:33:37+00:00"
+    },
+    {
+      "sentUtc": "2026-09-01 19:02:11",
+      "sent_unixtime": 1788289331,
+      "noticeIdentifier": "DOI-USGS-HVO-2026-09-01T18:15:09+00:00",
+      "noticeType": "Daily Update",
+      "noticeTypeCd": "DU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "hvo",
+      "obsFullname": "Hawaiian Volcano Observatory",
+      "volcanoes": "Kilauea",
+      "sections": [
+        {
+          "synopsis": "Kīlauea volcano is not erupting; the summit eruption in Halemaʻumaʻu is paused. Unstable summit reinflation has been slowing again over the past day. More data are needed to model the forecast window for the next episode.\r\n",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "hi3",
+          "volcanoName": "Kilauea",
+          "vnum": "332010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-01T18:15:09+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-HVO-2026-09-01T18:15:09+00:00"
+    },
+    {
+      "sentUtc": "2026-10-01 20:39:46",
+      "sent_unixtime": 1790887186,
+      "noticeIdentifier": "DOI-USGS-NMI-2026-10-01T20:37:33+00:00",
+      "noticeType": "Weekly Update",
+      "noticeTypeCd": "WU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "nmi",
+      "obsFullname": "Northern Mariana Islands",
+      "volcanoes": "Ahyi Seamount",
+      "sections": [
+        {
+          "synopsis": "No plumes seen in satellite images; no significant geophysical signals.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "nmi2",
+          "volcanoName": "Ahyi Seamount",
+          "vnum": "284141"
+        },
+        {
+          "synopsis": "No signs of significant volcanic unrest.",
+          "colorCode": "UNASSIGNED",
+          "alertLevel": "UNASSIGNED",
+          "volcanoCd": null,
+          "volcanoName": null,
+          "vnum": null
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-NMI-2026-10-01T20:37:33+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-NMI-2026-10-01T20:37:33+00:00"
+    },
+    {
+      "sentUtc": "2026-09-24 20:22:34",
+      "sent_unixtime": 1790281354,
+      "noticeIdentifier": "DOI-USGS-NMI-2026-09-24T20:22:11+00:00",
+      "noticeType": "Weekly Update",
+      "noticeTypeCd": "WU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "nmi",
+      "obsFullname": "Northern Mariana Islands",
+      "volcanoes": "Ahyi Seamount",
+      "sections": [
+        {
+          "synopsis": "No plumes seen in satellite images; no significant geophysical signals.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "nmi2",
+          "volcanoName": "Ahyi Seamount",
+          "vnum": "284141"
+        },
+        {
+          "synopsis": "No signs of significant volcanic unrest.",
+          "colorCode": "UNASSIGNED",
+          "alertLevel": "UNASSIGNED",
+          "volcanoCd": null,
+          "volcanoName": null,
+          "vnum": null
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-NMI-2026-09-24T20:22:11+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-NMI-2026-09-24T20:22:11+00:00"
+    },
+    {
+      "sentUtc": "2026-09-18 00:41:48",
+      "sent_unixtime": 1789692108,
+      "noticeIdentifier": "DOI-USGS-NMI-2026-09-18T00:41:02+00:00",
+      "noticeType": "Weekly Update",
+      "noticeTypeCd": "WU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "nmi",
+      "obsFullname": "Northern Mariana Islands",
+      "volcanoes": "Ahyi Seamount",
+      "sections": [
+        {
+          "synopsis": "No plumes seen in satellite images; no significant geophysical signals.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "nmi2",
+          "volcanoName": "Ahyi Seamount",
+          "vnum": "284141"
+        },
+        {
+          "synopsis": "No signs of significant volcanic unrest.",
+          "colorCode": "UNASSIGNED",
+          "alertLevel": "UNASSIGNED",
+          "volcanoCd": null,
+          "volcanoName": null,
+          "vnum": null
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-NMI-2026-09-18T00:41:02+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-NMI-2026-09-18T00:41:02+00:00"
+    },
+    {
+      "sentUtc": "2026-09-10 23:25:53",
+      "sent_unixtime": 1789082753,
+      "noticeIdentifier": "DOI-USGS-NMI-2026-09-10T23:17:05+00:00",
+      "noticeType": "Weekly Update",
+      "noticeTypeCd": "WU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "nmi",
+      "obsFullname": "Northern Mariana Islands",
+      "volcanoes": "Ahyi Seamount",
+      "sections": [
+        {
+          "synopsis": "Faint water discoloration seen in satellite images; no significant geophysical signals.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "nmi2",
+          "volcanoName": "Ahyi Seamount",
+          "vnum": "284141"
+        },
+        {
+          "synopsis": "No signs of significant volcanic unrest.",
+          "colorCode": "UNASSIGNED",
+          "alertLevel": "UNASSIGNED",
+          "volcanoCd": null,
+          "volcanoName": null,
+          "vnum": null
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-NMI-2026-09-10T23:17:05+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-NMI-2026-09-10T23:17:05+00:00"
+    },
+    {
+      "sentUtc": "2026-09-03 23:17:57",
+      "sent_unixtime": 1788477477,
+      "noticeIdentifier": "DOI-USGS-NMI-2026-09-03T23:16:58+00:00",
+      "noticeType": "Weekly Update",
+      "noticeTypeCd": "WU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "nmi",
+      "obsFullname": "Northern Mariana Islands",
+      "volcanoes": "Ahyi Seamount",
+      "sections": [
+        {
+          "synopsis": "No signs of unrest in satellite images or distal geophysical data this past week.",
+          "colorCode": "YELLOW",
+          "alertLevel": "ADVISORY",
+          "volcanoCd": "nmi2",
+          "volcanoName": "Ahyi Seamount",
+          "vnum": "284141"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-NMI-2026-09-03T23:16:58+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-NMI-2026-09-03T23:16:58+00:00"
+    },
+    {
+      "sentUtc": "2026-10-01 15:10:08",
+      "sent_unixtime": 1790867408,
+      "noticeIdentifier": "DOI-USGS-YVO-2026-10-01T15:02:43+00:00",
+      "noticeType": "Monthly Update",
+      "noticeTypeCd": "MU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "yvo",
+      "obsFullname": "Yellowstone Volcano Observatory",
+      "volcanoes": "Yellowstone",
+      "sections": [
+        {
+          "synopsis": "YVO Monthly Update: background seismicity and deformation, small hydrothermal explosion at Biscuit Basin",
+          "colorCode": "GREEN",
+          "alertLevel": "NORMAL",
+          "volcanoCd": "wy1",
+          "volcanoName": "Yellowstone",
+          "vnum": "325010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-YVO-2026-10-01T15:02:43+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-YVO-2026-10-01T15:02:43+00:00"
+    },
+    {
+      "sentUtc": "2026-09-02 00:55:45",
+      "sent_unixtime": 1788310545,
+      "noticeIdentifier": "DOI-USGS-YVO-2026-09-02T00:51:35+00:00",
+      "noticeType": "Monthly Update",
+      "noticeTypeCd": "MU",
+      "noticeCategory": "Scheduled Update",
+      "obs": "yvo",
+      "obsFullname": "Yellowstone Volcano Observatory",
+      "volcanoes": "Yellowstone",
+      "sections": [
+        {
+          "synopsis": "YVO Monthly Update: background seismicity and deformation",
+          "colorCode": "GREEN",
+          "alertLevel": "NORMAL",
+          "volcanoCd": "wy1",
+          "volcanoName": "Yellowstone",
+          "vnum": "325010"
+        }
+      ],
+      "notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-YVO-2026-09-02T00:51:35+00:00",
+      "notice_data": "https://volcanoes.usgs.gov/hans-public/api/notice/getNotice/DOI-USGS-YVO-2026-09-02T00:51:35+00:00"
+    }
+  ],
+  "collector": "ml2.geology"
 }
