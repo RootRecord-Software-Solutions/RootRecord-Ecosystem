@@ -1,0 +1,1573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
+  <!-- This is a rebuild of News RSS. If you notice any issues please contact DG-NewsWeb@abc.net.au -->
+  <channel>
+    <title>Top Stories</title>
+    <category>Australian Broadcasting Corporation: All content</category>
+    <link>https://www.abc.net.au</link>
+    <atom:link href="https://www.abc.net.au" rel="self" type="application/rss+xml" />
+    <description>
+    </description>
+    <language>en-AU</language>
+    <copyright>Copyright 2026, Australian Broadcasting Corporation. All Rights Reserved.</copyright>
+    <pubDate>Fri, 02 Oct 2026 10:11:38 +0000</pubDate>
+    <lastBuildDate>Fri, 02 Oct 2026 10:11:38 +0000</lastBuildDate>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <managingEditor>Newson1ine@abc.net.au (ABC News)</managingEditor>
+    <image>
+      <title>Top Stories</title>
+      <url>https://live-production.wcms.abc-cdn.net.au/6f61ef606af0bbbcbdaa7c6173a677e2?impolicy=wcms_crop_resize&amp;cropH=144&amp;cropW=144&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=862</url>
+      <link>https://www.abc.net.au</link>
+    </image>
+    <item>
+      <title>Beau Lamarre-Condon jury hears Triple Zero call from day of alleged murders</title>
+      <link>https://www.abc.net.au/news/2026-10-02/nsw-beau-lamarre-condon-jesse-baird-triple-zero-call/107219596</link>
+      <description>
+        <![CDATA[A jury has been played a Triple Zero (000) call from the phone of Luke Davies on the morning he and his boyfriend, Jesse Baird, were allegedly murdered by then-police officer Beau Lamarre-Condon.]]>
+      </description>
+      <pubDate>Fri, 02 Oct 2026 02:53:16 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/nsw-beau-lamarre-condon-jesse-baird-triple-zero-call/107219596</guid>
+      <media:group>
+        <media:description>Beau Lamarre-Condon has pleaded not guilty to two counts of murder.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/d0b6472cac59a5bf1ad6d62d2fd4db29?impolicy=wcms_crop_resize&amp;cropH=678&amp;cropW=1205&amp;xPos=352&amp;yPos=0&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/d0b6472cac59a5bf1ad6d62d2fd4db29?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=1080&amp;xPos=419&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/d0b6472cac59a5bf1ad6d62d2fd4db29?impolicy=wcms_crop_resize&amp;cropH=990&amp;cropW=1485&amp;xPos=267&amp;yPos=0&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/d0b6472cac59a5bf1ad6d62d2fd4db29?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=810&amp;xPos=569&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/d0b6472cac59a5bf1ad6d62d2fd4db29?impolicy=wcms_crop_resize&amp;cropH=966&amp;cropW=1288&amp;xPos=291&amp;yPos=0&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/d0b6472cac59a5bf1ad6d62d2fd4db29?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=608&amp;xPos=637&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/d0b6472cac59a5bf1ad6d62d2fd4db29?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=810&amp;xPos=569&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>Rogue OpenAI agent accessed second NSW government website</title>
+      <link>https://www.abc.net.au/news/2026-10-02/rogue-open-ai-agent-breach-nsw-government-website/107223108</link>
+      <description>
+        <![CDATA[The rogue AI agent entered a National Parks and Wildlife Service web application containing publicly available historical information and data on fires.]]>
+      </description>
+      <pubDate>Fri, 02 Oct 2026 07:21:44 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/rogue-open-ai-agent-breach-nsw-government-website/107223108</guid>
+      <media:group>
+        <media:description>OpenAI has confirmed another incident affecting a NSW government website, with no personal data breached.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/fb0c1157d8e49c704f33ce3a5a676e77?impolicy=wcms_crop_resize&amp;cropH=2812&amp;cropW=5000&amp;xPos=0&amp;yPos=261&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/fb0c1157d8e49c704f33ce3a5a676e77?impolicy=wcms_crop_resize&amp;cropH=3333&amp;cropW=3333&amp;xPos=1667&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/fb0c1157d8e49c704f33ce3a5a676e77?impolicy=wcms_crop_resize&amp;cropH=3333&amp;cropW=5000&amp;xPos=0&amp;yPos=1&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/fb0c1157d8e49c704f33ce3a5a676e77?impolicy=wcms_crop_resize&amp;cropH=3335&amp;cropW=2501&amp;xPos=2491&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/fb0c1157d8e49c704f33ce3a5a676e77?impolicy=wcms_crop_resize&amp;cropH=3335&amp;cropW=4447&amp;xPos=553&amp;yPos=0&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/fb0c1157d8e49c704f33ce3a5a676e77?impolicy=wcms_crop_resize&amp;cropH=3335&amp;cropW=1876&amp;xPos=1562&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/fb0c1157d8e49c704f33ce3a5a676e77?impolicy=wcms_crop_resize&amp;cropH=3335&amp;cropW=2501&amp;xPos=2491&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>Former Liberal politician Bruce Baird dies aged 84</title>
+      <link>https://www.abc.net.au/news/2026-10-02/nsw-former-liberal-politician-bruce-baird-dies/107223688</link>
+      <description>
+        <![CDATA[The party stalwart was father to former NSW premier Mike Baird and journalist Julia Baird.]]>
+      </description>
+      <pubDate>Fri, 02 Oct 2026 08:46:24 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/nsw-former-liberal-politician-bruce-baird-dies/107223688</guid>
+      <media:group>
+        <media:description>Former Liberal MP Bruce Baird has died.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/f6b8ee6d0b2e9088d52576c00335c57c?impolicy=wcms_crop_resize&amp;cropH=225&amp;cropW=400&amp;xPos=0&amp;yPos=47&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/f6b8ee6d0b2e9088d52576c00335c57c?impolicy=wcms_crop_resize&amp;cropH=300&amp;cropW=300&amp;xPos=50&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/f6b8ee6d0b2e9088d52576c00335c57c?impolicy=wcms_crop_resize&amp;cropH=267&amp;cropW=400&amp;xPos=0&amp;yPos=17&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/f6b8ee6d0b2e9088d52576c00335c57c?impolicy=wcms_crop_resize&amp;cropH=300&amp;cropW=225&amp;xPos=88&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/f6b8ee6d0b2e9088d52576c00335c57c?impolicy=wcms_crop_resize&amp;cropH=300&amp;cropW=400&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/f6b8ee6d0b2e9088d52576c00335c57c?impolicy=wcms_crop_resize&amp;cropH=300&amp;cropW=169&amp;xPos=116&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/f6b8ee6d0b2e9088d52576c00335c57c?impolicy=wcms_crop_resize&amp;cropH=300&amp;cropW=225&amp;xPos=88&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>The stolen Ukrainian teen who became the poster boy for Putin's propaganda</title>
+      <link>https://www.abc.net.au/news/2026-10-02/denys-kostev-how-russia-turned-a-stolen-teen-into-poster-child/107192742</link>
+      <description>
+        <![CDATA[Russia is not just abducting Ukrainian kids, it is embarking on a campaign of mass indoctrination, as Denys Kostev experienced firsthand.]]>
+      </description>
+      <pubDate>Fri, 02 Oct 2026 02:05:30 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/denys-kostev-how-russia-turned-a-stolen-teen-into-poster-child/107192742</guid>
+      <media:group>
+        <media:description>Denys in the red beret of Russia's "Young Army" cadets.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/b2fb8943c6228209ef29acaad59e0585?impolicy=wcms_crop_resize&amp;cropH=534&amp;cropW=950&amp;xPos=0&amp;yPos=125&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/b2fb8943c6228209ef29acaad59e0585?impolicy=wcms_crop_resize&amp;cropH=785&amp;cropW=785&amp;xPos=82&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/b2fb8943c6228209ef29acaad59e0585?impolicy=wcms_crop_resize&amp;cropH=633&amp;cropW=950&amp;xPos=0&amp;yPos=76&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/b2fb8943c6228209ef29acaad59e0585?impolicy=wcms_crop_resize&amp;cropH=785&amp;cropW=589&amp;xPos=181&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/b2fb8943c6228209ef29acaad59e0585?impolicy=wcms_crop_resize&amp;cropH=713&amp;cropW=950&amp;xPos=0&amp;yPos=36&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/b2fb8943c6228209ef29acaad59e0585?impolicy=wcms_crop_resize&amp;cropH=785&amp;cropW=442&amp;xPos=254&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/b2fb8943c6228209ef29acaad59e0585?impolicy=wcms_crop_resize&amp;cropH=785&amp;cropW=589&amp;xPos=181&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>Notorious alleged WA drug kingpin 'The Kid' arrested in Colombia</title>
+      <link>https://www.abc.net.au/news/2026-10-02/alleged-drug-kingpin-arash-ebrahimi-far-arrested-in-colombia/107221142</link>
+      <description>
+        <![CDATA[Australian-Iranian national Arash Ebrahimi Far is arrested in Colombia while leaving hospital after being "wounded by gunfire".]]>
+      </description>
+      <pubDate>Fri, 02 Oct 2026 03:29:52 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/alleged-drug-kingpin-arash-ebrahimi-far-arrested-in-colombia/107221142</guid>
+      <media:group>
+        <media:description>Arash Ebrahimi Far has been arrested by the National Police of Colombia.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/6d140373317e8b4ab8040741f5c54fd0?impolicy=wcms_crop_resize&amp;cropH=627&amp;cropW=1114&amp;xPos=0&amp;yPos=93&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/6d140373317e8b4ab8040741f5c54fd0?impolicy=wcms_crop_resize&amp;cropH=634&amp;cropW=634&amp;xPos=228&amp;yPos=86&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/6d140373317e8b4ab8040741f5c54fd0?impolicy=wcms_crop_resize&amp;cropH=615&amp;cropW=923&amp;xPos=0&amp;yPos=105&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/6d140373317e8b4ab8040741f5c54fd0?impolicy=wcms_crop_resize&amp;cropH=720&amp;cropW=540&amp;xPos=309&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/6d140373317e8b4ab8040741f5c54fd0?impolicy=wcms_crop_resize&amp;cropH=390&amp;cropW=520&amp;xPos=281&amp;yPos=148&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/6d140373317e8b4ab8040741f5c54fd0?impolicy=wcms_crop_resize&amp;cropH=720&amp;cropW=405&amp;xPos=273&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/6d140373317e8b4ab8040741f5c54fd0?impolicy=wcms_crop_resize&amp;cropH=720&amp;cropW=540&amp;xPos=309&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>'I was fighting for my life': flydubai pilot recounts harrowing mid-flight attack</title>
+      <link>https://www.abc.net.au/news/2026-10-02/indian-prime-talks-with-flydubai-pilot/107223576</link>
+      <description>
+        <![CDATA[Captain Smit Machchhar has been hailed a hero for his actions aboard a flydubai flight after his co-pilot stabbed him and the plane began a steep descent. ]]>
+      </description>
+      <pubDate>Fri, 02 Oct 2026 08:53:39 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/indian-prime-talks-with-flydubai-pilot/107223576</guid>
+      <media:group>
+        <media:description>Smit Machchhar talks with Narendra Modi from hospital.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/5bda541c20495c93493e8e4c775f207d?impolicy=wcms_crop_resize&amp;cropH=512&amp;cropW=910&amp;xPos=0&amp;yPos=1&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/5bda541c20495c93493e8e4c775f207d?impolicy=wcms_crop_resize&amp;cropH=469&amp;cropW=469&amp;xPos=0&amp;yPos=3&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/5bda541c20495c93493e8e4c775f207d?impolicy=wcms_crop_resize&amp;cropH=514&amp;cropW=771&amp;xPos=70&amp;yPos=0&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/5bda541c20495c93493e8e4c775f207d?impolicy=wcms_crop_resize&amp;cropH=514&amp;cropW=386&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/5bda541c20495c93493e8e4c775f207d?impolicy=wcms_crop_resize&amp;cropH=514&amp;cropW=685&amp;xPos=96&amp;yPos=0&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/5bda541c20495c93493e8e4c775f207d?impolicy=wcms_crop_resize&amp;cropH=514&amp;cropW=289&amp;xPos=42&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/5bda541c20495c93493e8e4c775f207d?impolicy=wcms_crop_resize&amp;cropH=514&amp;cropW=386&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>'Very violent' home invasions targeted women alone, police say</title>
+      <link>https://www.abc.net.au/news/2026-10-02/nsw-three-charged-after-women-assaulted-home-invasions-sydney/107220274</link>
+      <description>
+        <![CDATA[Three men have been charged over violent home invasions, as police investigate whether the group were planning to target a third victim.]]>
+      </description>
+      <pubDate>Fri, 02 Oct 2026 03:14:53 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/nsw-three-charged-after-women-assaulted-home-invasions-sydney/107220274</guid>
+      <category>Crime</category>
+      <media:group>
+        <media:description>Superintendent Virginia Gorman condemned the "excessive violence" used in home invasions that allegedly targeted women home alone.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/611fa86c8447f65c9c7fc80500b8692e?impolicy=wcms_crop_resize&amp;cropH=930&amp;cropW=1654&amp;xPos=0&amp;yPos=59&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/611fa86c8447f65c9c7fc80500b8692e?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=1080&amp;xPos=264&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/611fa86c8447f65c9c7fc80500b8692e?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=1620&amp;xPos=47&amp;yPos=0&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/611fa86c8447f65c9c7fc80500b8692e?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=810&amp;xPos=347&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/611fa86c8447f65c9c7fc80500b8692e?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=1440&amp;xPos=106&amp;yPos=0&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/611fa86c8447f65c9c7fc80500b8692e?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=608&amp;xPos=410&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/611fa86c8447f65c9c7fc80500b8692e?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=810&amp;xPos=347&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>Commonwealth Bank boss says Reserve Bank rate hikes probably finished </title>
+      <link>https://www.abc.net.au/news/2026-10-02/cba-boss-talks-interest-rates-and-november-hike-possibility/107220010</link>
+      <description>
+        <![CDATA[While the bank believes the RBA is done it all hangs on the next lot of inflation data released late this month, Mr Comyn said, as he talked productivity, AI and housing with the ABC's Alan Kohler.]]>
+      </description>
+      <dc:creator>Alison Branley</dc:creator>
+      <pubDate>Fri, 02 Oct 2026 01:36:24 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/cba-boss-talks-interest-rates-and-november-hike-possibility/107220010</guid>
+      <category>Interest Rates</category>
+      <category>Monetary Policy</category>
+      <category>Productivity</category>
+      <category>Cost of Living</category>
+      <category>Banking</category>
+      <media:group>
+        <media:description>Chief Executive of Commonwealth Bank, Matt Comyn spoke with the ABC's Alan Kohler.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/3cb69cee4e8e5488c7a5bc4ac6234495?impolicy=wcms_crop_resize&amp;cropH=1526&amp;cropW=2726&amp;xPos=145&amp;yPos=231&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/3cb69cee4e8e5488c7a5bc4ac6234495?impolicy=wcms_crop_resize&amp;cropH=1465&amp;cropW=1465&amp;xPos=617&amp;yPos=240&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/3cb69cee4e8e5488c7a5bc4ac6234495?impolicy=wcms_crop_resize&amp;cropH=1526&amp;cropW=2297&amp;xPos=248&amp;yPos=214&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/3cb69cee4e8e5488c7a5bc4ac6234495?impolicy=wcms_crop_resize&amp;cropH=1612&amp;cropW=1208&amp;xPos=634&amp;yPos=162&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/3cb69cee4e8e5488c7a5bc4ac6234495?impolicy=wcms_crop_resize&amp;cropH=1552&amp;cropW=2074&amp;xPos=317&amp;yPos=222&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/3cb69cee4e8e5488c7a5bc4ac6234495?impolicy=wcms_crop_resize&amp;cropH=2000&amp;cropW=1125&amp;xPos=938&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/3cb69cee4e8e5488c7a5bc4ac6234495?impolicy=wcms_crop_resize&amp;cropH=1612&amp;cropW=1208&amp;xPos=634&amp;yPos=162&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>'Lifeless' baby took two gasps after delivery, inquest hears</title>
+      <link>https://www.abc.net.au/news/2026-10-02/alby-spreadborough-newborn-inquest-hears-from-expert-doctors/107202826</link>
+      <description>
+        <![CDATA[One expert has told the court there were likely signs of life when Alby Spreadborough was born at Emerald Hospital, while another disagreed.]]>
+      </description>
+      <dc:creator>Emily Anderson</dc:creator>
+      <pubDate>Fri, 02 Oct 2026 07:01:44 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/alby-spreadborough-newborn-inquest-hears-from-expert-doctors/107202826</guid>
+      <category>Pregnancy and Childbirth</category>
+      <category>Courts</category>
+      <category>Health</category>
+      <media:group>
+        <media:description>Rebecca and Tim Spreadborough with a photo of Alby, who weighed 3.3 kilograms when he was born.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/ad3b5decd58e32b6ef0577da62cfdbc5?impolicy=wcms_crop_resize&amp;cropH=2810&amp;cropW=4995&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/ad3b5decd58e32b6ef0577da62cfdbc5?impolicy=wcms_crop_resize&amp;cropH=3333&amp;cropW=3333&amp;xPos=657&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/ad3b5decd58e32b6ef0577da62cfdbc5?impolicy=wcms_crop_resize&amp;cropH=3333&amp;cropW=5000&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/ad3b5decd58e32b6ef0577da62cfdbc5?impolicy=wcms_crop_resize&amp;cropH=3333&amp;cropW=2500&amp;xPos=1177&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/ad3b5decd58e32b6ef0577da62cfdbc5?impolicy=wcms_crop_resize&amp;cropH=2944&amp;cropW=3925&amp;xPos=426&amp;yPos=0&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/ad3b5decd58e32b6ef0577da62cfdbc5?impolicy=wcms_crop_resize&amp;cropH=3333&amp;cropW=1875&amp;xPos=1490&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/ad3b5decd58e32b6ef0577da62cfdbc5?impolicy=wcms_crop_resize&amp;cropH=3333&amp;cropW=2500&amp;xPos=1177&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>Healthcare workers killed in Ledcourt triple-fatal had a 'bright' future in Australia</title>
+      <link>https://www.abc.net.au/news/2026-10-02/chinese-couple-killed-ledcourt-victoria-crash-remembered/106017256</link>
+      <description>
+        <![CDATA[Regional Victorian couple who died in a multi-vehicle crash are remembered as "loving" and "caring" people.]]>
+      </description>
+      <dc:creator>Nethma Dandeniya</dc:creator>
+      <pubDate>Fri, 02 Oct 2026 10:11:38 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/chinese-couple-killed-ledcourt-victoria-crash-remembered/106017256</guid>
+      <category>Road Accidents and Incidents</category>
+      <category>Human Interest</category>
+      <category>Road Transport Industry</category>
+      <media:group>
+        <media:description>Married healthcare workers Angela Wang and Michael Zheng died in a multi-vehicle crash in September.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/4b31e6d1fc4f4f465cf6561490ccbef4?impolicy=wcms_crop_resize&amp;cropH=1152&amp;cropW=2048&amp;xPos=0&amp;yPos=213&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/4b31e6d1fc4f4f465cf6561490ccbef4?impolicy=wcms_crop_resize&amp;cropH=1536&amp;cropW=1536&amp;xPos=168&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/4b31e6d1fc4f4f465cf6561490ccbef4?impolicy=wcms_crop_resize&amp;cropH=1365&amp;cropW=2048&amp;xPos=0&amp;yPos=157&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/4b31e6d1fc4f4f465cf6561490ccbef4?impolicy=wcms_crop_resize&amp;cropH=1536&amp;cropW=1152&amp;xPos=353&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/4b31e6d1fc4f4f465cf6561490ccbef4?impolicy=wcms_crop_resize&amp;cropH=1536&amp;cropW=2048&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/4b31e6d1fc4f4f465cf6561490ccbef4?impolicy=wcms_crop_resize&amp;cropH=1536&amp;cropW=864&amp;xPos=555&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/4b31e6d1fc4f4f465cf6561490ccbef4?impolicy=wcms_crop_resize&amp;cropH=1536&amp;cropW=1152&amp;xPos=353&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>Perth man accused of letting toddler steer car appears in court</title>
+      <link>https://www.abc.net.au/news/2026-10-02/jake-douglas-smith-allegedly-let-toddler-steer-car-in-perth/107220950</link>
+      <description>
+        <![CDATA[Jake Douglas Smith is alleged to have uploaded a video to social media showing a small child steering a car through a residential area. 
+ ]]>
+      </description>
+      <pubDate>Fri, 02 Oct 2026 07:26:39 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/jake-douglas-smith-allegedly-let-toddler-steer-car-in-perth/107220950</guid>
+      <media:group>
+        <media:description>The video uploaded to social media appeared to show a small child steering a car. </media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/b45ef788ffe4e7aa8a8dccfcf46b9727?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=1920&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/b45ef788ffe4e7aa8a8dccfcf46b9727?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=1080&amp;xPos=420&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/b45ef788ffe4e7aa8a8dccfcf46b9727?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=1620&amp;xPos=150&amp;yPos=0&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/b45ef788ffe4e7aa8a8dccfcf46b9727?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=810&amp;xPos=555&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/b45ef788ffe4e7aa8a8dccfcf46b9727?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=1440&amp;xPos=240&amp;yPos=0&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/b45ef788ffe4e7aa8a8dccfcf46b9727?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=608&amp;xPos=656&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/b45ef788ffe4e7aa8a8dccfcf46b9727?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=810&amp;xPos=555&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>Roosters blow as Watson ruled out of NRL grand final</title>
+      <link>https://www.abc.net.au/news/2026-10-02/roosters-connor-watson-out-of-nrl-grand-final/107221782</link>
+      <description>
+        <![CDATA[Roosters hooker Connor Watson will miss the NRL grand final after failing to get clearance to play following a concussion suffered in the preliminary final victory against the Dolphins.]]>
+      </description>
+      <pubDate>Fri, 02 Oct 2026 04:03:06 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/roosters-connor-watson-out-of-nrl-grand-final/107221782</guid>
+      <category>NRL</category>
+      <category>Rugby League</category>
+      <category>Sport</category>
+      <media:group>
+        <media:description>Connor Watson suffered a head knock against the Dolphins.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/f11af450b5e7d459ad562405fd5c44e2?impolicy=wcms_crop_resize&amp;cropH=2635&amp;cropW=4685&amp;xPos=0&amp;yPos=227&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/f11af450b5e7d459ad562405fd5c44e2?impolicy=wcms_crop_resize&amp;cropH=3123&amp;cropW=3123&amp;xPos=498&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/f11af450b5e7d459ad562405fd5c44e2?impolicy=wcms_crop_resize&amp;cropH=3123&amp;cropW=4685&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/f11af450b5e7d459ad562405fd5c44e2?impolicy=wcms_crop_resize&amp;cropH=3123&amp;cropW=2342&amp;xPos=849&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/f11af450b5e7d459ad562405fd5c44e2?impolicy=wcms_crop_resize&amp;cropH=3123&amp;cropW=4164&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/f11af450b5e7d459ad562405fd5c44e2?impolicy=wcms_crop_resize&amp;cropH=3123&amp;cropW=1757&amp;xPos=1142&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/f11af450b5e7d459ad562405fd5c44e2?impolicy=wcms_crop_resize&amp;cropH=3123&amp;cropW=2342&amp;xPos=849&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>Amy Shark to lead NRL grand final musical tribute to Jai Arrow</title>
+      <link>https://www.abc.net.au/news/2026-10-02/amy-shark-screaming-jets-nrl-grand-final-jai-arrow-tribute-music/107222214</link>
+      <description>
+        <![CDATA[The musical line-up for this weekend's NRL grand final pre-game entertainment has been revealed. ]]>
+      </description>
+      <dc:creator>Al Newstead</dc:creator>
+      <pubDate>Fri, 02 Oct 2026 04:56:54 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/amy-shark-screaming-jets-nrl-grand-final-jai-arrow-tribute-music/107222214</guid>
+      <category>Music</category>
+      <category>Arts, Culture and Entertainment</category>
+      <category>Sport</category>
+      <category>NRL</category>
+      <media:group>
+        <media:description>Amy Shark is set to provide NRL grand final musical entertainment alongside a supergroup of Aussie musicians.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/a0a81caa7a57325d58335a66af56c3b2?impolicy=wcms_crop_resize&amp;cropH=1152&amp;cropW=2048&amp;xPos=0&amp;yPos=107&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/a0a81caa7a57325d58335a66af56c3b2?impolicy=wcms_crop_resize&amp;cropH=1366&amp;cropW=1366&amp;xPos=341&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/a0a81caa7a57325d58335a66af56c3b2?impolicy=wcms_crop_resize&amp;cropH=1365&amp;cropW=2048&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/a0a81caa7a57325d58335a66af56c3b2?impolicy=wcms_crop_resize&amp;cropH=1366&amp;cropW=1025&amp;xPos=512&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/a0a81caa7a57325d58335a66af56c3b2?impolicy=wcms_crop_resize&amp;cropH=992&amp;cropW=1323&amp;xPos=424&amp;yPos=130&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/a0a81caa7a57325d58335a66af56c3b2?impolicy=wcms_crop_resize&amp;cropH=1366&amp;cropW=768&amp;xPos=640&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/a0a81caa7a57325d58335a66af56c3b2?impolicy=wcms_crop_resize&amp;cropH=1366&amp;cropW=1025&amp;xPos=512&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>NRLW grand final marks end of era</title>
+      <link>https://www.abc.net.au/news/2026-10-02/nrlw-grand-final-doubles-as-end-of-an-era/107218874</link>
+      <description>
+        <![CDATA[One year on from the greatest and most controversial grand final in NRLW history, the Roosters and Broncos meet again for a showdown that marks a turning point for the most dominant side of recent years.]]>
+      </description>
+      <pubDate>Fri, 02 Oct 2026 03:22:26 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/nrlw-grand-final-doubles-as-end-of-an-era/107218874</guid>
+      <media:group>
+        <media:description>Millie Elliott will lead the Roosters forwards one last time in the NRLW grand final.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/2b94a7c0299d07c324a7af92461a7500?impolicy=wcms_crop_resize&amp;cropH=1688&amp;cropW=3000&amp;xPos=0&amp;yPos=156&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/2b94a7c0299d07c324a7af92461a7500?impolicy=wcms_crop_resize&amp;cropH=2000&amp;cropW=2000&amp;xPos=500&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/2b94a7c0299d07c324a7af92461a7500?impolicy=wcms_crop_resize&amp;cropH=2000&amp;cropW=3000&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/2b94a7c0299d07c324a7af92461a7500?impolicy=wcms_crop_resize&amp;cropH=2000&amp;cropW=1500&amp;xPos=750&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/2b94a7c0299d07c324a7af92461a7500?impolicy=wcms_crop_resize&amp;cropH=2000&amp;cropW=2667&amp;xPos=167&amp;yPos=0&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/2b94a7c0299d07c324a7af92461a7500?impolicy=wcms_crop_resize&amp;cropH=2000&amp;cropW=1125&amp;xPos=938&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/2b94a7c0299d07c324a7af92461a7500?impolicy=wcms_crop_resize&amp;cropH=2000&amp;cropW=1500&amp;xPos=750&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>Christa Pike fighting for life after surviving execution attempt</title>
+      <link>https://www.abc.net.au/news/2026-10-02/christa-pike-colleen-slemmer-survives-execution-attempt/107211372</link>
+      <description>
+        <![CDATA[After 30 years on death row, the teenage killer was set to become the first woman executed in the US state of Tennessee in more than 200 years.]]>
+      </description>
+      <pubDate>Thu, 01 Oct 2026 19:19:53 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/christa-pike-colleen-slemmer-survives-execution-attempt/107211372</guid>
+      <media:group>
+        <media:description>Christa Pike was sentenced to death for the murder of Colleen Slemmer, a crime committed when she was 18 years old. </media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/3fcef771135d67ed1ede602da5ebd481?impolicy=wcms_crop_resize&amp;cropH=689&amp;cropW=1225&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/3fcef771135d67ed1ede602da5ebd481?impolicy=wcms_crop_resize&amp;cropH=763&amp;cropW=763&amp;xPos=118&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/3fcef771135d67ed1ede602da5ebd481?impolicy=wcms_crop_resize&amp;cropH=763&amp;cropW=1145&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/3fcef771135d67ed1ede602da5ebd481?impolicy=wcms_crop_resize&amp;cropH=763&amp;cropW=572&amp;xPos=213&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/3fcef771135d67ed1ede602da5ebd481?impolicy=wcms_crop_resize&amp;cropH=763&amp;cropW=1017&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/3fcef771135d67ed1ede602da5ebd481?impolicy=wcms_crop_resize&amp;cropH=763&amp;cropW=429&amp;xPos=284&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/3fcef771135d67ed1ede602da5ebd481?impolicy=wcms_crop_resize&amp;cropH=763&amp;cropW=572&amp;xPos=213&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>Minister's Trump lamb plan labelled 'ill-informed' by super sector</title>
+      <link>https://www.abc.net.au/news/2026-10-02/don-farrell-pitches-lamb-investment-to-avoid-tariffs/107219472</link>
+      <description>
+        <![CDATA[Trade Minister Don Farrell asks the Trump administration to consider sparing Australian sheep farmers from future tariffs in exchange for Australian investment in America's lamb industry.]]>
+      </description>
+      <dc:creator>Brad Ryan</dc:creator>
+      <pubDate>Thu, 01 Oct 2026 21:24:15 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/don-farrell-pitches-lamb-investment-to-avoid-tariffs/107219472</guid>
+      <category>Trade</category>
+      <category>Tariffs</category>
+      <category>Sheep Farming</category>
+      <media:group>
+        <media:description>The US is one of Australia's most valuable overseas markets for lamb as the meat's popularity grows.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/edd948c53401916c70dd8a4e397ad081?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=1920&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/edd948c53401916c70dd8a4e397ad081?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=1080&amp;xPos=214&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/edd948c53401916c70dd8a4e397ad081?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=1620&amp;xPos=67&amp;yPos=0&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/edd948c53401916c70dd8a4e397ad081?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=810&amp;xPos=278&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/edd948c53401916c70dd8a4e397ad081?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=1440&amp;xPos=240&amp;yPos=0&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/edd948c53401916c70dd8a4e397ad081?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=607&amp;xPos=657&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/edd948c53401916c70dd8a4e397ad081?impolicy=wcms_crop_resize&amp;cropH=1080&amp;cropW=810&amp;xPos=278&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>Bookkeeper admits defrauding $2.8m from farming family</title>
+      <link>https://www.abc.net.au/news/2026-10-02/bookkeeper-michelle-lawson-tully-farming-fraud/107220480</link>
+      <description>
+        <![CDATA[Michelle Kathleen Lawson discussed the hardships of farming with the family that employed her for almost two decades while secretly taking from their accounts, a court has heard. ]]>
+      </description>
+      <dc:creator>Christopher Testa</dc:creator>
+      <pubDate>Fri, 02 Oct 2026 08:30:36 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/bookkeeper-michelle-lawson-tully-farming-fraud/107220480</guid>
+      <category>Scams and Fraud</category>
+      <category>Courts</category>
+      <media:group>
+        <media:description>Michelle Kathleen Lawson, 53, defrauded the farming family that employed her in Tully, between Cairns and Townsville.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/98924021da3ecb5ca6dba2d2cd1a175e?impolicy=wcms_crop_resize&amp;cropH=2268&amp;cropW=4032&amp;xPos=0&amp;yPos=267&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/98924021da3ecb5ca6dba2d2cd1a175e?impolicy=wcms_crop_resize&amp;cropH=3024&amp;cropW=3024&amp;xPos=504&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/98924021da3ecb5ca6dba2d2cd1a175e?impolicy=wcms_crop_resize&amp;cropH=2688&amp;cropW=4032&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/98924021da3ecb5ca6dba2d2cd1a175e?impolicy=wcms_crop_resize&amp;cropH=3024&amp;cropW=2268&amp;xPos=882&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/98924021da3ecb5ca6dba2d2cd1a175e?impolicy=wcms_crop_resize&amp;cropH=3024&amp;cropW=4032&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/98924021da3ecb5ca6dba2d2cd1a175e?impolicy=wcms_crop_resize&amp;cropH=3024&amp;cropW=1701&amp;xPos=1166&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/98924021da3ecb5ca6dba2d2cd1a175e?impolicy=wcms_crop_resize&amp;cropH=3024&amp;cropW=2268&amp;xPos=882&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>Perfectly timed snaps of silly creatures in comedy wildlife finals</title>
+      <link>https://www.abc.net.au/news/2026-10-02/comedy-wildlife-photography-awards-finalists-announced/107221426</link>
+      <description>
+        <![CDATA[See the images that made amateur and professional wildlife photographers around the world giggle.]]>
+      </description>
+      <pubDate>Fri, 02 Oct 2026 04:33:42 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/comedy-wildlife-photography-awards-finalists-announced/107221426</guid>
+      <media:group>
+        <media:description>If I Can't See You.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/7b8da394fb67a3a8f0c10209276f1e3c?impolicy=wcms_crop_resize&amp;cropH=2812&amp;cropW=4999&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/7b8da394fb67a3a8f0c10209276f1e3c?impolicy=wcms_crop_resize&amp;cropH=2812&amp;cropW=2812&amp;xPos=1094&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/7b8da394fb67a3a8f0c10209276f1e3c?impolicy=wcms_crop_resize&amp;cropH=2812&amp;cropW=4218&amp;xPos=391&amp;yPos=0&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/7b8da394fb67a3a8f0c10209276f1e3c?impolicy=wcms_crop_resize&amp;cropH=2812&amp;cropW=2109&amp;xPos=1446&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/7b8da394fb67a3a8f0c10209276f1e3c?impolicy=wcms_crop_resize&amp;cropH=2812&amp;cropW=3749&amp;xPos=625&amp;yPos=0&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/7b8da394fb67a3a8f0c10209276f1e3c?impolicy=wcms_crop_resize&amp;cropH=2812&amp;cropW=1582&amp;xPos=1709&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/7b8da394fb67a3a8f0c10209276f1e3c?impolicy=wcms_crop_resize&amp;cropH=2812&amp;cropW=2109&amp;xPos=1446&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>Inquiry hears 'blue code of silence' stops DV victims reporting police </title>
+      <link>https://www.abc.net.au/news/2026-10-02/tas-blue-code-of-silence-stops-dv-victims-reporting-police/107221656</link>
+      <description>
+        <![CDATA[Victim-survivors of police officers are concerned they will not be believed or treated seriously because of the "interconnected relationships" that police have with each other, a Tasmanian inquiry hears.]]>
+      </description>
+      <dc:creator>Scout Wallen</dc:creator>
+      <pubDate>Fri, 02 Oct 2026 05:36:24 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/tas-blue-code-of-silence-stops-dv-victims-reporting-police/107221656</guid>
+      <category>Police</category>
+      <category>Domestic Violence</category>
+      <category>Law, Crime and Justice</category>
+      <media:group>
+        <media:description>The inquiry heard there was a perceived culture of police banding together to protect their own.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/9bc1e6ecf41a13ca6954fd31112e7f83?impolicy=wcms_crop_resize&amp;cropH=3293&amp;cropW=5854&amp;xPos=1154&amp;yPos=0&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/9bc1e6ecf41a13ca6954fd31112e7f83?impolicy=wcms_crop_resize&amp;cropH=4672&amp;cropW=4672&amp;xPos=2087&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/9bc1e6ecf41a13ca6954fd31112e7f83?impolicy=wcms_crop_resize&amp;cropH=3688&amp;cropW=5532&amp;xPos=1476&amp;yPos=0&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/9bc1e6ecf41a13ca6954fd31112e7f83?impolicy=wcms_crop_resize&amp;cropH=4672&amp;cropW=3504&amp;xPos=1374&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/9bc1e6ecf41a13ca6954fd31112e7f83?impolicy=wcms_crop_resize&amp;cropH=4672&amp;cropW=6229&amp;xPos=776&amp;yPos=0&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/9bc1e6ecf41a13ca6954fd31112e7f83?impolicy=wcms_crop_resize&amp;cropH=4672&amp;cropW=2628&amp;xPos=1962&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/9bc1e6ecf41a13ca6954fd31112e7f83?impolicy=wcms_crop_resize&amp;cropH=4672&amp;cropW=3504&amp;xPos=1374&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>Woman who stopped Adelaide beach brawl speaks out</title>
+      <link>https://www.abc.net.au/news/2026-10-02/woman-who-intervened-in-adelaide-beach-fight-speaks-out/107220794</link>
+      <description>
+        <![CDATA[In an exclusive interview with the ABC, a woman who tried to stop a brawl on an Adelaide beach before being pelted with bottles has spoken publicly for the first time.]]>
+      </description>
+      <dc:creator>Will Hunter and Sophie Landau</dc:creator>
+      <pubDate>Fri, 02 Oct 2026 08:24:49 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/woman-who-intervened-in-adelaide-beach-fight-speaks-out/107220794</guid>
+      <category>Antisocial Behaviour</category>
+      <category>Crime</category>
+      <category>Youth Crime</category>
+      <media:group>
+        <media:description>Kate intervenes in a fight at Glenelg on Tuesday.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/c20409623dacc2dae6025356b5556276?impolicy=wcms_crop_resize&amp;cropH=322&amp;cropW=572&amp;xPos=0&amp;yPos=84&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/c20409623dacc2dae6025356b5556276?impolicy=wcms_crop_resize&amp;cropH=490&amp;cropW=490&amp;xPos=41&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/c20409623dacc2dae6025356b5556276?impolicy=wcms_crop_resize&amp;cropH=381&amp;cropW=572&amp;xPos=0&amp;yPos=54&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/c20409623dacc2dae6025356b5556276?impolicy=wcms_crop_resize&amp;cropH=490&amp;cropW=368&amp;xPos=102&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/c20409623dacc2dae6025356b5556276?impolicy=wcms_crop_resize&amp;cropH=429&amp;cropW=572&amp;xPos=0&amp;yPos=30&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/c20409623dacc2dae6025356b5556276?impolicy=wcms_crop_resize&amp;cropH=490&amp;cropW=276&amp;xPos=148&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/c20409623dacc2dae6025356b5556276?impolicy=wcms_crop_resize&amp;cropH=490&amp;cropW=368&amp;xPos=102&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>Bluebottles the size of a fist wash up on Gold Coast beaches</title>
+      <link>https://www.abc.net.au/news/2026-10-02/bluebottles-the-size-of-a-fist-jellyfish-on-beach-gold-coast/107221792</link>
+      <description>
+        <![CDATA[Unusually large bluebottles are washing ashore on the Gold Coast ahead of summer, with scientists unsure how their venom compares with that of smaller species.]]>
+      </description>
+      <pubDate>Fri, 02 Oct 2026 05:51:34 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/bluebottles-the-size-of-a-fist-jellyfish-on-beach-gold-coast/107221792</guid>
+      <media:group>
+        <media:description>A large bluebottle that washed ashore on the Gold Coast.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/4d5748c6a2aa6dd7abb5e2d0d7b50eef?impolicy=wcms_crop_resize&amp;cropH=1152&amp;cropW=2048&amp;xPos=0&amp;yPos=192&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/4d5748c6a2aa6dd7abb5e2d0d7b50eef?impolicy=wcms_crop_resize&amp;cropH=1536&amp;cropW=1536&amp;xPos=151&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/4d5748c6a2aa6dd7abb5e2d0d7b50eef?impolicy=wcms_crop_resize&amp;cropH=1365&amp;cropW=2048&amp;xPos=0&amp;yPos=85&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/4d5748c6a2aa6dd7abb5e2d0d7b50eef?impolicy=wcms_crop_resize&amp;cropH=1536&amp;cropW=1152&amp;xPos=448&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/4d5748c6a2aa6dd7abb5e2d0d7b50eef?impolicy=wcms_crop_resize&amp;cropH=1155&amp;cropW=1540&amp;xPos=140&amp;yPos=140&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/4d5748c6a2aa6dd7abb5e2d0d7b50eef?impolicy=wcms_crop_resize&amp;cropH=1536&amp;cropW=864&amp;xPos=592&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/4d5748c6a2aa6dd7abb5e2d0d7b50eef?impolicy=wcms_crop_resize&amp;cropH=1536&amp;cropW=1152&amp;xPos=448&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>Tasmania's top prosecutor rules out 'further action' on town hall snack saga</title>
+      <link>https://www.abc.net.au/news/2026-10-02/tasmania-police-rules-out-further-action-hobart-snack-saga/107222164</link>
+      <description>
+        <![CDATA[Tasmania's top prosecutor has declined to take action over the taking of snacks from Hobart Town Hall by the city's deputy lord mayor, potentially bringing the contentious saga to a close.]]>
+      </description>
+      <pubDate>Fri, 02 Oct 2026 05:39:31 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/tasmania-police-rules-out-further-action-hobart-snack-saga/107222164</guid>
+      <category>Local Government</category>
+      <media:group>
+        <media:description>Zelinda Sherlock was captured on CCTV taking snacks and drinks from an elected member's lounge in Hobart Town Hall, alongside an unidentified person.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/c381ae1269bf1fe7e83ffd837b42e54f?impolicy=wcms_crop_resize&amp;cropH=320&amp;cropW=569&amp;xPos=0&amp;yPos=135&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/c381ae1269bf1fe7e83ffd837b42e54f?impolicy=wcms_crop_resize&amp;cropH=381&amp;cropW=381&amp;xPos=113&amp;yPos=126&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/c381ae1269bf1fe7e83ffd837b42e54f?impolicy=wcms_crop_resize&amp;cropH=379&amp;cropW=569&amp;xPos=0&amp;yPos=135&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/c381ae1269bf1fe7e83ffd837b42e54f?impolicy=wcms_crop_resize&amp;cropH=418&amp;cropW=314&amp;xPos=177&amp;yPos=96&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/c381ae1269bf1fe7e83ffd837b42e54f?impolicy=wcms_crop_resize&amp;cropH=377&amp;cropW=503&amp;xPos=66&amp;yPos=137&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/c381ae1269bf1fe7e83ffd837b42e54f?impolicy=wcms_crop_resize&amp;cropH=514&amp;cropW=289&amp;xPos=140&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/c381ae1269bf1fe7e83ffd837b42e54f?impolicy=wcms_crop_resize&amp;cropH=418&amp;cropW=314&amp;xPos=177&amp;yPos=96&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>Primary school 'devastated' by suspected theft of kid goats</title>
+      <link>https://www.abc.net.au/news/2026-10-02/two-stolen-miniature-goats-baranduda-primary-school/107219670</link>
+      <description>
+        <![CDATA[A Victorian primary school is searching for two baby black goats that have gone missing during the holidays. 
+ ]]>
+      </description>
+      <dc:creator>Annie Brown</dc:creator>
+      <pubDate>Fri, 02 Oct 2026 03:21:10 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/two-stolen-miniature-goats-baranduda-primary-school/107219670</guid>
+      <category>Rural and Remote Communities</category>
+      <category>Religious Schools</category>
+      <category>Animals</category>
+      <category>Crime</category>
+      <media:group>
+        <media:description>Thorn has white ears.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/dedf34b5f624a566235d1e6df89cc4e1?impolicy=wcms_crop_resize&amp;cropH=338&amp;cropW=600&amp;xPos=0&amp;yPos=60&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/dedf34b5f624a566235d1e6df89cc4e1?impolicy=wcms_crop_resize&amp;cropH=600&amp;cropW=600&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/dedf34b5f624a566235d1e6df89cc4e1?impolicy=wcms_crop_resize&amp;cropH=400&amp;cropW=600&amp;xPos=0&amp;yPos=29&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/dedf34b5f624a566235d1e6df89cc4e1?impolicy=wcms_crop_resize&amp;cropH=800&amp;cropW=600&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/dedf34b5f624a566235d1e6df89cc4e1?impolicy=wcms_crop_resize&amp;cropH=450&amp;cropW=600&amp;xPos=0&amp;yPos=4&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/dedf34b5f624a566235d1e6df89cc4e1?impolicy=wcms_crop_resize&amp;cropH=800&amp;cropW=450&amp;xPos=79&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/dedf34b5f624a566235d1e6df89cc4e1?impolicy=wcms_crop_resize&amp;cropH=800&amp;cropW=600&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>Which states get a public holiday on Monday?</title>
+      <link>https://www.abc.net.au/news/2026-10-02/public-holiday-on-monday-kings-birthday-labour-day/107180182</link>
+      <description>
+        <![CDATA[Many Australians will enjoy a long weekend this weekend, but half the country will miss out on a public holiday. ]]>
+      </description>
+      <pubDate>Fri, 02 Oct 2026 02:05:48 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/public-holiday-on-monday-kings-birthday-labour-day/107180182</guid>
+      <media:group>
+        <media:description>Some people are set to enjoy a long weekend, but not every state and territory will have a public holiday on Monday.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/a8387cb836f8b74899f5f9f64e2c698a?impolicy=wcms_crop_resize&amp;cropH=2265&amp;cropW=4027&amp;xPos=5&amp;yPos=0&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/a8387cb836f8b74899f5f9f64e2c698a?impolicy=wcms_crop_resize&amp;cropH=3024&amp;cropW=3024&amp;xPos=290&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/a8387cb836f8b74899f5f9f64e2c698a?impolicy=wcms_crop_resize&amp;cropH=2684&amp;cropW=4027&amp;xPos=5&amp;yPos=0&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/a8387cb836f8b74899f5f9f64e2c698a?impolicy=wcms_crop_resize&amp;cropH=3024&amp;cropW=2268&amp;xPos=668&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/a8387cb836f8b74899f5f9f64e2c698a?impolicy=wcms_crop_resize&amp;cropH=2046&amp;cropW=2729&amp;xPos=1303&amp;yPos=0&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/a8387cb836f8b74899f5f9f64e2c698a?impolicy=wcms_crop_resize&amp;cropH=3024&amp;cropW=1701&amp;xPos=952&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/a8387cb836f8b74899f5f9f64e2c698a?impolicy=wcms_crop_resize&amp;cropH=3024&amp;cropW=2268&amp;xPos=668&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>How Assefa ran third fastest marathon ever despite 'destroyed' Achilles</title>
+      <link>https://www.abc.net.au/news/2026-10-02/tigst-assefa-surgery-achilles-tendon-rupture-berlin-marathon/107216866</link>
+      <description>
+        <![CDATA[Tigst Assefa ran the final two kilometres of the Berlin Marathon with a badly damaged Achilles tendon, which required immediate surgery to repair. She still ran the third-fastest women's marathon in history.]]>
+      </description>
+      <dc:creator>Simon Smale</dc:creator>
+      <pubDate>Fri, 02 Oct 2026 04:50:16 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-10-02/tigst-assefa-surgery-achilles-tendon-rupture-berlin-marathon/107216866</guid>
+      <category>Marathon</category>
+      <category>Sports injuries</category>
+      <category>Sport</category>
+      <media:group>
+        <media:description>Tigst Assefa was in agony for the last few kilometres of the race.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/00ebf57fe62cce2a557a84fc985dda25?impolicy=wcms_crop_resize&amp;cropH=1149&amp;cropW=2043&amp;xPos=1281&amp;yPos=164&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/00ebf57fe62cce2a557a84fc985dda25?impolicy=wcms_crop_resize&amp;cropH=1708&amp;cropW=1708&amp;xPos=1522&amp;yPos=164&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/00ebf57fe62cce2a557a84fc985dda25?impolicy=wcms_crop_resize&amp;cropH=1368&amp;cropW=2052&amp;xPos=1204&amp;yPos=131&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/00ebf57fe62cce2a557a84fc985dda25?impolicy=wcms_crop_resize&amp;cropH=3021&amp;cropW=2266&amp;xPos=1133&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/00ebf57fe62cce2a557a84fc985dda25?impolicy=wcms_crop_resize&amp;cropH=1237&amp;cropW=1649&amp;xPos=1511&amp;yPos=175&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/00ebf57fe62cce2a557a84fc985dda25?impolicy=wcms_crop_resize&amp;cropH=3021&amp;cropW=1699&amp;xPos=1478&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/00ebf57fe62cce2a557a84fc985dda25?impolicy=wcms_crop_resize&amp;cropH=3021&amp;cropW=2266&amp;xPos=1133&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+  </channel>
+</rss>

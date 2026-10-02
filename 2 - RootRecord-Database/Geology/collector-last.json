@@ -1,45 +1,35 @@
 {
-  "collector": "ml2.geology",
-  "mode": "all",
-  "collected_at": "2026-10-02T12:30:39Z",
-  "results": [
-    {
-      "path_rel": "Geology/Earthquakes/hawaii-last.json",
+  "ok": true,
+  "at": "2026-10-02T02:46:08-10:00",
+  "what": "all",
+  "dry_run": false,
+  "sources": {
+    "hawaii": {
       "ok": true,
-      "error": null,
-      "meta": {
-        "ms": 346,
-        "source": "fdsn"
-      }
+      "count": 22,
+      "new": 0,
+      "new_m2": 0,
+      "ms": 346
     },
-    {
-      "path_rel": "Geology/Earthquakes/global-last.json",
+    "global": {
       "ok": true,
-      "error": null,
-      "meta": {
-        "ms": 11,
-        "source": "summary"
-      }
+      "count": 28,
+      "new": 0,
+      "ms": 19
     },
-    {
-      "path_rel": "Geology/Volcanoes/hvo-last.json",
+    "hvo_notices": {
       "ok": true,
-      "error": null,
-      "meta": {
-        "ms": 718
-      }
+      "count": 47,
+      "new": 0,
+      "ms": 398
     },
-    {
-      "path_rel": "Geology/Volcanoes/kilauea-last.json",
+    "hvo_status": {
       "ok": true,
-      "error": null,
-      "meta": {}
-    },
-    {
-      "path_rel": "Geology/Volcanoes/mauna-loa-last.json",
-      "ok": true,
-      "error": null,
-      "meta": {}
+      "volcanoes": 8,
+      "kilauea": "WATCH",
+      "mauna_loa": "NORMAL",
+      "ms": 320
     }
-  ]
+  },
+  "collector": "ml2.geology"
 }

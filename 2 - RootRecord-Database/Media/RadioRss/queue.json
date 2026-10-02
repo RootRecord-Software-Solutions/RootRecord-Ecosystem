@@ -7220,6 +7220,24 @@
           "published_at": "2026-10-01T18:30:00Z"
         }
       ]
+    },
+    {
+      "id": "477a89357822c2e1",
+      "cluster_id": "c_23b1e22168c206e9",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_23b1e22168c206e9.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_23b1e22168c206e9.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Ethiopian gov\u2019t-aligned group claims close to full control of Tigray region",
+          "url": "https://www.aljazeera.com/news/2026/10/2/ethiopian-govt-aligned-group-claims-close-to-full-control-of-tigray-region?traffic_source=rss",
+          "published_at": "2026-10-02T12:27:52Z"
+        }
+      ]
     }
   ]
 }

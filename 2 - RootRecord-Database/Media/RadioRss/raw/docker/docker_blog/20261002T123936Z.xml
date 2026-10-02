@@ -1,0 +1,2735 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Docker</title>
+	<atom:link href="https://www.docker.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.docker.com</link>
+	<description></description>
+	<lastBuildDate>Thu, 01 Oct 2026 18:26:13 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=7.1.2</generator>
+
+<image>
+	<url>https://www.docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-32x32.png</url>
+	<title>Docker</title>
+	<link>https://www.docker.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Trust Docker for the agents you don&#8217;t</title>
+		<link>https://www.docker.com/blog/docker-cloud-sandboxes-wearedevelopers-recap/</link>
+		
+		<dc:creator><![CDATA[Jin Kim]]></dc:creator>
+		<pubDate>Thu, 01 Oct 2026 18:26:12 +0000</pubDate>
+				<category><![CDATA[Company]]></category>
+		<category><![CDATA[Partnerships]]></category>
+		<category><![CDATA[Products]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[AI/ML]]></category>
+		<category><![CDATA[Cloud Sandboxes]]></category>
+		<category><![CDATA[CNCF]]></category>
+		<category><![CDATA[Docker]]></category>
+		<category><![CDATA[Docker Sandboxes]]></category>
+		<category><![CDATA[Sandbox Kit]]></category>
+		<category><![CDATA[security]]></category>
+		<guid isPermaLink="false">https://www.docker.com/?p=94390</guid>
+
+					<description><![CDATA[At WeAreDevelopers, Docker introduced Cloud Sandboxes, the open Sandbox Kit specification, and a commitment to bring Kits to the CNCF for neutral governance.]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph"><em>Cloud Sandboxes, open Kits, and a developer community building the next generation of AI software</em></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Docker Cloud Sandboxes are here.</strong> At WeAreDevelopers World Congress North America, we launched a way for developers to start agent work in a safe way on their laptop, move to the same microVM environment on Docker-managed cloud compute, and bring the results back. Longer tasks can keep running, even after you close your laptop. </p>
+
+
+
+<p class="wp-block-paragraph">That launch reflects a bigger ambition. We want developers to be able to give agents useful work with confidence in the systems around them. That means a place for the agent to run, clear limits on what it can access, and a way to inspect what happened. It also means keeping the freedom to choose the agent and model that fit the job.</p>
+
+
+
+<p class="wp-block-paragraph">We brought that message to San Jose with Cloud Sandboxes, the open Sandbox Kit specification, and a commitment to bring the spec to the Cloud Native Computing Foundation (CNCF). Three mainstage talks explored what trust requires in practice. Four workshops gave developers time with the tools. Across the Docker Pavilion and booth, customers, partners, and community members brought their own experience and questions into the discussion.</p>
+
+
+
+<p class="wp-block-paragraph">A year after <a href="https://www.docker.com/blog/wearedevelopers-docker-unveils-the-future-of-agentic-apps/" id="dkr_announcing-our-partnership-to-bring-wearedevelopers-to-north-america-94390">announcing our partnership to bring WeAreDevelopers to North America</a>, it was exciting to join <a href="https://www.wearedevelopers.com/company/media/wearedevelopers-world-congress-brings-the-whos-who-of-the-software-industry-to-san-jose-in-its-north-america-debut" id="dkr_more-than-10000-developers-ai-builders-and-technology-leaders-at-the-inaugural-event-94390" rel="nofollow noopener" target="_blank">more than 10,000 developers, AI builders, and technology leaders at the inaugural event</a>, September 23-25. Here is what we shared, and where developers can get started.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Introducing Docker Cloud Sandboxes</strong></h2>
+
+
+
+<p class="wp-block-paragraph">An agent working through a large refactor or migration may need more time than you want to keep a laptop open. Running several tasks at once can put pressure on local resources, too. <a href="https://www.docker.com/blog/introducing-cloud-sandboxes-start-on-your-laptop-finish-in-the-cloud/" id="dkr_cloud-sandboxes-94390">Cloud Sandboxes</a> gives those tasks somewhere else to run.</p>
+
+
+
+<p class="wp-block-paragraph">Each sandbox is an isolated microVM, a small virtual machine with its own kernel and Docker daemon. The agent can install dependencies, build applications, and run containers inside that environment. With Cloud Sandboxes, Docker supplies the compute, and developers use <code>sbx</code>, the same command-line tool they use for local sandboxes.</p>
+
+
+
+<p class="wp-block-paragraph">The workflow starts wherever the developer needs it to. Begin locally, move the sandbox&#8217;s filesystem to the cloud for a longer run, and bring it back when it is time to review the results. The same reusable agent packages, called Kits, work in both environments. Local and cloud credentials and policies are configured separately, so the access granted in each environment remains an explicit decision.</p>
+
+
+
+<p class="wp-block-paragraph">Cloud Sandboxes are <a href="https://agentic-platform.docker.com/" id="dkr_available-now-94390" rel="nofollow noopener" target="_blank">available now</a>, with compute billed by the second. For developers, that opens up a useful choice: keep interactive work on the laptop and give longer agent tasks their own capacity. It makes the move from local experimentation to sustained agent work a practical part of the development workflow.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>The foundation for trusting agents with more work</strong></h2>
+
+
+
+<p class="wp-block-paragraph">In his <a href="https://www.youtube.com/watch?v=G1tT3pwbsMM" id="dkr_opening-keynote-94390" rel="nofollow noopener" target="_blank">opening keynote</a>, Docker President and COO Mark Cavage explained why giving agents more freedom also requires a stronger foundation. He described four requirements for an agent factory: containment, control, choice, and capacity. Teams need to know where agents can act, see and stop their activity, choose their models and tools, and run work beyond a single laptop.</p>
+
+
+
+<p class="wp-block-paragraph">The keynote included a clear example of what can go wrong. An agent running in a container with the host Docker socket mounted found a way to read a secret on the host. It had not discovered a new vulnerability. It was using access the configuration had given it.</p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://www.docker.com/products/docker-sandboxes/" id="dkr_docker-sandboxes-94390">Docker Sandboxes</a> puts a microVM boundary around the agent. In a subsequent demonstration, the same attempt to reach the host through the Docker socket failed inside the sandbox. Containers still do the job of packaging and running applications; the sandbox gives the agent building those applications an execution boundary of its own.</p>
+
+
+
+<p class="wp-block-paragraph">This is what we mean by <strong>trust Docker for the agents you don&#8217;t</strong>. The infrastructure enforces the boundary, even when an agent chooses an unexpected course of action. Developers can decide how much access to grant and retain responsibility for the work that ships.</p>
+
+
+
+<p class="wp-block-paragraph">Cavage also addressed the limits of those controls. Blocking an unapproved network destination is different from recognizing that an otherwise permitted email is going to the wrong customer. Narrow permissions, such as allowing an agent to read and draft messages without letting it send them, remain an essential part of using agents responsibly. There is still work to do on whether an action matches the user&#8217;s intent, and we should be clear about that.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Open Kits for environments teams can share</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Once an agent has a place to run, the next question is what belongs in that environment. Which tools does it need? Which services may it reach? What credentials and storage should be available?</p>
+
+
+
+<p class="wp-block-paragraph">The new <a href="https://www.docker.com/blog/docker-sandbox-kit-spec/" id="dkr_docker-sandbox-kit-specification-94390">Docker Sandbox Kit specification</a> puts those requirements in an artifact teams can share and review. A Kit is an OCI image containing the agent and its tools, together with declarations of the access it needs. It works with familiar image tooling: teams can build, push, pull, scan, and pin it by digest.</p>
+
+
+
+<p class="wp-block-paragraph">That makes an environment easier to reproduce, and it makes changes to its requested permissions visible. If a Kit asks for another network destination or credential, reviewers can see that change alongside the rest of the package. The runtime decides which requests to grant and enforces the resulting policy outside the agent.</p>
+
+
+
+<p class="wp-block-paragraph">We <a href="https://www.linux.com/featured/docker-commits-to-bringing-the-sandbox-kit-spec-to-the-cncf/" id="dkr_published-the-specification-under-apache-20-and-committed-to-bringing-it-to-the-cncf-94390" rel="nofollow noopener" target="_blank">published the specification under Apache 2.0 and committed to bringing it to the CNCF</a> for neutral governance. Docker Sandboxes is the first runtime to implement it. Opening the format gives other runtimes a specification they can adopt and developers a common way to describe an agent environment.</p>
+
+
+
+<p class="wp-block-paragraph">Nous Research joined Cavage onstage with <a href="https://github.com/NousResearch/hermes-agent" id="dkr_hermes-94390" rel="nofollow noopener" target="_blank">Hermes</a>, its open-source agent, as a launch partner. Packaging an independently developed agent as a Kit demonstrated the choice we want developers to have: use the agent that fits the work, with an environment and controls the team can understand.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Governing agents across the organization</strong></h2>
+
+
+
+<p class="wp-block-paragraph"><a href="https://www.youtube.com/watch?v=Oc-DrLQWimc" id="dkr_docker-cto-tushar-jains-keynote-govern-the-runtime-not-the-agent-94390" rel="nofollow noopener" target="_blank">Docker CTO Tushar Jain&#8217;s keynote, &#8220;Govern the Runtime, Not the Agent,&#8221;</a> took the discussion to the team level. Organizations use different models and agent tools. Governing each tool separately makes it harder to maintain a consistent policy and see the full picture of agent activity.</p>
+
+
+
+<p class="wp-block-paragraph">Tushar made the case for a common runtime layer that can govern execution, tools, credentials, permissions, and spend. His demo supplied a concrete example: an agent&#8217;s request to delete a GitHub repository was blocked by a default-deny rule and returned HTTP 403. Enforcement came from the runtime. In the Q&amp;A, he described team-specific policies that can give a finance user and a developer different access to the same agent, while acknowledging that agent identity remains an open industry challenge.</p>
+
+
+
+<p class="wp-block-paragraph">Docker CISO Mark Lechner connected those ideas to security in his keynote, <a href="https://www.youtube.com/watch?v=7lR9SUdMHPQ" id="dkr_one-boundary-for-the-agentic-era-94390" rel="nofollow noopener" target="_blank">&#8220;One Boundary for the Agentic Era&#8221;</a>. His talk connected those runtime controls to the software supply chain. An agent consumes dependencies and tools, then creates code that a team has to review and ship. Lechner showed how a Kit manifest describes the agent&#8217;s requested access, and how a proxy can use a credential without exposing the raw API key inside the sandbox.</p>
+
+
+
+<p class="wp-block-paragraph">Managing those capabilities as code gives security teams something concrete to review. They can inspect the environment an agent receives and compare its permissions with the activity recorded during a task. Across the three talks, the common goal was to make greater agent autonomy something teams can govern.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Building with our customers, partners, and community</strong></h2>
+
+
+
+<p class="wp-block-paragraph">The Docker Pavilion kept the discussion going across Thursday and Friday, with customers, partners, and Docker engineers sharing how these ideas apply to real systems. A <a href="https://www.wearedevelopers.com/world-congress-north-america/agenda/schedule" id="dkr_field-notes-panel-94390" rel="nofollow noopener" target="_blank">field-notes panel</a> compared lessons from rolling out sandboxed agents to thousands of developers. Our engineers took questions about Sandboxes and AI Governance. A panel with Spectro Cloud and J.P. Morgan Payments asked what it takes to own how AI is deployed and governed, beyond simply consuming more tokens.</p>
+
+
+
+<p class="wp-block-paragraph">The <a href="https://www.docker.com/blog/wearedevelopers-partner-customer-sessions-2026/" id="dkr_customer-and-partner-sessions-94390">customer and partner sessions</a> covered several parts of the agent workflow:</p>
+
+
+
+<p class="wp-block-paragraph">• <strong>Running real workloads.</strong> Spectro Cloud showed repeatable agent workloads at the edge. J.P. Morgan Payments brought a two-container payments example that starts with <code>docker compose up</code>. ClickHouse showed what changes when a database starts from a hardened image, and BAND demonstrated separately sandboxed agents exchanging work.</p>
+
+
+
+<p class="wp-block-paragraph">• <strong>Controlling access and investigating activity.</strong> Palo Alto Networks connected agent audit records to investigation, while Datadog followed a security incident from detection to response. Prediction Guard demonstrated model-call controls alongside execution isolation, and Snyk showed how to inspect work inside a sandbox. GitGuardian, Mend, and Merge covered secrets, runtime guardrails, and third-party integrations.</p>
+
+
+
+<p class="wp-block-paragraph">• <strong>Providing context and reviewing results.</strong> Box, Cognee, and SurrealDB explored giving agents useful knowledge and memory with visible limits. Chainloop brought signed records to the review process, and Sonar showed how to verify generated code.</p>
+
+
+
+<p class="wp-block-paragraph">These sessions showed how the sandbox fits into a wider system of tools for running agents, protecting their access, and checking their work.</p>
+
+
+
+<p class="wp-block-paragraph">Eli Aleyner and Kelsey Hightower also sat down for a fireside chat at the Pavilion, bringing the cloud-native community into the program alongside customers, partners, and Docker engineers. The <a href="https://www.wearedevelopers.com/world-congress-north-america/special-events/scaling-agentic-ai" id="dkr_platform-94390" rel="nofollow noopener" target="_blank">platform</a> and <a href="https://www.wearedevelopers.com/world-congress-north-america/special-events/agentic-ai-safety" id="dkr_security-94390" rel="nofollow noopener" target="_blank">security</a> roundtables gave smaller groups space to compare what they were seeing in their own organizations.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Four workshops to get hands-on</strong></h2>
+
+
+
+<p class="wp-block-paragraph">On Wednesday, September 23, our <a href="https://www.wearedevelopers.com/world-congress-north-america/agenda/schedule" id="dkr_stage-and-workshop-program-94390" rel="nofollow noopener" target="_blank">stage and workshop program</a> gave developers time to work with the tools themselves. All four workshops connected the larger message to practical development tasks:</p>
+
+
+
+<p class="wp-block-paragraph">• <strong>Dan Ndombe</strong> introduced Docker&#8217;s <code>sbx</code> command for running agents in isolated sandboxes, then worked through network rules, tools connected through Model Context Protocol (MCP), and packaging agent workflows with Kits.</p>
+
+
+
+<p class="wp-block-paragraph">• <strong>Michael Irwin</strong> built an AI-ready developer environment with Kits and <code>sbxenv</code> files, which describe a set of sandbox environments as configuration.</p>
+
+
+
+<p class="wp-block-paragraph">• <strong>Oleg Šelajev</strong> connected Sandboxes, MCP, and the infrastructure beneath agent workflows in a hands-on agentic platform workshop.</p>
+
+
+
+<p class="wp-block-paragraph">• <strong>Ajeet Raina</strong> focused on Docker Hardened Images and supply chain security when agents write the code.</p>
+
+
+
+<p class="wp-block-paragraph">The shorter talks connected those pieces to ordinary development work. Michael showed how to make an agent environment work across machines. Ajeet and Docker Captain Kristiyan Velkov covered Docker tools developers may have missed, including Testcontainers and Scout. Other sessions examined giving an agent its own machine and verifying the components agents put into a software build.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Demos and conversations at the Docker booth</strong></h2>
+
+
+
+<p class="wp-block-paragraph">There was plenty to explore at the Docker booth, where a steady stream of visitors could see the tools working and talk with the team. In the coding factory demo, an agent worked on a Next.js app inside its own microVM, built and served the application, and encountered a network destination blocked by organization policy. The audit view recorded the policy decision, letting visitors follow the agent&#8217;s work and see where a rule had been enforced. The demonstration connected the infrastructure controls to a familiar result: a working application developers could inspect.</p>
+
+
+
+<p class="wp-block-paragraph">The booth also hosted <strong>Sandbox Royale</strong>, an AI game challenge that invited visitors to connect agents through Model Context Protocol (MCP) and compete in a shared virtual town. Agents negotiated, traded fictional assets, and navigated a trust dilemma in fifteen-minute games with a live leaderboard. It was a lively way to explore how agents behave when they interact with other agents and untrusted input.</p>
+
+
+
+<p class="wp-block-paragraph">The steady booth traffic, demonstrations, and conversations gave our team opportunities to hear directly from developers about the work they want agents to take on.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Build with us</strong></h2>
+
+
+
+<p class="wp-block-paragraph">We came to WeAreDevelopers with a clear direction for Docker&#8217;s work in AI: make agents easier to run, make their access visible and controllable, and give developers the tools to build with them on their own terms. Cloud Sandboxes and the open Kit specification are concrete steps in that direction.</p>
+
+
+
+<p class="wp-block-paragraph">The conference gave us the chance to put that work in front of developers alongside the partners and community helping shape it. Thank you to everyone who spent time with us in San Jose. We are looking forward to seeing what you build next.</p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://www.docker.com/blog/introducing-cloud-sandboxes-start-on-your-laptop-finish-in-the-cloud/" id="dkr_try-docker-cloud-sandboxes-94390">Try Docker Cloud Sandboxes</a>, <a href="https://www.docker.com/products/docker-sandboxes/" id="dkr_start-locally-with-docker-sandboxes-94390">start locally with Docker Sandboxes</a>, or <a href="https://github.com/docker/sandbox-kit-spec" id="dkr_explore-and-contribute-to-the-sandbox-kit-specification-94390" rel="nofollow noopener" target="_blank">explore and contribute to the Sandbox Kit specification</a>.</p>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Manufacturing Trust for AI Agents &#124; Docker&#8217;s WeAreDevelopers Keynote</title>
+		<link>https://www.docker.com/blog/manufacturing-trust-for-ai-agents-keynote/</link>
+		
+		<dc:creator><![CDATA[PeiFang Sung]]></dc:creator>
+		<pubDate>Thu, 24 Sep 2026 17:15:00 +0000</pubDate>
+				<category><![CDATA[Community]]></category>
+		<category><![CDATA[agents]]></category>
+		<category><![CDATA[AI/ML]]></category>
+		<category><![CDATA[developers]]></category>
+		<category><![CDATA[sandboxes]]></category>
+		<category><![CDATA[WeAreDevelopers]]></category>
+		<guid isPermaLink="false">https://www.docker.com/?p=94134</guid>
+
+					<description><![CDATA[Docker's WeAreDevelopers keynote shows how Sandboxes, Kits, and Cloud Sandboxes give AI agents strong isolation and reproducible authority.]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">Coding agents do more than write code. Agents can install dependencies, access networks, use credentials, and keep working after we’ve moved on to something else. Agents need access to get real work done. But the more access they have, the bigger the impact of a mistake. The challenge is building enough trust into the system to give agents more freedom without giving them access to everything. </p>
+
+
+
+<p class="wp-block-paragraph">At WeAreDevelopers North America, Docker President Mark Cavage laid out Docker’s answer: give every agent a strong boundary, make its environment and authority reproducible, and let the work run where it makes sense, from a developer’s laptop to the cloud. </p>
+
+
+
+<p class="wp-block-paragraph">In 30 minutes, Mark demonstrates what happens when an agent pushes beyond a container&#8217;s limits and how Docker Sandboxes create a stronger boundary. He then connects that foundation to Kits, cloud capacity for work that needs to continue beyond the laptop, and new partnerships helping developers put agents to work safely. </p>
+
+
+
+
+
+<div class="wp-block-ponyo-image">
+                <img fetchpriority="high" decoding="async" width="1640" height="480" src="https://www.docker.com/app/uploads/2026/09/agents-trust-factory-transparent.gif" class="fade-in" alt="agents trust factory transparent" title="- agents trust factory transparent">
+        </div>
+
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<h2 class="wp-block-heading">Agents are actors, not workloads</h2>
+
+
+
+<p class="wp-block-paragraph">Containers were built to isolate applications. Agents do more. They make decisions and act on the systems around them, so the boundary needs to extend to the environment they can reach. </p>
+
+
+
+<p class="wp-block-paragraph">Mark’s onstage demo makes that clear. The container worked as designed. What the agent needed was <em>containment</em> around its full environment. Docker Sandboxes provide that containment. Each agent gets its own isolated microVM and kernel, separate from the developer’s host environment. </p>
+
+
+
+<p class="wp-block-paragraph">Developers can choose the agent, model, and tools that fit the job, then define the sandbox’s access to files, networks, and secrets. Those policies stay outside the agent&#8217;s control. Together, the sandbox and its policies create a trusted environment for autonomous work. </p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://docs.docker.com/ai/sandboxes/" id="dkr_docker-sandboxes-94134" rel="nofollow noopener" target="_blank">Docker Sandboxes</a> are available today through the free, standalone CLI, so developers can bring stronger isolation to the agent workflows they already use. </p>
+
+
+
+<h2 class="wp-block-heading">Make the agent and its authority reproducible</h2>
+
+
+
+<p class="wp-block-paragraph">A strong boundary gives an agent a safe place to work. Developers also need a repeatable way to define what runs and what it can access. </p>
+
+
+
+<p class="wp-block-paragraph">In the keynote, Mark announced the next generation of Docker Sandbox Kits, now built as standard OCI images, and invited ecosystem partners to help shape the specification as Docker works towards neutral governance. </p>
+
+
+
+<p class="wp-block-paragraph">Docker Sandbox Kits package the agent, its tools, and the rules for what the sandbox can reach into one versioned, shareable artifact. Developers can share Kits through the same workflows they already use for container images, while keeping changes to an agent’s authority visible and reviewable. </p>
+
+
+
+<p class="wp-block-paragraph">The result is a common foundation for the agent ecosystem, built on an open standard. </p>
+
+
+
+<p class="wp-block-paragraph"><strong>Dockerfiles made software reproducible. <a href="https://docs.docker.com/ai/sandboxes/customize/" id="dkr_kits-94134" rel="nofollow noopener" target="_blank">Kits</a> make authority reproducible</strong></p>
+
+
+
+
+
+
+
+<div class="wp-block-ponyo-image">
+                <img decoding="async" width="2320" height="1370" src="https://www.docker.com/app/uploads/2026/09/any-model-any-harness-any-tool-2320x1370.png" class="fade-in" alt="any model any harness any tool" srcset="https://www.docker.com/app/uploads/2026/09/any-model-any-harness-any-tool-2320x1370.png 2320w, https://www.docker.com/app/uploads/2026/09/any-model-any-harness-any-tool-1640x968.png 1640w, https://www.docker.com/app/uploads/2026/09/any-model-any-harness-any-tool-1536x907.png 1536w, https://www.docker.com/app/uploads/2026/09/any-model-any-harness-any-tool-2048x1209.png 2048w, https://www.docker.com/app/uploads/2026/09/any-model-any-harness-any-tool-600x354.png 600w, https://www.docker.com/app/uploads/2026/09/any-model-any-harness-any-tool-250x148.png 250w, https://www.docker.com/app/uploads/2026/09/any-model-any-harness-any-tool-64x38.png 64w" sizes="(max-width: 1160px) 100vw, 1160px" title="- any model any harness any tool">
+        </div>
+
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<h2 class="wp-block-heading">Start on your laptop. Finish in the cloud.</h2>
+
+
+
+<p class="wp-block-paragraph">Some agent work begins and ends on a developer laptop. Longer-running or parallel work needs capacity that stays available when the developer steps away. In the keynote, Mark announced Docker Cloud Sandboxes, bringing the same microVM-based isolation from the laptop to Docker-managed cloud compute. </p>
+
+
+
+<p class="wp-block-paragraph">Using the familiar sbx workflow, developers can start locally, move their work to the cloud with one command, and let it continue after they close their laptop. They can also run tasks in parallel without provisioning or maintaining the infrastructure themselves. </p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://www.docker.com/c/sbx-promo/" id="dkr_docker-cloud-sandboxes-94134">Docker Cloud Sandboxes</a> are available today with pay-as-you-go pricing.</p>
+
+
+
+
+
+<div class="wp-block-ponyo-image">
+                <img decoding="async" width="2320" height="1370" src="https://www.docker.com/app/uploads/2026/09/start-local-move-to-cloud-move-back-2320x1370.png" class="fade-in" alt="start local move to cloud move back" srcset="https://www.docker.com/app/uploads/2026/09/start-local-move-to-cloud-move-back-2320x1370.png 2320w, https://www.docker.com/app/uploads/2026/09/start-local-move-to-cloud-move-back-1640x968.png 1640w, https://www.docker.com/app/uploads/2026/09/start-local-move-to-cloud-move-back-1536x907.png 1536w, https://www.docker.com/app/uploads/2026/09/start-local-move-to-cloud-move-back-2048x1209.png 2048w, https://www.docker.com/app/uploads/2026/09/start-local-move-to-cloud-move-back-600x354.png 600w, https://www.docker.com/app/uploads/2026/09/start-local-move-to-cloud-move-back-250x148.png 250w, https://www.docker.com/app/uploads/2026/09/start-local-move-to-cloud-move-back-64x38.png 64w" sizes="(max-width: 1160px) 100vw, 1160px" title="- start local move to cloud move back">
+        </div>
+
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<h2 class="wp-block-heading">An ecosystem built around trust</h2>
+
+
+
+<p class="wp-block-paragraph">An open agent ecosystem needs both: choice for the developers and shared standards the industry can build on.</p>
+
+
+
+<p class="wp-block-paragraph">Nous Research joined Mark onstage to show Hermes running as a first-class Kit in Docker Sandboxes. The demo showed what choice looks like in practice: a third-party agent packaged for a common environment, with Docker providing the underlying isolation and controls. Developers can choose the agent that best fits their work without having to rebuild the trusted execution layer around it.</p>
+
+
+
+<p class="wp-block-paragraph">Choice also depends on shared standards that the wider ecosystem can adopt. Docker has committed to submitting its <a href="http://www.docker.com/blog/docker-sandbox-kit-spec-cncf" id="dkr_kits-specification-to-the-cloud-native-computing-foundation-cncf-94134">Kits specification to the Cloud Native Computing Foundation (CNCF)</a>, the open source, vendor-neutral hub of cloud-native computing.</p>
+
+
+
+
+<div class="wp-block-ponyo-simon organism align__left">
+
+        
+    <div class="container">
+        <h4 class="quote-size__small fade-in">&#8220;Standards are what let an ecosystem move fast without fragmenting, and few companies understand that better than Docker through their involvement in efforts like the OCI and CNCF. By delivering Sandbox Kits as standard OCI images, Docker is giving the industry an open, repeatable way to package an AI agent, its tools, and its guardrails as one artifact. OCI is the foundation the cloud native ecosystem is built on, so a standard for agents that builds on OCI reaches the whole ecosystem at once. The cloud native community looks forward to working with Docker to bring this work under neutral governance.&#8221; </h4>
+                    <div class="speaker-container fade-in">
+                                <p class="name">Chris Aniszczyk</p>
+                <p class="title">CTO at CNCF</p>
+            </div>
+            </div>
+</div>
+
+
+<p class="wp-block-paragraph">Together, these partners show what an open agent ecosystem can look like: choice at the agent layer and a shared format for packaging an agent&#8217;s environment and authority. <strong>Docker provides the trusted foundation underneath, whether agents run locally or in the cloud. </strong></p>
+
+
+
+<h2 class="wp-block-heading">Trust comes from the system around the agent</h2>
+
+
+
+<p class="wp-block-paragraph">Taken together, the announcements in Mark’s keynote form one system. Sandboxes provide a deterministic boundary. Kits make the agent’s environment and authority reproducible. Cloud Sandboxes extend the same trust model to durable cloud capability. </p>
+
+
+
+<p class="wp-block-paragraph">They give developers the freedom to choose their agents and more autonomy, while retaining control over what they can access and change. </p>
+
+
+
+<p class="wp-block-paragraph">As agents take on bigger jobs, the infrastructure around them matters more. Docker provides the trusted foundation they need to work locally or scale in the cloud, while developers continue to stay in control of what ships.  </p>
+
+
+
+<h2 class="wp-block-heading">Ready to try Cloud Sandboxes?</h2>
+
+
+
+<p class="wp-block-paragraph">For a limited time, new accounts can <a href="https://www.docker.com/c/sbx-promo/" id="dkr_claim-250-to-get-started-94134">claim $250 in compute credit to get started.</a></p>
+
+
+
+<h2 class="wp-block-heading">Watch, Explore, Build</h2>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://docs.docker.com/ai/sandboxes/" id="dkr_start-locally--94134" rel="nofollow noopener" target="_blank">Start Locally: </a>Run an agent in a Docker Sandbox </li>
+
+
+
+<li><a href="http://www.docker.com/blog/introducing-cloud-sandboxes-start-on-your-laptop-finish-in-the-cloud" id="dkr_scale-in-the-cloud--94134">Scale in the Cloud: </a>Read the announcement and get started with Docker Cloud Sandboxes </li>
+
+
+
+<li><a href="http://www.docker.com/blog/docker-sandbox-kit-spec" id="dkr_build-with-kits--94134">Build with Kits: </a>Read the technical deep dive and explore the open kit specification. </li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>From Dockerfile to Kit: the Docker Sandboxes Kit Specification</title>
+		<link>https://www.docker.com/blog/docker-sandbox-kit-spec/</link>
+		
+		<dc:creator><![CDATA[Jin Kim]]></dc:creator>
+		<pubDate>Thu, 24 Sep 2026 16:00:00 +0000</pubDate>
+				<category><![CDATA[Engineering]]></category>
+		<category><![CDATA[Products]]></category>
+		<category><![CDATA[AI/ML]]></category>
+		<category><![CDATA[Open Container Initiative (OCI)]]></category>
+		<category><![CDATA[Sandbox Kit]]></category>
+		<category><![CDATA[sandboxes]]></category>
+		<category><![CDATA[security]]></category>
+		<guid isPermaLink="false">https://www.docker.com/?p=94091</guid>
+
+					<description><![CDATA[Docker's Sandbox Kit Specification v3 packages an AI agent's network rules, credentials, and volumes as an ordinary, pinnable OCI image.]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">Agents need containment, and a sandbox is only half of it. Something still has to say which agent runs there, what it gets, and what it may touch. That is a Kit: an ordinary OCI image, so the answer travels with the agent and means the same thing on any conforming runtime. Today we published the Docker Sandbox Kit Specification v3, open source under Apache 2.0 at <a href="https://github.com/docker/sandbox-kit-spec" id="dkr_dockersandbox-kit-spec-94091" rel="nofollow noopener" target="_blank">docker/sandbox-kit-spec</a>. Here is why I wrote it.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Everything that makes an agent useful is a grant</strong></h2>
+
+
+
+<p class="wp-block-paragraph">I run a lot of agents. They write code, run tests, install dependencies, call APIs, and work on infrastructure while I do something else. None of it happens without access, so I grant it one piece at a time: a bind mount, a token with broader scope than the task needs, a firewall rule that was quicker to open than to narrow. Each grant is reasonable on its own. Together they take back the isolation I was relying on, and none needed an exploit. The holes are configuration, added on purpose, usually by me.</p>
+
+
+
+<p class="wp-block-paragraph">I am worse at taking any of it back, and I could not reproduce the grants my setup depends on. No file records them. They live in shell history, dashboards, and my memory. I cannot hand that to a colleague or diff it against last week.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Containers package applications. Sandboxes contain agents.</strong></h2>
+
+
+
+<p class="wp-block-paragraph">A container packages applications. It shares the host kernel and uses namespaces and cgroups to give one fixed workload its own view of the filesystem, network, and processes. That is the right tool for software that runs, does its job, and touches only what it was handed.</p>
+
+
+
+<p class="wp-block-paragraph">An agent, however, is a probabilistic actor. It decides what to do next and then does it, to my filesystem, network, credentials, and cloud account. It will install a package that needs root, open a port nobody planned for, and try the next thing when the first is blocked. A container was not built for that: the boundary is the same kernel the actor is probing.</p>
+
+
+
+<p class="wp-block-paragraph">A Docker Sandbox is a microVM with its own kernel, so the boundary sits below anything the model can reach or rewrite. Inside one I can hand an agent root and let it loose, because the damage stops at the sandbox boundary. The sandbox is what lets me run an agent with the safeties off.</p>
+
+
+
+<p class="wp-block-paragraph">But an empty sandbox is not an environment. Something still has to say which agent runs, which tools and MCP servers it gets, which skills and instructions shape it, and exactly what it may touch.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>What a Dockerfile cannot say</strong></h2>
+
+
+
+<p class="wp-block-paragraph">A Dockerfile answers everything about the software itself: how it is built, what gets packaged, how it starts. It was never standardized; OCI standardized the image it produces and how registries distribute it. What a Dockerfile does not describe is the outside: networks, credentials, volumes, tools, context. That half has lived in <code>docker run</code> flags, a Compose file, a CI config, and someone&#8217;s memory. Unversioned, unreviewable. A Kit writes it down with the content.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>One image, one digest</strong></h2>
+
+
+
+<p class="wp-block-paragraph">If you have used <code>sbx</code>, you have used Kits. This is the third version of the format, and the change that matters is that a Kit is now an ordinary OCI image rather than its own artifact: no media type, no sidecar file, nothing for a registry to learn. The manifest carries the declarations in one annotation, <code>vnd.docker.sandbox.kit.descriptor</code>; the layers carry the content.</p>
+
+
+
+<p class="wp-block-paragraph">A Kit therefore builds with <code>docker buildx build</code>, pulls with <code>docker pull</code>, gets scanned and signed by the tooling you already run, and works in a <code>FROM</code>. Pinning the digest pins content, declarations, and metadata together. The tooling and distribution path are free; the format is something you learn: a grammar, a page per capability type, <code>provides</code> and <code>requires</code>, <code>kind: set</code>.</p>
+
+
+
+<p class="wp-block-paragraph">Two kinds of Kit exist. A workload runs and supplies the root filesystem. A mixin is an overlay: a CLI with its network rule, a credential binding, context for an agent. You launch one workload and any number of mixins.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Authority you can read</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Part of the GitHub CLI mixin in the repository:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: xml; title: ; notranslate">
+capabilities:
+  - type: com.docker.sandbox/network-policy@2
+    config:
+      runtime:
+        allow:
+          - github.com
+          - hosts: &#x5B;api.github.com]
+            methods: &#x5B;GET, HEAD, POST, PATCH, PUT, DELETE]
+        deny:
+          - hosts: &#x5B;api.github.com]
+            methods: &#x5B;DELETE]
+            paths: &#x5B;/repos/**]
+
+  - type: com.docker.sandbox/credential@1
+    optional: true
+    config:
+      service: github
+      phase: runtime
+      apiKey:
+        name: GH_TOKEN
+        proxyManaged: true
+        inject:
+          - {domain: api.github.com, header: Authorization, format: &quot;Bearer %s&quot;}
+</pre></div>
+
+
+<p class="wp-block-paragraph">Read it as a permission slip. This Kit asks to reach GitHub and nowhere else, and for most of the API but not deletes under <code>/repos/**</code>, because deny wins. The token that can open a pull request cannot delete the repository. The credential is proxy-managed: a conforming runtime injects the real value into requests to the named domains, and inside the sandbox there is only a sentinel.</p>
+
+
+
+<p class="wp-block-paragraph">Two words carry weight: <em>asks</em> and <em>conforming</em>. A Kit grants itself nothing. Each entry is a request, and the host decides. A conforming runtime, one that implements the behaviour the specification describes, blocks hosts not on the list. Without one, the annotation is inert: an image and no enforcement. Docker Sandboxes is the first conforming runtime.</p>
+
+
+
+<p class="wp-block-paragraph">Everything a Kit needs goes through that one list, typed and versioned. Grants (network rules, credentials, volumes, ports, devices, skills paths) count toward &#8220;what may this Kit do&#8221;; entries that ask the runtime to act, like a lifecycle hook, do not. A required request the host cannot satisfy refuses the launch, rather than starting an agent with less authority than it declared, or more.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Composition is a function, not a sequence</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Container images never solved multiple inheritance: a Dockerfile stage has one <code>FROM</code>. Mixins are overlays ordered by the dependency graph the Kits declare through <code>provides</code> and <code>requires</code>, never by the order you typed the flags, so the same set always composes to the same image.</p>
+
+
+
+<p class="wp-block-paragraph">The resolver is strict on purpose. Every <code>requires</code> is satisfied from inside the set or resolution fails; nothing is fetched to cover a gap. Exactly one workload is allowed. Two Kits providing the same name fail rather than one silently shadowing the other (composing the Claude workload with the Claude mixin is the canonical mistake). Where Kits overlap, declarations reconcile: network rules union, hooks run in dependency order, guidance becomes one document, licenses union. Incompatible requests are an error, not a coin flip.</p>
+
+
+
+<p class="wp-block-paragraph">A <code>kind: set</code> descriptor names other Kits; publishing it runs the same coherence rules at build time and merges them into one ordinary Kit. An incoherent set fails at your build, not at someone else&#8217;s launch.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>The diff is the review</strong></h2>
+
+
+
+<p class="wp-block-paragraph">The Claude Code Kit in the repository declares the hosts it asks to reach, its credential, the volumes that persist between sessions, and its install and startup hooks. When the next version asks for another host or a second credential, that is a change in authority, not a software update, and it shows up in the pull request as added lines a human can refuse.</p>
+
+
+
+<p class="wp-block-paragraph">Review depends on somebody reading the diff, so the specification defines a second gate that does not. Every descriptor reduces to a normalized set of everything the host would have to grant; a runtime that gates updates records that set and compares the next version against it. A version inside what was granted may apply without asking. Any widening stops and asks, and removing a deny rule counts: if a later <code>gh</code> Kit dropped <code>DELETE /repos/**</code>, the runtime holds the upgrade. That is why the declarations had to live in the artifact, not beside it.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Why this is a specification and not a feature</strong></h2>
+
+
+
+<p class="wp-block-paragraph">A Kit that stopped meaning anything when run somewhere else would be lock-in, not a trust boundary. So the grammar is normative, every capability type has its own page describing what a conforming runtime must implement, and types version independently (<code>network-policy@1</code> and <code>@2</code> both exist today). Two conformance suites ship with it: one judges whether an artifact is a conforming Kit, the other whether a runtime behaves as the pages say. Every normative statement is covered by a check or a written waiver.</p>
+
+
+
+<p class="wp-block-paragraph">Docker maintains the specification today, and it should not stay under a single vendor: a format for deciding what an agent may do is worth less if it belongs to whoever sells you the runtime. Docker Sandboxes will be a first-class implementation, not the only one. If a Kit you want cannot be expressed, or a runtime duty cannot be implemented as stated, open an issue.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Try it</strong></h2>
+
+
+
+<p class="wp-block-paragraph">sbx is our sandbox CLI (<a href="https://github.com/docker/sbx-releases#install" id="dkr_brew-install-dockertapsbx-94091" rel="nofollow noopener" target="_blank">brew install docker/tap/sbx</a>). From a checkout of the repository:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: xml; title: ; notranslate">
+cd examples
+sbx run ./hello --kit ./gh .
+</pre></div>
+
+
+<p class="wp-block-paragraph">Edit a descriptor and only that Kit rebuilds; <code>docker buildx build</code> publishes it to any registry. Docker Cloud Sandboxes runs the same Kits with the same trust model on elastic capacity. The specification, capability pages, and a worked tour are in docker/sandbox-kit-spec.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Not only agents</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Agents forced this into the open because the authority they ask for is so large, but ordinary workloads have always arrived with unwritten expectations: the endpoints they call, the credentials they need, the volume that must survive a restart. That knowledge has lived in a Helm chart, a runbook, or a colleague. It is the same gap, less alarming when a web service gets it wrong. This specification is where any software writes down what it needs from the world around it; agents were the case urgent enough to have it built.</p>
+
+
+
+<p class="wp-block-paragraph">Dockerfiles made software reproducible. Kits make authority reproducible.</p>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Docker and CNCF partner on an open spec for agent permissions</title>
+		<link>https://www.docker.com/blog/docker-sandbox-kit-spec-cncf/</link>
+		
+		<dc:creator><![CDATA[Jin Kim]]></dc:creator>
+		<pubDate>Thu, 24 Sep 2026 16:00:00 +0000</pubDate>
+				<category><![CDATA[Company]]></category>
+		<category><![CDATA[Partnerships]]></category>
+		<category><![CDATA[Products]]></category>
+		<category><![CDATA[CNCF]]></category>
+		<category><![CDATA[Docker]]></category>
+		<category><![CDATA[Open Container Initiative (OCI)]]></category>
+		<category><![CDATA[Sandbox Kit]]></category>
+		<category><![CDATA[sandboxes]]></category>
+		<guid isPermaLink="false">https://www.docker.com/?p=94077</guid>
+
+					<description><![CDATA[Docker is bringing the open source Sandbox Kit Spec to the CNCF, so AI agent permissions become a neutral, vendor independent standard built on OCI.]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph"><em><strong>Docker and CNCF: Making what an agent may do as portable as t</strong></em><strong><em>he agent itself</em></strong></p>
+
+
+
+<p class="wp-block-paragraph">Ten years ago, the software industry faced a choice. Every vendor could ship its own image format and its own runtime, and developers would have to pick a side. Or the industry could agree on one artifact. The second option won. Docker donated its image format and the Runc runtime to the Linux Foundation, and the Open Container Initiative (OCI) formed around them. Today, a Docker image built anywhere can run anywhere. The format is the backbone of the cloud native ecosystem and a de facto standard.</p>
+
+
+
+<p class="wp-block-paragraph">Now, we see a similar problem forming around agents. There is no shared format for what an agent is allowed to do. We are proposing the same kind of answer: one artifact, built on OCI, governed in the open.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>The same problem, for agents</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Containers were built for immutable software. The image is the application. If you want to change it, you rebuild it, and it behaves the same way everywhere. That’s why a container image describes how software is built and says nothing about what it may do once it runs. For a web service, that was fine. It got a network and a port, and that was enough.</p>
+
+
+
+<p class="wp-block-paragraph">Agents are mutable by definition. Claude Code and Codex install packages, call APIs, and use credentials on your behalf. They change the environment they run in, and they decide what to do next. So, every team writes its own rules for what an agent may reach: a network rule here, a token there, a volume mount to get a task done. Those rules live in shell history, in dashboards, and in someone&#8217;s memory. A few months in, nobody can answer a simple question: what is this agent allowed to do?</p>
+
+
+
+<p class="wp-block-paragraph">Every team answers that on its own today, and every runtime vendor could ship its own way of answering it. That’s the kind of fragmentation OCI was created to prevent.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>What we are announcing</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Kits are not new. Kits have been part of Docker Sandboxes as the way you package an agent, its tools, and what it may reach into something a team can share. What&#8217;s new is the artifact. A Kit is now an ordinary OCI image, and the format that describes it is open.</p>
+
+
+
+<p class="wp-block-paragraph">Today at WeAreDevelopers, we announced the Docker Sandbox Kit Spec, open source under Apache 2.0. A Kit carries three things in one image: the agent, its tools, and a typed list of everything it asks to reach, such as hosts, credentials, and volumes. Because the list is part of the image, pinning the image pins the agent and its requests together.</p>
+
+
+
+<p class="wp-block-paragraph">A Kit is not a new artifact type and not a fork of any OCI specification. It uses an extension point OCI already defines. It builds, pushes, pulls, signs, and scans like any image you run today, because it is one.</p>
+
+
+
+<p class="wp-block-paragraph">Today, we’re bringing the spec to CNCF, under their neutral governance, just like we did when the image format went to OCI.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Why it matters</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Adoption is free. Because a Kit is an OCI image, every registry, scanner, and signing tool you already run handles it. There is nothing new to deploy.</p>
+
+
+
+<p class="wp-block-paragraph">The answer travels with the agent. Because the requests are in the image, &#8220;what may this agent do&#8221; has one answer. A teammate can pull it. A reviewer can diff it. A conforming runtime can enforce it. When a new version asks for more, the change shows up as added lines someone can refuse.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>An ecosystem, not a format</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Docker has always had an ecosystem-first mindset. The Dockerfile mattered because anyone could write one, any registry could store the result, and any runtime could run it. Kits follow the same approach, and we did not build them alone.</p>
+
+
+
+<p class="wp-block-paragraph">We have worked with AWS, Box, Datadog, Dynatrace, JFrog, NanoClaw, OpenClaw, Palo Alto Networks, Snyk, and more to build Kits for their tools. Cloud platforms, observability, security, artifact management, content, and agent frameworks are all represented. The Kits we unveiled during the opening keynote at WeAreDevelopers today are the product of all that work, and they are the first of many.</p>
+
+
+
+<p class="wp-block-paragraph">MCP gave agents a standard way to talk to a tool. Kits give the ecosystem a standard way to publish the whole arrangement: the agent, its tools, and what it asks to reach, in one image anyone can pull. That’s what turns a format into a supply chain. For example, a database vendor can publish a Kit that connects any agent to its service with the scope it recommends.An agent maker publishes its own Kit, so the request list comes from the people who built the agent. A platform team publishes one for the company, and every engineer starts from the same place.</p>
+
+
+
+<p class="wp-block-paragraph">None of that happens if the format belongs to one vendor. A standard for deciding what an agent may do is worth a good deal less if it belongs to whoever sells you the runtime. Docker Sandboxes is the first runtime that enforces it. It should not be the only one, and under CNCF governance, it will not be.</p>
+
+
+
+<p class="wp-block-paragraph">Containers made software portable. Kits make authority portable: the set of things you deliberately hand over to an agent travels with the agent, in the same image, and means the same thing wherever a conforming runtime opens it.</p>
+
+
+
+     
+<div class="organism wp-block-ponyo-galen">
+    <div class="container fade-in left">
+        
+        
+        <div class="galen-content">
+            <h3>&#8220;<em>Standards are what let an ecosystem move fast without fragmenting, and few companies understand that better than Docker. By delivering Sandbox Kits as standard OCI images, Docker is giving the industry an open, repeatable way to package an AI agent, its tools, and its guardrails as one artifact. OCI is the foundation the cloud native ecosystem is built on, so a standard for agents that builds on OCI reaches the whole ecosystem at once. The CNCF welcomes this, and we&#8217;re excited to work with Docker and the community on making it broadly adopted.</em>&#8220;</h3>
+            <div>
+                <p class="name">Chris Aniszczyk</p>
+                <p class="title">CTO at CNCF</p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<h2 class="wp-block-heading"><strong>Build a Kit</strong></h2>
+
+
+
+<p class="wp-block-paragraph">If you make a tool agents use, publish a Kit for it. If you run agents, start from one and share it with your team. The specification, the capability pages, and a worked tour of a real Kit are at docker/sandbox-kit-spec. If there is a Kit you cannot express, or a rule a runtime cannot implement, open an issue. Every Kit published and every issue filed is how a standard gets built.</p>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Introducing Cloud Sandboxes: Start on Your Laptop, Finish in the Cloud</title>
+		<link>https://www.docker.com/blog/introducing-cloud-sandboxes-start-on-your-laptop-finish-in-the-cloud/</link>
+		
+		<dc:creator><![CDATA[PeiFang Sung]]></dc:creator>
+		<pubDate>Thu, 24 Sep 2026 16:00:00 +0000</pubDate>
+				<category><![CDATA[Products]]></category>
+		<category><![CDATA[agents]]></category>
+		<category><![CDATA[cloud]]></category>
+		<category><![CDATA[Cloud Sandboxes]]></category>
+		<category><![CDATA[Docker Sandboxes]]></category>
+		<category><![CDATA[Long-Horizon Work]]></category>
+		<category><![CDATA[MicroVM]]></category>
+		<guid isPermaLink="false">https://www.docker.com/?p=93924</guid>
+
+					<description><![CDATA[Run agents on your laptop, in the cloud, and move between them with one command, all safely. Earlier this year we launched Docker Sandboxes: microVM environments where coding agents can work autonomously in a safe way.]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph"><em><em>Run agents on your laptop, in the cloud, and move between them with one command, all safely. Earlier this year, we launched Docker Sandboxes: microVM environments where coding agents can work autonomously and safely. </em></em></p>
+
+
+
+<p class="wp-block-paragraph"><em>Since then, agents have started taking on long-horizon work: tasks that run for hours, not minutes. Agents need a new place to work. Today, we&#8217;re introducing Cloud Sandboxes: the same microVM-based sandbox, running on Docker-managed compute, with one command to move between them. </em></p>
+
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+
+
+<p class="wp-block-paragraph">The most important change in coding agents over the past year is that they can work for much longer. Tasks that used to need a developer checking in every few minutes (a large refactor, a dependency migration, a test suite that takes an hour) you can now hand off and review when they finish.</p>
+
+
+
+<p class="wp-block-paragraph">When agents worked in short bursts, the question was whether the model could hold a task together. Now that they work in hours, the question is where those hours happen. A laptop is built around a person. It sleeps when the lid closes, slows down on battery, and disconnects when you move. None of that matters for a task that takes thirty seconds. All of it matters for a task that takes all night.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>We built Docker Sandboxes to answer the first question about agents: is it safe to run unattended?</strong> In Docker Sandboxes, agents run in a microVM with its own kernel and Docker daemon, isolated from your machine, so they can work autonomously while your files, network, and secrets are protected if an agent steps out of line.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Today, we&#8217;re introducing Cloud Sandboxes</strong> to answer the second question: how do I run a dozen agents at once, for five, ten, or 21 hours each, without watching any of them? Cloud Sandboxes is the same microVM, running on Docker-managed compute. The isolation model is identical. The CLI is identical. What changes is that the machines underneath are always on, and there are as many of them as you need.</p>
+
+
+
+
+
+<div class="wp-block-ponyo-image">
+                <img decoding="async" width="1626" height="904" src="https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-11.59.36-AM.png" class="fade-in" alt="Screenshot 2026 09 23 at 11.59.36 AM" srcset="https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-11.59.36-AM.png 1626w, https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-11.59.36-AM-1536x854.png 1536w, https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-11.59.36-AM-600x334.png 600w, https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-11.59.36-AM-250x139.png 250w, https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-11.59.36-AM-64x36.png 64w" sizes="(max-width: 1626px) 100vw, 1626px" title="- Screenshot 2026 09 23 at 11.59.36 AM">
+        </div>
+
+
+
+<p class="wp-block-paragraph">Here&#8217;s what that means for you:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Close your laptop and keep the work going.</strong> Start an agent in the cloud before you leave for the day, disconnect, and review what they did in the morning.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Start local and move to the cloud when your task outgrows your laptop.</strong> Iterate with an agent on the code in front of you, then hand off long tasks and loops to a background agent.</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; gutter: false; title: ; notranslate">
+$ sbx move my-project --to cloud
+</pre></div>
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<p class="wp-block-paragraph">A move captures the sandbox&#8217;s filesystem and recreates it on the other side, so your work carries over. This works in both directions.<br></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Run 100 tasks in parallel with nothing to provision.</strong> Docker runs the compute. You point your agents at it. Each one gets its own microVM, its own secrets, and its own network policy.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Try things cheaply.</strong> Run a pre-built agent for an hour to test an idea, then spin it down.</p>
+
+
+
+<h2 class="wp-block-heading">Everything an agent needs to run on its own</h2>
+
+
+
+<p class="wp-block-paragraph">Agents that do long-horizon work without you need three things:</p>
+
+
+
+<ol class="wp-block-list">
+<li>A way to start with nothing to install</li>
+
+
+
+<li>Tools to do their jobs</li>
+
+
+
+<li>Limits on what it can reach</li>
+</ol>
+
+
+
+<p class="wp-block-paragraph">Cloud Sandboxes ship with all three. You can spin up and manage Cloud Sandboxes from the CLI or from the web console.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Kits.</strong> A kit is a pre-configured, pre-built sandbox for an agent. The leading coding agents are ready today, including Claude Code, Codex, Copilot, Antigravity, Open Code and Hermes. Or, you can easily add your own. It’s easy to spin up. sbx &#8211;cloud run codex starts one, for example. </p>
+
+
+
+
+
+<div class="wp-block-ponyo-image">
+                <img decoding="async" width="2320" height="906" src="https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.01.19-PM-2320x906.png" class="fade-in" alt="Screenshot 2026 09 23 at 12.01.19 PM" srcset="https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.01.19-PM-2320x906.png 2320w, https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.01.19-PM-1640x640.png 1640w, https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.01.19-PM-1536x600.png 1536w, https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.01.19-PM-2048x799.png 2048w, https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.01.19-PM-600x234.png 600w, https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.01.19-PM-250x98.png 250w, https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.01.19-PM-64x25.png 64w" sizes="(max-width: 1160px) 100vw, 1160px" title="- Screenshot 2026 09 23 at 12.01.19 PM">
+        </div>
+
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<p class="wp-block-paragraph"><strong>MCP.</strong> Connect the MCP servers your agents need (Jira, Linear, Grafana, incident.io, or any streamable HTTP endpoint) once, and all your agents can reach them through a single gateway whether they’re running in the cloud, locally, or in other clients like the ChatGPT desktop app.<br></p>
+
+
+
+
+
+<div class="wp-block-ponyo-image">
+                <img decoding="async" width="2320" height="1061" src="https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.01.41-PM-2320x1061.png" class="fade-in" alt="Screenshot 2026 09 23 at 12.01.41 PM" srcset="https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.01.41-PM-2320x1061.png 2320w, https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.01.41-PM-1640x750.png 1640w, https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.01.41-PM-1536x703.png 1536w, https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.01.41-PM-2048x937.png 2048w, https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.01.41-PM-600x274.png 600w, https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.01.41-PM-250x114.png 250w, https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.01.41-PM-64x29.png 64w" sizes="(max-width: 1160px) 100vw, 1160px" title="- Screenshot 2026 09 23 at 12.01.41 PM">
+        </div>
+
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Secrets.</strong> Store keys or tokens once. Cloud Sandboxes proxy injects it per request, so agents don’t see the actual secret. Prompt injections can’t touch secrets your agents never had in the first place.<br></p>
+
+
+
+
+
+<div class="wp-block-ponyo-image">
+                <img decoding="async" width="2320" height="760" src="https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.02.03-PM-2320x760.png" class="fade-in" alt="Screenshot 2026 09 23 at 12.02.03 PM" srcset="https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.02.03-PM-2320x760.png 2320w, https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.02.03-PM-1640x537.png 1640w, https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.02.03-PM-1536x503.png 1536w, https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.02.03-PM-2048x671.png 2048w, https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.02.03-PM-600x197.png 600w, https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.02.03-PM-250x82.png 250w, https://www.docker.com/app/uploads/2026/09/Screenshot-2026-09-23-at-12.02.03-PM-64x21.png 64w" sizes="(max-width: 1160px) 100vw, 1160px" title="- Screenshot 2026 09 23 at 12.02.03 PM">
+        </div>
+
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Policies.</strong> Set network policies on what endpoints agents can access by defining them once. Centralized governance is coming soon for enterprises through <a href="https://www.docker.com/products/ai-governance/" id="dkr_docker-ai-governance-93924">Docker AI Governance</a>.</p>
+
+
+
+<p class="wp-block-paragraph">You can access and manage all of this through the web console.</p>
+
+
+
+<h2 class="wp-block-heading">Why one sandbox in two places</h2>
+
+
+
+<p class="wp-block-paragraph">We could have built Cloud Sandboxes as a separate product with its own commands. We didn&#8217;t, and the reason is simple: how much you can trust your agent shouldn&#8217;t depend on where it happens to be running.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>As far as we know, no other agent sandbox works this way. </strong>We think the right answer to using agents is one strong isolation model that runs in both surfaces (locally and in the cloud), and an easy way (one command) to move between them.</p>
+
+
+
+<p class="wp-block-paragraph">These aren&#8217;t two tiers of one product. Interactive work belongs on your laptop. Work that takes hours belongs in the cloud. Most developers need both, and now you don&#8217;t have to pick.</p>
+
+
+
+<h2 class="wp-block-heading">Pricing</h2>
+
+
+
+<p class="wp-block-paragraph"><strong>Cloud Sandboxes are pay-as-you-go.</strong> We meter compute by the second, and nothing else. A paused sandbox costs nothing. Volumes, egress, and hosting public images and Kits are free. You can bring your own model key and keep your existing provider for inference.<br></p>
+
+
+
+ <div style="--row-column-count: 4;" class="wp-block-ponyo-table" data-highlighted-columns="null" data-highlighted-rows="null">
+    <table class="responsive-table">
+        
+
+
+ 
+
+
+                                                                                <tbody style="--grid-template-columns: 1fr 1fr 1fr 1fr;" class="wp-block-ponyo-table-body" data-highlighted-columns="[]" data-highlighted-rows="[]">
+    
+
+
+ 
+<tr class="wp-block-ponyo-table-header">
+    
+
+
+        <th class="wp-block-ponyo-cell" data-responsive-table-heading="Size">
+        
+
+<p class="wp-block-paragraph">Size</p>
+
+
+            </th>
+
+
+
+
+        <th class="wp-block-ponyo-cell" data-responsive-table-heading="vCPUs">
+        
+
+<p class="wp-block-paragraph">vCPUs</p>
+
+
+            </th>
+
+
+
+
+        <th class="wp-block-ponyo-cell" data-responsive-table-heading="Memory">
+        
+
+<p class="wp-block-paragraph">Memory</p>
+
+
+            </th>
+
+
+
+
+        <th class="wp-block-ponyo-cell" data-responsive-table-heading="Per hour">
+        
+
+<p class="wp-block-paragraph">Per hour</p>
+
+
+            </th>
+
+
+</tr> 
+
+
+
+ 
+<tr class="wp-block-ponyo-table-row">
+    
+
+
+    <td class="wp-block-ponyo-cell">
+                    <span class="responsive-table-label"></span>
+                
+                    <span class="responsive-table-value">
+                                                    <span class="responsive-table-value-content">
+                        
+
+<p class="wp-block-paragraph">Micro</p>
+
+
+                    </span>
+                                            </span>
+            </td>
+
+
+
+
+    <td class="wp-block-ponyo-cell">
+                    <span class="responsive-table-label"></span>
+                
+                    <span class="responsive-table-value">
+                                                    <span class="responsive-table-value-content">
+                        
+
+<p class="wp-block-paragraph">1</p>
+
+
+                    </span>
+                                            </span>
+            </td>
+
+
+
+
+    <td class="wp-block-ponyo-cell">
+                    <span class="responsive-table-label"></span>
+                
+                    <span class="responsive-table-value">
+                                                    <span class="responsive-table-value-content">
+                        
+
+<p class="wp-block-paragraph">2 GiB</p>
+
+
+                    </span>
+                                            </span>
+            </td>
+
+
+
+
+    <td class="wp-block-ponyo-cell">
+                    <span class="responsive-table-label"></span>
+                
+                    <span class="responsive-table-value">
+                                                    <span class="responsive-table-value-content">
+                        
+
+<p class="wp-block-paragraph">$0.07</p>
+
+
+                    </span>
+                                            </span>
+            </td>
+
+
+</tr> 
+
+
+
+ 
+<tr class="wp-block-ponyo-table-row">
+    
+
+
+    <td class="wp-block-ponyo-cell">
+                    <span class="responsive-table-label"></span>
+                
+                    <span class="responsive-table-value">
+                                                    <span class="responsive-table-value-content">
+                        
+
+<p class="wp-block-paragraph">Small (default)</p>
+
+
+                    </span>
+                                            </span>
+            </td>
+
+
+
+
+    <td class="wp-block-ponyo-cell">
+                    <span class="responsive-table-label"></span>
+                
+                    <span class="responsive-table-value">
+                                                    <span class="responsive-table-value-content">
+                        
+
+<p class="wp-block-paragraph">2</p>
+
+
+                    </span>
+                                            </span>
+            </td>
+
+
+
+
+    <td class="wp-block-ponyo-cell">
+                    <span class="responsive-table-label"></span>
+                
+                    <span class="responsive-table-value">
+                                                    <span class="responsive-table-value-content">
+                        
+
+<p class="wp-block-paragraph">4 GiB</p>
+
+
+                    </span>
+                                            </span>
+            </td>
+
+
+
+
+    <td class="wp-block-ponyo-cell">
+                    <span class="responsive-table-label"></span>
+                
+                    <span class="responsive-table-value">
+                                                    <span class="responsive-table-value-content">
+                        
+
+<p class="wp-block-paragraph">$0.14</p>
+
+
+                    </span>
+                                            </span>
+            </td>
+
+
+</tr> 
+
+
+
+ 
+<tr class="wp-block-ponyo-table-row">
+    
+
+
+    <td class="wp-block-ponyo-cell">
+                    <span class="responsive-table-label"></span>
+                
+                    <span class="responsive-table-value">
+                                                    <span class="responsive-table-value-content">
+                        
+
+<p class="wp-block-paragraph">Medium</p>
+
+
+                    </span>
+                                            </span>
+            </td>
+
+
+
+
+    <td class="wp-block-ponyo-cell">
+                    <span class="responsive-table-label"></span>
+                
+                    <span class="responsive-table-value">
+                                                    <span class="responsive-table-value-content">
+                        
+
+<p class="wp-block-paragraph">4</p>
+
+
+                    </span>
+                                            </span>
+            </td>
+
+
+
+
+    <td class="wp-block-ponyo-cell">
+                    <span class="responsive-table-label"></span>
+                
+                    <span class="responsive-table-value">
+                                                    <span class="responsive-table-value-content">
+                        
+
+<p class="wp-block-paragraph">8 GiB</p>
+
+
+                    </span>
+                                            </span>
+            </td>
+
+
+
+
+    <td class="wp-block-ponyo-cell">
+                    <span class="responsive-table-label"></span>
+                
+                    <span class="responsive-table-value">
+                                                    <span class="responsive-table-value-content">
+                        
+
+<p class="wp-block-paragraph">$0.28</p>
+
+
+                    </span>
+                                            </span>
+            </td>
+
+
+</tr> 
+
+
+
+ 
+<tr class="wp-block-ponyo-table-row">
+    
+
+
+    <td class="wp-block-ponyo-cell">
+                    <span class="responsive-table-label"></span>
+                
+                    <span class="responsive-table-value">
+                                                    <span class="responsive-table-value-content">
+                        
+
+<p class="wp-block-paragraph">Large</p>
+
+
+                    </span>
+                                            </span>
+            </td>
+
+
+
+
+    <td class="wp-block-ponyo-cell">
+                    <span class="responsive-table-label"></span>
+                
+                    <span class="responsive-table-value">
+                                                    <span class="responsive-table-value-content">
+                        
+
+<p class="wp-block-paragraph">8</p>
+
+
+                    </span>
+                                            </span>
+            </td>
+
+
+
+
+    <td class="wp-block-ponyo-cell">
+                    <span class="responsive-table-label"></span>
+                
+                    <span class="responsive-table-value">
+                                                    <span class="responsive-table-value-content">
+                        
+
+<p class="wp-block-paragraph">16 GiB</p>
+
+
+                    </span>
+                                            </span>
+            </td>
+
+
+
+
+    <td class="wp-block-ponyo-cell">
+                    <span class="responsive-table-label"></span>
+                
+                    <span class="responsive-table-value">
+                                                    <span class="responsive-table-value-content">
+                        
+
+<p class="wp-block-paragraph">$0.56</p>
+
+
+                    </span>
+                                            </span>
+            </td>
+
+
+</tr> 
+
+
+
+ 
+<tr class="wp-block-ponyo-table-row">
+    
+
+
+    <td class="wp-block-ponyo-cell">
+                    <span class="responsive-table-label"></span>
+                
+                    <span class="responsive-table-value">
+                                                    <span class="responsive-table-value-content">
+                        
+
+<p class="wp-block-paragraph">XL</p>
+
+
+                    </span>
+                                            </span>
+            </td>
+
+
+
+
+    <td class="wp-block-ponyo-cell">
+                    <span class="responsive-table-label"></span>
+                
+                    <span class="responsive-table-value">
+                                                    <span class="responsive-table-value-content">
+                        
+
+<p class="wp-block-paragraph">16</p>
+
+
+                    </span>
+                                            </span>
+            </td>
+
+
+
+
+    <td class="wp-block-ponyo-cell">
+                    <span class="responsive-table-label"></span>
+                
+                    <span class="responsive-table-value">
+                                                    <span class="responsive-table-value-content">
+                        
+
+<p class="wp-block-paragraph">32 GiB</p>
+
+
+                    </span>
+                                            </span>
+            </td>
+
+
+
+
+    <td class="wp-block-ponyo-cell">
+                    <span class="responsive-table-label"></span>
+                
+                    <span class="responsive-table-value">
+                                                    <span class="responsive-table-value-content">
+                        
+
+<p class="wp-block-paragraph">$1.12</p>
+
+
+                    </span>
+                                            </span>
+            </td>
+
+
+</tr> 
+
+</tbody>
+
+
+    </table>
+</div>
+
+
+
+<p class="wp-block-paragraph">Sandboxes run for one hour by default and up to 24 hours per session.</p>
+
+
+
+<h2 class="wp-block-heading">Get started</h2>
+
+
+
+<p class="wp-block-paragraph">From the browser: <strong>sign in to the <a href="https://agentic-platform.docker.com/" id="dkr_web-console-93924" rel="nofollow noopener" target="_blank">web console</a></strong>, choose a kit, and click Run. </p>
+
+
+
+<p class="wp-block-paragraph">From the terminal:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; gutter: false; title: ; notranslate">
+$ brew install docker/tap/sbx
+$ sbx login
+$ sbx --cloud run claude
+
+</pre></div>
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<p class="wp-block-paragraph">You&#8217;ll need <a href="https://github.com/docker/sbx-releases/releases" id="dkr_sbx-0451-93924" rel="nofollow noopener" target="_blank">sbx 0.45.1</a> or later and the pay-as-you-go plan, available on Docker Personal and Pro accounts. Docker Sandboxes on your laptop remain free and standalone, with no Docker Desktop required. Local and cloud sandboxes keep separate secrets, templates, and network policies, so read the differences in the docs before you move a local workflow.</p>
+
+
+
+<p class="wp-block-paragraph">For a limited time, new accounts <strong>get $250 in free Cloud Sandboxes credit. <a href="https://www.docker.com/c/sbx-promo/" id="dkr_claim-it-here-93924">Claim it here</a>.</strong></p>
+
+
+
+<p class="wp-block-paragraph">We think the way software gets built is changing. Developers will spend less time typing and more time directing: handing agents real tasks, stepping back, and reviewing what comes back. For that to work, agents need environments that are safe enough to run unsupervised and durable enough to run for hours. That&#8217;s what Docker Sandboxes is for, and as of today, it runs on your laptop and in the cloud.</p>
+
+
+
+<p class="wp-block-paragraph">Start one before you close your laptop tonight.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Meet the Ecosystem: Partners and Customers at WeAreDevelopers with Docker</title>
+		<link>https://www.docker.com/blog/wearedevelopers-partner-customer-sessions-2026/</link>
+		
+		<dc:creator><![CDATA[Jin Kim]]></dc:creator>
+		<pubDate>Tue, 22 Sep 2026 15:06:15 +0000</pubDate>
+				<category><![CDATA[Community]]></category>
+		<category><![CDATA[agents]]></category>
+		<category><![CDATA[AI/ML]]></category>
+		<category><![CDATA[developers]]></category>
+		<category><![CDATA[sandboxes]]></category>
+		<category><![CDATA[WeAreDevelopers]]></category>
+		<guid isPermaLink="false">https://www.docker.com/?p=93953</guid>
+
+					<description><![CDATA[Meet the partners and customers bringing practical AI, security, and development sessions to the Docker Pavilion at WeAreDevelopers. The post explains why a strong ecosystem matters to developers, announces the sessions and speakers, and invites attendees to connect with the teams building and using these technologies.]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">As teams put AI agents to work, they need to move quickly without losing control of what they deploy. They’re combining models, tools, and infrastructure from across a fast-changing ecosystem. Making those pieces work together and keeping them accountable as the stack evolves is becoming a core part of building AI applications.</p>
+
+
+
+<p class="wp-block-paragraph">Docker&#8217;s approach to this challenge is providing a trusted, common foundation for containment, curation, and control of agent workloads at its core, while pairing those capabilities with an open ecosystem of partners and tools.</p>
+
+
+
+<p class="wp-block-paragraph">That ecosystem spans model providers, MCP tools and gateways, enterprise applications, data and memory platforms, identity, security, observability, and code quality. It also includes the cloud providers, systems integrators, and channel partners that help organizations bring these capabilities into production. </p>
+
+
+
+<p class="wp-block-paragraph">Integrating this ecosystem gives teams the freedom to choose the models, platforms, and clouds that fit their needs while maintaining a consistent foundation for governance. Developers remain in the lead: choosing what agents can access, directing their work, and verifying the outcomes. The goal is to give them the tools and guardrails to build with confidence as models, frameworks, and requirements change.</p>
+
+
+
+<p class="wp-block-paragraph">At<a href="https://www.wearedevelopers.com/world-congress-north-america" id="dkr_-wearedevelopers-world-congress-north-america-93953" rel="nofollow noopener" target="_blank"> WeAreDevelopers World Congress North America</a>, September 23–25 in San Jose, partners and customers are bringing that ecosystem to life at the Docker Pavilion. Customer sessions will show how these technologies come together in practice, from repeatable AI deployments at the edge to simpler development with payment APIs. Lightning talks and demos will explore enterprise knowledge and agent memory, collaboration between agents, security and incident response, and verification of generated code. </p>
+
+
+
+<p class="wp-block-paragraph">Here’s who you can meet and what they’ll be sharing.</p>
+
+
+
+<h2 class="wp-block-heading">Customer talks — September 24</h2>
+
+
+
+<p class="wp-block-paragraph">Customers bring another essential perspective: how these technologies come together in the systems they build.</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Spectro Cloud:</strong> In <em>“Repeatable Agentic Workloads on Palette,”</em> Colton Shaw will demonstrate how a versioned cluster profile brings together hardened images, local inference, and agent workloads for repeatable edge deployments, including environments without a cloud connection. <strong>12:15–12:30 PM.</strong></li>
+
+
+
+<li><strong>Joint panel </strong><strong><em>“From TokenMaxxing to True AI Ownership,”</em></strong><strong> hosted by Per Krogslund from Docker and executives from Spectro Cloud and J.P. Morgan Payments, for a conversation about moving beyond token consumption toward ownership of how AI is deployed, governed, and put to work. September 24, 3:45 PM.</strong></li>
+
+
+
+<li><strong>J.P. Morgan Payments:</strong> In <em>“Insert Coin: docker compose up with J.P. Morgan Payments,”</em> Alan Torrance will show how developers can run Unicorn Finance with one command and no API keys. The open source example brings a client, mock server, and the real OpenAPI specifications behind J.P. Morgan’s Payments APIs together in two containers. <strong>4:30–4:45 PM.</strong></li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Partner talks — Sep 24, 2026</h2>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Palo Alto Networks:</strong> Investigate agent activity through searchable audit records and live detections in Cortex XSIAM, with Cameron Hyde showing the integration in action. <strong>11:15–11:30 AM.</strong></li>
+
+
+
+<li><strong>Datadog:</strong> Follow an agent security incident from detection to investigation and response, with Amrita Lakhanpal connecting AI Guard, service context, and incident management. <strong>12:45–1:00 PM.</strong></li>
+
+
+
+<li><strong>ClickHouse:</strong> Reduce unnecessary components in your database’s base image. Zoe Steinkamp will walk through running ClickHouse on Docker Hardened Images. <strong>1:15–1:30 PM.</strong></li>
+
+
+
+<li><strong>Prediction Guard:</strong> Explore how execution isolation and controls over model calls work together, with Sharan Shirodkar testing both against a poisoned tool output. <strong>3:15–3:30 PM.</strong></li>
+
+
+
+<li><strong>Snyk:</strong> See the prompts, file activity, and generated code behind an agent’s work, with Javier Garza demonstrating the Evo Agentic Development Security Sandbox Kit. <strong>5:00–5:15 PM.</strong></li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Partner talks — Sep 25, 2026</h2>
+
+
+
+<ul class="wp-block-list">
+<li><strong>GitGuardian:</strong> Put controls around the moments an agent reads files, edits code, or runs commands, with Dwayne McDaniel showing how hooks can help protect secrets. <strong>9:00–9:15 AM.</strong></li>
+
+
+
+<li><strong>Mend.io:</strong> Add runtime guardrails to detect malicious inputs, prevent unsafe actions, and record agent activity, with Gary M Segal demonstrating the approach. <strong>9:30–9:45 AM.</strong></li>
+
+
+
+<li><strong>Merge:</strong> Give agents access to an integration catalog while keeping third-party credentials outside the sandbox, with Gil Feig explaining how the pieces connect. <strong>9:45–10:00 AM.</strong></li>
+
+
+
+<li><strong>BAND:</strong> Explore how separately sandboxed coding agents can exchange tasks, messages, and artifacts, with Vlad Luzin demonstrating collaboration through Jam. <strong>12:15–12:30 PM.</strong></li>
+
+
+
+<li><strong>Chainloop:</strong> Give reviewers evidence of what an agent actually did. Daniel Liszka will demonstrate signed session records and policy checks on a pull request. <strong>1:15–1:30 PM.</strong></li>
+
+
+
+<li><strong>Box:</strong> Turn enterprise documents into deliverables that people can review, with Carter Rabasa demonstrating governed document access, evidence checks, and isolated code execution. <strong>2:30–2:45 PM.</strong></li>
+
+
+
+<li><strong>SurrealDB:</strong> Build agents with memory you can inspect over time, with Chiru Boggavarapu showing how to trace what an agent knew and when. <strong>2:45–3:00 PM.</strong></li>
+
+
+
+<li><strong>Cognee:</strong> Give agents temporary access to company knowledge and remove it when the task is finished, with Vasilije Markovic demonstrating a practical architecture. <strong>3:45–4:00 PM.</strong></li>
+
+
+
+<li><strong>Sonar:</strong> Guide and verify agent-generated changes using Sonar Vortex and the SonarQube CLI, with Manish Kapur demonstrating the workflow inside a sandbox. <strong>4:45–5:00 PM.</strong></li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">These sessions bring together the people building the tools and the teams putting them to work. It’s an opportunity to compare approaches, ask questions, and see how the ecosystem can help you tackle your next engineering challenge.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Come visit us at WeAreDevelopers. Meet our partners, customers, and speakers, catch a lightning talk, and see their technologies in action.</strong><a href="https://www.wearedevelopers.com/world-congress-north-america" id="dkr_-plan-your-visit-to-san-jose-93953" rel="nofollow noopener" target="_blank"><strong> </strong><strong>Plan your visit to San Jose</strong></a><strong>.</strong></p>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>6 Benefits of Sandbox Environments (and How Docker Sandboxes Delivers Them)</title>
+		<link>https://www.docker.com/blog/benefits-of-sandbox-environments/</link>
+		
+		<dc:creator><![CDATA[Kevin Wittek]]></dc:creator>
+		<pubDate>Tue, 08 Sep 2026 23:05:55 +0000</pubDate>
+				<category><![CDATA[Products]]></category>
+		<category><![CDATA[Agentic AI]]></category>
+		<category><![CDATA[AI/ML]]></category>
+		<category><![CDATA[Concepts]]></category>
+		<category><![CDATA[Docker AI Governance]]></category>
+		<category><![CDATA[Docker Sandboxes]]></category>
+		<guid isPermaLink="false">https://www.docker.com/?p=93443</guid>
+
+					<description><![CDATA[Learn about the key benefits of sandbox environments with Docker including isolation, definable controls, secrets credential handling, and more. ]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">In our <a href="https://www.docker.com/resources/the-state-of-agentic-ai-white-paper/" target="_blank" rel="noreferrer noopener" id="dkr_state-of-agentic-ai-report-93443">State of Agentic AI report</a>, 60% of organizations reported having AI agents running in production. Those agents install packages, run scripts, and call external services on their own, and much of that work now happens on <a href="https://www.docker.com/blog/your-laptop-is-the-new-production-environment/" target="_blank" rel="noreferrer noopener" id="dkr_developer-laptops-with-developer-credentials-93443">developer laptops, with developer credentials</a>. Running untrusted or experimental code directly on your machine has always carried risk, and handing that same machine to an <a href="https://www.docker.com/blog/what-are-ai-agents/" target="_blank" rel="noreferrer noopener" id="dkr_autonomous-agent-raises-the-stakes-93443">autonomous agent raises the stakes</a>.</p>
+
+
+
+<p class="wp-block-paragraph">A sandbox environment gives code a separate, controlled space to run in, with limited access to the machine underneath and external systems. How strictly it holds that line depends on how the sandbox is built, which is where the differences between them start to matter.</p>
+
+
+
+<p class="wp-block-paragraph">The benefits of sandbox environments are worth understanding on their own, and they compound when the thing running inside is an agent working unattended with<a href="https://www.docker.com/blog/what-is-yolo-mode/" target="_blank" rel="noreferrer noopener" id="dkr_-permissions-auto-approved-93443"> permissions auto-approved</a>. Below are six, from isolation and credential handling to the policy you enforce at runtime, and how Docker Sandboxes delivers each one.</p>
+
+
+
+
+<div class="wp-block-ponyo-zeta organism toc-exclude">
+    <blockquote class="container">
+        		
+
+    <h2 class="wp-block-ponyo-heading text-lg">
+        Key takeaways
+    </h2>
+
+        
+
+<ul class="wp-block-list">
+<li>A sandbox gives you a hard isolation boundary, so untrusted code or autonomous agents run without access to the host machine.</li>
+
+
+
+<li>Docker’s sandbox environments offer benefits like isolation, policy you control, safe credentials, disposability, a real Linux dev environment, and the same sandbox technology for every agent.</li>
+
+
+
+<li>A sandbox enforces the network and filesystem policy you define at runtime, which is what makes it the enforcement point for governance.</li>
+
+
+
+<li>For AI agents, these benefits combine into full autonomy inside a boundary that allows them to get work done, safely.</li>
+</ul>
+
+
+    </blockquote>
+</div>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="2320" height="1218" src="https://www.docker.com/app/uploads/2026/09/docker_6-Benefits-of-Sandbox-Environments-2320x1218.jpg" alt="docker 6 Benefits of Sandbox Environments" class="wp-image-93447" title="- docker 6 Benefits of Sandbox Environments" srcset="https://www.docker.com/app/uploads/2026/09/docker_6-Benefits-of-Sandbox-Environments-2320x1218.jpg 2320w, https://www.docker.com/app/uploads/2026/09/docker_6-Benefits-of-Sandbox-Environments-1640x861.jpg 1640w, https://www.docker.com/app/uploads/2026/09/docker_6-Benefits-of-Sandbox-Environments-285x150.jpg 285w, https://www.docker.com/app/uploads/2026/09/docker_6-Benefits-of-Sandbox-Environments-1536x806.jpg 1536w, https://www.docker.com/app/uploads/2026/09/docker_6-Benefits-of-Sandbox-Environments-2048x1075.jpg 2048w, https://www.docker.com/app/uploads/2026/09/docker_6-Benefits-of-Sandbox-Environments-600x315.jpg 600w, https://www.docker.com/app/uploads/2026/09/docker_6-Benefits-of-Sandbox-Environments-250x131.jpg 250w, https://www.docker.com/app/uploads/2026/09/docker_6-Benefits-of-Sandbox-Environments-64x34.jpg 64w" sizes="(max-width: 1160px) 100vw, 1160px" /></figure>
+
+
+
+<h2 class="wp-block-heading">1. Isolation</h2>
+
+
+
+<p class="wp-block-paragraph">Everything in this list builds on isolation, and the strength of that boundary is what makes a sandbox trustworthy. For Docker Sandboxes, each sandbox runs in its own microVM: a lightweight virtual machine with its own Linux kernel, isolated from the host by a <a href="https://docs.docker.com/ai/sandboxes/security/isolation/" target="_blank" rel="noreferrer noopener nofollow" id="dkr_hardware-backed-hypervisor-boundary-93443">hardware-backed hypervisor boundary</a>. </p>
+
+
+
+<p class="wp-block-paragraph">That boundary is the same kind of <a href="https://www.docker.com/blog/why-microvms-the-architecture-behind-docker-sandboxes/" target="_blank" rel="noreferrer noopener" id="dkr_isolation-a-full-virtual-machine-gives-you-93443">isolation a full virtual machine gives you</a>, and it&#8217;s what lets you hand an agent real freedom. Because a Docker sandbox runs its own kernel, a compromised or runaway agent can&#8217;t reach the host, other sandboxes, or anything outside its environment. If it tries to escape, it hits a wall. So an agent can install packages, pull untrusted dependencies, and run code unattended. But when something inside goes wrong, the damage stays in the sandbox and disappears when you discard it. That containment is what makes it safe to let an agent run at full speed.</p>
+
+
+
+<figure class="wp-block-table is-style-stripes"><table class="has-fixed-layout"><tbody><tr><td><strong>ⓘ MicroVM vs. container isolation: </strong>A (Linux) container shares the host&#8217;s kernel, so its isolation depends on kernel-level controls. Note that when using Docker Desktop, in order to provide an environment for running Linux containers, you’re already using a VM for hosting containers, so they are isolated from the host OS. However, all containers still share the same kernel (the one of the Linux VM). Hence, you won’t have strong isolation between containers.</td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading">2. Network and filesystem controls you define</h2>
+
+
+
+<p class="wp-block-paragraph">Isolation sets the outer wall. The controls you define decide what the workload can reach while inside it. Most sandboxes let you scope network and filesystem access to some degree: which domains and IP ranges the workload can reach, and which paths on the host, if any, it can read or write. How precisely you can express that policy varies between tools, and it&#8217;s worth checking before you commit, because broad-strokes rules leave gaps that an agent will eventually find.</p>
+
+
+
+<p class="wp-block-paragraph">Docker Sandboxes lets you <a href="https://docs.docker.com/ai/sandboxes/security/defaults/" target="_blank" rel="noreferrer noopener nofollow" id="dkr_set-that-policy-per-sandbox-93443">set that policy per sandbox</a> and enforces it at the boundary at runtime, so the rules hold even when the code inside tries something you didn&#8217;t anticipate. The same controls that keep an experiment from making unauthorized outbound connections also shut down data exfiltration and block access to untrusted or malicious services. Restricting the filesystem keeps sensitive host paths, like SSH keys and cloud credentials, out of reach.</p>
+
+
+
+<h2 class="wp-block-heading">3. Secure credential handling</h2>
+
+
+
+<p class="wp-block-paragraph">Agents need credentials to do useful work: a token to push to a repo, an API key to call a service. The risk is that a credential sitting inside the environment can be <a href="https://www.docker.com/blog/coding-agent-horror-stories-the-29-million-secret-problem/" target="_blank" rel="noreferrer noopener" id="dkr_read-logged-or-leaked-by-whatever-runs-there-93443">read, logged, or leaked by whatever runs there</a>. Most sandboxes pass secrets in as environment variables or mounted files, which puts the value inside the boundary where the workload can read it, and so can anything the workload runs.</p>
+
+
+
+<p class="wp-block-paragraph">Docker Sandboxes keeps credentials out of the environment entirely. They stay in the host keychain, and the sandbox <a href="https://docs.docker.com/ai/sandboxes/security/credentials/" target="_blank" rel="noreferrer noopener nofollow" id="dkr_injects-them-into-outbound-network-requests-at-the-boundary-93443">injects them into outbound network requests at the boundary</a>, so the workload gets the benefit of the credential while the value itself stays on the host. An agent that can&#8217;t read a secret also can&#8217;t exfiltrate it, write it to a log, or hand it off to a prompt-injected instruction. The credential does its job on the request path while the sensitive material stays under your control.</p>
+
+
+
+<h2 class="wp-block-heading">4. Ephemeral, disposable environments you can recreate fast</h2>
+
+
+
+<p class="wp-block-paragraph">A sandbox is quick to create and easy to throw away, so you can treat every one as disposable. When a task finishes, or <a href="https://www.docker.com/blog/coding-agent-horror-stories-the-agent-that-deleted-production/" target="_blank" rel="noreferrer noopener" id="dkr_when-an-agent-goes-off-the-rails-93443">when an agent goes off the rails</a>, you can delete the environment and everything inside goes with it, from installed packages to running processes to any changes the agent made to the system. But if your working directory is mounted from the host, the files the agent creates or edits there stay on your machine even after the environment is gone.</p>
+
+
+
+<p class="wp-block-paragraph">The recreation side is just as valuable. Because a sandbox is <a href="https://docs.docker.com/ai/sandboxes/customize/templates/" target="_blank" rel="noreferrer noopener nofollow" id="dkr_defined-in-code-93443">defined in code</a>, you can spin up an identical environment on demand, configured the same way every time, down to the packages and settings. This is the infrastructure-as-code approach applied to your workspace: reproducible, versionable, and consistent across a team. For agents, disposability also unlocks parallelism. You can run several agents at once, each in its own fresh environment, and tear them all down when the work is done.</p>
+
+
+
+<h2 class="wp-block-heading">5. A real Linux dev environment with a full Docker daemon</h2>
+
+
+
+<p class="wp-block-paragraph">Isolation doesn&#8217;t have to mean a stripped-down box. A sandbox worth using gives the workload a real Linux environment with the tools a developer or an agent actually needs, so you can install packages, run services, start databases, and compile code inside the boundary. Environments vary widely in how complete they are, and a thin one pushes work back onto the host, which defeats the point of having a boundary at all.</p>
+
+
+
+<p class="wp-block-paragraph">Docker Sandboxes includes <a href="https://docs.docker.com/ai/sandboxes/architecture/" target="_blank" rel="noreferrer noopener nofollow" id="dkr_a-full-docker-daemon-isolated-within-the-sandbox-93443">a full Docker daemon, isolated within the sandbox</a>, so an agent can build and run containers as part of its work with no path back to the host daemon. That&#8217;s a meaningful capability for agentic workflows, where a single task might involve building an image, running a test suite in a container, and tearing it all down. The environment behaves like a genuine machine, which is what makes it a viable place to do real work.</p>
+
+
+
+<h2 class="wp-block-heading">6. The same sandbox technology for every agent</h2>
+
+
+
+<p class="wp-block-paragraph">Developers will often move between agents. One task suits Claude Code, another suits <a href="https://docs.docker.com/ai/sandboxes/agents/" target="_blank" rel="noreferrer noopener nofollow" id="dkr_gemini-cli-copilot-cli-codex-kiro-or-opencode-93443">Gemini CLI, Copilot CLI, Codex, Kiro, or OpenCode</a>. If each agent brought its own isolation model, you&#8217;d be securing a different environment for every tool, and each vendor&#8217;s model could shift with a version bump.</p>
+
+
+
+<p class="wp-block-paragraph">A single sandbox technology solves this by running every agent the same way, inside the same kind of isolated environment with the same policy engine. You define network, filesystem, and credential policy once, and it applies no matter which agent is doing the work. For a platform or security team, that consistency is what makes governance enforceable at scale: one boundary to reason about, one set of controls to audit, across every agent your developers adopt.</p>
+
+
+
+<h3 class="wp-block-heading">Who gets the most from sandbox environments </h3>
+
+
+
+<p class="wp-block-paragraph">The same six benefits pay off differently depending on your role.</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Individual developers</strong></li>
+
+<ul class="wp-block-list">
+<li>You get freedom to experiment. You can try a risky dependency, run an unfamiliar tool, or let an agent work unattended, knowing the environment is contained and disposable. When something breaks, you delete it and start clean, and your machine is never in the blast radius.</li>
+</ul>
+</li>
+
+
+
+<li><strong>Platform teams</strong></li>
+
+<ul class="wp-block-list">
+<li>You get consistency and control. A sandbox defined once gives every developer the same environment and the same policy, across whichever agents they use. That means less setup for your developers to think about and a single standard you can maintain centrally.</li>
+</ul>
+</li>
+
+
+
+<li><strong>Security teams</strong></li>
+
+<ul class="wp-block-list">
+<li>You get containment and oversight. A sandbox limits what an agent can reach and gives you one boundary to monitor across every tool. You can approve agent adoption because the environment enforces your policy at runtime, which is the heart of <a href="https://www.docker.com/blog/how-to-secure-ai-agents/" target="_blank" rel="noreferrer noopener" id="dkr_securing-ai-agents-93443">securing AI agents</a> in production. Every environment is disposable, so there&#8217;s nothing persistent to compromise.</li>
+</ul>
+</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Why this matters for AI agents</h2>
+
+
+
+<p class="wp-block-paragraph">Put the six together and you get the reason why sandboxes might <a href="https://www.docker.com/blog/why-ai-agents-need-isolation/" target="_blank" rel="noreferrer noopener" id="dkr_become-the-standard-way-to-run-agents-93443">become the standard way to run agents</a>. An agent needs autonomy to be useful. It has to install things, run code, and call services without a human approving each step. Autonomy on your host machine is dangerous, but put it inside a sandbox and it’s safe.</p>
+
+
+
+<p class="wp-block-paragraph">Isolation contains what the agent can do, and the controls you define scope what it can reach. Credentials stay out of its hands, so a compromised agent has nothing to leak. When a run goes sideways, disposability lets you throw the environment out and start over in seconds. And a real Linux dev environment means the agent can do genuine work, and running every agent on one sandbox technology keeps all of this consistent no matter which tool your team reaches for. Together, these benefits let an agent operate at full speed while keeping the blast radius of any mistake close to zero.</p>
+
+
+
+<h2 class="wp-block-heading">Run agents safely with Docker Sandboxes</h2>
+
+
+
+<p class="wp-block-paragraph">These benefits depend on each other, and a gap in any one becomes the weak point a runaway agent finds first. Isolation without credential handling still leaks your secrets, and a dev environment you can&#8217;t tear down cleanly turns into a liability the first time an agent misbehaves.</p>
+
+
+
+<p class="wp-block-paragraph">Running agents safely means delivering all six together, and that’s what Docker Sandboxes is built to do. Containment comes from microVM isolation, the controls are the network and filesystem policy you set, and credentials stay in the host keychain, injecting at the boundary so the agent never sees them. Environments are disposable and defined in code, the workspace is a real Linux system with a full Docker daemon, and the same sandbox technology runs every major coding agent the same way.</p>
+
+
+
+<p class="wp-block-paragraph">And when you&#8217;re ready to run agents safely across a team, Docker AI Governance extends the same boundary into org-wide policy. You define network, filesystem, and tool-access rules once, govern which credentials a session can use, and apply it on every developer&#8217;s machine, with an audit trail security can defend.</p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://www.docker.com/products/docker-sandboxes/" id="dkr_get-started-with-docker-sandboxes-93443"><strong>Get started with Docker Sandboxes</strong></a> <strong>→ </strong></p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://www.docker.com/products/ai-governance/" id="dkr_explore-docker-ai-governance-93443"><strong>Explore Docker AI Governance</strong></a> <strong>→</strong></p>
+
+
+
+<h2 class="wp-block-heading">Frequently asked questions</h2>
+
+
+
+
+<div class="wp-block-ponyo-dominique organism">
+    
+    <div class="container faq-list">
+        
+
+
+
+<div class="fade-in wp-block-ponyo-frank">
+    <h3 class="frank-heading">
+        What is a sandbox environment used for?
+        <span class="closed">    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 8v8m-4-4h8m6 0c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="var(--iconColor, black)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</span>
+        <span class="open">    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 12h8m6 0c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="var(--iconColor, black)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</span>
+    </h3>
+    <div class="content-outer">
+    <div class="content-inner">
+       
+
+<p class="wp-block-paragraph">Sandboxes give coding agents and the code they run an isolated, disposable place to execute, fully separated from the host. The main use is running AI coding agents like Claude Code, Codex, or Gemini CLI unattended, letting them install packages, run services, and even run Docker inside the sandbox, and trying risky changes you&#8217;d rather keep off your machine.</p>
+
+
+    </div>
+    </div>
+</div>
+
+
+
+
+<div class="fade-in wp-block-ponyo-frank">
+    <h3 class="frank-heading">
+        What is the main benefit of a sandbox environment?
+        <span class="closed">    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 8v8m-4-4h8m6 0c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="var(--iconColor, black)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</span>
+        <span class="open">    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 12h8m6 0c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="var(--iconColor, black)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</span>
+    </h3>
+    <div class="content-outer">
+    <div class="content-inner">
+       
+
+<p class="wp-block-paragraph">Isolation. A sandbox keeps whatever runs inside from reaching the host, so a mistake, a malicious package, or a misbehaving agent stays contained.</p>
+
+
+    </div>
+    </div>
+</div>
+
+
+
+
+<div class="fade-in wp-block-ponyo-frank">
+    <h3 class="frank-heading">
+        Are sandbox environments only for security?
+        <span class="closed">    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 8v8m-4-4h8m6 0c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="var(--iconColor, black)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</span>
+        <span class="open">    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 12h8m6 0c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="var(--iconColor, black)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</span>
+    </h3>
+    <div class="content-outer">
+    <div class="content-inner">
+       
+
+<p class="wp-block-paragraph">No. Security is a major benefit, but sandboxes also improve reproducibility, speed up onboarding, and let developers and agents experiment freely, because the environment is disposable and defined in code.</p>
+
+
+    </div>
+    </div>
+</div>
+
+
+
+
+<div class="fade-in wp-block-ponyo-frank">
+    <h3 class="frank-heading">
+        Do sandbox environments slow developers down?
+        <span class="closed">    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 8v8m-4-4h8m6 0c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="var(--iconColor, black)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</span>
+        <span class="open">    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 12h8m6 0c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="var(--iconColor, black)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</span>
+    </h3>
+    <div class="content-outer">
+    <div class="content-inner">
+       
+
+<p class="wp-block-paragraph">They don&#8217;t have to. MicroVM-based sandboxes like Docker Sandboxes start in seconds and give you a full Linux environment right away, so isolation adds safety at very little cost to speed.</p>
+
+
+    </div>
+    </div>
+</div>
+
+
+
+
+<div class="fade-in wp-block-ponyo-frank">
+    <h3 class="frank-heading">
+        How do sandboxes help with AI agents?
+        <span class="closed">    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 8v8m-4-4h8m6 0c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="var(--iconColor, black)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</span>
+        <span class="open">    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 12h8m6 0c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="var(--iconColor, black)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</span>
+    </h3>
+    <div class="content-outer">
+    <div class="content-inner">
+       
+
+<p class="wp-block-paragraph">They let an agent run with full autonomy while containing what it can reach. Isolation limits the blast radius, the policy you define scopes access, and credential handling keeps secrets out of the agent&#8217;s hands.</p>
+
+
+    </div>
+    </div>
+</div>
+
+    </div>
+
+</div>
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>YOLO Mode: Agent Autonomy Without the Guardrails</title>
+		<link>https://www.docker.com/blog/what-is-yolo-mode/</link>
+		
+		<dc:creator><![CDATA[Srini Sekaran]]></dc:creator>
+		<pubDate>Thu, 03 Sep 2026 18:00:00 +0000</pubDate>
+				<category><![CDATA[Products]]></category>
+		<category><![CDATA[Agentic AI]]></category>
+		<category><![CDATA[Concepts]]></category>
+		<category><![CDATA[Docker AI Governance]]></category>
+		<category><![CDATA[Docker Sandboxes]]></category>
+		<category><![CDATA[security]]></category>
+		<guid isPermaLink="false">https://www.docker.com/?p=93273</guid>
+
+					<description><![CDATA[YOLO mode lets an AI agent run without asking permission. Learn what it is, why it's risky, and how to run it safely. ]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph"><a href="https://www.docker.com/blog/what-are-ai-agents/" target="_blank" rel="noreferrer noopener" id="dkr_ai-agents-93273">AI agents</a> have come a long way in both capability and everyday use since generative AI went mainstream in late 2022. In <a href="https://survey.stackoverflow.co/2025/ai" target="_blank" rel="noreferrer noopener nofollow" id="dkr_stack-overflows-2025-developer-survey-93273">Stack Overflow&#8217;s 2025 Developer Survey</a>, 84% of developers said they use or plan to use AI tools in their workflow, up from 76% a year earlier. As those tools shift from suggesting code to writing files and running commands on their own, one practical question follows. How much should an agent be allowed to do without stopping to ask? Turn that dial all the way up and you reach what developers call YOLO mode.</p>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s worth understanding YOLO mode before you enable it, because its main risk is easy to misread. The risk comes down to <em>where </em>an agent runs.  On your own machine, one mistaken command can delete  files, expose your credentials, and make network requests you may not want. Inside a proper boundary, however, developers can use agents in YOLO mode to unlock a new level of productivity, without jeopardizing security.</p>
+
+
+
+
+<div class="wp-block-ponyo-zeta organism toc-exclude">
+    <blockquote class="container">
+        		
+
+    <h2 class="wp-block-ponyo-heading text-lg">
+        Key takeaways
+    </h2>
+
+        
+
+<ul class="wp-block-list">
+<li>YOLO mode is when an AI agent auto-approves every action, with no confirmation prompts.</li>
+
+
+
+<li>It&#8217;s popular because it&#8217;s fast, and risky for the same reason. The danger isn&#8217;t the autonomy, it&#8217;s where the autonomy runs.</li>
+
+
+
+<li>On your host, a bad command or prompt injection reaches real files and credentials. Inside an isolated sandbox, the blast radius is contained.</li>
+
+
+
+<li>Run YOLO mode where it can&#8217;t do real damage, in an isolated, disposable environment with scoped access and no real secrets.</li>
+</ul>
+
+
+    </blockquote>
+</div>
+
+
+
+
+
+    <h2 class="wp-block-ponyo-heading text-lg">
+        What is YOLO mode?
+    </h2>
+
+
+
+<p class="wp-block-paragraph">YOLO mode is the community nickname for running an AI agent with every action auto-approved. When turned on, agents can read files, write code, run shell commands, and call tools without stopping for user approval. While in Claude Code it&#8217;s the <a href="https://docs.claude.com/en/docs/claude-code/settings" target="_blank" rel="noreferrer noopener nofollow" id="dkr_--dangerously-skip-permissions-flag-93273">&#8211;dangerously-skip-permissions flag</a>, other common agents each have their own version of the same switch.</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Codex CLI </strong>has `&#8211;full-auto`, plus `&#8211;dangerously-bypass-approvals-and-sandbox` when you drop the sandbox too.</li>
+
+
+
+<li><strong>Gemini CLI </strong>uses `&#8211;yolo`, or the Ctrl+Y toggle mid-session.</li>
+
+
+
+<li><strong>GitHub Copilot CLI </strong>has `&#8211;allow-all`, also aliased as `&#8211;yolo`.</li>
+
+
+
+<li><strong>Cursor</strong> exposes it as auto-run in settings rather than a flag.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">The names differ, but the behavior is the same: remove the prompts and let the agent go. </p>
+
+
+
+<p class="wp-block-paragraph">YOLO mode showed up in Cursor first, then Claude Code, and by 2026 it&#8217;s a standard toggle in most coding agents. But when people ask what YOLO mode is, they&#8217;re usually asking whether they should use it, and the answer is that it depends entirely on where the agent is running.</p>
+
+
+
+<h2 class="wp-block-heading">Why developers turn it on</h2>
+
+
+
+<p class="wp-block-paragraph">On a regular task, a careful agent asks for permission constantly. “Can I edit this file, run this test, install this package, call this tool?” </p>
+
+
+
+<p class="wp-block-paragraph">Dozens of prompts for one feature. While these constant permission requests can help prevent agents from going rogue, each approval forces you to context switch and breaks the flow that made the agent worth using. A few reasons why developers are leveraging YOLO mode include:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Context switching:</strong> Every approval pulls a developer out of their flow, taxing mental focus and overall productivity. </li>
+
+
+
+<li><strong>Prompt fatigue:</strong> Excessive querying, refinement, and approvals force creative coding to take a back seat to tedious prompt wrangling and debugging.  </li>
+
+
+
+<li><strong>Low-risk, routine work:</strong> Agents can often handle repetitive tasks that would otherwise take developers away from creative coding and innovation. </li>
+
+
+
+<li><strong>Momentum:</strong> An agent is most useful when it has the freedom to keep moving, but a steady stream of prompts breaks that.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">If you turn approvals off, these friction points disappear for the most part, and the agent can deliver the speed it promised. But what’s the cost of giving agents the autonomy of YOLO mode?</p>
+
+
+
+<h2 class="wp-block-heading">Why is YOLO mode risky?</h2>
+
+
+
+<p class="wp-block-paragraph">When you remove the prompts, you remove the last human check before an action runs, which amplifies the <a href="https://www.docker.com/blog/how-to-secure-ai-agents/" target="_blank" rel="noreferrer noopener" id="dkr_security-risks-agents-already-carry-93273">security risks agents already carry</a>. If the agent is working directly on your host, that action has the full run of your machine, including your files, environment variables, credentials, and network. A confused or compromised agent can do a significant amount of damage when nothing stands between an agent&#8217;s decision and your system.</p>
+
+
+
+<p class="wp-block-paragraph">On an unprotected host, YOLO mode introduces risks such as:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Destructive commands:</strong> A vague or mistaken instruction <a href="https://www.docker.com/blog/coding-agent-horror-stories-the-rm-rf-incident/" target="_blank" rel="noreferrer noopener" id="dkr_runs-something-like-rm--rf--93273">runs something like rm -rf </a>against the wrong directory, and nothing pauses to catch it.</li>
+
+
+
+<li><strong>Secret and credential exposure:</strong> The agent can read environment variables, .ssh keys, tokens, and .env files, then use or leak them.</li>
+
+
+
+<li><strong>Prompt injection:</strong> The agent <a href="https://www.docker.com/blog/mcp-horror-stories-github-prompt-injection/" target="_blank" rel="noreferrer noopener" id="dkr_acts-on-whatever-it-reads-93273">acts on whatever it reads</a>, so a hidden instruction in a web page, an issue, a code comment, or a document can redirect it, and the attacker never needs access to your machine.</li>
+
+
+
+<li><strong>Data exfiltration:</strong> A mistaken or hijacked agent sends sensitive data out over the network.</li>
+
+
+
+<li><strong>Unintended broad changes:</strong> Edits and config changes reach past the task at hand into your other projects.</li>
+
+
+
+<li><strong>Network and lateral reach:</strong> The agent can hit internal endpoints and outside services, or act with your credentials to push code and call APIs.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">And unfortunately, keeping manual approvals on doesn’t remove all risk. Once permission fatigue kicks in, it can be all too easy to accidentally approve the wrong request. So the safeguard belongs in the environment the agent runs in, where a bad command or a tired click has a greatly reduced scope of impact.</p>
+
+
+
+<h2 class="wp-block-heading">The fix isn&#8217;t fewer permissions, it&#8217;s a boundary</h2>
+
+
+
+<p class="wp-block-paragraph">If prompts aren&#8217;t the answer, what is? A boundary the agent can&#8217;t cross. Guardrails only work when something outside the agent enforces them. The agent needs a bounding box, with constraints set before it runs and clear limits on what it can touch. Inside that box, it should be free to move as fast as it wants. The goal is to shape the environment so that a mistake can&#8217;t damage your systems or leak your secrets.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="2320" height="1218" src="https://www.docker.com/app/uploads/2026/08/docker_What-is-YOLO-mode-2320x1218.jpg" alt="Comparing YOLO mode with and without a sandboxed environment. " class="wp-image-93275" title="- docker What is YOLO mode" srcset="https://www.docker.com/app/uploads/2026/08/docker_What-is-YOLO-mode-2320x1218.jpg 2320w, https://www.docker.com/app/uploads/2026/08/docker_What-is-YOLO-mode-1640x861.jpg 1640w, https://www.docker.com/app/uploads/2026/08/docker_What-is-YOLO-mode-285x150.jpg 285w, https://www.docker.com/app/uploads/2026/08/docker_What-is-YOLO-mode-1536x806.jpg 1536w, https://www.docker.com/app/uploads/2026/08/docker_What-is-YOLO-mode-2048x1075.jpg 2048w, https://www.docker.com/app/uploads/2026/08/docker_What-is-YOLO-mode-600x315.jpg 600w, https://www.docker.com/app/uploads/2026/08/docker_What-is-YOLO-mode-250x131.jpg 250w, https://www.docker.com/app/uploads/2026/08/docker_What-is-YOLO-mode-64x34.jpg 64w" sizes="(max-width: 1160px) 100vw, 1160px" /></figure>
+
+
+
+<p class="wp-block-paragraph">In practice, that means running the agent in an <a href="https://www.docker.com/blog/comparing-sandboxing-approaches-ai-agents/" target="_blank" rel="noreferrer noopener" id="dkr_isolated-ephemeral-environment-93273">isolated, ephemeral environment</a> instead of on your host. Done well, the agent gets a real place to work. It can install packages, run services, and edit files, but it can&#8217;t see your credentials, reach your other projects, or touch the host.</p>
+
+
+
+<p class="wp-block-paragraph">Unlike a container that shares the host kernel, a <a href="https://www.docker.com/blog/why-microvms-the-architecture-behind-docker-sandboxes/" target="_blank" rel="noreferrer noopener" id="dkr_microvm-93273">microVM</a> puts a hardware-level boundary around the agent, so the isolation holds even if the agent tries to break out, and it does that without the speed penalty people expect. If a run goes sideways, you destroy the environment and start clean. This is the core idea behind sandbox security and <a href="https://www.docker.com/blog/why-ai-agents-need-isolation/" target="_blank" rel="noreferrer noopener" id="dkr_why-agents-need-isolation-93273">why agents need isolation</a> in the first place.</p>
+
+
+
+<h2 class="wp-block-heading">What does YOLO mode look like at scale?</h2>
+
+
+
+<p class="wp-block-paragraph">For one developer on a sandboxed laptop, YOLO mode is a personal choice. Across a team, it becomes a policy question. A hundred developers each deciding on their own when to skip permissions is the ungoverned-autonomy problem that keeps security leaders up at night. The picture that works at scale is one where the safe path is the default. Every agent runs inside an isolated, disposable environment, configured once at the organization level so it holds for everyone.</p>
+
+
+
+<p class="wp-block-paragraph">This is the problem <a href="https://www.docker.com/blog/what-is-ai-governance/" target="_blank" rel="noreferrer noopener" id="dkr_ai-governance-93273">AI Governance</a> is built to solve. You define the rules once across the surfaces that matter, network access, the filesystem, and the tools an agent can reach, then enforce them automatically at every developer&#8217;s machine. Governance turns a per-developer judgment call into a consistent, repeatable capability. Clear boundaries are what let an organization extend autonomy to its agents while keeping the risk contained. Once the boundary is standard, YOLO mode is fast and safe for everyone.</p>
+
+
+
+<h2 class="wp-block-heading">What it unlocks for developers</h2>
+
+
+
+<p class="wp-block-paragraph">Once the boundary is in place, the developer can stop supervising every step, and the payoff kicks in:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Deep focus:</strong> Give direction, step away, and come back to a cloned repo, passing tests, and an open pull request. No interruptions pulling you off your own work.</li>
+
+
+
+<li><strong>Long, autonomous runs:</strong> The agent edits, runs the tests, reads the failures, and retries until the task is done, the kind of run a wall of prompts would stall.</li>
+
+
+
+<li><strong>Agents in parallel:</strong> Point several at different tasks, each in its own disposable environment, and let them run at once.</li>
+
+
+
+<li><strong>You review the outcome:</strong> Your job moves up to the pull request, the tests, and the diff, where your judgment matters most.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s the real appeal, and the sandbox is what makes it safe to lean on.</p>
+
+
+
+<h2 class="wp-block-heading">Unlock agent autonomy, safely</h2>
+
+
+
+<p class="wp-block-paragraph">YOLO mode is really a question in disguise. How much autonomy can you give an agent before the risk outweighs the speed? Framed that way, the answer stops being about the agent and starts being about its environment. Give an agent the run of your laptop and even a small mistake is expensive. But give it a boundary it can&#8217;t cross and you get the speed with almost none of the exposure.</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s exactly what Docker Sandboxes is built for. Each agent runs in its own disposable microVM with control over networking, filesystem access, and resource limits, so you can <a href="https://www.docker.com/blog/docker-sandboxes-run-agents-in-yolo-mode-safely/" target="_blank" rel="noreferrer noopener" id="dkr_run-agents-in-yolo-mode-safely-93273">run agents in YOLO mode safely</a> from day one. For teams that want those boundaries applied consistently rather than agent by agent, Docker AI Governance sets and enforces the rules everywhere developers work. Define the box. Then let the agent go as fast as it likes.</p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://www.docker.com/products/docker-sandboxes/" id="dkr_get-started-with-docker-sandboxes-93273"><strong>Get started with Docker Sandboxes</strong></a> <strong>→ </strong></p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://www.docker.com/products/ai-governance/" id="dkr_explore-docker-ai-governance-93273"><strong>Explore Docker AI Governance</strong></a> <strong>→</strong></p>
+
+
+
+<h2 class="wp-block-heading">Frequently asked questions</h2>
+
+
+
+
+<div class="wp-block-ponyo-dominique organism">
+    
+    <div class="container faq-list">
+        
+
+
+
+<div class="fade-in wp-block-ponyo-frank">
+    <h3 class="frank-heading">
+        Is YOLO mode safe?
+        <span class="closed">    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 8v8m-4-4h8m6 0c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="var(--iconColor, black)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</span>
+        <span class="open">    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 12h8m6 0c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="var(--iconColor, black)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</span>
+    </h3>
+    <div class="content-outer">
+    <div class="content-inner">
+       
+
+<p class="wp-block-paragraph">It depends entirely on where the agent runs. On your host machine, YOLO mode is risky, because a mistake or a prompt injection can reach your files and credentials. Inside an isolated, disposable environment with scoped access and no real secrets, the blast radius is contained and YOLO mode is reasonable to use.</p>
+
+
+    </div>
+    </div>
+</div>
+
+
+
+
+<div class="fade-in wp-block-ponyo-frank">
+    <h3 class="frank-heading">
+        What does &#8211;dangerously-skip-permissions do in Claude Code?
+        <span class="closed">    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 8v8m-4-4h8m6 0c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="var(--iconColor, black)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</span>
+        <span class="open">    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 12h8m6 0c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="var(--iconColor, black)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</span>
+    </h3>
+    <div class="content-outer">
+    <div class="content-inner">
+       
+
+<p class="wp-block-paragraph">It turns off the confirmation prompts, so Claude Code reads, writes, runs commands, and calls tools without asking for approval at each step. It trades the safety of human review for speed. It&#8217;s the most common way people run Claude Code in YOLO mode.</p>
+
+
+    </div>
+    </div>
+</div>
+
+
+
+
+<div class="fade-in wp-block-ponyo-frank">
+    <h3 class="frank-heading">
+        How do I use YOLO mode safely?
+        <span class="closed">    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 8v8m-4-4h8m6 0c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="var(--iconColor, black)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</span>
+        <span class="open">    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 12h8m6 0c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="var(--iconColor, black)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</span>
+    </h3>
+    <div class="content-outer">
+    <div class="content-inner">
+       
+
+<p class="wp-block-paragraph">Run the agent inside an isolated sandbox rather than on your main machine, give it scoped network access and throwaway credentials instead of your real ones, work against a cloned or disposable copy of your project, and keep a way to inspect what it did. The goal is a boundary the agent can&#8217;t cross, not a more careful set of prompts.</p>
+
+
+    </div>
+    </div>
+</div>
+
+
+
+
+<div class="fade-in wp-block-ponyo-frank">
+    <h3 class="frank-heading">
+        Is auto mode the same as YOLO mode?
+        <span class="closed">    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 8v8m-4-4h8m6 0c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="var(--iconColor, black)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</span>
+        <span class="open">    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 12h8m6 0c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="var(--iconColor, black)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</span>
+    </h3>
+    <div class="content-outer">
+    <div class="content-inner">
+       
+
+<p class="wp-block-paragraph">Not exactly. Full YOLO mode approves everything. Some tools now offer a classifier-gated auto mode that runs safe actions automatically while still blocking or flagging dangerous ones. That&#8217;s a useful middle ground, but it&#8217;s a filter on top of the agent, not a boundary around it. Isolation still matters.</p>
+
+
+    </div>
+    </div>
+</div>
+
+    </div>
+
+</div>
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Building Reproducible AI Evaluation Workflows with Docker Sandboxes</title>
+		<link>https://www.docker.com/blog/building-reproducible-ai-evaluation-workflows-with-docker-sandboxes/</link>
+		
+		<dc:creator><![CDATA[Jennifer Kohl]]></dc:creator>
+		<pubDate>Wed, 02 Sep 2026 13:00:00 +0000</pubDate>
+				<category><![CDATA[Community]]></category>
+		<category><![CDATA[AI Agent]]></category>
+		<category><![CDATA[AI/ML]]></category>
+		<category><![CDATA[Docker Sandboxes]]></category>
+		<category><![CDATA[GenAI]]></category>
+		<guid isPermaLink="false">https://www.docker.com/?p=93401</guid>
+
+					<description><![CDATA[Learn how Docker Sandboxes can make AI evaluation workflows more reproducible with consistent execution, structured artifacts, and runtime evidence.]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">AI evaluation has never been easier to start. Reproducing it reliably is another story. Developers now have access to more benchmarks, evaluation libraries, model APIs, and agent frameworks than ever before. But keeping the prompt, model, and scoring method fixed doesn&#8217;t necessarily make a run reproducible. The execution environment matters too.</p>
+
+
+
+<p class="wp-block-paragraph">Python dependencies change. Local tools drift. Setup steps go undocumented. A workflow that succeeds on one machine may behave differently on another. Most discussions about evaluation focus on <em>what</em> should be measured: benchmarks, scoring methods, or judge models. Much less attention is given to <em>how</em> those evaluations are executed. Yet that execution layer often determines whether someone else can reproduce the same workflow weeks or months later.</p>
+
+
+
+<p class="wp-block-paragraph">When I started exploring Docker Sandboxes, I wasn&#8217;t trying to build another evaluation framework. I had a much smaller question.</p>
+
+
+
+<figure class="wp-block-pullquote"><blockquote><p><strong>Could Docker Sandboxes and an SBX Kit make evaluation workflows easier to rerun, inspect, and compare?</strong></p></blockquote></figure>
+
+
+
+<p class="wp-block-paragraph">That question eventually became the <a href="https://github.com/karanverma/sbx-ai-eval-kit" id="dkr_sbx-ai-evaluation-kit-93401" rel="nofollow noopener" target="_blank"><strong>SBX AI Evaluation Kit</strong></a><strong>,</strong> an open-source Docker Sandboxes Mixin Kit focused on repeatable execution, structured evaluation records, and runtime evidence. The current <em>implementation </em>does not execute AI models or automatically derive evaluation judgments. Instead, it executes configured commands consistently and preserves evidence of what actually ran.</p>
+
+
+
+<h2 class="wp-block-heading">In Practice</h2>
+
+
+
+<p class="wp-block-paragraph">In practice, the workflow starts by choosing where the evaluation command should run through the <code>execution</code> block:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: yaml; gutter: false; title: ; notranslate">
+execution:
+  executor: sbx
+  command:
+    - python3
+    - -c
+    - print(&quot;hello from sbx&quot;)
+
+</pre></div>
+
+
+<p class="wp-block-paragraph">With <code>executor: sbx</code>, the runner delegates command execution to Docker Sandboxes and writes the runtime evidence into the resulting artifact.</p>
+
+
+
+<p class="wp-block-paragraph">The repository is also packaged as an SBX Mixin Kit, so it can be applied when starting a Claude sandbox:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: bash; gutter: false; title: ; notranslate">
+sbx run claude --kit .
+</pre></div>
+
+
+<p class="wp-block-paragraph">The runner reads the configured executor and delegates the command to SBX, which executes it inside the sandbox:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: bash; gutter: false; title: ; notranslate">
+python run_evaluation.py
+
+</pre></div>
+
+
+<h2 class="wp-block-heading">From Documentation to an Executable Workflow</h2>
+
+
+
+<p class="wp-block-paragraph">Each evaluation is defined in a YAML file that describes the evaluation and the command to run. The repository validates that definition, executes it, and produces a structured JSON record of the result. The difference is in what gets recorded. A written evaluation captures what someone intended to do. An execution-backed evaluation captures what actually happened.</p>
+
+
+
+<h2 class="wp-block-heading">Separating Evaluation from Execution</h2>
+
+
+
+<p class="wp-block-paragraph">I wanted the evaluation definition to stay independent of where it ran. A workflow written during local development shouldn&#8217;t need to change simply because it later executes inside Docker Sandboxes.</p>
+
+
+
+<p class="wp-block-paragraph">To keep those concerns separate, I introduced an executor abstraction. <strong>The evaluation describes what should run; the executor determines where it runs.</strong></p>
+
+
+
+<p class="wp-block-paragraph">With the local executor, the configured command runs on the host. With the SBX executor, command execution is delegated to Docker Sandboxes. Switching between the two only requires changing the executor configuration, not rewriting the surrounding evaluation workflow.</p>
+
+
+
+
+
+<div class="wp-block-ponyo-image">
+                <img decoding="async" width="1536" height="1024" src="https://www.docker.com/app/uploads/2026/09/image1.png" class="fade-in" alt="image1" srcset="https://www.docker.com/app/uploads/2026/09/image1.png 1536w, https://www.docker.com/app/uploads/2026/09/image1-600x400.png 600w, https://www.docker.com/app/uploads/2026/09/image1-250x167.png 250w, https://www.docker.com/app/uploads/2026/09/image1-64x43.png 64w" sizes="(max-width: 1536px) 100vw, 1536px" title="- image1">
+        </div>
+
+
+
+<p class="wp-block-paragraph"><em>Figure 1. Evaluation definitions remain independent of the execution environment. The same workflow can use either the local or SBX executor while producing runtime evidence in the same structure.</em></p>
+
+
+
+<h2 class="wp-block-heading">Capturing Evidence Instead of Assumptions</h2>
+
+
+
+<p class="wp-block-paragraph">For each execution, the runner records enough information to inspect what actually happened:</p>
+
+
+
+<ul class="wp-block-list">
+<li>the selected executor,</li>
+
+
+
+<li>the command that was executed,</li>
+
+
+
+<li>standard output (<code>stdout</code>) and standard error (<code>stderr</code>),</li>
+
+
+
+<li>the exit code,</li>
+
+
+
+<li>and the execution time.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">These details are stored in the evaluation artifact. The repository also generates a digest of the evaluation configuration. This creates a deterministic link between the evaluation configuration and the artifact it produced, without trying to replace full experiment-tracking systems.</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: jscript; gutter: false; title: ; notranslate">
+{
+  &quot;executor&quot;: &quot;sbx&quot;,
+  &quot;command&quot;: &#x5B;&quot;python3&quot;, &quot;-c&quot;, &quot;print(\&quot;hello from sbx\&quot;)&quot;],
+  &quot;stdout&quot;: &quot;hello from sbx\n&quot;,
+  &quot;stderr&quot;: &quot;&quot;,
+  &quot;exit_code&quot;: 0,
+  &quot;duration_ms&quot;: 120.0
+}
+
+</pre></div>
+
+
+<h2 class="wp-block-heading">Scaling from One Evaluation to Many</h2>
+
+
+
+<p class="wp-block-paragraph">Real-world evaluation rarely consists of one isolated run. Teams compare prompts, validate behavior, measure regressions between releases, and test multiple scenarios. That led to evaluation suites.</p>
+
+
+
+<p class="wp-block-paragraph">Rather than changing how an individual evaluation works, a suite groups multiple evaluation definitions into a single repeatable workflow. Each evaluation still produces its own structured artifact, while the suite also generates an aggregated summary of the overall run.</p>
+
+
+
+<h2 class="wp-block-heading">Reusable SBX Kits Beyond Evaluation</h2>
+
+
+
+<p class="wp-block-paragraph">The same pattern isn&#8217;t limited to evaluation. An SBX Kit can package more than a development environment; it can also package the setup an engineering workflow depends on. The same model could support regression testing, policy checks, security analysis, code-generation experiments, and other workflows that depend on consistent execution and inspectable results.</p>
+
+
+
+<h2 class="wp-block-heading">Conclusion</h2>
+
+
+
+<p class="wp-block-paragraph">The SBX AI Evaluation Kit doesn&#8217;t replace evaluation frameworks, benchmarks, or scoring systems. Its job is narrower: execute configured evaluation workflows in a way that is easier to rerun and inspect.</p>
+
+
+
+<p class="wp-block-paragraph">The question I came away with is simple: before comparing benchmark scores or choosing a judge model, can someone else reliably run the same workflow under comparable conditions?</p>
+
+
+
+<p class="wp-block-paragraph">You can explore the code, experiment with custom evaluation YAMLs, and run the workflow yourself in the<a href="https://github.com/karanverma/sbx-ai-eval-kit" id="dkr_-sbx-ai-eval-kit-repository-on-github-93401" rel="nofollow noopener" target="_blank"> sbx-ai-eval-kit repository on GitHub</a>.</p>
+
+
+
+<h2 class="wp-block-heading">Resources</h2>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://github.com/karanverma/sbx-ai-eval-kit" id="dkr_sbx-ai-evaluation-kit-93401-2" rel="nofollow noopener" target="_blank"><strong>SBX AI Evaluation Kit</strong></a> &#8211; Source code, example evaluation definitions, and the implementation described in this article.</li>
+
+
+
+<li><a href="https://docs.docker.com/ai/sandboxes/" id="dkr_docker-sandboxes-documentation-93401" rel="nofollow noopener" target="_blank"><strong>Docker Sandboxes documentation</strong></a> &#8211; Official documentation for setting up and running Docker Sandboxes.</li>
+
+
+
+<li><a href="https://docs.docker.com/ai/sandboxes/customize/kits/" id="dkr_customizing-docker-sandboxes-with-kits-93401" rel="nofollow noopener" target="_blank"><strong>Customizing Docker Sandboxes with Kits</strong></a> &#8211; Official documentation for extending Docker Sandboxes with reusable Kits.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Below the Harness: Governing a Multi-Model, Multi-Harness World</title>
+		<link>https://www.docker.com/blog/below-the-harness-governing-a-multi-model-multi-harness-world/</link>
+		
+		<dc:creator><![CDATA[Srini Sekaran]]></dc:creator>
+		<pubDate>Wed, 02 Sep 2026 13:00:00 +0000</pubDate>
+				<category><![CDATA[Company]]></category>
+		<category><![CDATA[AI/ML]]></category>
+		<guid isPermaLink="false">https://www.docker.com/?p=93294</guid>
+
+					<description><![CDATA[We believe the future is a multi-model, multi-harness world. And we think it needs a new trust model. In 1988, Norm Hardy described a problem that had been quietly breaking systems for years: the confused deputy. A program that takes action using its permissions instead of yours. Today, every AI agent is that deputy. It...]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph"><em>We believe the future is a multi-model, multi-harness world. And we think it needs a new trust model.</em></p>
+
+
+
+<p class="wp-block-paragraph">In 1988, Norm Hardy described a <a href="https://css.csail.mit.edu/6.858/2015/readings/confused-deputy.html" id="dkr_problem-93294" rel="nofollow noopener" target="_blank">problem</a> that had been quietly breaking systems for years: the confused deputy. A program that takes action using its permissions instead of yours.</p>
+
+
+
+<p class="wp-block-paragraph">Today, every AI agent is that deputy. It inherits your authority: Your credentials, your repo access, your ability to call APIs. But its behavior is probabilistic. It might be acting on an instruction found in its environment, on a step it invented, or on a confident wrong answer. </p>
+
+
+
+<p class="wp-block-paragraph">The industry didn’t fix the confused deputy problem by making the deputy itself more careful. They fixed it by moving its authority a layer away. Forty years on, that&#8217;s still the answer.</p>
+
+
+
+
+
+    <h2 class="wp-block-ponyo-heading text-lg">
+        Everyone is converging on the same future
+    </h2>
+
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<p class="wp-block-paragraph">Three facts are pushing the industry toward the same conclusion.</p>
+
+
+
+<ol class="wp-block-list">
+<li><strong>Agents are expensive loops.</strong> An agent takes many steps, and you pay for every token of every one. We all can agree that it makes no economic sense to call the latest frontier model for simple tasks. </li>
+
+
+
+<li><strong>The leader of frontier capability changes often.</strong> We’re all aware that the top model of the day (and its vendor) changes every couple of months.</li>
+
+
+
+<li><strong>Your workflows may need custom models.</strong> Many teams are recognizing that intelligence is commodifying and the differentiator is custom models, derived from custom context.</li>
+</ol>
+
+
+
+<p class="wp-block-paragraph">As a result, all of us are quickly ending up with a portfolio of multiple models across multiple harnesses. </p>
+
+
+
+<p class="wp-block-paragraph">A similar convergence is happening one layer up. Developers pick certain tools for the right task, the way they always have. For example, perhaps Claude Code for long refactors, Codex for daily work, Hermes for quick scripts. </p>
+
+
+
+<p class="wp-block-paragraph">It’s reasonable to expect the future of work to be multi-model and multi-harness.</p>
+
+
+
+
+
+    <h2 class="wp-block-ponyo-heading text-lg">
+        Which makes trust the defining question
+    </h2>
+
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<p class="wp-block-paragraph">A lot of agents work the same way. </p>
+
+
+
+<p class="wp-block-paragraph">They read material that is often out of our control: support tickets, web pages, documentation, and code written by strangers. But they act with authority you granted: your credentials, repo access, production APIs, and the open internet. And they usually do both from a developer&#8217;s laptop, outside typical security guardrails like VPCs and IAM.</p>
+
+
+
+<p class="wp-block-paragraph">Private data and the ability to act autonomously, together, is what makes an agent worth deploying. Your deputy needs the ability to execute in order to be useful. Which means the interesting question is no longer which model is best. It’s what happens when one of these deputies is wrong, or manipulated.</p>
+
+
+
+
+
+    <h2 class="wp-block-ponyo-heading text-lg">
+        Per-harness guardrails break down
+    </h2>
+
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<p class="wp-block-paragraph">The obvious answer is that each harness ships its own guardrails. Many do. But relied on as your security boundary, they fail in three ways.</p>
+
+
+
+<ol class="wp-block-list">
+<li><strong>The agent talks past them.</strong> Guardrails inside the harness are enforced in the same loop the agent is running. Deny it a git push and it reaches for the API. Deny the API and it opens a gist. Deny the gist and it tucks the data into a channel you trust and never inspect. Researchers showed last year that a single <a href="https://www.docker.com/blog/mcp-horror-stories-github-prompt-injection/" id="dkr_malicious-issue-filed-in-a-public-github-repo-93294">malicious issue filed in a public GitHub repo</a> could steer a coding agent into reading a company&#8217;s private repositories and publishing the contents in a pull request the agent opened itself. Nothing was hacked since every step used the agent&#8217;s own legitimate access, through a channel everyone trusts. A boundary the agent can negotiate with is not a boundary.<br></li>
+
+
+
+<li><strong>The rails move without you.</strong> Most harness&#8217;s isolation models are closed source and ship on their vendor&#8217;s schedule. The major coding agents have each revised their default sandbox and approval behavior several times in the past year alone. Updates to sandboxing models should be treated as a security event. Multiply this by ten harnesses and your security posture is, at any moment, whatever is the patchwork of your half dozen vendors’ measures.<br></li>
+
+
+
+<li><strong>The rails don&#8217;t cover the fleet.</strong> The custom agent your platform team built has exactly the guardrails your platform team wrote. The agent inside your support SaaS has whatever its vendor chose, and most expose no isolation controls to you at all. Every new harness means building or auditing governance again, from scratch, differently. You end up with a dozen implementations that drift apart, each blind to the others&#8217; traffic, with no single place to set a rule and no single record to understand why something went wrong.</li>
+</ol>
+
+
+
+<p class="wp-block-paragraph">Safety cannot depend on the agent making the right decision, or on someone else&#8217;s release schedule.</p>
+
+
+
+
+
+    <h2 class="wp-block-ponyo-heading text-lg">
+        A layer below
+    </h2>
+
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<p class="wp-block-paragraph">So here is what we believe. The future is multi-model and multi-agent. And given that future, we believe every organization will need a layer below: a runtime layer, <em>below the harness</em>, that all of them run on top of.</p>
+
+
+
+<p class="wp-block-paragraph">The reasoning is straightforward. Strip away the model, the vendor, and the framework, and an agent has two ways to affect anything. It runs code, which touches files and opens network connections. Or it calls a tool, which acts on a system. Everything an agent does travels one of those paths. And both paths cross the same surface: the runtime, where processes execute, credentials get used, and requests leave the machine. Every agent passes through it, no matter which model powers it, which vendor shipped it, or whether you built it yourself. That makes it the one place where rules you define can be enforced across all your agents. It is also the same fix as 1988, applied to today&#8217;s deputy: the authority sits a layer away.</p>
+
+
+
+<p class="wp-block-paragraph">Put enforcement there and each of the three failure scenarios we spoke about flips around.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Your agents can&#8217;t talk past themselves.</strong> The boundary for an agent sits outside the loop the agent is running, so it holds steady no matter if the model is with you, hallucinating, or compromised. A hard neutral boundary at the runtime is more effective than a prompt-level boundary the agent creates for itself.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>The rails stop moving randomly.</strong> Policy is yours, written once, covering execution, tool calls, credentials, and spend. Now, a model or agent vendor making an update won’t randomly change your security posture.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>The rails cover your whole fleet.</strong> A policy you write up will apply to every harness. And every action, by all your agents, lands in one record: what ran, what it touched, which rule decided. </p>
+
+
+
+<p class="wp-block-paragraph">This is what lets you be nuanced about agents. Without a boundary below your harnesses, you have three bad options: block agents completely, allow all of them and hope for the best, or wedge a manual approval into every step and give up the productivity you wanted.</p>
+
+
+
+<p class="wp-block-paragraph">A boundary at the runtime gives you a fourth option. When consequences are bounded even if an agent goes off the rails, you can start granting it true autonomy, which is the goal.</p>
+
+
+
+<p class="wp-block-paragraph">We expect models to keep changing and new harnesses to land in all of our toolkits. That part is healthy. The boundary underneath them is the part that should hold steady. </p>
+
+
+
+<p class="wp-block-paragraph">Curious what this looks like in practice? <a href="https://www.docker.com/products/ai-governance/demo/" id="dkr_book-20-minutes-with-us-93294">Book 20 minutes with us</a> to see how Docker AI Governance keeps that boundary steady across your fleet.</p>
+
+
+
+<p class="wp-block-paragraph"><em>At We Are Developers in San Jose, Tushar Jain, Docker&#8217;s CTO, will talk more about this world: multiple models, multiple harnesses, and a single runtime under it all.</em></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
