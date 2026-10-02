@@ -4652,6 +4652,24 @@
           "published_at": "2026-10-02T09:00:00Z"
         }
       ]
+    },
+    {
+      "id": "7a499f0bd8346381",
+      "cluster_id": "c_d01970c1f08e4a77",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_d01970c1f08e4a77.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_d01970c1f08e4a77.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "Another viral AI doomsday report claims \u2018it\u2019s over.\u2019 Why home prices could take a hit as screen-based jobs disappear.",
+          "url": "https://www.marketwatch.com/story/another-viral-ai-doomsday-report-claims-its-over-why-home-prices-could-take-a-hit-as-screen-based-jobs-disappear-4bed48bc?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T09:25:00Z"
+        }
+      ]
     }
   ]
 }
