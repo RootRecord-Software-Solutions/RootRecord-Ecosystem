@@ -8,16 +8,16 @@
       "category": "space",
       "status": "HEALTHY",
       "reason": "",
-      "last_success": "2026-10-02T12:03:54Z",
+      "last_success": "2026-10-02T12:21:03Z",
       "last_failure": "",
       "consecutive_failures": 0,
-      "http_status": 304,
-      "parse_status": "not_modified",
-      "items_received": 0,
+      "http_status": 200,
+      "parse_status": "ok",
+      "items_received": 10,
       "items_day": 10,
-      "latency_ms": 330.0,
-      "duplicate_pct": 0,
-      "last_item_age_sec": "29196"
+      "latency_ms": 592.0,
+      "duplicate_pct": 100.0,
+      "last_item_age_sec": "29765"
     },
     {
       "id": "nasa_recent",
@@ -26,16 +26,16 @@
       "category": "space",
       "status": "HEALTHY",
       "reason": "Site-wide feed. Weather, quake, and volcano items are dropped.",
-      "last_success": "2026-10-02T12:03:54Z",
+      "last_success": "2026-10-02T12:21:03Z",
       "last_failure": "",
       "consecutive_failures": 0,
       "http_status": 200,
       "parse_status": "ok",
       "items_received": 10,
       "items_day": 10,
-      "latency_ms": 644.0,
+      "latency_ms": 672.0,
       "duplicate_pct": 100.0,
-      "last_item_age_sec": "29196"
+      "last_item_age_sec": "29765"
     },
     {
       "id": "nasa_technology",
@@ -80,16 +80,16 @@
       "category": "space",
       "status": "HEALTHY",
       "reason": "",
-      "last_success": "2026-10-02T12:03:55Z",
+      "last_success": "2026-10-02T12:21:04Z",
       "last_failure": "",
       "consecutive_failures": 0,
       "http_status": 200,
       "parse_status": "ok",
       "items_received": 10,
       "items_day": 10,
-      "latency_ms": 540.0,
+      "latency_ms": 482.0,
       "duplicate_pct": 100.0,
-      "last_item_age_sec": "65158"
+      "last_item_age_sec": "65727"
     },
     {
       "id": "nasa_artemis",
@@ -98,16 +98,16 @@
       "category": "space",
       "status": "HEALTHY",
       "reason": "",
-      "last_success": "2026-10-02T12:03:53Z",
+      "last_success": "2026-10-02T12:21:01Z",
       "last_failure": "",
       "consecutive_failures": 0,
-      "http_status": 304,
-      "parse_status": "not_modified",
-      "items_received": 0,
+      "http_status": 200,
+      "parse_status": "ok",
+      "items_received": 10,
       "items_day": 10,
-      "latency_ms": 744.0,
-      "duplicate_pct": 0,
-      "last_item_age_sec": "140413"
+      "latency_ms": 849.0,
+      "duplicate_pct": 90.0,
+      "last_item_age_sec": "140982"
     },
     {
       "id": "nasa_goddard",
@@ -170,16 +170,16 @@
       "category": "space",
       "status": "HEALTHY",
       "reason": "",
-      "last_success": "2026-10-02T12:03:53Z",
+      "last_success": "2026-10-02T12:21:02Z",
       "last_failure": "",
       "consecutive_failures": 0,
-      "http_status": 304,
-      "parse_status": "not_modified",
-      "items_received": 0,
+      "http_status": 200,
+      "parse_status": "ok",
+      "items_received": 10,
       "items_day": 10,
-      "latency_ms": 304.0,
-      "duplicate_pct": 0,
-      "last_item_age_sec": "678259"
+      "latency_ms": 774.0,
+      "duplicate_pct": 100.0,
+      "last_item_age_sec": "678828"
     },
     {
       "id": "jpl_news",
@@ -251,7 +251,7 @@
       "items_day": 12,
       "latency_ms": 353.0,
       "duplicate_pct": 88.9,
-      "last_item_age_sec": "7896"
+      "last_item_age_sec": "8465"
     },
     {
       "id": "esa_space_science",
@@ -269,7 +269,7 @@
       "items_day": 15,
       "latency_ms": 504.0,
       "duplicate_pct": 100.0,
-      "last_item_age_sec": "191196"
+      "last_item_age_sec": "191765"
     },
     {
       "id": "esa_human_spaceflight",
@@ -287,7 +287,7 @@
       "items_day": 17,
       "latency_ms": 1280.0,
       "duplicate_pct": 93.3,
-      "last_item_age_sec": "6096"
+      "last_item_age_sec": "6665"
     },
     {
       "id": "esa_earth_observation",
@@ -359,7 +359,7 @@
       "items_day": 15,
       "latency_ms": 707.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "158427"
+      "last_item_age_sec": "158996"
     },
     {
       "id": "nsf_events",
@@ -413,7 +413,7 @@
       "items_day": 20,
       "latency_ms": 297.0,
       "duplicate_pct": 100.0,
-      "last_item_age_sec": "346296"
+      "last_item_age_sec": "346865"
     },
     {
       "id": "nist_cybersecurity",
@@ -449,7 +449,7 @@
       "items_day": 20,
       "latency_ms": 719.0,
       "duplicate_pct": 100.0,
-      "last_item_age_sec": "87096"
+      "last_item_age_sec": "87665"
     },
     {
       "id": "nist_it",
@@ -647,7 +647,7 @@
       "items_day": 20,
       "latency_ms": 1207.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "56571"
+      "last_item_age_sec": "57140"
     },
     {
       "id": "ars_gadgets",
@@ -887,7 +887,7 @@
       "id": "nvidia_blog",
       "name": "NVIDIA Blog",
       "provider": "NVIDIA",
-      "category": "artificial_intelligence",
+      "category": "chips",
       "status": "UNKNOWN",
       "reason": "",
       "last_success": "",
@@ -905,7 +905,7 @@
       "id": "nvidia_developer",
       "name": "NVIDIA Developer Blog",
       "provider": "NVIDIA",
-      "category": "developer_ecosystem",
+      "category": "chips",
       "status": "UNKNOWN",
       "reason": "",
       "last_success": "",
@@ -923,7 +923,7 @@
       "id": "nvidia_press",
       "name": "NVIDIA Press Room",
       "provider": "NVIDIA",
-      "category": "artificial_intelligence",
+      "category": "chips",
       "status": "UNKNOWN",
       "reason": "The NVIDIA RSS page listed the blog, the developer blog, and the press room. It did not link the category newsroom feeds, so those were not added.",
       "last_success": "",
@@ -1014,18 +1014,18 @@
       "name": "CISA News",
       "provider": "CISA",
       "category": "cybersecurity",
-      "status": "UNAVAILABLE",
-      "reason": "cisa.gov/news-events exposed no RSS or Atom link on 2026-10-01.",
-      "last_success": "",
+      "status": "HEALTHY",
+      "reason": "Official CISA news RSS verified 2026-10-02.",
+      "last_success": "2026-10-02T12:20:53Z",
       "last_failure": "",
       "consecutive_failures": 0,
-      "http_status": "",
-      "parse_status": "",
-      "items_received": 0,
-      "items_day": 0,
-      "latency_ms": 0,
+      "http_status": 200,
+      "parse_status": "ok",
+      "items_received": 10,
+      "items_day": 10,
+      "latency_ms": 763.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": ""
+      "last_item_age_sec": "87665"
     },
     {
       "id": "cisa_alerts",
@@ -1061,7 +1061,7 @@
       "items_day": 10,
       "latency_ms": 812.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "58437"
+      "last_item_age_sec": "59006"
     },
     {
       "id": "docker_blog",
@@ -1079,7 +1079,7 @@
       "items_day": 10,
       "latency_ms": 1003.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "63924"
+      "last_item_age_sec": "64493"
     },
     {
       "id": "kernel_releases",
@@ -1115,25 +1115,25 @@
       "items_day": 20,
       "latency_ms": 1095.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "74254"
+      "last_item_age_sec": "74823"
     },
     {
       "id": "azure_blog",
       "name": "Microsoft Azure Blog",
       "provider": "Microsoft",
       "category": "developer_ecosystem",
-      "status": "UNKNOWN",
+      "status": "HEALTHY",
       "reason": "",
-      "last_success": "",
+      "last_success": "2026-10-02T12:20:42Z",
       "last_failure": "",
       "consecutive_failures": 0,
-      "http_status": "",
-      "parse_status": "",
-      "items_received": 0,
-      "items_day": 0,
-      "latency_ms": 0,
+      "http_status": 200,
+      "parse_status": "ok",
+      "items_received": 10,
+      "items_day": 10,
+      "latency_ms": 20944.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": ""
+      "last_item_age_sec": "243659"
     },
     {
       "id": "kubernetes_blog",
@@ -1349,7 +1349,7 @@
       "items_day": 20,
       "latency_ms": 10013.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "166296"
+      "last_item_age_sec": "166865"
     },
     {
       "id": "eia_whats_new",
@@ -1367,7 +1367,7 @@
       "items_day": 10,
       "latency_ms": 8768.0,
       "duplicate_pct": 100.0,
-      "last_item_age_sec": "112296"
+      "last_item_age_sec": "112865"
     },
     {
       "id": "eia_press",
@@ -1385,7 +1385,7 @@
       "items_day": 11,
       "latency_ms": 568.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "1969896"
+      "last_item_age_sec": "1970465"
     },
     {
       "id": "eia_fuel_update",
@@ -1403,7 +1403,7 @@
       "items_day": 1,
       "latency_ms": 624.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "252991"
+      "last_item_age_sec": "253560"
     },
     {
       "id": "eia_heating_oil",
@@ -1421,7 +1421,7 @@
       "items_day": 1,
       "latency_ms": 643.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "15886106"
+      "last_item_age_sec": "15886675"
     },
     {
       "id": "fed_monetary",
@@ -1439,7 +1439,7 @@
       "items_day": 12,
       "latency_ms": 986.0,
       "duplicate_pct": 20.0,
-      "last_item_age_sec": "1361496"
+      "last_item_age_sec": "1362065"
     },
     {
       "id": "fed_speeches",
@@ -1457,7 +1457,7 @@
       "items_day": 15,
       "latency_ms": 468.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "61896"
+      "last_item_age_sec": "62465"
     },
     {
       "id": "fed_supervision",
@@ -1475,7 +1475,7 @@
       "items_day": 15,
       "latency_ms": 444.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "169896"
+      "last_item_age_sec": "170465"
     },
     {
       "id": "fed_banking_letters",
@@ -1493,7 +1493,7 @@
       "items_day": 15,
       "latency_ms": 382.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "2052696"
+      "last_item_age_sec": "2053265"
     },
     {
       "id": "fed_working_papers",
@@ -1554,18 +1554,18 @@
       "name": "The Guardian International",
       "provider": "The Guardian",
       "category": "global_news",
-      "status": "UNKNOWN",
+      "status": "HEALTHY",
       "reason": "",
-      "last_success": "",
+      "last_success": "2026-10-02T12:20:54Z",
       "last_failure": "",
       "consecutive_failures": 0,
-      "http_status": "",
-      "parse_status": "",
-      "items_received": 0,
-      "items_day": 0,
-      "latency_ms": 0,
+      "http_status": 200,
+      "parse_status": "ok",
+      "items_received": 20,
+      "items_day": 18,
+      "latency_ms": 1185.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": ""
+      "last_item_age_sec": "1258"
     },
     {
       "id": "aljazeera_all",
@@ -1574,22 +1574,22 @@
       "category": "global_news",
       "status": "HEALTHY",
       "reason": "Sports items are dropped.",
-      "last_success": "2026-10-02T09:27:38Z",
+      "last_success": "2026-10-02T12:20:21Z",
       "last_failure": "",
       "consecutive_failures": 0,
       "http_status": 200,
       "parse_status": "ok",
       "items_received": 20,
-      "items_day": 20,
-      "latency_ms": 1190.0,
-      "duplicate_pct": 0,
-      "last_item_age_sec": "11295"
+      "items_day": 32,
+      "latency_ms": 1273.0,
+      "duplicate_pct": 20.0,
+      "last_item_age_sec": "1065"
     },
     {
       "id": "sciencedaily_all",
       "name": "ScienceDaily",
       "provider": "ScienceDaily",
-      "category": "science_offbeat",
+      "category": "science",
       "status": "UNKNOWN",
       "reason": "",
       "last_success": "",
@@ -1637,7 +1637,7 @@
       "items_day": 20,
       "latency_ms": 2107.0,
       "duplicate_pct": 100.0,
-      "last_item_age_sec": "171636"
+      "last_item_age_sec": "172205"
     },
     {
       "id": "sec_press",
@@ -1655,7 +1655,7 @@
       "items_day": 20,
       "latency_ms": 1681.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "71729"
+      "last_item_age_sec": "72298"
     },
     {
       "id": "cftc_press",
@@ -1673,7 +1673,7 @@
       "items_day": 10,
       "latency_ms": 513.0,
       "duplicate_pct": 100.0,
-      "last_item_age_sec": "83105"
+      "last_item_age_sec": "83674"
     },
     {
       "id": "marketwatch_top",
@@ -1691,7 +1691,7 @@
       "items_day": 22,
       "latency_ms": 1184.0,
       "duplicate_pct": 100.0,
-      "last_item_age_sec": "1416"
+      "last_item_age_sec": "1985"
     },
     {
       "id": "bbc_business",
@@ -1709,7 +1709,7 @@
       "items_day": 23,
       "latency_ms": 2045.0,
       "duplicate_pct": 90.0,
-      "last_item_age_sec": "3245"
+      "last_item_age_sec": "3814"
     },
     {
       "id": "cnbc_markets",
@@ -1763,7 +1763,7 @@
       "items_day": 20,
       "latency_ms": 1154.0,
       "duplicate_pct": 100.0,
-      "last_item_age_sec": "51784"
+      "last_item_age_sec": "52353"
     },
     {
       "id": "breaking_defense",
@@ -1781,7 +1781,7 @@
       "items_day": 16,
       "latency_ms": 944.0,
       "duplicate_pct": 93.3,
-      "last_item_age_sec": "11496"
+      "last_item_age_sec": "12065"
     },
     {
       "id": "defense_news",
@@ -1799,7 +1799,7 @@
       "items_day": 21,
       "latency_ms": 1749.0,
       "duplicate_pct": 90.0,
-      "last_item_age_sec": "963"
+      "last_item_age_sec": "1532"
     },
     {
       "id": "uk_mod",
@@ -1817,7 +1817,7 @@
       "items_day": 26,
       "latency_ms": 1331.0,
       "duplicate_pct": 95.0,
-      "last_item_age_sec": "4295"
+      "last_item_age_sec": "4864"
     },
     {
       "id": "spacex_official",
@@ -1862,16 +1862,16 @@
       "category": "spacex",
       "status": "HEALTHY",
       "reason": "",
-      "last_success": "2026-10-02T12:03:56Z",
+      "last_success": "2026-10-02T12:21:05Z",
       "last_failure": "",
       "consecutive_failures": 0,
       "http_status": 304,
       "parse_status": "not_modified",
       "items_received": 0,
       "items_day": 6,
-      "latency_ms": 1296.0,
+      "latency_ms": 1450.0,
       "duplicate_pct": 60.0,
-      "last_item_age_sec": "60836"
+      "last_item_age_sec": "61405"
     },
     {
       "id": "spacenews_spacex",
@@ -1907,7 +1907,7 @@
       "items_day": 7,
       "latency_ms": 1017.0,
       "duplicate_pct": 70.0,
-      "last_item_age_sec": "48846"
+      "last_item_age_sec": "49415"
     },
     {
       "id": "hawaii_governor",
@@ -1925,7 +1925,7 @@
       "items_day": 14,
       "latency_ms": 939.0,
       "duplicate_pct": 60.0,
-      "last_item_age_sec": "42351"
+      "last_item_age_sec": "42920"
     },
     {
       "id": "hawaii_dbedt",
@@ -1943,7 +1943,7 @@
       "items_day": 10,
       "latency_ms": 1661.0,
       "duplicate_pct": 0,
-      "last_item_age_sec": "129044"
+      "last_item_age_sec": "129613"
     },
     {
       "id": "hawaii_health",
@@ -1961,7 +1961,7 @@
       "items_day": 11,
       "latency_ms": 1375.0,
       "duplicate_pct": 90.0,
-      "last_item_age_sec": "33739"
+      "last_item_age_sec": "34308"
     },
     {
       "id": "civil_beat",
@@ -1979,7 +1979,7 @@
       "items_day": 16,
       "latency_ms": 894.0,
       "duplicate_pct": 40.0,
-      "last_item_age_sec": "7836"
+      "last_item_age_sec": "8405"
     },
     {
       "id": "star_advertiser",
@@ -1997,7 +1997,7 @@
       "items_day": 43,
       "latency_ms": 712.0,
       "duplicate_pct": 100.0,
-      "last_item_age_sec": "7536"
+      "last_item_age_sec": "8105"
     },
     {
       "id": "hawaii_news_now",
@@ -2015,7 +2015,619 @@
       "items_day": 36,
       "latency_ms": 2149.0,
       "duplicate_pct": 80.0,
-      "last_item_age_sec": "4479"
+      "last_item_age_sec": "5048"
+    },
+    {
+      "id": "microsoft_news",
+      "name": "Microsoft News",
+      "provider": "Microsoft",
+      "category": "chips",
+      "status": "HEALTHY",
+      "reason": "Big-tech desk. Sports airtime reweight 2026-10-02.",
+      "last_success": "2026-10-02T12:20:59Z",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": 200,
+      "parse_status": "ok",
+      "items_received": 10,
+      "items_day": 10,
+      "latency_ms": 894.0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": "44353259"
+    },
+    {
+      "id": "microsoft_blog",
+      "name": "Microsoft Blog",
+      "provider": "Microsoft",
+      "category": "chips",
+      "status": "HEALTHY",
+      "reason": "",
+      "last_success": "2026-10-02T12:20:58Z",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": 200,
+      "parse_status": "ok",
+      "items_received": 10,
+      "items_day": 10,
+      "latency_ms": 1085.0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": "76658"
+    },
+    {
+      "id": "bbc_technology",
+      "name": "BBC Technology",
+      "provider": "BBC",
+      "category": "chips",
+      "status": "UNKNOWN",
+      "reason": "Chip and big-tech items. Sports URLs that leak in are dropped.",
+      "last_success": "",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": "",
+      "parse_status": "",
+      "items_received": 0,
+      "items_day": 0,
+      "latency_ms": 0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": ""
+    },
+    {
+      "id": "bbc_world",
+      "name": "BBC World",
+      "provider": "BBC",
+      "category": "global_news",
+      "status": "HEALTHY",
+      "reason": "",
+      "last_success": "2026-10-02T12:20:51Z",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": 200,
+      "parse_status": "ok",
+      "items_received": 20,
+      "items_day": 19,
+      "latency_ms": 890.0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": "4495"
+    },
+    {
+      "id": "bbc_asia",
+      "name": "BBC Asia",
+      "provider": "BBC",
+      "category": "global_news",
+      "status": "HEALTHY",
+      "reason": "",
+      "last_success": "2026-10-02T12:20:45Z",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": 200,
+      "parse_status": "ok",
+      "items_received": 17,
+      "items_day": 17,
+      "latency_ms": 1077.0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": "1741"
+    },
+    {
+      "id": "bbc_australia",
+      "name": "BBC Australia",
+      "provider": "BBC",
+      "category": "global_news",
+      "status": "HEALTHY",
+      "reason": "Australia spelling retained in desk copy and publisher notes.",
+      "last_success": "2026-10-02T12:20:46Z",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": 200,
+      "parse_status": "ok",
+      "items_received": 17,
+      "items_day": 11,
+      "latency_ms": 996.0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": "28774"
+    },
+    {
+      "id": "bbc_africa",
+      "name": "BBC Africa",
+      "provider": "BBC",
+      "category": "global_news",
+      "status": "HEALTHY",
+      "reason": "",
+      "last_success": "2026-10-02T12:20:44Z",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": 200,
+      "parse_status": "ok",
+      "items_received": 20,
+      "items_day": 12,
+      "latency_ms": 1817.0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": "45293"
+    },
+    {
+      "id": "bbc_europe",
+      "name": "BBC Europe",
+      "provider": "BBC",
+      "category": "global_news",
+      "status": "HEALTHY",
+      "reason": "",
+      "last_success": "2026-10-02T12:20:48Z",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": 200,
+      "parse_status": "ok",
+      "items_received": 20,
+      "items_day": 19,
+      "latency_ms": 972.0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": "45512"
+    },
+    {
+      "id": "bbc_latin_america",
+      "name": "BBC Latin America",
+      "provider": "BBC",
+      "category": "global_news",
+      "status": "HEALTHY",
+      "reason": "",
+      "last_success": "2026-10-02T12:20:49Z",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": 200,
+      "parse_status": "ok",
+      "items_received": 17,
+      "items_day": 17,
+      "latency_ms": 900.0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": "7093"
+    },
+    {
+      "id": "bbc_middle_east",
+      "name": "BBC Middle East",
+      "provider": "BBC",
+      "category": "global_news",
+      "status": "HEALTHY",
+      "reason": "",
+      "last_success": "2026-10-02T12:20:50Z",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": 200,
+      "parse_status": "ok",
+      "items_received": 20,
+      "items_day": 18,
+      "latency_ms": 1147.0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": "1741"
+    },
+    {
+      "id": "bbc_us_canada",
+      "name": "BBC US and Canada",
+      "provider": "BBC",
+      "category": "global_news",
+      "status": "UNKNOWN",
+      "reason": "North America world desk. Sports items are dropped.",
+      "last_success": "",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": "",
+      "parse_status": "",
+      "items_received": 0,
+      "items_day": 0,
+      "latency_ms": 0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": ""
+    },
+    {
+      "id": "npr_world",
+      "name": "NPR World",
+      "provider": "NPR",
+      "category": "global_news",
+      "status": "UNKNOWN",
+      "reason": "",
+      "last_success": "",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": "",
+      "parse_status": "",
+      "items_received": 0,
+      "items_day": 0,
+      "latency_ms": 0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": ""
+    },
+    {
+      "id": "abc_australia_top",
+      "name": "ABC News Australia Top Stories",
+      "provider": "ABC News Australia",
+      "category": "global_news",
+      "status": "HEALTHY",
+      "reason": "Australia coverage. Spelling is Australia.",
+      "last_success": "2026-10-02T12:20:20Z",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": 200,
+      "parse_status": "ok",
+      "items_received": 20,
+      "items_day": 19,
+      "latency_ms": 1830.0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": "7767"
+    },
+    {
+      "id": "japan_times",
+      "name": "The Japan Times",
+      "provider": "Japan Times",
+      "category": "global_news",
+      "status": "UNKNOWN",
+      "reason": "",
+      "last_success": "",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": "",
+      "parse_status": "",
+      "items_received": 0,
+      "items_day": 0,
+      "latency_ms": 0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": ""
+    },
+    {
+      "id": "dw_english",
+      "name": "Deutsche Welle English",
+      "provider": "Deutsche Welle",
+      "category": "global_news",
+      "status": "UNKNOWN",
+      "reason": "",
+      "last_success": "",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": "",
+      "parse_status": "",
+      "items_received": 0,
+      "items_day": 0,
+      "latency_ms": 0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": ""
+    },
+    {
+      "id": "france24_en",
+      "name": "France 24 English",
+      "provider": "France 24",
+      "category": "global_news",
+      "status": "UNKNOWN",
+      "reason": "",
+      "last_success": "",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": "",
+      "parse_status": "",
+      "items_received": 0,
+      "items_day": 0,
+      "latency_ms": 0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": ""
+    },
+    {
+      "id": "africanews",
+      "name": "Africanews",
+      "provider": "Africa News",
+      "category": "global_news",
+      "status": "UNKNOWN",
+      "reason": "",
+      "last_success": "",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": "",
+      "parse_status": "",
+      "items_received": 0,
+      "items_day": 0,
+      "latency_ms": 0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": ""
+    },
+    {
+      "id": "un_news",
+      "name": "UN News",
+      "provider": "United Nations",
+      "category": "global_news",
+      "status": "UNKNOWN",
+      "reason": "",
+      "last_success": "",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": "",
+      "parse_status": "",
+      "items_received": 0,
+      "items_day": 0,
+      "latency_ms": 0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": ""
+    },
+    {
+      "id": "noaa_news",
+      "name": "NOAA News",
+      "provider": "NOAA",
+      "category": "mainland_weather",
+      "status": "UNKNOWN",
+      "reason": "U.S. mainland and national weather science. Hawaii forecast overlap patterns still drop native desk duplicates.",
+      "last_success": "",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": "",
+      "parse_status": "",
+      "items_received": 0,
+      "items_day": 0,
+      "latency_ms": 0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": ""
+    },
+    {
+      "id": "nhc_atlantic",
+      "name": "NHC Atlantic",
+      "provider": "National Hurricane Center",
+      "category": "mainland_weather",
+      "status": "UNKNOWN",
+      "reason": "",
+      "last_success": "",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": "",
+      "parse_status": "",
+      "items_received": 0,
+      "items_day": 0,
+      "latency_ms": 0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": ""
+    },
+    {
+      "id": "nhc_eastern_pacific",
+      "name": "NHC Eastern North Pacific",
+      "provider": "National Hurricane Center",
+      "category": "mainland_weather",
+      "status": "UNKNOWN",
+      "reason": "Eastern Pacific mainland-facing basin. Central Pacific Hawaii basin stays on the native weather desk.",
+      "last_success": "",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": "",
+      "parse_status": "",
+      "items_received": 0,
+      "items_day": 0,
+      "latency_ms": 0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": ""
+    },
+    {
+      "id": "spc_forecast",
+      "name": "Storm Prediction Center",
+      "provider": "Storm Prediction Center",
+      "category": "mainland_weather",
+      "status": "UNKNOWN",
+      "reason": "",
+      "last_success": "",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": "",
+      "parse_status": "",
+      "items_received": 0,
+      "items_day": 0,
+      "latency_ms": 0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": ""
+    },
+    {
+      "id": "whitehouse_news",
+      "name": "White House News",
+      "provider": "White House",
+      "category": "mainland_politics",
+      "status": "UNKNOWN",
+      "reason": "Centrist mainland politics desk. Partisan phrasing is dropped.",
+      "last_success": "",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": "",
+      "parse_status": "",
+      "items_received": 0,
+      "items_day": 0,
+      "latency_ms": 0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": ""
+    },
+    {
+      "id": "federal_register",
+      "name": "Federal Register",
+      "provider": "Federal Register",
+      "category": "mainland_politics",
+      "status": "UNKNOWN",
+      "reason": "Official rulemaking. Centrist framing only.",
+      "last_success": "",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": "",
+      "parse_status": "",
+      "items_received": 0,
+      "items_day": 0,
+      "latency_ms": 0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": ""
+    },
+    {
+      "id": "congress_bills",
+      "name": "Congress Most-Viewed Bills",
+      "provider": "Congress",
+      "category": "mainland_politics",
+      "status": "UNKNOWN",
+      "reason": "",
+      "last_success": "",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": "",
+      "parse_status": "",
+      "items_received": 0,
+      "items_day": 0,
+      "latency_ms": 0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": ""
+    },
+    {
+      "id": "npr_national",
+      "name": "NPR National",
+      "provider": "NPR",
+      "category": "mainland_politics",
+      "status": "UNKNOWN",
+      "reason": "Measured national desk. Partisan phrasing is dropped.",
+      "last_success": "",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": "",
+      "parse_status": "",
+      "items_received": 0,
+      "items_day": 0,
+      "latency_ms": 0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": ""
+    },
+    {
+      "id": "npr_politics",
+      "name": "NPR Politics",
+      "provider": "NPR",
+      "category": "mainland_politics",
+      "status": "UNKNOWN",
+      "reason": "Centrist mainland politics. Sports items are dropped. Partisan phrasing is dropped.",
+      "last_success": "",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": "",
+      "parse_status": "",
+      "items_received": 0,
+      "items_day": 0,
+      "latency_ms": 0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": ""
+    },
+    {
+      "id": "mit_news",
+      "name": "MIT News",
+      "provider": "MIT News",
+      "category": "universities",
+      "status": "HEALTHY",
+      "reason": "",
+      "last_success": "2026-10-02T12:21:00Z",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": 200,
+      "parse_status": "ok",
+      "items_received": 20,
+      "items_day": 20,
+      "latency_ms": 972.0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": "30065"
+    },
+    {
+      "id": "mit_research",
+      "name": "MIT Research",
+      "provider": "MIT News",
+      "category": "universities",
+      "status": "HEALTHY",
+      "reason": "",
+      "last_success": "2026-10-02T12:21:00Z",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": 200,
+      "parse_status": "ok",
+      "items_received": 20,
+      "items_day": 20,
+      "latency_ms": 524.0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": "162365"
+    },
+    {
+      "id": "harvard_gazette",
+      "name": "Harvard Gazette",
+      "provider": "Harvard Gazette",
+      "category": "universities",
+      "status": "HEALTHY",
+      "reason": "",
+      "last_success": "2026-10-02T12:20:56Z",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": 200,
+      "parse_status": "ok",
+      "items_received": 20,
+      "items_day": 20,
+      "latency_ms": 2195.0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": "54151"
+    },
+    {
+      "id": "berkeley_news",
+      "name": "UC Berkeley News",
+      "provider": "UC Berkeley",
+      "category": "universities",
+      "status": "HEALTHY",
+      "reason": "",
+      "last_success": "2026-10-02T12:20:52Z",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": 200,
+      "parse_status": "ok",
+      "items_received": 10,
+      "items_day": 10,
+      "latency_ms": 922.0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": "47777"
+    },
+    {
+      "id": "nature_news",
+      "name": "Nature",
+      "provider": "Nature",
+      "category": "science",
+      "status": "UNKNOWN",
+      "reason": "Science breakthroughs and peer-reviewed research highlights.",
+      "last_success": "",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": "",
+      "parse_status": "",
+      "items_received": 0,
+      "items_day": 0,
+      "latency_ms": 0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": ""
+    },
+    {
+      "id": "science_magazine",
+      "name": "Science Magazine News",
+      "provider": "Science",
+      "category": "science",
+      "status": "UNKNOWN",
+      "reason": "",
+      "last_success": "",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": "",
+      "parse_status": "",
+      "items_received": 0,
+      "items_day": 0,
+      "latency_ms": 0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": ""
+    },
+    {
+      "id": "phys_org",
+      "name": "Phys.org",
+      "provider": "Phys.org",
+      "category": "science",
+      "status": "UNKNOWN",
+      "reason": "",
+      "last_success": "",
+      "last_failure": "",
+      "consecutive_failures": 0,
+      "http_status": "",
+      "parse_status": "",
+      "items_received": 0,
+      "items_day": 0,
+      "latency_ms": 0,
+      "duplicate_pct": 0,
+      "last_item_age_sec": ""
     }
   ]
 }

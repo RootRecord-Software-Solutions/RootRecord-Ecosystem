@@ -5451,6 +5451,1775 @@
           "published_at": "2026-10-02T11:55:33Z"
         }
       ]
+    },
+    {
+      "id": "ea91fc99413233f7",
+      "cluster_id": "c_e0d4094edeb379d5",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_e0d4094edeb379d5.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_e0d4094edeb379d5.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Beau Lamarre-Condon jury hears Triple Zero call from day of alleged murders",
+          "url": "https://www.abc.net.au/news/2026-10-02/nsw-beau-lamarre-condon-jesse-baird-triple-zero-call/107219596",
+          "published_at": "2026-10-02T02:53:16Z"
+        }
+      ]
+    },
+    {
+      "id": "18af1e2ccdff06a9",
+      "cluster_id": "c_f96f1ef6e3884bfc",
+      "program": "CHIPS_BRIEF",
+      "report": "chips_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/chips_brief/c_f96f1ef6e3884bfc.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/chips_brief/c_f96f1ef6e3884bfc.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Rogue OpenAI agent accessed second NSW government website",
+          "url": "https://www.abc.net.au/news/2026-10-02/rogue-open-ai-agent-breach-nsw-government-website/107223108",
+          "published_at": "2026-10-02T07:21:44Z"
+        }
+      ]
+    },
+    {
+      "id": "6c0432fb1482a0b1",
+      "cluster_id": "c_dffdc3ee2b4de727",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_dffdc3ee2b4de727.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_dffdc3ee2b4de727.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Former Liberal politician Bruce Baird dies aged 84",
+          "url": "https://www.abc.net.au/news/2026-10-02/nsw-former-liberal-politician-bruce-baird-dies/107223688",
+          "published_at": "2026-10-02T08:46:24Z"
+        }
+      ]
+    },
+    {
+      "id": "6914152c50043b49",
+      "cluster_id": "c_c6d1483783596c80",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_c6d1483783596c80.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_c6d1483783596c80.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "The stolen Ukrainian teen who became the poster boy for Putin's propaganda",
+          "url": "https://www.abc.net.au/news/2026-10-02/denys-kostev-how-russia-turned-a-stolen-teen-into-poster-child/107192742",
+          "published_at": "2026-10-02T02:05:30Z"
+        }
+      ]
+    },
+    {
+      "id": "9738c4b7664bedd1",
+      "cluster_id": "c_8347f889eed47e26",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_8347f889eed47e26.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_8347f889eed47e26.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Notorious alleged WA drug kingpin 'The Kid' arrested in Colombia",
+          "url": "https://www.abc.net.au/news/2026-10-02/alleged-drug-kingpin-arash-ebrahimi-far-arrested-in-colombia/107221142",
+          "published_at": "2026-10-02T03:29:52Z"
+        }
+      ]
+    },
+    {
+      "id": "03f46aad482aaf55",
+      "cluster_id": "c_437775e00470884b",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_437775e00470884b.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_437775e00470884b.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "'I was fighting for my life': flydubai pilot recounts harrowing mid-flight attack",
+          "url": "https://www.abc.net.au/news/2026-10-02/indian-prime-talks-with-flydubai-pilot/107223576",
+          "published_at": "2026-10-02T08:53:39Z"
+        }
+      ]
+    },
+    {
+      "id": "d19a92549d94e1f6",
+      "cluster_id": "c_1b4dc794d8b7cbe2",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_1b4dc794d8b7cbe2.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_1b4dc794d8b7cbe2.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "'Very violent' home invasions targeted women alone, police say",
+          "url": "https://www.abc.net.au/news/2026-10-02/nsw-three-charged-after-women-assaulted-home-invasions-sydney/107220274",
+          "published_at": "2026-10-02T03:14:53Z"
+        }
+      ]
+    },
+    {
+      "id": "f5d97516900814c4",
+      "cluster_id": "c_87c7499dd3c70379",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_87c7499dd3c70379.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_87c7499dd3c70379.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "'Lifeless' baby took two gasps after delivery, inquest hears",
+          "url": "https://www.abc.net.au/news/2026-10-02/alby-spreadborough-newborn-inquest-hears-from-expert-doctors/107202826",
+          "published_at": "2026-10-02T07:01:44Z"
+        }
+      ]
+    },
+    {
+      "id": "2a38cebfc91663e2",
+      "cluster_id": "c_c4f210719ce8f496",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_c4f210719ce8f496.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_c4f210719ce8f496.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Healthcare workers killed in Ledcourt triple-fatal had a 'bright' future in Australia",
+          "url": "https://www.abc.net.au/news/2026-10-02/chinese-couple-killed-ledcourt-victoria-crash-remembered/106017256",
+          "published_at": "2026-10-02T10:11:38Z"
+        }
+      ]
+    },
+    {
+      "id": "946177b347b2a17b",
+      "cluster_id": "c_81a3e91f6a175121",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_81a3e91f6a175121.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_81a3e91f6a175121.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Perth man accused of letting toddler steer car appears in court",
+          "url": "https://www.abc.net.au/news/2026-10-02/jake-douglas-smith-allegedly-let-toddler-steer-car-in-perth/107220950",
+          "published_at": "2026-10-02T07:26:39Z"
+        }
+      ]
+    },
+    {
+      "id": "80553762157b2d76",
+      "cluster_id": "c_693ae5dd9c4cd7ce",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_693ae5dd9c4cd7ce.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_693ae5dd9c4cd7ce.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Roosters blow as Watson ruled out of NRL grand final",
+          "url": "https://www.abc.net.au/news/2026-10-02/roosters-connor-watson-out-of-nrl-grand-final/107221782",
+          "published_at": "2026-10-02T04:03:06Z"
+        }
+      ]
+    },
+    {
+      "id": "394802c9ee9f7a9c",
+      "cluster_id": "c_3b7d512fb78cc67e",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_3b7d512fb78cc67e.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_3b7d512fb78cc67e.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Amy Shark to lead NRL grand final musical tribute to Jai Arrow",
+          "url": "https://www.abc.net.au/news/2026-10-02/amy-shark-screaming-jets-nrl-grand-final-jai-arrow-tribute-music/107222214",
+          "published_at": "2026-10-02T04:56:54Z"
+        }
+      ]
+    },
+    {
+      "id": "77037da0da995a9a",
+      "cluster_id": "c_b9771d26823dfe69",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_b9771d26823dfe69.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_b9771d26823dfe69.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "NRLW grand final marks end of era",
+          "url": "https://www.abc.net.au/news/2026-10-02/nrlw-grand-final-doubles-as-end-of-an-era/107218874",
+          "published_at": "2026-10-02T03:22:26Z"
+        }
+      ]
+    },
+    {
+      "id": "1f5ce8afae01b0e8",
+      "cluster_id": "c_5f348ceba881fa9d",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_5f348ceba881fa9d.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_5f348ceba881fa9d.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Christa Pike fighting for life after surviving execution attempt",
+          "url": "https://www.abc.net.au/news/2026-10-02/christa-pike-colleen-slemmer-survives-execution-attempt/107211372",
+          "published_at": "2026-10-01T19:19:53Z"
+        }
+      ]
+    },
+    {
+      "id": "24dc191a2590ad5d",
+      "cluster_id": "c_9c26d0d8f50b87f6",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_9c26d0d8f50b87f6.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_9c26d0d8f50b87f6.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Minister's Trump lamb plan labelled 'ill-informed' by super sector",
+          "url": "https://www.abc.net.au/news/2026-10-02/don-farrell-pitches-lamb-investment-to-avoid-tariffs/107219472",
+          "published_at": "2026-10-01T21:24:15Z"
+        }
+      ]
+    },
+    {
+      "id": "f6ad75ebdc2215b9",
+      "cluster_id": "c_071e8c416f29ba0a",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_071e8c416f29ba0a.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_071e8c416f29ba0a.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Bookkeeper admits defrauding $2.8m from farming family",
+          "url": "https://www.abc.net.au/news/2026-10-02/bookkeeper-michelle-lawson-tully-farming-fraud/107220480",
+          "published_at": "2026-10-02T08:30:36Z"
+        }
+      ]
+    },
+    {
+      "id": "ccabe9d8e98543bd",
+      "cluster_id": "c_782c3d5ca9012a24",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_782c3d5ca9012a24.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_782c3d5ca9012a24.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Perfectly timed snaps of silly creatures in comedy wildlife finals",
+          "url": "https://www.abc.net.au/news/2026-10-02/comedy-wildlife-photography-awards-finalists-announced/107221426",
+          "published_at": "2026-10-02T04:33:42Z"
+        }
+      ]
+    },
+    {
+      "id": "1c8c7e1536f0ca33",
+      "cluster_id": "c_6d6cd13f8c0322e4",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_6d6cd13f8c0322e4.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_6d6cd13f8c0322e4.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Inquiry hears 'blue code of silence' stops DV victims reporting police",
+          "url": "https://www.abc.net.au/news/2026-10-02/tas-blue-code-of-silence-stops-dv-victims-reporting-police/107221656",
+          "published_at": "2026-10-02T05:36:24Z"
+        }
+      ]
+    },
+    {
+      "id": "cb44434908b9fbe5",
+      "cluster_id": "c_969e8ef8c7269b00",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_969e8ef8c7269b00.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_969e8ef8c7269b00.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Woman who stopped Adelaide beach brawl speaks out",
+          "url": "https://www.abc.net.au/news/2026-10-02/woman-who-intervened-in-adelaide-beach-fight-speaks-out/107220794",
+          "published_at": "2026-10-02T08:24:49Z"
+        }
+      ]
+    },
+    {
+      "id": "17562572f261d4ec",
+      "cluster_id": "c_48a4a5789f835e19",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_48a4a5789f835e19.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_48a4a5789f835e19.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Tunisia softens its \u2018false news\u2019 penalty. What really changed, and why now?",
+          "url": "https://www.aljazeera.com/news/2026/10/2/tunisia-softens-its-false-news-penalty-what-really-changed-and-why-now?traffic_source=rss",
+          "published_at": "2026-10-02T12:03:20Z"
+        }
+      ]
+    },
+    {
+      "id": "0faf3057d6873b36",
+      "cluster_id": "c_10f2df020b6cb660",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_10f2df020b6cb660.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_10f2df020b6cb660.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "What\u2019s behind France\u2019s school protests?",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/2-10-reported-natascha-paris-school-fr?traffic_source=rss",
+          "published_at": "2026-10-02T11:42:52Z"
+        }
+      ]
+    },
+    {
+      "id": "32d2916e6617611f",
+      "cluster_id": "c_cda79b460faa623a",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_cda79b460faa623a.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_cda79b460faa623a.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Washington\u2019s diplomacy in Sudan has backfired",
+          "url": "https://www.aljazeera.com/opinions/2026/10/2/washingtons-diplomacy-in-sudan-has-backfired?traffic_source=rss",
+          "published_at": "2026-10-02T11:41:45Z"
+        }
+      ]
+    },
+    {
+      "id": "2a863818b71c5654",
+      "cluster_id": "c_92eb989f4aa7d929",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_92eb989f4aa7d929.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_92eb989f4aa7d929.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Support for Merz plunges after CDU\u2019s losses to Germany\u2019s right and left",
+          "url": "https://www.aljazeera.com/news/2026/10/2/just-one-in-10-germans-thinks-merz-is-up-to-the-job-after-election-wipeout?traffic_source=rss",
+          "published_at": "2026-10-02T11:31:15Z"
+        }
+      ]
+    },
+    {
+      "id": "8c6b1e61290771fb",
+      "cluster_id": "c_dceabd96d6cd5088",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_dceabd96d6cd5088.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_dceabd96d6cd5088.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "FlyDubai pilot describes opening cockpit door during attack",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/flydubai-pilot-describes-opening-cockpit-door-during-attack?traffic_source=rss",
+          "published_at": "2026-10-02T11:23:27Z"
+        }
+      ]
+    },
+    {
+      "id": "ed65861c99ea7cff",
+      "cluster_id": "c_cfb03ec4c9711cb7",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_cfb03ec4c9711cb7.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_cfb03ec4c9711cb7.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "\u2018Containerabad\u2019: Pakistan\u2019s capital and truckers bleed money amid lockdown",
+          "url": "https://www.aljazeera.com/features/2026/10/2/containerabad-pakistans-capital-and-truckers-bleed-money-amid-lockdown?traffic_source=rss",
+          "published_at": "2026-10-02T11:22:57Z"
+        }
+      ]
+    },
+    {
+      "id": "86e3fdf18323f396",
+      "cluster_id": "c_185518c6e5f1ffad",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_185518c6e5f1ffad.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_185518c6e5f1ffad.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Explosions reported near military airport in Syria\u2019s Idlib province",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/10-2-syria-explosion-clip?traffic_source=rss",
+          "published_at": "2026-10-02T11:00:20Z"
+        }
+      ]
+    },
+    {
+      "id": "1d8b7da51cb17284",
+      "cluster_id": "c_b68052e5b5cebad7",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_b68052e5b5cebad7.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_b68052e5b5cebad7.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Indian authorities clamp down as \u2018cockroach\u2019 movement launches new protests",
+          "url": "https://www.aljazeera.com/news/2026/10/2/indian-authorities-clamp-down-as-cockroach-movement-launches-new-protests?traffic_source=rss",
+          "published_at": "2026-10-02T10:46:47Z"
+        }
+      ]
+    },
+    {
+      "id": "466f699e6da48323",
+      "cluster_id": "c_75585f39c3c545c7",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_75585f39c3c545c7.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_75585f39c3c545c7.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "How can Jordan respond to Israel\u2019s escalation across the West Bank?",
+          "url": "https://www.aljazeera.com/opinions/2026/10/2/how-can-jordan-respond-to-israels-escalation-across-the-west-bank?traffic_source=rss",
+          "published_at": "2026-10-02T10:17:23Z"
+        }
+      ]
+    },
+    {
+      "id": "caa629780ee75f09",
+      "cluster_id": "c_34737bd7585b31be",
+      "program": "AVIATION_BRIEF",
+      "report": "aviation_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_34737bd7585b31be.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_34737bd7585b31be.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "New aircraft carrier, 10,000 US troops: Is the Iran war about to escalate?",
+          "url": "https://www.aljazeera.com/news/2026/10/2/new-aircraft-carrier-10000-us-troops-is-the-iran-war-about-to-escalate?traffic_source=rss",
+          "published_at": "2026-10-02T10:06:21Z"
+        }
+      ]
+    },
+    {
+      "id": "5658ca74029719b4",
+      "cluster_id": "c_dd30075272ff0563",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_dd30075272ff0563.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_dd30075272ff0563.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Arab party leader forced to withdraw from Israeli elections",
+          "url": "https://www.aljazeera.com/news/2026/10/2/arab-party-leader-forced-to-withdraw-from-israeli-elections?traffic_source=rss",
+          "published_at": "2026-10-02T09:25:23Z"
+        }
+      ]
+    },
+    {
+      "id": "9e28830b003e80ac",
+      "cluster_id": "c_15bddc16caa0c7c8",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_15bddc16caa0c7c8.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_15bddc16caa0c7c8.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Israeli court ruling a \u2018new threshold\u2019 in Palestinian suppression",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/10-2-ziad-abu-rish-israel-politics-qt-mp4?traffic_source=rss",
+          "published_at": "2026-10-02T09:24:39Z"
+        }
+      ]
+    },
+    {
+      "id": "ec4e230806ce7a93",
+      "cluster_id": "c_8ccd255c1f0a3305",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_8ccd255c1f0a3305.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_8ccd255c1f0a3305.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Africa",
+          "title": "Making politics 'fun, trendy, sexy': How Gen Z could shape Kenya's next election",
+          "url": "https://www.bbc.co.uk/news/articles/cwly7v7kk17mo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T23:46:12Z"
+        }
+      ]
+    },
+    {
+      "id": "aae528c1d6568d6e",
+      "cluster_id": "c_8e2cad655659c610",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_8e2cad655659c610.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_8e2cad655659c610.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Africa",
+          "title": "Algeria introduces death penalty for arsonists after deadly wildfires",
+          "url": "https://www.bbc.co.uk/news/articles/cmge4exg44v5o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T16:31:35Z"
+        },
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "Algeria introduces death penalty for arsonists after deadly wildfires",
+          "url": "https://www.bbc.co.uk/news/articles/cmge4exg44v5o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T16:31:35Z"
+        }
+      ]
+    },
+    {
+      "id": "27f85afb2ae9f780",
+      "cluster_id": "c_a1910be98a79a180",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_a1910be98a79a180.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_a1910be98a79a180.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Africa",
+          "title": "Zimbabwe tycoon Wicknell Chivayo and wife killed in helicopter crash",
+          "url": "https://www.bbc.co.uk/news/articles/cr4gvg0yenl4o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T13:13:33Z"
+        }
+      ]
+    },
+    {
+      "id": "4e0d8413a139e035",
+      "cluster_id": "c_d91c80052c2b6ff5",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_d91c80052c2b6ff5.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_d91c80052c2b6ff5.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Africa",
+          "title": "Dangote: 'Nobody can make Africa great but us'",
+          "url": "https://www.bbc.co.uk/news/videos/c893v3l7l1p0o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T06:24:27Z"
+        }
+      ]
+    },
+    {
+      "id": "ece12d2ce47d2dae",
+      "cluster_id": "c_5bc932ea29118517",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_5bc932ea29118517.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_5bc932ea29118517.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Asia",
+          "title": "'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot",
+          "url": "https://www.bbc.co.uk/news/articles/c639m98gde00o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T09:08:06Z"
+        },
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot",
+          "url": "https://www.bbc.co.uk/news/articles/c639m98gde00o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T09:08:06Z"
+        }
+      ]
+    },
+    {
+      "id": "02c24da055ff2509",
+      "cluster_id": "c_40d3e1a52a485477",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_40d3e1a52a485477.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_40d3e1a52a485477.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Asia",
+          "title": "India's 'cockroach' protesters are back - this time asking poll chief to resign",
+          "url": "https://www.bbc.co.uk/news/articles/ck62mped4rz9o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T04:25:54Z"
+        }
+      ]
+    },
+    {
+      "id": "9faec93f44d76beb",
+      "cluster_id": "c_775d487e825ba51f",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_775d487e825ba51f.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_775d487e825ba51f.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Asia",
+          "title": "Japan's first mayor to take maternity leave lands on TIME100 Next list",
+          "url": "https://www.bbc.co.uk/news/articles/cqj3d3d37nxgo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T05:53:51Z"
+        },
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "Japan's first mayor to take maternity leave lands on TIME100 Next list",
+          "url": "https://www.bbc.co.uk/news/articles/cqj3d3d37nxgo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T05:53:51Z"
+        }
+      ]
+    },
+    {
+      "id": "82b3fb755604794d",
+      "cluster_id": "c_1db8980d366b9870",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_1db8980d366b9870.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_1db8980d366b9870.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Asia",
+          "title": "Who is the 'hero' Indian pilot who was stabbed on Israel-bound flight?",
+          "url": "https://www.bbc.co.uk/news/articles/cje3r3z7g0zzo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T11:52:04Z"
+        },
+        {
+          "publisher": "BBC",
+          "source": "BBC Middle East",
+          "title": "Who is the 'hero' Indian pilot who was stabbed on Israel-bound flight?",
+          "url": "https://www.bbc.co.uk/news/articles/cje3r3z7g0zzo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T11:52:04Z"
+        }
+      ]
+    },
+    {
+      "id": "7c525badb9f62549",
+      "cluster_id": "c_d68acadf270f7516",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_d68acadf270f7516.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_d68acadf270f7516.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Asia",
+          "title": "Japan raises permanent residency fee by 20 times",
+          "url": "https://www.bbc.co.uk/news/articles/c6y8z8xeg8j1o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T02:57:43Z"
+        },
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "Japan raises permanent residency fee by 20 times",
+          "url": "https://www.bbc.co.uk/news/articles/c6y8z8xeg8j1o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T02:57:43Z"
+        }
+      ]
+    },
+    {
+      "id": "907ae2f08dbb2fc6",
+      "cluster_id": "c_44a841ecd004b2f2",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_44a841ecd004b2f2.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_44a841ecd004b2f2.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Asia",
+          "title": "Pakistan launches deadly air strikes on Afghanistan",
+          "url": "https://www.bbc.co.uk/news/articles/cw4grg92lmr5o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T08:06:28Z"
+        }
+      ]
+    },
+    {
+      "id": "1842851e7b879a3b",
+      "cluster_id": "c_3e0449f1631c6a74",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_3e0449f1631c6a74.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_3e0449f1631c6a74.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Asia",
+          "title": "'He's taught us courage': Friend on Indian pilot hailed as a hero",
+          "url": "https://www.bbc.co.uk/news/articles/cq33k36yp01no?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T12:43:57Z"
+        }
+      ]
+    },
+    {
+      "id": "debb415ef27f2b41",
+      "cluster_id": "c_39e7c479406986ac",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_39e7c479406986ac.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_39e7c479406986ac.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Australia",
+          "title": "Australia says platforms like Steam and Roblox have 'significant' child safety gaps",
+          "url": "https://www.bbc.co.uk/news/articles/cjvgygzzy6lro?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T04:21:31Z"
+        },
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "Australia says platforms like Steam and Roblox have 'significant' child safety gaps",
+          "url": "https://www.bbc.co.uk/news/articles/cjvgygzzy6lro?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T04:21:31Z"
+        }
+      ]
+    },
+    {
+      "id": "20a79dfc7bdb1c7c",
+      "cluster_id": "c_96736f849cf49bb3",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_96736f849cf49bb3.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_96736f849cf49bb3.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Europe",
+          "title": "Putin warns West that Russia is ready to use every weapon to protect Kaliningrad",
+          "url": "https://www.bbc.co.uk/news/articles/cqg7k7v499jjo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T19:38:30Z"
+        },
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "Putin warns West that Russia is ready to use every weapon to protect Kaliningrad",
+          "url": "https://www.bbc.co.uk/news/articles/cqg7k7v499jjo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T19:38:30Z"
+        }
+      ]
+    },
+    {
+      "id": "cfc749b4ccf425d2",
+      "cluster_id": "c_f26122b40e43de14",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_f26122b40e43de14.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_f26122b40e43de14.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Europe",
+          "title": "Spain and China are cosying up - to the anger of many in the EU",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgyg824m02o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T23:42:33Z"
+        },
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "Spain and China are cosying up - to the anger of many in the EU",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgyg824m02o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T23:42:33Z"
+        }
+      ]
+    },
+    {
+      "id": "6e13eecc3291c48f",
+      "cluster_id": "c_99bec0c29a72da9a",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_99bec0c29a72da9a.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_99bec0c29a72da9a.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Europe",
+          "title": "Russia targets busy bridge in central Kyiv",
+          "url": "https://www.bbc.co.uk/news/articles/cmn8e8344v5qo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T14:31:03Z"
+        }
+      ]
+    },
+    {
+      "id": "84d5c1ad134471ae",
+      "cluster_id": "c_6fbc63015f6c1f23",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_6fbc63015f6c1f23.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_6fbc63015f6c1f23.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Europe",
+          "title": "Fires break out at French schools as students protest nationwide",
+          "url": "https://www.bbc.co.uk/news/articles/c6d080d1e3l4o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T19:19:00Z"
+        }
+      ]
+    },
+    {
+      "id": "0770057a2ab3dbc2",
+      "cluster_id": "c_aa3f7a5543d09787",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_aa3f7a5543d09787.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_aa3f7a5543d09787.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Europe",
+          "title": "Russian dissident Garry Kasparov says US warned him of danger to his life",
+          "url": "https://www.bbc.co.uk/news/articles/c6y8z8kr5mk8o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T14:05:55Z"
+        },
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "Russian dissident Garry Kasparov says US warned him of danger to his life",
+          "url": "https://www.bbc.co.uk/news/articles/c6y8z8kr5mk8o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T14:05:55Z"
+        }
+      ]
+    },
+    {
+      "id": "729b41637dd20237",
+      "cluster_id": "c_eb0cdac2e316fcc0",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_eb0cdac2e316fcc0.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_eb0cdac2e316fcc0.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Europe",
+          "title": "Trump's AI rebrand causes 'unprecedented' demand for Slovenian website names",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2z23xj555o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T11:37:46Z"
+        },
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "Trump's AI rebrand causes 'unprecedented' demand for Slovenian website names",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2z23xj555o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T11:37:46Z"
+        }
+      ]
+    },
+    {
+      "id": "f8f2e26820908950",
+      "cluster_id": "c_9eae6eb0b7d5eeee",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_9eae6eb0b7d5eeee.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_9eae6eb0b7d5eeee.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Latin America",
+          "title": "The wealthy Cuban Americans ready and waiting for Havana to fall",
+          "url": "https://www.bbc.co.uk/news/articles/ckrerylrlg9vo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T23:00:05Z"
+        }
+      ]
+    },
+    {
+      "id": "9d334f8b8e4e4387",
+      "cluster_id": "c_2c9b9ad0e570f5b2",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_2c9b9ad0e570f5b2.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_2c9b9ad0e570f5b2.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Latin America",
+          "title": "More than 5,000 people killed or injured in Haiti due to gang violence this year, UN says",
+          "url": "https://www.bbc.co.uk/news/articles/cmy0z00wr14xo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T10:22:52Z"
+        }
+      ]
+    },
+    {
+      "id": "b97e4e5b2bea26ba",
+      "cluster_id": "c_9dfd031cb4bbd0c9",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_9dfd031cb4bbd0c9.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_9dfd031cb4bbd0c9.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Middle East",
+          "title": "Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'",
+          "url": "https://www.bbc.co.uk/news/articles/crje8edqyej9o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T19:59:24Z"
+        },
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'",
+          "url": "https://www.bbc.co.uk/news/articles/crje8edqyej9o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T19:59:24Z"
+        }
+      ]
+    },
+    {
+      "id": "c978e7bec69f6529",
+      "cluster_id": "c_4bf0fd02e26291a7",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_4bf0fd02e26291a7.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_4bf0fd02e26291a7.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Middle East",
+          "title": "Too early to say whether Iran involved in Dubai-Tel Aviv flight attack, Israeli PM says",
+          "url": "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T11:26:46Z"
+        }
+      ]
+    },
+    {
+      "id": "7c961ff18ba251f0",
+      "cluster_id": "c_19273b80bf863b7c",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_19273b80bf863b7c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_19273b80bf863b7c.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Middle East",
+          "title": "Flydubai passenger describes hugging his children as plane nosedived during attack",
+          "url": "https://www.bbc.co.uk/news/articles/c6d949ydnw3po?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T13:57:28Z"
+        }
+      ]
+    },
+    {
+      "id": "6850177f1dbac587",
+      "cluster_id": "c_30f2d295cf7e235f",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_30f2d295cf7e235f.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_30f2d295cf7e235f.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Middle East",
+          "title": "Plummeting Israel flight like 'rollercoaster', says passenger",
+          "url": "https://www.bbc.co.uk/news/videos/cwm2r2v42vdeo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T03:52:20Z"
+        }
+      ]
+    },
+    {
+      "id": "5405779dc49498ca",
+      "cluster_id": "c_b4a32edf648c5a1e",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_b4a32edf648c5a1e.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_b4a32edf648c5a1e.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Middle East",
+          "title": "What we know about stabbing on Flydubai flight to Israel",
+          "url": "https://www.bbc.co.uk/news/articles/cqjdv7pmj9dno?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T14:22:14Z"
+        }
+      ]
+    },
+    {
+      "id": "2c7f12ab7c26bfdd",
+      "cluster_id": "c_24ccf629b0e29bf8",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_24ccf629b0e29bf8.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_24ccf629b0e29bf8.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "Christa Pike in critical condition after surviving two lethal injections, lawyer says",
+          "url": "https://www.bbc.co.uk/news/articles/cmn4540d4z87o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T11:06:10Z"
+        }
+      ]
+    },
+    {
+      "id": "157b61da4ff809ff",
+      "cluster_id": "c_7f5be1def16efa42",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_7f5be1def16efa42.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_7f5be1def16efa42.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "'Ashamed': Cornell students gather to voice anger over alleged gang rape",
+          "url": "https://www.bbc.co.uk/news/articles/cm0e3ed1er1yo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T10:00:24Z"
+        }
+      ]
+    },
+    {
+      "id": "0c73a00b6d6819af",
+      "cluster_id": "c_c7aed654dda60fcd",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_c7aed654dda60fcd.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_c7aed654dda60fcd.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "Seoul warns 'further action' if Ukraine does not apologise over prisoner-of-war row",
+          "url": "https://www.bbc.co.uk/news/articles/cm1dld14weero?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T03:09:13Z"
+        }
+      ]
+    },
+    {
+      "id": "bd03ecad31803686",
+      "cluster_id": "c_0b854caa1c7fc6f8",
+      "program": "CHIPS_BRIEF",
+      "report": "chips_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/chips_brief/c_0b854caa1c7fc6f8.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/chips_brief/c_0b854caa1c7fc6f8.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "OpenAI fires workers for 'mishandling sensitive information'",
+          "url": "https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T08:20:32Z"
+        }
+      ]
+    },
+    {
+      "id": "5268c6d855101374",
+      "cluster_id": "c_ce20891409ee6775",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_ce20891409ee6775.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_ce20891409ee6775.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "Renee Good: Family of US woman killed by ICE agent sues Trump officials",
+          "url": "https://www.bbc.co.uk/news/articles/cwly7y5gvxlmo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T20:30:47Z"
+        }
+      ]
+    },
+    {
+      "id": "5503e1989302de30",
+      "cluster_id": "c_0fd4f59765aadafe",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_0fd4f59765aadafe.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_0fd4f59765aadafe.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "Explosions heard in Ethiopia's capital after drone flights banned",
+          "url": "https://www.bbc.co.uk/news/articles/c3vgygpqky9zo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T15:05:36Z"
+        }
+      ]
+    },
+    {
+      "id": "7dad3ea0ff3e1039",
+      "cluster_id": "c_aed246a0cd46bd3f",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_aed246a0cd46bd3f.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_aed246a0cd46bd3f.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "Kanye West's Russia shows officially cancelled after weeks of uncertainty",
+          "url": "https://www.bbc.co.uk/news/articles/cm74k417wpjxo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T12:13:28Z"
+        }
+      ]
+    },
+    {
+      "id": "64459818a2351545",
+      "cluster_id": "c_04666c362ec14f43",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_04666c362ec14f43.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_04666c362ec14f43.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "K-pop star convicted of violating military service law",
+          "url": "https://www.bbc.co.uk/news/articles/cjn5d52d3lk5o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T05:24:10Z"
+        }
+      ]
+    },
+    {
+      "id": "3094c2d73d27eb25",
+      "cluster_id": "c_9e131c107f53f12c",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_9e131c107f53f12c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_9e131c107f53f12c.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "What happened in the failed execution of Christa Pike - and what next?",
+          "url": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T02:11:34Z"
+        }
+      ]
+    },
+    {
+      "id": "cc2ae941f8aa4903",
+      "cluster_id": "c_a87ec734a8da3689",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_a87ec734a8da3689.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_a87ec734a8da3689.speak.txt",
+      "sources": [
+        {
+          "publisher": "UC Berkeley",
+          "source": "UC Berkeley News",
+          "title": "On complex political issues, most Americans take shortcuts to simplicity",
+          "url": "https://news.berkeley.edu/2026/10/01/on-complex-political-issues-most-americans-take-shortcuts-to-simplicity/",
+          "published_at": "2026-10-01T23:04:48Z"
+        }
+      ]
+    },
+    {
+      "id": "575d37ef56af229a",
+      "cluster_id": "c_2668ce24746c73fb",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_2668ce24746c73fb.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_2668ce24746c73fb.speak.txt",
+      "sources": [
+        {
+          "publisher": "UC Berkeley",
+          "source": "UC Berkeley News",
+          "title": "New UC Berkeley Journalism project will complete threatened reporters\u2019 investigations",
+          "url": "https://journalism.berkeley.edu/announce-forbidden-stories-lab-uc-berkeley-journalism/",
+          "published_at": "2026-10-01T16:22:00Z"
+        }
+      ]
+    },
+    {
+      "id": "93fa4e130387f070",
+      "cluster_id": "c_66e29180a938833b",
+      "program": "CYBER_BRIEF",
+      "report": "cyber_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/cyber_brief/c_66e29180a938833b.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/cyber_brief/c_66e29180a938833b.speak.txt",
+      "sources": [
+        {
+          "publisher": "CISA",
+          "source": "CISA News",
+          "title": "CISA Launches Cybersecurity Awareness Month: Securing the Next 250",
+          "url": "https://www.cisa.gov/news-events/news/cisa-launches-cybersecurity-awareness-month-securing-next-250",
+          "published_at": "2026-10-01T12:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "c256bd546e71df4d",
+      "cluster_id": "c_cfc3d260638a5b0f",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_cfc3d260638a5b0f.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_cfc3d260638a5b0f.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "The US midterm races that will decide control of Congress \u2013 mapped",
+          "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/02/midterm-races-control-congress-charts-visuals",
+          "published_at": "2026-10-02T11:30:41Z"
+        }
+      ]
+    },
+    {
+      "id": "4363b59d0cdc765c",
+      "cluster_id": "c_3531b45c341addcc",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_3531b45c341addcc.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_3531b45c341addcc.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "\u2018Like caring for a pet\u2019: the app that lets you know if your neighbourhood tree is thirsty",
+          "url": "https://www.theguardian.com/environment/2026/oct/02/open-source-tree-map-berlin-water-urban-forest",
+          "published_at": "2026-10-02T04:00:10Z"
+        }
+      ]
+    },
+    {
+      "id": "5cf043fb19e66f38",
+      "cluster_id": "c_b68c732592ba755b",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_b68c732592ba755b.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_b68c732592ba755b.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "After rape allegations at Cornell University, why are women again being urged to talk to their sons? Why not men? | Gaby Hinsliff",
+          "url": "https://www.theguardian.com/commentisfree/2026/oct/02/cornell-university-allegations-rape-women-men-sons",
+          "published_at": "2026-10-02T05:00:11Z"
+        }
+      ]
+    },
+    {
+      "id": "7596f49d565d9c6e",
+      "cluster_id": "c_2c4712f19ef049ad",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_2c4712f19ef049ad.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_2c4712f19ef049ad.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "\u2018Starchitects go home\u2019: what\u2019s the truth behind Albania\u2019s astonishing building boom?",
+          "url": "https://www.theguardian.com/artanddesign/2026/oct/02/starchitects-go-home-albania-building-boom-edi-rama",
+          "published_at": "2026-10-02T10:15:08Z"
+        }
+      ]
+    },
+    {
+      "id": "be23d03c2cede75e",
+      "cluster_id": "c_001604648e161ff3",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_001604648e161ff3.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_001604648e161ff3.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "\u2018If you can\u2019t hold it, you don\u2019t own it\u2019: why media fans want to escape algorithms with CDs, DVDs and vinyl",
+          "url": "https://www.theguardian.com/media/2026/oct/02/physical-media-fans-streaming-algorithms-cds-dvds-vinyl",
+          "published_at": "2026-10-02T08:00:14Z"
+        }
+      ]
+    },
+    {
+      "id": "a71757d4b8935937",
+      "cluster_id": "c_520098613f694c67",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_520098613f694c67.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_520098613f694c67.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "\u2018It\u2019s a deep soul connection\u2019: Erasure on how 40 years of friendship got them through grief \u2013 and why Vince Clarke has quit touring",
+          "url": "https://www.theguardian.com/music/2026/oct/02/erasure-vince-clarke-andy-bell-interview",
+          "published_at": "2026-10-02T04:00:10Z"
+        }
+      ]
+    },
+    {
+      "id": "7ff786a8acbe5a8b",
+      "cluster_id": "c_9b5810315a98e5db",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_9b5810315a98e5db.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_9b5810315a98e5db.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "\u2018I was fighting for my life\u2019: Indian pilot hailed as hero recalls flydubai cockpit attack",
+          "url": "https://www.theguardian.com/world/2026/oct/02/indian-pilot-smit-machchhar-recalls-flydubai-cockpit-attack",
+          "published_at": "2026-10-02T08:39:40Z"
+        }
+      ]
+    },
+    {
+      "id": "271b9550ff899cda",
+      "cluster_id": "c_446e66167ca64b05",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_446e66167ca64b05.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_446e66167ca64b05.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "Calls grow for US death penalty halt after \u2018torturous\u2019 botched execution of Christa Pike",
+          "url": "https://www.theguardian.com/us-news/2026/oct/02/us-death-penalty-christa-pike-tennessee",
+          "published_at": "2026-10-02T09:00:16Z"
+        }
+      ]
+    },
+    {
+      "id": "9a707a2e12139732",
+      "cluster_id": "c_982b2b01b13f3802",
+      "program": "AVIATION_BRIEF",
+      "report": "aviation_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_982b2b01b13f3802.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/aviation_brief/c_982b2b01b13f3802.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "US sends third aircraft carrier to Middle East amid stalemate in Iran war",
+          "url": "https://www.theguardian.com/world/2026/oct/02/us-third-aircraft-carrier-middle-east-iran",
+          "published_at": "2026-10-02T01:17:37Z"
+        }
+      ]
+    },
+    {
+      "id": "e6860563b04b225b",
+      "cluster_id": "c_6c89bee9712ec274",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_6c89bee9712ec274.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_6c89bee9712ec274.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "Over 560 schools disrupted in France on Friday as protests escalate into \u2018urban violence\u2019 \u2013 Europe live",
+          "url": "https://www.theguardian.com/world/live/2026/oct/02/france-schools-protests-violence-ukraine-kallas-rome-pope-latest-news-updates",
+          "published_at": "2026-10-02T11:52:15Z"
+        }
+      ]
+    },
+    {
+      "id": "fa60e22918b80475",
+      "cluster_id": "c_2edf7f0026741ae3",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_2edf7f0026741ae3.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_2edf7f0026741ae3.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "Hochul to address Cornell University case after appointing Leticia James to investigate alleged gang-rape \u2013 US politics live",
+          "url": "https://www.theguardian.com/us-news/live/2026/oct/02/cornell-university-leticia-james-christa-pike-death-penalty-donald-trump-us-jobs-latest-news-updates",
+          "published_at": "2026-10-02T11:56:10Z"
+        }
+      ]
+    },
+    {
+      "id": "16d9b6c4c52be5db",
+      "cluster_id": "c_98c97f29771e9799",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_98c97f29771e9799.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_98c97f29771e9799.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "Row erupts over Cairo mural depicting Tutankhamun and Nefertiti with dark skin",
+          "url": "https://www.theguardian.com/global-development/2026/oct/02/row-erupts-over-cairo-mural-depicting-tutankhamun-and-nefertiti-with-dark-skin",
+          "published_at": "2026-10-02T08:55:42Z"
+        }
+      ]
+    },
+    {
+      "id": "415a2c5835c07a7e",
+      "cluster_id": "c_6ea63021269a4478",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_6ea63021269a4478.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_6ea63021269a4478.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "Hitting the sweet spot: bear treats itself to baked goods at Colorado farmers\u2019 market",
+          "url": "https://www.theguardian.com/us-news/2026/oct/01/colorado-bear-farmers-market",
+          "published_at": "2026-10-01T21:23:55Z"
+        }
+      ]
+    },
+    {
+      "id": "0deabafd5300faba",
+      "cluster_id": "c_5b83de98daa09d8b",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_5b83de98daa09d8b.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_5b83de98daa09d8b.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "Does Philadelphia\u2019s \u2018house of horrors\u2019 hold the key to seven missing women?",
+          "url": "https://www.theguardian.com/us-news/2026/oct/02/philadelphia-missing-women-raymond-horsch",
+          "published_at": "2026-10-02T12:00:07Z"
+        }
+      ]
+    },
+    {
+      "id": "28db159f34fcc18d",
+      "cluster_id": "c_cdd2904e54646b81",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_cdd2904e54646b81.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_cdd2904e54646b81.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "\u2018No one disrespects Our Lady\u2019: fears for Brazil\u2019s patron saint grip country ahead of election",
+          "url": "https://www.theguardian.com/world/2026/oct/02/brazil-election-lady-of-aparecida-lula-bolsonaro-row",
+          "published_at": "2026-10-02T04:00:10Z"
+        }
+      ]
+    },
+    {
+      "id": "482d2fb9090706e7",
+      "cluster_id": "c_e2e58652077cde76",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_e2e58652077cde76.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_e2e58652077cde76.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "You Can See Everything review \u2013 Nathan Fielder\u2019s Elizabeth Holmes doc is a modern masterpiece of deceit",
+          "url": "https://www.theguardian.com/film/2026/oct/01/you-can-see-everything-movie-review",
+          "published_at": "2026-10-01T16:51:21Z"
+        }
+      ]
+    },
+    {
+      "id": "7d51d06e3a66346f",
+      "cluster_id": "c_ff2451e2616220af",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_ff2451e2616220af.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_ff2451e2616220af.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "The Filter Q&A: ask the Guardian\u2019s fashion stylist anything",
+          "url": "https://www.theguardian.com/thefilter/live/2026/oct/02/the-filter-qa-ask-the-guardians-fashion-stylist-anything",
+          "published_at": "2026-10-02T07:58:51Z"
+        }
+      ]
+    },
+    {
+      "id": "7acabf8145ca459a",
+      "cluster_id": "c_b7a7a8af526b2b40",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_b7a7a8af526b2b40.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/global_news_brief/c_b7a7a8af526b2b40.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "\u2018It\u2019s radical to release a film called Girls Like Girls in this climate\u2019: hitmaker turned director Hayley Kiyoko on sexuality, safety and becoming \u2018Lesbian Jesus\u2019",
+          "url": "https://www.theguardian.com/film/2026/oct/02/hayley-kiyoko-interview-girls-like-girls-music-film-books",
+          "published_at": "2026-10-02T12:00:06Z"
+        }
+      ]
+    },
+    {
+      "id": "e9798f1a797d5bcc",
+      "cluster_id": "c_e7631851c7a2a9d5",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_e7631851c7a2a9d5.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_e7631851c7a2a9d5.speak.txt",
+      "sources": [
+        {
+          "publisher": "Harvard Gazette",
+          "source": "Harvard Gazette",
+          "title": "Digital life doesn\u2019t have to be this way",
+          "url": "https://news.harvard.edu/gazette/story/2026/10/digital-life-doesnt-have-to-be-this-way-cory-doctorow/",
+          "published_at": "2026-10-01T21:18:34Z"
+        }
+      ]
+    },
+    {
+      "id": "498d72fe57653342",
+      "cluster_id": "c_f285f8779d42cde9",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_f285f8779d42cde9.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_f285f8779d42cde9.speak.txt",
+      "sources": [
+        {
+          "publisher": "Harvard Gazette",
+          "source": "Harvard Gazette",
+          "title": "What role should \u2018diversity,\u2019 \u2018pluralism\u2019 play in higher education?",
+          "url": "https://news.harvard.edu/gazette/story/2026/10/what-role-should-diversity-pluralism-play-in-higher-education/",
+          "published_at": "2026-10-01T17:39:01Z"
+        }
+      ]
+    },
+    {
+      "id": "9af28b677dc58260",
+      "cluster_id": "c_b3eb53710103ed6a",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_b3eb53710103ed6a.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_b3eb53710103ed6a.speak.txt",
+      "sources": [
+        {
+          "publisher": "Harvard Gazette",
+          "source": "Harvard Gazette",
+          "title": "Why we love the Charles",
+          "url": "https://news.harvard.edu/gazette/story/2026/10/why-we-love-the-charles-photo-gallery/",
+          "published_at": "2026-10-01T14:12:25Z"
+        }
+      ]
+    },
+    {
+      "id": "47401fdee323523f",
+      "cluster_id": "c_d1a36831435c972b",
+      "program": "CHIPS_BRIEF",
+      "report": "chips_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/chips_brief/c_d1a36831435c972b.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/chips_brief/c_d1a36831435c972b.speak.txt",
+      "sources": [
+        {
+          "publisher": "Microsoft",
+          "source": "Microsoft Blog",
+          "title": "Microsoft 365 and LinkedIn leadership update",
+          "url": "https://blogs.microsoft.com/blog/2026/10/01/microsoft-365-and-linkedin-leadership-update/",
+          "published_at": "2026-10-01T15:03:27Z"
+        }
+      ]
+    },
+    {
+      "id": "44e2be6d7e26c6a7",
+      "cluster_id": "c_a4ac54f641d42537",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_a4ac54f641d42537.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_a4ac54f641d42537.speak.txt",
+      "sources": [
+        {
+          "publisher": "MIT News",
+          "source": "MIT News",
+          "title": "3 Questions: A new resource to empower young entrepreneurs",
+          "url": "https://news.mit.edu/2026/3-questions-new-resource-empower-young-entrepreneurs-1002",
+          "published_at": "2026-10-02T04:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "1171e63d58b56d21",
+      "cluster_id": "c_097a3b48c271b54c",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_097a3b48c271b54c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_097a3b48c271b54c.speak.txt",
+      "sources": [
+        {
+          "publisher": "MIT News",
+          "source": "MIT News",
+          "title": "MIT class project turns into an FDA-cleared treatment for tremors",
+          "url": "https://news.mit.edu/2026/mit-class-project-turns-into-fda-cleared-treatment-for-tremors-1002",
+          "published_at": "2026-10-02T04:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "9060441de0acbcc5",
+      "cluster_id": "c_5d2cad9c5cc3b836",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_5d2cad9c5cc3b836.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_5d2cad9c5cc3b836.speak.txt",
+      "sources": [
+        {
+          "publisher": "MIT News",
+          "source": "MIT News",
+          "title": "New tool lets users repair AI-generated 3D models, then fabricate them just the way they want",
+          "url": "https://news.mit.edu/2026/instructmesh-tool-lets-users-repair-ai-3d-models-then-fabricate-them-1001",
+          "published_at": "2026-10-01T22:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "859afc0fe757705c",
+      "cluster_id": "c_545ebc6a5b547a1f",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_545ebc6a5b547a1f.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/universities_brief/c_545ebc6a5b547a1f.speak.txt",
+      "sources": [
+        {
+          "publisher": "MIT News",
+          "source": "MIT News",
+          "title": "Governor Healey and President Kornbluth launch MIT Future Fest",
+          "url": "https://news.mit.edu/2026/governor-healey-and-president-kornbluth-launch-mit-future-fest-1001",
+          "published_at": "2026-10-01T18:30:00Z"
+        }
+      ]
     }
   ]
 }

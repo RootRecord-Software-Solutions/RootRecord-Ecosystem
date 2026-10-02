@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-02T02:11:14-10:00",
+  "at": "2026-10-02T02:20:11-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
@@ -13,9 +13,31 @@
     "place": "0 km NNE of Yōkaichiba, Japan",
     "time_hst": "2026-10-01T02:27:11.864000-10:00"
   },
-  "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-02T12:10:57+00:00",
+  "new_this_run": 1,
+  "usgs_generated_utc": "2026-10-02T12:19:57+00:00",
   "events": [
+    {
+      "id": "us6000tz12",
+      "mag": 3,
+      "mag_type": "ml",
+      "place": "71 km NE of Punta Cana, Dominican Republic",
+      "time_utc": "2026-10-02T12:07:37.441000+00:00",
+      "time_hst": "2026-10-02T02:07:37.441000-10:00",
+      "lon": -67.8572,
+      "lat": 18.9607,
+      "depth_km": 16.295,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz12",
+      "nearest": {
+        "location_id": "pr-san-juan",
+        "name": "San Juan",
+        "country_code": "PR",
+        "admin1_code": null,
+        "km": 191.4
+      }
+    },
     {
       "id": "us6000tz0z",
       "mag": 4.2,
@@ -521,22 +543,6 @@
         "admin1_code": "Utah",
         "km": 190.1
       }
-    },
-    {
-      "id": "aka2026tlelut",
-      "mag": 2.9,
-      "mag_type": "ml",
-      "place": "66 km ESE of Denali National Park, Alaska",
-      "time_utc": "2026-10-01T12:14:15.424000+00:00",
-      "time_hst": "2026-10-01T02:14:15.424000-10:00",
-      "lon": -150.575,
-      "lat": 63.244,
-      "depth_km": 131.3,
-      "status": "automatic",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tlelut",
-      "nearest": null
     }
   ]
 }

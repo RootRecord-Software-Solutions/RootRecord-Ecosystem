@@ -56,13 +56,13 @@ OpenAI                       ○ UNAVAILABLE
 Anthropic                    ○ UNAVAILABLE
 Google AI                    ○ UNKNOWN
 CISA Cybersecurity Advisorie ○ UNAVAILABLE
-CISA News                    ○ UNAVAILABLE
+CISA News                    ● HEALTHY
 CISA Alerts                  ○ UNAVAILABLE
 GitHub Changelog             ● HEALTHY
 Docker Blog                  ● HEALTHY
 Linux Kernel                 ○ UNKNOWN
 Cloudflare Blog              ● HEALTHY
-Microsoft Azure Blog         ○ UNKNOWN
+Microsoft Azure Blog         ● HEALTHY
 Kubernetes                   ○ UNAVAILABLE
 AWS What's New               ○ UNAVAILABLE
 FAA News                     ○ UNAVAILABLE
@@ -86,7 +86,7 @@ Federal Reserve Supervision  ● HEALTHY
 Federal Reserve Working Pape ○ UNKNOWN
 Federal Reserve Press Releas ○ UNAVAILABLE
 NPR News                     ○ UNKNOWN
-The Guardian International   ○ UNKNOWN
+The Guardian International   ● HEALTHY
 Al Jazeera                   ● HEALTHY
 ScienceDaily                 ○ UNKNOWN
 Bureau of Labor Statistics   ○ DISABLED
@@ -112,3 +112,37 @@ Hawaii Department of Health  ● HEALTHY
 Honolulu Civil Beat          ● HEALTHY
 Honolulu Star-Advertiser     ● HEALTHY
 Hawaii News Now              ● HEALTHY
+Microsoft News               ● HEALTHY
+Microsoft Blog               ● HEALTHY
+BBC Technology               ○ UNKNOWN
+BBC World                    ● HEALTHY
+BBC Asia                     ● HEALTHY
+BBC Australia                ● HEALTHY
+BBC Africa                   ● HEALTHY
+BBC Europe                   ● HEALTHY
+BBC Latin America            ● HEALTHY
+BBC Middle East              ● HEALTHY
+BBC US and Canada            ○ UNKNOWN
+NPR World                    ○ UNKNOWN
+ABC News Australia Top Stori ● HEALTHY
+The Japan Times              ○ UNKNOWN
+Deutsche Welle English       ○ UNKNOWN
+France 24 English            ○ UNKNOWN
+Africanews                   ○ UNKNOWN
+UN News                      ○ UNKNOWN
+NOAA News                    ○ UNKNOWN
+NHC Atlantic                 ○ UNKNOWN
+NHC Eastern North Pacific    ○ UNKNOWN
+Storm Prediction Center      ○ UNKNOWN
+White House News             ○ UNKNOWN
+Federal Register             ○ UNKNOWN
+Congress Most-Viewed Bills   ○ UNKNOWN
+NPR National                 ○ UNKNOWN
+NPR Politics                 ○ UNKNOWN
+MIT News                     ● HEALTHY
+MIT Research                 ● HEALTHY
+Harvard Gazette              ● HEALTHY
+UC Berkeley News             ● HEALTHY
+Nature                       ○ UNKNOWN
+Science Magazine News        ○ UNKNOWN
+Phys.org                     ○ UNKNOWN
