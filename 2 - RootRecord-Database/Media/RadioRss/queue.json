@@ -1900,7 +1900,7 @@
         {
           "publisher": "Honolulu Civil Beat",
           "source": "Honolulu Civil Beat",
-          "title": "HECO Blackout: Half Of Moloka\u02bbi May Lose A Summer\u2019s Fish And Game",
+          "title": "HECO Blackout: Some Moloka\u02bbi Residents May Lose A Summer\u2019s Fish And Game",
           "url": "https://www.civilbeat.org/2026/10/heco-blackout-half-of-molokai-may-lose-a-summers-fish-and-game/",
           "published_at": "2026-10-02T10:01:00Z"
         }
@@ -6415,7 +6415,7 @@
         {
           "publisher": "ABC News Australia",
           "source": "ABC News Australia Top Stories",
-          "title": "Is a 'fantasy' now driving Australia's power reliability outlook?",
+          "title": "The 'fantasy' underpinning Australia's rosy power supply forecasts",
           "url": "https://www.abc.net.au/news/2026-10-03/aemo-under-fire-over-rose-tinted-power-reliability-forecasts/107189716",
           "published_at": "2026-10-02T19:51:50Z"
         }
@@ -7206,6 +7206,42 @@
           "title": "Stateless GitHub App installation tokens rolled out",
           "url": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
           "published_at": "2026-10-02T22:18:23Z"
+        }
+      ]
+    },
+    {
+      "id": "c8779bcd55c0b475",
+      "cluster_id": "c_b2df531142336c01",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_b2df531142336c01.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_b2df531142336c01.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Violent protests in France over conditions in high schools",
+          "url": "https://www.abc.net.au/news/2026-10-03/france-protests-education-tear-gas-fires-violence-police/107224434",
+          "published_at": "2026-10-02T22:25:00Z"
+        }
+      ]
+    },
+    {
+      "id": "12795391a0d861a2",
+      "cluster_id": "c_5027a9d96df91c11",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_5027a9d96df91c11.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_5027a9d96df91c11.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Flydubai pilot recounts cockpit stabbing in call with Indian PM Modi",
+          "url": "https://www.aljazeera.com/news/2026/10/2/flydubai-pilot-recounts-cockpit-stabbing-in-call-with-indian-pm-modi?traffic_source=rss",
+          "published_at": "2026-10-02T22:50:23Z"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-02T12:46:18-10:00",
+  "at": "2026-10-02T13:06:33-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
@@ -14,7 +14,7 @@
     "time_hst": "2026-10-02T06:34:41.010000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-02T22:45:19+00:00",
+  "usgs_generated_utc": "2026-10-02T23:06:19+00:00",
   "events": [
     {
       "id": "us6000tz8q",
