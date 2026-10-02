@@ -1,19 +1,19 @@
-# Kilauea image check — 2026-10-02T04:35:58-10:00
+# Kilauea image check — 2026-10-02T05:08:21-10:00
 
-- **Cam:** V3 Halemaʻumaʻu lava lake (`v3cam-last.jpg`)
+- **Cam:** V3 Halemaʻumaʻu lava lake (`v3cam_current.jpg`)
 - **Activity:** glow
 - **Fountaining:** `False`
-- **Visible:** Lava glow visible in the distance.
+- **Visible:** Lava glow visible against dark sky
 - **Photo viewed:** `yes`
-- **Source kind:** `live`
-- **Fetched live this check:** `True`
+- **Source kind:** `current`
+- **Fetched live this check:** `False`
 - **Reference:** lava-fountain-ref.jpg
 - **Model:** gemma4:e4b
-- **At:** 2026-10-02T04:35:58-10:00
+- **At:** 2026-10-02T05:08:21-10:00
 - **Error:** none
 
 ## Spoken
 
-Kilauea observation image was checked. Photo viewed: yes. Measured finding: glow at the vent on the V3 Halemaʻumaʻu lava lake still. Visible: Lava glow visible in the distance..
+Kilauea observation image was checked. Photo viewed: yes. Measured finding: glow at the vent on the V3 Halemaʻumaʻu lava lake still. Visible: Lava glow visible against dark sky.
 
 _Template report; measured values only._
