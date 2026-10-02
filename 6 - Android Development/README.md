@@ -6,7 +6,7 @@ This folder holds all RootRecord Android development from 2026-09-29 on. One fol
 - The `.gitignore` here covers keystores, `keystore.properties`, `local.properties`, `google-services.json`, `.env`, recovery codes, `memory/test_credentials*`, build output (`build/`, `.gradle/`, `.idea/`, `.cxx/`, `node_modules/`) and `*.apk`, `*.aab` and `Releases/`. It was checked with `git check-ignore`: 24 of 24 secret and artifact files are ignored (17 secret files, 7 release artifacts). If you `git init` an app folder later, copy these rules into it first.
 - Every signing or secret file is mode **0600** and `keystore/` folders are 0700. Contents are never printed or documented.
 - Import: 2026-09-29 14:30–14:45 HST. Size: 80.7 MB in 1,033 files. Budget: 40 GB.
-- Full inventory: Library `Documentation/05-Products-Repositories-and-Applications/Android-Apps-Inventory.md`.
+- Full inventory: Library `Documentation/14-Products-Repositories-and-Applications/Android-Apps-Inventory.md`.
 
 ## Apps
 

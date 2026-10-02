@@ -10,4 +10,4 @@ Poller job `smart_devices_collect` is **gated OFF** (`RR_SMART_DEVICES=1` at pol
 | `collector-last.json` | summary: `{ok, at, dry_run, gate, gate_on, sources:{wiz, plugs:{state, count, ms, errors}}, files}` |
 
 `at` is HST ISO-8601 (`-10:00`). States: PASS · FAIL · BLOCKED.
-Architecture: Library `Documentation/06-Domains-and-External-Systems/Smart-Devices-Energy.md`.
+Architecture: Library `Documentation/15-Domains-and-External-Systems/Smart-Devices-Energy.md`.

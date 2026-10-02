@@ -14,4 +14,4 @@ Machine-written reports in the exact structure of the Library operations templat
 | `Archive/<name>_YYYY-MM-DDTHHMM.md` | Previous `_current` copy (rotated only when the content changed) |
 
 These files are drafts for review. The script never writes into the Library; copy by hand after review.
-Design: Library `Documentation/01-AI-and-Agent-Runtime/Template-Report-Generation.md`. Job: `template_reports_daily` (off unless `RR_TEMPLATE_REPORTS=1`).
+Design: Library `Documentation/10-AI-and-Agent-Runtime/Template-Report-Generation.md`. Job: `template_reports_daily` (off unless `RR_TEMPLATE_REPORTS=1`).
