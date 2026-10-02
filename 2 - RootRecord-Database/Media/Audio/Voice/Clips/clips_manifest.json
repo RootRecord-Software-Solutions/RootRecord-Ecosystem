@@ -69,6 +69,74 @@
       "source": "local status cue",
       "proposed": false
     },
+    "Ava/current_report_staged_half": {
+      "slug": "current_report_staged_half",
+      "persona": "Ava",
+      "kinds": [
+        "current_report",
+        "status"
+      ],
+      "text": "Current report has been staged for the half hour.",
+      "spoken": "Current report has been staged for the half hour.",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "sha256": "c4a9af46452bd287855f47b65d6547b60120651e02a4b1e6e2f803d8c9653044",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.489,
+      "peak_dbfs": -5.12,
+      "rms_dbfs": -20.24,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 278,
+        "tail": 457
+      },
+      "render_s": 4.63,
+      "rendered": "2026-10-02T00:23:07-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Ava/current_report_staged_hour": {
+      "slug": "current_report_staged_hour",
+      "persona": "Ava",
+      "kinds": [
+        "current_report",
+        "status"
+      ],
+      "text": "Current report has been staged for the hour.",
+      "spoken": "Current report has been staged for the hour.",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "sha256": "2b09d809054ee2d7ffcf23131e5d6d5ac6e757cab3fb809d543118d0d9af38f8",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.214,
+      "peak_dbfs": -3.24,
+      "rms_dbfs": -20.22,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 278,
+        "tail": 457
+      },
+      "render_s": 4.56,
+      "rendered": "2026-10-02T00:23:01-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
     "Ava/current_report_starting": {
       "slug": "current_report_starting",
       "persona": "Ava",
@@ -1021,6 +1089,74 @@
       "source": "local status cue",
       "proposed": false
     },
+    "Carly/bandwidth_desk_staged_half": {
+      "slug": "bandwidth_desk_staged_half",
+      "persona": "Carly",
+      "kinds": [
+        "bandwidth_desk",
+        "status"
+      ],
+      "text": "Bandwidth report has been staged for the half hour.",
+      "spoken": "Bandwidth report has been staged for the half hour.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "9222bb737bad559f3a303fe9a3bdb2ab8e4127aca30e75edd3211b8fc138b41b",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.83,
+      "peak_dbfs": -4.26,
+      "rms_dbfs": -20.31,
+      "lead_silence_ms": 22,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 259,
+        "tail": 712
+      },
+      "render_s": 4.82,
+      "rendered": "2026-10-02T00:22:55-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/bandwidth_desk_staged_hour": {
+      "slug": "bandwidth_desk_staged_hour",
+      "persona": "Carly",
+      "kinds": [
+        "bandwidth_desk",
+        "status"
+      ],
+      "text": "Bandwidth report has been staged for the hour.",
+      "spoken": "Bandwidth report has been staged for the hour.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "62230add9a3c44304b35ac71e7722298404f43142af3a4cf09bd621df47a13b6",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.586,
+      "peak_dbfs": -2.48,
+      "rms_dbfs": -20.3,
+      "lead_silence_ms": 21,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 256,
+        "tail": 708
+      },
+      "render_s": 4.68,
+      "rendered": "2026-10-02T00:22:50-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
     "Carly/bandwidth_desk_starting": {
       "slug": "bandwidth_desk_starting",
       "persona": "Carly",
@@ -1769,6 +1905,40 @@
       "source": "local status cue",
       "proposed": false
     },
+    "Carly/security_desk_staged_half": {
+      "slug": "security_desk_staged_half",
+      "persona": "Carly",
+      "kinds": [
+        "security_desk",
+        "status"
+      ],
+      "text": "Security report has been staged for the half hour.",
+      "spoken": "Security report has been staged for the half hour.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "1a8c41f76ea89e166771941e00462f99c196d8aa95ffc07647b881c851beb375",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.81,
+      "peak_dbfs": -4.66,
+      "rms_dbfs": -20.28,
+      "lead_silence_ms": 21,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 217,
+        "tail": 723
+      },
+      "render_s": 5.54,
+      "rendered": "2026-10-02T00:22:44-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
     "Carly/security_desk_staged_hour": {
       "slug": "security_desk_staged_hour",
       "persona": "Carly",
@@ -1872,5 +2042,5 @@
       "proposed": false
     }
   },
-  "updated": "2026-10-02T00:22:37-10:00"
+  "updated": "2026-10-02T00:23:07-10:00"
 }
