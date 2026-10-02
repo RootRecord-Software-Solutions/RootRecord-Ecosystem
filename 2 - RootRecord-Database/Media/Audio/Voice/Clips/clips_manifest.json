@@ -1,6 +1,346 @@
 {
   "format": "24 kHz 16-bit PCM mono WAV",
   "clips": {
+    "Ava/nws_weather_failed": {
+      "slug": "nws_weather_failed",
+      "persona": "Ava",
+      "kinds": [
+        "nws_weather",
+        "status"
+      ],
+      "text": "NWS report was generated but failed to send.",
+      "spoken": "National Weather Service report was generated but failed to send.",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "sha256": "69b444c0ad77aac035c4282965d2ead8cebb7eaf7a6a1081c299600b8c4b0a76",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 3.764,
+      "peak_dbfs": -4.39,
+      "rms_dbfs": -20.16,
+      "lead_silence_ms": 23,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 298,
+        "tail": 488
+      },
+      "render_s": 5.1,
+      "rendered": "2026-10-02T00:06:08-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Ava/nws_weather_sent": {
+      "slug": "nws_weather_sent",
+      "persona": "Ava",
+      "kinds": [
+        "nws_weather",
+        "status"
+      ],
+      "text": "NWS report was sent successfully.",
+      "spoken": "National Weather Service report was sent successfully.",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "sha256": "113f2c27b03dfe7a966cfb3e8025e9ae5f120eba75a3ce7e1f55624bbc2c7eb2",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.806,
+      "peak_dbfs": -3.97,
+      "rms_dbfs": -20.17,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 294,
+        "tail": 475
+      },
+      "render_s": 4.84,
+      "rendered": "2026-10-02T00:06:14-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Ava/nws_weather_starting": {
+      "slug": "nws_weather_starting",
+      "persona": "Ava",
+      "kinds": [
+        "nws_weather",
+        "status"
+      ],
+      "text": "NWS report is about to generate.",
+      "spoken": "National Weather Service report is about to generate.",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "sha256": "9c3839a9d78d0823f79ffa8982e92acf99a5e9d2a3f26f0485f694b9a1746476",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.985,
+      "peak_dbfs": -5.37,
+      "rms_dbfs": -20.07,
+      "lead_silence_ms": 24,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 305,
+        "tail": 435
+      },
+      "render_s": 4.85,
+      "rendered": "2026-10-02T00:05:56-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Ava/nws_weather_transit": {
+      "slug": "nws_weather_transit",
+      "persona": "Ava",
+      "kinds": [
+        "nws_weather",
+        "status"
+      ],
+      "text": "NWS report has been generated and is in transit.",
+      "spoken": "National Weather Service report has been generated and is in transit.",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "sha256": "75d1d92bc1e04834f6186da5b118354ca13f0f684ada4d68abfbe9acdc17e458",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 4.058,
+      "peak_dbfs": -4.57,
+      "rms_dbfs": -20.05,
+      "lead_silence_ms": 22,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 300,
+        "tail": 466
+      },
+      "render_s": 5.19,
+      "rendered": "2026-10-02T00:06:02-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Bruce/remaining_tasks_failed": {
+      "slug": "remaining_tasks_failed",
+      "persona": "Bruce",
+      "kinds": [
+        "remaining_tasks",
+        "status"
+      ],
+      "text": "Remaining tasks report was generated but failed to send.",
+      "spoken": "Remaining tasks report was generated but failed to send.",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "sha256": "d20b854e02596180c81641e36c7eec6248a39d64aaae3192070e26b0d0f9fa8a",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 3.474,
+      "peak_dbfs": -3.28,
+      "rms_dbfs": -20.14,
+      "lead_silence_ms": 23,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 236,
+        "tail": 614
+      },
+      "render_s": 5.25,
+      "rendered": "2026-10-02T00:06:57-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Bruce/remaining_tasks_sent": {
+      "slug": "remaining_tasks_sent",
+      "persona": "Bruce",
+      "kinds": [
+        "remaining_tasks",
+        "status"
+      ],
+      "text": "Remaining tasks report was sent successfully.",
+      "spoken": "Remaining tasks report was sent successfully.",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "sha256": "59c5df3548c9b0b4e361885e0241ffb1d0741faf8a5780bce52a2a031ebea31c",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.722,
+      "peak_dbfs": -3.55,
+      "rms_dbfs": -20.0,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 231,
+        "tail": 572
+      },
+      "render_s": 4.88,
+      "rendered": "2026-10-02T00:07:03-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Bruce/remaining_tasks_starting": {
+      "slug": "remaining_tasks_starting",
+      "persona": "Bruce",
+      "kinds": [
+        "remaining_tasks",
+        "status"
+      ],
+      "text": "Remaining tasks report is about to generate.",
+      "spoken": "Remaining tasks report is about to generate.",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "sha256": "01db264ee3112e9ae6a80c6085619dc302a8beba33fade4bf37fa12afb10168d",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.924,
+      "peak_dbfs": -4.41,
+      "rms_dbfs": -20.07,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 241,
+        "tail": 560
+      },
+      "render_s": 5.13,
+      "rendered": "2026-10-02T00:06:44-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Bruce/remaining_tasks_transit": {
+      "slug": "remaining_tasks_transit",
+      "persona": "Bruce",
+      "kinds": [
+        "remaining_tasks",
+        "status"
+      ],
+      "text": "Remaining tasks report has been generated and is in transit.",
+      "spoken": "Remaining tasks report has been generated and is in transit.",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "sha256": "6eb40b26c104c0d4996be9587b6feb6d6b99275a8d35a46c3156857717b7db9f",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 3.884,
+      "peak_dbfs": -3.38,
+      "rms_dbfs": -20.08,
+      "lead_silence_ms": 24,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 242,
+        "tail": 624
+      },
+      "render_s": 5.23,
+      "rendered": "2026-10-02T00:06:51-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Bruce/system_perf_failed": {
+      "slug": "system_perf_failed",
+      "persona": "Bruce",
+      "kinds": [
+        "system_perf",
+        "status"
+      ],
+      "text": "System report was generated but failed to send.",
+      "spoken": "System report was generated but failed to send.",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "sha256": "3b1ebb1e86c5be9eba4c76ecd3f59eca322e522e7c65138954b93a0bc1d06905",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 3.088,
+      "peak_dbfs": -1.5,
+      "rms_dbfs": -20.63,
+      "lead_silence_ms": 24,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 223,
+        "tail": 614
+      },
+      "render_s": 4.9,
+      "rendered": "2026-10-02T00:05:44-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Bruce/system_perf_sent": {
+      "slug": "system_perf_sent",
+      "persona": "Bruce",
+      "kinds": [
+        "system_perf",
+        "status"
+      ],
+      "text": "System report was sent successfully.",
+      "spoken": "System report was sent successfully.",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "sha256": "03e513053b3db0dc6b2cf00a461a6eeec82b3c85924da6d51e36f7973fef5852",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.365,
+      "peak_dbfs": -3.03,
+      "rms_dbfs": -20.08,
+      "lead_silence_ms": 21,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 231,
+        "tail": 554
+      },
+      "render_s": 4.74,
+      "rendered": "2026-10-02T00:05:50-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
     "Bruce/system_perf_starting": {
       "slug": "system_perf_starting",
       "persona": "Bruce",
@@ -34,7 +374,245 @@
       },
       "source": "local status cue",
       "proposed": false
+    },
+    "Bruce/system_perf_transit": {
+      "slug": "system_perf_transit",
+      "persona": "Bruce",
+      "kinds": [
+        "system_perf",
+        "status"
+      ],
+      "text": "System report has been generated and is in transit.",
+      "spoken": "System report has been generated and is in transit.",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "sha256": "08804859ae385137da3e016fdfeb7e484f88dd2a5c1ad195eeebfed8ba012d12",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 3.405,
+      "peak_dbfs": -1.5,
+      "rms_dbfs": -20.25,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 221,
+        "tail": 599
+      },
+      "render_s": 4.95,
+      "rendered": "2026-10-02T00:05:38-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/earthquake_report_starting": {
+      "slug": "earthquake_report_starting",
+      "persona": "Carly",
+      "kinds": [
+        "earthquake_report",
+        "status"
+      ],
+      "text": "Earthquake report is about to generate.",
+      "spoken": "Earthquake report is about to generate.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "3d21f42259e86a15526b89a1355a2cd5cac319dcb295387f203bd96090534d09",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.403,
+      "peak_dbfs": -4.16,
+      "rms_dbfs": -20.21,
+      "lead_silence_ms": 23,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 234,
+        "tail": 663
+      },
+      "render_s": 4.7,
+      "rendered": "2026-10-02T00:07:09-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/earthquake_report_transit": {
+      "slug": "earthquake_report_transit",
+      "persona": "Carly",
+      "kinds": [
+        "earthquake_report",
+        "status"
+      ],
+      "text": "Earthquake report has been generated and is in transit.",
+      "spoken": "Earthquake report has been generated and is in transit.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "2be60c77af5cef4850905dd72374318dbf9d77aca4cd994a0aa9ba2297e90fbf",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 3.186,
+      "peak_dbfs": -2.96,
+      "rms_dbfs": -20.19,
+      "lead_silence_ms": 23,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 246,
+        "tail": 668
+      },
+      "render_s": 5.48,
+      "rendered": "2026-10-02T00:07:15-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/energy_report_failed": {
+      "slug": "energy_report_failed",
+      "persona": "Carly",
+      "kinds": [
+        "energy_report",
+        "status"
+      ],
+      "text": "Energy report was generated but failed to send.",
+      "spoken": "Energy report was generated but failed to send.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "c675e97c160e192335b53ba1ca805cc437cc202dcb9e24faf2c21954ce993fd5",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.807,
+      "peak_dbfs": -5.05,
+      "rms_dbfs": -20.32,
+      "lead_silence_ms": 21,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 232,
+        "tail": 712
+      },
+      "render_s": 4.88,
+      "rendered": "2026-10-02T00:06:32-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/energy_report_sent": {
+      "slug": "energy_report_sent",
+      "persona": "Carly",
+      "kinds": [
+        "energy_report",
+        "status"
+      ],
+      "text": "Energy report was sent successfully.",
+      "spoken": "Energy report was sent successfully.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "5c103f2126fb8ae2983954a9f3dfdc1ccf3015b39b0de1162f688f0c59a36918",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.127,
+      "peak_dbfs": -4.46,
+      "rms_dbfs": -20.31,
+      "lead_silence_ms": 21,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 230,
+        "tail": 668
+      },
+      "render_s": 4.66,
+      "rendered": "2026-10-02T00:06:38-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/energy_report_starting": {
+      "slug": "energy_report_starting",
+      "persona": "Carly",
+      "kinds": [
+        "energy_report",
+        "status"
+      ],
+      "text": "Energy report is about to generate.",
+      "spoken": "Energy report is about to generate.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "7ca3067950d0eb26968750f470d34dd51e1757903aa33c539df5bb1a6200e0bf",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.35,
+      "peak_dbfs": -4.93,
+      "rms_dbfs": -20.35,
+      "lead_silence_ms": 22,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 230,
+        "tail": 670
+      },
+      "render_s": 5.04,
+      "rendered": "2026-10-02T00:06:20-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/energy_report_transit": {
+      "slug": "energy_report_transit",
+      "persona": "Carly",
+      "kinds": [
+        "energy_report",
+        "status"
+      ],
+      "text": "Energy report has been generated and is in transit.",
+      "spoken": "Energy report has been generated and is in transit.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "8d5452cc04a596ec362bb3cebe080048d52b820458e172f061c56d1244a1bb71",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 3.175,
+      "peak_dbfs": -4.09,
+      "rms_dbfs": -20.15,
+      "lead_silence_ms": 22,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 233,
+        "tail": 667
+      },
+      "render_s": 4.9,
+      "rendered": "2026-10-02T00:06:26-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
     }
   },
-  "updated": "2026-10-02T00:05:20-10:00"
+  "updated": "2026-10-02T00:07:15-10:00"
 }

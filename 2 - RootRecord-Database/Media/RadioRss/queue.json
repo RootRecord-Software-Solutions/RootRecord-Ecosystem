@@ -4670,6 +4670,132 @@
           "published_at": "2026-10-02T09:25:00Z"
         }
       ]
+    },
+    {
+      "id": "e84402183d61c17a",
+      "cluster_id": "c_17681505e72d5fb4",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_17681505e72d5fb4.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_17681505e72d5fb4.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Civil Beat",
+          "source": "Honolulu Civil Beat",
+          "title": "Will Courts Block Climate Suits By Hawai\u02bbi, Other States?",
+          "url": "https://www.civilbeat.org/2026/10/will-courts-block-climate-suits-by-hawaii-other-states/",
+          "published_at": "2026-10-02T10:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": "3124858fc7c721ad",
+      "cluster_id": "c_c2fab280ec3fb6f0",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_c2fab280ec3fb6f0.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_c2fab280ec3fb6f0.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Civil Beat",
+          "source": "Honolulu Civil Beat",
+          "title": "South Maui Growth Plan: More Delays Expected",
+          "url": "https://www.civilbeat.org/2026/10/south-maui-growth-plan-more-delays-expected/",
+          "published_at": "2026-10-02T10:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": "3fe8636f2a8682f4",
+      "cluster_id": "c_32a508a4fe92c7f2",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_32a508a4fe92c7f2.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_32a508a4fe92c7f2.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Civil Beat",
+          "source": "Honolulu Civil Beat",
+          "title": "HECO Blackout: Half Of Moloka\u02bbi May Lose A Summer\u2019s Fish And Game",
+          "url": "https://www.civilbeat.org/2026/10/heco-blackout-half-of-molokai-may-lose-a-summers-fish-and-game/",
+          "published_at": "2026-10-02T10:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": "22df73206b47f872",
+      "cluster_id": "c_91072520430b2d2d",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_91072520430b2d2d.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_91072520430b2d2d.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Civil Beat",
+          "source": "Honolulu Civil Beat",
+          "title": "Makana Eyre: In A Sea Of Mainland Grocers, A Taste Of Old Hawai\u02bbi",
+          "url": "https://www.civilbeat.org/2026/10/this-homegrown-hawaii-grocery-has-thrived-as-others-died/",
+          "published_at": "2026-10-02T10:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2716c331ca1c42ed",
+      "cluster_id": "c_044d2f55a48ac825",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_044d2f55a48ac825.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_044d2f55a48ac825.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Civil Beat",
+          "source": "Honolulu Civil Beat",
+          "title": "Quotable: Localism",
+          "url": "https://www.civilbeat.org/2026/10/quotable-localism/",
+          "published_at": "2026-10-02T10:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": "caef64ebf8b9eeb7",
+      "cluster_id": "c_fc8dfbc509134410",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_fc8dfbc509134410.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/hawaii_brief/c_fc8dfbc509134410.speak.txt",
+      "sources": [
+        {
+          "publisher": "Honolulu Civil Beat",
+          "source": "Honolulu Civil Beat",
+          "title": "HMSA\u2019s Medicare Changes Could Increase Costs For Thousands",
+          "url": "https://www.civilbeat.org/2026/10/hmsas-medicare-changes-could-increase-costs-for-thousands/",
+          "published_at": "2026-10-02T10:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": "7e4a3acf3b66f85e",
+      "cluster_id": "c_b87953c860ba5994",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_b87953c860ba5994.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_b87953c860ba5994.speak.txt",
+      "sources": [
+        {
+          "publisher": "ESA",
+          "source": "ESA Top News",
+          "title": "Jammertest pumps up the jam in Norway",
+          "url": "https://www.esa.int/Applications/Satellite_navigation/Jammertest_pumps_up_the_jam_in_Norway",
+          "published_at": "2026-10-02T07:05:00Z"
+        }
+      ]
     }
   ]
 }

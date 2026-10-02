@@ -1,9 +1,9 @@
 {
   "resource": "kilauea",
   "title": "K\u012blauea",
-  "as_of": "Friday, October 2, 2026 \u00b7 00:05 Hawaiian Standard Time",
+  "as_of": "Friday, October 2, 2026 \u00b7 00:07 Hawaiian Standard Time",
   "status": {
-    "at": "2026-10-01T23:59:06-10:00",
+    "at": "2026-10-02T00:06:49-10:00",
     "alert_level": "WATCH",
     "color_code": "ORANGE",
     "headline": "WATCH \u2014 elevated unrest",

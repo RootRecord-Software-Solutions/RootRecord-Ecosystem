@@ -1,0 +1,4 @@
+Space brief. the European Space Agency reports that Jammertest pumps up the jam in Norway. Every September, for one week, the airwaves above the Arctic island of Andøya, Norway, become some of the most heavily attacked in the world. For a good reason: Jammertest. From the small village of Bleik, 69 degrees north, Norwegian authorities launch hundreds of jamming and spoofing attacks, allowing participants to test their technologies against realistic threats, identify weaknesses in them and ultimately develop stronger positioning, navigation and timing (PNT) solutions. Published October 2, 2026.
+
+Sources:
+- ESA | Jammertest pumps up the jam in Norway | https://www.esa.int/Applications/Satellite_navigation/Jammertest_pumps_up_the_jam_in_Norway | 2026-10-02T07:05:00Z | b87953c860ba5994a3eb

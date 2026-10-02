@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-01T23:59:06-10:00",
+  "at": "2026-10-02T00:06:49-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
@@ -14,8 +14,30 @@
     "time_hst": "2026-10-01T02:27:11.864000-10:00"
   },
   "new_this_run": 1,
-  "usgs_generated_utc": "2026-10-02T09:58:57+00:00",
+  "usgs_generated_utc": "2026-10-02T10:05:57+00:00",
   "events": [
+    {
+      "id": "nc75442791",
+      "mag": 3.68,
+      "mag_type": "ml",
+      "place": "10 km WSW of South Lake Tahoe, CA",
+      "time_utc": "2026-10-02T10:00:11.230000+00:00",
+      "time_hst": "2026-10-02T00:00:11.230000-10:00",
+      "lon": -120.083168029785,
+      "lat": 38.8899993896484,
+      "depth_km": 7.01000022888184,
+      "status": "automatic",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75442791",
+      "nearest": {
+        "location_id": "us-nevada-carson-city",
+        "name": "Carson City",
+        "country_code": "US",
+        "admin1_code": "Nevada",
+        "km": 41.0
+      }
+    },
     {
       "id": "aka2026tmvtvv",
       "mag": 2.6,
@@ -476,22 +498,6 @@
       "tsunami": 0,
       "type": "earthquake",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tlapkt",
-      "nearest": null
-    },
-    {
-      "id": "us6000tysi",
-      "mag": 4.7,
-      "mag_type": "mb",
-      "place": "northern Mid-Atlantic Ridge",
-      "time_utc": "2026-10-01T10:03:15.128000+00:00",
-      "time_hst": "2026-10-01T00:03:15.128000-10:00",
-      "lon": -41.428,
-      "lat": 31.0444,
-      "depth_km": 10,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tysi",
       "nearest": null
     }
   ]
