@@ -2848,6 +2848,1597 @@
           "published_at": "2026-10-01T14:12:25Z"
         }
       ]
+    },
+    {
+      "id": "6488f434e84c9821",
+      "cluster_id": "c_9235409c538bbeca",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_9235409c538bbeca.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_9235409c538bbeca.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Trump vs Europe as US presses for release of emergency diesel stocks",
+          "url": "https://www.aljazeera.com/news/2026/10/2/trump-vs-europe-as-us-presses-for-release-of-emergency-diesel-stocks?traffic_source=rss",
+          "published_at": "2026-10-02T13:16:44Z"
+        }
+      ]
+    },
+    {
+      "id": "88e56332d99070a3",
+      "cluster_id": "c_0ab11909f6d76411",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_0ab11909f6d76411.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_0ab11909f6d76411.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Wolf encounter: A photographer on what humans have lost",
+          "url": "https://www.aljazeera.com/features/longform/2026/10/2/wolf-encounter-a-photographer-on-what-humans-have-lost?traffic_source=rss",
+          "published_at": "2026-10-02T13:13:05Z"
+        }
+      ]
+    },
+    {
+      "id": "7b29b9895e7c440f",
+      "cluster_id": "c_1f810b2da4cbeb24",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_1f810b2da4cbeb24.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_1f810b2da4cbeb24.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Protests shutter hundreds of French schools as violence flares",
+          "url": "https://www.aljazeera.com/news/2026/10/2/protests-shutter-hundreds-of-french-schools-as-violence-flares?traffic_source=rss",
+          "published_at": "2026-10-02T13:12:45Z"
+        }
+      ]
+    },
+    {
+      "id": "d89c843f8431264d",
+      "cluster_id": "c_127e72d487286038",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_127e72d487286038.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_127e72d487286038.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Ebola death toll surpasses 4,000 as DR Congo struggles to suppress outbreak",
+          "url": "https://www.aljazeera.com/news/2026/10/2/ebola-death-toll-surpasses-4000-as-dr-congo-struggles-to-suppress-outbreak?traffic_source=rss",
+          "published_at": "2026-10-02T12:56:18Z"
+        }
+      ]
+    },
+    {
+      "id": "02902c67f5e9a8db",
+      "cluster_id": "c_e4af3fbb1d0ee88a",
+      "program": "DEVELOPER_BRIEF",
+      "report": "developer_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/developer_brief/c_e4af3fbb1d0ee88a.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/developer_brief/c_e4af3fbb1d0ee88a.speak.txt",
+      "sources": [
+        {
+          "publisher": "GitHub",
+          "source": "GitHub Changelog",
+          "title": "Confidential comments on repository security advisories",
+          "url": "https://github.blog/changelog/2026-10-02-confidential-comments-on-repository-security-advisories",
+          "published_at": "2026-10-02T13:15:40Z"
+        }
+      ]
+    },
+    {
+      "id": "4930f7ba07020bf2",
+      "cluster_id": "c_9c6e83787360dced",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_9c6e83787360dced.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_9c6e83787360dced.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "\u2018We just want to be listened to\u2019: student protests shut schools across France",
+          "url": "https://www.theguardian.com/world/2026/oct/02/student-protests-shut-schools-across-france",
+          "published_at": "2026-10-02T12:57:16Z"
+        }
+      ]
+    },
+    {
+      "id": "ecad238227326417",
+      "cluster_id": "c_58727f90b62782f5",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_58727f90b62782f5.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_58727f90b62782f5.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "Brazil attorney general says meddling \u2018cannot be tolerated\u2019 after Trump funding plans revealed",
+          "url": "https://www.theguardian.com/world/2026/oct/01/brazil-attorney-general-election-meddling-trump-funding-plans",
+          "published_at": "2026-10-01T18:34:10Z"
+        }
+      ]
+    },
+    {
+      "id": "a31cb7b09a4b7eaa",
+      "cluster_id": "c_cca76d1e412e131b",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_cca76d1e412e131b.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_cca76d1e412e131b.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "PUC TO HOST STATEWIDE PUBLIC INFORMATIONAL MEETINGS ON HAWAIIAN ELECTRIC\u2019S RESPONSE TO RECENT STORMS",
+          "url": "https://governor.hawaii.gov/newsroom/puc-to-host-statewide-public-informational-meetings-on-hawaiian-electrics-response-to-recent-storms/",
+          "published_at": "2026-10-02T00:25:45Z"
+        }
+      ]
+    },
+    {
+      "id": "b27a4c5232493952",
+      "cluster_id": "c_7efbaa73e85cfa93",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_7efbaa73e85cfa93.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_7efbaa73e85cfa93.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "NEWS RELEASE: OCTOBER USHERS IN CYBERSECURITY AWARENESS MONTH IN HAWAI\u2018I",
+          "url": "https://governor.hawaii.gov/newsroom/news-release-october-ushers-in-cybersecurity-awareness-month-in-hawaii/",
+          "published_at": "2026-10-01T23:54:00Z"
+        }
+      ]
+    },
+    {
+      "id": "6f86c878d400df38",
+      "cluster_id": "c_db18f0cbcd7cfbc9",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_db18f0cbcd7cfbc9.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_db18f0cbcd7cfbc9.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "NEWS RELEASE: DLIR Honors 2026 Workforce Development Heroes",
+          "url": "https://governor.hawaii.gov/newsroom/news-release-dlir-honors-2026-workforce-development-heroes-2/",
+          "published_at": "2026-10-01T23:48:39Z"
+        }
+      ]
+    },
+    {
+      "id": "4875b4dd106e0ea1",
+      "cluster_id": "c_d4a6c934956a83b2",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_d4a6c934956a83b2.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_d4a6c934956a83b2.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "News Release \u2013 DOH Lifts Smoke Advisory Related to Fire at ABC Towing and Parts in Pearl City",
+          "url": "https://governor.hawaii.gov/main/news-release-doh-lifts-smoke-advisory-related-to-fire-at-abc-towing-and-parts-in-pearl-city/",
+          "published_at": "2026-10-01T23:06:39Z"
+        }
+      ]
+    },
+    {
+      "id": "ee676f8ef5b946c3",
+      "cluster_id": "c_7355d472b4018529",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_7355d472b4018529.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_7355d472b4018529.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "RELEASE: FOURTH QUARTER HAWAI\u02bbI ANNUAL BUSINESS REPORTS DUE",
+          "url": "https://governor.hawaii.gov/newsroom/release-fourth-quarter-hawai%ca%bbi-annual-business-reports-due/",
+          "published_at": "2026-10-01T22:42:13Z"
+        }
+      ]
+    },
+    {
+      "id": "8de8e521ae4b6cc0",
+      "cluster_id": "c_9251892a48fc8e27",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_9251892a48fc8e27.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_9251892a48fc8e27.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "NEWS RELEASE: NEW BIOSECURITY ACADEMY TO TRAIN FRONTLINE INSPECTORS IN FIGHT AGAINST INVASIVE SPECIES",
+          "url": "https://governor.hawaii.gov/newsroom/news-release-new-biosecurity-academy-to-train-frontline-inspectors-in-fight-against-invasive-species/",
+          "published_at": "2026-10-01T22:40:41Z"
+        }
+      ]
+    },
+    {
+      "id": "867ad61eaa0e5a9d",
+      "cluster_id": "c_2a0b65570e440426",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_2a0b65570e440426.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_2a0b65570e440426.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "RELEASE: PVL LAUNCHES EMAIL STATUS UPDATES FOR LICENSE APPLICANTS",
+          "url": "https://governor.hawaii.gov/newsroom/release-pvl-launches-email-status-updates-for-license-applicants/",
+          "published_at": "2026-10-01T21:40:43Z"
+        }
+      ]
+    },
+    {
+      "id": "b63765b7457f5140",
+      "cluster_id": "c_03890ffc827fb0b7",
+      "program": "CHIPS_BRIEF",
+      "report": "chips_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/chips_brief/c_03890ffc827fb0b7.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/chips_brief/c_03890ffc827fb0b7.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "Hawai\u02bbi to Receive up to $76 Million in Landmark Meta Settlement to Strengthen Online Protections for Children",
+          "url": "https://governor.hawaii.gov/main/hawai%ca%bbi-to-receive-up-to-76-million-in-landmark-meta-settlement-to-strengthen-online-protections-for-children/",
+          "published_at": "2026-10-01T21:28:40Z"
+        }
+      ]
+    },
+    {
+      "id": "ccf9781f8c6c0864",
+      "cluster_id": "c_87674d886e9c59c7",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_87674d886e9c59c7.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_87674d886e9c59c7.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "Quick Thinking and Compassion: HYCF Employee Recognized for Life-Saving Actions",
+          "url": "https://governor.hawaii.gov/main/quick-thinking-and-compassion-hycf-employee-recognized-for-life-saving-actions/",
+          "published_at": "2026-10-01T21:26:26Z"
+        }
+      ]
+    },
+    {
+      "id": "b99ba8b8a44fc9d4",
+      "cluster_id": "c_318145619184cb41",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_318145619184cb41.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_318145619184cb41.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "Three reasons this Wall Street market-making powerhouse says investors should reload on stocks right now",
+          "url": "https://www.marketwatch.com/story/three-reasons-why-this-wall-street-market-making-powerhouse-says-investors-should-reload-on-stocks-now-8e19ecce?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T13:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "524c40230340122a",
+      "cluster_id": "c_ca494ab91af20be4",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_ca494ab91af20be4.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_ca494ab91af20be4.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "\u2018I have $400,000 in equity\u2019: I\u2019m 80. Should I sell my house because of dangerous stairs \u2014 or spend thousands renovating?",
+          "url": "https://www.marketwatch.com/story/i-have-a-low-interest-rate-im-80-years-old-should-i-move-out-of-my-house-because-of-dangerous-stairs-389c3c7b?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T13:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "e63e95fe7fb36d0c",
+      "cluster_id": "c_154ac5d2e1cc627f",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_154ac5d2e1cc627f.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_154ac5d2e1cc627f.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "Tesla\u2019s EV sales beat Wall Street\u2019s expectations again, and the stock jumps",
+          "url": "https://www.marketwatch.com/story/tesla-ev-sales-beat-wall-streets-expectations-again-and-the-stock-jumps-294a4f53?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T13:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "a227c3ae78252c18",
+      "cluster_id": "c_fdf76b5a955fb1ca",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_fdf76b5a955fb1ca.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_fdf76b5a955fb1ca.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "I\u2019m 71 and still working. I earn $108,000 a year. Am I doing the right thing?",
+          "url": "https://www.marketwatch.com/story/im-71-and-still-working-i-earn-108-000-a-year-am-i-doing-the-right-thing-aaedcaa4?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "5b775e0eb78ed34d",
+      "cluster_id": "c_a2ae52b5822c00e0",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_a2ae52b5822c00e0.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_a2ae52b5822c00e0.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "Why Western Digital and Seagate are seeing big stock drops today",
+          "url": "https://www.marketwatch.com/story/why-western-digital-and-seagate-are-seeing-big-stock-drops-today-6b16d95e?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T12:58:00Z"
+        }
+      ]
+    },
+    {
+      "id": "ad77e763c8ac0024",
+      "cluster_id": "c_2e65e717b0ffe830",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_2e65e717b0ffe830.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_2e65e717b0ffe830.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "Nike\u2019s stock heads for its worst year ever as the company\u2019s troubles mount",
+          "url": "https://www.marketwatch.com/story/nikes-troubles-are-mounting-and-sales-could-fall-further-2c19699d?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T12:50:00Z"
+        }
+      ]
+    },
+    {
+      "id": "ad988d19cb652565",
+      "cluster_id": "c_4d8279cac482efbb",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_4d8279cac482efbb.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_4d8279cac482efbb.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "To win the humanoid-robots race, the U.S. needs this critical machine component that\u2019s hard to find",
+          "url": "https://www.marketwatch.com/story/to-win-the-humanoid-robots-race-the-u-s-needs-this-critical-machine-component-thats-hard-to-find-ca244571?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T12:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "b50d93c4f239713a",
+      "cluster_id": "c_69b66d01904f07b9",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_69b66d01904f07b9.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_69b66d01904f07b9.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "\u2018I\u2019d rather be on a beach in Bali\u2019: My husband resents my $8 million net worth. Should I pay for his retirement?",
+          "url": "https://www.marketwatch.com/story/i-feel-like-hes-holding-me-back-i-have-8-million-my-husband-resents-my-success-should-i-pay-for-more-things-08a4221b?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T12:15:00Z"
+        }
+      ]
+    },
+    {
+      "id": "e6c8ee7335074b8e",
+      "cluster_id": "c_146c9829b9fa29fe",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_146c9829b9fa29fe.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_146c9829b9fa29fe.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "The stock market is anything but normal right now \u2014 and these charts show it",
+          "url": "https://www.marketwatch.com/story/the-stock-market-is-anything-but-normal-right-now-and-these-charts-show-it-91ea187d?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T11:48:00Z"
+        }
+      ]
+    },
+    {
+      "id": "4cec7f1698bdacdc",
+      "cluster_id": "c_e87466bc34f8e59b",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_e87466bc34f8e59b.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_e87466bc34f8e59b.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "I\u2019m in my 20s and keep getting laid off. Should I invest in my employer\u2019s 401(k) or look into other options?",
+          "url": "https://www.marketwatch.com/story/im-in-my-20s-and-keep-getting-laid-off-should-i-invest-in-my-employers-401-k-or-look-into-other-options-387b34d3?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T11:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "47401fdee323523f",
+      "cluster_id": "c_d1a36831435c972b",
+      "program": "CHIPS_BRIEF",
+      "report": "chips_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/chips_brief/c_d1a36831435c972b.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/chips_brief/c_d1a36831435c972b.speak.txt",
+      "sources": [
+        {
+          "publisher": "Microsoft",
+          "source": "Microsoft Blog",
+          "title": "Microsoft 365 and LinkedIn leadership update",
+          "url": "https://blogs.microsoft.com/blog/2026/10/01/microsoft-365-and-linkedin-leadership-update/",
+          "published_at": "2026-10-01T15:03:27Z"
+        }
+      ]
+    },
+    {
+      "id": "44e2be6d7e26c6a7",
+      "cluster_id": "c_a4ac54f641d42537",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_a4ac54f641d42537.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_a4ac54f641d42537.speak.txt",
+      "sources": [
+        {
+          "publisher": "MIT News",
+          "source": "MIT News",
+          "title": "3 Questions: A new resource to empower young entrepreneurs",
+          "url": "https://news.mit.edu/2026/3-questions-new-resource-empower-young-entrepreneurs-1002",
+          "published_at": "2026-10-02T04:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "1171e63d58b56d21",
+      "cluster_id": "c_097a3b48c271b54c",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_097a3b48c271b54c.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_097a3b48c271b54c.speak.txt",
+      "sources": [
+        {
+          "publisher": "MIT News",
+          "source": "MIT News",
+          "title": "MIT class project turns into an FDA-cleared treatment for tremors",
+          "url": "https://news.mit.edu/2026/mit-class-project-turns-into-fda-cleared-treatment-for-tremors-1002",
+          "published_at": "2026-10-02T04:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "9060441de0acbcc5",
+      "cluster_id": "c_5d2cad9c5cc3b836",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_5d2cad9c5cc3b836.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_5d2cad9c5cc3b836.speak.txt",
+      "sources": [
+        {
+          "publisher": "MIT News",
+          "source": "MIT News",
+          "title": "New tool lets users repair AI-generated 3D models, then fabricate them just the way they want",
+          "url": "https://news.mit.edu/2026/instructmesh-tool-lets-users-repair-ai-3d-models-then-fabricate-them-1001",
+          "published_at": "2026-10-01T22:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "859afc0fe757705c",
+      "cluster_id": "c_545ebc6a5b547a1f",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_545ebc6a5b547a1f.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_545ebc6a5b547a1f.speak.txt",
+      "sources": [
+        {
+          "publisher": "MIT News",
+          "source": "MIT News",
+          "title": "Governor Healey and President Kornbluth launch MIT Future Fest",
+          "url": "https://news.mit.edu/2026/governor-healey-and-president-kornbluth-launch-mit-future-fest-1001",
+          "published_at": "2026-10-01T18:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "b04cc6591e68c15d",
+      "cluster_id": "c_0f73a12b5a96c60b",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/space_brief/c_0f73a12b5a96c60b.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/space_brief/c_0f73a12b5a96c60b.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "APOD: 2026 October 2 \u2013 The Complete Sharpless Catalog: 313 Nebulas",
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-2-the-complete-sharpless-catalog-313-nebulae/",
+          "published_at": "2026-10-02T04:05:00Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "APOD: 2026 October 2 \u2013 The Complete Sharpless Catalog: 313 Nebulas",
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-2-the-complete-sharpless-catalog-313-nebulae/",
+          "published_at": "2026-10-02T04:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "f8f9e35e3aa6bfe4",
+      "cluster_id": "c_50f8507c0decacc0",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/space_brief/c_50f8507c0decacc0.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/space_brief/c_50f8507c0decacc0.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "Rains Swamp the Gandak River",
+          "url": "https://science.nasa.gov/earth/earth-observatory/rains-swamp-the-gandak-river/",
+          "published_at": "2026-10-02T04:01:00Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "Rains Swamp the Gandak River",
+          "url": "https://science.nasa.gov/earth/earth-observatory/rains-swamp-the-gandak-river/",
+          "published_at": "2026-10-02T04:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": "817a9215f7126eba",
+      "cluster_id": "c_79a23b478722f211",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/space_brief/c_79a23b478722f211.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/space_brief/c_79a23b478722f211.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "10 Things: Movie Night",
+          "url": "https://science.nasa.gov/solar-system/10-things-movie-night/",
+          "published_at": "2026-10-02T00:25:36Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "10 Things: Movie Night",
+          "url": "https://science.nasa.gov/solar-system/10-things-movie-night/",
+          "published_at": "2026-10-02T00:25:36Z"
+        }
+      ]
+    },
+    {
+      "id": "0de2928b79759c4e",
+      "cluster_id": "c_10eef3344c045091",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/space_brief/c_10eef3344c045091.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/space_brief/c_10eef3344c045091.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "NASA Awards Enterprise Logistics Support Services Agreements",
+          "url": "https://www.nasa.gov/news-release/nasa-awards-enterprise-logistics-support-services-agreements/",
+          "published_at": "2026-10-01T20:34:27Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "NASA Awards Enterprise Logistics Support Services Agreements",
+          "url": "https://www.nasa.gov/news-release/nasa-awards-enterprise-logistics-support-services-agreements/",
+          "published_at": "2026-10-01T20:34:27Z"
+        }
+      ]
+    },
+    {
+      "id": "ba0a6b030e1a4d18",
+      "cluster_id": "c_c19230a324aec6f0",
+      "program": "SPACEX_BRIEF",
+      "report": "spacex_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/spacex_brief/c_c19230a324aec6f0.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/spacex_brief/c_c19230a324aec6f0.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "NASA\u2019s SpaceX Crew-13 Launches",
+          "url": "https://www.nasa.gov/image-article/nasas-spacex-crew-13-launches/",
+          "published_at": "2026-10-01T18:05:38Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "NASA\u2019s SpaceX Crew-13 Launches",
+          "url": "https://www.nasa.gov/image-article/nasas-spacex-crew-13-launches/",
+          "published_at": "2026-10-01T18:05:38Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Space Station",
+          "title": "NASA\u2019s SpaceX Crew-13 Launches",
+          "url": "https://www.nasa.gov/image-article/nasas-spacex-crew-13-launches/",
+          "published_at": "2026-10-01T18:05:38Z"
+        }
+      ]
+    },
+    {
+      "id": "b05d3919be38f58c",
+      "cluster_id": "c_0caf39fa551d415b",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/space_brief/c_0caf39fa551d415b.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/space_brief/c_0caf39fa551d415b.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "What\u2019s Up: October 2026 Skywatching Tips from NASA",
+          "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/",
+          "published_at": "2026-10-01T16:58:10Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "What\u2019s Up: October 2026 Skywatching Tips from NASA",
+          "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/",
+          "published_at": "2026-10-01T16:58:10Z"
+        }
+      ]
+    },
+    {
+      "id": "ff087806932c992d",
+      "cluster_id": "c_31901409a6b0a17b",
+      "program": "SPACEX_BRIEF",
+      "report": "spacex_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/spacex_brief/c_31901409a6b0a17b.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/spacex_brief/c_31901409a6b0a17b.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "NASA\u2019s SpaceX Crew-13 Launches to International Space Station",
+          "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
+          "published_at": "2026-10-01T15:59:24Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "NASA\u2019s SpaceX Crew-13 Launches to International Space Station",
+          "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
+          "published_at": "2026-10-01T15:59:24Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Space Station",
+          "title": "NASA\u2019s SpaceX Crew-13 Launches to International Space Station",
+          "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
+          "published_at": "2026-10-01T15:59:24Z"
+        }
+      ]
+    },
+    {
+      "id": "ef6c0125fb08be07",
+      "cluster_id": "c_92d5424a349e71d3",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/space_brief/c_92d5424a349e71d3.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/space_brief/c_92d5424a349e71d3.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "NASA\u2019s Webb Provides Crash Course on Planet-Shattering Collisions",
+          "url": "https://science.nasa.gov/missions/webb/nasas-webb-provides-crash-course-on-planet-shattering-collisions/",
+          "published_at": "2026-10-01T14:00:00Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "NASA\u2019s Webb Provides Crash Course on Planet-Shattering Collisions",
+          "url": "https://science.nasa.gov/missions/webb/nasas-webb-provides-crash-course-on-planet-shattering-collisions/",
+          "published_at": "2026-10-01T14:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "e35d0af88134ed2d",
+      "cluster_id": "c_56b52133af14892b",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/space_brief/c_56b52133af14892b.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/space_brief/c_56b52133af14892b.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "APOD: 2026 October 1 \u2013 Harvest Moon with Erupting Mount Etna",
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-1-harvest-moon-with-belt-of-venus-and-erupting-mount-etna/",
+          "published_at": "2026-10-01T04:05:00Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "APOD: 2026 October 1 \u2013 Harvest Moon with Erupting Mount Etna",
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-1-harvest-moon-with-belt-of-venus-and-erupting-mount-etna/",
+          "published_at": "2026-10-01T04:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "847f87001ef05758",
+      "cluster_id": "c_854e396d2a0ba5da",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/space_brief/c_854e396d2a0ba5da.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/space_brief/c_854e396d2a0ba5da.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "An Agricultural \u201cIsland\u201d in the Saskatchewan River Delta",
+          "url": "https://science.nasa.gov/earth/earth-observatory/an-agricultural-island-in-the-saskatchewan-river-delta/",
+          "published_at": "2026-10-01T04:00:00Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "An Agricultural \u201cIsland\u201d in the Saskatchewan River Delta",
+          "url": "https://science.nasa.gov/earth/earth-observatory/an-agricultural-island-in-the-saskatchewan-river-delta/",
+          "published_at": "2026-10-01T04:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "d5b54eebc6e22cdf",
+      "cluster_id": "c_85754e3b44d503bd",
+      "program": "SCIENCE_BRIEF",
+      "report": "science_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/science_brief/c_85754e3b44d503bd.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/science_brief/c_85754e3b44d503bd.speak.txt",
+      "sources": [
+        {
+          "publisher": "Nature",
+          "source": "Nature",
+          "title": "How to respond to hate speech without fuelling it further",
+          "url": "https://www.nature.com/articles/d41586-026-03058-3",
+          "published_at": "2026-10-02T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "ed754202cedd65f6",
+      "cluster_id": "c_b03d063376c7c705",
+      "program": "SCIENCE_BRIEF",
+      "report": "science_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/science_brief/c_b03d063376c7c705.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/science_brief/c_b03d063376c7c705.speak.txt",
+      "sources": [
+        {
+          "publisher": "Nature",
+          "source": "Nature",
+          "title": "Stunning fossil shows dinosaurs' distinctive path to flight",
+          "url": "https://www.nature.com/articles/d41586-026-03126-8",
+          "published_at": "2026-10-02T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "1f0a633afbbb3ef8",
+      "cluster_id": "c_d2da6daa9e9dc7d1",
+      "program": "SCIENCE_BRIEF",
+      "report": "science_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/science_brief/c_d2da6daa9e9dc7d1.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/science_brief/c_d2da6daa9e9dc7d1.speak.txt",
+      "sources": [
+        {
+          "publisher": "Nature",
+          "source": "Nature",
+          "title": "Von Neumann\u2019s party",
+          "url": "https://www.nature.com/articles/d41586-026-02976-6",
+          "published_at": "2026-10-02T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "76e2e2ad069481cc",
+      "cluster_id": "c_044f7c5ad02eeb59",
+      "program": "SCIENCE_BRIEF",
+      "report": "science_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/science_brief/c_044f7c5ad02eeb59.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/science_brief/c_044f7c5ad02eeb59.speak.txt",
+      "sources": [
+        {
+          "publisher": "Nature",
+          "source": "Nature",
+          "title": "Can we have class outside? Seven tips to breeze through outdoor lectures",
+          "url": "https://www.nature.com/articles/d41586-026-02564-8",
+          "published_at": "2026-10-02T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "71f7d6e20edad4a6",
+      "cluster_id": "c_cd1b4a0f0edb16dd",
+      "program": "MAINLAND_WEATHER_BRIEF",
+      "report": "mainland_weather_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_cd1b4a0f0edb16dd.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_cd1b4a0f0edb16dd.speak.txt",
+      "sources": [
+        {
+          "publisher": "National Hurricane Center",
+          "source": "NHC Atlantic",
+          "title": "Atlantic Tropical Weather Outlook",
+          "url": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc",
+          "published_at": "2026-10-02T11:28:17Z"
+        }
+      ]
+    },
+    {
+      "id": "a52190924298e4ff",
+      "cluster_id": "c_c5c0c815cc352fd7",
+      "program": "MAINLAND_WEATHER_BRIEF",
+      "report": "mainland_weather_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_c5c0c815cc352fd7.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_c5c0c815cc352fd7.speak.txt",
+      "sources": [
+        {
+          "publisher": "National Hurricane Center",
+          "source": "NHC Atlantic",
+          "title": "There are no tropical cyclones at this time.",
+          "url": "https://www.nhc.noaa.gov/",
+          "published_at": "2026-10-03T23:28:17Z"
+        }
+      ]
+    },
+    {
+      "id": "6a886e4ea0715334",
+      "cluster_id": "c_2faba2278a0fc16d",
+      "program": "MAINLAND_WEATHER_BRIEF",
+      "report": "mainland_weather_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_2faba2278a0fc16d.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_2faba2278a0fc16d.speak.txt",
+      "sources": [
+        {
+          "publisher": "National Hurricane Center",
+          "source": "NHC Eastern North Pacific",
+          "title": "Eastern North Pacific Tropical Weather Outlook",
+          "url": "https://www.nhc.noaa.gov/gtwo.php?basin=epac",
+          "published_at": "2026-10-02T11:25:17Z"
+        }
+      ]
+    },
+    {
+      "id": "ba17fa2ac5e53f42",
+      "cluster_id": "c_3a055345876ce88b",
+      "program": "MAINLAND_WEATHER_BRIEF",
+      "report": "mainland_weather_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_3a055345876ce88b.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_3a055345876ce88b.speak.txt",
+      "sources": [
+        {
+          "publisher": "National Hurricane Center",
+          "source": "NHC Eastern North Pacific",
+          "title": "Hurricane Rachel Public Advisory Number 21",
+          "url": "https://www.nhc.noaa.gov/text/refresh/MIATCPEP3+shtml/020833.shtml",
+          "published_at": "2026-10-02T08:33:15Z"
+        }
+      ]
+    },
+    {
+      "id": "600c520a619b2082",
+      "cluster_id": "c_c090cb342430321e",
+      "program": "MAINLAND_WEATHER_BRIEF",
+      "report": "mainland_weather_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_c090cb342430321e.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_c090cb342430321e.speak.txt",
+      "sources": [
+        {
+          "publisher": "National Hurricane Center",
+          "source": "NHC Eastern North Pacific",
+          "title": "Hurricane Rachel Forecast Advisory Number 21",
+          "url": "https://www.nhc.noaa.gov/text/refresh/MIATCMEP3+shtml/020832.shtml",
+          "published_at": "2026-10-02T08:32:49Z"
+        }
+      ]
+    },
+    {
+      "id": "2a53c3aad5b48d5f",
+      "cluster_id": "c_190b83b955b3c345",
+      "program": "MAINLAND_WEATHER_BRIEF",
+      "report": "mainland_weather_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_190b83b955b3c345.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_190b83b955b3c345.speak.txt",
+      "sources": [
+        {
+          "publisher": "National Hurricane Center",
+          "source": "NHC Eastern North Pacific",
+          "title": "Hurricane Rachel Wind Speed Probabilities Number 21",
+          "url": "https://www.nhc.noaa.gov/text/refresh/MIAPWSEP3+shtml/020833.shtml",
+          "published_at": "2026-10-02T08:33:43Z"
+        }
+      ]
+    },
+    {
+      "id": "bdcc6cf294b07b59",
+      "cluster_id": "c_8e438abfd028335c",
+      "program": "MAINLAND_WEATHER_BRIEF",
+      "report": "mainland_weather_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_8e438abfd028335c.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_8e438abfd028335c.speak.txt",
+      "sources": [
+        {
+          "publisher": "National Hurricane Center",
+          "source": "NHC Eastern North Pacific",
+          "title": "Hurricane Rachel Graphics",
+          "url": "https://www.nhc.noaa.gov/refresh/graphics_ep3+shtml/092751.shtml?cone",
+          "published_at": "2026-10-02T09:27:51Z"
+        }
+      ]
+    },
+    {
+      "id": "33eb1c9b934e5c2a",
+      "cluster_id": "c_b5881ed4efcb0cc9",
+      "program": "CYBER_BRIEF",
+      "report": "cyber_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/cyber_brief/c_b5881ed4efcb0cc9.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/cyber_brief/c_b5881ed4efcb0cc9.speak.txt",
+      "sources": [
+        {
+          "publisher": "NIST",
+          "source": "NIST Cybersecurity Insights Blog",
+          "title": "Securing Water and Wastewater Operational Technology Environments",
+          "url": "https://www.nist.gov/blogs/cybersecurity-insights/securing-water-and-wastewater-operational-technology-environments",
+          "published_at": "2026-10-01T12:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "8d691459a33d65bd",
+      "cluster_id": "c_f21050d43196cb2c",
+      "program": "MAINLAND_POLITICS_BRIEF",
+      "report": "mainland_politics_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_f21050d43196cb2c.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_f21050d43196cb2c.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR National",
+          "title": "Failed 'torturous' execution attempt on Christa Pike reignites death penalty debate",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5988832/christa-pike-reignites-death-penalty-debate",
+          "published_at": "2026-10-02T10:25:03Z"
+        },
+        {
+          "publisher": "NPR",
+          "source": "NPR News",
+          "title": "Failed 'torturous' execution attempt on Christa Pike reignites death penalty debate",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5988832/christa-pike-reignites-death-penalty-debate",
+          "published_at": "2026-10-02T10:25:03Z"
+        },
+        {
+          "publisher": "NPR",
+          "source": "NPR Politics",
+          "title": "Failed 'torturous' execution attempt on Christa Pike reignites death penalty debate",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5988832/christa-pike-reignites-death-penalty-debate",
+          "published_at": "2026-10-02T10:25:03Z"
+        }
+      ]
+    },
+    {
+      "id": "5f6651756c050bbc",
+      "cluster_id": "c_019a99e90e8a94b7",
+      "program": "MAINLAND_POLITICS_BRIEF",
+      "report": "mainland_politics_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_019a99e90e8a94b7.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_019a99e90e8a94b7.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR National",
+          "title": "Who uttered the phrase 'the ideological clowns are out' this week? The quiz knows",
+          "url": "https://www.npr.org/2026/10/02/g-s1-145638/trump-hegseth-panda-ai-beyonce-news-quiz",
+          "published_at": "2026-10-02T09:01:00Z"
+        },
+        {
+          "publisher": "NPR",
+          "source": "NPR News",
+          "title": "Who uttered the phrase 'the ideological clowns are out' this week? The quiz knows",
+          "url": "https://www.npr.org/2026/10/02/g-s1-145638/trump-hegseth-panda-ai-beyonce-news-quiz",
+          "published_at": "2026-10-02T09:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": "1cad08c4cca09e99",
+      "cluster_id": "c_2a9d95c8bbe95b32",
+      "program": "MAINLAND_POLITICS_BRIEF",
+      "report": "mainland_politics_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_2a9d95c8bbe95b32.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_2a9d95c8bbe95b32.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR National",
+          "title": "Morning news brief",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5980049/morning-news-brief",
+          "published_at": "2026-10-02T08:45:29Z"
+        }
+      ]
+    },
+    {
+      "id": "b3934a37952ef2ef",
+      "cluster_id": "c_ab98a11141fb6474",
+      "program": "MAINLAND_POLITICS_BRIEF",
+      "report": "mainland_politics_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_ab98a11141fb6474.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_ab98a11141fb6474.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR National",
+          "title": "Car crimes in San Francisco have dropped. The city says Flock cameras have helped",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5988043/car-crimes-in-san-francisco-have-dropped-the-city-says-flock-cameras-have-helped",
+          "published_at": "2026-10-02T08:45:06Z"
+        }
+      ]
+    },
+    {
+      "id": "4d3926fe6598b0fc",
+      "cluster_id": "c_35e635b0117144f8",
+      "program": "MAINLAND_POLITICS_BRIEF",
+      "report": "mainland_politics_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_35e635b0117144f8.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_35e635b0117144f8.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR National",
+          "title": "Some school districts switch to electric buses as diesel prices soar",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5980075/some-school-districts-switch-to-electric-buses-as-diesel-prices-soar",
+          "published_at": "2026-10-02T08:44:54Z"
+        }
+      ]
+    },
+    {
+      "id": "bc326d27a923c390",
+      "cluster_id": "c_708503efc7fc4591",
+      "program": "MAINLAND_POLITICS_BRIEF",
+      "report": "mainland_politics_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_708503efc7fc4591.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_708503efc7fc4591.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR National",
+          "title": "Christa Pike's lawyer on her botched execution and the state's investigation into it",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5987799/christa-pikes-lawyer-on-her-botched-execution-and-the-states-investigation-into-it",
+          "published_at": "2026-10-02T08:44:42Z"
+        }
+      ]
+    },
+    {
+      "id": "46b190407ce57836",
+      "cluster_id": "c_4de38377c189cef5",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_4de38377c189cef5.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_4de38377c189cef5.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR National",
+          "title": "New York governor names AG as special prosecutor in alleged rape case at Cornell",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5987740/new-york-governor-names-ag-as-special-prosecutor-in-alleged-rape-case-at-cornell",
+          "published_at": "2026-10-02T08:44:15Z"
+        }
+      ]
+    },
+    {
+      "id": "034891d2eaf9e002",
+      "cluster_id": "c_d70249c4a0669a80",
+      "program": "MAINLAND_POLITICS_BRIEF",
+      "report": "mainland_politics_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_d70249c4a0669a80.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_d70249c4a0669a80.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR National",
+          "title": "Failed execution attempts are not uncommon in the U.S.",
+          "url": "https://www.npr.org/2026/10/01/nx-s1-5987815/failed-execution-attempts-are-not-uncommon-in-the-u-s",
+          "published_at": "2026-10-01T21:33:34Z"
+        }
+      ]
+    },
+    {
+      "id": "e0ea965e4bb6701c",
+      "cluster_id": "c_31b12b316fa8bf03",
+      "program": "MAINLAND_POLITICS_BRIEF",
+      "report": "mainland_politics_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_31b12b316fa8bf03.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_31b12b316fa8bf03.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR National",
+          "title": "A witness to a failed Tennessee execution talks about what she saw and heard",
+          "url": "https://www.npr.org/2026/10/01/nx-s1-5987720/a-witness-to-a-failed-tennessee-execution-talks-about-what-she-saw-and-heard",
+          "published_at": "2026-10-01T21:17:03Z"
+        }
+      ]
+    },
+    {
+      "id": "96cb0e5aa48f3244",
+      "cluster_id": "c_0b35b5a0ab67fd65",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_0b35b5a0ab67fd65.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_0b35b5a0ab67fd65.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR News",
+          "title": "Cornell rape case gets special prosecutor. And, Renee Good's family sues the government",
+          "url": "https://www.npr.org/2026/10/02/g-s1-146075/up-first-newsletter-cornell-assault-case-christa-pike-jobs-report-renee-good",
+          "published_at": "2026-10-02T11:22:38Z"
+        },
+        {
+          "publisher": "NPR",
+          "source": "NPR World",
+          "title": "Cornell rape case gets special prosecutor. And, Renee Good's family sues the government",
+          "url": "https://www.npr.org/2026/10/02/g-s1-146075/up-first-newsletter-cornell-assault-case-christa-pike-jobs-report-renee-good",
+          "published_at": "2026-10-02T11:22:38Z"
+        }
+      ]
+    },
+    {
+      "id": "ab6de405154682de",
+      "cluster_id": "c_78d3fa9fc58982d4",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_78d3fa9fc58982d4.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_78d3fa9fc58982d4.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR News",
+          "title": "Why is diesel more expensive than regular gas?",
+          "url": "https://www.npr.org/sections/planet-money/2026/10/02/nx-s1-5988075/why-is-diesel-more-expensive-than-regular-gas",
+          "published_at": "2026-10-02T11:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "08d4988aa0fb4a06",
+      "cluster_id": "c_5a7db1b042d9e960",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_5a7db1b042d9e960.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_5a7db1b042d9e960.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR News",
+          "title": "San Francisco's car crime has plunged. How much credit does Flock deserve?",
+          "url": "https://www.npr.org/sections/planet-money/2026/10/02/g-s1-146060/san-franciscos-car-crime-has-plunged-how-much-credit-does-flock-deserve",
+          "published_at": "2026-10-02T10:30:00Z"
+        },
+        {
+          "publisher": "NPR",
+          "source": "NPR Politics",
+          "title": "San Francisco's car crime has plunged. How much credit does Flock deserve?",
+          "url": "https://www.npr.org/sections/planet-money/2026/10/02/g-s1-146060/san-franciscos-car-crime-has-plunged-how-much-credit-does-flock-deserve",
+          "published_at": "2026-10-02T10:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "4686e7ea65df24e0",
+      "cluster_id": "c_6555bc76fdd90990",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_6555bc76fdd90990.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_6555bc76fdd90990.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR News",
+          "title": "The U.S. Senate is up for grabs. Can this Ohio Democrat win back working class votes?",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5981096/ohio-senate-sherrod-brown-labor-workers",
+          "published_at": "2026-10-02T09:00:00Z"
+        },
+        {
+          "publisher": "NPR",
+          "source": "NPR Politics",
+          "title": "The U.S. Senate is up for grabs. Can this Ohio Democrat win back working class votes?",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5981096/ohio-senate-sherrod-brown-labor-workers",
+          "published_at": "2026-10-02T09:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "c8277ff1928b1d70",
+      "cluster_id": "c_b7c939206e199e12",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_b7c939206e199e12.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_b7c939206e199e12.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR News",
+          "title": "Pro-democracy activists increasingly vulnerable to authoritarian governments in Southeast Asia",
+          "url": "https://www.npr.org/2026/10/02/g-s1-146064/pro-democracy-activists-asia-authoritarian-governments",
+          "published_at": "2026-10-02T09:00:00Z"
+        },
+        {
+          "publisher": "NPR",
+          "source": "NPR World",
+          "title": "Pro-democracy activists increasingly vulnerable to authoritarian governments in Southeast Asia",
+          "url": "https://www.npr.org/2026/10/02/g-s1-146064/pro-democracy-activists-asia-authoritarian-governments",
+          "published_at": "2026-10-02T09:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "6038d0e9d1b5b357",
+      "cluster_id": "c_fff3f09f245a295a",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_fff3f09f245a295a.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_fff3f09f245a295a.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR News",
+          "title": "The family of Renee Good files lawsuits over her death during Minneapolis ICE raids",
+          "url": "https://www.npr.org/2026/10/01/nx-s1-5986224/renee-good-ice-lawsuit-minneapolis",
+          "published_at": "2026-10-01T20:15:07Z"
+        }
+      ]
+    },
+    {
+      "id": "91eb435cc0b9fab9",
+      "cluster_id": "c_3d48c6689fa68458",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_3d48c6689fa68458.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_3d48c6689fa68458.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR News",
+          "title": "'It's a nightmare.' Former refugee, professor on Trump's new Medicaid policy",
+          "url": "https://www.npr.org/2026/10/01/nx-s1-5987948/trump-medicaid-health-insurance-disability-refugee",
+          "published_at": "2026-10-01T19:49:45Z"
+        }
+      ]
+    },
+    {
+      "id": "bbfc2bfc555231ff",
+      "cluster_id": "c_59a86e80df8c34b0",
+      "program": "MAINLAND_POLITICS_BRIEF",
+      "report": "mainland_politics_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_59a86e80df8c34b0.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_59a86e80df8c34b0.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR Politics",
+          "title": "A judge permanently dismisses former Olympian's Reflecting Pool charges",
+          "url": "https://www.npr.org/2026/10/01/nx-s1-5987947/reflecting-pool-vandalism-hearn-charges-dismissed",
+          "published_at": "2026-10-01T18:22:59Z"
+        }
+      ]
+    },
+    {
+      "id": "66f6c8b05b2745ae",
+      "cluster_id": "c_42703a63183e2ee7",
+      "program": "MAINLAND_POLITICS_BRIEF",
+      "report": "mainland_politics_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_42703a63183e2ee7.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_42703a63183e2ee7.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR Politics",
+          "title": "AI data centers: How much are ratepayers on the hook for?",
+          "url": "https://www.npr.org/2026/10/01/nx-s1-5984949/data-centers-ai-ratepayers-congress",
+          "published_at": "2026-10-01T16:47:53Z"
+        }
+      ]
+    },
+    {
+      "id": "f9c89e77fd7382e9",
+      "cluster_id": "c_5836fb6f9c5efd7e",
+      "program": "MAINLAND_POLITICS_BRIEF",
+      "report": "mainland_politics_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_5836fb6f9c5efd7e.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_5836fb6f9c5efd7e.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR Politics",
+          "title": "California gubernatorial candidates face off in debate",
+          "url": "https://www.npr.org/2026/10/01/nx-s1-5986313/california-gubernatorial-candidates-face-off-in-debate",
+          "published_at": "2026-10-01T10:48:03Z"
+        }
+      ]
+    },
+    {
+      "id": "8c52570596ee867e",
+      "cluster_id": "c_13e0b8affb8a0fd4",
+      "program": "AVIATION_BRIEF",
+      "report": "aviation_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/aviation_brief/c_13e0b8affb8a0fd4.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/aviation_brief/c_13e0b8affb8a0fd4.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR Politics",
+          "title": "En esta ciudad de Pensilvania, los dos partidos pol\u00edticos buscan el voto latino",
+          "url": "https://www.npr.org/2026/10/01/g-s1-145488/en-esta-ciudad-de-pensilvania-los-dos-partidos-politicos-buscan-el-voto-latino",
+          "published_at": "2026-10-01T09:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "b41b75b5e39f6934",
+      "cluster_id": "c_94990b41c63b45e6",
+      "program": "MAINLAND_POLITICS_BRIEF",
+      "report": "mainland_politics_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_94990b41c63b45e6.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_94990b41c63b45e6.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR Politics",
+          "title": "COMIC: How the census gives your state power (and what Trump wants to change)",
+          "url": "https://www.npr.org/2026/10/01/nx-s1-5983684/trump-2030-census-overhaul-changes",
+          "published_at": "2026-10-01T09:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "487abe85b3c2aaa4",
+      "cluster_id": "c_4cf05654c5ece817",
+      "program": "MAINLAND_POLITICS_BRIEF",
+      "report": "mainland_politics_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_4cf05654c5ece817.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_4cf05654c5ece817.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR Politics",
+          "title": "Trade tensions mean fewer Canadians flocking to South Florida",
+          "url": "https://www.npr.org/2026/10/01/nx-s1-5971507/trade-tensions-fewer-canadians-south-florida",
+          "published_at": "2026-10-01T09:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "177400ef9a8192e4",
+      "cluster_id": "c_5144672609ce97d3",
+      "program": "MAINLAND_POLITICS_BRIEF",
+      "report": "mainland_politics_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_5144672609ce97d3.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_politics_brief/c_5144672609ce97d3.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR Politics",
+          "title": "Along U.S. Route 1, Maine voters worry about heating oil, gas and Canadian tariffs",
+          "url": "https://www.npr.org/2026/10/01/nx-s1-5969830/maine-senate-collins-jackson-aroostook-county",
+          "published_at": "2026-10-01T09:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "7f2334c260d5f882",
+      "cluster_id": "c_efb06ad3824f8ec7",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_efb06ad3824f8ec7.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_efb06ad3824f8ec7.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR World",
+          "title": "What a Pearly King taught me about Cockney rhyming slang and East London history",
+          "url": "https://www.npr.org/2026/10/01/nx-s1-5928148/pearly-king-peckham-george-major-london-cockney",
+          "published_at": "2026-10-01T14:13:38Z"
+        }
+      ]
+    },
+    {
+      "id": "1456d951ecc2bbac",
+      "cluster_id": "c_52fa408f3e064725",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_52fa408f3e064725.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_52fa408f3e064725.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR World",
+          "title": "Passengers recount chaos on Tel Aviv flight. And, FBI probes employee-data hack",
+          "url": "https://www.npr.org/2026/10/01/g-s1-145879/up-first-newsletter-tel-aviv-flight-passengers-fbi-employee-data-hack",
+          "published_at": "2026-10-01T11:37:10Z"
+        }
+      ]
+    },
+    {
+      "id": "f16df948da1c38f0",
+      "cluster_id": "c_fcf18eaf65432fbf",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_fcf18eaf65432fbf.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_fcf18eaf65432fbf.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR World",
+          "title": "Israel's prime minister says a pilot tried to crash a plane traveling to Tel Aviv",
+          "url": "https://www.npr.org/2026/10/01/nx-s1-5986255/israels-pm-says-a-pilot-tried-to-crash-a-plane-traveling-to-tel-aviv",
+          "published_at": "2026-10-01T10:48:47Z"
+        }
+      ]
+    },
+    {
+      "id": "e9b0b4f2929b6124",
+      "cluster_id": "c_1589812ea9fe2395",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_1589812ea9fe2395.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_1589812ea9fe2395.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR World",
+          "title": "Picanha, prices and politics: What Brazil's favorite steak says about the election",
+          "url": "https://www.npr.org/2026/10/01/nx-s1-5986079/picanha-election-brazil-economy",
+          "published_at": "2026-10-01T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "09945d5d42f14e9f",
+      "cluster_id": "c_9accd98548f265fc",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_9accd98548f265fc.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_9accd98548f265fc.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR World",
+          "title": "What life under U.S. sanctions looks like for one ICC judge",
+          "url": "https://www.npr.org/2026/10/01/nx-s1-5977815/trump-icc-sanctions-kimberly-prost",
+          "published_at": "2026-10-01T08:42:13Z"
+        }
+      ]
     }
   ]
 }

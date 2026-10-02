@@ -1,16 +1,16 @@
 RSS FEED HEALTH
 
-NASA News Releases           ○ UNKNOWN
-NASA Recently Published Cont ○ UNKNOWN
+NASA News Releases           ● HEALTHY
+NASA Recently Published Cont ● HEALTHY
 NASA Technology              ○ UNKNOWN
 NASA Aeronautics             ○ UNKNOWN
-NASA Space Station           ○ UNKNOWN
-NASA Artemis                 ○ UNKNOWN
+NASA Space Station           ● HEALTHY
+NASA Artemis                 ● HEALTHY
 NASA Goddard                 ○ UNKNOWN
 NASA Kennedy                 ○ UNKNOWN
 NASA Marshall                ○ UNKNOWN
-NASA JPL Center Feed         ○ UNKNOWN
-NASA JPL News                ○ UNKNOWN
+NASA JPL Center Feed         ● HEALTHY
+NASA JPL News                ○ DEGRADED
 NASA JPL Podcasts            ○ DISABLED
 NASA CNEOS                   ○ UNAVAILABLE
 ESA Top News                 ● HEALTHY
@@ -22,9 +22,9 @@ ESA Exploration              ○ UNAVAILABLE
 NSF News                     ○ UNKNOWN
 NSF Events                   ○ UNKNOWN
 NSF Statistics               ○ UNKNOWN
-NIST News                    ○ UNKNOWN
-NIST Cybersecurity           ○ UNKNOWN
-NIST Cybersecurity Insights  ○ UNKNOWN
+NIST News                    ● HEALTHY
+NIST Cybersecurity           ● HEALTHY
+NIST Cybersecurity Insights  ● HEALTHY
 NIST Information Technology  ○ UNKNOWN
 NIST Physics                 ○ UNKNOWN
 NIST Materials               ○ UNKNOWN
@@ -85,7 +85,7 @@ Federal Reserve Supervision  ○ UNKNOWN
 Federal Reserve Supervision  ○ UNKNOWN
 Federal Reserve Working Pape ○ UNKNOWN
 Federal Reserve Press Releas ○ UNAVAILABLE
-NPR News                     ○ UNKNOWN
+NPR News                     ● HEALTHY
 The Guardian International   ● HEALTHY
 Al Jazeera                   ● HEALTHY
 ScienceDaily                 ○ UNKNOWN
@@ -93,7 +93,7 @@ Bureau of Labor Statistics   ○ DISABLED
 Bureau of Economic Analysis  ● HEALTHY
 SEC Press Releases           ○ UNKNOWN
 CFTC                         ○ UNKNOWN
-MarketWatch Top Stories      ○ UNKNOWN
+MarketWatch Top Stories      ● HEALTHY
 BBC Business                 ● HEALTHY
 CNBC Markets                 ○ DISABLED
 Department of War News       ○ UNAVAILABLE
@@ -103,17 +103,17 @@ Defense News                 ● HEALTHY
 UK Ministry of Defence       ○ UNKNOWN
 SpaceX                       ○ UNAVAILABLE
 Space.com                    ○ DISABLED
-NASASpaceflight              ○ UNKNOWN
+NASASpaceflight              ○ DEGRADED
 SpaceNews                    ○ UNKNOWN
 Spaceflight Now              ○ UNKNOWN
-Hawaii Governor              ○ UNKNOWN
+Hawaii Governor              ● HEALTHY
 Hawaii DBEDT                 ○ UNKNOWN
 Hawaii Department of Health  ○ UNKNOWN
 Honolulu Civil Beat          ● HEALTHY
 Honolulu Star-Advertiser     ○ UNKNOWN
 Hawaii News Now              ○ UNKNOWN
-Microsoft News               ○ UNKNOWN
-Microsoft Blog               ○ UNKNOWN
+Microsoft News               ● HEALTHY
+Microsoft Blog               ● HEALTHY
 BBC Technology               ○ UNKNOWN
 BBC World                    ● HEALTHY
 BBC Asia                     ● HEALTHY
@@ -123,26 +123,26 @@ BBC Europe                   ● HEALTHY
 BBC Latin America            ● HEALTHY
 BBC Middle East              ● HEALTHY
 BBC US and Canada            ○ UNKNOWN
-NPR World                    ○ UNKNOWN
+NPR World                    ● HEALTHY
 ABC News Australia Top Stori ● HEALTHY
 The Japan Times              ○ UNKNOWN
 Deutsche Welle English       ○ UNKNOWN
 France 24 English            ○ UNKNOWN
 Africanews                   ○ UNKNOWN
 UN News                      ○ UNKNOWN
-NOAA News                    ○ UNKNOWN
-NHC Atlantic                 ○ UNKNOWN
-NHC Eastern North Pacific    ○ UNKNOWN
+NOAA News                    ● HEALTHY
+NHC Atlantic                 ● HEALTHY
+NHC Eastern North Pacific    ● HEALTHY
 Storm Prediction Center      ○ UNKNOWN
 White House News             ○ UNKNOWN
 Federal Register             ○ UNKNOWN
 Congress Most-Viewed Bills   ○ UNKNOWN
-NPR National                 ○ UNKNOWN
-NPR Politics                 ○ UNKNOWN
-MIT News                     ○ UNKNOWN
-MIT Research                 ○ UNKNOWN
+NPR National                 ● HEALTHY
+NPR Politics                 ● HEALTHY
+MIT News                     ● HEALTHY
+MIT Research                 ● HEALTHY
 Harvard Gazette              ● HEALTHY
 UC Berkeley News             ● HEALTHY
-Nature                       ○ UNKNOWN
+Nature                       ● HEALTHY
 Science Magazine News        ○ UNKNOWN
 Phys.org                     ○ UNKNOWN

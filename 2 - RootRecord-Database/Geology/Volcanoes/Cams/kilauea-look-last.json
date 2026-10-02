@@ -1,6 +1,6 @@
 {
-  "slot": "2026-10-02T03:15",
-  "at": "2026-10-02T03:19:12-10:00",
+  "slot": "2026-10-02T03:30",
+  "at": "2026-10-02T03:43:09-10:00",
   "image": "v3cam-last.jpg",
   "cam": "v3cam",
   "cam_title": "V3 Halemaʻumaʻu lava lake",
@@ -9,6 +9,7 @@
   "fountaining": false,
   "visible": "Lava glowing against the dark night sky",
   "fetched_live": true,
+  "source_kind": "live",
   "reference": "lava-fountain-ref.jpg",
   "error": "",
   "sentence": "Kilauea observation image was checked. Measured finding: glow at the vent on the V3 Halemaʻumaʻu lava lake still. Visible: Lava glowing against the dark night sky.",
