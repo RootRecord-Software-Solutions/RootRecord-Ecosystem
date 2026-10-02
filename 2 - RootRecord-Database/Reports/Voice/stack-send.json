@@ -1,15 +1,14 @@
 {
-  "cycle": "2026-10-02T11:52",
+  "cycle": "2026-10-02T12:22",
   "ok": [
     "system_perf",
     "nws_weather",
     "remaining_tasks",
     "earthquake_report",
-    "kilauea_report",
     "solar_desk",
     "security_desk",
     "bandwidth_desk",
     "current_report"
   ],
-  "announced": true
+  "announced": false
 }

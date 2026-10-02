@@ -1,20 +1,18 @@
 {
-  "hour": "2026-10-02T11",
-  "at": "2026-10-02T11:25:44-10:00",
-  "image": "ch1-20261002T145413Z.jpg",
+  "hour": "2026-10-02T12",
+  "at": "2026-10-02T12:27:38-10:00",
+  "image": "ch1-20261002T222457Z.jpg",
   "model": "gemma4:e4b",
-  "weather": "dark",
+  "weather": "overcast",
   "position": "flat",
   "phase": "day",
   "sunrise": "06:12",
   "sunset": "18:08",
   "error": "",
-  "blank": false,
-  "infrared": true,
-  "solar_w": 76,
-  "late": false,
+  "solar_w": 215,
+  "late": true,
   "low_light": false,
   "warning": "",
   "note": "",
-  "sentence": "Security camera observations indicate dark conditions, with solar panels in flat position."
+  "sentence": "Security camera observations indicate overcast conditions, with solar panels in flat position."
 }

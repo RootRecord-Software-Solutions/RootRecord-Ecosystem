@@ -7118,6 +7118,24 @@
           "published_at": "2026-10-02T21:44:07Z"
         }
       ]
+    },
+    {
+      "id": "7fa211252666c278",
+      "cluster_id": "c_3d8c8b4fd774d410",
+      "program": "DEVELOPER_BRIEF",
+      "report": "developer_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/developer_brief/c_3d8c8b4fd774d410.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/developer_brief/c_3d8c8b4fd774d410.speak.txt",
+      "sources": [
+        {
+          "publisher": "GitHub",
+          "source": "GitHub Changelog",
+          "title": "Copilot code review: API support and new default effort level",
+          "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
+          "published_at": "2026-10-02T19:13:50Z"
+        }
+      ]
     }
   ]
 }

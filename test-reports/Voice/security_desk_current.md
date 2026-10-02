@@ -1,15 +1,15 @@
-# Security desk — 2026-10-02T12:00:38-10:00
+# Security desk — 2026-10-02T12:29:18-10:00
 
 - Firewall starts on boot: False
 - SSH active: True
 - TCP listeners: 10
-- Established connections: 13
+- Established connections: 12
 - Failed sign-ins, last hour: 0
 - Failed sign-ins, last 24 hours: 2
 
 ## Spoken
 
-Security desk. Report generated at noon. The firewall is not set to start on boot. OpenSSH service is active. 10 TCP listeners. 13 established connections. Failed sign-ins: 0 in the last hour, 2 in the last twenty four hours.
+Security desk. Report generated at twelve twenty nine p.m. The firewall is not set to start on boot. OpenSSH service is active. 10 TCP listeners. 12 established connections. Failed sign-ins: 0 in the last hour, 2 in the last twenty four hours.
 
 _Source: Pacific System/scripts/host_desks.py (ufw.conf, systemctl is-active, /proc/net/tcp, auth.log counts only)._
 
