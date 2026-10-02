@@ -1,6 +1,6 @@
 # US-Mainland-One
 
-Current as of 2026-10-02 ~01:58 HST. This page is the live host. The operator guide is [2026-10-01 radio station](../01-Operations/2026-10-01-radio-station.md). The 2026-09-29 import, globe, and fallback inventory is [below](#2026-09-29-import-and-pause). That section is that day's continuity node. It is not the live host.
+Current as of 2026-10-02 ~03:02 HST. This page is the live host. The operator guide is [2026-10-01 radio station](../01-Operations/2026-10-01-radio-station.md). The 2026-09-29 import, globe, and fallback inventory is [below](#2026-09-29-import-and-pause). That section is that day's continuity node. It is not the live host.
 
 | Field | Value |
 | --- | --- |
@@ -16,6 +16,10 @@ Current as of 2026-10-02 ~01:58 HST. This page is the live host. The operator gu
 | **Page** | `https://www.rootrecord.cloud/radio` |
 | **SSH** | `ssh ml1` and `ssh rr-aws` use `ml1.rootrecord.cloud`. Direct fallback is `rr-aws-ip` |
 | **Tunnel** | Mainland-One `939b16f7-7d13-4776-bd4d-80fe8021fc72`. Routes: `ml1.rootrecord.cloud` SSH, `radio.rootrecord.cloud` to `127.0.0.1:8092` |
+
+## AWS Fallback tree missing (2026-10-02 ~03:00–03:02 HST)
+
+Root Monitor’s **AWS Fallback** page still aims at ML1 via alias `rr-aws-ip` and path `/home/ubuntu/rootrecord/fallback`. That tree is **missing** after the radio-only / wipe layout: SSH reaches the host, but the fallback flag/runtime directory is gone, so Status cannot read flag files and panel toggles show **unavailable**. Not an ML2 collector issue — public API is ML2 (`api.rootrecord.cloud` → `:8091`; see [US-Mainland-Two](./US-Mainland-Two.md) First-test scope). Live Pacific flip already `RR_LOCAL_DATA_POLL=0`; banks keep landing. Options noted (**not decided**): Master retargets that page, or leave classic AWS Fallback dark and drive API/data-poll from the Automations toggle instead. Operator distinction: [Control-Panel-GTK](../11-Runtime-Jobs-and-Control/Control-Panel-GTK.md), [Desk-Automations](../11-Runtime-Jobs-and-Control/Desk-Automations-and-Service-Windows.md), Operators Handbook.
 
 ## Live host check (2026-10-02 ~01:56–01:58 HST, read-only)
 
@@ -43,7 +47,7 @@ At Hawaii `HH:59:59` and `HH:29:59` the bed ducks to 10 percent, the chime plays
 
 ## What stays elsewhere
 
-`www.rootrecord.cloud` stays on Vercel. `ssh.rootrecord.cloud` is retired. `api.rootrecord.cloud` is aimed at Mainland Two and the API process is not there. `rootserver.rootrecord.cloud` stays the Pacific poller. Earthquake and hurricane voice reports stay Pacific poller jobs.
+`www.rootrecord.cloud` stays on Vercel. `ssh.rootrecord.cloud` is retired. `api.rootrecord.cloud` is aimed at Mainland Two and the API process **is live** there on `:8091` (see [US-Mainland-Two](./US-Mainland-Two.md)). `rootserver.rootrecord.cloud` stays the Pacific poller. Earthquake and hurricane voice reports stay Pacific poller jobs.
 
 Do not restart cloudflared over `ssh ml1`. Use `rr-aws-ip` for a change that restarts the tunnel.
 
