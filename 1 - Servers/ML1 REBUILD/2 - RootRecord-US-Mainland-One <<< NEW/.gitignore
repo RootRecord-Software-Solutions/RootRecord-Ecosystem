@@ -3,13 +3,19 @@
 mirror/.cloudflared/
 **/*cloudflared*
 
-# Local station runtime
+# Local station runtime. A pull must not restore these.
 rootrecord-radio/active
 rootrecord-radio/releases/
 rootrecord-radio/state/
 rootrecord-radio/deploy-pending
 rootrecord-radio/plays.log
 rootrecord-radio/watch.json
+
+# Report audio stays off git. The music bed and catalog stay tracked.
+rootrecord-radio/audio/reports/*
+!rootrecord-radio/audio/reports/.gitkeep
+!rootrecord-radio/audio/music/*.opus
+!rootrecord-radio/audio/library.json
 rootrecord-radio/radio-run.sh
 rootrecord-radio/radio-station-watch.sh
 rootrecord-radio/radio-plays-purge.sh

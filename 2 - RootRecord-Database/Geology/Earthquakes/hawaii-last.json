@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-01T21:48:06-10:00",
-  "source": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&starttime=2026-10-01T07%3A48%3A06&minmagnitude=1.0&minlatitude=18.5&maxlatitude=22.5&minlongitude=-160.5&maxlongitude=-154.5",
+  "at": "2026-10-01T21:54:41-10:00",
+  "source": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&starttime=2026-10-01T07%3A54%3A41&minmagnitude=1.0&minlatitude=18.5&maxlatitude=22.5&minlongitude=-160.5&maxlongitude=-154.5",
   "window_h": 24,
   "min_mag": 1.0,
   "bbox": {
@@ -9,19 +9,19 @@
     "minlongitude": -160.5,
     "maxlongitude": -154.5
   },
-  "count": 53,
-  "count_m2": 17,
-  "count_m25": 2,
+  "count": 52,
+  "count_m2": 16,
+  "count_m25": 1,
   "largest": {
-    "id": "hv75046747",
-    "mag": 3.41,
-    "place": "5 km WSW of Volcano, Hawaii",
-    "time_hst": "2026-09-30T21:52:05.140000-10:00"
+    "id": "hv75046927",
+    "mag": 2.55,
+    "place": "4 km SW of Volcano, Hawaii",
+    "time_hst": "2026-09-30T23:55:50.020000-10:00"
   },
-  "kilauea_150km_count": 53,
+  "kilauea_150km_count": 52,
   "new_this_run": 0,
   "new_local_m2_ids": [],
-  "usgs_generated_utc": "2026-10-02T07:48:06+00:00",
+  "usgs_generated_utc": "2026-10-02T07:54:42+00:00",
   "events": [
     {
       "id": "hv75047957",
@@ -1165,28 +1165,6 @@
         "country_code": "US",
         "admin1_code": "HI",
         "km": 7.3
-      }
-    },
-    {
-      "id": "hv75046747",
-      "mag": 3.41,
-      "mag_type": "ml",
-      "place": "5 km WSW of Volcano, Hawaii",
-      "time_utc": "2026-10-01T07:52:05.140000+00:00",
-      "time_hst": "2026-09-30T21:52:05.140000-10:00",
-      "lon": -155.277,
-      "lat": 19.4156666666667,
-      "depth_km": 0.32,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75046747",
-      "nearest": {
-        "location_id": "us-hawaii-volcano-village",
-        "name": "Volcano Village",
-        "country_code": "US",
-        "admin1_code": "HI",
-        "km": 6.7
       }
     }
   ]
