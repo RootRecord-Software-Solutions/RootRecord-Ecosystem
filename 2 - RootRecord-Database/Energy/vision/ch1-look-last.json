@@ -1,7 +1,7 @@
 {
-  "hour": "2026-10-01T22",
-  "at": "2026-10-01T22:30:48-10:00",
-  "image": "ch1-20261002T082538Z.jpg",
+  "hour": "2026-10-01T23",
+  "at": "2026-10-01T23:32:22-10:00",
+  "image": "ch1-20261002T093200Z.jpg",
   "model": "gemma4:e4b",
   "weather": "dark",
   "position": "flat",
@@ -11,9 +11,9 @@
   "error": "",
   "blank": false,
   "infrared": true,
-  "solar_w": null,
+  "solar_w": 0,
   "late": false,
-  "low_light": false,
+  "low_light": true,
   "warning": "",
   "note": "",
   "sentence": "Security camera observations indicate dark conditions, with solar panels in flat position."
