@@ -205,6 +205,74 @@
       "source": "local status cue",
       "proposed": false
     },
+    "Ava/nws_weather_staged_half": {
+      "slug": "nws_weather_staged_half",
+      "persona": "Ava",
+      "kinds": [
+        "nws_weather",
+        "status"
+      ],
+      "text": "NWS report has been staged for the half hour.",
+      "spoken": "National Weather Service report has been staged for the half hour.",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "sha256": "53ab2f60a05b72649242082a8283b4f3e8c5b5ad077a305d1d098a351d20e4d7",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 3.466,
+      "peak_dbfs": -4.89,
+      "rms_dbfs": -20.12,
+      "lead_silence_ms": 22,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 296,
+        "tail": 463
+      },
+      "render_s": 4.9,
+      "rendered": "2026-10-02T00:21:34-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Ava/nws_weather_staged_hour": {
+      "slug": "nws_weather_staged_hour",
+      "persona": "Ava",
+      "kinds": [
+        "nws_weather",
+        "status"
+      ],
+      "text": "NWS report has been staged for the hour.",
+      "spoken": "National Weather Service report has been staged for the hour.",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "sha256": "050b7872e9e4601d1b3a11782b588457c3512f4525c2bea6edcb22e6ec2886a1",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 3.247,
+      "peak_dbfs": -1.5,
+      "rms_dbfs": -20.25,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 296,
+        "tail": 457
+      },
+      "render_s": 4.64,
+      "rendered": "2026-10-02T00:21:28-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
     "Ava/nws_weather_starting": {
       "slug": "nws_weather_starting",
       "persona": "Ava",
@@ -333,6 +401,74 @@
       },
       "render_s": 4.88,
       "rendered": "2026-10-02T00:07:03-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Bruce/remaining_tasks_staged_half": {
+      "slug": "remaining_tasks_staged_half",
+      "persona": "Bruce",
+      "kinds": [
+        "remaining_tasks",
+        "status"
+      ],
+      "text": "Remaining tasks report has been staged for the half hour.",
+      "spoken": "Remaining tasks report has been staged for the half hour.",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "sha256": "6ea36cb5d9ee79ba1a4fe46e7e0a94b5920c433f0cb8b96e704b14245e4478dc",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 3.467,
+      "peak_dbfs": -3.38,
+      "rms_dbfs": -20.2,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 235,
+        "tail": 623
+      },
+      "render_s": 4.9,
+      "rendered": "2026-10-02T00:21:57-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Bruce/remaining_tasks_staged_hour": {
+      "slug": "remaining_tasks_staged_hour",
+      "persona": "Bruce",
+      "kinds": [
+        "remaining_tasks",
+        "status"
+      ],
+      "text": "Remaining tasks report has been staged for the hour.",
+      "spoken": "Remaining tasks report has been staged for the hour.",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "sha256": "db0d2c08fac73485a323d64a1f514928bf79b3496f1cd6034b1ac02dd0b64e1e",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 3.167,
+      "peak_dbfs": -3.64,
+      "rms_dbfs": -20.13,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 235,
+        "tail": 623
+      },
+      "render_s": 4.8,
+      "rendered": "2026-10-02T00:21:51-10:00",
       "engine": {
         "kokoro": "0.9.4",
         "misaki": "0.9.4",
@@ -477,6 +613,74 @@
       "source": "local status cue",
       "proposed": false
     },
+    "Bruce/solar_desk_staged_half": {
+      "slug": "solar_desk_staged_half",
+      "persona": "Bruce",
+      "kinds": [
+        "solar_desk",
+        "status"
+      ],
+      "text": "Solar report has been staged for the half hour.",
+      "spoken": "Solar report has been staged for the half hour.",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "sha256": "477d7b803e27799e00ebc5c6951aee426d231bd93dedb0744df2fe8591e2cf99",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.932,
+      "peak_dbfs": -5.44,
+      "rms_dbfs": -20.23,
+      "lead_silence_ms": 22,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 226,
+        "tail": 617
+      },
+      "render_s": 4.73,
+      "rendered": "2026-10-02T00:22:31-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Bruce/solar_desk_staged_hour": {
+      "slug": "solar_desk_staged_hour",
+      "persona": "Bruce",
+      "kinds": [
+        "solar_desk",
+        "status"
+      ],
+      "text": "Solar report has been staged for the hour.",
+      "spoken": "Solar report has been staged for the hour.",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "sha256": "caabfdff1763c8163a8ed5a505a8a38548dda08c96b3cc2c646b8369ae18cacf",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.616,
+      "peak_dbfs": -4.35,
+      "rms_dbfs": -20.18,
+      "lead_silence_ms": 23,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 225,
+        "tail": 609
+      },
+      "render_s": 4.88,
+      "rendered": "2026-10-02T00:22:26-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
     "Bruce/solar_desk_starting": {
       "slug": "solar_desk_starting",
       "persona": "Bruce",
@@ -605,6 +809,74 @@
       },
       "render_s": 4.74,
       "rendered": "2026-10-02T00:05:50-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Bruce/system_perf_staged_half": {
+      "slug": "system_perf_staged_half",
+      "persona": "Bruce",
+      "kinds": [
+        "system_perf",
+        "status"
+      ],
+      "text": "System report has been staged for the half hour.",
+      "spoken": "System report has been staged for the half hour.",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "sha256": "8a07685d1b98be5a2e903408b7b0ca7f173f4c3673c973e19ec85833ab66a9bc",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.939,
+      "peak_dbfs": -5.16,
+      "rms_dbfs": -20.2,
+      "lead_silence_ms": 23,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 224,
+        "tail": 612
+      },
+      "render_s": 4.64,
+      "rendered": "2026-10-02T00:21:22-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Bruce/system_perf_staged_hour": {
+      "slug": "system_perf_staged_hour",
+      "persona": "Bruce",
+      "kinds": [
+        "system_perf",
+        "status"
+      ],
+      "text": "System report has been staged for the hour.",
+      "spoken": "System report has been staged for the hour.",
+      "voice": "am_echo",
+      "speed": 1.0,
+      "sha256": "179d92c9cafd61bcb794ef8b48be98b75deafa6632064944c6dd44d9ca871417",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.667,
+      "peak_dbfs": -4.53,
+      "rms_dbfs": -20.26,
+      "lead_silence_ms": 23,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 224,
+        "tail": 609
+      },
+      "render_s": 4.64,
+      "rendered": "2026-10-02T00:21:17-10:00",
       "engine": {
         "kokoro": "0.9.4",
         "misaki": "0.9.4",
@@ -885,6 +1157,74 @@
       "source": "local status cue",
       "proposed": false
     },
+    "Carly/earthquake_report_staged_half": {
+      "slug": "earthquake_report_staged_half",
+      "persona": "Carly",
+      "kinds": [
+        "earthquake_report",
+        "status"
+      ],
+      "text": "Earthquake report has been staged for the half hour.",
+      "spoken": "Earthquake report has been staged for the half hour.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "430dba2d05c541b70cf845a4d6d2139a41864df96c58be883fb81ceef0956c46",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.823,
+      "peak_dbfs": -4.19,
+      "rms_dbfs": -20.39,
+      "lead_silence_ms": 22,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 240,
+        "tail": 712
+      },
+      "render_s": 5.0,
+      "rendered": "2026-10-02T00:22:09-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/earthquake_report_staged_hour": {
+      "slug": "earthquake_report_staged_hour",
+      "persona": "Carly",
+      "kinds": [
+        "earthquake_report",
+        "status"
+      ],
+      "text": "Earthquake report has been staged for the hour.",
+      "spoken": "Earthquake report has been staged for the hour.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "9921509172db7c7fa547d0969160af16358dbc2224d21ad2894ad40740417224",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.579,
+      "peak_dbfs": -3.79,
+      "rms_dbfs": -20.3,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 238,
+        "tail": 708
+      },
+      "render_s": 4.79,
+      "rendered": "2026-10-02T00:22:03-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
     "Carly/earthquake_report_starting": {
       "slug": "earthquake_report_starting",
       "persona": "Carly",
@@ -1013,6 +1353,74 @@
       },
       "render_s": 4.66,
       "rendered": "2026-10-02T00:06:38-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/energy_report_staged_half": {
+      "slug": "energy_report_staged_half",
+      "persona": "Carly",
+      "kinds": [
+        "energy_report",
+        "status"
+      ],
+      "text": "Energy report has been staged for the half hour.",
+      "spoken": "Energy report has been staged for the half hour.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "6dbe3d9547f43ed4f7c515300a4218778c7f738d876b310b5d4b05f1a4a2a84e",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.794,
+      "peak_dbfs": -3.73,
+      "rms_dbfs": -20.18,
+      "lead_silence_ms": 24,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 232,
+        "tail": 723
+      },
+      "render_s": 4.76,
+      "rendered": "2026-10-02T00:21:45-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/energy_report_staged_hour": {
+      "slug": "energy_report_staged_hour",
+      "persona": "Carly",
+      "kinds": [
+        "energy_report",
+        "status"
+      ],
+      "text": "Energy report has been staged for the hour.",
+      "spoken": "Energy report has been staged for the hour.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "0eea9e565de7161c0cbbd40a9a30e28723938ffe20516e0ca74c97539b3daafd",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.527,
+      "peak_dbfs": -4.23,
+      "rms_dbfs": -20.15,
+      "lead_silence_ms": 21,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 231,
+        "tail": 717
+      },
+      "render_s": 4.53,
+      "rendered": "2026-10-02T00:21:39-10:00",
       "engine": {
         "kokoro": "0.9.4",
         "misaki": "0.9.4",
@@ -1157,6 +1565,74 @@
       "source": "local status cue",
       "proposed": false
     },
+    "Carly/kilauea_report_staged_half": {
+      "slug": "kilauea_report_staged_half",
+      "persona": "Carly",
+      "kinds": [
+        "kilauea_report",
+        "status"
+      ],
+      "text": "Kilauea report has been staged for the half hour.",
+      "spoken": "keelah-wayuh report has been staged for the half hour.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "156b3b31fdb027db0dca8b65eb708cfe4477597c1da75458ee20c5745c671158",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.919,
+      "peak_dbfs": -4.75,
+      "rms_dbfs": -20.27,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 232,
+        "tail": 724
+      },
+      "render_s": 4.68,
+      "rendered": "2026-10-02T00:22:20-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
+    "Carly/kilauea_report_staged_hour": {
+      "slug": "kilauea_report_staged_hour",
+      "persona": "Carly",
+      "kinds": [
+        "kilauea_report",
+        "status"
+      ],
+      "text": "Kilauea report has been staged for the hour.",
+      "spoken": "keelah-wayuh report has been staged for the hour.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "9cb80733eea5695cba125130940decbced1afe0a068a7183d1605275bf217ac2",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.704,
+      "peak_dbfs": -4.25,
+      "rms_dbfs": -20.18,
+      "lead_silence_ms": 25,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 232,
+        "tail": 714
+      },
+      "render_s": 4.55,
+      "rendered": "2026-10-02T00:22:14-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
     "Carly/kilauea_report_starting": {
       "slug": "kilauea_report_starting",
       "persona": "Carly",
@@ -1293,6 +1769,40 @@
       "source": "local status cue",
       "proposed": false
     },
+    "Carly/security_desk_staged_hour": {
+      "slug": "security_desk_staged_hour",
+      "persona": "Carly",
+      "kinds": [
+        "security_desk",
+        "status"
+      ],
+      "text": "Security report has been staged for the hour.",
+      "spoken": "Security report has been staged for the hour.",
+      "voice": "af_nova",
+      "speed": 1.0,
+      "sha256": "5d2639f59d9a9f1ec8743b243c6b1270ec6ad67aed63e6913367811277a71371",
+      "sample_rate": 24000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration_s": 2.627,
+      "peak_dbfs": -4.25,
+      "rms_dbfs": -20.37,
+      "lead_silence_ms": 24,
+      "qc": "PASS",
+      "trimmed_ms": {
+        "lead": 215,
+        "tail": 708
+      },
+      "render_s": 4.73,
+      "rendered": "2026-10-02T00:22:37-10:00",
+      "engine": {
+        "kokoro": "0.9.4",
+        "misaki": "0.9.4",
+        "torch": "2.14.0+cpu"
+      },
+      "source": "local status cue",
+      "proposed": false
+    },
     "Carly/security_desk_starting": {
       "slug": "security_desk_starting",
       "persona": "Carly",
@@ -1362,5 +1872,5 @@
       "proposed": false
     }
   },
-  "updated": "2026-10-02T00:09:39-10:00"
+  "updated": "2026-10-02T00:22:37-10:00"
 }

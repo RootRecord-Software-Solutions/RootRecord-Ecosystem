@@ -9,7 +9,7 @@
             <link>https://www.bbc.co.uk/news/business</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 02 Oct 2026 09:11:56 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Oct 2026 10:22:21 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/business/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
@@ -408,14 +408,6 @@ Martin explains who premium bonds are best for, and who they aren’t so good fo
             <guid isPermaLink="false">https://www.bbc.co.uk/sounds/play/m00325cs#5</guid>
             <pubDate>Thu, 01 Oct 2026 11:30:00 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/images/ic/240x135/p0m2ffyg.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Greggs to cut 740 jobs and close factories]]></title>
-            <description><![CDATA[High street bakery brand Greggs has announced plans to shut four of its factories and cut 740 jobs.]]></description>
-            <link>https://www.bbc.co.uk/news/videos/cj4gkn1xg6ddo?at_medium=RSS&amp;at_campaign=rss</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/videos/cj4gkn1xg6ddo#5</guid>
-            <pubDate>Wed, 30 Sep 2026 12:54:22 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7da6/live/c35a1600-bccb-11f1-bc2e-018d645d8d21.jpg"/>
         </item>
     </channel>
 </rss>

@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-02T00:14:58-10:00",
-  "source": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&starttime=2026-10-01T10%3A14%3A58&minmagnitude=1.0&minlatitude=18.5&maxlatitude=22.5&minlongitude=-160.5&maxlongitude=-154.5",
+  "at": "2026-10-02T00:22:13-10:00",
+  "source": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&starttime=2026-10-01T10%3A22%3A13&minmagnitude=1.0&minlatitude=18.5&maxlatitude=22.5&minlongitude=-160.5&maxlongitude=-154.5",
   "window_h": 24,
   "min_mag": 1.0,
   "bbox": {
@@ -9,8 +9,8 @@
     "minlongitude": -160.5,
     "maxlongitude": -154.5
   },
-  "count": 36,
-  "count_m2": 9,
+  "count": 35,
+  "count_m2": 8,
   "count_m25": 0,
   "largest": {
     "id": "hv75047187",
@@ -18,13 +18,10 @@
     "place": "3 km SW of Pāhala, Hawaii",
     "time_hst": "2026-10-01T03:36:26.180000-10:00"
   },
-  "kilauea_150km_count": 36,
-  "new_this_run": 2,
-  "new_local_m2_ids": [
-    "hv75048112",
-    "hv75048107"
-  ],
-  "usgs_generated_utc": "2026-10-02T10:14:59+00:00",
+  "kilauea_150km_count": 35,
+  "new_this_run": 0,
+  "new_local_m2_ids": [],
+  "usgs_generated_utc": "2026-10-02T10:22:14+00:00",
   "events": [
     {
       "id": "hv75048112",
@@ -794,28 +791,6 @@
         "country_code": "US",
         "admin1_code": "HI",
         "km": 7.6
-      }
-    },
-    {
-      "id": "hv75046972",
-      "mag": 2.29,
-      "mag_type": "ml",
-      "place": "5 km WSW of Volcano, Hawaii",
-      "time_utc": "2026-10-01T10:15:24.390000+00:00",
-      "time_hst": "2026-10-01T00:15:24.390000-10:00",
-      "lon": -155.280670166016,
-      "lat": 19.4191665649414,
-      "depth_km": -0.319999992847443,
-      "status": "automatic",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75046972",
-      "nearest": {
-        "location_id": "us-hawaii-volcano-village",
-        "name": "Volcano Village",
-        "country_code": "US",
-        "admin1_code": "HI",
-        "km": 7.1
       }
     }
   ]
