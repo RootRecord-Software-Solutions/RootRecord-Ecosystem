@@ -7244,6 +7244,24 @@
           "published_at": "2026-10-02T22:50:23Z"
         }
       ]
+    },
+    {
+      "id": "3548ab5916342851",
+      "cluster_id": "c_9bc305217be6a9b5",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_9bc305217be6a9b5.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_9bc305217be6a9b5.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "DLNR News Release \u2013 L\u0101na\u02bbi Axis Deer Hunting Season Announced",
+          "url": "https://governor.hawaii.gov/main/dlnr-news-release-lana%ca%bbi-axis-deer-hunting-season-announced/",
+          "published_at": "2026-10-02T22:48:16Z"
+        }
+      ]
     }
   ]
 }
