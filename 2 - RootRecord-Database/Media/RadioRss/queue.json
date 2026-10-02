@@ -4941,6 +4941,103 @@
           "title": "Cloaked in anonymity, Israeli soldiers describe mass civilian killings in 'NAZA'",
           "url": "https://www.npr.org/2026/10/02/nx-s1-5987714/naza-review-israel-palestine",
           "published_at": "2026-10-02T14:37:27Z"
+        },
+        {
+          "publisher": "NPR",
+          "source": "NPR World",
+          "title": "Cloaked in anonymity, Israeli soldiers describe mass civilian killings in 'NAZA'",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5987714/naza-review-israel-palestine",
+          "published_at": "2026-10-02T14:37:27Z"
+        }
+      ]
+    },
+    {
+      "id": "9c57e6f0ed24a347",
+      "cluster_id": "c_072197082e5fe01c",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_072197082e5fe01c.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_072197082e5fe01c.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Europe",
+          "title": "Spanish PM S\u00e1nchez loses key housing crisis vote after eviction of woman, 87",
+          "url": "https://www.bbc.co.uk/news/articles/c623dlk4y75mo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T15:07:19Z"
+        }
+      ]
+    },
+    {
+      "id": "1ac04999afbd6906",
+      "cluster_id": "c_48ce9e9d5d077da1",
+      "program": "DEFENCE_BRIEF",
+      "report": "defence_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_48ce9e9d5d077da1.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/defence_brief/c_48ce9e9d5d077da1.speak.txt",
+      "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "source": "Breaking Defense",
+          "title": "The NIH-Pentagon deal isn\u2019t a cash grab. It\u2019s a rescue.",
+          "url": "https://breakingdefense.com/2026/10/the-nih-pentagon-deal-isnt-a-cash-grab-its-a-rescue/",
+          "published_at": "2026-10-02T15:10:00Z"
+        }
+      ]
+    },
+    {
+      "id": "58fa1d3106e91e6c",
+      "cluster_id": "c_f578bf7633d1eb3b",
+      "program": "DEVELOPER_BRIEF",
+      "report": "developer_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/developer_brief/c_f578bf7633d1eb3b.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/developer_brief/c_f578bf7633d1eb3b.speak.txt",
+      "sources": [
+        {
+          "publisher": "GitHub",
+          "source": "GitHub Changelog",
+          "title": "New fields for SecurityAdvisory GraphQL API",
+          "url": "https://github.blog/changelog/2026-10-02-new-fields-for-securityadvisory-graphql-api",
+          "published_at": "2026-10-02T13:18:00Z"
+        }
+      ]
+    },
+    {
+      "id": "13b38e73bf91d1f9",
+      "cluster_id": "c_c598e747ee3136cb",
+      "program": "CYBER_BRIEF",
+      "report": "cyber_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/cyber_brief/c_c598e747ee3136cb.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/cyber_brief/c_c598e747ee3136cb.speak.txt",
+      "sources": [
+        {
+          "publisher": "GitHub",
+          "source": "GitHub Changelog",
+          "title": "Repository security advisory comments API in public preview",
+          "url": "https://github.blog/changelog/2026-10-02-repository-security-advisory-comments-api-in-public-preview",
+          "published_at": "2026-10-02T13:15:25Z"
+        }
+      ]
+    },
+    {
+      "id": "d3e1879e91115a69",
+      "cluster_id": "c_94f30cebaaa212f0",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_94f30cebaaa212f0.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_94f30cebaaa212f0.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "More celebrities are embracing grey hair. For other women, it can come at a cost",
+          "url": "https://www.theguardian.com/fashion/2026/oct/02/celebrities-grey-hair-olivia-colman-lisa-bonet-women-ageism-workplace-dye",
+          "published_at": "2026-10-02T14:54:37Z"
         }
       ]
     }
