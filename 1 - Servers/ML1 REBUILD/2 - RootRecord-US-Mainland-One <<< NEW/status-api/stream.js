@@ -512,7 +512,7 @@ function ensureMusic() {
   const file = inside(path.join(AUDIO, 'music'), row.name);
   if (!file || !fs.existsSync(file)) return;
   lastTrack = row.name;
-  now.music = row.title || row.name.replace(/\.mp3$/i, '');
+  now.music = row.title || row.name.replace(/\.opus$/i, '');
   now.description = row.description || '';
   musicProc = new Decoder(file);
   log('music_start', { pid: musicProc.proc.pid, title: now.music });
@@ -524,7 +524,7 @@ function maybeChime() {
   if (clock.minute !== 0 && clock.minute !== 30) return;
   const slot = clock.date + 'T' + pad(clock.hour) + ':' + pad(clock.minute);
   if (slot === station.chimeSlot) return;
-  const file = inside(path.join(AUDIO, 'chimes'), 'hour-' + pad(clock.hour) + '-' + pad(clock.minute) + '.wav');
+  const file = inside(path.join(AUDIO, 'chimes'), 'hour-' + pad(clock.hour) + '-' + pad(clock.minute) + '.opus');
   if (!file || !fs.existsSync(file)) {
     if (station.chimeMissing !== slot) {
       station.chimeMissing = slot;

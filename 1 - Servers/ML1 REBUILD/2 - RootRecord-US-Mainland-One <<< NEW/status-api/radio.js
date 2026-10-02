@@ -1,7 +1,7 @@
 'use strict';
 
 // Static library for the public radio stream.
-// Hawaii replaces each <report>_current.ogg. This process only reads the directory.
+// Hawaii replaces each <report>_current.opus. This process only reads the directory.
 
 const fs = require('fs');
 const path = require('path');
@@ -10,9 +10,9 @@ const RUNTIME = process.env.RADIO_ROOT || process.cwd();
 const AUDIO = process.env.RADIO_DIR || path.join(RUNTIME, 'audio');
 const REPORTS = process.env.RADIO_REPORTS_DIR || path.join(AUDIO, 'reports');
 const PLAY_LOG = process.env.RADIO_PLAY_LOG || path.join(path.dirname(AUDIO), 'plays.log');
-const MUSIC_NAME = /^[A-Za-z0-9][A-Za-z0-9 ._-]{0,180}\.mp3$/;
-const REPORT_NAME = /^[a-z0-9]+(?:_[a-z0-9]+)*_current\.ogg$/;
-const CHIME_NAME = /^hour-(?:[01]\d|2[0-3])-(?:00|30)\.wav$/;
+const MUSIC_NAME = /^[A-Za-z0-9][A-Za-z0-9 ._-]{0,180}\.opus$/;
+const REPORT_NAME = /^[a-z0-9]+(?:_[a-z0-9]+)*_current\.opus$/;
+const CHIME_NAME = /^hour-(?:[01]\d|2[0-3])-(?:00|30)\.opus$/;
 // Hawaii minutes [start, end). End is exclusive. A wrap (start > end) crosses midnight.
 const SLOT_WINDOW = {
   morning_report: [9 * 60, 12 * 60],
@@ -92,13 +92,13 @@ function catalog(when) {
     const meta = lib[row.name] || {};
     const title = typeof meta.title === 'string' && meta.title.trim()
       ? meta.title.trim()
-      : row.name.replace(/\.mp3$/i, '');
+      : row.name.replace(/\.opus$/i, '');
     const description = typeof meta.description === 'string' ? meta.description.trim() : '';
     return { name: row.name, bytes: row.bytes, mtime: row.mtime, title, description };
   });
   const minutes = hawaiiMinutes(when || new Date());
   const reports = list(REPORTS, (name) => REPORT_NAME.test(name)).map((row) => ({
-    id: row.name.slice(0, -'_current.ogg'.length),
+    id: row.name.slice(0, -'_current.opus'.length),
     file: row.name,
     bytes: row.bytes,
     mtime: row.mtime
@@ -234,7 +234,7 @@ function route(req, res, url) {
     res.end('Not found\n');
     return true;
   }
-  const type = kind === 'music' ? 'audio/mpeg' : (kind === 'chimes' ? 'audio/wav' : 'audio/ogg');
+  const type = 'audio/ogg';
   const cache = kind === 'reports' ? 'no-store' : 'public, max-age=86400';
   serveFile(req, res, filePath, type, cache, { kind, name });
   return true;
