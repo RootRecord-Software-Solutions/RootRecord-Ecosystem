@@ -2414,7 +2414,7 @@
         {
           "publisher": "MarketWatch",
           "source": "MarketWatch Top Stories",
-          "title": "Nike\u2019s troubles are mounting, and sales could fall further",
+          "title": "This could be the worst year ever for Nike\u2019s stock, with sales set to fall further",
           "url": "https://www.marketwatch.com/story/nikes-troubles-are-mounting-and-sales-could-fall-further-2c19699d?mod=mw_rss_topstories",
           "published_at": "2026-10-01T21:09:00Z"
         }
@@ -3281,6 +3281,396 @@
           "title": "NEWS RELEASE: DLIR Honors 2026 Workforce Development Heroes",
           "url": "https://governor.hawaii.gov/newsroom/news-release-dlir-honors-2026-workforce-development-heroes-2/",
           "published_at": "2026-10-01T23:48:39Z"
+        }
+      ]
+    },
+    {
+      "id": "63b4f2e6dc85e267",
+      "cluster_id": "c_def33f864caaf68c",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_def33f864caaf68c.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_def33f864caaf68c.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "\u2018I don\u2019t want to die on the sales floor\u2019: I\u2019m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?",
+          "url": "https://www.marketwatch.com/story/i-dont-want-to-die-on-the-sales-floor-im-67-and-earn-19-50-an-hour-at-a-big-box-store-when-can-i-finally-retire-369abcf9?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T09:15:00Z"
+        }
+      ]
+    },
+    {
+      "id": "dbac3c0bfb918f28",
+      "cluster_id": "c_b3acab8bbf4c30e6",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_b3acab8bbf4c30e6.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_b3acab8bbf4c30e6.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "Amazon is hiking chip-rental prices and reportedly moving Nvidia processors off the balance sheet",
+          "url": "https://www.marketwatch.com/story/amazon-is-hiking-chip-rental-prices-and-reportedly-moving-nvidia-processors-off-the-balance-sheet-b205a0b0?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T09:07:00Z"
+        }
+      ]
+    },
+    {
+      "id": "56789fd5418044fe",
+      "cluster_id": "c_ea9dda90e32348ac",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_ea9dda90e32348ac.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_ea9dda90e32348ac.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "Famed former Boston Celtics commentator lists sunny Boston penthouse for $1.5 million",
+          "url": "https://www.marketwatch.com/story/famed-former-boston-celtics-commentator-lists-sunny-boston-penthouse-for-1-5-million-dedfb48a?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T08:59:00Z"
+        }
+      ]
+    },
+    {
+      "id": "524c40230340122a",
+      "cluster_id": "c_ca494ab91af20be4",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_ca494ab91af20be4.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_ca494ab91af20be4.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "\u2018I have $400,000 in equity\u2019: I\u2019m 80. Should I sell my house because of dangerous stairs \u2014 or spend thousands renovating?",
+          "url": "https://www.marketwatch.com/story/i-have-a-low-interest-rate-im-80-years-old-should-i-move-out-of-my-house-because-of-dangerous-stairs-389c3c7b?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T01:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "a227c3ae78252c18",
+      "cluster_id": "c_fdf76b5a955fb1ca",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_fdf76b5a955fb1ca.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_fdf76b5a955fb1ca.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "I\u2019m 71 and still working. I earn $108,000 a year. Am I doing the right thing?",
+          "url": "https://www.marketwatch.com/story/im-71-and-still-working-i-earn-108-000-a-year-am-i-doing-the-right-thing-aaedcaa4?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T00:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "cfc0bdba4104bad1",
+      "cluster_id": "c_3aa92bda97e8df54",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_3aa92bda97e8df54.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/markets_brief/c_3aa92bda97e8df54.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
+          "url": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T00:15:00Z"
+        }
+      ]
+    },
+    {
+      "id": "b04cc6591e68c15d",
+      "cluster_id": "c_0f73a12b5a96c60b",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_0f73a12b5a96c60b.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_0f73a12b5a96c60b.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "APOD: 2026 October 2 \u2013 The Complete Sharpless Catalog: 313 Nebulas",
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-2-the-complete-sharpless-catalog-313-nebulae/",
+          "published_at": "2026-10-02T04:05:00Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "APOD: 2026 October 2 \u2013 The Complete Sharpless Catalog: 313 Nebulas",
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-2-the-complete-sharpless-catalog-313-nebulae/",
+          "published_at": "2026-10-02T04:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "f8f9e35e3aa6bfe4",
+      "cluster_id": "c_50f8507c0decacc0",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_50f8507c0decacc0.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_50f8507c0decacc0.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "Rains Swamp the Gandak River",
+          "url": "https://science.nasa.gov/earth/earth-observatory/rains-swamp-the-gandak-river/",
+          "published_at": "2026-10-02T04:01:00Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "Rains Swamp the Gandak River",
+          "url": "https://science.nasa.gov/earth/earth-observatory/rains-swamp-the-gandak-river/",
+          "published_at": "2026-10-02T04:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": "817a9215f7126eba",
+      "cluster_id": "c_79a23b478722f211",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_79a23b478722f211.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_79a23b478722f211.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "10 Things: Movie Night",
+          "url": "https://science.nasa.gov/solar-system/10-things-movie-night/",
+          "published_at": "2026-10-02T00:25:36Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "10 Things: Movie Night",
+          "url": "https://science.nasa.gov/solar-system/10-things-movie-night/",
+          "published_at": "2026-10-02T00:25:36Z"
+        }
+      ]
+    },
+    {
+      "id": "0de2928b79759c4e",
+      "cluster_id": "c_10eef3344c045091",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_10eef3344c045091.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_10eef3344c045091.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "NASA Awards Enterprise Logistics Support Services Agreements",
+          "url": "https://www.nasa.gov/news-release/nasa-awards-enterprise-logistics-support-services-agreements/",
+          "published_at": "2026-10-01T20:34:27Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "NASA Awards Enterprise Logistics Support Services Agreements",
+          "url": "https://www.nasa.gov/news-release/nasa-awards-enterprise-logistics-support-services-agreements/",
+          "published_at": "2026-10-01T20:34:27Z"
+        }
+      ]
+    },
+    {
+      "id": "ba0a6b030e1a4d18",
+      "cluster_id": "c_c19230a324aec6f0",
+      "program": "SPACEX_BRIEF",
+      "report": "spacex_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/spacex_brief/c_c19230a324aec6f0.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/spacex_brief/c_c19230a324aec6f0.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "NASA\u2019s SpaceX Crew-13 Launches",
+          "url": "https://www.nasa.gov/image-article/nasas-spacex-crew-13-launches/",
+          "published_at": "2026-10-01T18:05:38Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "NASA\u2019s SpaceX Crew-13 Launches",
+          "url": "https://www.nasa.gov/image-article/nasas-spacex-crew-13-launches/",
+          "published_at": "2026-10-01T18:05:38Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Space Station",
+          "title": "NASA\u2019s SpaceX Crew-13 Launches",
+          "url": "https://www.nasa.gov/image-article/nasas-spacex-crew-13-launches/",
+          "published_at": "2026-10-01T18:05:38Z"
+        }
+      ]
+    },
+    {
+      "id": "b05d3919be38f58c",
+      "cluster_id": "c_0caf39fa551d415b",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_0caf39fa551d415b.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_0caf39fa551d415b.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "What\u2019s Up: October 2026 Skywatching Tips from NASA",
+          "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/",
+          "published_at": "2026-10-01T16:58:10Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "What\u2019s Up: October 2026 Skywatching Tips from NASA",
+          "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/",
+          "published_at": "2026-10-01T16:58:10Z"
+        }
+      ]
+    },
+    {
+      "id": "ff087806932c992d",
+      "cluster_id": "c_31901409a6b0a17b",
+      "program": "SPACEX_BRIEF",
+      "report": "spacex_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/spacex_brief/c_31901409a6b0a17b.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/spacex_brief/c_31901409a6b0a17b.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "NASA\u2019s SpaceX Crew-13 Launches to International Space Station",
+          "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
+          "published_at": "2026-10-01T15:59:24Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "NASA\u2019s SpaceX Crew-13 Launches to International Space Station",
+          "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
+          "published_at": "2026-10-01T15:59:24Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Space Station",
+          "title": "NASA\u2019s SpaceX Crew-13 Launches to International Space Station",
+          "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
+          "published_at": "2026-10-01T15:59:24Z"
+        }
+      ]
+    },
+    {
+      "id": "ef6c0125fb08be07",
+      "cluster_id": "c_92d5424a349e71d3",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_92d5424a349e71d3.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_92d5424a349e71d3.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "NASA\u2019s Webb Provides Crash Course on Planet-Shattering Collisions",
+          "url": "https://science.nasa.gov/missions/webb/nasas-webb-provides-crash-course-on-planet-shattering-collisions/",
+          "published_at": "2026-10-01T14:00:00Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "NASA\u2019s Webb Provides Crash Course on Planet-Shattering Collisions",
+          "url": "https://science.nasa.gov/missions/webb/nasas-webb-provides-crash-course-on-planet-shattering-collisions/",
+          "published_at": "2026-10-01T14:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "e35d0af88134ed2d",
+      "cluster_id": "c_56b52133af14892b",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_56b52133af14892b.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_56b52133af14892b.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "APOD: 2026 October 1 \u2013 Harvest Moon with Erupting Mount Etna",
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-1-harvest-moon-with-belt-of-venus-and-erupting-mount-etna/",
+          "published_at": "2026-10-01T04:05:00Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "APOD: 2026 October 1 \u2013 Harvest Moon with Erupting Mount Etna",
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-1-harvest-moon-with-belt-of-venus-and-erupting-mount-etna/",
+          "published_at": "2026-10-01T04:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "847f87001ef05758",
+      "cluster_id": "c_854e396d2a0ba5da",
+      "program": "SPACE_BRIEF",
+      "report": "space_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_854e396d2a0ba5da.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/space_brief/c_854e396d2a0ba5da.speak.txt",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "source": "NASA News Releases",
+          "title": "An Agricultural \u201cIsland\u201d in the Saskatchewan River Delta",
+          "url": "https://science.nasa.gov/earth/earth-observatory/an-agricultural-island-in-the-saskatchewan-river-delta/",
+          "published_at": "2026-10-01T04:00:00Z"
+        },
+        {
+          "publisher": "NASA",
+          "source": "NASA Recently Published Content",
+          "title": "An Agricultural \u201cIsland\u201d in the Saskatchewan River Delta",
+          "url": "https://science.nasa.gov/earth/earth-observatory/an-agricultural-island-in-the-saskatchewan-river-delta/",
+          "published_at": "2026-10-01T04:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "33eb1c9b934e5c2a",
+      "cluster_id": "c_b5881ed4efcb0cc9",
+      "program": "CYBER_BRIEF",
+      "report": "cyber_brief",
+      "priority": "high",
+      "script": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/cyber_brief/c_b5881ed4efcb0cc9.txt",
+      "speak": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/RadioRss/processed/scripts/cyber_brief/c_b5881ed4efcb0cc9.speak.txt",
+      "sources": [
+        {
+          "publisher": "NIST",
+          "source": "NIST Cybersecurity Insights Blog",
+          "title": "Securing Water and Wastewater Operational Technology Environments",
+          "url": "https://www.nist.gov/blogs/cybersecurity-insights/securing-water-and-wastewater-operational-technology-environments",
+          "published_at": "2026-10-01T12:00:00Z"
         }
       ]
     }

@@ -1,15 +1,15 @@
 RSS FEED HEALTH
 
-NASA News Releases           ○ UNKNOWN
-NASA Recently Published Cont ○ UNKNOWN
+NASA News Releases           ● HEALTHY
+NASA Recently Published Cont ● HEALTHY
 NASA Technology              ○ UNKNOWN
 NASA Aeronautics             ○ UNKNOWN
-NASA Space Station           ○ UNKNOWN
-NASA Artemis                 ○ UNKNOWN
+NASA Space Station           ● HEALTHY
+NASA Artemis                 ● HEALTHY
 NASA Goddard                 ○ UNKNOWN
 NASA Kennedy                 ○ UNKNOWN
 NASA Marshall                ○ UNKNOWN
-NASA JPL Center Feed         ○ UNKNOWN
+NASA JPL Center Feed         ● HEALTHY
 NASA JPL News                ○ DEGRADED
 NASA JPL Podcasts            ○ DISABLED
 NASA CNEOS                   ○ UNAVAILABLE
@@ -19,12 +19,12 @@ ESA Human Spaceflight        ● HEALTHY
 ESA Earth Observation        ○ UNKNOWN
 ESA Technology               ○ UNKNOWN
 ESA Exploration              ○ UNAVAILABLE
-NSF News                     ○ UNKNOWN
+NSF News                     ● HEALTHY
 NSF Events                   ○ UNKNOWN
 NSF Statistics               ○ UNKNOWN
-NIST News                    ○ UNKNOWN
-NIST Cybersecurity           ○ UNKNOWN
-NIST Cybersecurity Insights  ○ UNKNOWN
+NIST News                    ● HEALTHY
+NIST Cybersecurity           ● HEALTHY
+NIST Cybersecurity Insights  ● HEALTHY
 NIST Information Technology  ○ UNKNOWN
 NIST Physics                 ○ UNKNOWN
 NIST Materials               ○ UNKNOWN
@@ -71,7 +71,7 @@ FAA Safety                   ○ UNAVAILABLE
 FAA Commercial Space Transpo ○ UNAVAILABLE
 FAA Aviation Technology      ○ UNAVAILABLE
 NTSB Press Releases          ○ UNKNOWN
-NTSB Investigations          ○ UNKNOWN
+NTSB Investigations          ● HEALTHY
 NTSB Reports                 ○ UNKNOWN
 NTSB Events                  ○ UNKNOWN
 EIA Today in Energy          ● HEALTHY

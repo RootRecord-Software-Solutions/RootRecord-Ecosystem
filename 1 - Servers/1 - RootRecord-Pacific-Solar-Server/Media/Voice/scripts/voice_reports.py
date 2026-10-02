@@ -1076,6 +1076,10 @@ def b_solar_desk(t: datetime):  # info: def b_solar_desk
             lines.append(f"{f['name']}: offline")  # info: lines . append ( f" { f [
             spoken_lines.append(f"{f['name']}: offline")  # info: spoken_lines . append ( f" { f [
             continue  # info: continue
+        if f.get("off"):  # info: if f . get ( "off" ) :
+            lines.append(off_sentence(f))  # info: lines . append ( off_sentence ( f ) )
+            spoken_lines.append(off_sentence(f).rstrip("."))  # info: spoken_lines . append ( off_sentence ( f ) . rstrip ( "." ) )
+            continue  # info: continue
         bits, sbits = [f"state of charge {f['soc']}%"], [f"state of charge {f['soc']}%"]  # info: bits , sbits = [ f" state of charge {
         power = [(k, f.get(k)) for k in ("solar_w", "ac_out_w", "usbc_out_w") if f.get(k) is not None]  # info: set power
         labels = {"solar_w": "solar input", "ac_out_w": "AC out", "usbc_out_w": "USB-C out"}  # info: set labels
@@ -1245,16 +1249,20 @@ def _rollup(t: datetime, slot: str):  # info: def _rollup
     facts, (rows, _), (today, _), h, (tasks, per) = energy_facts(t), alerts(), sfp_today(), host(), open_tasks()  # info: call facts
     sp = [title, generated_at(when), DEV_NOTE + "."]  # info: set sp
     lines = []  # info: set lines
-    ok = [f for f in facts if f["ok"]]  # info: set ok
+    ok = [f for f in facts if f["ok"] and not f.get("off")]  # info: set ok
+    off = [f for f in facts if f.get("off")]  # info: set off
     if ok:  # info: if ok :
         s = "Batteries: " + ", ".join(f"{f['name']} {f['soc']}%" for f in ok)  # info: set s
         solar = sum(f["solar_w"] or 0 for f in ok)  # info: set solar
         # spoken form says "at": "Delta 2 36%" would hit the G1 clock rule ("two thirty six a.m.")
         sp.append("Battery levels: " + ", ".join(f"{f['name']} at {f['soc']}%" for f in ok) + f". Solar input {spoken_watts(solar)}.")  # info: sp . append ( "Battery levels: " + ", " .
         lines.append(s + f"; solar input {solar} W")  # info: lines . append ( s + f" ; solar input
-    else:  # info: else :
+    elif not off:  # info: elif not off :
         sp.append("EcoFlow is offline.")  # info: sp . append ( "EcoFlow is offline." )
         lines.append("EcoFlow: no reading")  # info: lines . append ( "EcoFlow: no reading" )
+    for f in off:  # info: for f in off :
+        sp.append(off_sentence(f))  # info: sp . append ( off_sentence ( f ) )
+        lines.append(off_sentence(f))  # info: lines . append ( off_sentence ( f ) )
     if rows:  # info: if rows :
         sp.append(f"{len(rows)} active weather alert{'s' if len(rows) != 1 else ''}, including {rows[0]['event']}.")  # info: sp . append ( f" { len (
     else:  # info: else :
@@ -1404,12 +1412,16 @@ def b_boot_brief(t: datetime):  # info: def b_boot_brief
            f"The Pacific desk came up at {spoken_clock(b.hour, b.minute)}, about {round(up_min / 60)} hours ago.")  # info: f" The Pacific desk came up at { spoken_clock ( b . hour
           if up_min < 1440 else f"The Pacific desk has been up {up_min // 1440} days."]  # info: if up_min < 1440 else f" The Pacific desk has been up {
     lines = [f"Kind: {kind}", f"Boot: {boot_at} (up {up_min} min)", f"Host CPU {h['cpu']}%, memory {h['mem']}% used"]  # info: set lines
-    ok = [f for f in facts if f["ok"]]  # info: set ok
+    ok = [f for f in facts if f["ok"] and not f.get("off")]  # info: set ok
+    off = [f for f in facts if f.get("off")]  # info: set off
     if ok:  # info: if ok :
         sp.append("Battery levels: " + ", ".join(f"{f['name']} at {f['soc']}%" for f in ok) + ".")  # info: sp . append ( "Battery levels: " + ", " .
         lines.append("Batteries: " + ", ".join(f"{f['name']} {f['soc']}%" for f in ok))  # info: lines . append ( "Batteries: " + ", " .
-    else:  # info: else :
+    elif not off:  # info: elif not off :
         sp.append("EcoFlow is offline."); lines.append("Batteries: offline")  # info: sp . append ( "EcoFlow is offline." ) ; lines
+    for f in off:  # info: for f in off :
+        sp.append(off_sentence(f))  # info: sp . append ( off_sentence ( f ) )
+        lines.append(off_sentence(f))  # info: lines . append ( off_sentence ( f ) )
     ev = sorted({r["event"] for r in rows})  # info: set ev
     sp.append(f"{len(rows)} active weather alert{'s' if len(rows) != 1 else ''}" + (f", including {', '.join(ev[:3])}." if ev else "."))  # info: sp . append ( f" { len (
     lines.append(f"NWS alerts: {len(rows)}" + (f" ({', '.join(ev)})" if ev else ""))  # info: lines . append ( f" NWS alerts: { len
@@ -1459,7 +1471,8 @@ def b_current_report(t: datetime):  # info: def b_current_report
     md = [f"# Current report — {stamp.isoformat()}", "", DEV_NOTE, ""]  # info: set md
     sp = ["Current report.", generated_at(stamp), DEV_NOTE + "."]  # info: set sp
     md += ["## Energy", ""]  # info: md += energy heading
-    ok = [f for f in facts if f.get("ok")]  # info: set ok
+    ok = [f for f in facts if f.get("ok") and not f.get("off")]  # info: set ok
+    off = [f for f in facts if f.get("off")]  # info: set off
     if ok:  # info: if ok :
         solar = sum(f.get("solar_w") or 0 for f in ok)  # info: set solar
         sp.append("Battery levels: " + ", ".join(f"{f['name']} at {f['soc']}%" for f in ok) + f". Solar input {spoken_watts(solar)}.")  # info: sp . append battery line
@@ -1467,11 +1480,16 @@ def b_current_report(t: datetime):  # info: def b_current_report
             age_bit = reading_age_clause(f).lstrip(", ")  # info: set age_bit
             if age_bit:  # info: if age_bit :
                 sp.append(f"{f['name']} {age_bit}.")  # info: sp . append ( f" { f [ 'name' ] } { age_bit } . " )
-    else:  # info: else :
+    elif not off:  # info: elif not off :
         sp.append("EcoFlow is offline.")  # info: sp . append ( "EcoFlow is offline." )
+    for f in off:  # info: for f in off :
+        sp.append(off_sentence(f))  # info: sp . append ( off_sentence ( f ) )
     for f in facts:  # info: for f in facts :
         if not f.get("ok"):  # info: if not f . get ( "ok" ) :
             md.append(f"- {f['name']}: no reading")  # info: md . append ( f" - { f [ 'name' ] } : no reading " )
+            continue  # info: continue
+        if f.get("off"):  # info: if f . get ( "off" ) :
+            md.append(f"- {f['name']}: discharged and powered off, last {f['soc']}%")  # info: md . append ( f" - { f [ 'name' ] } : discharged and powered off, last { f [ 'soc' ] } % " )
             continue  # info: continue
         bits = [f"SOC {f['soc']}%", f"solar {f.get('solar_w')} W", f"AC out {f.get('ac_out_w')} W", f"USB-C out {f.get('usbc_out_w')} W"]  # info: set bits
         age = f"age {f.get('age_min')} min" if f.get("age_min") is not None else "age n/a"  # info: set age

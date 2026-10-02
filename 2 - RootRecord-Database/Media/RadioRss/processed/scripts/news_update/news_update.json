@@ -1,44 +1,44 @@
 {
   "report": "news_update",
-  "hour": 13,
-  "words": 716,
+  "hour": 23,
+  "words": 709,
   "sections": [
     {
       "id": "markets",
-      "persona": "bruce",
-      "text": "RootRecord news update for October 1, 2026. Markets. MarketWatch reports that Here\u2019s who\u2019s joining the S&P 500 in the index\u2019s latest shakeup. Twilio gets the nod, as current component Warner Bros Discovery is due to merger with Paramount. Published October 1, 2026. the BBC reports that What's gone wrong at Nike? How the world's sportswear giant lost its mojo. Several self-inflicted mistakes have cost the biggest sportswear brand on the planet in recent years. Published October 1, 2026. the BBC reports that 'It could cost me \u00a310k but I need the money now': Why Gen Z are opting out of pensions. A growing number of people are opting out of these schemes due to cost-of-living pressures. Published October 1, 2026. the BBC reports that The wealthy Cuban Americans ready and waiting for Havana to fall. Cuban exiles in Florida are increasingly hopeful that regime change in Cuba is now on the horizon. Published October 1, 2026.",
+      "persona": "carly",
+      "text": "RootRecord news update for October 1, 2026. Markets. MarketWatch reports that \u2018I don\u2019t want to die on the sales floor\u2019: I\u2019m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?. \u201cI started taking Social Security at 66 and receive $2,410 a month. I have $214,000 in my 401(k).\u201d Published October 2, 2026. MarketWatch reports that Amazon is hiking chip-rental prices and reportedly moving Nvidia processors off the balance sheet. In a sign of the financing crunch facing the hyperscalers financing the AI revolution, Amazon has announced it is raising prices on how much it charges to rent high-performance microchips as it reportedly is going to sell and then lease back Nvidia chips. Published October 2, 2026. MarketWatch reports that Famed former Boston Celtics commentator lists sunny Boston penthouse for $1.5 million. A piece of sports history has officially hit the market, with former Boston Celtics commentator Mike Gorman listing his Boston penthouse for $1.495 million. Published October 2, 2026.",
       "sources": [
         {
           "publisher": "MarketWatch",
-          "title": "Here\u2019s who\u2019s joining the S&P 500 in the index\u2019s latest shakeup",
-          "url": "https://www.marketwatch.com/story/heres-whos-joining-the-s-p-500-in-the-indexs-latest-shakeup-07280a15?mod=mw_rss_topstories",
-          "published_at": "2026-10-01T23:11:00Z"
+          "title": "\u2018I don\u2019t want to die on the sales floor\u2019: I\u2019m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?",
+          "url": "https://www.marketwatch.com/story/i-dont-want-to-die-on-the-sales-floor-im-67-and-earn-19-50-an-hour-at-a-big-box-store-when-can-i-finally-retire-369abcf9?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T09:15:00Z"
         },
         {
-          "publisher": "BBC",
-          "title": "What's gone wrong at Nike? How the world's sportswear giant lost its mojo",
-          "url": "https://www.bbc.co.uk/news/articles/c6je85jzk9y7o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-01T23:08:02Z"
+          "publisher": "MarketWatch",
+          "title": "Amazon is hiking chip-rental prices and reportedly moving Nvidia processors off the balance sheet",
+          "url": "https://www.marketwatch.com/story/amazon-is-hiking-chip-rental-prices-and-reportedly-moving-nvidia-processors-off-the-balance-sheet-b205a0b0?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T09:07:00Z"
         },
         {
-          "publisher": "BBC",
-          "title": "'It could cost me \u00a310k but I need the money now': Why Gen Z are opting out of pensions",
-          "url": "https://www.bbc.co.uk/news/articles/c68xk0ndqz8jo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-01T23:00:06Z"
-        },
-        {
-          "publisher": "BBC",
-          "title": "The wealthy Cuban Americans ready and waiting for Havana to fall",
-          "url": "https://www.bbc.co.uk/news/articles/ckrerylrlg9vo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-01T23:00:05Z"
+          "publisher": "MarketWatch",
+          "title": "Famed former Boston Celtics commentator lists sunny Boston penthouse for $1.5 million",
+          "url": "https://www.marketwatch.com/story/famed-former-boston-celtics-commentator-lists-sunny-boston-penthouse-for-1-5-million-dedfb48a?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T08:59:00Z"
         }
       ]
     },
     {
       "id": "defence",
-      "persona": "carly",
-      "text": "National security. Defense News reports that US Navy awards RTX\u2019s Raytheon $24.4B for SM-6 missiles amid stockpile concerns. The deal for the SM-6 interceptors comes as the Pentagon pushes to replenish munitions stockpiles depleted by conflicts in the Middle East. Published October 1, 2026. Breaking Defense reports that DoD obligates $142B from reconciliation bill before deadline, leaving billions subject to cuts. Any funding from last year\u2019s reconciliation bill left unspent by the Pentagon suffers an 8.3 percent cut known as sequestration as fiscal 2027 starts. Published October 1, 2026. Breaking Defense reports that Can\u2019t start, won\u2019t start: Over 150 new military programs face delay under a CR. The Defense Department will be operating under a continuing resolution until lawmakers successfully pass a fiscal 2027 budget. Published October 1, 2026. Breaking Defense reports that How Hegseth envisions a new Autonomous Warfare Command. The Pentagon wants to combine drone procurement and operations under a new command, but Congress will have a say. Published October 1, 2026. The claims in this desk are the publisher's.",
+      "persona": "ava",
+      "text": "National security. Breaking Defense reports that In Ukraine, data centers \u2018facing increased attacks\u2019 in recent weeks: Ex-official. \u201cNaturally, you cannot move everything underground. \u2026 So an important aspect is boosting Ukrainian anti-ballistic and anti-drone capabilities, which are already in critically short supply,\u201d Kateryna Chernohorenko, Ukraine\u2019s former deputy minister of defense for digital transformation, told Breaking Defense. Published October 2, 2026. Defense News reports that US Navy awards RTX\u2019s Raytheon $24.4B for SM-6 missiles amid stockpile concerns. The deal for the SM-6 interceptors comes as the Pentagon pushes to replenish munitions stockpiles depleted by conflicts in the Middle East. Published October 1, 2026. Breaking Defense reports that DoD obligates $142B from reconciliation bill before deadline, leaving billions subject to cuts. Any funding from last year\u2019s reconciliation bill left unspent by the Pentagon suffers an 8.3 percent cut known as sequestration as fiscal 2027 starts. Published October 1, 2026.",
       "sources": [
+        {
+          "publisher": "Breaking Defense",
+          "title": "In Ukraine, data centers \u2018facing increased attacks\u2019 in recent weeks: Ex-official",
+          "url": "https://breakingdefense.com/2026/10/in-ukraine-data-centers-facing-increased-attacks-in-recent-weeks-ex-official/",
+          "published_at": "2026-10-02T09:00:00Z"
+        },
         {
           "publisher": "Defense News",
           "title": "US Navy awards RTX\u2019s Raytheon $24.4B for SM-6 missiles amid stockpile concerns",
@@ -50,37 +50,25 @@
           "title": "DoD obligates $142B from reconciliation bill before deadline, leaving billions subject to cuts",
           "url": "https://breakingdefense.com/2026/10/dod-obligates-142b-from-reconciliation-bill-before-deadline-leaving-billions-subject-to-cuts/",
           "published_at": "2026-10-01T21:57:29Z"
-        },
-        {
-          "publisher": "Breaking Defense",
-          "title": "Can\u2019t start, won\u2019t start: Over 150 new military programs face delay under a CR",
-          "url": "https://breakingdefense.com/2026/10/cant-start-wont-start-over-150-new-military-programs-face-delay-under-a-cr/",
-          "published_at": "2026-10-01T20:56:55Z"
-        },
-        {
-          "publisher": "Breaking Defense",
-          "title": "How Hegseth envisions a new Autonomous Warfare Command",
-          "url": "https://breakingdefense.com/2026/10/how-hegseth-envisions-a-new-autonomous-warfare-command/",
-          "published_at": "2026-10-01T20:15:00Z"
         }
       ]
     },
     {
       "id": "spacex",
-      "persona": "ava",
-      "text": "SpaceX. Spaceflight Now reports that Falcon Heavy to fly its first mission for U.S. spy satellite agency. The 14th Falcon Heavy rocket is scheduled to blast off on a clandestine mission from Launch Complex 39A at NASA\u2019s Kennedy Space Center at 11:53 p.m. EDT (0353 UTC). Published October 1, 2026. Spaceflight Now reports that Fresh crew takes off for six-month stay aboard space station. Strapped into a SpaceX Crew Dragon capsule, Crew 13 commander Jessica Watkins, pilot Luke Delaney, Russian cosmonaut Sergey Teteryatnikov and Canadian astronaut Joshua Kutryk blasted off from pad 40 at the Cape Canaveral Space Force Station at 11:10 a.m. EDT. Published October 1, 2026. NASASpaceflight reports that Falcon Heavy set to launch classified NROL-97 to high-energy orbit. SpaceX\u2019s Falcon Heavy is poised atop Launch Complex 39A once again, this time to launch\u2026 The post Falcon Heavy set to launch classified NROL-97 to high-energy orbit appeared first on NASASpaceFlight.com . Published October 1, 2026.",
+      "persona": "bruce",
+      "text": "SpaceX. the Honolulu Star-Advertiser reports that SpaceX launches 13th long-duration astronaut crew to International Space Station. CAPE CANAVERAL, Florida >> A SpaceX rocket lifted off from Florida on Thursday with a crew of two U.S. astronauts, a Canadian astronaut and a Russian cosmonaut headed to the International Space Station for a science mission devoted to human health and performance in orbit. Published October 2, 2026. Spaceflight Now reports that Falcon Heavy flies its first mission for U.S. spy satellite agency. The 14th Falcon Heavy rocket is scheduled to blast off on a clandestine mission from Launch Complex 39A at NASA\u2019s Kennedy Space Center at 11:54 p.m. EDT (0354 UTC). Published October 1, 2026. NASASpaceflight reports that Falcon Heavy set to launch classified NROL-97 to high-energy orbit. SpaceX\u2019s Falcon Heavy launched the classified NROL-97 payload for the United States National Reconnaissance Office.\u2026 The post Falcon Heavy set to launch classified NROL-97 to high-energy orbit appeared first on NASASpaceFlight.com . Published October 1, 2026.",
       "sources": [
         {
-          "publisher": "Spaceflight Now",
-          "title": "Falcon Heavy to fly its first mission for U.S. spy satellite agency",
-          "url": "https://spaceflightnow.com/2026/10/01/falcon-heavy-to-fly-its-first-mission-for-u-s-spy-satellite-agency/",
-          "published_at": "2026-10-01T22:37:30Z"
+          "publisher": "Honolulu Star-Advertiser",
+          "title": "SpaceX launches 13th long-duration astronaut crew to International Space Station",
+          "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/spacex-launches-13th-long-duration-astronaut-crew-to-international-space-station/",
+          "published_at": "2026-10-02T01:30:00Z"
         },
         {
           "publisher": "Spaceflight Now",
-          "title": "Fresh crew takes off for six-month stay aboard space station",
-          "url": "https://spaceflightnow.com/2026/10/01/fresh-crew-takes-off-for-six-month-stay-aboard-space-station/",
-          "published_at": "2026-10-01T20:46:05Z"
+          "title": "Falcon Heavy flies its first mission for U.S. spy satellite agency",
+          "url": "https://spaceflightnow.com/2026/10/01/falcon-heavy-to-fly-its-first-mission-for-u-s-spy-satellite-agency/",
+          "published_at": "2026-10-01T22:37:30Z"
         },
         {
           "publisher": "NASASpaceflight",
@@ -92,42 +80,54 @@
     },
     {
       "id": "hawaii",
-      "persona": "bruce",
-      "text": "Hawaii. the Office of the Governor of Hawaii reports that RELEASE: FOURTH QUARTER HAWAI\u02bbI ANNUAL BUSINESS REPORTS DUE. STATE OF HAWAI\u02bbIKA MOKU \u02bb\u0100INA O HAWAI\u02bbI JOSH GREEN, M.D.GOVERNOR KE KIA\u02bb\u0100INA DEPARTMENT OF COMMERCE AND CONSUMER AFFAIRSKA \u02bbOIHANA PILI K\u0100LEPA NADINE Y. ANDODIRECTOR KA LUNA HO\u02bbOKELE BUSINESS REGISTRATION DIVISION TY Y. [\u2026] Published October 1, 2026. the Office of the Governor of Hawaii reports that NEWS RELEASE: NEW BIOSECURITY ACADEMY TO TRAIN FRONTLINE INSPECTORS IN FIGHT AGAINST INVASIVE SPECIES. STATE OF HAWAI\u02bbIKA MOKU \u02bb\u0100INA O HAWAI\u02bbI JOSH GREEN, M.D.GOVERNORKE KIA\u02bb\u0100INA DEPARTMENT OF AGRICULTURE AND BIOSECURITY\u02bbOIHANA MAHI\u02bbAI A KIA\u02bbI MEAOLA SHARON HURDCHAIRPERSONKA LUNA HO\u02bbOKELE DEAN M. MATSUKAWADEPUTY TO THE CHAIRPERSONKA [\u2026] Published October 1, 2026. the Honolulu Star-Advertiser reports that Wall Street dips as rising Treasury yields outweigh software gains. The S&P 500 fell to a two-week low on Thursday as a global bond selloff, fueled by higher oil prices and inflation concerns, pushed US Treasury yields to multi-decade highs and overshadowed a rally in software stocks. Published October 1, 2026.",
+      "persona": "carly",
+      "text": "Hawaii. Hawaii News Now reports that New Biosecurity Academy aims to boost inspector ranks. The state is launching a new Biosecurity Academy with Leeward CC to train up to 20 inspectors to protect Hawaii from invasive pests and diseases. Published October 2, 2026. the Honolulu Star-Advertiser reports that Holei Sea Arch has collapsed. The Holei Sea Arch has collapsed into the Pacific Ocean, federal officials confirmed. Published October 2, 2026. the Honolulu Star-Advertiser reports that Lifeguards revive pulse in man pulled from Hanauma Bay. Honolulu Ocean Safety lifeguards rescued an older man who became unresponsive while swimming at Hanauma Bay Nature Preserve this morning. Published October 2, 2026. the Honolulu Star-Advertiser reports that DOH closes Legend at Chinatown Cultural Plaza for multiple violations. The state Health Department today shut down Legend Seafood Restaurant at Chinatown Cultural Plaza, with a red placard, due to multiple critical food safety violations. Published October 2, 2026.",
       "sources": [
         {
-          "publisher": "Office of the Governor of Hawaii",
-          "title": "RELEASE: FOURTH QUARTER HAWAI\u02bbI ANNUAL BUSINESS REPORTS DUE",
-          "url": "https://governor.hawaii.gov/newsroom/release-fourth-quarter-hawai%ca%bbi-annual-business-reports-due/",
-          "published_at": "2026-10-01T22:42:13Z"
-        },
-        {
-          "publisher": "Office of the Governor of Hawaii",
-          "title": "NEWS RELEASE: NEW BIOSECURITY ACADEMY TO TRAIN FRONTLINE INSPECTORS IN FIGHT AGAINST INVASIVE SPECIES",
-          "url": "https://governor.hawaii.gov/newsroom/news-release-new-biosecurity-academy-to-train-frontline-inspectors-in-fight-against-invasive-species/",
-          "published_at": "2026-10-01T22:40:41Z"
+          "publisher": "Hawaii News Now",
+          "title": "New Biosecurity Academy aims to boost inspector ranks",
+          "url": "https://www.hawaiinewsnow.com/2026/10/02/new-biosecurity-academy-aims-boost-inspector-ranks/",
+          "published_at": "2026-10-02T06:00:39Z"
         },
         {
           "publisher": "Honolulu Star-Advertiser",
-          "title": "Wall Street dips as rising Treasury yields outweigh software gains",
-          "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/wall-street-dips-as-rising-treasury-yields-outweigh-software-gains/",
-          "published_at": "2026-10-01T22:08:00Z"
+          "title": "Holei Sea Arch has collapsed",
+          "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/holei-sea-arch-has-collapsed/",
+          "published_at": "2026-10-02T03:45:00Z"
+        },
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "title": "Lifeguards revive pulse in man pulled from Hanauma Bay",
+          "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/lifeguards-revive-pulse-in-man-pulled-from-hanauma-bay/",
+          "published_at": "2026-10-02T03:26:00Z"
+        },
+        {
+          "publisher": "Honolulu Star-Advertiser",
+          "title": "DOH closes Legend at Chinatown Cultural Plaza for multiple violations",
+          "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/doh-closes-legend-at-chinese-cultural-plaza-for-multiple-violations/",
+          "published_at": "2026-10-02T03:12:00Z"
         }
       ]
     },
     {
       "id": "also",
-      "persona": "carly",
-      "text": "Also in the news. the Honolulu Star-Advertiser reports that Boeing workers approve latest contract offer, averting strike fears. Boeing\u2019s largest white-collar union said on Thursday its members approved a sweetened contract offer, easing fears of a strike that could have stalled work on two long-delayed jetliners and slowed the pace of aircraft deliveries. Published October 1, 2026. That is the news update.",
+      "persona": "ava",
+      "text": "Also in the news. NASA reports that APOD: 2026 October 2 \u2013 The Complete Sharpless Catalog: 313 Nebulas. What does it take to image hundreds of nebulas? Today\u2019s image contains the entire Sharpless Catalog of H II Regions, totaling 313 objects. Zoom in and explore! Published October 2, 2026. NASA reports that Rains Swamp the Gandak River. After days of torrential rain, the river rose to record-breaking levels in parts of Nepal and India. Published October 2, 2026. That is the news update.",
       "sources": [
         {
-          "publisher": "Honolulu Star-Advertiser",
-          "title": "Boeing workers approve latest contract offer, averting strike fears",
-          "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/boeing-workers-approve-latest-contract-offer-averting-strike-fears/",
-          "published_at": "2026-10-01T19:48:00Z"
+          "publisher": "NASA",
+          "title": "APOD: 2026 October 2 \u2013 The Complete Sharpless Catalog: 313 Nebulas",
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-2-the-complete-sharpless-catalog-313-nebulae/",
+          "published_at": "2026-10-02T04:05:00Z"
+        },
+        {
+          "publisher": "NASA",
+          "title": "Rains Swamp the Gandak River",
+          "url": "https://science.nasa.gov/earth/earth-observatory/rains-swamp-the-gandak-river/",
+          "published_at": "2026-10-02T04:01:00Z"
         }
       ]
     }
   ],
-  "speak": "RootRecord news update for October 1, 2026. Markets. MarketWatch reports that Here\u2019s who\u2019s joining the S&P 500 in the index\u2019s latest shakeup. Twilio gets the nod, as current component Warner Bros Discovery is due to merger with Paramount. Published October 1, 2026. the BBC reports that What's gone wrong at Nike? How the world's sportswear giant lost its mojo. Several self-inflicted mistakes have cost the biggest sportswear brand on the planet in recent years. Published October 1, 2026. the BBC reports that 'It could cost me \u00a310k but I need the money now': Why Gen Z are opting out of pensions. A growing number of people are opting out of these schemes due to cost-of-living pressures. Published October 1, 2026. the BBC reports that The wealthy Cuban Americans ready and waiting for Havana to fall. Cuban exiles in Florida are increasingly hopeful that regime change in Cuba is now on the horizon. Published October 1, 2026. National security. Defense News reports that US Navy awards RTX\u2019s Raytheon $24.4B for SM-6 missiles amid stockpile concerns. The deal for the SM-6 interceptors comes as the Pentagon pushes to replenish munitions stockpiles depleted by conflicts in the Middle East. Published October 1, 2026. Breaking Defense reports that DoD obligates $142B from reconciliation bill before deadline, leaving billions subject to cuts. Any funding from last year\u2019s reconciliation bill left unspent by the Pentagon suffers an 8.3 percent cut known as sequestration as fiscal 2027 starts. Published October 1, 2026. Breaking Defense reports that Can\u2019t start, won\u2019t start: Over 150 new military programs face delay under a CR. The Defense Department will be operating under a continuing resolution until lawmakers successfully pass a fiscal 2027 budget. Published October 1, 2026. Breaking Defense reports that How Hegseth envisions a new Autonomous Warfare Command. The Pentagon wants to combine drone procurement and operations under a new command, but Congress will have a say. Published October 1, 2026. The claims in this desk are the publisher's. SpaceX. Spaceflight Now reports that Falcon Heavy to fly its first mission for U.S. spy satellite agency. The 14th Falcon Heavy rocket is scheduled to blast off on a clandestine mission from Launch Complex 39A at NASA\u2019s Kennedy Space Center at 11:53 p.m. EDT (0353 UTC). Published October 1, 2026. Spaceflight Now reports that Fresh crew takes off for six-month stay aboard space station. Strapped into a SpaceX Crew Dragon capsule, Crew 13 commander Jessica Watkins, pilot Luke Delaney, Russian cosmonaut Sergey Teteryatnikov and Canadian astronaut Joshua Kutryk blasted off from pad 40 at the Cape Canaveral Space Force Station at 11:10 a.m. EDT. Published October 1, 2026. NASASpaceflight reports that Falcon Heavy set to launch classified NROL-97 to high-energy orbit. SpaceX\u2019s Falcon Heavy is poised atop Launch Complex 39A once again, this time to launch\u2026 The post Falcon Heavy set to launch classified NROL-97 to high-energy orbit appeared first on NASASpaceFlight.com . Published October 1, 2026. Hawaii. the Office of the Governor of Hawaii reports that RELEASE: FOURTH QUARTER HAWAI\u02bbI ANNUAL BUSINESS REPORTS DUE. STATE OF HAWAI\u02bbIKA MOKU \u02bb\u0100INA O HAWAI\u02bbI JOSH GREEN, M.D.GOVERNOR KE KIA\u02bb\u0100INA DEPARTMENT OF COMMERCE AND CONSUMER AFFAIRSKA \u02bbOIHANA PILI K\u0100LEPA NADINE Y. ANDODIRECTOR KA LUNA HO\u02bbOKELE BUSINESS REGISTRATION DIVISION TY Y. [\u2026] Published October 1, 2026. the Office of the Governor of Hawaii reports that NEWS RELEASE: NEW BIOSECURITY ACADEMY TO TRAIN FRONTLINE INSPECTORS IN FIGHT AGAINST INVASIVE SPECIES. STATE OF HAWAI\u02bbIKA MOKU \u02bb\u0100INA O HAWAI\u02bbI JOSH GREEN, M.D.GOVERNORKE KIA\u02bb\u0100INA DEPARTMENT OF AGRICULTURE AND BIOSECURITY\u02bbOIHANA MAHI\u02bbAI A KIA\u02bbI MEAOLA SHARON HURDCHAIRPERSONKA LUNA HO\u02bbOKELE DEAN M. MATSUKAWADEPUTY TO THE CHAIRPERSONKA [\u2026] Published October 1, 2026. the Honolulu Star-Advertiser reports that Wall Street dips as rising Treasury yields outweigh software gains. The S&P 500 fell to a two-week low on Thursday as a global bond selloff, fueled by higher oil prices and inflation concerns, pushed US Treasury yields to multi-decade highs and overshadowed a rally in software stocks. Published October 1, 2026. Also in the news. the Honolulu Star-Advertiser reports that Boeing workers approve latest contract offer, averting strike fears. Boeing\u2019s largest white-collar union said on Thursday its members approved a sweetened contract offer, easing fears of a strike that could have stalled work on two long-delayed jetliners and slowed the pace of aircraft deliveries. Published October 1, 2026. That is the news update."
+  "speak": "RootRecord news update for October 1, 2026. Markets. MarketWatch reports that \u2018I don\u2019t want to die on the sales floor\u2019: I\u2019m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?. \u201cI started taking Social Security at 66 and receive $2,410 a month. I have $214,000 in my 401(k).\u201d Published October 2, 2026. MarketWatch reports that Amazon is hiking chip-rental prices and reportedly moving Nvidia processors off the balance sheet. In a sign of the financing crunch facing the hyperscalers financing the AI revolution, Amazon has announced it is raising prices on how much it charges to rent high-performance microchips as it reportedly is going to sell and then lease back Nvidia chips. Published October 2, 2026. MarketWatch reports that Famed former Boston Celtics commentator lists sunny Boston penthouse for $1.5 million. A piece of sports history has officially hit the market, with former Boston Celtics commentator Mike Gorman listing his Boston penthouse for $1.495 million. Published October 2, 2026. National security. Breaking Defense reports that In Ukraine, data centers \u2018facing increased attacks\u2019 in recent weeks: Ex-official. \u201cNaturally, you cannot move everything underground. \u2026 So an important aspect is boosting Ukrainian anti-ballistic and anti-drone capabilities, which are already in critically short supply,\u201d Kateryna Chernohorenko, Ukraine\u2019s former deputy minister of defense for digital transformation, told Breaking Defense. Published October 2, 2026. Defense News reports that US Navy awards RTX\u2019s Raytheon $24.4B for SM-6 missiles amid stockpile concerns. The deal for the SM-6 interceptors comes as the Pentagon pushes to replenish munitions stockpiles depleted by conflicts in the Middle East. Published October 1, 2026. Breaking Defense reports that DoD obligates $142B from reconciliation bill before deadline, leaving billions subject to cuts. Any funding from last year\u2019s reconciliation bill left unspent by the Pentagon suffers an 8.3 percent cut known as sequestration as fiscal 2027 starts. Published October 1, 2026. SpaceX. the Honolulu Star-Advertiser reports that SpaceX launches 13th long-duration astronaut crew to International Space Station. CAPE CANAVERAL, Florida >> A SpaceX rocket lifted off from Florida on Thursday with a crew of two U.S. astronauts, a Canadian astronaut and a Russian cosmonaut headed to the International Space Station for a science mission devoted to human health and performance in orbit. Published October 2, 2026. Spaceflight Now reports that Falcon Heavy flies its first mission for U.S. spy satellite agency. The 14th Falcon Heavy rocket is scheduled to blast off on a clandestine mission from Launch Complex 39A at NASA\u2019s Kennedy Space Center at 11:54 p.m. EDT (0354 UTC). Published October 1, 2026. NASASpaceflight reports that Falcon Heavy set to launch classified NROL-97 to high-energy orbit. SpaceX\u2019s Falcon Heavy launched the classified NROL-97 payload for the United States National Reconnaissance Office.\u2026 The post Falcon Heavy set to launch classified NROL-97 to high-energy orbit appeared first on NASASpaceFlight.com . Published October 1, 2026. Hawaii. Hawaii News Now reports that New Biosecurity Academy aims to boost inspector ranks. The state is launching a new Biosecurity Academy with Leeward CC to train up to 20 inspectors to protect Hawaii from invasive pests and diseases. Published October 2, 2026. the Honolulu Star-Advertiser reports that Holei Sea Arch has collapsed. The Holei Sea Arch has collapsed into the Pacific Ocean, federal officials confirmed. Published October 2, 2026. the Honolulu Star-Advertiser reports that Lifeguards revive pulse in man pulled from Hanauma Bay. Honolulu Ocean Safety lifeguards rescued an older man who became unresponsive while swimming at Hanauma Bay Nature Preserve this morning. Published October 2, 2026. the Honolulu Star-Advertiser reports that DOH closes Legend at Chinatown Cultural Plaza for multiple violations. The state Health Department today shut down Legend Seafood Restaurant at Chinatown Cultural Plaza, with a red placard, due to multiple critical food safety violations. Published October 2, 2026. Also in the news. NASA reports that APOD: 2026 October 2 \u2013 The Complete Sharpless Catalog: 313 Nebulas. What does it take to image hundreds of nebulas? Today\u2019s image contains the entire Sharpless Catalog of H II Regions, totaling 313 objects. Zoom in and explore! Published October 2, 2026. NASA reports that Rains Swamp the Gandak River. After days of torrential rain, the river rose to record-breaking levels in parts of Nepal and India. Published October 2, 2026. That is the news update."
 }
