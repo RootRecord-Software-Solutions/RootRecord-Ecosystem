@@ -3701,7 +3701,7 @@
         {
           "publisher": "Nature",
           "source": "Nature",
-          "title": "Stunning fossil shows dinosaurs' distinctive path to flight",
+          "title": "Stunning fossil shows dinosaurs\u2019 distinctive path to flight",
           "url": "https://www.nature.com/articles/d41586-026-03126-8",
           "published_at": "2026-10-02T00:00:00Z"
         }
@@ -3809,7 +3809,7 @@
         {
           "publisher": "National Hurricane Center",
           "source": "NHC Eastern North Pacific",
-          "title": "Hurricane Rachel Public Advisory Number 21",
+          "title": "Summary for Hurricane Rachel (EP3/EP182026)",
           "url": "https://www.nhc.noaa.gov/text/refresh/MIATCPEP3+shtml/020833.shtml",
           "published_at": "2026-10-02T08:33:15Z"
         }
@@ -4668,7 +4668,7 @@
         {
           "publisher": "Al Jazeera",
           "source": "Al Jazeera",
-          "title": "Trump claims Europe agreed to release \u2018massive amount\u2019 diesel stockpile",
+          "title": "G7 announces oil reserve release, as Trump hails Europe diesel deal",
           "url": "https://www.aljazeera.com/news/2026/10/2/trump-says-europe-agrees-to-release-massive-amount-diesel-stockpile?traffic_source=rss",
           "published_at": "2026-10-02T14:14:18Z"
         }
@@ -4743,6 +4743,204 @@
           "title": "\u2018The enemy is tearing our city apart\u2019: terror in Kyiv as Russia ramps up attacks",
           "url": "https://www.theguardian.com/world/2026/oct/02/terror-kyiv-russia-ramps-up-attacks-ukraine",
           "published_at": "2026-10-02T14:50:59Z"
+        }
+      ]
+    },
+    {
+      "id": "13ff3572fbb8ef11",
+      "cluster_id": "c_19c17b3d944887d0",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_19c17b3d944887d0.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_19c17b3d944887d0.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Spain\u2019s parliament rejects gov\u2019t housing decrees amid mass protests",
+          "url": "https://www.aljazeera.com/news/2026/10/2/spains-parliament-rejects-govt-housing-decrees-amid-mass-protests?traffic_source=rss",
+          "published_at": "2026-10-02T15:01:08Z"
+        }
+      ]
+    },
+    {
+      "id": "fe15351f5aed5d1d",
+      "cluster_id": "c_963bb69e4d45569a",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_963bb69e4d45569a.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_963bb69e4d45569a.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "\u2018We lived within our means\u2019: I earned $30,000 as a pastor and still retired comfortably. Why don\u2019t you tell people that?",
+          "url": "https://www.marketwatch.com/story/we-lived-within-our-means-i-earned-30-000-as-a-pastor-and-still-retired-comfortably-why-dont-you-tell-people-that-6b9f231e?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T15:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "367465739f6d05d1",
+      "cluster_id": "c_2816a0e44f625036",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_2816a0e44f625036.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_2816a0e44f625036.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "\u2018I want to make her proud\u2019: My mother, a divorc\u00e9e, died and I\u2019m her executor. Do I need to file for probate?",
+          "url": "https://www.marketwatch.com/story/i-want-to-make-her-proud-my-mother-a-divorcee-died-and-im-her-executor-do-i-need-to-file-for-probate-a39b1123?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T15:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "7a499f0bd8346381",
+      "cluster_id": "c_d01970c1f08e4a77",
+      "program": "MARKETS_BRIEF",
+      "report": "markets_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_d01970c1f08e4a77.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/markets_brief/c_d01970c1f08e4a77.speak.txt",
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "source": "MarketWatch Top Stories",
+          "title": "\u2018Complete destruction of the economy is all but certain\u2019: Top jobs and home prices are at risk, a new report on AI says",
+          "url": "https://www.marketwatch.com/story/another-viral-ai-doomsday-report-claims-its-over-why-home-prices-could-take-a-hit-as-screen-based-jobs-disappear-4bed48bc?mod=mw_rss_topstories",
+          "published_at": "2026-10-02T14:49:00Z"
+        }
+      ]
+    },
+    {
+      "id": "a1ff706534ca0049",
+      "cluster_id": "c_329bea53636ed2da",
+      "program": "UNIVERSITIES_BRIEF",
+      "report": "universities_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_329bea53636ed2da.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/universities_brief/c_329bea53636ed2da.speak.txt",
+      "sources": [
+        {
+          "publisher": "MIT News",
+          "source": "MIT News",
+          "title": "The next generation\u2019s guide to the new space economy",
+          "url": "https://news.mit.edu/2026/guide-to-new-space-economy-1002",
+          "published_at": "2026-10-02T14:50:00Z"
+        }
+      ]
+    },
+    {
+      "id": "774a3c801e77f20c",
+      "cluster_id": "c_27aacbffd21e7d8c",
+      "program": "SCIENCE_BRIEF",
+      "report": "science_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/science_brief/c_27aacbffd21e7d8c.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/science_brief/c_27aacbffd21e7d8c.speak.txt",
+      "sources": [
+        {
+          "publisher": "Nature",
+          "source": "Nature",
+          "title": "Prozac use for childhood depression skewed by single flawed medical trial",
+          "url": "https://www.nature.com/articles/d41586-026-02769-x",
+          "published_at": "2026-10-02T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "67edc331babcccda",
+      "cluster_id": "c_bf641c3db3d55e95",
+      "program": "MAINLAND_WEATHER_BRIEF",
+      "report": "mainland_weather_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_bf641c3db3d55e95.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_bf641c3db3d55e95.speak.txt",
+      "sources": [
+        {
+          "publisher": "National Hurricane Center",
+          "source": "NHC Eastern North Pacific",
+          "title": "Hurricane Rachel Public Advisory Number 22",
+          "url": "https://www.nhc.noaa.gov/text/refresh/MIATCPEP3+shtml/021449.shtml",
+          "published_at": "2026-10-02T14:49:49Z"
+        }
+      ]
+    },
+    {
+      "id": "95a6950f0db0e305",
+      "cluster_id": "c_0201d99bce5afadd",
+      "program": "MAINLAND_WEATHER_BRIEF",
+      "report": "mainland_weather_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_0201d99bce5afadd.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_0201d99bce5afadd.speak.txt",
+      "sources": [
+        {
+          "publisher": "National Hurricane Center",
+          "source": "NHC Eastern North Pacific",
+          "title": "Hurricane Rachel Forecast Advisory Number 22",
+          "url": "https://www.nhc.noaa.gov/text/refresh/MIATCMEP3+shtml/021449.shtml",
+          "published_at": "2026-10-02T14:49:50Z"
+        }
+      ]
+    },
+    {
+      "id": "25dc721f3e1f308d",
+      "cluster_id": "c_e49439a383e3545d",
+      "program": "MAINLAND_WEATHER_BRIEF",
+      "report": "mainland_weather_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_e49439a383e3545d.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_e49439a383e3545d.speak.txt",
+      "sources": [
+        {
+          "publisher": "National Hurricane Center",
+          "source": "NHC Eastern North Pacific",
+          "title": "Hurricane Rachel Forecast Discussion Number 22",
+          "url": "https://www.nhc.noaa.gov/text/refresh/MIATCDEP3+shtml/021451.shtml",
+          "published_at": "2026-10-02T14:51:50Z"
+        }
+      ]
+    },
+    {
+      "id": "c102e125a7a0a44b",
+      "cluster_id": "c_15cdadd23ff5666c",
+      "program": "MAINLAND_WEATHER_BRIEF",
+      "report": "mainland_weather_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_15cdadd23ff5666c.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/mainland_weather_brief/c_15cdadd23ff5666c.speak.txt",
+      "sources": [
+        {
+          "publisher": "National Hurricane Center",
+          "source": "NHC Eastern North Pacific",
+          "title": "Hurricane Rachel Wind Speed Probabilities Number 22",
+          "url": "https://www.nhc.noaa.gov/text/refresh/MIAPWSEP3+shtml/021450.shtml",
+          "published_at": "2026-10-02T14:50:21Z"
+        }
+      ]
+    },
+    {
+      "id": "084093f196a0c40c",
+      "cluster_id": "c_2564bc0af4068944",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_2564bc0af4068944.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_2564bc0af4068944.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR News",
+          "title": "Cloaked in anonymity, Israeli soldiers describe mass civilian killings in 'NAZA'",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5987714/naza-review-israel-palestine",
+          "published_at": "2026-10-02T14:37:27Z"
         }
       ]
     }

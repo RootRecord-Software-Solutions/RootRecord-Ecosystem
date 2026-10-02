@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "at": "2026-10-02T05:02:14-10:00",
+  "at": "2026-10-02T05:12:16-10:00",
   "what": "all",
   "dry_run": false,
   "sources": {
@@ -9,7 +9,7 @@
       "count": 21,
       "new": 0,
       "new_m2": 0,
-      "ms": 409
+      "ms": 109
     },
     "global": {
       "ok": true,
@@ -21,7 +21,7 @@
       "ok": true,
       "count": 47,
       "new": 0,
-      "ms": 391
+      "ms": 392
     },
     "hvo_status": {
       "ok": true,

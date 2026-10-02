@@ -1,7 +1,7 @@
 {
   "collector": "ml2.radio_rss",
   "status": "ok",
-  "collected_at": "2026-10-02T15:02:13Z",
+  "collected_at": "2026-10-02T15:12:15Z",
   "rr_database_root": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank",
   "radio_root": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss",
   "poll": {
@@ -16,142 +16,152 @@
       {
         "feed": "aljazeera_all",
         "ok": true,
-        "items": 0
-      },
-      {
-        "feed": "azure_blog",
-        "ok": true,
-        "items": 0
-      },
-      {
-        "feed": "bbc_africa",
-        "ok": true,
         "items": 20,
-        "duplicates": 11
-      },
-      {
-        "feed": "bbc_asia",
-        "ok": true,
-        "items": 17,
         "duplicates": 17
       },
       {
-        "feed": "bbc_australia",
+        "feed": "hawaii_governor",
         "ok": true,
-        "items": 17,
-        "duplicates": 11
+        "items": 0
       },
       {
-        "feed": "bbc_business",
-        "ok": true,
-        "items": 20,
-        "duplicates": 18
+        "feed": "jpl_news",
+        "ok": false
       },
       {
-        "feed": "bbc_europe",
+        "feed": "marketwatch_top",
+        "ok": true,
+        "items": 10,
+        "duplicates": 7
+      },
+      {
+        "feed": "microsoft_blog",
+        "ok": true,
+        "items": 0
+      },
+      {
+        "feed": "microsoft_news",
+        "ok": true,
+        "items": 0
+      },
+      {
+        "feed": "mit_news",
         "ok": true,
         "items": 20,
         "duplicates": 19
       },
       {
-        "feed": "bbc_latin_america",
-        "ok": true,
-        "items": 17,
-        "duplicates": 17
-      },
-      {
-        "feed": "bbc_middle_east",
-        "ok": true,
-        "items": 20,
-        "duplicates": 18
-      },
-      {
-        "feed": "bbc_world",
-        "ok": true,
-        "items": 20,
-        "duplicates": 19
-      },
-      {
-        "feed": "bea_news",
+        "feed": "mit_research",
         "ok": true,
         "items": 20,
         "duplicates": 20
       },
       {
-        "feed": "berkeley_news",
+        "feed": "nasa_artemis",
         "ok": true,
-        "items": 0
+        "items": 10,
+        "duplicates": 9
       },
       {
-        "feed": "breaking_defense",
-        "ok": true,
-        "items": 0
-      },
-      {
-        "feed": "cisa_news",
+        "feed": "nasa_jpl",
         "ok": true,
         "items": 10,
         "duplicates": 10
       },
       {
-        "feed": "civil_beat",
+        "feed": "nasa_news",
         "ok": true,
-        "items": 0
+        "items": 10,
+        "duplicates": 10
       },
       {
-        "feed": "defense_news",
+        "feed": "nasa_recent",
+        "ok": true,
+        "items": 10,
+        "duplicates": 10
+      },
+      {
+        "feed": "nasa_station",
+        "ok": true,
+        "items": 10,
+        "duplicates": 10
+      },
+      {
+        "feed": "nasaspaceflight",
+        "ok": false
+      },
+      {
+        "feed": "nature_news",
         "ok": true,
         "items": 20,
         "duplicates": 19
       },
       {
-        "feed": "esa_human_spaceflight",
+        "feed": "nhc_atlantic",
         "ok": true,
-        "items": 15,
-        "duplicates": 14
+        "items": 2,
+        "duplicates": 2
       },
       {
-        "feed": "esa_space_science",
+        "feed": "nhc_eastern_pacific",
         "ok": true,
-        "items": 15,
-        "duplicates": 15
+        "items": 7,
+        "duplicates": 3
       },
       {
-        "feed": "esa_top_news",
+        "feed": "nist_cyber_insights",
         "ok": true,
-        "items": 9,
+        "items": 20,
+        "duplicates": 20
+      },
+      {
+        "feed": "nist_cybersecurity",
+        "ok": true,
+        "items": 0,
+        "duplicates": 0
+      },
+      {
+        "feed": "nist_news",
+        "ok": true,
+        "items": 20,
+        "duplicates": 20
+      },
+      {
+        "feed": "noaa_news",
+        "ok": true,
+        "items": 10,
         "duplicates": 8
       },
       {
-        "feed": "fed_monetary",
+        "feed": "npr_national",
         "ok": true,
-        "items": 0
+        "items": 10,
+        "duplicates": 9
       },
       {
-        "feed": "github_changelog",
+        "feed": "npr_news",
         "ok": true,
-        "items": 0
-      },
-      {
-        "feed": "guardian_international",
-        "ok": true,
-        "items": 20,
-        "duplicates": 17
-      },
-      {
-        "feed": "harvard_gazette",
-        "ok": true,
-        "items": 0
+        "items": 10,
+        "duplicates": 8
       }
     ],
     "composed": [
-      "c_62059885853097df",
-      "c_86ad351a3839a216"
+      "c_19c17b3d944887d0",
+      "c_963bb69e4d45569a",
+      "c_2816a0e44f625036",
+      "c_d01970c1f08e4a77",
+      "c_329bea53636ed2da",
+      "c_27aacbffd21e7d8c",
+      "c_bf641c3db3d55e95",
+      "c_0201d99bce5afadd",
+      "c_e49439a383e3545d",
+      "c_15cdadd23ff5666c",
+      "c_2564bc0af4068944"
     ]
   },
   "handoff_core": 3,
   "handoff_stories": 80,
-  "handoff_story_bytes": 102585,
+  "handoff_story_bytes": 107180,
   "error": null,
   "pacific_job": "radio_rss_poll",
   "note": "vendor/RadioRss poll + queue export; no speak/push. Pacific radio_rss_poll stays in jobs.py (RR_LOCAL_DATA_POLL gate)."
