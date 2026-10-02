@@ -1117,7 +1117,7 @@ ON_AT = [  # info: set ON_AT
         # (weather poller) + NWS HI alerts. No delivery, no OBS. Radio is media_hurricane_radio, gated off.
         "id": "voice_hurricane_desk",  # info: "id" : "voice_hurricane_desk" ,
         "enabled": os.environ.get("RR_VOICE_HURRICANE", "0") == "1",  # info: "enabled" : os . environ . get (
-        "description": "Carly hurricane desk (nearest tracked storm to a Hawaiian island + NWS tropical alerts). No delivery.",  # info: "description" : "Carly hurricane desk (nearest tracked storm to a Hawaiian island + NWS tropical alerts). No d
+        "description": "Carly hurricane desk at :40, twenty minutes before the hour snapshot (nearest tracked storm to a Hawaiian island + NWS tropical alerts). No delivery.",  # info: "description" : "Carly hurricane desk at :40, twenty minutes before the hour snapshot (nearest tracked storm to a Hawaiian island + NWS tropical alerts). No d
         "at_times": ["05:40", "09:40", "12:40", "16:40", "20:40"],  # info: "at_times" : [ "05:40" , "09:40" , "12:40" , "16:40" , "20:40" ] ,
         "builtin": "",  # info: "builtin" : "" ,
         "command": f'nice -n 10 python3 "{PACIFIC}/Media/Voice/scripts/voice_reports.py" hurricane_desk',  # info: "command" : f' nice -n 10 python3 " { PACIFIC } /Media/Voice/scripts/voice_reports.py" hurricane_desk
