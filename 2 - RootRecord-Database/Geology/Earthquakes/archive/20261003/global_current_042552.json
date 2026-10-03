@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-03T04:24:27-10:00",
+  "at": "2026-10-03T04:14:36-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii_current ids",
-  "count": 38,
-  "count_m2": 38,
-  "count_m25": 38,
+  "count": 37,
+  "count_m2": 37,
+  "count_m25": 37,
   "largest": {
     "id": "us6000tz62",
     "mag": 5.8,
@@ -14,7 +14,7 @@
     "time_hst": "2026-10-02T06:34:41.010000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-03T14:24:19+00:00",
+  "usgs_generated_utc": "2026-10-03T14:14:19+00:00",
   "events": [
     {
       "id": "uu80158431",
@@ -46,22 +46,6 @@
       "tsunami": 0,
       "type": "earthquake",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925220",
-      "nearest": null
-    },
-    {
-      "id": "us6000tzcm",
-      "mag": 4.5,
-      "mag_type": "mb",
-      "place": "Kermadec Islands region",
-      "time_utc": "2026-10-03T13:51:11.299000+00:00",
-      "time_hst": "2026-10-03T03:51:11.299000-10:00",
-      "lon": -179.4827,
-      "lat": -27.4948,
-      "depth_km": 453.487,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzcm",
       "nearest": null
     },
     {

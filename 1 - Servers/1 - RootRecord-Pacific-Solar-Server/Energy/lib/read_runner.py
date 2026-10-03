@@ -8,7 +8,7 @@
 # Kind: python
 # ==============================================================================
 #!/usr/bin/env python3
-"""Read live snapshot. BLE first. Cloud quota fills after BLE has been quiet past the hold."""  # info: docstring
+"""Read live snapshot. BLE only. A miss keeps the last BLE file or WAITING — never EcoFlow cloud."""  # info: docstring
 from __future__ import annotations  # info: from __future__ import annotations
 
 import argparse  # info: import argparse
