@@ -1,7 +1,27 @@
 {
-  "at": "2026-10-03T00:29:56-10:00",
+  "at": "2026-10-03T00:30:14-10:00",
   "runs": 1,
   "cushion_minutes": 3.0,
+  "base_start_minute": 42,
+  "push_minute": 55,
+  "total": {
+    "seconds": {
+      "avg": 516.6,
+      "median": 516.6,
+      "p95": 516.6,
+      "min": 516.6,
+      "max": 516.6,
+      "last": 516.6
+    },
+    "minutes": {
+      "avg": 8.61,
+      "median": 8.61,
+      "p95": 8.61,
+      "min": 8.61,
+      "max": 8.61,
+      "last": 8.61
+    }
+  },
   "wall_seconds": {
     "avg": 516.6,
     "median": 516.6,
