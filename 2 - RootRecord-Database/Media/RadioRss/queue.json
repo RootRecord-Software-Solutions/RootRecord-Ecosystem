@@ -7527,7 +7527,7 @@
         {
           "publisher": "ABC News Australia",
           "source": "ABC News Australia Top Stories",
-          "title": "Breaking: Multiple injuries after car hits crowd of Knights supporters in Newcastle",
+          "title": "Breaking: Multiple people injured as car hits crowd at Knights pre-grand final farewell",
           "url": "https://www.abc.net.au/news/2026-10-03/newcastle-knights-car-crash-wallsend-injuries/107224666",
           "published_at": "2026-10-03T00:23:10Z"
         }
@@ -7566,6 +7566,24 @@
           "title": "Cyclospora found at Mexican farm linked to lettuce outbreak, FDA says",
           "url": "https://www.theguardian.com/us-news/2026/oct/02/cyclospora-mexico-farm-lettuce",
           "published_at": "2026-10-03T00:27:28Z"
+        }
+      ]
+    },
+    {
+      "id": "12157c33c519f95d",
+      "cluster_id": "c_65136404799b9ccb",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_65136404799b9ccb.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_65136404799b9ccb.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "US and Australia suspend diplomatic operations in Brazil before election",
+          "url": "https://www.aljazeera.com/news/2026/10/3/us-and-australia-suspend-diplomatic-operations-in-brazil-before-election?traffic_source=rss",
+          "published_at": "2026-10-03T00:46:10Z"
         }
       ]
     }

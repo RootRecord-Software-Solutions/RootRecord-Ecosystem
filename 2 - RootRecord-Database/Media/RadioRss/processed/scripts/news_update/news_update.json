@@ -1,7 +1,7 @@
 {
   "report": "news_update",
-  "hour": 13,
-  "words": 3579,
+  "hour": 15,
+  "words": 3482,
   "sections": [
     {
       "id": "markets",
@@ -9,36 +9,42 @@
       "text": "RootRecord news update for October 2, 2026. Markets. MarketWatch reports that Falling wages, soaring energy prices and inflation: It\u2019s beginning to look a lot like the 1970s. Is it time to dust off the financial playbook from that dismal decade? MarketWatch reports that Why mixing politics with your stock portfolio might be costing you money. Data shows that partisan ETFs result in higher fees and lower market returns MarketWatch reports that Does AI have a soul? Pope Leo and Anthropic clash.. The Vatican has laid a moral blueprint for the technology, with Pope Leo maintaining that \u201calgorithms lack the spark of humanity.\u201d MarketWatch reports that Europe\u2019s leaders rush to release diesel from stockpiles as fuel shock hangs over U.S. midterms. Europe leaders agreed Friday to release some of diesel stockpiles, pulling prices of oil down by as much as 5%. MarketWatch reports that This city saw 1 in 3 home sellers slash their asking price in September to attract reluctant buyers. As hesitant buyers drive home prices down, these are the places with the most price cuts and the biggest markdowns. the BBC reports that G7 to release 100 million barrels of oil and diesel after Trump export ban threat. The coordinated release is aimed at heading off further price spikes and avoiding a ban on US diesel exports.",
       "sources": [
         {
+          "id": "bb5352147013605e4035",
           "publisher": "MarketWatch",
           "title": "Falling wages, soaring energy prices and inflation: It\u2019s beginning to look a lot like the 1970s",
           "url": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories",
           "published_at": "2026-10-02T21:54:00Z"
         },
         {
+          "id": "fb10701016cee55df12a",
           "publisher": "MarketWatch",
           "title": "Why mixing politics with your stock portfolio might be costing you money",
           "url": "https://www.marketwatch.com/story/why-mixing-politics-with-your-stock-portfolio-might-be-costing-you-money-5b4aabfb?mod=mw_rss_topstories",
           "published_at": "2026-10-02T20:43:00Z"
         },
         {
+          "id": "09f9fc016eaee397f409",
           "publisher": "MarketWatch",
           "title": "Does AI have a soul? Pope Leo and Anthropic clash.",
           "url": "https://www.marketwatch.com/story/does-ai-have-a-soul-pope-leo-and-anthropic-clash-0c1669fb?mod=mw_rss_topstories",
           "published_at": "2026-10-02T20:40:00Z"
         },
         {
+          "id": "0d34b160d3f1110f12d1",
           "publisher": "MarketWatch",
           "title": "Europe\u2019s leaders rush to release diesel from stockpiles as fuel shock hangs over U.S. midterms",
           "url": "https://www.marketwatch.com/story/europes-leaders-rush-to-release-diesel-from-stockpiles-as-fuel-shock-hangs-over-u-s-midterms-80bf0f38?mod=mw_rss_topstories",
           "published_at": "2026-10-02T20:26:00Z"
         },
         {
+          "id": "6206ba33f8edbb1b57b4",
           "publisher": "MarketWatch",
           "title": "This city saw 1 in 3 home sellers slash their asking price in September to attract reluctant buyers",
           "url": "https://www.marketwatch.com/story/this-city-saw-1-in-3-home-sellers-slash-their-asking-price-in-september-to-attract-reluctant-buyers-7f16a0c3?mod=mw_rss_topstories",
           "published_at": "2026-10-02T20:26:00Z"
         },
         {
+          "id": "eb8605df564a57f4d288",
           "publisher": "BBC",
           "title": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
           "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
@@ -49,150 +55,171 @@
     {
       "id": "defence",
       "persona": "bruce",
-      "text": "National security. Breaking Defense reports that Army to establish new autonomy command, acquisition executive. The service\u2019s new command will be called Army Futures and Autonomous Systems Command, or FASCOM, according to a memo signed by Acting Army Secretary Adam Telle. Breaking Defense reports that GDIT replaces longtime president Gilliland. Paul Nedzbala, who joined GDIT in 2018, has been appointed acting president. U.S. Naval Institute News reports that Pentagon Doubles Down on Pacific Area Denial, Need for High-end Munitions. The Pentagon doubled down on its plans to establish a forward-deployed area denial, anti-access network along the First Island Chain to deter China in the 2026 National Defense Security update. In a Sept. 22 report to the Senate Armed Services Committee on the 2026 NDS, Defense Under Secretary for Policy Elbridge Colby highlighted the department\u2019s efforts to establish a \u201cdeterrence by denial\u201d posture in the Indo-Pacific against China. The move is the culmination of attempts within the last decade to prepare American forces for a potential conflict against China, one that would require expansive logistics and missile volleys over the Defense News reports that Saudis plan assault on Houthis to break Red Sea chokehold. More than 100,000 Yemeni troops could be mobilized in the offensive, depending on the scale, officials said. Breaking Defense reports that Long-range radar deal puts Ireland on course to shrink capability gap. Dublin said last year that a \u201crecord\u201d \u20ac1.5 billion defense budget would allow \u201csignificant progress\u201d to be made on the radar project.",
+      "text": "National security. Breaking Defense reports that Army to establish new autonomy command, acquisition executive. The service\u2019s new command will be called Army Futures and Autonomous Systems Command, or FASCOM, according to a memo signed by Acting Army Secretary Adam Telle. Breaking Defense reports that GDIT replaces longtime president Gilliland. Paul Nedzbala, who joined GDIT in 2018, has been appointed acting president. U.S. Naval Institute News reports that Pentagon Doubles Down on Pacific Area Denial, Need for High-end Munitions. The Pentagon doubled down on its plans to establish a forward-deployed area denial, anti-access network along the First Island Chain to deter China in the 2026 National Defense Security update In a Sept 22 report to the Senate Armed Services Committee on the 2026 NDS, Defense Under Secretary for Policy Elbridge Colby highlighted the department\u2019s efforts to establish a \u201cdeterrence by denial\u201d posture in the Indo-Pacific against China The move is the culmination of attempts within the last decade to prepare American forces for a potential conflict against China, one that would require expansive logistics and missile volleys over the Breaking Defense reports that Long-range radar deal puts Ireland on course to shrink capability gap. Dublin said last year that a \u201crecord\u201d \u20ac1.5 billion defense budget would allow \u201csignificant progress\u201d to be made on the radar project. Breaking Defense reports that After yearslong delay, Taiwan receives first pair of new F-16s. The two jets landed at an airbase in eastern Taiwan on Friday.",
       "sources": [
         {
+          "id": "743e5f6a4ac28528dd25",
           "publisher": "Breaking Defense",
           "title": "Army to establish new autonomy command, acquisition executive",
           "url": "https://breakingdefense.com/2026/10/army-to-establish-new-autonomy-command-acquisition-executive/",
           "published_at": "2026-10-02T21:46:37Z"
         },
         {
+          "id": "f61b84553b73f486f8c3",
           "publisher": "Breaking Defense",
           "title": "GDIT replaces longtime president Gilliland",
           "url": "https://breakingdefense.com/2026/10/gdit-replaces-longtime-president-gilliland/",
           "published_at": "2026-10-02T20:18:22Z"
         },
         {
+          "id": "5c34bbc94e3fd05679ac",
           "publisher": "USNI News",
           "title": "Pentagon Doubles Down on Pacific Area Denial, Need for High-end Munitions",
           "url": "https://news.usni.org/2026/10/02/pentagon-doubles-down-on-pacific-area-denial-need-for-high-end-munitions",
           "published_at": "2026-10-02T19:07:08Z"
         },
         {
-          "publisher": "Defense News",
-          "title": "Saudis plan assault on Houthis to break Red Sea chokehold",
-          "url": "https://www.defensenews.com/global/mideast-africa/2026/10/02/saudis-plan-assault-on-houthis-to-break-red-sea-chokehold/",
-          "published_at": "2026-10-02T19:00:24Z"
-        },
-        {
+          "id": "720686cb6255a8a9e526",
           "publisher": "Breaking Defense",
           "title": "Long-range radar deal puts Ireland on course to shrink capability gap",
           "url": "https://breakingdefense.com/2026/10/long-range-radar-deal-puts-ireland-on-course-to-shrink-capability-gap/",
           "published_at": "2026-10-02T18:20:00Z"
+        },
+        {
+          "id": "0fe6e5cc8898cf542519",
+          "publisher": "Breaking Defense",
+          "title": "After yearslong delay, Taiwan receives first pair of new F-16s",
+          "url": "https://breakingdefense.com/2026/10/after-yearslong-delay-taiwan-receives-first-pair-of-new-f-16s/",
+          "published_at": "2026-10-02T17:20:31Z"
         }
       ]
     },
     {
       "id": "spacex",
       "persona": "bruce",
-      "text": "SpaceX. Ars Technica reports that Rocket Report: SpaceX completes launch triple-header; Rocket Lab nets big contract. Blue Origin seeks FAA approval for up to 50 New Glenn launches and 50 booster landings per year. the Honolulu Star-Advertiser reports that SpaceX launches 13th long-duration astronaut crew to International Space Station. CAPE CANAVERAL, Florida >> A SpaceX rocket lifted off from Florida on Thursday with a crew of two U.S. astronauts, a Canadian astronaut and a Russian cosmonaut headed to the International Space Station for a science mission devoted to human health and performance in orbit. Spaceflight Now reports that Falcon Heavy flies its first mission for U.S. spy satellite agency. The 14th Falcon Heavy rocket is scheduled to blast off on a clandestine mission from Launch Complex 39A at NASA\u2019s Kennedy Space Center at 11:54 p.m. EDT (0354 UTC). Ars Technica reports that SpaceX describes surgical intervention before launch of latest crew mission. With Crew-13, Jessica Watkins became the first Black woman to lead a mission into space.",
+      "text": "SpaceX. Ars Technica reports that Rocket Report: SpaceX completes launch triple-header; Rocket Lab nets big contract. Blue Origin seeks FAA approval for up to 50 New Glenn launches and 50 booster landings per year. Ars Technica reports that SpaceX describes surgical intervention before launch of latest crew mission. With Crew-13, Jessica Watkins became the first Black woman to lead a mission into space. the BBC reports that SpaceX launches crew to ISS. The Falcon 9 rocket blasted off from Cape Canaveral with two Americans, a Russian and a Canadian who will spend up to six months aboard the International Space Station. Deutsche Welle reports that New crew makes the quickest US flight to ISS. The SpaceX spacecraft carrying the Crew-13 team docked with the International Space Station in 7 hours and 55 minutes, setting a new record.",
       "sources": [
         {
+          "id": "42e27eaab69948a6f975",
           "publisher": "Ars Technica",
           "title": "Rocket Report: SpaceX completes launch triple-header; Rocket Lab nets big contract",
           "url": "https://arstechnica.com/space/2026/10/rocket-report-spacex-completes-launch-triple-header-rocket-lab-nets-big-contract/",
           "published_at": "2026-10-02T13:54:34Z"
         },
         {
-          "publisher": "Honolulu Star-Advertiser",
-          "title": "SpaceX launches 13th long-duration astronaut crew to International Space Station",
-          "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/spacex-launches-13th-long-duration-astronaut-crew-to-international-space-station/",
-          "published_at": "2026-10-02T01:30:00Z"
-        },
-        {
-          "publisher": "Spaceflight Now",
-          "title": "Falcon Heavy flies its first mission for U.S. spy satellite agency",
-          "url": "https://spaceflightnow.com/2026/10/01/falcon-heavy-to-fly-its-first-mission-for-u-s-spy-satellite-agency/",
-          "published_at": "2026-10-01T22:37:30Z"
-        },
-        {
+          "id": "b8e554c1a4bf26435dc6",
           "publisher": "Ars Technica",
           "title": "SpaceX describes surgical intervention before launch of latest crew mission",
           "url": "https://arstechnica.com/space/2026/10/spacex-describes-surgical-intervention-before-launch-of-latest-crew-mission/",
           "published_at": "2026-10-01T22:07:33Z"
+        },
+        {
+          "id": "9de66338748a8d885eaa",
+          "publisher": "BBC",
+          "title": "SpaceX launches crew to ISS",
+          "url": "https://www.bbc.co.uk/news/videos/c5rm9mdperemo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T16:32:17Z"
+        },
+        {
+          "id": "47c8d9b88c9910fff368",
+          "publisher": "Deutsche Welle",
+          "title": "New crew makes the quickest US flight to ISS",
+          "url": "https://www.dw.com/en/new-crew-makes-the-quickest-us-flight-to-iss/a-79509556?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "2026-10-02T03:23:00Z"
         }
       ]
     },
     {
       "id": "hawaii",
-      "persona": "ava",
-      "text": "Hawaii. the Office of the Governor of Hawaii reports that DLNR News Release \u2013 L\u0101na\u02bbi Axis Deer Hunting Season Announced. STATE OF HAWAI\u02bbI KA MOKU \u02bb\u0100INA O HAWAI\u02bbI JOSH GREEN, M.D. GOVERNOR KE KIA\u02bb\u0100INA DEPARTMENT OF LAND AND NATURAL RESOURCES KA \u2018OIHANA KUMUWAIWAI \u2018\u0100INA RYAN K.P. KANAKA\u2018OLE [\u2026] the Honolulu Star-Advertiser reports that Bicyclist, 40, dies in collision on Sand Island Access Road. A 40-year-old bicyclist died this morning after he was struck by a vehicle on Sand Island Access Road near the Keehi Marina Boat Harbor in Kalihi, according to the Honolulu Police Department. the Office of the Governor of Hawaii reports that News Release \u2013 DOH Alerts Public to Sierra Nevada Cheese Company Recall of All Graziers Raw Milk Cheeses. STATE OF HAWAI\u02bbI KA MOKU \u02bb\u0100INA O HAWAI\u02bbI JOSH GREEN, M.D. GOVERNOR KE KIA\u02bb\u0100INA DEPARTMENT OF HEALTH KA \u02bbOIHANA OLAKINO KENNETH FINK, MD, MGA, MPH DIRECTOR KA [\u2026] the Honolulu Star-Advertiser reports that Firefighters extinguish early-morning blaze at Leeward Drive-Inn. Honolulu firefighters extinguished an early-morning fire at the Leeward Drive-Inn in Waipahu today. the Honolulu Star-Advertiser reports that Combined Paramount and Warner Bros Discovery to be named Skydance. Paramount Skydance CEO David Ellison today said, upon closing the company\u2019s merger with Warner Bros Discovery, that the combined entity will be called Skydance.",
+      "persona": "carly",
+      "text": "Hawaii. Hawaii News Now reports that Launch ramp at Port Allen Small Boat Harbor reopens. The launch ramp at Port Allen Small Boat Harbor in Hanap\u0113p\u0113 Bay reopened Friday afternoon. the Honolulu Star-Advertiser reports that Kristi Noem files for divorce after 34 years of marriage. Kristi Noem, the former South Dakota governor whom President Donald Trump fired as homeland security secretary in March, has filed for divorce from her husband, Bryon Noem, after 34 years of marriage, according to court records. the Honolulu Star-Advertiser reports that Trump directed use of taxpayer money for ads praising his presidency. WASHINGTON >> President Donald Trump personally instructed his budget director to use taxpayer money for TV ads praising him and his presidency, setting in motion a $20 million contract that used funds from the Department of Homeland Security, according to people familiar with the matter. the Office of the Governor of Hawaii reports that DLNR News Release \u2013 L\u0101na\u02bbi Axis Deer Hunting Season Announced. STATE OF HAWAI\u02bbI KA MOKU \u02bb\u0100INA O HAWAI\u02bbI JOSH GREEN, M.D GOVERNOR KE KIA\u02bb\u0100INA DEPARTMENT OF LAND AND NATURAL RESOURCES KA \u2018OIHANA KUMUWAIWAI \u2018\u0100INA RYAN K.P KANAKA\u2018OLE [\u2026] the Honolulu Star-Advertiser reports that Firefighters extinguish early-morning blaze at Leeward Drive-Inn. Honolulu firefighters extinguished an early-morning fire at the Leeward Drive-Inn in Waipahu today.",
       "sources": [
         {
+          "id": "5ff403f9ed545c25a66d",
+          "publisher": "Hawaii News Now",
+          "title": "Launch ramp at Port Allen Small Boat Harbor reopens",
+          "url": "https://www.hawaiinewsnow.com/2026/10/03/launch-ramp-port-allen-small-boat-harbor-reopens/",
+          "published_at": "2026-10-03T00:48:13Z"
+        },
+        {
+          "id": "58c9d8230904e1fc9206",
+          "publisher": "Honolulu Star-Advertiser",
+          "title": "Kristi Noem files for divorce after 34 years of marriage",
+          "url": "https://www.staradvertiser.com/2026/10/02/breaking-news/kristi-noem-files-for-divorce-after-34-years-of-marriage/",
+          "published_at": "2026-10-02T23:50:00Z"
+        },
+        {
+          "id": "1e638799b1e5069e48b9",
+          "publisher": "Honolulu Star-Advertiser",
+          "title": "Trump directed use of taxpayer money for ads praising his presidency",
+          "url": "https://www.staradvertiser.com/2026/10/02/breaking-news/trump-directed-use-of-taxpayer-money-for-ads-praising-his-presidency/",
+          "published_at": "2026-10-02T23:20:00Z"
+        },
+        {
+          "id": "9bc305217be6a9b5680a",
           "publisher": "Office of the Governor of Hawaii",
           "title": "DLNR News Release \u2013 L\u0101na\u02bbi Axis Deer Hunting Season Announced",
           "url": "https://governor.hawaii.gov/main/dlnr-news-release-lana%ca%bbi-axis-deer-hunting-season-announced/",
           "published_at": "2026-10-02T22:48:16Z"
         },
         {
-          "publisher": "Honolulu Star-Advertiser",
-          "title": "Bicyclist, 40, dies in collision on Sand Island Access Road",
-          "url": "https://www.staradvertiser.com/2026/10/02/breaking-news/bicyclist-40-dies-in-collision-on-sand-island-access-road/",
-          "published_at": "2026-10-02T20:30:00Z"
-        },
-        {
-          "publisher": "Office of the Governor of Hawaii",
-          "title": "News Release \u2013 DOH Alerts Public to Sierra Nevada Cheese Company Recall of All Graziers Raw Milk Cheeses",
-          "url": "https://governor.hawaii.gov/newsroom/news-release-doh-alerts-public-to-sierra-nevada-cheese-company-recall-of-all-graziers-raw-milk-cheeses/",
-          "published_at": "2026-10-02T20:22:12Z"
-        },
-        {
+          "id": "e237e01141d582a00c48",
           "publisher": "Honolulu Star-Advertiser",
           "title": "Firefighters extinguish early-morning blaze at Leeward Drive-Inn",
           "url": "https://www.staradvertiser.com/2026/10/02/breaking-news/firefighters-extinguish-early-morning-blaze-at-leeward-drive-inn/",
           "published_at": "2026-10-02T19:50:00Z"
-        },
-        {
-          "publisher": "Honolulu Star-Advertiser",
-          "title": "Combined Paramount and Warner Bros Discovery to be named Skydance",
-          "url": "https://www.staradvertiser.com/2026/10/02/breaking-news/combined-paramount-and-warner-bros-discovery-to-be-named-skydance/",
-          "published_at": "2026-10-02T19:30:00Z"
         }
       ]
     },
     {
       "id": "chips",
-      "persona": "bruce",
-      "text": "Tech and chips. GitHub reports that Stateless GitHub App installation tokens rolled out. The staged rollout of the stateless GitHub App installation token format, which began on April 27, 2026, is complete. By default, all newly minted GitHub App installation tokens will be\u2026 The post Stateless GitHub App installation tokens rolled out appeared first on The GitHub Blog . U.S. Naval Institute News reports that Navy Contracts RTX for $24.4B Standard Missile-6 Deal. The U.S. Navy contracted RTX to produce more than 1,900 Standard Missile-6s over five years in a $24.4 billion deal announced on Thursday. \u201cThis SM-6 award gives industry the demand signal and stability to expand production, strengthen the munitions industrial base, and build the magazine depth our fleet needs. That is the foundry delivering for the fleet \u2013 and ensuring our sailors have the combat power to fight and win,\u201d Chief of Naval Operations Adm. Daryl Caudle said in a Navy release on the award. While RTX and the Navy did not specify the amount of SM-6s that will be GitHub reports that Copilot code review: API support and new default effort level. You can now request a GitHub Copilot code review through the REST and GraphQL APIs and set the review effort level for each request. Balanced is also now the default\u2026 The post Copilot code review: API support and new default effort level appeared first on The GitHub Blog . GitHub reports that Selected models in GitHub Copilot deprecated. As of today, October 2, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model\u2026 The post Selected models in GitHub Copilot deprecated appeared first on The GitHub Blog . GitHub reports that New fields for SecurityAdvisory GraphQL API. You can now read more of the GitHub Advisory Database directly from the GraphQL API without falling back to the REST API. The SecurityAdvisory object gained five new fields: cveId:\u2026 The post New fields for SecurityAdvisory GraphQL API appeared first on The GitHub Blog . GitHub reports that Confidential comments on repository security advisories. You can now post confidential comments on repository security advisories. Confidential comments are visible only to people with write access to the repository, so you can discuss a report with\u2026 The post Confidential comments on repository security advisories appeared first on The GitHub Blog . Google reports that The latest AI news we announced in September 2026. A video showing the September AI updates",
+      "persona": "ava",
+      "text": "Tech and chips. GitHub reports that Stateless GitHub App installation tokens rolled out. The staged rollout of the stateless GitHub App installation token format, which began on April 27, 2026, is complete By default, all newly minted GitHub App installation tokens will be\u2026 The post Stateless GitHub App installation tokens rolled out appeared first on The GitHub Blog . U.S. Naval Institute News reports that Navy Contracts RTX for $24.4B Standard Missile-6 Deal. The U.S Navy contracted RTX to produce more than 1,900 Standard Missile-6s over five years in a $24.4 billion deal announced on Thursday \u201cThis SM-6 award gives industry the demand signal and stability to expand production, strengthen the munitions industrial base, and build the magazine depth our fleet needs That is the foundry delivering for the fleet \u2013 and ensuring our sailors have the combat power to fight and win,\u201d Chief of Naval Operations Adm Daryl Caudle said in a Navy release on the award While RTX and the Navy did not specify the amount of SM-6s that will be GitHub reports that Copilot code review: API support and new default effort level. You can now request a GitHub Copilot code review through the REST and GraphQL APIs and set the review effort level for each request Balanced is also now the default\u2026 The post Copilot code review: API support and new default effort level appeared first on The GitHub Blog . GitHub reports that Selected models in GitHub Copilot deprecated. As of today, October 2, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) Model\u2026 The post Selected models in GitHub Copilot deprecated appeared first on The GitHub Blog . GitHub reports that New fields for SecurityAdvisory GraphQL API. You can now read more of the GitHub Advisory Database directly from the GraphQL API without falling back to the REST API The SecurityAdvisory object gained five new fields: cveId:\u2026 The post New fields for SecurityAdvisory GraphQL API appeared first on The GitHub Blog . GitHub reports that Confidential comments on repository security advisories. You can now post confidential comments on repository security advisories Confidential comments are visible only to people with write access to the repository, so you can discuss a report with\u2026 The post Confidential comments on repository security advisories appeared first on The GitHub Blog . Google reports that The latest AI news we announced in September 2026. A video showing the September AI updates",
       "sources": [
         {
+          "id": "7c547589df2cc625ad93",
           "publisher": "GitHub",
           "title": "Stateless GitHub App installation tokens rolled out",
           "url": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
           "published_at": "2026-10-02T22:18:23Z"
         },
         {
+          "id": "01001de18c6b7c180aff",
           "publisher": "USNI News",
           "title": "Navy Contracts RTX for $24.4B Standard Missile-6 Deal",
           "url": "https://news.usni.org/2026/10/02/navy-contracts-rtx-for-24-4b-standard-missile-6-deal",
           "published_at": "2026-10-02T20:59:48Z"
         },
         {
+          "id": "3d8c8b4fd774d410e70a",
           "publisher": "GitHub",
           "title": "Copilot code review: API support and new default effort level",
           "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
           "published_at": "2026-10-02T19:13:50Z"
         },
         {
+          "id": "75a0856587b3b24002a9",
           "publisher": "GitHub",
           "title": "Selected models in GitHub Copilot deprecated",
           "url": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
           "published_at": "2026-10-02T18:24:19Z"
         },
         {
+          "id": "f578bf7633d1eb3bac81",
           "publisher": "GitHub",
           "title": "New fields for SecurityAdvisory GraphQL API",
           "url": "https://github.blog/changelog/2026-10-02-new-fields-for-securityadvisory-graphql-api",
           "published_at": "2026-10-02T13:18:00Z"
         },
         {
+          "id": "e4af3fbb1d0ee88a2b9c",
           "publisher": "GitHub",
           "title": "Confidential comments on repository security advisories",
           "url": "https://github.blog/changelog/2026-10-02-confidential-comments-on-repository-security-advisories",
           "published_at": "2026-10-02T13:15:40Z"
         },
         {
+          "id": "4da71922125aa6828f6e",
           "publisher": "Google",
           "title": "The latest AI news we announced in September 2026",
           "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
@@ -202,125 +229,102 @@
     },
     {
       "id": "world",
-      "persona": "ava",
-      "text": "World. ABC News Australia reports that 'It breaks you': Friend of stabbed pilot speaks out. A pilot and close friend of the Indian flydubai captain who was attacked during a flight to Israel recalls his shock upon first seeing footage of the incident online. ABC News Australia reports that Labor's working holiday visa policy risks regional seats, experts say. Political experts say the immigration policy changes put Labor's regional MPs in a tight spot to represent their community and defend their party. Al Jazeera reports that Flydubai pilot recounts cockpit stabbing in call with Indian PM Modi. Smit Machchhar recalls midair disaster after co-pilot's attack on Flydubai flight to Tel Aviv. ABC News Australia reports that Complaint over senior NT public servant who ran private NDIS provider. A senior staffer with the Northern Territory's Department of Children and Families in Central Australia spent almost three years as the sole director of a private NDIS provider in Alice Springs. ABC News Australia reports that Violent protests in France over conditions in high schools. French students and police have accused each other of violence as protests continue over conditions in education. Al Jazeera reports that Why Carney\u2019s economic overhaul is clashing with Canada\u2019s unions. Unions say proposed changes to Canada's labour laws could weaken workers\u2019 right to strike. Al Jazeera reports that Police bodycam shows Luigi Mangione arrest at Pennsylvania McDonald\u2019s. Newly released bodycam footage shows police arresting and searching Luigi Mangione at a McDonald\u2019s in Altoona in 2024. the Japan Times reports that North Korea fired off apparent ballistic missile amid landmine row with South. The launch comes after a landmine explosion injured three South Korean soldiers in the Demilitarized Zone last month. Al Jazeera reports that Israel could\u2019ve ended Gaza war, freed captives sooner: Israel ex-negotiator. Retired General Nitzan Alon says more captives could have returned alive and a deal was possible 'maybe a year earlier'. NPR reports that As Trump's proposed arch looms over D.C., protesters pin their hopes on the midterms. Democratic lawmakers, veterans and concerned citizens gathered in Memorial Circle to protest the arch Trump wants to build there. Their hopes lie primarily in a lawsuit and next month's midterms. ABC News Australia reports that Fishers warn snapper, kingfish prices could soar under proposed catch limits. Fishers and seafood retailers say proposed NSW limits designed to rebuild snapper and yellowtail kingfish stocks will send prices soaring. Al Jazeera reports that Bosnia\u2019s elections explained. Bosnia and Herzegovina votes on October 4 in an election that may determine whether it breaks its political deadlock. ABC News Australia reports that One Nation makes election promise to revive Victoria's timber sector. One Nation has promised to resume native timber logging in Victoria if it wins the state election, but the party would not say if it has costed the policy. Al Jazeera reports that Israeli general: Gaza captives could have been freed a year earlier. Israeli Gen. Nitzan Alon told a Washington Institute forum that all Gaza captives could've been freed a year earlier. The claims in this desk are the publisher's.",
+      "persona": "carly",
+      "text": "World. The Guardian reports that Several people injured after vehicle hits crowd at Knights grand final farewell in Newcastle. NSW Ambulance confirms multiple people injured after a car hit a crowd Get our breaking news email , free app or daily news podcast A car has crashed into a crowd of people in Newcastle injuring several as fans waited to farewell the Knights team bus before the NRL grand final New South Wales police said that emergency services were called to Newcastle Link Road at the Transfield Drive roundabout in Wallsend about 9.30am on Saturday after reports a vehicle struck multiple people in a crowd Continue reading... Al Jazeera reports that US and Australia suspend diplomatic operations in Brazil before election. Security threats prompt US and Australia to suspend diplomatic operations in Brazil before pivotal election day. The Guardian reports that Pint-sized gains: the Australian brewers crafting refreshingly sustainable beers. As the weather warms up, renewable and refillable brews can help reduce the environmental cost of a cold one Change by degrees offers life hacks and sustainable living tips each Saturday to help reduce your household\u2019s carbon footprint Got a question or tip for reducing household emissions? Email us at changebydegrees@theguardian.com It\u2019s no secret that Australians love getting on the beers : we consume 69m litres of the stuff every year With that comes a significant packaging and environmental footprint, as commercially produced drinks generate emissions in both production and transportation Australians drink and dispose of an estimated 17bn bottles and cans a year , fewer than half of wh the BBC reports that The South African men trying to end violence against women: 'Every man needs to play a part'. The discovery of 12 women's bodies near Johannesburg has again highlighted South Africa's problem with violence against women. Al Jazeera reports that North Korea fires ballistic missile towards the sea, South Korea says. A ballistic missile is fired from the North Korean port city of Wonsan, South Korea's military says. Al Jazeera reports that Dutch royal house helped slave trade to survive, study finds. In-depth study also says the royal house made huge profits from Dutch colonial policies in past centuries. The Guardian reports that \u2018We want action\u2019: Fijian climate activist sends message ahead of UN talks in Pacific. Lavenia Naivalu has seen the impact of the climate crisis first-hand and is determined to amplify Pacific voices at this year\u2019s pre-Cop summit in Fiji From her wooden veranda in Fiji\u2019s remote Yasawa islands, climate activist Lavenia Naivalu remembers when the reefs were once so healthy, her grandfather would walk to the shoreline and return with fish But life there has changed \u201cThe reefs that the older generation of men spearfished in, no longer provide what they once did,\u201d the 44-year-old says \u201cYoung people \u2026 now must travel further out to sea to find fish for their families.\u201d Continue reading... the BBC reports that Women given shorts at Oktoberfest to prevent upskirting. The step at the Munich festival comes after thousands of voyeuristic videos emerged on social media. The claims in this desk are the publisher's.",
       "sources": [
         {
-          "publisher": "ABC News Australia",
-          "title": "'It breaks you': Friend of stabbed pilot speaks out",
-          "url": "https://www.abc.net.au/news/2026-10-03/captain-smit-machchhar-friend-pilot-tells-of-shock-and-relief/107223014",
-          "published_at": "2026-10-02T23:27:22Z"
+          "id": "0698b3aa3914de4e4d9d",
+          "publisher": "The Guardian",
+          "title": "Several people injured after vehicle hits crowd at Knights grand final farewell in Newcastle",
+          "url": "https://www.theguardian.com/australia-news/2026/oct/03/several-people-injured-after-vehicle-hits-crowd-at-knights-grand-final-farewell-in-newcastle",
+          "published_at": "2026-10-03T00:51:35Z"
         },
         {
-          "publisher": "ABC News Australia",
-          "title": "Labor's working holiday visa policy risks regional seats, experts say",
-          "url": "https://www.abc.net.au/news/2026-10-03/labor-risks-seats-with-working-holiday-visa-policy/107222324",
-          "published_at": "2026-10-02T23:08:36Z"
-        },
-        {
+          "id": "65136404799b9ccbe852",
           "publisher": "Al Jazeera",
-          "title": "Flydubai pilot recounts cockpit stabbing in call with Indian PM Modi",
-          "url": "https://www.aljazeera.com/news/2026/10/2/flydubai-pilot-recounts-cockpit-stabbing-in-call-with-indian-pm-modi?traffic_source=rss",
-          "published_at": "2026-10-02T22:50:23Z"
+          "title": "US and Australia suspend diplomatic operations in Brazil before election",
+          "url": "https://www.aljazeera.com/news/2026/10/3/us-and-australia-suspend-diplomatic-operations-in-brazil-before-election?traffic_source=rss",
+          "published_at": "2026-10-03T00:46:10Z"
         },
         {
-          "publisher": "ABC News Australia",
-          "title": "Complaint over senior NT public servant who ran private NDIS provider",
-          "url": "https://www.abc.net.au/news/2026-10-03/public-servant-sole-director-private-ndis-provider-alice-springs/107151490",
-          "published_at": "2026-10-02T22:49:59Z"
+          "id": "d5ba5847ba19f06a6df8",
+          "publisher": "The Guardian",
+          "title": "Pint-sized gains: the Australian brewers crafting refreshingly sustainable beers",
+          "url": "https://www.theguardian.com/australia-news/2026/oct/03/australian-beer-sustainable-environment-breweries",
+          "published_at": "2026-10-03T00:00:44Z"
         },
         {
-          "publisher": "ABC News Australia",
-          "title": "Violent protests in France over conditions in high schools",
-          "url": "https://www.abc.net.au/news/2026-10-03/france-protests-education-tear-gas-fires-violence-police/107224434",
-          "published_at": "2026-10-02T22:25:00Z"
+          "id": "41f46f19208233aeb188",
+          "publisher": "BBC",
+          "title": "The South African men trying to end violence against women: 'Every man needs to play a part'",
+          "url": "https://www.bbc.co.uk/news/articles/cm3eqegwpzl4o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T23:56:21Z"
         },
         {
+          "id": "777175e9b8949ad1d11c",
           "publisher": "Al Jazeera",
-          "title": "Why Carney\u2019s economic overhaul is clashing with Canada\u2019s unions",
-          "url": "https://www.aljazeera.com/economy/2026/10/2/why-carneys-economic-overhaul-is-clashing-with-canadas-unions?traffic_source=rss",
-          "published_at": "2026-10-02T22:14:34Z"
+          "title": "North Korea fires ballistic missile towards the sea, South Korea says",
+          "url": "https://www.aljazeera.com/news/2026/10/2/north-korea-fires-ballistic-missile-towards-the-sea-south-korea-says?traffic_source=rss",
+          "published_at": "2026-10-02T23:55:24Z"
         },
         {
+          "id": "132e8ae63566b2e2de3c",
           "publisher": "Al Jazeera",
-          "title": "Police bodycam shows Luigi Mangione arrest at Pennsylvania McDonald\u2019s",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/police-bodycam-shows-luigi-mangione-arrest-at-pennsylvania?traffic_source=rss",
-          "published_at": "2026-10-02T21:59:11Z"
+          "title": "Dutch royal house helped slave trade to survive, study finds",
+          "url": "https://www.aljazeera.com/news/2026/10/2/dutch-royal-house-helped-slave-trade-to-survive-study-finds?traffic_source=rss",
+          "published_at": "2026-10-02T23:43:50Z"
         },
         {
-          "publisher": "Japan Times",
-          "title": "North Korea fired off apparent ballistic missile amid landmine row with South",
-          "url": "https://www.japantimes.co.jp/news/2026/10/03/japan/north-korea-missile-october-3/",
-          "published_at": "2026-10-02T21:56:00Z"
+          "id": "c4a378cf32ead3abc8a8",
+          "publisher": "The Guardian",
+          "title": "\u2018We want action\u2019: Fijian climate activist sends message ahead of UN talks in Pacific",
+          "url": "https://www.theguardian.com/world/2026/oct/03/we-want-action-fijian-climate-activist-sends-message-ahead-of-un-talks-in-pacific",
+          "published_at": "2026-10-02T23:30:43Z"
         },
         {
-          "publisher": "Al Jazeera",
-          "title": "Israel could\u2019ve ended Gaza war, freed captives sooner: Israel ex-negotiator",
-          "url": "https://www.aljazeera.com/news/2026/10/2/israel-couldve-ended-gaza-war-freed-captives-sooner-israel-ex-negotiator?traffic_source=rss",
-          "published_at": "2026-10-02T21:53:17Z"
-        },
-        {
-          "publisher": "NPR",
-          "title": "As Trump's proposed arch looms over D.C., protesters pin their hopes on the midterms",
-          "url": "https://www.npr.org/2026/10/02/nx-s1-5985789/trump-arch-protest-veterans-midterms",
-          "published_at": "2026-10-02T21:44:07Z"
-        },
-        {
-          "publisher": "ABC News Australia",
-          "title": "Fishers warn snapper, kingfish prices could soar under proposed catch limits",
-          "url": "https://www.abc.net.au/news/2026-10-03/proposed-snapper-yellowtail-kingfish-changes-prices-availability/107161156",
-          "published_at": "2026-10-02T21:27:48Z"
-        },
-        {
-          "publisher": "Al Jazeera",
-          "title": "Bosnia\u2019s elections explained",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/bosnias-elections-explained?traffic_source=rss",
-          "published_at": "2026-10-02T21:21:47Z"
-        },
-        {
-          "publisher": "ABC News Australia",
-          "title": "One Nation makes election promise to revive Victoria's timber sector",
-          "url": "https://www.abc.net.au/news/2026-10-03/victorian-election-logging-promises-one-nation-alp-coalition/107156520",
-          "published_at": "2026-10-02T21:16:23Z"
-        },
-        {
-          "publisher": "Al Jazeera",
-          "title": "Israeli general: Gaza captives could have been freed a year earlier",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/israeli-general-gaza-captives-could-have-been-freed-a-year-earlier?traffic_source=rss",
-          "published_at": "2026-10-02T21:15:58Z"
+          "id": "6b9af82aa81b194b77f1",
+          "publisher": "BBC",
+          "title": "Women given shorts at Oktoberfest to prevent upskirting",
+          "url": "https://www.bbc.co.uk/news/articles/cjwyzyqvx1zxo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T23:16:03Z"
         }
       ]
     },
     {
       "id": "mainland_weather",
-      "persona": "carly",
-      "text": "Mainland weather. the National Hurricane Center reports that There are no tropical cyclones at this time.. No tropical cyclones as of Fri, 02 Oct 2026 23:39:19 GMT the National Hurricane Center reports that Hurricane Rachel Forecast Discussion Number 23. Issued at 200 PM MST Fri Oct 02 2026 000 WTPZ43 KNHC 022031 TCDEP3 Hurricane Rachel Discussion Number 23 NWS National Hurricane Center Miami FL EP182026 200 PM MST Fri Oct 02 2026 The structure of Rachel has not changed appreciably since the previous advisory. A ragged, cloud-filled eye can still be seen on visible satellite imagery. The cloud pattern can also be described as having a large central dense overcast or embedded center, with the deep convection spanning roughly 200 n mi in diameter. The latest subjective intensity estimate from TAFB is T4.5/77 kt, and the latest objective estimates from UW-CIMSS range from about 77-99 kt. The initial intensity is lowered slightly to 90 kt for th the National Hurricane Center reports that Hurricane Rachel Wind Speed Probabilities Number 23. Issued at 2100 UTC FRI OCT 02 2026 000 FOPZ13 KNHC 022031 PWSEP3 HURRICANE RACHEL WIND SPEED PROBABILITIES NUMBER 23 NWS NATIONAL HURRICANE CENTER MIAMI FL EP182026 2100 UTC FRI OCT 02 2026 AT 2100Z THE CENTER OF HURRICANE RACHEL WAS LOCATED NEAR LATITUDE 19.3 NORTH...LONGITUDE 111.1 WEST WITH MAXIMUM SUSTAINED WINDS NEAR 90 KTS...105 MPH...165 KM/H. Z INDICATES COORDINATED UNIVERSAL TIME (GREENWICH) PACIFIC DAYLIGHT TIME (PDT)...SUBTRACT 7 HOURS FROM Z TIME HAWAIIAN STANDARD TIME (HST)...SUBTRACT 10 HOURS FROM Z TIME WIND SPEED PROBABILITY TABLE FOR SPECIFIC LOCATIONS CHANCES OF SUSTAINED (1-MINUTE AVERAGE) WIND SPEEDS OF AT LEAST ...34 KT (39 MPH... 63 KM/H)... ...50 KT (58 MPH... 93 KM/H) the National Hurricane Center reports that Hurricane Rachel Graphics. Wind Speed Probabilities last updated Fri, 02 Oct 2026 21:27:26 GMT the National Hurricane Center reports that Summary for Hurricane Rachel (EP3/EP182026). ...RACHEL CONTINUES LASHING SOCORRO ISLAND AS IT MOVES SLOWLY WESTWARD... As of 2:00 PM MST Fri Oct 02 the center of Rachel was located near 19.3, -111.1 with movement W at 5 mph. The minimum central pressure was 963 mb with maximum sustained winds of about 105 mph.",
+      "persona": "bruce",
+      "text": "Mainland weather. the National Hurricane Center reports that There are no tropical cyclones at this time.. No tropical cyclones as of Sat, 03 Oct 2026 00:13:43 GMT the National Hurricane Center reports that Hurricane Rachel Forecast Discussion Number 23. Issued at 200 PM MST Fri Oct 02 2026 000 WTPZ43 KNHC 022031 TCDEP3 Hurricane Rachel Discussion Number 23 NWS National Hurricane Center Miami FL EP182026 200 PM MST Fri Oct 02 2026 The structure of Rachel has not changed appreciably since the previous advisory A ragged, cloud-filled eye can still be seen on visible satellite imagery The cloud pattern can also be described as having a large central dense overcast or embedded center, with the deep convection spanning roughly 200 n mi in diameter The latest subjective intensity estimate from TAFB is T4.5/77 kt, and the latest objective estimates from UW-CIMSS range from about 77-99 kt The initial intensity is lowered slightly to 90 kt for th the National Hurricane Center reports that Hurricane Rachel Wind Speed Probabilities Number 23. Issued at 2100 UTC FRI OCT 02 2026 000 FOPZ13 KNHC 022031 PWSEP3 HURRICANE RACHEL WIND SPEED PROBABILITIES NUMBER 23 NWS NATIONAL HURRICANE CENTER MIAMI FL EP182026 2100 UTC FRI OCT 02 2026 AT 2100Z THE CENTER OF HURRICANE RACHEL WAS LOCATED NEAR LATITUDE 19.3 NORTH...LONGITUDE 111.1 WEST WITH MAXIMUM SUSTAINED WINDS NEAR 90 KTS...105 MPH...165 KM/H Z INDICATES COORDINATED UNIVERSAL TIME (GREENWICH) PACIFIC DAYLIGHT TIME (PDT)...SUBTRACT 7 HOURS FROM Z TIME HAWAIIAN STANDARD TIME (HST)...SUBTRACT 10 HOURS FROM Z TIME WIND SPEED PROBABILITY TABLE FOR SPECIFIC LOCATIONS CHANCES OF SUSTAINED (1-MINUTE AVERAGE) WIND SPEEDS OF AT LEAST ...34 KT (39 MPH.. 63 KM/H).. ...50 KT (58 MPH.. 93 KM/H) the National Hurricane Center reports that Hurricane Rachel Graphics. Wind Speed Probabilities last updated Fri, 02 Oct 2026 21:27:26 GMT the National Hurricane Center reports that Summary for Hurricane Rachel (EP3/EP182026). ...RACHEL CONTINUES LASHING SOCORRO ISLAND AS IT MOVES SLOWLY WESTWARD.. As of 2:00 PM MST Fri Oct 02 the center of Rachel was located near 19.3, -111.1 with movement W at 5 mph The minimum central pressure was 963 mb with maximum sustained winds of about 105 mph.",
       "sources": [
         {
+          "id": "c5c0c815cc352fd79c83",
           "publisher": "National Hurricane Center",
           "title": "There are no tropical cyclones at this time.",
           "url": "https://www.nhc.noaa.gov/",
           "published_at": "2026-10-03T23:28:17Z"
         },
         {
+          "id": "2c8dafb254f2ca03608d",
           "publisher": "National Hurricane Center",
           "title": "Hurricane Rachel Forecast Discussion Number 23",
           "url": "https://www.nhc.noaa.gov/text/refresh/MIATCDEP3+shtml/022031.shtml",
           "published_at": "2026-10-02T20:31:52Z"
         },
         {
+          "id": "4184d42eb0fe4449c802",
           "publisher": "National Hurricane Center",
           "title": "Hurricane Rachel Wind Speed Probabilities Number 23",
           "url": "https://www.nhc.noaa.gov/text/refresh/MIAPWSEP3+shtml/022031.shtml",
           "published_at": "2026-10-02T20:31:52Z"
         },
         {
+          "id": "8e438abfd028335c3268",
           "publisher": "National Hurricane Center",
           "title": "Hurricane Rachel Graphics",
           "url": "https://www.nhc.noaa.gov/refresh/graphics_ep3+shtml/092751.shtml?cone",
           "published_at": "2026-10-02T09:27:51Z"
         },
         {
+          "id": "3a055345876ce88b320f",
           "publisher": "National Hurricane Center",
           "title": "Summary for Hurricane Rachel (EP3/EP182026)",
           "url": "https://www.nhc.noaa.gov/text/refresh/MIATCPEP3+shtml/020833.shtml",
@@ -330,143 +334,179 @@
     },
     {
       "id": "mainland_politics",
-      "persona": "carly",
-      "text": "Mainland politics. the Department of Justice reports that FY27 Q4 Report Due. the Department of Justice reports that FY27 Q3 Report Due. the Department of Justice reports that FY27 Q2 Report Due. the Department of Justice reports that Agency Chief FOIA Officer Reports Due on Agency Websites. the Department of Justice reports that Agency Annual FOIA Reports Due on Agency Websites. the Department of Justice reports that Small Volume Agency Chief FOIA Officer Reports Due. the Department of Justice reports that FY27 Q1 Report Due. the Department of Justice reports that Agency Chief FOIA Officer Reports Due. the Department of Justice reports that Agency Chief FOIA Officer Report Training. the Department of Justice reports that Agency Annual FOIA Reports Due. the Department of Justice reports that FY26 Q4 Data Due. the Department of Justice reports that Agency Raw Data Validation Training. the Department of Justice reports that Agency Annual Report Training. the White House reports that National Manufacturing Day, 2026. BY THE PRESIDENT OF THE UNITED STATES OF AMERICA A PROCLAMATION For 250 years, American workers have been the driving force behind our Nation\u2019s strength, prosperity, and industrial might. Their skill, ingenuity, and determination have fueled our economy and carried American manufacturing to new heights. On National Manufacturing Day, we honor the men and women [\u2026] The post National Manufacturing Day, 2026 appeared first on The White House . NPR reports that Pro-Trump Influencer Benny Johnson is being sued for defamation by ICE protesters. The lawsuit says the prominent conservative podcaster falsely claimed the protesters were assaulting ICE officers during demonstrations at an ICE facility in Illinois last year. the White House reports that Presidential Message on National Cybersecurity Awareness Month. In an age of rapid digital advancement, cyberspace has emerged as the new frontier of American innovation, prosperity, and strength. As new technologies open doors to discovery and opportunity that were once unimaginable, a secure cyberspace is essential to ensuring that America continues to lead the world in finance, military power, emerging technology, and manufacturing. [\u2026] The post Presidential Message on National Cybersecurity Awareness Month appeared first on The White House . the White House reports that Presidential Message on National Domestic Violence Awareness Month. In communities across our great Nation, domestic violence destroys families, harms innocent children, and leaves lasting pain in our neighborhoods. For America to be strong, children must feel safe in their homes, spouses and significant others must be respected, and it must be a universal truth that violence in any form is unacceptable. This National [\u2026] The post Presidential Message on National Domestic Violence Awareness Month appeared first on The White House . The claims in this desk are the publisher's.",
+      "persona": "bruce",
+      "text": "Mainland politics. the Department of Justice reports that FY27 Q4 Report Due. the Department of Justice reports that FY27 Q3 Report Due. the Department of Justice reports that FY27 Q2 Report Due. the Department of Justice reports that Agency Chief FOIA Officer Reports Due on Agency Websites. the Department of Justice reports that Agency Annual FOIA Reports Due on Agency Websites. the Department of Justice reports that Small Volume Agency Chief FOIA Officer Reports Due. the Department of Justice reports that FY27 Q1 Report Due. the Department of Justice reports that Agency Chief FOIA Officer Reports Due. the Department of Justice reports that Agency Chief FOIA Officer Report Training. the Department of Justice reports that Agency Annual FOIA Reports Due. the Department of Justice reports that FY26 Q4 Data Due. the Department of Justice reports that Agency Raw Data Validation Training. the Department of Justice reports that Agency Annual Report Training. NPR reports that As Trump's proposed arch looms over D.C., protesters pin their hopes on the midterms. Democratic lawmakers, veterans and concerned citizens gathered in Memorial Circle to protest the arch Trump wants to build there Their hopes lie primarily in a lawsuit and next month's midterms. the White House reports that National Manufacturing Day, 2026. BY THE PRESIDENT OF THE UNITED STATES OF AMERICA A PROCLAMATION For 250 years, American workers have been the driving force behind our Nation\u2019s strength, prosperity, and industrial might Their skill, ingenuity, and determination have fueled our economy and carried American manufacturing to new heights On National Manufacturing Day, we honor the men and women [\u2026] The post National Manufacturing Day, 2026 appeared first on The White House . NPR reports that Pro-Trump Influencer Benny Johnson is being sued for defamation by ICE protesters. The lawsuit says the prominent conservative podcaster falsely claimed the protesters were assaulting ICE officers during demonstrations at an ICE facility in Illinois last year. the White House reports that Presidential Message on National Cybersecurity Awareness Month. In an age of rapid digital advancement, cyberspace has emerged as the new frontier of American innovation, prosperity, and strength As new technologies open doors to discovery and opportunity that were once unimaginable, a secure cyberspace is essential to ensuring that America continues to lead the world in finance, military power, emerging technology, and manufacturing [\u2026] The post Presidential Message on National Cybersecurity Awareness Month appeared first on The White House . the Department of Justice reports that Final Two Defendants Sentenced in Interstate Auto Theft Conspiracy. the Department of Justice reports that Mequon Doctor Sentenced to Federal Prison for Unlawful Prescribing. The claims in this desk are the publisher's.",
       "sources": [
         {
+          "id": "9bfd2baf05c00db0315a",
           "publisher": "Department of Justice",
           "title": "FY27 Q4 Report Due",
           "url": "https://www.justice.gov/oip/event/fy27-q4-report-due",
           "published_at": "2027-10-29T12:00:00Z"
         },
         {
+          "id": "c7e1d26bbcf9df209f23",
           "publisher": "Department of Justice",
           "title": "FY27 Q3 Report Due",
           "url": "https://www.justice.gov/oip/event/fy27-q3-report-due",
           "published_at": "2027-07-30T12:00:00Z"
         },
         {
+          "id": "44d7af0221dcde430409",
           "publisher": "Department of Justice",
           "title": "FY27 Q2 Report Due",
           "url": "https://www.justice.gov/oip/event/fy27-q2-report-due",
           "published_at": "2027-05-01T12:00:00Z"
         },
         {
+          "id": "a8d3762c0aa4e2b0b4b1",
           "publisher": "Department of Justice",
           "title": "Agency Chief FOIA Officer Reports Due on Agency Websites",
           "url": "https://www.justice.gov/oip/event/agency-chief-foia-officer-reports-due-agency-websites",
           "published_at": "2027-03-15T12:00:00Z"
         },
         {
+          "id": "a6dd0e863527049f9582",
           "publisher": "Department of Justice",
           "title": "Agency Annual FOIA Reports Due on Agency Websites",
           "url": "https://www.justice.gov/oip/event/agency-annual-foia-reports-due-agency-websites",
           "published_at": "2027-03-01T12:00:00Z"
         },
         {
+          "id": "97ae8ec95362ff16778d",
           "publisher": "Department of Justice",
           "title": "Small Volume Agency Chief FOIA Officer Reports Due",
           "url": "https://www.justice.gov/oip/event/small-volume-agency-chief-foia-officer-reports-due",
           "published_at": "2027-02-05T12:00:00Z"
         },
         {
+          "id": "5f50ea6bb74ef48f7e81",
           "publisher": "Department of Justice",
           "title": "FY27 Q1 Report Due",
           "url": "https://www.justice.gov/oip/event/fy27-q1-report-due",
           "published_at": "2027-01-29T12:00:00Z"
         },
         {
+          "id": "f070df53a81b0eae4993",
           "publisher": "Department of Justice",
           "title": "Agency Chief FOIA Officer Reports Due",
           "url": "https://www.justice.gov/oip/event/agency-chief-foia-officer-reports-due",
           "published_at": "2027-01-11T12:00:00Z"
         },
         {
+          "id": "a270dc8e50af943807be",
           "publisher": "Department of Justice",
           "title": "Agency Chief FOIA Officer Report Training",
           "url": "https://www.justice.gov/oip/event/agency-chief-foia-officer-report-training",
           "published_at": "2026-11-18T12:00:00Z"
         },
         {
+          "id": "3fc2bb58b894b0484e1d",
           "publisher": "Department of Justice",
           "title": "Agency Annual FOIA Reports Due",
           "url": "https://www.justice.gov/oip/event/agency-annual-report-due",
           "published_at": "2026-11-13T12:00:00Z"
         },
         {
+          "id": "1686693ef8accac38327",
           "publisher": "Department of Justice",
           "title": "FY26 Q4 Data Due",
           "url": "https://www.justice.gov/oip/event/fy26-q4-data-due",
           "published_at": "2026-10-30T12:00:00Z"
         },
         {
+          "id": "73e87292ae3a02b55056",
           "publisher": "Department of Justice",
           "title": "Agency Raw Data Validation Training",
           "url": "https://www.justice.gov/oip/event/agency-raw-data-validation-training",
           "published_at": "2026-10-21T12:00:00Z"
         },
         {
+          "id": "f74d78582eb9d15647dd",
           "publisher": "Department of Justice",
           "title": "Agency Annual Report Training",
           "url": "https://www.justice.gov/oip/event/agency-annual-report-training",
           "published_at": "2026-10-14T12:00:00Z"
         },
         {
+          "id": "7e95d9ccbf7cf827fde2",
+          "publisher": "NPR",
+          "title": "As Trump's proposed arch looms over D.C., protesters pin their hopes on the midterms",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5985789/trump-arch-protest-veterans-midterms",
+          "published_at": "2026-10-02T21:44:07Z"
+        },
+        {
+          "id": "223657f4f7986c2271f7",
           "publisher": "White House",
           "title": "National Manufacturing Day, 2026",
           "url": "https://www.whitehouse.gov/presidential-actions/2026/10/national-manufacturing-day-2026/",
           "published_at": "2026-10-02T19:29:58Z"
         },
         {
+          "id": "8dc96c5dd4bb3bbbefe8",
           "publisher": "NPR",
           "title": "Pro-Trump Influencer Benny Johnson is being sued for defamation by ICE protesters",
           "url": "https://www.npr.org/2026/10/02/nx-s1-5989413/benny-johnson-defamation-lawsuit-ice-protesters",
           "published_at": "2026-10-02T18:43:30Z"
         },
         {
+          "id": "c28339bdea25e359536f",
           "publisher": "White House",
           "title": "Presidential Message on National Cybersecurity Awareness Month",
           "url": "https://www.whitehouse.gov/briefings-statements/2026/10/presidential-message-on-national-cybersecurity-awareness-month/",
           "published_at": "2026-10-02T18:28:12Z"
         },
         {
-          "publisher": "White House",
-          "title": "Presidential Message on National Domestic Violence Awareness Month",
-          "url": "https://www.whitehouse.gov/briefings-statements/2026/10/presidential-message-on-national-domestic-violence-awareness-month/",
-          "published_at": "2026-10-02T18:25:08Z"
+          "id": "179d9a9fd951b2e945b3",
+          "publisher": "Department of Justice",
+          "title": "Final Two Defendants Sentenced in Interstate Auto Theft Conspiracy",
+          "url": "https://www.justice.gov/usao-mdpa/pr/final-two-defendants-sentenced-interstate-auto-theft-conspiracy",
+          "published_at": "2026-10-02T12:00:00Z"
+        },
+        {
+          "id": "8ecae1a73f12e4b28e9f",
+          "publisher": "Department of Justice",
+          "title": "Mequon Doctor Sentenced to Federal Prison for Unlawful Prescribing",
+          "url": "https://www.justice.gov/usao-edwi/pr/mequon-doctor-sentenced-federal-prison-unlawful-prescribing",
+          "published_at": "2026-10-02T12:00:00Z"
         }
       ]
     },
     {
       "id": "science",
-      "persona": "bruce",
-      "text": "Science. the National Science Foundation reports that MPS Chemistry Quarterly Office Hours. Nov 13 2026 3:00PM to Nov 13 2026 4:00PM EST The U.S. National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports multiple research programs in chemistry. These programs support a national research community engaged in fundamental discovery, invention and innovation in the chemical sciences. NSF MPS holds quarterly office hours to share information with chemistry researchers, administrators and others in the U.S. chemistry research community. MPS leaders and staff will discuss funding \u2026 More at https://www.nsf.gov/events/mps-chemistry-quarterly-office-hours the National Science Foundation reports that NSF MPS Mathematical Sciences Informational Webinar. Oct 7 2026 2:00PM to Oct 7 2026 3:00PM EDT The U.S. National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports multiple research programs at the frontiers of discovery in theoretical and applied mathematical sciences. NSF MPS will host an informational webinar for the U.S. mathematical sciences research community. All members of the mathematics research community are encouraged to attend. MPS leaders and staff will discuss NSF funding opportunities supporting the mathematical \u2026 More at https://www.nsf.gov/events/nsf-mps-mathematical-sciences-informational-webinar Phys.org reports that American beech trees may carry genetic resistance to deadly leaf disease. A study led by scientists at the Holden Arboretum has found evidence that beech leaf disease (BLD) symptom development is genetically controlled, providing the first evidence that some American beech trees may have genetic resistance. This finding supports further investigation and development of breeding populations for BLD resistance. Nearly a third of beech trees near BLD's epicenter in northeastern Ohio, the majority of which were smaller trees, have died since the disease was discovered in 2012. the National Institute of Standards and Technology reports that 2026 NIST Photometry Short Course. The NIST Photometry Short Course is a 4-day course held at NIST Gaithersburg, Maryland. The course consists of lectures given by NIST scientists and hands-on laboratory experience measuring illuminance, total luminous flux, colorimetry, and luminous the National Science Foundation reports that NSF BIO Virtual Office Hour Webinar: Updates from the NSF Directorate for Biological Sciences. Dec 17 2026 1:00PM to Dec 17 2026 2:00PM EST Monthly virtual office webinars will focus on updates from the U.S. National Science Foundation Directorate for Biological Sciences that may be of interest to the biological sciences research community. For additional assistance with accessibility and reasonable accommodations, contact rarequest@nsf.gov or \u2026 More at https://www.nsf.gov/events/nsf-bio-virtual-office-hour-webinar-updates-nsf-directorate",
+      "persona": "ava",
+      "text": "Science. the National Science Foundation reports that MPS Chemistry Quarterly Office Hours. Nov 13 2026 3:00PM to Nov 13 2026 4:00PM EST The U.S National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports multiple research programs in chemistry These programs support a national research community engaged in fundamental discovery, invention and innovation in the chemical sciences NSF MPS holds quarterly office hours to share information with chemistry researchers, administrators and others in the U.S chemistry research community MPS leaders and staff will discuss funding \u2026 More at https://www.nsf.gov/events/mps-chemistry-quarterly-office-hours the National Science Foundation reports that NSF MPS Mathematical Sciences Informational Webinar. Oct 7 2026 2:00PM to Oct 7 2026 3:00PM EDT The U.S National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports multiple research programs at the frontiers of discovery in theoretical and applied mathematical sciences NSF MPS will host an informational webinar for the U.S mathematical sciences research community All members of the mathematics research community are encouraged to attend MPS leaders and staff will discuss NSF funding opportunities supporting the mathematical \u2026 More at https://www.nsf.gov/events/nsf-mps-mathematical-sciences-informational-webinar the National Institute of Standards and Technology reports that 2026 NIST Photometry Short Course. The NIST Photometry Short Course is a 4-day course held at NIST Gaithersburg, Maryland The course consists of lectures given by NIST scientists and hands-on laboratory experience measuring illuminance, total luminous flux, colorimetry, and luminous the National Science Foundation reports that NSF Growing Convergence Research Lecture: Knowledge Systems Decomposition and Integration in Transdisciplinary Convergence. Oct 29 2026 3:00PM to Oct 29 2026 4:00PM EDT Knowledge Systems Decomposition and Integration in Transdisciplinary Convergence Thursday, Oct 29, 2026, 3-4 p.m EDT Abstract: Knowledge systems are an integral but often invisible element of human knowledge-making and organization, especially in specialized ways of knowing that occur in scientific, professional, organizational, or community settings Transdisciplinary convergence research frequently requires unpacking and then integrating across knowledge systems, \u2026 More at https://www.nsf.gov/events/nsf-growing-convergence-research-lecture-knowledge-systems the National Science Foundation reports that NSF BIO Virtual Office Hour Webinar: Updates from the NSF Directorate for Biological Sciences. Dec 17 2026 1:00PM to Dec 17 2026 2:00PM EST Monthly virtual office webinars will focus on updates from the U.S National Science Foundation Directorate for Biological Sciences that may be of interest to the biological sciences research community For additional assistance with accessibility and reasonable accommodations, contact rarequest@nsf.gov or \u2026 More at https://www.nsf.gov/events/nsf-bio-virtual-office-hour-webinar-updates-nsf-directorate",
       "sources": [
         {
+          "id": "0bbcf5a2187fcee27386",
           "publisher": "NSF",
           "title": "MPS Chemistry Quarterly Office Hours",
           "url": "https://www.nsf.gov/events/mps-chemistry-quarterly-office-hours/2026-11-13",
           "published_at": "2026-11-13T20:00:00Z"
         },
         {
+          "id": "01dd6b49288613263d0a",
           "publisher": "NSF",
           "title": "NSF MPS Mathematical Sciences Informational Webinar",
           "url": "https://www.nsf.gov/events/nsf-mps-mathematical-sciences-informational-webinar/2026-10-07",
           "published_at": "2026-10-07T18:00:00Z"
         },
         {
-          "publisher": "Phys.org",
-          "title": "American beech trees may carry genetic resistance to deadly leaf disease",
-          "url": "https://phys.org/news/2026-10-american-beech-trees-genetic-resistance.html",
-          "published_at": "2026-10-02T20:20:06Z"
-        },
-        {
+          "id": "222edbfe846ef34efdea",
           "publisher": "NIST",
           "title": "2026 NIST Photometry Short Course",
           "url": "https://www.nist.gov/news-events/events/2026/11/2026-nist-photometry-short-course",
           "published_at": "2026-11-03T05:00:00Z"
         },
         {
+          "id": "4c4d787880b8371555f0",
+          "publisher": "NSF",
+          "title": "NSF Growing Convergence Research Lecture: Knowledge Systems Decomposition and Integration in Transdisciplinary Convergence",
+          "url": "https://www.nsf.gov/events/nsf-growing-convergence-research-lecture-knowledge-systems/2026-10-29",
+          "published_at": "2026-10-29T19:00:00Z"
+        },
+        {
+          "id": "b02c350afabfab3d6182",
           "publisher": "NSF",
           "title": "NSF BIO Virtual Office Hour Webinar: Updates from the NSF Directorate for Biological Sciences",
           "url": "https://www.nsf.gov/events/nsf-bio-virtual-office-hour-webinar-updates-nsf-directorate/2026-10-15",
@@ -476,84 +516,102 @@
     },
     {
       "id": "universities",
-      "persona": "ava",
-      "text": "Universities. NPR reports that 'Disturbed' by Cornell rape investigation, NY governor puts state AG in charge. The Cornell University Police Department is leading the investigation into an alleged gang rape two years ago. How effective is that approach, and is the campus police accountable to the public? ABC News Australia reports that NY governor slams handling of Cornell 'gang-rape' case. Kathy Hochul says the woman who accused a group of Cornell University students of rape has been \"failed\" at \"every turn\" by authorities. MIT News reports that Met Warehouse dedication ceremony launches new era. Once a storage castle, now a design stronghold, the landmark building is a major new hub at MIT. MIT News reports that MIT releases financials and endowment figures for 2026. The Institute\u2019s pooled investments returned 10.3 percent last year; endowment stands at $29.2 billion. MIT News reports that Computational tools for society\u2019s most complex challenges. Associate Professor Cathy Wu uses reinforcement learning to help map out improvements to transportation and other multifaceted systems. The Guardian reports that Cornell case raises questions about rise of ketamine in sexual assaults: \u2018You might not realize you\u2019re being touched\u2019. After a Jane Doe claimed she was encouraged to take ketamine in an alleged gang rape, advocates are urging for tighter laws around the dissociative The effects of the drug ketamine have come into sharp focus after a former Cornell University student alleged in a lawsuit that several fraternity members gang raped her at a frat house party after she nasally ingested the drug. Ketamine is a dissociative anaesthetic consumed increasingly in the US as both an illegal party drug and legal mental health treatment . Continue reading... the BBC reports that Woman at centre of Cornell rape inquiry was 'failed' by officials, says New York governor. The woman, known as Jane Doe, alleges she was raped by seven students at a fraternity house at the university in 2024.",
+      "persona": "carly",
+      "text": "Universities. MIT News reports that Met Warehouse dedication ceremony launches new era. Once a storage castle, now a design stronghold, the landmark building is a major new hub at MIT. MIT News reports that MIT releases financials and endowment figures for 2026. The Institute\u2019s pooled investments returned 10.3 percent last year; endowment stands at $29.2 billion. MIT News reports that Computational tools for society\u2019s most complex challenges. Associate Professor Cathy Wu uses reinforcement learning to help map out improvements to transportation and other multifaceted systems. UC Berkeley reports that Tribal members saw pinyon-juniper woodlands declining. A new study confirms it.. A collaborative, three-year project involving tribal nations, federal agencies, volunteers, and university researchers is informing stewardship of culturally important ecosystems across the Eastern Sierra The post Tribal members saw pinyon-juniper woodlands declining A new study confirms it appeared first on Berkeley News . UC Berkeley reports that To decipher local laws, researchers used AI to build a database of millions of them. The unprecedented project gives policymakers and the public an easy way to look up local ordinances and examine what works \u2014 or does not The post To decipher local laws, researchers used AI to build a database of millions of them appeared first on Berkeley News . MIT News reports that Documenting the tech worker movement. Writing as a participant and researcher, PhD student JS Tan SM \u201922 has co-authored a new book about the rise of tech worker protests and the employer backlash that followed. MIT News reports that The next generation\u2019s guide to the new space economy. An industry report published by students in an MIT aerospace entrepreneurship class lays out guidance for aspiring space leaders and investors. Phys.org reports that Why a food poisoning bacterium can cause severe wound infections. The toxin NheABC, produced by Bacillus cereus, is particularly active in the pH conditions found in open wounds Researchers at Ume\u00e5 University found that the toxin damages both cell membranes and mitochondria and helps the bacterium establish infection in wounded tissue.",
       "sources": [
         {
-          "publisher": "NPR",
-          "title": "'Disturbed' by Cornell rape investigation, NY governor puts state AG in charge",
-          "url": "https://www.npr.org/2026/10/02/nx-s1-5986110/disturbed-by-cornell-rape-investigation-ny-governor-puts-state-ag-in-charge",
-          "published_at": "2026-10-02T20:18:59Z"
-        },
-        {
-          "publisher": "ABC News Australia",
-          "title": "NY governor slams handling of Cornell 'gang-rape' case",
-          "url": "https://www.abc.net.au/news/2026-10-03/ny-governor-slams-handling-of-cornell-gang-rape-allegation/107224330",
-          "published_at": "2026-10-02T20:12:41Z"
-        },
-        {
+          "id": "2c33caaebb7a056ac125",
           "publisher": "MIT News",
           "title": "Met Warehouse dedication ceremony launches new era",
           "url": "https://news.mit.edu/2026/met-warehouse-dedication-ceremony-launches-new-era-1002",
           "published_at": "2026-10-02T20:00:00Z"
         },
         {
+          "id": "b07c2a7c8b325ebc4c4a",
           "publisher": "MIT News",
           "title": "MIT releases financials and endowment figures for 2026",
           "url": "https://news.mit.edu/2026/mit-releases-financials-and-endowment-figures-1002",
           "published_at": "2026-10-02T20:00:00Z"
         },
         {
+          "id": "156a447f22d65aeceb0e",
           "publisher": "MIT News",
           "title": "Computational tools for society\u2019s most complex challenges",
           "url": "https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002",
           "published_at": "2026-10-02T19:30:00Z"
         },
         {
-          "publisher": "The Guardian",
-          "title": "Cornell case raises questions about rise of ketamine in sexual assaults: \u2018You might not realize you\u2019re being touched\u2019",
-          "url": "https://www.theguardian.com/society/2026/oct/02/cornell-rape-assault-ketamine-laws",
-          "published_at": "2026-10-02T18:49:33Z"
+          "id": "58e5feabf9ef25194c4d",
+          "publisher": "UC Berkeley",
+          "title": "Tribal members saw pinyon-juniper woodlands declining. A new study confirms it.",
+          "url": "https://ourenvironment.berkeley.edu/news/tribal-members-saw-pinyon-juniper-woodlands-declining-new-study-confirms-it",
+          "published_at": "2026-10-02T17:34:29Z"
         },
         {
-          "publisher": "BBC",
-          "title": "Woman at centre of Cornell rape inquiry was 'failed' by officials, says New York governor",
-          "url": "https://www.bbc.co.uk/news/articles/cqvg04718lr9o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-02T17:44:08Z"
+          "id": "338f04febb76e1345c50",
+          "publisher": "UC Berkeley",
+          "title": "To decipher local laws, researchers used AI to build a database of millions of them",
+          "url": "https://news.berkeley.edu/2026/10/02/to-decipher-local-laws-researchers-used-ai-to-build-a-database-of-millions-of-them/",
+          "published_at": "2026-10-02T17:02:26Z"
+        },
+        {
+          "id": "f678ca9914e9af3fe5c5",
+          "publisher": "MIT News",
+          "title": "Documenting the tech worker movement",
+          "url": "https://news.mit.edu/2026/documenting-tech-worker-movement-0918",
+          "published_at": "2026-10-02T17:00:00Z"
+        },
+        {
+          "id": "329bea53636ed2da8a2c",
+          "publisher": "MIT News",
+          "title": "The next generation\u2019s guide to the new space economy",
+          "url": "https://news.mit.edu/2026/guide-to-new-space-economy-1002",
+          "published_at": "2026-10-02T14:50:00Z"
+        },
+        {
+          "id": "e26e0933a95392e203f0",
+          "publisher": "Phys.org",
+          "title": "Why a food poisoning bacterium can cause severe wound infections",
+          "url": "https://phys.org/news/2026-10-food-poisoning-bacterium-severe-wound.html",
+          "published_at": "2026-10-02T20:00:02Z"
         }
       ]
     },
     {
       "id": "also",
-      "persona": "carly",
-      "text": "Also in the news. NPR reports that Talk of drones and a burning flame on Trump's D.C. arch worries aviation experts. Aviation safety experts were wary of Trump's proposed arch near D.C.'s airport. Then came the FAA's unusual lighting recommendations \u2014 including an eternal flame on top \u2014 and Trump's talk of drones. GitHub reports that Repository security advisory comments API in public preview. You can now read, add, and edit comments on repository security advisories using the REST API, including advisories created from private vulnerability reports. Until now, the discussion on an advisory\u2026 The post Repository security advisory comments API in public preview appeared first on The GitHub Blog . the European Space Agency reports that A guide to blood draws in orbit. Video: 00:01:52 This video was published on social media by ESA astronaut Sophie Adenot with the following caption: Just another morning in space\u2026 this one starting with a blood draw! I was so proud to get it right on the first try! \u263a\ufe0f As part of NASA\u2019s Standard Measures and other physiology experiments, we regularly collect blood and other samples to help scientists understand how our bodies adapt to spaceflight. We centrifuge and freeze the samples on board, preserving them until they can be analysed back on Earth. I\u2019ll do one last blood draw on the morning we undock! -- Un matin de plus dans l\u2019espace\u2026 mais qui commence par une prise de sang ! Tellement fi\u00e8re d\u2019avoir r\u00e9ussi du premier coup Al Jazeera reports that New aircraft carrier, 10,000 US troops: Is the Iran war about to escalate?. By the end of November, three US aircraft carriers and two amphibious landing groups will be positioned near Iran. That is the news update.",
+      "persona": "ava",
+      "text": "Also in the news. NPR reports that Talk of drones and a burning flame on Trump's D.C. arch worries aviation experts. Aviation safety experts were wary of Trump's proposed arch near D.C.'s airport Then came the FAA's unusual lighting recommendations \u2014 including an eternal flame on top \u2014 and Trump's talk of drones. GitHub reports that Repository security advisory comments API in public preview. You can now read, add, and edit comments on repository security advisories using the REST API, including advisories created from private vulnerability reports Until now, the discussion on an advisory\u2026 The post Repository security advisory comments API in public preview appeared first on The GitHub Blog . WIRED reports that A Flaw in ChatGPT\u2019s Mac App Could Have Let Hackers Grab Sensitive Data. While the focus has been on AI agents\u2019 hacking capabilities, a recently patched vulnerability in a ChatGPT app shows that AI software is itself an inviting\u2014and vulnerable\u2014target. Deutsche Welle reports that This island in Kiribati could be the key to solve the Amelia Earhart mystery. Nearly 90 years after US aviator Amelia Earhart vanished over the Pacific, a new expedition to the remote island of Nikumaroro hopes a lagoon anomaly could finally reveal the fate of her missing aircraft. That is the news update.",
       "sources": [
         {
+          "id": "a68ab974a3f40d90f659",
           "publisher": "NPR",
           "title": "Talk of drones and a burning flame on Trump's D.C. arch worries aviation experts",
           "url": "https://www.npr.org/2026/10/02/nx-s1-5983708/talk-of-drones-and-a-burning-flame-on-trumps-d-c-arch-worries-aviation-experts",
           "published_at": "2026-10-02T20:18:57Z"
         },
         {
+          "id": "c598e747ee3136cb0eb6",
           "publisher": "GitHub",
           "title": "Repository security advisory comments API in public preview",
           "url": "https://github.blog/changelog/2026-10-02-repository-security-advisory-comments-api-in-public-preview",
           "published_at": "2026-10-02T13:15:25Z"
         },
         {
-          "publisher": "ESA",
-          "title": "A guide to blood draws in orbit",
-          "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/A_guide_to_blood_draws_in_orbit",
-          "published_at": "2026-10-02T10:30:00Z"
+          "id": "4cb27c404e64ee7c81a8",
+          "publisher": "WIRED",
+          "title": "A Flaw in ChatGPT\u2019s Mac App Could Have Let Hackers Grab Sensitive Data",
+          "url": "https://www.wired.com/story/a-flaw-in-chatgpts-mac-app-could-have-let-hackers-grab-sensitive-data/",
+          "published_at": "2026-10-02T09:45:00Z"
         },
         {
-          "publisher": "Al Jazeera",
-          "title": "New aircraft carrier, 10,000 US troops: Is the Iran war about to escalate?",
-          "url": "https://www.aljazeera.com/news/2026/10/2/new-aircraft-carrier-10000-us-troops-is-the-iran-war-about-to-escalate?traffic_source=rss",
-          "published_at": "2026-10-02T10:06:21Z"
+          "id": "4b4f0608ed92d5528ccb",
+          "publisher": "Deutsche Welle",
+          "title": "This island in Kiribati could be the key to solve the Amelia Earhart mystery",
+          "url": "https://www.dw.com/en/lost-aviator-amelia-earhart-can-the-mystery-be-solved/a-79517455?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "2026-10-02T11:42:00Z"
         }
       ]
     }
   ],
-  "speak": "RootRecord news update for October 2, 2026. Markets. MarketWatch reports that Falling wages, soaring energy prices and inflation: It\u2019s beginning to look a lot like the 1970s. Is it time to dust off the financial playbook from that dismal decade? MarketWatch reports that Why mixing politics with your stock portfolio might be costing you money. Data shows that partisan ETFs result in higher fees and lower market returns MarketWatch reports that Does AI have a soul? Pope Leo and Anthropic clash.. The Vatican has laid a moral blueprint for the technology, with Pope Leo maintaining that \u201calgorithms lack the spark of humanity.\u201d MarketWatch reports that Europe\u2019s leaders rush to release diesel from stockpiles as fuel shock hangs over U.S. midterms. Europe leaders agreed Friday to release some of diesel stockpiles, pulling prices of oil down by as much as 5%. MarketWatch reports that This city saw 1 in 3 home sellers slash their asking price in September to attract reluctant buyers. As hesitant buyers drive home prices down, these are the places with the most price cuts and the biggest markdowns. the BBC reports that G7 to release 100 million barrels of oil and diesel after Trump export ban threat. The coordinated release is aimed at heading off further price spikes and avoiding a ban on US diesel exports. National security. Breaking Defense reports that Army to establish new autonomy command, acquisition executive. The service\u2019s new command will be called Army Futures and Autonomous Systems Command, or FASCOM, according to a memo signed by Acting Army Secretary Adam Telle. Breaking Defense reports that GDIT replaces longtime president Gilliland. Paul Nedzbala, who joined GDIT in 2018, has been appointed acting president. U.S. Naval Institute News reports that Pentagon Doubles Down on Pacific Area Denial, Need for High-end Munitions. The Pentagon doubled down on its plans to establish a forward-deployed area denial, anti-access network along the First Island Chain to deter China in the 2026 National Defense Security update. In a Sept. 22 report to the Senate Armed Services Committee on the 2026 NDS, Defense Under Secretary for Policy Elbridge Colby highlighted the department\u2019s efforts to establish a \u201cdeterrence by denial\u201d posture in the Indo-Pacific against China. The move is the culmination of attempts within the last decade to prepare American forces for a potential conflict against China, one that would require expansive logistics and missile volleys over the Defense News reports that Saudis plan assault on Houthis to break Red Sea chokehold. More than 100,000 Yemeni troops could be mobilized in the offensive, depending on the scale, officials said. Breaking Defense reports that Long-range radar deal puts Ireland on course to shrink capability gap. Dublin said last year that a \u201crecord\u201d \u20ac1.5 billion defense budget would allow \u201csignificant progress\u201d to be made on the radar project. SpaceX. Ars Technica reports that Rocket Report: SpaceX completes launch triple-header; Rocket Lab nets big contract. Blue Origin seeks FAA approval for up to 50 New Glenn launches and 50 booster landings per year. the Honolulu Star-Advertiser reports that SpaceX launches 13th long-duration astronaut crew to International Space Station. CAPE CANAVERAL, Florida >> A SpaceX rocket lifted off from Florida on Thursday with a crew of two U.S. astronauts, a Canadian astronaut and a Russian cosmonaut headed to the International Space Station for a science mission devoted to human health and performance in orbit. Spaceflight Now reports that Falcon Heavy flies its first mission for U.S. spy satellite agency. The 14th Falcon Heavy rocket is scheduled to blast off on a clandestine mission from Launch Complex 39A at NASA\u2019s Kennedy Space Center at 11:54 p.m. EDT (0354 UTC). Ars Technica reports that SpaceX describes surgical intervention before launch of latest crew mission. With Crew-13, Jessica Watkins became the first Black woman to lead a mission into space. Hawaii. the Office of the Governor of Hawaii reports that DLNR News Release \u2013 L\u0101na\u02bbi Axis Deer Hunting Season Announced. STATE OF HAWAI\u02bbI KA MOKU \u02bb\u0100INA O HAWAI\u02bbI JOSH GREEN, M.D. GOVERNOR KE KIA\u02bb\u0100INA DEPARTMENT OF LAND AND NATURAL RESOURCES KA \u2018OIHANA KUMUWAIWAI \u2018\u0100INA RYAN K.P. KANAKA\u2018OLE [\u2026] the Honolulu Star-Advertiser reports that Bicyclist, 40, dies in collision on Sand Island Access Road. A 40-year-old bicyclist died this morning after he was struck by a vehicle on Sand Island Access Road near the Keehi Marina Boat Harbor in Kalihi, according to the Honolulu Police Department. the Office of the Governor of Hawaii reports that News Release \u2013 DOH Alerts Public to Sierra Nevada Cheese Company Recall of All Graziers Raw Milk Cheeses. STATE OF HAWAI\u02bbI KA MOKU \u02bb\u0100INA O HAWAI\u02bbI JOSH GREEN, M.D. GOVERNOR KE KIA\u02bb\u0100INA DEPARTMENT OF HEALTH KA \u02bbOIHANA OLAKINO KENNETH FINK, MD, MGA, MPH DIRECTOR KA [\u2026] the Honolulu Star-Advertiser reports that Firefighters extinguish early-morning blaze at Leeward Drive-Inn. Honolulu firefighters extinguished an early-morning fire at the Leeward Drive-Inn in Waipahu today. the Honolulu Star-Advertiser reports that Combined Paramount and Warner Bros Discovery to be named Skydance. Paramount Skydance CEO David Ellison today said, upon closing the company\u2019s merger with Warner Bros Discovery, that the combined entity will be called Skydance. Tech and chips. GitHub reports that Stateless GitHub App installation tokens rolled out. The staged rollout of the stateless GitHub App installation token format, which began on April 27, 2026, is complete. By default, all newly minted GitHub App installation tokens will be\u2026 The post Stateless GitHub App installation tokens rolled out appeared first on The GitHub Blog . U.S. Naval Institute News reports that Navy Contracts RTX for $24.4B Standard Missile-6 Deal. The U.S. Navy contracted RTX to produce more than 1,900 Standard Missile-6s over five years in a $24.4 billion deal announced on Thursday. \u201cThis SM-6 award gives industry the demand signal and stability to expand production, strengthen the munitions industrial base, and build the magazine depth our fleet needs. That is the foundry delivering for the fleet \u2013 and ensuring our sailors have the combat power to fight and win,\u201d Chief of Naval Operations Adm. Daryl Caudle said in a Navy release on the award. While RTX and the Navy did not specify the amount of SM-6s that will be GitHub reports that Copilot code review: API support and new default effort level. You can now request a GitHub Copilot code review through the REST and GraphQL APIs and set the review effort level for each request. Balanced is also now the default\u2026 The post Copilot code review: API support and new default effort level appeared first on The GitHub Blog . GitHub reports that Selected models in GitHub Copilot deprecated. As of today, October 2, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model\u2026 The post Selected models in GitHub Copilot deprecated appeared first on The GitHub Blog . GitHub reports that New fields for SecurityAdvisory GraphQL API. You can now read more of the GitHub Advisory Database directly from the GraphQL API without falling back to the REST API. The SecurityAdvisory object gained five new fields: cveId:\u2026 The post New fields for SecurityAdvisory GraphQL API appeared first on The GitHub Blog . GitHub reports that Confidential comments on repository security advisories. You can now post confidential comments on repository security advisories. Confidential comments are visible only to people with write access to the repository, so you can discuss a report with\u2026 The post Confidential comments on repository security advisories appeared first on The GitHub Blog . Google reports that The latest AI news we announced in September 2026. A video showing the September AI updates World. ABC News Australia reports that 'It breaks you': Friend of stabbed pilot speaks out. A pilot and close friend of the Indian flydubai captain who was attacked during a flight to Israel recalls his shock upon first seeing footage of the incident online. ABC News Australia reports that Labor's working holiday visa policy risks regional seats, experts say. Political experts say the immigration policy changes put Labor's regional MPs in a tight spot to represent their community and defend their party. Al Jazeera reports that Flydubai pilot recounts cockpit stabbing in call with Indian PM Modi. Smit Machchhar recalls midair disaster after co-pilot's attack on Flydubai flight to Tel Aviv. ABC News Australia reports that Complaint over senior NT public servant who ran private NDIS provider. A senior staffer with the Northern Territory's Department of Children and Families in Central Australia spent almost three years as the sole director of a private NDIS provider in Alice Springs. ABC News Australia reports that Violent protests in France over conditions in high schools. French students and police have accused each other of violence as protests continue over conditions in education. Al Jazeera reports that Why Carney\u2019s economic overhaul is clashing with Canada\u2019s unions. Unions say proposed changes to Canada's labour laws could weaken workers\u2019 right to strike. Al Jazeera reports that Police bodycam shows Luigi Mangione arrest at Pennsylvania McDonald\u2019s. Newly released bodycam footage shows police arresting and searching Luigi Mangione at a McDonald\u2019s in Altoona in 2024. the Japan Times reports that North Korea fired off apparent ballistic missile amid landmine row with South. The launch comes after a landmine explosion injured three South Korean soldiers in the Demilitarized Zone last month. Al Jazeera reports that Israel could\u2019ve ended Gaza war, freed captives sooner: Israel ex-negotiator. Retired General Nitzan Alon says more captives could have returned alive and a deal was possible 'maybe a year earlier'. NPR reports that As Trump's proposed arch looms over D.C., protesters pin their hopes on the midterms. Democratic lawmakers, veterans and concerned citizens gathered in Memorial Circle to protest the arch Trump wants to build there. Their hopes lie primarily in a lawsuit and next month's midterms. ABC News Australia reports that Fishers warn snapper, kingfish prices could soar under proposed catch limits. Fishers and seafood retailers say proposed NSW limits designed to rebuild snapper and yellowtail kingfish stocks will send prices soaring. Al Jazeera reports that Bosnia\u2019s elections explained. Bosnia and Herzegovina votes on October 4 in an election that may determine whether it breaks its political deadlock. ABC News Australia reports that One Nation makes election promise to revive Victoria's timber sector. One Nation has promised to resume native timber logging in Victoria if it wins the state election, but the party would not say if it has costed the policy. Al Jazeera reports that Israeli general: Gaza captives could have been freed a year earlier. Israeli Gen. Nitzan Alon told a Washington Institute forum that all Gaza captives could've been freed a year earlier. The claims in this desk are the publisher's. Mainland weather. the National Hurricane Center reports that There are no tropical cyclones at this time.. No tropical cyclones as of Fri, 02 Oct 2026 23:39:19 GMT the National Hurricane Center reports that Hurricane Rachel Forecast Discussion Number 23. Issued at 200 PM MST Fri Oct 02 2026 000 WTPZ43 KNHC 022031 TCDEP3 Hurricane Rachel Discussion Number 23 NWS National Hurricane Center Miami FL EP182026 200 PM MST Fri Oct 02 2026 The structure of Rachel has not changed appreciably since the previous advisory. A ragged, cloud-filled eye can still be seen on visible satellite imagery. The cloud pattern can also be described as having a large central dense overcast or embedded center, with the deep convection spanning roughly 200 n mi in diameter. The latest subjective intensity estimate from TAFB is T4.5/77 kt, and the latest objective estimates from UW-CIMSS range from about 77-99 kt. The initial intensity is lowered slightly to 90 kt for th the National Hurricane Center reports that Hurricane Rachel Wind Speed Probabilities Number 23. Issued at 2100 UTC FRI OCT 02 2026 000 FOPZ13 KNHC 022031 PWSEP3 HURRICANE RACHEL WIND SPEED PROBABILITIES NUMBER 23 NWS NATIONAL HURRICANE CENTER MIAMI FL EP182026 2100 UTC FRI OCT 02 2026 AT 2100Z THE CENTER OF HURRICANE RACHEL WAS LOCATED NEAR LATITUDE 19.3 NORTH...LONGITUDE 111.1 WEST WITH MAXIMUM SUSTAINED WINDS NEAR 90 KTS...105 MPH...165 KM/H. Z INDICATES COORDINATED UNIVERSAL TIME (GREENWICH) PACIFIC DAYLIGHT TIME (PDT)...SUBTRACT 7 HOURS FROM Z TIME HAWAIIAN STANDARD TIME (HST)...SUBTRACT 10 HOURS FROM Z TIME WIND SPEED PROBABILITY TABLE FOR SPECIFIC LOCATIONS CHANCES OF SUSTAINED (1-MINUTE AVERAGE) WIND SPEEDS OF AT LEAST ...34 KT (39 MPH... 63 KM/H)... ...50 KT (58 MPH... 93 KM/H) the National Hurricane Center reports that Hurricane Rachel Graphics. Wind Speed Probabilities last updated Fri, 02 Oct 2026 21:27:26 GMT the National Hurricane Center reports that Summary for Hurricane Rachel (EP3/EP182026). ...RACHEL CONTINUES LASHING SOCORRO ISLAND AS IT MOVES SLOWLY WESTWARD... As of 2:00 PM MST Fri Oct 02 the center of Rachel was located near 19.3, -111.1 with movement W at 5 mph. The minimum central pressure was 963 mb with maximum sustained winds of about 105 mph. Mainland politics. the Department of Justice reports that FY27 Q4 Report Due. the Department of Justice reports that FY27 Q3 Report Due. the Department of Justice reports that FY27 Q2 Report Due. the Department of Justice reports that Agency Chief FOIA Officer Reports Due on Agency Websites. the Department of Justice reports that Agency Annual FOIA Reports Due on Agency Websites. the Department of Justice reports that Small Volume Agency Chief FOIA Officer Reports Due. the Department of Justice reports that FY27 Q1 Report Due. the Department of Justice reports that Agency Chief FOIA Officer Reports Due. the Department of Justice reports that Agency Chief FOIA Officer Report Training. the Department of Justice reports that Agency Annual FOIA Reports Due. the Department of Justice reports that FY26 Q4 Data Due. the Department of Justice reports that Agency Raw Data Validation Training. the Department of Justice reports that Agency Annual Report Training. the White House reports that National Manufacturing Day, 2026. BY THE PRESIDENT OF THE UNITED STATES OF AMERICA A PROCLAMATION For 250 years, American workers have been the driving force behind our Nation\u2019s strength, prosperity, and industrial might. Their skill, ingenuity, and determination have fueled our economy and carried American manufacturing to new heights. On National Manufacturing Day, we honor the men and women [\u2026] The post National Manufacturing Day, 2026 appeared first on The White House . NPR reports that Pro-Trump Influencer Benny Johnson is being sued for defamation by ICE protesters. The lawsuit says the prominent conservative podcaster falsely claimed the protesters were assaulting ICE officers during demonstrations at an ICE facility in Illinois last year. the White House reports that Presidential Message on National Cybersecurity Awareness Month. In an age of rapid digital advancement, cyberspace has emerged as the new frontier of American innovation, prosperity, and strength. As new technologies open doors to discovery and opportunity that were once unimaginable, a secure cyberspace is essential to ensuring that America continues to lead the world in finance, military power, emerging technology, and manufacturing. [\u2026] The post Presidential Message on National Cybersecurity Awareness Month appeared first on The White House . the White House reports that Presidential Message on National Domestic Violence Awareness Month. In communities across our great Nation, domestic violence destroys families, harms innocent children, and leaves lasting pain in our neighborhoods. For America to be strong, children must feel safe in their homes, spouses and significant others must be respected, and it must be a universal truth that violence in any form is unacceptable. This National [\u2026] The post Presidential Message on National Domestic Violence Awareness Month appeared first on The White House . The claims in this desk are the publisher's. Science. the National Science Foundation reports that MPS Chemistry Quarterly Office Hours. Nov 13 2026 3:00PM to Nov 13 2026 4:00PM EST The U.S. National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports multiple research programs in chemistry. These programs support a national research community engaged in fundamental discovery, invention and innovation in the chemical sciences. NSF MPS holds quarterly office hours to share information with chemistry researchers, administrators and others in the U.S. chemistry research community. MPS leaders and staff will discuss funding \u2026 More at https://www.nsf.gov/events/mps-chemistry-quarterly-office-hours the National Science Foundation reports that NSF MPS Mathematical Sciences Informational Webinar. Oct 7 2026 2:00PM to Oct 7 2026 3:00PM EDT The U.S. National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports multiple research programs at the frontiers of discovery in theoretical and applied mathematical sciences. NSF MPS will host an informational webinar for the U.S. mathematical sciences research community. All members of the mathematics research community are encouraged to attend. MPS leaders and staff will discuss NSF funding opportunities supporting the mathematical \u2026 More at https://www.nsf.gov/events/nsf-mps-mathematical-sciences-informational-webinar Phys.org reports that American beech trees may carry genetic resistance to deadly leaf disease. A study led by scientists at the Holden Arboretum has found evidence that beech leaf disease (BLD) symptom development is genetically controlled, providing the first evidence that some American beech trees may have genetic resistance. This finding supports further investigation and development of breeding populations for BLD resistance. Nearly a third of beech trees near BLD's epicenter in northeastern Ohio, the majority of which were smaller trees, have died since the disease was discovered in 2012. the National Institute of Standards and Technology reports that 2026 NIST Photometry Short Course. The NIST Photometry Short Course is a 4-day course held at NIST Gaithersburg, Maryland. The course consists of lectures given by NIST scientists and hands-on laboratory experience measuring illuminance, total luminous flux, colorimetry, and luminous the National Science Foundation reports that NSF BIO Virtual Office Hour Webinar: Updates from the NSF Directorate for Biological Sciences. Dec 17 2026 1:00PM to Dec 17 2026 2:00PM EST Monthly virtual office webinars will focus on updates from the U.S. National Science Foundation Directorate for Biological Sciences that may be of interest to the biological sciences research community. For additional assistance with accessibility and reasonable accommodations, contact rarequest@nsf.gov or \u2026 More at https://www.nsf.gov/events/nsf-bio-virtual-office-hour-webinar-updates-nsf-directorate Universities. NPR reports that 'Disturbed' by Cornell rape investigation, NY governor puts state AG in charge. The Cornell University Police Department is leading the investigation into an alleged gang rape two years ago. How effective is that approach, and is the campus police accountable to the public? ABC News Australia reports that NY governor slams handling of Cornell 'gang-rape' case. Kathy Hochul says the woman who accused a group of Cornell University students of rape has been \"failed\" at \"every turn\" by authorities. MIT News reports that Met Warehouse dedication ceremony launches new era. Once a storage castle, now a design stronghold, the landmark building is a major new hub at MIT. MIT News reports that MIT releases financials and endowment figures for 2026. The Institute\u2019s pooled investments returned 10.3 percent last year; endowment stands at $29.2 billion. MIT News reports that Computational tools for society\u2019s most complex challenges. Associate Professor Cathy Wu uses reinforcement learning to help map out improvements to transportation and other multifaceted systems. The Guardian reports that Cornell case raises questions about rise of ketamine in sexual assaults: \u2018You might not realize you\u2019re being touched\u2019. After a Jane Doe claimed she was encouraged to take ketamine in an alleged gang rape, advocates are urging for tighter laws around the dissociative The effects of the drug ketamine have come into sharp focus after a former Cornell University student alleged in a lawsuit that several fraternity members gang raped her at a frat house party after she nasally ingested the drug. Ketamine is a dissociative anaesthetic consumed increasingly in the US as both an illegal party drug and legal mental health treatment . Continue reading... the BBC reports that Woman at centre of Cornell rape inquiry was 'failed' by officials, says New York governor. The woman, known as Jane Doe, alleges she was raped by seven students at a fraternity house at the university in 2024. Also in the news. NPR reports that Talk of drones and a burning flame on Trump's D.C. arch worries aviation experts. Aviation safety experts were wary of Trump's proposed arch near D.C.'s airport. Then came the FAA's unusual lighting recommendations \u2014 including an eternal flame on top \u2014 and Trump's talk of drones. GitHub reports that Repository security advisory comments API in public preview. You can now read, add, and edit comments on repository security advisories using the REST API, including advisories created from private vulnerability reports. Until now, the discussion on an advisory\u2026 The post Repository security advisory comments API in public preview appeared first on The GitHub Blog . the European Space Agency reports that A guide to blood draws in orbit. Video: 00:01:52 This video was published on social media by ESA astronaut Sophie Adenot with the following caption: Just another morning in space\u2026 this one starting with a blood draw! I was so proud to get it right on the first try! \u263a\ufe0f As part of NASA\u2019s Standard Measures and other physiology experiments, we regularly collect blood and other samples to help scientists understand how our bodies adapt to spaceflight. We centrifuge and freeze the samples on board, preserving them until they can be analysed back on Earth. I\u2019ll do one last blood draw on the morning we undock! -- Un matin de plus dans l\u2019espace\u2026 mais qui commence par une prise de sang ! Tellement fi\u00e8re d\u2019avoir r\u00e9ussi du premier coup Al Jazeera reports that New aircraft carrier, 10,000 US troops: Is the Iran war about to escalate?. By the end of November, three US aircraft carriers and two amphibious landing groups will be positioned near Iran. That is the news update."
+  "speak": "RootRecord news update for October 2, 2026. Markets. MarketWatch reports that Falling wages, soaring energy prices and inflation: It\u2019s beginning to look a lot like the 1970s. Is it time to dust off the financial playbook from that dismal decade? MarketWatch reports that Why mixing politics with your stock portfolio might be costing you money. Data shows that partisan ETFs result in higher fees and lower market returns MarketWatch reports that Does AI have a soul? Pope Leo and Anthropic clash.. The Vatican has laid a moral blueprint for the technology, with Pope Leo maintaining that \u201calgorithms lack the spark of humanity.\u201d MarketWatch reports that Europe\u2019s leaders rush to release diesel from stockpiles as fuel shock hangs over U.S. midterms. Europe leaders agreed Friday to release some of diesel stockpiles, pulling prices of oil down by as much as 5%. MarketWatch reports that This city saw 1 in 3 home sellers slash their asking price in September to attract reluctant buyers. As hesitant buyers drive home prices down, these are the places with the most price cuts and the biggest markdowns. the BBC reports that G7 to release 100 million barrels of oil and diesel after Trump export ban threat. The coordinated release is aimed at heading off further price spikes and avoiding a ban on US diesel exports. National security. Breaking Defense reports that Army to establish new autonomy command, acquisition executive. The service\u2019s new command will be called Army Futures and Autonomous Systems Command, or FASCOM, according to a memo signed by Acting Army Secretary Adam Telle. Breaking Defense reports that GDIT replaces longtime president Gilliland. Paul Nedzbala, who joined GDIT in 2018, has been appointed acting president. U.S. Naval Institute News reports that Pentagon Doubles Down on Pacific Area Denial, Need for High-end Munitions. The Pentagon doubled down on its plans to establish a forward-deployed area denial, anti-access network along the First Island Chain to deter China in the 2026 National Defense Security update In a Sept 22 report to the Senate Armed Services Committee on the 2026 NDS, Defense Under Secretary for Policy Elbridge Colby highlighted the department\u2019s efforts to establish a \u201cdeterrence by denial\u201d posture in the Indo-Pacific against China The move is the culmination of attempts within the last decade to prepare American forces for a potential conflict against China, one that would require expansive logistics and missile volleys over the Breaking Defense reports that Long-range radar deal puts Ireland on course to shrink capability gap. Dublin said last year that a \u201crecord\u201d \u20ac1.5 billion defense budget would allow \u201csignificant progress\u201d to be made on the radar project. Breaking Defense reports that After yearslong delay, Taiwan receives first pair of new F-16s. The two jets landed at an airbase in eastern Taiwan on Friday. SpaceX. Ars Technica reports that Rocket Report: SpaceX completes launch triple-header; Rocket Lab nets big contract. Blue Origin seeks FAA approval for up to 50 New Glenn launches and 50 booster landings per year. Ars Technica reports that SpaceX describes surgical intervention before launch of latest crew mission. With Crew-13, Jessica Watkins became the first Black woman to lead a mission into space. the BBC reports that SpaceX launches crew to ISS. The Falcon 9 rocket blasted off from Cape Canaveral with two Americans, a Russian and a Canadian who will spend up to six months aboard the International Space Station. Deutsche Welle reports that New crew makes the quickest US flight to ISS. The SpaceX spacecraft carrying the Crew-13 team docked with the International Space Station in 7 hours and 55 minutes, setting a new record. Hawaii. Hawaii News Now reports that Launch ramp at Port Allen Small Boat Harbor reopens. The launch ramp at Port Allen Small Boat Harbor in Hanap\u0113p\u0113 Bay reopened Friday afternoon. the Honolulu Star-Advertiser reports that Kristi Noem files for divorce after 34 years of marriage. Kristi Noem, the former South Dakota governor whom President Donald Trump fired as homeland security secretary in March, has filed for divorce from her husband, Bryon Noem, after 34 years of marriage, according to court records. the Honolulu Star-Advertiser reports that Trump directed use of taxpayer money for ads praising his presidency. WASHINGTON >> President Donald Trump personally instructed his budget director to use taxpayer money for TV ads praising him and his presidency, setting in motion a $20 million contract that used funds from the Department of Homeland Security, according to people familiar with the matter. the Office of the Governor of Hawaii reports that DLNR News Release \u2013 L\u0101na\u02bbi Axis Deer Hunting Season Announced. STATE OF HAWAI\u02bbI KA MOKU \u02bb\u0100INA O HAWAI\u02bbI JOSH GREEN, M.D GOVERNOR KE KIA\u02bb\u0100INA DEPARTMENT OF LAND AND NATURAL RESOURCES KA \u2018OIHANA KUMUWAIWAI \u2018\u0100INA RYAN K.P KANAKA\u2018OLE [\u2026] the Honolulu Star-Advertiser reports that Firefighters extinguish early-morning blaze at Leeward Drive-Inn. Honolulu firefighters extinguished an early-morning fire at the Leeward Drive-Inn in Waipahu today. Tech and chips. GitHub reports that Stateless GitHub App installation tokens rolled out. The staged rollout of the stateless GitHub App installation token format, which began on April 27, 2026, is complete By default, all newly minted GitHub App installation tokens will be\u2026 The post Stateless GitHub App installation tokens rolled out appeared first on The GitHub Blog . U.S. Naval Institute News reports that Navy Contracts RTX for $24.4B Standard Missile-6 Deal. The U.S Navy contracted RTX to produce more than 1,900 Standard Missile-6s over five years in a $24.4 billion deal announced on Thursday \u201cThis SM-6 award gives industry the demand signal and stability to expand production, strengthen the munitions industrial base, and build the magazine depth our fleet needs That is the foundry delivering for the fleet \u2013 and ensuring our sailors have the combat power to fight and win,\u201d Chief of Naval Operations Adm Daryl Caudle said in a Navy release on the award While RTX and the Navy did not specify the amount of SM-6s that will be GitHub reports that Copilot code review: API support and new default effort level. You can now request a GitHub Copilot code review through the REST and GraphQL APIs and set the review effort level for each request Balanced is also now the default\u2026 The post Copilot code review: API support and new default effort level appeared first on The GitHub Blog . GitHub reports that Selected models in GitHub Copilot deprecated. As of today, October 2, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) Model\u2026 The post Selected models in GitHub Copilot deprecated appeared first on The GitHub Blog . GitHub reports that New fields for SecurityAdvisory GraphQL API. You can now read more of the GitHub Advisory Database directly from the GraphQL API without falling back to the REST API The SecurityAdvisory object gained five new fields: cveId:\u2026 The post New fields for SecurityAdvisory GraphQL API appeared first on The GitHub Blog . GitHub reports that Confidential comments on repository security advisories. You can now post confidential comments on repository security advisories Confidential comments are visible only to people with write access to the repository, so you can discuss a report with\u2026 The post Confidential comments on repository security advisories appeared first on The GitHub Blog . Google reports that The latest AI news we announced in September 2026. A video showing the September AI updates World. The Guardian reports that Several people injured after vehicle hits crowd at Knights grand final farewell in Newcastle. NSW Ambulance confirms multiple people injured after a car hit a crowd Get our breaking news email , free app or daily news podcast A car has crashed into a crowd of people in Newcastle injuring several as fans waited to farewell the Knights team bus before the NRL grand final New South Wales police said that emergency services were called to Newcastle Link Road at the Transfield Drive roundabout in Wallsend about 9.30am on Saturday after reports a vehicle struck multiple people in a crowd Continue reading... Al Jazeera reports that US and Australia suspend diplomatic operations in Brazil before election. Security threats prompt US and Australia to suspend diplomatic operations in Brazil before pivotal election day. The Guardian reports that Pint-sized gains: the Australian brewers crafting refreshingly sustainable beers. As the weather warms up, renewable and refillable brews can help reduce the environmental cost of a cold one Change by degrees offers life hacks and sustainable living tips each Saturday to help reduce your household\u2019s carbon footprint Got a question or tip for reducing household emissions? Email us at changebydegrees@theguardian.com It\u2019s no secret that Australians love getting on the beers : we consume 69m litres of the stuff every year With that comes a significant packaging and environmental footprint, as commercially produced drinks generate emissions in both production and transportation Australians drink and dispose of an estimated 17bn bottles and cans a year , fewer than half of wh the BBC reports that The South African men trying to end violence against women: 'Every man needs to play a part'. The discovery of 12 women's bodies near Johannesburg has again highlighted South Africa's problem with violence against women. Al Jazeera reports that North Korea fires ballistic missile towards the sea, South Korea says. A ballistic missile is fired from the North Korean port city of Wonsan, South Korea's military says. Al Jazeera reports that Dutch royal house helped slave trade to survive, study finds. In-depth study also says the royal house made huge profits from Dutch colonial policies in past centuries. The Guardian reports that \u2018We want action\u2019: Fijian climate activist sends message ahead of UN talks in Pacific. Lavenia Naivalu has seen the impact of the climate crisis first-hand and is determined to amplify Pacific voices at this year\u2019s pre-Cop summit in Fiji From her wooden veranda in Fiji\u2019s remote Yasawa islands, climate activist Lavenia Naivalu remembers when the reefs were once so healthy, her grandfather would walk to the shoreline and return with fish But life there has changed \u201cThe reefs that the older generation of men spearfished in, no longer provide what they once did,\u201d the 44-year-old says \u201cYoung people \u2026 now must travel further out to sea to find fish for their families.\u201d Continue reading... the BBC reports that Women given shorts at Oktoberfest to prevent upskirting. The step at the Munich festival comes after thousands of voyeuristic videos emerged on social media. The claims in this desk are the publisher's. Mainland weather. the National Hurricane Center reports that There are no tropical cyclones at this time.. No tropical cyclones as of Sat, 03 Oct 2026 00:13:43 GMT the National Hurricane Center reports that Hurricane Rachel Forecast Discussion Number 23. Issued at 200 PM MST Fri Oct 02 2026 000 WTPZ43 KNHC 022031 TCDEP3 Hurricane Rachel Discussion Number 23 NWS National Hurricane Center Miami FL EP182026 200 PM MST Fri Oct 02 2026 The structure of Rachel has not changed appreciably since the previous advisory A ragged, cloud-filled eye can still be seen on visible satellite imagery The cloud pattern can also be described as having a large central dense overcast or embedded center, with the deep convection spanning roughly 200 n mi in diameter The latest subjective intensity estimate from TAFB is T4.5/77 kt, and the latest objective estimates from UW-CIMSS range from about 77-99 kt The initial intensity is lowered slightly to 90 kt for th the National Hurricane Center reports that Hurricane Rachel Wind Speed Probabilities Number 23. Issued at 2100 UTC FRI OCT 02 2026 000 FOPZ13 KNHC 022031 PWSEP3 HURRICANE RACHEL WIND SPEED PROBABILITIES NUMBER 23 NWS NATIONAL HURRICANE CENTER MIAMI FL EP182026 2100 UTC FRI OCT 02 2026 AT 2100Z THE CENTER OF HURRICANE RACHEL WAS LOCATED NEAR LATITUDE 19.3 NORTH...LONGITUDE 111.1 WEST WITH MAXIMUM SUSTAINED WINDS NEAR 90 KTS...105 MPH...165 KM/H Z INDICATES COORDINATED UNIVERSAL TIME (GREENWICH) PACIFIC DAYLIGHT TIME (PDT)...SUBTRACT 7 HOURS FROM Z TIME HAWAIIAN STANDARD TIME (HST)...SUBTRACT 10 HOURS FROM Z TIME WIND SPEED PROBABILITY TABLE FOR SPECIFIC LOCATIONS CHANCES OF SUSTAINED (1-MINUTE AVERAGE) WIND SPEEDS OF AT LEAST ...34 KT (39 MPH.. 63 KM/H).. ...50 KT (58 MPH.. 93 KM/H) the National Hurricane Center reports that Hurricane Rachel Graphics. Wind Speed Probabilities last updated Fri, 02 Oct 2026 21:27:26 GMT the National Hurricane Center reports that Summary for Hurricane Rachel (EP3/EP182026). ...RACHEL CONTINUES LASHING SOCORRO ISLAND AS IT MOVES SLOWLY WESTWARD.. As of 2:00 PM MST Fri Oct 02 the center of Rachel was located near 19.3, -111.1 with movement W at 5 mph The minimum central pressure was 963 mb with maximum sustained winds of about 105 mph. Mainland politics. the Department of Justice reports that FY27 Q4 Report Due. the Department of Justice reports that FY27 Q3 Report Due. the Department of Justice reports that FY27 Q2 Report Due. the Department of Justice reports that Agency Chief FOIA Officer Reports Due on Agency Websites. the Department of Justice reports that Agency Annual FOIA Reports Due on Agency Websites. the Department of Justice reports that Small Volume Agency Chief FOIA Officer Reports Due. the Department of Justice reports that FY27 Q1 Report Due. the Department of Justice reports that Agency Chief FOIA Officer Reports Due. the Department of Justice reports that Agency Chief FOIA Officer Report Training. the Department of Justice reports that Agency Annual FOIA Reports Due. the Department of Justice reports that FY26 Q4 Data Due. the Department of Justice reports that Agency Raw Data Validation Training. the Department of Justice reports that Agency Annual Report Training. NPR reports that As Trump's proposed arch looms over D.C., protesters pin their hopes on the midterms. Democratic lawmakers, veterans and concerned citizens gathered in Memorial Circle to protest the arch Trump wants to build there Their hopes lie primarily in a lawsuit and next month's midterms. the White House reports that National Manufacturing Day, 2026. BY THE PRESIDENT OF THE UNITED STATES OF AMERICA A PROCLAMATION For 250 years, American workers have been the driving force behind our Nation\u2019s strength, prosperity, and industrial might Their skill, ingenuity, and determination have fueled our economy and carried American manufacturing to new heights On National Manufacturing Day, we honor the men and women [\u2026] The post National Manufacturing Day, 2026 appeared first on The White House . NPR reports that Pro-Trump Influencer Benny Johnson is being sued for defamation by ICE protesters. The lawsuit says the prominent conservative podcaster falsely claimed the protesters were assaulting ICE officers during demonstrations at an ICE facility in Illinois last year. the White House reports that Presidential Message on National Cybersecurity Awareness Month. In an age of rapid digital advancement, cyberspace has emerged as the new frontier of American innovation, prosperity, and strength As new technologies open doors to discovery and opportunity that were once unimaginable, a secure cyberspace is essential to ensuring that America continues to lead the world in finance, military power, emerging technology, and manufacturing [\u2026] The post Presidential Message on National Cybersecurity Awareness Month appeared first on The White House . the Department of Justice reports that Final Two Defendants Sentenced in Interstate Auto Theft Conspiracy. the Department of Justice reports that Mequon Doctor Sentenced to Federal Prison for Unlawful Prescribing. The claims in this desk are the publisher's. Science. the National Science Foundation reports that MPS Chemistry Quarterly Office Hours. Nov 13 2026 3:00PM to Nov 13 2026 4:00PM EST The U.S National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports multiple research programs in chemistry These programs support a national research community engaged in fundamental discovery, invention and innovation in the chemical sciences NSF MPS holds quarterly office hours to share information with chemistry researchers, administrators and others in the U.S chemistry research community MPS leaders and staff will discuss funding \u2026 More at https://www.nsf.gov/events/mps-chemistry-quarterly-office-hours the National Science Foundation reports that NSF MPS Mathematical Sciences Informational Webinar. Oct 7 2026 2:00PM to Oct 7 2026 3:00PM EDT The U.S National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports multiple research programs at the frontiers of discovery in theoretical and applied mathematical sciences NSF MPS will host an informational webinar for the U.S mathematical sciences research community All members of the mathematics research community are encouraged to attend MPS leaders and staff will discuss NSF funding opportunities supporting the mathematical \u2026 More at https://www.nsf.gov/events/nsf-mps-mathematical-sciences-informational-webinar the National Institute of Standards and Technology reports that 2026 NIST Photometry Short Course. The NIST Photometry Short Course is a 4-day course held at NIST Gaithersburg, Maryland The course consists of lectures given by NIST scientists and hands-on laboratory experience measuring illuminance, total luminous flux, colorimetry, and luminous the National Science Foundation reports that NSF Growing Convergence Research Lecture: Knowledge Systems Decomposition and Integration in Transdisciplinary Convergence. Oct 29 2026 3:00PM to Oct 29 2026 4:00PM EDT Knowledge Systems Decomposition and Integration in Transdisciplinary Convergence Thursday, Oct 29, 2026, 3-4 p.m EDT Abstract: Knowledge systems are an integral but often invisible element of human knowledge-making and organization, especially in specialized ways of knowing that occur in scientific, professional, organizational, or community settings Transdisciplinary convergence research frequently requires unpacking and then integrating across knowledge systems, \u2026 More at https://www.nsf.gov/events/nsf-growing-convergence-research-lecture-knowledge-systems the National Science Foundation reports that NSF BIO Virtual Office Hour Webinar: Updates from the NSF Directorate for Biological Sciences. Dec 17 2026 1:00PM to Dec 17 2026 2:00PM EST Monthly virtual office webinars will focus on updates from the U.S National Science Foundation Directorate for Biological Sciences that may be of interest to the biological sciences research community For additional assistance with accessibility and reasonable accommodations, contact rarequest@nsf.gov or \u2026 More at https://www.nsf.gov/events/nsf-bio-virtual-office-hour-webinar-updates-nsf-directorate Universities. MIT News reports that Met Warehouse dedication ceremony launches new era. Once a storage castle, now a design stronghold, the landmark building is a major new hub at MIT. MIT News reports that MIT releases financials and endowment figures for 2026. The Institute\u2019s pooled investments returned 10.3 percent last year; endowment stands at $29.2 billion. MIT News reports that Computational tools for society\u2019s most complex challenges. Associate Professor Cathy Wu uses reinforcement learning to help map out improvements to transportation and other multifaceted systems. UC Berkeley reports that Tribal members saw pinyon-juniper woodlands declining. A new study confirms it.. A collaborative, three-year project involving tribal nations, federal agencies, volunteers, and university researchers is informing stewardship of culturally important ecosystems across the Eastern Sierra The post Tribal members saw pinyon-juniper woodlands declining A new study confirms it appeared first on Berkeley News . UC Berkeley reports that To decipher local laws, researchers used AI to build a database of millions of them. The unprecedented project gives policymakers and the public an easy way to look up local ordinances and examine what works \u2014 or does not The post To decipher local laws, researchers used AI to build a database of millions of them appeared first on Berkeley News . MIT News reports that Documenting the tech worker movement. Writing as a participant and researcher, PhD student JS Tan SM \u201922 has co-authored a new book about the rise of tech worker protests and the employer backlash that followed. MIT News reports that The next generation\u2019s guide to the new space economy. An industry report published by students in an MIT aerospace entrepreneurship class lays out guidance for aspiring space leaders and investors. Phys.org reports that Why a food poisoning bacterium can cause severe wound infections. The toxin NheABC, produced by Bacillus cereus, is particularly active in the pH conditions found in open wounds Researchers at Ume\u00e5 University found that the toxin damages both cell membranes and mitochondria and helps the bacterium establish infection in wounded tissue. Also in the news. NPR reports that Talk of drones and a burning flame on Trump's D.C. arch worries aviation experts. Aviation safety experts were wary of Trump's proposed arch near D.C.'s airport Then came the FAA's unusual lighting recommendations \u2014 including an eternal flame on top \u2014 and Trump's talk of drones. GitHub reports that Repository security advisory comments API in public preview. You can now read, add, and edit comments on repository security advisories using the REST API, including advisories created from private vulnerability reports Until now, the discussion on an advisory\u2026 The post Repository security advisory comments API in public preview appeared first on The GitHub Blog . WIRED reports that A Flaw in ChatGPT\u2019s Mac App Could Have Let Hackers Grab Sensitive Data. While the focus has been on AI agents\u2019 hacking capabilities, a recently patched vulnerability in a ChatGPT app shows that AI software is itself an inviting\u2014and vulnerable\u2014target. Deutsche Welle reports that This island in Kiribati could be the key to solve the Amelia Earhart mystery. Nearly 90 years after US aviator Amelia Earhart vanished over the Pacific, a new expedition to the remote island of Nikumaroro hopes a lagoon anomaly could finally reveal the fate of her missing aircraft. That is the news update."
 }

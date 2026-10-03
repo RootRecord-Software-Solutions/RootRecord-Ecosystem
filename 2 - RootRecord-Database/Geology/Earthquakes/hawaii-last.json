@@ -1,7 +1,8 @@
 {
-  "at": "2026-10-02T14:57:02-10:00",
-  "source": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&starttime=2026-10-02T00%3A57%3A02&minmagnitude=1.0&minlatitude=18.5&maxlatitude=22.5&minlongitude=-160.5&maxlongitude=-154.5",
+  "at": "2026-10-02T15:19:13-10:00",
+  "source": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&starttime=2026-09-19T01%3A19%3A13&minmagnitude=1.0&minlatitude=18.5&maxlatitude=22.5&minlongitude=-160.5&maxlongitude=-154.5",
   "window_h": 24,
+  "span_d": 14,
   "min_mag": 1.0,
   "bbox": {
     "minlatitude": 18.5,
@@ -18,10 +19,20 @@
     "place": "5 km WSW of Volcano, Hawaii",
     "time_hst": "2026-10-02T07:55:58.410000-10:00"
   },
+  "change": {
+    "m25_24h": 1,
+    "m25_24h_prior": 4,
+    "m25_24h_pct": -75,
+    "m25_7d": 10,
+    "m25_7d_prior": 7,
+    "m25_7d_pct": 43
+  },
   "kilauea_150km_count": 23,
-  "new_this_run": 0,
-  "new_local_m2_ids": [],
-  "usgs_generated_utc": "2026-10-03T00:57:03+00:00",
+  "new_this_run": 12,
+  "new_local_m2_ids": [
+    "hv75048472"
+  ],
+  "usgs_generated_utc": "2026-10-03T01:19:14+00:00",
   "events": [
     {
       "id": "hv75048662",
