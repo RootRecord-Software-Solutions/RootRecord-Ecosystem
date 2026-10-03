@@ -1,6 +1,6 @@
-desk_written_at=2026-10-03T04:02:13-10:00
-Delta 2 observation=discharged and powered off last_soc_percent=1.03 age_min=62
-River 2 Pro SOC_percent=99.0 measured_at=2026-10-03T11:35:55.080Z age_min=146 source=cloud
+desk_written_at=2026-10-03T04:04:12-10:00
+Delta 2 observation=discharged and powered off last_soc_percent=1.03 age_min=64
+River 2 Pro SOC_percent=99.0 measured_at=2026-10-03T11:35:55.080Z age_min=148 source=cloud
 River 2 Pro solar_input_w=0.0
 River 2 Pro ac_output_w=0.0
 River 2 Pro ac_input_w=0.0
