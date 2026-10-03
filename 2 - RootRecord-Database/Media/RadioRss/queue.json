@@ -7527,7 +7527,7 @@
         {
           "publisher": "ABC News Australia",
           "source": "ABC News Australia Top Stories",
-          "title": "Multiple people injured as car hits crowd at Knights pre-grand final farewell",
+          "title": "Two critically injured after car ploughs into crowd of Newcastle Knights supporters",
           "url": "https://www.abc.net.au/news/2026-10-03/newcastle-knights-car-crash-wallsend-injuries/107224666",
           "published_at": "2026-10-03T00:23:10Z"
         }
@@ -7620,6 +7620,24 @@
           "title": "Concreter survives three deadly strokes, warns against ignoring symptoms",
           "url": "https://www.abc.net.au/news/2026-10-03/sunshine-coast-stroke-survivor-wants-to-help-save-lives/107222498",
           "published_at": "2026-10-03T01:23:32Z"
+        }
+      ]
+    },
+    {
+      "id": "e87ad2b50cd7011f",
+      "cluster_id": "c_3e75c3ec898647a3",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_3e75c3ec898647a3.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_3e75c3ec898647a3.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "Ukraine war briefing: Russian attacks on Kyiv bridges cause traffic chaos",
+          "url": "https://www.theguardian.com/world/2026/oct/03/ukraine-war-briefing-russian-attacks-on-kyiv-bridges-cause-traffic-chaos",
+          "published_at": "2026-10-03T01:52:35Z"
         }
       ]
     }
