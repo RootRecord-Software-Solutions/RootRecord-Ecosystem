@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T12:23:40.777911Z",
+  "updated_at": "2026-10-03T12:46:59.597933Z",
   "source": "raw samples in each timeframe",
   "windows": {
     "hour": {
@@ -10,17 +10,17 @@
         {
           "alias": "delta2",
           "model": "Delta 2",
-          "soc_avg": 7.14,
-          "soc_min": 5.42,
+          "soc_avg": 5.82,
+          "soc_min": 3.2,
           "soc_max": 9.04,
-          "samples": 70,
+          "samples": 131,
           "solar_w_avg": 0.0,
-          "ac_out_w_avg": 45.24,
+          "ac_out_w_avg": 44.24,
           "ac_in_w_avg": 0.0,
-          "usbc_w_avg": 26.91,
-          "output_w_avg": 72.26,
+          "usbc_w_avg": 27.89,
+          "output_w_avg": 72.11,
           "produced_wh": 0.0,
-          "spent_wh": 28.04
+          "spent_wh": 51.08
         }
       ]
     },
@@ -32,17 +32,17 @@
         {
           "alias": "delta2",
           "model": "Delta 2",
-          "soc_avg": 9.74,
-          "soc_min": 5.42,
+          "soc_avg": 8.24,
+          "soc_min": 3.2,
           "soc_max": 14.38,
-          "samples": 161,
+          "samples": 222,
           "solar_w_avg": 0.0,
-          "ac_out_w_avg": 44.16,
+          "ac_out_w_avg": 43.86,
           "ac_in_w_avg": 0.0,
-          "usbc_w_avg": 26.22,
-          "output_w_avg": 70.65,
+          "usbc_w_avg": 26.99,
+          "output_w_avg": 71.0,
           "produced_wh": 0.0,
-          "spent_wh": 61.32
+          "spent_wh": 84.36
         },
         {
           "alias": "river2pro",
@@ -69,17 +69,17 @@
         {
           "alias": "delta2",
           "model": "Delta 2",
-          "soc_avg": 12.18,
-          "soc_min": 5.42,
+          "soc_avg": 10.16,
+          "soc_min": 3.2,
           "soc_max": 37.86,
-          "samples": 177,
+          "samples": 238,
           "solar_w_avg": 0.0,
-          "ac_out_w_avg": 44.29,
+          "ac_out_w_avg": 43.98,
           "ac_in_w_avg": 0.0,
-          "usbc_w_avg": 25.47,
-          "output_w_avg": 70.05,
+          "usbc_w_avg": 26.38,
+          "output_w_avg": 70.53,
           "produced_wh": 0.0,
-          "spent_wh": 65.89
+          "spent_wh": 88.92
         },
         {
           "alias": "river2pro",
@@ -106,17 +106,17 @@
         {
           "alias": "delta2",
           "model": "Delta 2",
-          "soc_avg": 12.18,
-          "soc_min": 5.42,
+          "soc_avg": 10.16,
+          "soc_min": 3.2,
           "soc_max": 37.86,
-          "samples": 177,
+          "samples": 238,
           "solar_w_avg": 0.0,
-          "ac_out_w_avg": 44.29,
+          "ac_out_w_avg": 43.98,
           "ac_in_w_avg": 0.0,
-          "usbc_w_avg": 25.47,
-          "output_w_avg": 70.05,
+          "usbc_w_avg": 26.38,
+          "output_w_avg": 70.53,
           "produced_wh": 0.0,
-          "spent_wh": 65.89
+          "spent_wh": 88.92
         },
         {
           "alias": "river2pro",
@@ -143,17 +143,17 @@
         {
           "alias": "delta2",
           "model": "Delta 2",
-          "soc_avg": 12.18,
-          "soc_min": 5.42,
+          "soc_avg": 10.16,
+          "soc_min": 3.2,
           "soc_max": 37.86,
-          "samples": 177,
+          "samples": 238,
           "solar_w_avg": 0.0,
-          "ac_out_w_avg": 44.29,
+          "ac_out_w_avg": 43.98,
           "ac_in_w_avg": 0.0,
-          "usbc_w_avg": 25.47,
-          "output_w_avg": 70.05,
+          "usbc_w_avg": 26.38,
+          "output_w_avg": 70.53,
           "produced_wh": 0.0,
-          "spent_wh": 65.89
+          "spent_wh": 88.92
         },
         {
           "alias": "river2pro",
