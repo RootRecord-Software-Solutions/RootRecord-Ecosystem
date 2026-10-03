@@ -1,1 +1,3 @@
 2026-10-02T23:24:24-1000 delta2-ac-force: no-op ble_ac_already_on ble_age=15s ac_out=38.0 sight_age=18s
+2026-10-02T23:25:09-1000 delta2-ac-force: no-op ble_ac_already_on ble_age=19s ac_out=52.0 sight_age=2s
+2026-10-02T23:25:54-1000 delta2-ac-force: no-op ble_ac_already_on ble_age=23s ac_out=38.0 sight_age=25s

@@ -1,0 +1,148 @@
+RSS FEED HEALTH
+
+NASA News Releases           ● HEALTHY
+NASA Recently Published Cont ● HEALTHY
+NASA Technology              ○ UNKNOWN
+NASA Aeronautics             ○ UNKNOWN
+NASA Space Station           ● HEALTHY
+NASA Artemis                 ● HEALTHY
+NASA Goddard                 ○ UNKNOWN
+NASA Kennedy                 ○ UNKNOWN
+NASA Marshall                ○ UNKNOWN
+NASA JPL Center Feed         ● HEALTHY
+NASA JPL News                ○ UNHEALTHY
+NASA JPL Podcasts            ○ DISABLED
+NASA CNEOS                   ○ UNAVAILABLE
+ESA Top News                 ● HEALTHY
+ESA Space Science            ● HEALTHY
+ESA Human Spaceflight        ● HEALTHY
+ESA Earth Observation        ○ UNKNOWN
+ESA Technology               ○ UNKNOWN
+ESA Exploration              ○ UNAVAILABLE
+NSF News                     ● HEALTHY
+NSF Events                   ○ UNKNOWN
+NSF Statistics               ○ UNKNOWN
+NIST News                    ● HEALTHY
+NIST Cybersecurity           ● HEALTHY
+NIST Cybersecurity Insights  ● HEALTHY
+NIST Information Technology  ○ UNKNOWN
+NIST Physics                 ○ UNKNOWN
+NIST Materials               ○ UNKNOWN
+NIST Nanotechnology          ○ UNKNOWN
+NIST Electronics             ○ UNKNOWN
+NIST Advanced Communications ○ UNKNOWN
+NIST Manufacturing           ○ UNKNOWN
+NIST Standards               ○ UNKNOWN
+NIST Resilience              ○ UNKNOWN
+NIST Transportation          ○ UNKNOWN
+Ars Technica Technology Lab  ○ UNKNOWN
+Ars Technica Gear and Gadget ○ UNKNOWN
+Ars Technica Cars            ○ UNKNOWN
+Ars Technica The Scientific  ○ UNKNOWN
+Ars Technica All News        ○ DISABLED
+The Register Security        ○ UNKNOWN
+The Register On-Prem         ○ UNKNOWN
+The Register Off-Prem        ○ UNKNOWN
+The Register Software        ○ UNKNOWN
+The Register Science         ○ UNKNOWN
+WIRED AI                     ○ UNKNOWN
+WIRED Science                ○ UNKNOWN
+WIRED Security               ○ UNKNOWN
+WIRED Business               ○ UNKNOWN
+NVIDIA Blog                  ○ UNKNOWN
+NVIDIA Developer Blog        ○ UNKNOWN
+NVIDIA Press Room            ○ UNKNOWN
+OpenAI                       ○ UNAVAILABLE
+Anthropic                    ○ UNAVAILABLE
+Google AI                    ○ UNKNOWN
+CISA Cybersecurity Advisorie ○ UNAVAILABLE
+CISA News                    ● HEALTHY
+CISA Alerts                  ○ UNAVAILABLE
+GitHub Changelog             ● HEALTHY
+Docker Blog                  ○ UNKNOWN
+Linux Kernel                 ○ UNKNOWN
+Cloudflare Blog              ○ UNKNOWN
+Microsoft Azure Blog         ● HEALTHY
+Kubernetes                   ○ UNAVAILABLE
+AWS What's New               ○ UNAVAILABLE
+FAA News                     ○ UNAVAILABLE
+FAA Press Releases           ○ UNAVAILABLE
+FAA Safety                   ○ UNAVAILABLE
+FAA Commercial Space Transpo ○ UNAVAILABLE
+FAA Aviation Technology      ○ UNAVAILABLE
+NTSB Press Releases          ○ UNKNOWN
+NTSB Investigations          ● HEALTHY
+NTSB Reports                 ○ UNKNOWN
+NTSB Events                  ○ UNKNOWN
+EIA Today in Energy          ○ UNKNOWN
+EIA What's New               ○ UNKNOWN
+EIA Press Releases           ○ UNKNOWN
+EIA Gasoline and Diesel Fuel ○ UNKNOWN
+EIA Heating Oil and Propane  ○ UNKNOWN
+Federal Reserve Monetary Pol ● HEALTHY
+Federal Reserve Speeches     ○ UNKNOWN
+Federal Reserve Supervision  ○ UNKNOWN
+Federal Reserve Supervision  ○ UNKNOWN
+Federal Reserve Working Pape ○ UNKNOWN
+Federal Reserve Press Releas ○ UNAVAILABLE
+NPR News                     ● HEALTHY
+The Guardian International   ● HEALTHY
+Al Jazeera                   ● HEALTHY
+ScienceDaily                 ○ UNKNOWN
+Bureau of Labor Statistics   ○ DISABLED
+Bureau of Economic Analysis  ● HEALTHY
+SEC Press Releases           ○ UNKNOWN
+CFTC                         ○ UNKNOWN
+MarketWatch Top Stories      ● HEALTHY
+BBC Business                 ● HEALTHY
+CNBC Markets                 ○ DISABLED
+Department of War News       ○ UNAVAILABLE
+USNI News                    ○ UNKNOWN
+Breaking Defense             ● HEALTHY
+Defense News                 ● HEALTHY
+UK Ministry of Defence       ○ UNKNOWN
+SpaceX                       ○ UNAVAILABLE
+Space.com                    ○ DISABLED
+NASASpaceflight              ○ UNHEALTHY
+SpaceNews                    ○ UNKNOWN
+Spaceflight Now              ○ UNKNOWN
+Hawaii Governor              ● HEALTHY
+Hawaii DBEDT                 ○ UNKNOWN
+Hawaii Department of Health  ○ UNKNOWN
+Honolulu Civil Beat          ● HEALTHY
+Honolulu Star-Advertiser     ○ UNKNOWN
+Hawaii News Now              ○ UNKNOWN
+Microsoft News               ● HEALTHY
+Microsoft Blog               ● HEALTHY
+BBC Technology               ○ UNKNOWN
+BBC World                    ● HEALTHY
+BBC Asia                     ● HEALTHY
+BBC Australia                ● HEALTHY
+BBC Africa                   ● HEALTHY
+BBC Europe                   ● HEALTHY
+BBC Latin America            ● HEALTHY
+BBC Middle East              ● HEALTHY
+BBC US and Canada            ○ UNKNOWN
+NPR World                    ● HEALTHY
+ABC News Australia Top Stori ● HEALTHY
+The Japan Times              ○ UNKNOWN
+Deutsche Welle English       ○ UNKNOWN
+France 24 English            ○ UNKNOWN
+Africanews                   ○ UNKNOWN
+UN News                      ○ UNKNOWN
+NOAA News                    ● HEALTHY
+NHC Atlantic                 ● HEALTHY
+NHC Eastern North Pacific    ● HEALTHY
+Storm Prediction Center      ○ UNKNOWN
+White House News             ○ UNKNOWN
+Federal Register             ○ UNKNOWN
+Congress Most-Viewed Bills   ○ UNKNOWN
+NPR National                 ● HEALTHY
+NPR Politics                 ● HEALTHY
+MIT News                     ● HEALTHY
+MIT Research                 ● HEALTHY
+Harvard Gazette              ● HEALTHY
+UC Berkeley News             ● HEALTHY
+Nature                       ● HEALTHY
+Science Magazine News        ○ UNKNOWN
+Phys.org                     ○ UNKNOWN
