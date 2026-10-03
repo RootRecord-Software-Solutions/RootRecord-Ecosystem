@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-03T02:46:28-10:00",
+  "name": "Kilauea",
+  "vnum": "332010",
+  "alert_level": "WATCH",
+  "color_code": "ORANGE",
+  "status_sent_utc": "2026-10-02 19:45:09",
+  "status_notice_id": "DOI-USGS-HVO-2026-10-02T18:13:04+00:00",
+  "status_notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-02T18:13:04+00:00",
+  "latest_notice": {
+    "sent_utc": "2026-10-02 19:45:09",
+    "id": "DOI-USGS-HVO-2026-10-02T18:13:04+00:00",
+    "type": "Daily Update",
+    "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-02T18:13:04+00:00",
+    "synopsis": "No overflows or spattering at north or south vents over the past day; strong glow and flames continue. No reactivation of intrusion emplaced two nights ago. Earthquake activity continues underneath Halemaʻumaʻu. No anomalous activity outside the summit."
+  },
+  "latest_activity_notice": {
+    "sent_utc": "2026-09-29 17:54:03",
+    "id": "DOI-USGS-HVO-2026-09-29T16:38:42+00:00",
+    "type": "Volcano Activity Notification",
+    "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-29T16:38:42+00:00",
+    "synopsis": "The Halemaʻumaʻu eruption of Kīlauea volcano is currently erupting small overflows from both the north and south vents. It is not possible to forecast the onset of episode 55 fountains or if they will occur."
+  },
+  "headline": "WATCH — elevated unrest",
+  "erupting": true,
+  "multiplier": 2.5,
+  "sources": [
+    "https://volcanoes.usgs.gov/hans-public/api/volcano/getMonitoredVolcanoes",
+    "https://volcanoes.usgs.gov/hans-public/api/notice/getNewestOrRecent"
+  ]
+}
