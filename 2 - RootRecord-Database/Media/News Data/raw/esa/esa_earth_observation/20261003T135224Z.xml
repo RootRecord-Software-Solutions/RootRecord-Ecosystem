@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="/css/rss.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"> 
+<!-- If you're seeing this, you've clicked on a link for ESA's RSS feeds. 
+This file is not meant to be read by a Web browser directly. 
+Instead you're meant to copy the URL for the file, and paste it into your favorite RSS reader. -->
+<channel>
+
+<category>space</category>
+<language>en-GB</language>
+<ttl>600</ttl>
+<copyright>Copyright European Space Agency</copyright>
+<managingEditor>rss@esa.int (ESA rss manager)</managingEditor>
+
+
+				
+			
+						 
+	
+
+
+
+
+
+
+					 
+
+	
+																																					
+				
+																																																								
+				
+														
+				
+												
+			
+	
+					
+			
+			 
+		
+					
+			
+			 
+		
+					
+						
+						 
+		
+					
+			
+			 
+						
+ 
+			  
+	
+	
+
+<title>ESA Observing the Earth</title>
+<description>ESA Observing the Earth</description>
+<link>https://www.esa.int/Applications/Observing_the_Earth</link>
+<atom:link href="https://www.esa.int/rssfeed/Applications/Observing_the_Earth" rel="self" type="application/rss+xml" />
+	<pubDate>Fri, 02 Oct 2026 11:00:00 +0200</pubDate>
+<lastBuildDate>Fri, 02 Oct 2026 11:00:00 +0200</lastBuildDate>
+<docs>http://blogs.law.harvard.edu/tech/rss</docs> 
+<item>
+	
+
+
+
+
+		
+	
+					
+						
+<title>Earth from Space: Typhoon Surigae</title>
+<description><![CDATA[
+	<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/earth_from_space_typhoon_surigae/27547933-1-eng-GB/Earth_from_Space_Typhoon_Surigae_card_full.jpg" alt="This false-colour, polarised image from Copernicus Sentinel-1 shows us the surface of the sea beneath the clouds, as seen by the satellite’s radar instrument. The sea conditions reflect the strong winds as Typhoon Surigae passes over.">
+	Image:
+			This false-colour, polarised image from Copernicus Sentinel-1 shows us the surface of the sea beneath the clouds, as seen by the satellite’s radar instrument. The sea conditions reflect the strong winds as Typhoon Surigae passes over.
+	]]></description>
+<link><![CDATA[https://www.esa.int/ESA_Multimedia/Images/2026/10/Earth_from_Space_Typhoon_Surigae]]></link>
+
+<guid isPermaLink="false">ac78b447a5415e306d52b736d846a454</guid>
+<pubDate>Fri, 02 Oct 2026 11:00:00 +0200</pubDate>
+	</item><item>
+	
+				
+
+
+	
+	
+
+	
+										
+						
+											
+<title>Italy’s IRIDE completes Eaglet II constellation </title>
+<description><![CDATA[
+	<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/eaglet_ii_launch_progress_for_italy_s_iride_programme/27548883-2-eng-GB/Eaglet_II_launch_progress_for_Italy_s_IRIDE_programme_card_full.jpg" alt="IRIDE provides satellite data for Italy’s environmental, emergency and security services.">
+	<p>The final batch of Eaglet II satellites for Italy’s IRIDE Earth observation programme has reached orbit, bringing the programme a step closer to providing a full range of satellite data for Italy’s environmental, emergency and security services.</p>
+]]></description>
+<link><![CDATA[https://www.esa.int/Applications/Observing_the_Earth/IRIDE/Italy_s_IRIDE_completes_Eaglet_II_constellation]]></link>
+
+<guid isPermaLink="false">db761abc0229f694d91bc1498831d0c0</guid>
+<pubDate>Fri, 02 Oct 2026 09:00:00 +0200</pubDate>
+	</item><item>
+	
+				
+
+
+	
+	
+
+	
+										
+						
+											
+<title>EarthCARE’s view of volcanic plume boosts air safety</title>
+<description><![CDATA[
+	<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/anak_krakatau_eruption_by_sentinel-3/27456765-1-eng-GB/Anak_Krakatau_eruption_by_Sentinel-3_card_full.jpg" alt="Copernicus Sentinel-3 captured a plume from the eruption of Anak Krakatau on Saturday, 5 September.">
+	<p>When Anak Krakatau erupted a few weeks ago, the European Space Agency’s EarthCARE satellite, orbiting above, captured vertical profiles of different constituents within the volcanic plume. Designed primarily to advance our understanding of how clouds and aerosols influence Earth’s climate, here EarthCARE also provided valuable information to support safe air travel.</p><p>At the same time, these observations offer new insights into the impact that volcanic eruptions have on the climate system.</p>
+]]></description>
+<link><![CDATA[https://www.esa.int/Applications/Observing_the_Earth/FutureEO/EarthCARE/EarthCARE_s_view_of_volcanic_plume_boosts_air_safety]]></link>
+
+<guid isPermaLink="false">79b8588e91e1f7a3feee6e008442ef0b</guid>
+<pubDate>Thu, 01 Oct 2026 09:30:00 +0200</pubDate>
+	</item><item>
+	
+				
+
+
+	
+	
+
+	
+													
+						
+											
+<title>Three Earth Explorer candidates go forward</title>
+<description><![CDATA[
+	<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/03/advancing_earth_science/26001430-2-eng-GB/Advancing_Earth_science_card_full.png" alt="Advancing Earth science">
+	
+]]></description>
+<link><![CDATA[https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Three_Earth_Explorer_candidates_go_forward]]></link>
+
+<guid isPermaLink="false">aee16fc2881085f7bf08306c69c5e422</guid>
+<pubDate>Fri, 25 Sep 2026 14:20:00 +0200</pubDate>
+	</item><item>
+	
+
+
+
+
+		
+	
+					
+						
+<title>Earth from Space: Venetian Lagoon</title>
+<description><![CDATA[
+	<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/earth_from_space_venetian_lagoon/27535878-1-eng-GB/Earth_from_Space_Venetian_Lagoon_card_full.jpg" alt="This image of the Venetian Lagoon in northern Italy was acquired by the IRIDE satellites on 17 May 2026. ">
+	Image:
+			This image of the Venetian Lagoon in northern Italy was acquired by the IRIDE satellites on 17 May 2026. 
+	]]></description>
+<link><![CDATA[https://www.esa.int/ESA_Multimedia/Images/2026/09/Earth_from_Space_Venetian_Lagoon]]></link>
+
+<guid isPermaLink="false">37388a03db2912aec09593bff802979f</guid>
+<pubDate>Fri, 25 Sep 2026 10:00:00 +0200</pubDate>
+	</item><item>
+	
+
+
+
+
+		
+	
+					
+						
+<title>Earth from Space: Laguna Colorada</title>
+<description><![CDATA[
+	<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/earth_from_space_laguna_colorada/27528365-1-eng-GB/Earth_from_Space_Laguna_Colorada_card_full.jpg" alt="This Copernicus Sentinel-2 image, acquired on 25 August 2026, shows an area of the Andean Altiplano in southern Bolivia near the border with Chile. ">
+	Image:
+			This Copernicus Sentinel-2 image, acquired on 25 August 2026, shows an area of the Andean Altiplano in southern Bolivia near the border with Chile. 
+	]]></description>
+<link><![CDATA[https://www.esa.int/ESA_Multimedia/Images/2026/09/Earth_from_Space_Laguna_Colorada]]></link>
+
+<guid isPermaLink="false">5772688eb79e81f8c7437d253452ac26</guid>
+<pubDate>Fri, 18 Sep 2026 10:00:00 +0200</pubDate>
+	</item><item>
+	
+				
+
+
+	
+	
+
+	
+													
+						
+											
+<title>ESA awards contracts for Europe’s EOGS blueprint</title>
+<description><![CDATA[
+	<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/european_resilience_from_space_earth_observation/27526567-1-eng-GB/European_Resilience_from_Space_Earth_Observation_card_full.jpg" alt="European Resilience from Space–Earth Observation">
+	<p>The European Space Agency has awarded two contracts, one to ICEYE and one to Leonardo, to carry out parallel architecture studies for the EU’s future Earth Observation Governmental Service (EOGS).</p><p>These activities are funded by the European Commission and are integral part of Element 1 of ESA’s European Resilience from Space for Earth Observation (ERS-EO) programme – a new programme decided at the Ministerial Council in November 2025.</p>
+]]></description>
+<link><![CDATA[https://www.esa.int/Applications/Observing_the_Earth/ESA_awards_contracts_for_Europe_s_EOGS_blueprint]]></link>
+
+<guid isPermaLink="false">03b348bd1fcdc1d5ed2ca42544f907b5</guid>
+<pubDate>Thu, 17 Sep 2026 14:16:00 +0200</pubDate>
+	</item><item>
+	
+				
+
+
+	
+	
+
+	
+										
+						
+											
+<title>Faster-flowing glaciers fuel decades of polar ice loss</title>
+<description><![CDATA[
+	<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/thwaits_glacier_antarctica/27521504-1-eng-GB/Thwaits_Glacier_Antarctica_card_full.jpg" alt="Thwaits Glacier, Antarctica">
+	<p>The longest satellite data record of ice-sheet change ever assembled has revealed that Greenland and Antarctica have lost a staggering 11 trillion tonnes of ice since the 1970s, driving global sea level up by more than three centimetres.</p><p>However, the new findings also highlight that the story is not simply one of ice melting at the surface. The glaciers that drain these vast ice sheets are also flowing faster, channelling enormous quantities of ice directly into the ocean.</p>
+]]></description>
+<link><![CDATA[https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Faster-flowing_glaciers_fuel_decades_of_polar_ice_loss]]></link>
+
+<guid isPermaLink="false">7be12c60c3c6ed5f95e1037b27091b96</guid>
+<pubDate>Wed, 16 Sep 2026 11:00:00 +0200</pubDate>
+	</item><item>
+	
+
+
+
+
+		
+	
+					
+						
+<title>FLEX and Sentinel-3C launch highlights </title>
+<description><![CDATA[
+	<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/09/flex_and_sentinel-3c_launch_highlights/27518045-5-eng-GB/FLEX_and_Sentinel-3C_launch_highlights_card_full.png" alt="">
+	Video: 
+			00:03:22
+				<p>ESA’s state-of-the-art <a href="https://www.esa.int/Applications/Observing_the_Earth/FutureEO/FLEX" target="_blank">FLEX</a> Earth Explorer satellite and the <a href="https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3" target="_blank">Copernicus Sentinel-3C</a> satellite have been launched together aboard a <a href="https://www.esa.int/Enabling_Support/Space_Transportation/Vega/Vega-C" target="_blank">Vega-C</a> rocket from Europe’s Spaceport in French Guiana, marking a new milestone in Europe’s Earth Observation Programmes. Flight VV30 lifted off on 15 September at 03:21 (14 September at 22:21 local time).&nbsp;&nbsp;</p><p>FLEX is designed to reveal a phenomenon invisible to the human eye: the faint fluorescence emitted by plants as they photosynthesise. Equipped with a Fluorescence Imaging Spectrometer, FLEX will detect and measure this incredibly weak signal from orbit. Because the fluorescence varies with plant health and environmental conditions, the measurements will provide scientists with new information about photosynthetic activity and vegetation stress on a global scale.&nbsp;</p><p>Sentinel-3C is the third in the Sentinel-3 series.&nbsp; Carrying a suite of cutting-edge instruments, Copernicus Sentinel-3C will continue the mission’s task of measuring systematically Earth’s oceans, land, ice and atmosphere to monitor and understand large-scale global dynamics. The mission also provides essential information in near-real time for ocean and weather forecasting.&nbsp;&nbsp;</p><p>Europe’s <a href="https://www.esa.int/Enabling_Support/Space_Transportation/Vega/Vega-C" target="_blank">Vega-C</a> rocket can launch 2300 kg into space, such as small scientific and Earth observation spacecraft. At 35 m tall, Vega-C weighs 210 tonnes on the launch pad and reaches orbit with three solid-propellant-powered stages before the fourth liquid-propellant stage takes over for precise placement of satellites into their desired orbit around Earth. This flight was a first dual launch for Vega-C, using a secondary payload adapter called Vespa. Sentinel-3C was placed on top of Vespa inside the main fairing and once deployed the Vespa adapter opened to reveal FLEX for its injection into orbit.&nbsp;&nbsp;&nbsp;</p>
+	]]></description>
+<link><![CDATA[https://www.esa.int/ESA_Multimedia/Videos/2026/09/FLEX_and_Sentinel-3C_launch_highlights]]></link>
+
+<guid isPermaLink="false">7c4f31a3045768dfbafda81d11f401b3</guid>
+<pubDate>Tue, 15 Sep 2026 09:00:00 +0200</pubDate>
+	</item><item>
+	
+
+
+
+
+		
+	
+					
+						
+<title>Relive the launch of FLEX and Sentinel-3C</title>
+<description><![CDATA[
+	<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/09/relive_the_launch_of_flex_and_sentinel-3c/27517955-7-eng-GB/Relive_the_launch_of_FLEX_and_Sentinel-3C_card_full.jpg" alt="">
+	Video: 
+			03:37:00
+				<p>Watch the full replay of the launch of ESA’s state-of-the-art <a href="https://www.esa.int/Applications/Observing_the_Earth/FutureEO/FLEX" target="_blank">FLEX</a> Earth Explorer satellite and the <a href="https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3" target="_blank">Copernicus Sentinel-3C</a> satellite. Both were launched together aboard a <a href="https://www.esa.int/Enabling_Support/Space_Transportation/Vega/Vega-C" target="_blank">Vega-C</a> rocket from Europe’s Spaceport in French Guiana, marking a new milestone in Europe’s Earth Observation Programmes. Flight VV30 lifted off on 15 September at 03:21 (14 September at 22:21 local time).&nbsp;&nbsp;</p><p>FLEX is designed to reveal a phenomenon invisible to the human eye: the faint fluorescence emitted by plants as they photosynthesise. Equipped with a Fluorescence Imaging Spectrometer, FLEX will detect and measure this incredibly weak signal from orbit. Because the fluorescence varies with plant health and environmental conditions, the measurements will provide scientists with new information about photosynthetic activity and vegetation stress on a global scale.&nbsp;</p><p>Sentinel-3C is the third in the Sentinel-3 series.&nbsp; Carrying a suite of cutting-edge instruments, Copernicus Sentinel-3C will continue the mission’s task of measuring systematically Earth’s oceans, land, ice and atmosphere to monitor and understand large-scale global dynamics. The mission also provides essential information in near-real time for ocean and weather forecasting.&nbsp;&nbsp;</p><p>Europe’s <a href="https://www.esa.int/Enabling_Support/Space_Transportation/Vega/Vega-C" target="_blank">Vega-C</a> rocket can launch 2300 kg into space, such as small scientific and Earth observation spacecraft. At 35 m tall, Vega-C weighs 210 tonnes on the launch pad and reaches orbit with three solid-propellant-powered stages before the fourth liquid-propellant stage takes over for precise placement of satellites into their desired orbit around Earth. This flight was a first dual launch for Vega-C, using a secondary payload adapter called Vespa. Sentinel-3C was placed on top of Vespa inside the main fairing and once deployed the Vespa adapter opened to reveal FLEX for its injection into orbit.&nbsp;&nbsp;&nbsp;</p>
+	]]></description>
+<link><![CDATA[https://www.esa.int/ESA_Multimedia/Videos/2026/09/Relive_the_launch_of_FLEX_and_Sentinel-3C]]></link>
+
+<guid isPermaLink="false">bd0617a506864d7517055e66e1cae1e8</guid>
+<pubDate>Tue, 15 Sep 2026 07:00:00 +0200</pubDate>
+	</item><item>
+	
+
+
+
+
+		
+	
+					
+						
+<title>ESA’s FLEX mission reveals the secret glow of plants</title>
+<description><![CDATA[
+	<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/09/esa_s_flex_mission_reveals_the_secret_glow_of_plants/27465436-1-eng-GB/ESA_s_FLEX_mission_reveals_the_secret_glow_of_plants_card_full.png" alt="">
+	Video: 
+			00:06:30
+				<p>Plants may look still and silent, but every leaf is constantly responding to its environment.</p><p>As plants photosynthesise, they emit an incredibly faint glow called fluorescence. Invisible to our eyes, this signal can reveal how plants are using sunlight and how they respond to heat, drought, pests and other environmental stresses.</p><p>ESA’s Fluorescence Explorer, or FLEX, will detect this faint signal from space. Using its highly sensitive FLORIS instrument, FLEX will map plant fluorescence across Earth, giving scientists a new way to observe plant health and photosynthetic activity on a global scale.</p><p>These observations will help us better understand how vegetation responds to a changing climate, including the effects of drought, and improve our understanding of the global carbon and water cycles.</p><p>Every leaf tells a story. With FLEX, we’re learning how to read it.</p><p><a href="https://www.esa.int/Applications/Observing_the_Earth/FutureEO/FLEX">Learn more about FLEX</a>.</p>
+	]]></description>
+<link><![CDATA[https://www.esa.int/ESA_Multimedia/Videos/2026/09/ESA_s_FLEX_mission_reveals_the_secret_glow_of_plants]]></link>
+
+<guid isPermaLink="false">447505f2dacd3fa7386d8ab5b574e963</guid>
+<pubDate>Mon, 14 Sep 2026 10:00:00 +0200</pubDate>
+	</item><item>
+	
+
+
+
+
+		
+	
+					
+						
+<title>Anak Krakatau eruption by Sentinel-3</title>
+<description><![CDATA[
+	<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/anak_krakatau_eruption_by_sentinel-3/27456765-1-eng-GB/Anak_Krakatau_eruption_by_Sentinel-3_card_full.jpg" alt="Copernicus Sentinel-3 captured a plume from the eruption of Anak Krakatau on Saturday, 5 September.">
+	Image:
+			Copernicus Sentinel-3 captured a plume from the eruption of Anak Krakatau on Saturday, 5 September.
+	]]></description>
+<link><![CDATA[https://www.esa.int/ESA_Multimedia/Images/2026/09/Anak_Krakatau_eruption_by_Sentinel-3]]></link>
+
+<guid isPermaLink="false">97c6ac9aa603b94512cc65964336fa6d</guid>
+<pubDate>Tue, 08 Sep 2026 10:45:00 +0200</pubDate>
+	</item><item>
+	
+
+
+
+
+		
+	
+					
+						
+<title>FLEX and Sentinel-3C being hoisted into the launch tower</title>
+<description><![CDATA[
+	<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/flex_and_sentinel-3c_being_hoisted_into_the_launch_tower/27456590-1-eng-GB/FLEX_and_Sentinel-3C_being_hoisted_into_the_launch_tower_card_full.jpg" alt="FLEX and Sentinel-3C being hoisted into the launch tower">
+	Image:
+			FLEX and Sentinel-3C being hoisted into the launch tower
+	]]></description>
+<link><![CDATA[https://www.esa.int/ESA_Multimedia/Images/2026/08/FLEX_and_Sentinel-3C_being_hoisted_into_the_launch_tower]]></link>
+
+<guid isPermaLink="false">f379d2f1d8a33421dc254703be21f5a5</guid>
+<pubDate>Mon, 07 Sep 2026 18:23:00 +0200</pubDate>
+	</item><item>
+	
+<title>FLEX and Sentinel-3C launch re-watch event on 15 September at ESA's Space Operations Centre</title>
+<description><![CDATA[
+	<p>Press Release N° 45&ndash;2026</p>
+	<p><b>Media representatives are invited to attend the launch re-watch event for the FLEX (Fluorescence Explorer) and Copernicus Sentinel-3C satellites at the European Space Operations Centre (ESA/ESOC) in Darmstadt, Germany, on Tuesday morning, 15 September 2026.</b></p>
+]]></description>
+<link><![CDATA[https://www.esa.int/Newsroom/Press_Releases/FLEX_and_Sentinel-3C_launch_re-watch_event_on_15_September_at_ESA_s_Space_Operations_Centre]]></link>
+
+<guid isPermaLink="false">a8b9de825ad645974724447b622cb2bf</guid>
+<pubDate>Mon, 07 Sep 2026 11:05:00 +0200</pubDate>
+	</item><item>
+	
+
+
+
+
+		
+	
+					
+						
+<title>Media briefing ahead of FLEX and Sentinel-3C launch</title>
+<description><![CDATA[
+	<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/09/media_briefing_ahead_of_flex_and_sentinel-3c_launch/27445744-3-eng-GB/Media_briefing_ahead_of_FLEX_and_Sentinel-3C_launch_card_full.png" alt="">
+	Video: 
+			00:47:00
+				<p>On 4 September 2026, media representatives joined an online briefing ahead of the launch of ESA’s <a href="https://www.esa.int/Applications/Observing_the_Earth/FutureEO/FLEX">FLEX</a> and the <a href="https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3">Copernicus Sentinel-3C</a> satellites.</p><p>The two satellites are scheduled to launch together aboard a <a href="https://www.esa.int/Enabling_Support/Space_Transportation/Vega/Vega-C">Vega-C</a> rocket from Europe’s Spaceport in French Guiana on 15 September at 03:21 CEST (14 September at 22:21 local time).</p><p>This video is a recording of the English briefing.</p><p>FLEX is equipped with the Fluorescence Imaging Spectrometer that will detect the faint fluorescence plants emit as they absorb sunlight during photosynthesis. Although invisible to the human eye, this subtle glow varies with plant health and environmental conditions.</p><p>In fact, the FLEX satellite will orbit in tandem with a Sentinel-3 satellite, which will be used to provide information on clouds, aerosols and water vapour as well as information about the land surface, such as the surface temperature, type of land cover and additional vegetation parameters. This integrated package of near-simultaneous measurements will provide an unprecedented view of global vegetation function and status.</p><p>Sentinel-3C is the third satellite in the Copernicus Sentinel-3 series. Like its two older siblings in orbit, Sentinel-3C carries a suite of cutting-edge instruments that measure systematically Earth’s oceans, land, ice and atmosphere to monitor and understand large-scale global dynamics. It provides essential information in near-real time for ocean and weather forecasting.</p><p>Europe’s Vega-C rocket is an evolution of the Vega rocket family, offering greater performance, larger payload capacity and improved competitiveness. It can launch up to 3300 kg into space, ideal for carrying small scientific and Earth observation satellites into orbit.</p>
+	]]></description>
+<link><![CDATA[https://www.esa.int/ESA_Multimedia/Videos/2026/09/Media_briefing_ahead_of_FLEX_and_Sentinel-3C_launch]]></link>
+
+<guid isPermaLink="false">cad0bcdd8da76225c44e2c1b2a6ce18b</guid>
+<pubDate>Fri, 04 Sep 2026 16:00:00 +0200</pubDate>
+	</item>
+
+
+
+
+</channel>
+</rss>

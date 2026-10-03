@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <title>Cars - Ars Technica</title>
+        <atom:link href="https://arstechnica.com/cars/feed/" rel="self" type="application/rss+xml" />
+        <link>https://arstechnica.com</link>
+        <description>Serving the Technologist since 1998. News, reviews, and analysis.</description>
+        <lastBuildDate>Fri, 02 Oct 2026 16:29:04 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>
+            hourly        </sy:updatePeriod>
+        <sy:updateFrequency>
+            1        </sy:updateFrequency>
+        
+<image>
+	<url>https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-60x60.png</url>
+	<title>Cars - Ars Technica</title>
+	<link>https://arstechnica.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+            <item>
+                <title>Cybertruck sales in free fall as Tesla reports mediocre sales for Q3</title>
+                <link>https://arstechnica.com/cars/2026/10/tesla-sales-drop-2-percent-in-underwhelming-q3-2026/</link>
+                                    <comments>https://arstechnica.com/cars/2026/10/tesla-sales-drop-2-percent-in-underwhelming-q3-2026/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Fri, 02 Oct 2026 16:05:26 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Tesla deliveries]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/10/tesla-sales-drop-2-percent-in-underwhelming-q3-2026/</guid>
+
+                                    <description>
+                        <![CDATA[Tesla met analysts expectations as it sold fewer cars in Q3 2026 than Q3 2025.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Tesla sold 486,532 electric vehicles during the third quarter of 2026. That’s a 2.1 percent decrease on the same quarter in 2025, when the company found homes for 497,099 EVs, and one might think that would be bad news for a company valued on the premise of near-constant growth.</p>
+<p>But Tesla stock is up this morning; the year-over-year numbers might look bad, but the company still exceeded analysts’ expectations of 456,600 cars, which would have been a larger 8 percent year-on-year decline</p>
+<p>Total production at Tesla actually increased year over year; it built 464,391 vehicles—a 3.7 percent increase—457,387 of which were Models 3 and Y (a 4.9 percent increase year over year). The remaining 7,004 were other models, mostly Cybertrucks, with presumably some Semis and Cybercabs, as the Models S and X are now retired; this category saw a 39.8 percent decrease year over year.</p><p><a href="https://arstechnica.com/cars/2026/10/tesla-sales-drop-2-percent-in-underwhelming-q3-2026/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/10/tesla-sales-drop-2-percent-in-underwhelming-q3-2026/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>204</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1415090444-2-1-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1415090444-2-1-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit><media:text>Tesla's sales are on autopilot.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Can good design stop content creators from having sex in robotaxis?</title>
+                <link>https://arstechnica.com/cars/2026/10/can-good-design-stop-content-creators-from-having-sex-in-robotaxis/</link>
+                                    <comments>https://arstechnica.com/cars/2026/10/can-good-design-stop-content-creators-from-having-sex-in-robotaxis/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Thu, 01 Oct 2026 19:19:42 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[robotaxi]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/10/can-good-design-stop-content-creators-from-having-sex-in-robotaxis/</guid>
+
+                                    <description>
+                        <![CDATA[Autonomous vehicle designers have to worry about riders getting frisky in public.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Humans can be a frisky bunch, and it wasn’t very long after Tesla Autopilot <a href="https://arstechnica.com/cars/2016/07/consumer-reports-has-some-advice-for-tesla/">started letting drivers go hands-free</a> before people decided to post footage of themselves having sex from the driver’s seat. Recently, The San Francisco Standard <a href="https://sfstandard.com/2023/08/11/san-francisco-robotaxi-cruise-debauchery/">interviewed multiple people</a> who claimed to have had sex in robotaxis belonging to General Motors’ now-defunct Cruise. “There’s no one to tell you, 'You can’t do that.' It gets to the point where you’re more and more and more comfortable, and if you’re with someone, like a more serious partner, it can escalate to other activities,” one man told SF Standard.</p>
+<p>“The interiors of vehicles has been sexualized and appropriated for sex since forever in popular culture. You can see it in movies, you can see it in lyrics, you can see it in photography,” said Alexandros Rouchitsas, a human factors/UX researcher and one of the organizers of a recent workshop, “<a href="https://love-in-traffic.github.io">Love in Traffic</a>,” that brought researchers from academia and industry together in late September in Sweden to consider how design can help the problem.</p>
+<h2>A growing problem?</h2>
+<p>One difference between a robotaxi and a human-driven ride is the removal of the social obligation to interact with a human driver. There’s no need to make small talk, and you won’t have to listen to someone’s terrible opinion, which can lead to riders assuming far more privacy than the cameras and ridership terms and conditions provide. That's a lesson that a pair of teens who hired a Waymo, spent their ride getting drunk, and shot gel beads out the windows <a href="https://arstechnica.com/cars/2026/07/two-teens-learn-the-hard-way-not-to-do-toy-gun-drivebys-from-a-waymo/">learned the hard way</a> this summer.</p><p><a href="https://arstechnica.com/cars/2026/10/can-good-design-stop-content-creators-from-having-sex-in-robotaxis/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/10/can-good-design-stop-content-creators-from-having-sex-in-robotaxis/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>181</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/no-boink-taxi-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/no-boink-taxi-500x500.jpg" width="500" height="500" />
+<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>BMW reveals US 3 series pricing: The EV carries a hefty premium</title>
+                <link>https://arstechnica.com/cars/2026/09/bmw-opens-us-order-books-for-the-new-gas-and-electric-3-series/</link>
+                                    <comments>https://arstechnica.com/cars/2026/09/bmw-opens-us-order-books-for-the-new-gas-and-electric-3-series/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Sep 2026 14:42:58 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[BMW 3 Series]]></category>
+		<category><![CDATA[BMW i3]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/09/bmw-opens-us-order-books-for-the-new-gas-and-electric-3-series/</guid>
+
+                                    <description>
+                        <![CDATA[The 2027 BMW 330 starts at $49,900, the i3 50 xDrive at $61,500.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>BMW has opened the US order books for its <a href="https://arstechnica.com/cars/2026/03/heres-bmws-first-all-electric-3-series-the-2027-i3/">hotly anticipated new 3 Series sedan</a>. Built on an all-new platform called <a href="https://arstechnica.com/cars/2023/09/bmws-neue-klasse-points-to-a-radical-reinvention-for-future-sedans/">Neue Klasse</a>, it now offers a fully electric version for the first time, using BMW’s advanced sixth-generation electric powertrain we liked so much in <a href="https://arstechnica.com/cars/2025/12/great-handling-advanced-ev-tech-we-drive-the-2026-bmw-ix3/">the iX3</a>. And for those not quite ready to make the switch from liquid hydrocarbons to pure electron power, there are also a pair of gasoline-powered variants.</p>
+<p>At launch, the only electric version will be the 2027 BMW i3 50 xDrive. It’s an all-wheel drive setup, with a combined 463 hp (345 kW) and 467 lb-ft (633 Nm). And while BMW is still putting the finishing touches on the car’s EPA certification ahead of its showroom arrival in Q1 next year, it expects 446 to 468 miles (718-753 km) of range on a single charge. Contributing to that very impressive range is the new cylindrical cell battery pack, which uses a cell-to-body approach that maximizes energy density, along with the aforementioned new sixth-gen motors.</p>
+<p>We’re not sure whether BMW is planning any single-motor, rear-wheel drive i3s for the US market, such as the <a href="https://arstechnica.com/cars/2024/05/the-bmw-i4-edrive40-might-be-the-best-electric-sedan-on-sale-today/">i4 eDrive40</a> we liked so much. But later next year, we can expect the i3 M60 xDrive, and then <a href="https://arstechnica.com/cars/2026/01/bmws-first-electric-m-car-is-coming-in-2027-with-one-motor-per-wheel/">the first completely electric BMW M3</a>, which will increase the motor count to four—one for each wheel.</p><p><a href="https://arstechnica.com/cars/2026/09/bmw-opens-us-order-books-for-the-new-gas-and-electric-3-series/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/09/bmw-opens-us-order-books-for-the-new-gas-and-electric-3-series/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>94</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/P90657631_highRes_the-new-bmw-3-series-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/P90657631_highRes_the-new-bmw-3-series-500x500.jpg" width="500" height="500" />
+<media:credit>BMW</media:credit><media:text>For the first time, the BMW 3 series comes with either gasoline or electric powertrains.</media:text></media:content>
+            </item>
+                    <item>
+                <title>This study looks at how and with whom connected cars share your data</title>
+                <link>https://arstechnica.com/cars/2026/09/connected-car-data-privacy-is-still-abysmal-study-finds/</link>
+                                    <comments>https://arstechnica.com/cars/2026/09/connected-car-data-privacy-is-still-abysmal-study-finds/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Tue, 29 Sep 2026 14:49:44 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[connected car privacy]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/09/connected-car-data-privacy-is-still-abysmal-study-finds/</guid>
+
+                                    <description>
+                        <![CDATA[Between the cars and their companion apps, you’re exposed to a lot of trackers.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In news that should surprise very few, <a href="https://arstechnica.com/tag/connected-cars/">connected cars</a> remain a complete privacy nightmare. But now we have a better idea of what data those cars are giving away, and to whom, thanks to a <a href="https://automatictransmission.khoury.northeastern.edu/paper.html">study</a> conducted by a team of researchers at <a href="https://automatictransmission.khoury.northeastern.edu/">Northeastern University</a> and <a href="https://www.consumerreports.org/electronics/personal-information/your-car-is-sharing-data-with-big-tech-companies-study-finds-a4474820962/">Consumer Reports</a>. Testing 21 cars from 19 different brands revealed patterns of traffic to advertisers and trackers, as well as data shared with Big Tech firms like Microsoft and Adobe. And using a car’s companion app can multiply the problem, their testing found.</p>
+<p>In 2023, the Mozilla Foundation published <a href="https://arstechnica.com/cars/2023/09/connected-cars-are-a-privacy-nightmare-mozilla-foundation-says/">a widely covered report</a> looking at the privacy policies of more than two dozen automakers. They were appalled, <a href="https://www.mozillafoundation.org/en/blog/privacy-nightmare-on-wheels-every-car-brand-reviewed-by-mozilla-including-ford-volkswagen-and-toyota-flunks-privacy-test/">writing that</a> “cars are the worst product category we have ever reviewed for privacy.” But that analysis was conducted by sitting down and reading all the various privacy policies of each brand; today’s study involved measuring traffic from actual cars under a number of scenarios, including idling and being driven. The researchers even parked 11 cars—just the electric ones—in a Faraday tent to see if the loss of a cellular signal would push that traffic to the car’s Wi-Fi connection instead.</p>
+<p>Attempts to actually see what was in the data packets using modified certificates failed in every case. But “the network traces still yielded valuable information, including the domains contacted via DNS traffic, Server Name Indication (SNI) in TLS handshakes, the volume and timing of transmissions, and differences in behavior across experimental scenarios,” they found.</p><p><a href="https://arstechnica.com/cars/2026/09/connected-car-data-privacy-is-still-abysmal-study-finds/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/09/connected-car-data-privacy-is-still-abysmal-study-finds/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>183</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2212041468-1-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2212041468-1-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Trump cuts fuel economy standards back to 2014 levels</title>
+                <link>https://arstechnica.com/cars/2026/09/trump-cuts-fuel-economy-standards-back-to-2014-levels/</link>
+                                    <comments>https://arstechnica.com/cars/2026/09/trump-cuts-fuel-economy-standards-back-to-2014-levels/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Mon, 28 Sep 2026 19:35:51 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[corporate average fuel efficiency]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/09/trump-cuts-fuel-economy-standards-back-to-2014-levels/</guid>
+
+                                    <description>
+                        <![CDATA[In 2020, Trump cut CAFE to 40 mpg. Now he’s cut it again to just 35 mpg. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The federal government’s war on fuel efficiency claimed another victim today. The Department of Transportation released a new rule for the country’s Corporate Average Fuel Economy standards, which, as expected, discourage the very idea of economical vehicles. Among the changes is a rollback to fuel economy numbers not seen in more than a decade, below <a href="https://arstechnica.com/cars/2020/03/heres-the-trump-admins-pathetic-new-fuel-efficiency-rule-for-2026/">even the low standards implemented in 2020</a>, the last time President Trump was in power. The new goal is just 34.9 mpg by model year 2031.</p>
+<p>This is nothing if not expected. When Sean Duffy was installed as Transportation secretary last January, <a href="https://arstechnica.com/cars/2025/01/trumps-new-head-of-dot-rips-up-us-fuel-efficiency-regulations/">he immediately announced</a> that any fuel efficiency standards put in place under the Biden administration were dead and buried. Those rules had <a href="https://arstechnica.com/cars/2024/03/new-epa-doe-fuel-regs-give-automakers-longer-to-reduce-co2-emissions/">a slower ramp up</a> than some might have liked but would have required automakers to sell many more electric vehicles and plug-in hybrids.</p>
+<p>Now, we may have the possibility of some OEMs dropping their EVs and PHEVs entirely. The <a href="https://www.nhtsa.gov/sites/nhtsa.gov/files/2026-09/CAFE%20SAFE%20MY%202022-2031%20Final%20FRN.pdf">notice of final rulemaking</a> criticizes the idea of emissions credits and blames them for automakers not investing in cleaner engine technology, and from model year 2028, such credits are a thing of the past. And plug-in vehicles will now no longer be included in an automaker’s fleet average; under previous rules an EV or PHEV could have a CAFE rating <a href="https://arstechnica.com/cars/2023/04/automakers-may-have-to-sell-4x-more-evs-under-new-proposed-cafe-rules/">of hundreds of mpg</a>.</p><p><a href="https://arstechnica.com/cars/2026/09/trump-cuts-fuel-economy-standards-back-to-2014-levels/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/09/trump-cuts-fuel-economy-standards-back-to-2014-levels/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>225</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-155384429-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-155384429-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>F1 in Azerbaijan: That was almost a close-run thing</title>
+                <link>https://arstechnica.com/cars/2026/09/f1-in-azerbaijan-that-was-almost-a-close-run-thing/</link>
+                                    <comments>https://arstechnica.com/cars/2026/09/f1-in-azerbaijan-that-was-almost-a-close-run-thing/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Mon, 28 Sep 2026 17:41:35 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[F1]]></category>
+		<category><![CDATA[Formula 1]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/09/f1-in-azerbaijan-that-was-almost-a-close-run-thing/</guid>
+
+                                    <description>
+                        <![CDATA[Kimi Antonelli could not repeat his Monza magic after a crash in qualifying.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Formula 1 raced on the streets of Baku, Azerbaijan, this past weekend. Although the race predates Liberty’s acquisition of the sport <a href="https://arstechnica.com/cars/2016/09/formula-1-to-be-bought-by-us-based-liberty-media-group/">by a few months</a>, it’s a rather good microcosm of the sport as it exists today. The track is a real challenge; it takes place on dusty city streets lined with concrete walls and through a medieval fortress gate, followed by a 1.4-mile (2.2 km) flat-out blast to the finish line, with gusts of wind from the Caspian Sea a block away. It’s interesting to look at Baku’s mix of modern and classical architecture sharing the stage with a massive hospitality and pit lane complex. And since it wouldn’t be F1 without some controversy, this year the race was held a day earlier than normal after F1 switched up its schedule to avoid clashing with Azerbaijan’s celebration of its recent war with Armenia—it’s almost as if Bernie Ecclestone had never left.</p>
+<p>The proximity of the walls leaves very little margin for error at the speeds F1 cars go around Baku. <a href="https://arstechnica.com/cars/2025/09/f1-in-azerbaijan-this-sport-is-my-red-flag/">Last year</a>, qualifying was interrupted by no less than six red flags after crashes. This year was much less dramatic, unless you were championship leader Kimi Antonelli. The 20-year-old sophomore misjudged how much front grip he had going into turn 1, found more than expected, and clipped the corner of the wall with his left front tire. It happened in the first of the three knockout qualifying sessions, and while Antonelli had already banked a time good enough to proceed to the next session, the damage to his car meant he would take no further part and start the race from 16th.</p>
+<p>A few weeks ago, at Monza, penalties for a power unit change saw Antonelli start the race from even further back (19th), which he followed a day later with a spectacular drive through the field to take the win away from his teammate George Russell. But there was some luck involved then; two standing starts (the second following Leclerc’s big crash on lap 2) allowed him to pass a lot of cars quickly, for one thing. In Baku he would have a much tougher task.</p><p><a href="https://arstechnica.com/cars/2026/09/f1-in-azerbaijan-that-was-almost-a-close-run-thing/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/09/f1-in-azerbaijan-that-was-almost-a-close-run-thing/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>48</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2297234571-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2297234571-500x500.jpg" width="500" height="500" />
+<media:credit>Mark Sutton - Formula 1/Formula 1 via Getty Images</media:credit><media:text>Cars line up on the grid for the race start during the F1 Grand Prix of Azerbaijan at Baku City Circuit on September 26, 2026 in Baku, Azerbaijan. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Tesla’s big electric truck faces an even bigger infrastructure challenge</title>
+                <link>https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/</link>
+                                    <comments>https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Aarian Marshall, wired.com]]>
+                </dc:creator>
+                <pubDate>Sat, 26 Sep 2026 10:45:09 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Electric vehicles]]></category>
+		<category><![CDATA[Tesla]]></category>
+		<category><![CDATA[Tesla Semi]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/</guid>
+
+                                    <description>
+                        <![CDATA[The 500-mile Semi arrives as charging gaps still limit electric trucking.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Tesla CEO Elon Musk has <a href="https://www.wired.com/story/elon-musk-trillion-dollar-tesla-pay-package/">insisted investors think</a> of his electric automaker as a robotics and autonomous vehicle company now. He’s targeted a $20 trillion valuation—nearly four times the value of market leader <a href="https://www.wired.com/tag/nvidia/">Nvidia</a>—on that premise. But his <a href="https://www.wired.com/tag/tesla/">Tesla</a> team was in Sparks, Nevada, on Thursday to focus on, well, an electric vehicle: the long-awaited <a href="https://www.wired.com/story/tesla-truck-revealed/">Tesla Semi</a>.</p>
+<p>The Semi concept first rolled onto a Tesla event stage <a href="https://www.wired.com/2017/04/tesla-electric-truck/">in late 2017</a>. Nearly a decade later, Tesla officially launched high-volume production at a livestreamed but invite-only event at the company’s factory. It targeted a niche audience: the cost-conscious people who manage large trucking fleets. A handful of them, all men, trooped across the stage to be thanked for their orders to a pulsing techno beat.</p>
+<p>“It’s going to be, really, a driver’s truck. It’s like a sports car in truck form.” Musk said in a pre-taped video played during the evening event. (Musk, for years the ringmaster at Tesla’s circus-like events, <a href="https://www.wired.com/story/tesla-cybercab-had-a-quiet-debut/">skipped his second vehicle debut in a row</a>; he was attending a White House China State Dinner featuring <a href="https://www.wired.com/tag/china/">President Xi Jinping</a>.)</p><p><a href="https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>339</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/teslasemi-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/teslasemi-500x500.jpg" width="500" height="500" />
+<media:credit>picturealliance via Getty</media:credit><media:text>A Tesla Semi electric truck is on display at the Tesla booth at the IAA Transportation international auto show at the Hannover Exhibition Center in Germany on September 15, 2026.</media:text></media:content>
+            </item>
+                    <item>
+                <title>US being left behind in EV charging speeds as China goes sub-5 min to 70%</title>
+                <link>https://arstechnica.com/cars/2026/09/us-being-left-behind-in-ev-charging-speeds-as-china-goes-sub-5-min-to-70/</link>
+                                    <comments>https://arstechnica.com/cars/2026/09/us-being-left-behind-in-ev-charging-speeds-as-china-goes-sub-5-min-to-70/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Fri, 25 Sep 2026 15:21:55 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[DC fast charging]]></category>
+		<category><![CDATA[Geely]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/09/us-being-left-behind-in-ev-charging-speeds-as-china-goes-sub-5-min-to-70/</guid>
+
+                                    <description>
+                        <![CDATA[The new LFP battery charges from 10 to 70% in 4.5 minutes at just 65˚C.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Hype merchants <a href="https://arstechnica.com/cars/2026/05/theres-a-lot-of-hype-about-chinese-evs-is-any-of-it-true/">have a habit of overdoing it</a>, but there’s no denying that China is making the US look more than a little antiquated when it comes to electric vehicles. Some of that is due to a deep integration of connected services and an extension of the car as part of the owner’s digital life—think additional infotainment screens and AI personal assistants, but with an Android phone-maker’s cadence of updates rather than that of a traditional car company. Other advances sound more appealing. China’s OEMs are in a battle over who can charge the fastest, and this week, Geely fired its latest salvo.</p>
+<p>China might have a much younger driving culture than North America or Europe, but it has still been long enough to condition those drivers to how long it takes to fill a tank of gas. For all their many improvements over internal combustion engine vehicles—far greater efficiency, instant torque, very little NVH, more reliabiity, and so on—EVs do still take longer to recharge than it takes to refuel a car with a liquid.</p>
+<p>At least until now, it seems.</p><p><a href="https://arstechnica.com/cars/2026/09/us-being-left-behind-in-ev-charging-speeds-as-china-goes-sub-5-min-to-70/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/09/us-being-left-behind-in-ev-charging-speeds-as-china-goes-sub-5-min-to-70/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>220</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Geely-robot-charger-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Geely-robot-charger-500x500.jpg" width="500" height="500" />
+<media:credit>Geely</media:credit><media:text>Megawatt charging could mean we get used to the 21st century robot equivalent of a gas station attendant. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Formula 1 looks at 3.0 L V8 turbos and smaller hybrids for 2030</title>
+                <link>https://arstechnica.com/cars/2026/09/formula-1-looks-at-3-0-l-v8-turbos-and-smaller-hybrids-for-2030/</link>
+                                    <comments>https://arstechnica.com/cars/2026/09/formula-1-looks-at-3-0-l-v8-turbos-and-smaller-hybrids-for-2030/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Thu, 24 Sep 2026 15:48:29 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Formula 1]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/09/formula-1-looks-at-3-0-l-v8-turbos-and-smaller-hybrids-for-2030/</guid>
+
+                                    <description>
+                        <![CDATA[F1 wants smaller, lighter cars that are not energy-starved like the 2026 hybrids.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>We’re not even a full year into the new regulations, and Formula 1 is already thinking hard about its next iteration, set to be introduced as early as the start of 2030.</p>
+<p>This was supposed to be a big year for F1, with the introduction of a bold new technical rules package that puts far more emphasis on the electric side of the cars’ hybrid power units than before. But those rules were <a href="https://arstechnica.com/cars/2026/04/f1-new-hybrid-rules-will-come-into-effect-at-the-miami-grand-prix-in-may/">perhaps too ambitious for 2026</a>, with batteries that can only power the electric motor for a tiny fraction of a lap. Such was the shock of <a href="https://arstechnica.com/cars/2026/03/f1-in-japan-oh-no-what-have-they-done-to-all-the-fast-corners/">getting it wrong</a> that F1 may fast-track a fix for 2030 rather than 2031, when the next set of rules is currently set to start. And <a href="https://www.autosport.com/f1/news/f1-engine-regulation-2030-plan/10858159/">according to a report in Autosport</a>, there is now some agreement on what those power units will look like.</p>
+<h2>Where are we now?</h2>
+<p>The <a href="https://arstechnica.com/cars/2025/12/formula-1-is-deploying-new-jargon-for-2026/">current rules</a> were finalized <a href="https://arstechnica.com/cars/2024/06/lighter-nimbler-more-hybrid-power-he-f1-car-of-2026/">several years ago</a>, when optimism about electrification among automakers was high. F1 wanted more of those automakers, and automakers wanted more electrification. The sport would give it to them with a near 50:50 split between a small 1.6 L V6 turbo and an electric motor, both driving the rear wheels. The idea worked. Audi, Cadillac, and Ford have all signed up since, joining Mercedes, Ferrari, and Honda, which recommitted after pulling out in 2021.</p><p><a href="https://arstechnica.com/cars/2026/09/formula-1-looks-at-3-0-l-v8-turbos-and-smaller-hybrids-for-2030/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/09/formula-1-looks-at-3-0-l-v8-turbos-and-smaller-hybrids-for-2030/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>62</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2296885282-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2296885282-500x500.jpg" width="500" height="500" />
+<media:credit>Mark Sutton - Formula 1/Formula 1 via Getty Images</media:credit><media:text>F1 is in Baku, Azerbaijan, this weekend, where the street circuit's long straights will expose the energy-limited nature of the sport in 2026.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Here&#039;s the Torcal, the first fully electric Bentley</title>
+                <link>https://arstechnica.com/cars/2026/09/heres-the-torcal-the-first-fully-electric-bentley/</link>
+                                    <comments>https://arstechnica.com/cars/2026/09/heres-the-torcal-the-first-fully-electric-bentley/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Wed, 23 Sep 2026 21:06:07 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Bentley Torcal]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/09/heres-the-torcal-the-first-fully-electric-bentley/</guid>
+
+                                    <description>
+                        <![CDATA[It sounds like a V8, rides like a Flying Spur, but handles like a Continental GT. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<aside class="pullbox sidebar fullwidth">Bentley provided flights from Washington, DC, to Monterey, California, and accommodation so Ars could <a href="https://arstechnica.com/cars/2026/08/an-ev-that-sounds-like-a-6-75-l-v8-a-ride-in-the-bentley-torcal/">ride in a preproduction Torcal EV</a> as well as <a href="%E2%80%9Chttps://arstechnica.com/cars/2026/08/the-bentley-supersports-a-stripped-out-engineers-indulgence/%E2%80%9C">drive the Supersports</a> and <a href="%E2%80%9Chttps://arstechnica.com/cars/2026/09/this-is-what-a-supercar-was-like-a-century-ago/%E2%80%9C">ride in a 1920s Bentley</a> as well. Ars does not accept paid editorial content.</aside>
+<p>A few weeks ago, Bentley gave Ars a ride <a href="https://arstechnica.com/cars/2026/08/an-ev-that-sounds-like-a-6-75-l-v8-a-ride-in-the-bentley-torcal/">in a new camouflaged electric vehicle</a>. Named after a Spanish rock formation, the Torcal is the brand’s first battery EV, and today the production car had its formal unveiling. That camo was effective: The real car is less bulbous and more blocky than its disguise would suggest. And it’s fair to say it brings some of the ideas of the EXP 15 concept to the road—even if that didn’t include <a href="https://arstechnica.com/features/2025/09/beyond-technology-how-bentley-is-reacting-to-the-21st-century/">that show car’s elegant, stretched proportions</a>. It’s smaller than the Bentayga, and it should slot beneath that model in pricing (or the PHEV version of it, at least), though Bentley has yet to reveal exactly how much US buyers can expect to pay.</p>
+<p>Underneath the bodywork are some relatively familiar underpinnings; Bentley shares technology with Porsche as both are part of the greater Volkswagen Group empire. The power output might not be as prodigious as <a href="https://arstechnica.com/cars/2026/05/porsches-cayenne-coupe-electric-brings-formula-e-tech-to-the-autobahn/">the electric Porsche Cayenne</a> but should be sufficient nonetheless. The standard car will offer peak outputs of 810 hp (604 kW) and 880 lb-ft (1,194 Nm), enough for a 3.3-second 0–60 mph time (0–100 km/h takes 3.4 seconds).</p>
+<img width="1440" height="960" src="https://cdn.arstechnica.net/wp-content/uploads/2026/09/ELECTRUM_EXT_21-1440x960.jpg" class="fullwidth galleryFull" alt="Two Bentley Torcals drive away from the camera" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/09/ELECTRUM_EXT_21-1440x960.jpg 1440w, https://cdn.arstechnica.net/wp-content/uploads/2026/09/ELECTRUM_EXT_21-640x427.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/09/ELECTRUM_EXT_21-1024x683.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2026/09/ELECTRUM_EXT_21-768x512.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/09/ELECTRUM_EXT_21-1536x1024.jpg 1536w, https://cdn.arstechnica.net/wp-content/uploads/2026/09/ELECTRUM_EXT_21-2048x1365.jpg 2048w, https://cdn.arstechnica.net/wp-content/uploads/2026/09/ELECTRUM_EXT_21-980x653.jpg 980w" sizes="auto, (max-width: 1440px) 100vw, 1440px">
+      The EXP 15's influence is stronger at the rear.
+        Credit:
+          Bentley
+      
+<p>The more powerful Torcal S boasts 875 hp (653 kW) and 995 lb-ft (1,350 Nm) at its most potent; this is capable of 60 mph from a standing start in a mere 2.8 seconds (2.9 to 100 km/h) and an increased top speed of 162 mph (260 km/h), up from 155 mph (250 km/h) for the standard version, either of which are academic outside certain stretches of German highway.</p><p><a href="https://arstechnica.com/cars/2026/09/heres-the-torcal-the-first-fully-electric-bentley/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/09/heres-the-torcal-the-first-fully-electric-bentley/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>59</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/ELECTRUM_EXT_22-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/ELECTRUM_EXT_22-500x500.jpg" width="500" height="500" />
+<media:credit>Bentley</media:credit><media:text>The Bentley Torcal will go on sale early next year as a 2028 model.</media:text></media:content>
+            </item>
+                    <item>
+                <title>After multiple deaths and injuries, NHTSA is investigating comma.ai</title>
+                <link>https://arstechnica.com/cars/2026/09/aftermarket-driver-assist-under-federal-probe-following-fatal-crashes/</link>
+                                    <comments>https://arstechnica.com/cars/2026/09/aftermarket-driver-assist-under-federal-probe-following-fatal-crashes/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Wed, 23 Sep 2026 14:20:23 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Comma.ai]]></category>
+		<category><![CDATA[nhtsa]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/09/aftermarket-driver-assist-under-federal-probe-following-fatal-crashes/</guid>
+
+                                    <description>
+                        <![CDATA[Feds know of 5 crashes where cars using comma.ai devices hit slow or stopped vehicles.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Aftermarket devices that can boost or augment a vehicle’s native advanced driver assistance systems are the target of a new federal investigation this week. The National Highway Traffic Safety Administration’s Office of Defects Investigation <a href="https://static.nhtsa.gov/odi/inv/2026/INOA-PE26007-17274.pdf">says</a> it knows of five crashes in which drivers using devices from <a href="http://comma.ai">comma.ai</a> crashed into stopped or slow-moving cars. Two of the crashes resulted in three deaths, and 11 people were injured in four of the five crashes, some seriously.</p>
+<p>Comma.ai was the brainchild of George Hotz, who rose to prominence at the start of the last decade by <a href="https://arstechnica.com/gadgets/2010/10/greenpois0n-and-limera1n-offer-multiple-jailbreak-paths-for-ios-4/">jailbreaking</a> iOS and <a href="https://arstechnica.com/gaming/2011/01/sony-granted-temporary-restraining-order-against-ps3-hacker-george-hotz/">hacking</a> Sony PlayStations. In 2015, Hotz turned his attention to partially automated driver assists, which were gaining attention following Tesla’s exploits with its Autopilot system. Hotz <a href="https://arstechnica.com/cars/2015/12/hacker-hacks-off-tesla-with-claims-of-self-driving-car/">first modified his own Acura</a> to give it a more advanced driver assist that let him take his hands off the wheel, with the goal of selling his system to Tesla and replacing Mobileye as the company’s supplier.</p>
+<p>(Mobileye dropped Tesla as a customer the following year <a href="https://arstechnica.com/cars/2016/09/tesla-dropped-by-mobileye-for-pushing-the-envelope-in-terms-of-safety/">after becoming unhappy</a> with the way the car company was using Mobileye products in unintended ways.)</p><p><a href="https://arstechnica.com/cars/2026/09/aftermarket-driver-assist-under-federal-probe-following-fatal-crashes/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/09/aftermarket-driver-assist-under-federal-probe-following-fatal-crashes/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>275</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1572803728-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1572803728-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Protests for Germany’s car industry as job losses loom</title>
+                <link>https://arstechnica.com/cars/2026/09/protests-for-germanys-car-industry-as-job-losses-loom/</link>
+                                    <comments>https://arstechnica.com/cars/2026/09/protests-for-germanys-car-industry-as-job-losses-loom/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Tue, 22 Sep 2026 14:40:47 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[auto industry]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/09/protests-for-germanys-car-industry-as-job-losses-loom/</guid>
+
+                                    <description>
+                        <![CDATA[A combination of Chinese competition and US tariffs is causing problems in Germany.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The future is looking increasingly bleak for Germany’s automotive industry. Since the turn of the century, car makers have been among the crown jewels of the German economy, punching above their weight in terms of investment and innovation. But those companies are now facing multiple problems at once, from declining demand at home and stronger competition from abroad to the cost of punitive and arbitrary new tariffs, on top of preexisting structural challenges like an aging workforce and a slow recovery from COVID.</p>
+<p>Total automotive sales in Europe have fallen from a peak of almost 18 million in 2019 to around 13 million in 2025, and some share of that smaller market is increasingly going to new entrants from China, which has its own spare automotive production capacity problem to worry about. And while the US market has always been the most profitable for German car exports, that was before the imposition of new import tariffs, which currently stand at 25 percent but could be subject to change at any time.</p>
+<p>Factory closures now seem not just possible but likely, something that would have been unthinkable just a few years ago. Earlier this summer, news emerged that <a href="https://arstechnica.com/cars/2026/06/vw-may-close-four-factories-to-adapt-to-the-future-report-says/">Volkswagen Group is considering closing four of its German factories</a> to prepare for the future. Things have not gotten much better for VW Group in the months since that news broke.</p><p><a href="https://arstechnica.com/cars/2026/09/protests-for-germanys-car-industry-as-job-losses-loom/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/09/protests-for-germanys-car-industry-as-job-losses-loom/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>104</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2295851553-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2295851553-500x500.jpg" width="500" height="500" />
+<media:credit>Ronny HARTMANN / AFP via Getty Images</media:credit><media:text>Demonstrators wave flags with the logo of the IG Metall union as they protest against job cuts in front of the commercial cars plant of German car maker Volkswagen (VW) on September 21, 2026 in Hanover, central Germany. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Saudi Arabia wants a car industry, launches Ceer with two EVs</title>
+                <link>https://arstechnica.com/cars/2026/09/saudi-arabia-wants-a-car-industry-launches-ceer-with-two-evs/</link>
+                                    <comments>https://arstechnica.com/cars/2026/09/saudi-arabia-wants-a-car-industry-launches-ceer-with-two-evs/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Chad Kirchner]]>
+                </dc:creator>
+                <pubDate>Mon, 21 Sep 2026 20:55:36 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Foxconn]]></category>
+		<category><![CDATA[Saudi Arabia]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/09/saudi-arabia-wants-a-car-industry-launches-ceer-with-two-evs/</guid>
+
+                                    <description>
+                        <![CDATA[The new carmaker is a joint venture between the Saudi PIF and Foxconn.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<aside class="pullbox sidebar fullwidth">Ceer provided flights from Detroit to Riyadh, Saudi Arabia, and accommodation so Ars could visit the factory. Ars does not accept paid editorial content.</aside>
+<p>KING ABDULLAH ECONOMIC CITY, Saudi Arabia—It may come as a surprise to some, but Saudi Arabia has never had a domestic automaker. That changes with Ceer. A joint venture between the country’s Public Investment Fund and Foxconn, it’s the Kingdom’s first home-grown automaker and a significant part of Saudi Arabia’s Vision 2030 plan to diversify its economy away from oil production and bring technological innovation locally by the end of the decade.</p>
+<p>Ceer in Arabic means to “drive forward,” and this forward-looking approach applies to the vehicle lineup. The flagship vehicles you see here—the Exobot sedan and SUV—are demonstrations of what the company is capable of and the vision it sees for future vehicles in the portfolio.</p>
+<p>It plans to have seven new cars in its portfolio by 2030—some of which will be hybrids—and while that doesn’t currently include sales outside the GCC (Gulf Cooperation Council) region, Ceer says it's building a competitive, world-class product and that if the demand is there, expansion is possible.</p><p><a href="https://arstechnica.com/cars/2026/09/saudi-arabia-wants-a-car-industry-launches-ceer-with-two-evs/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/09/saudi-arabia-wants-a-car-industry-launches-ceer-with-two-evs/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>156</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/WhatsApp_Image_2026-09-21_at_21.24.15-1152x648.jpeg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/WhatsApp_Image_2026-09-21_at_21.24.15-500x500-1790021070.jpeg" width="500" height="500" />
+<media:credit>Ceer</media:credit><media:text>The Ceer Exobot sedan and SUV. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Don&#039;t call it an SUV: The Ferrari Purosangue review</title>
+                <link>https://arstechnica.com/cars/2026/09/dont-call-it-an-suv-the-ferrari-purosangue-review/</link>
+                                    <comments>https://arstechnica.com/cars/2026/09/dont-call-it-an-suv-the-ferrari-purosangue-review/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Sun, 20 Sep 2026 10:00:02 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[car review]]></category>
+		<category><![CDATA[Ferrari Purosangue]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/09/dont-call-it-an-suv-the-ferrari-purosangue-review/</guid>
+
+                                    <description>
+                        <![CDATA[Unlike previous Ferrari four-seaters, this one is better for humans than cargo.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Ferrari’s two-seat sports cars might be the brand’s identity, but the Italian automaker has always catered to customers who want to bring more than one passenger along for the ride. It started building cars with back seats in the 1960s with the 250 GT 2+2; as the name suggests, the second row was more for occasional use, something that was true all the way through to the 612 in the early 2000s. Ferrari followed with its first true four-seater, <a href="https://arstechnica.com/cars/2016/02/getting-to-know-the-ff-a-ferrari-you-can-drive-every-day/">the all-wheel drive FF</a>, which adopted "<a href="https://en.wikipedia.org/wiki/Ferrari_250_GT_SWB_Breadvan">Breadvan</a>" styling. Its first hatchback was still a three-door, though, and slightly more practical for carrying cargo rather than humans in the rear. That was true for <a href="https://arstechnica.com/cars/2018/07/the-gtc4lusso-t-is-a-ferrari-you-really-could-drive-every-day/">the GTC4 that followed</a>, too. But with the Purosangue, the rear passengers have been given something of an upgrade.</p>
+<p>For one thing, there is an extra pair of doors, rear-hinged ones that provide direct access to the pair of rear bucket seats. There’s still a rear hatch, so this is technically a five-door. But there’s an immovable firewall between the cargo area and the passenger cabin, and the rear seats do not fold flat. So unlike the 21st century breadvans we have previously reviewed, a Costco run in the Purosangue might be possible, but you’re probably going to want a roof rack if you plan to go skiing, cycling, or anything else that requires bulky equipment. It’s also probably accurate that Ferrari says the Purosangue is not an SUV but an FUV—a Ferrari Utility Vehicle.</p>
+<p>Underneath that long hood lives a 6.5 L naturally aspirated V12, but mounted back in the chassis such that this is technically a front-mid engined layout. That contributes to the 49:51 front-to-rear weight ratio, as does the use of a transaxle gearbox for the rear wheels (an eight-speed, dual-clutch box); a separate power transfer unit at the front of the engine drives the front wheels, for this is an all-wheel drive Ferrari. But make no mistake, it’s a substantial one, too, befitting that massive 715 hp (533 kW), 528 lb-ft (716 Nm) engine: 195.8 inches (4,973 mm) long, 79.8 inches (2,028 mm) wide, 62.6 inches (1,589 mm) tall, with a 118.1-inch (3,018 mm) wheelbase and a 4,784 lbs (2,170 kg) curb weight.</p><p><a href="https://arstechnica.com/cars/2026/09/dont-call-it-an-suv-the-ferrari-purosangue-review/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/09/dont-call-it-an-suv-the-ferrari-purosangue-review/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>163</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/2026-Ferrari-Purosangue-1-of-15-1152x648-1789751602.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/2026-Ferrari-Purosangue-1-of-15-500x500-1789751590.jpg" width="500" height="500" />
+<media:credit>Jonathan Gitlin</media:credit><media:text>A four-seat, five-door Ferrari? Just don't call it an SUV.</media:text></media:content>
+            </item>
+                    <item>
+                <title>2026 Hyundai Ioniq 5: Here&#039;s what we still like, here&#039;s what annoys us</title>
+                <link>https://arstechnica.com/cars/2026/09/2026-hyundai-ioniq-5-heres-what-we-still-like-heres-what-annoys-us/</link>
+                                    <comments>https://arstechnica.com/cars/2026/09/2026-hyundai-ioniq-5-heres-what-we-still-like-heres-what-annoys-us/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Thu, 17 Sep 2026 17:30:30 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[2026 Hyundai Ioniq 5]]></category>
+		<category><![CDATA[car review]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/09/2026-hyundai-ioniq-5-heres-what-we-still-like-heres-what-annoys-us/</guid>
+
+                                    <description>
+                        <![CDATA[It’s spacious, efficient, and charges very quickly. But what about reliability concerns?]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>When we first drove the Hyundai Ioniq 5 <a href="https://arstechnica.com/cars/2021/12/the-hyundai-ioniq-5-is-the-best-ev-weve-driven-in-2021/">at the end of 2021</a>, it didn’t take much exposure to the angular electric vehicle to find much about it appealing. Back then, <a href="https://arstechnica.com/cars/2021/02/this-crisp-looking-crossover-is-hyundais-next-ev-the-ioniq-5/">an 800 V architecture</a> had only really been seen in expensive high-end EVs from Porsche, but here was a mainstream model with that same technology—and even faster fast-charging, taking just 18 minutes to go from 10–80 percent. The retro looks didn’t hurt either, channeling the boxy hatches styled by Giorgetto Giugiaro in the 1970s and '80s. But five years is a long time in the car world, and the compact electric crossover segment is far more competitive than it was when the Ioniq 5 debuted. We figured it was worth spending some more time with one to see how it still stacks up.</p>
+<p>Although the Ioniq 5 range starts at $35,000 for the standard range model, our test car was a 2026 Ioniq 5 AWD Limited, which has an 84 kWh battery pack—part of the lifecycle refresh <a href="https://arstechnica.com/cars/2025/02/the-2025-hyundai-ioniq-5-the-best-all-around-ev-just-got-better/">in early 2025</a> that also swapped in a NACS (J3400) charge port in place of the CCS1 port you’d find on earlier cars. Among the other additions that arrived as part of the 2025 refresh was a rear windshield wiper, which was sorely needed at launch.</p>
+<p>This range-topping trim starts at $45,075, with an extra $3,900 for the addition of the front electric motor that gives the AWD version a combined output of 320 hp (239 kW) and 446 lb-ft (605 Nm). The added traction of AWD (when you have grip) is desired by many, but you do trade something for it: efficiency. The AWD version has an EPA range of 269 miles (432 km) versus 318 miles (512 km) for the rear-wheel drive variant.</p><p><a href="https://arstechnica.com/cars/2026/09/2026-hyundai-ioniq-5-heres-what-we-still-like-heres-what-annoys-us/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/09/2026-hyundai-ioniq-5-heres-what-we-still-like-heres-what-annoys-us/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>225</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/2026-Hyundai-Ioniq-5-1-of-10-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/2026-Hyundai-Ioniq-5-1-of-10-500x500.jpg" width="500" height="500" />
+<media:credit>Jonathan Gitlin</media:credit><media:text>The Hyundai Ioniq 5 has been on our recommended list since it debuted, but does it still hold up?</media:text></media:content>
+            </item>
+                    <item>
+                <title>The world’s best racing driver is about to race 100 karts at once</title>
+                <link>https://arstechnica.com/cars/2026/09/the-worlds-best-racing-driver-is-about-to-race-100-karts-at-once/</link>
+                                    <comments>https://arstechnica.com/cars/2026/09/the-worlds-best-racing-driver-is-about-to-race-100-karts-at-once/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Wed, 16 Sep 2026 14:19:01 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Racing]]></category>
+		<category><![CDATA[red bull]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/09/the-worlds-best-racing-driver-is-about-to-race-100-karts-at-once/</guid>
+
+                                    <description>
+                        <![CDATA[Red Bull, Disney+, and ESPN are streaming the race at noon Eastern today.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Later today, Max Verstappen will strap on his helmet and take to the track at the Silverstone circuit in England for a rather unusual race. The four-time Formula 1 world champion is recognized as the leading talent of his generation, but unlike some of the legends that have preceded him, Verstappen’s passion for motorsport extends beyond just the rarified world of F1. With apologies to Midweek Motorsport, but if it has wheels and they keep score, odds are good Verstappen's down to race it. So at noon Eastern Time (5 pm BST) today, September 16, Verstappen will slip into something a little more basic: a kart.</p>
+<p>It’s one of 101 identical karts that have been sourced from Eastern Europe for the event—the other 100 will be driven by a mix of content creators and Red Bull athletes, all of whom fancy their chances at beating one of the world’s greatest drivers at his own game. They get a bit of an advantage, all starting ahead of Verstappen. Once he passes another karter, they’re out of the race, and Verstappen has 30 laps of a purpose-designed layout at Silverstone to get through them all and win.</p>
+<p>Other F1 drivers have attempted slightly similar challenges in the past—Alex Albon <a href="https://www.youtube.com/watch?v=JCwCQ8egn18">raced 25 kids</a> last year, and last month Oliver Bearman <a href="https://www.youtube.com/watch?v=YqKqlBGwozo">raced 50 amateurs.</a> But neither is as high-profile as Verstappen, and neither is facing as much competition.</p><p><a href="https://arstechnica.com/cars/2026/09/the-worlds-best-racing-driver-is-about-to-race-100-karts-at-once/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/09/the-worlds-best-racing-driver-is-about-to-race-100-karts-at-once/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>70</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/SI202608250383-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/SI202608250383-500x500.jpg" width="500" height="500" />
+<media:credit>Joerg Mitter / Red Bull Content Pool</media:credit><media:text>Max Verstappen will try and beat 100 identical karts in a 30 lap race, starting from the back.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Demand for EV chargers is outstripping supply, says ChargePoint report</title>
+                <link>https://arstechnica.com/cars/2026/09/ev-charging-infrastructure-is-still-lagging-adoption-report-says/</link>
+                                    <comments>https://arstechnica.com/cars/2026/09/ev-charging-infrastructure-is-still-lagging-adoption-report-says/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Tue, 15 Sep 2026 17:58:09 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[chargepoint]]></category>
+		<category><![CDATA[EV adoption]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/09/ev-charging-infrastructure-is-still-lagging-adoption-report-says/</guid>
+
+                                    <description>
+                        <![CDATA[EV growth is happening, even in the US, and those EVs will need plugs to charge.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>There might not be the same degree of optimism regarding electric vehicle adoption as a few short years ago, but the transition toward battery-electric vehicles continues nevertheless. More than 1.8 million EVs had already been sold between the start of this year and the end of August, according to analysts. And in the US, there has been <a href="https://www.here.com/ev-index-2026">a large uptick</a> in drivers considering EVs that they might have written off last year, due to escalating fuel prices with no clear end in sight. Despite this, charging infrastructure continues to lag, according to <a href="https://www.chargepoint.com/resources/charging-forward-report-2026">a new report</a> from ChargePoint.</p>
+<p>“All in all, things are moving forward. I think the North American market has been better shaped than a lot of the press reports,” said ChargePoint CEO Rick Wilmer. “Part of it is just the data we see in terms of the amount of RFPs that we receive for charging solutions. They haven't slowed down. We reported quarter over quarter growth in the last quarter we reported. And you look at the data around used EVs going up in price because the demand is so high. I saw <a href="https://www.jdpower.com/business/press-releases/2026-us-electric-vehicle-experience-evx-ownership-study/">a recent report</a>… EV retention rates are 96 percent. So those folks that are putting their leased cars on the used market, they're not going back to gas, they're going to another EV,” he said.</p>
+<p>Beyond that, cheap electric trucks from Slate and Ford indicate further future demand for charging. “When you look at how much interest there is in the <a href="https://arstechnica.com/cars/2026/08/used-ev-buying-guide-the-30000-edition/">used EVs</a> that are at parity with an equivalent gas vehicle, that tells you the appetite is there for EVs if it's the right vehicle at the right price point," Wilmer said. "So I think the auto OEMs, maybe not homogeneously, but they're figuring out what the market wants in North America, and they're starting to introduce those vehicles, which I don't think a lot of the forward-looking forecasts accommodate the fact that the product market fit is getting better coming out of the car companies.”</p><p><a href="https://arstechnica.com/cars/2026/09/ev-charging-infrastructure-is-still-lagging-adoption-report-says/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/09/ev-charging-infrastructure-is-still-lagging-adoption-report-says/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>180</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2234483586-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2234483586-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>GM gives its most important trucks a new UI—and includes CarPlay</title>
+                <link>https://arstechnica.com/cars/2026/09/gm-gives-its-most-important-trucks-a-new-ui-and-includes-carplay/</link>
+                                    <comments>https://arstechnica.com/cars/2026/09/gm-gives-its-most-important-trucks-a-new-ui-and-includes-carplay/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Tue, 15 Sep 2026 13:27:57 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Android automotive os]]></category>
+		<category><![CDATA[Apple CarPlay]]></category>
+		<category><![CDATA[General Motors]]></category>
+		<category><![CDATA[infotainment]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/09/gm-gives-its-most-important-trucks-a-new-ui-and-includes-carplay/</guid>
+
+                                    <description>
+                        <![CDATA[The new look debuts in the 2027 Chevrolet Silverado and 2027 GMC Sierra pickup trucks.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>General Motors is about to launch new versions of its bestselling Chevrolet Silverado and GMC Sierra pickup trucks for model year 2027, and among the changes are new user interfaces for the trucks’ digital displays. The automaker has gone for a more minimalist approach than we’ve seen from it in the past, and after a demo yesterday, it seems like it has been listening to constructive feedback to improve the products. And yes, unlike GM’s electric vehicles, these trucks still let you cast your Apple or Android phone to the infotainment system.</p>
+<p>Although GM showed us video of the main instrument cluster—the gauges and info that’s presented to the driver—we don’t have any screenshots we can show you. But I was impressed with the restraint and lack of visual noise; instead, the background is always black, which should be dark even at night thanks to local dimming technology.</p>
+<p>There are a number of different views. One with simple half-moon dials for speed and engine rpm; on the right side of the display is a user-configurable zone, where you can browse your music or audio feeds, display trip info, or turn-by-turn directions. Another is a driver assist display, with green as the highlight color to show when Super Cruise is active; this shows you a representation of what the car’s fused sensors are seeing around it. A third is for off-road driving, with your various angles and diff settings, and a fourth is for towing.</p><p><a href="https://arstechnica.com/cars/2026/09/gm-gives-its-most-important-trucks-a-new-ui-and-includes-carplay/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/09/gm-gives-its-most-important-trucks-a-new-ui-and-includes-carplay/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>121</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Chevrolet_Silverado_HighCountry_AP1_2-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Chevrolet_Silverado_HighCountry_AP1_2-500x500.jpg" width="500" height="500" />
+<media:credit>GM</media:credit><media:text>The new Chevy Silverado (together with the GMC Sierra) gets an all-new UI, and we got a sneak peek. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Volvo increases the batteries for 2028 XC60 and XC90 plug-in refresh</title>
+                <link>https://arstechnica.com/cars/2026/09/volvo-bigs-up-the-batteries-for-2028-xc60-and-xc90-plug-in-refresh/</link>
+                                    <comments>https://arstechnica.com/cars/2026/09/volvo-bigs-up-the-batteries-for-2028-xc60-and-xc90-plug-in-refresh/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Tue, 15 Sep 2026 07:00:30 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Volvo XC60]]></category>
+		<category><![CDATA[Volvo XC90]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/09/volvo-bigs-up-the-batteries-for-2028-xc60-and-xc90-plug-in-refresh/</guid>
+
+                                    <description>
+                        <![CDATA[The refreshed Volvos also get new infotainment systems with Gemini onboard.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<aside class="pullbox sidebar fullwidth">Volvo provided flights from Washington, DC, to London, England, and accommodation so Ars could see its refreshed vehicles. Ars does not accept paid editorial content.</aside>
+<p>There must be a case of upgrade fever taking hold in Gothenburg. <a href="https://arstechnica.com/cars/2026/09/how-to-make-a-small-suv-slightly-smaller-the-2028-volvo-xc40/">Yesterday, we saw the revised Volvo XC40</a>; today it’s the turn of another pair of Volvo SUVs, the bestselling XC60 and the three-row XC90. While the styling changes are more subtle, the new plug-in hybrid powertrain—which more than doubles its real-world electric range—is most welcome.</p>
+<p>Volvo had sold more than 2.7 million XC60s worldwide by the end of last year, so it’s an important car for the brand. Visually, there are changes to the “Thor’s Hammer” headlights: these keep their distinctive daylight running light signature but now hide matrix LED projectors within their depths. There’s a new front grille as well, one that has been slimmed down a little, together with tweaks to the bumpers, wings, and some other body panels.</p>
+<p>On the inside, there’s a new ventilated leather interior option, and like the XC40, the new 11.2-inch infotainment system sports a Gemini personal assistant to enable conversational voice control of the android automotive OS-based infotainment system. Based on some brief testing, the new Gemini voice assistant does at least perform a lot better than the previous version, which, if anything, has degraded in ability over the past few years.</p><p><a href="https://arstechnica.com/cars/2026/09/volvo-bigs-up-the-batteries-for-2028-xc60-and-xc90-plug-in-refresh/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/09/volvo-bigs-up-the-batteries-for-2028-xc60-and-xc90-plug-in-refresh/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>54</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/The_new_Volvo_XC60_and_the_Volvo_XC90_DuoAngle01_HERO-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/The_new_Volvo_XC60_and_the_Volvo_XC90_DuoAngle01_HERO-500x500.jpg" width="500" height="500" />
+<media:credit>Volvo</media:credit><media:text>Volvo has squeezed even bigger batteries into its plug-in hybrid SUVs.</media:text></media:content>
+            </item>
+                    <item>
+                <title>New corners, new lights for 2028 Volvo XC40</title>
+                <link>https://arstechnica.com/cars/2026/09/how-to-make-a-small-suv-slightly-smaller-the-2028-volvo-xc40/</link>
+                                    <comments>https://arstechnica.com/cars/2026/09/how-to-make-a-small-suv-slightly-smaller-the-2028-volvo-xc40/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Mon, 14 Sep 2026 15:46:06 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Volvo XC40]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/09/how-to-make-a-small-suv-slightly-smaller-the-2028-volvo-xc40/</guid>
+
+                                    <description>
+                        <![CDATA[The Swedish automaker gives its small SUV a sympathetic makeover.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<aside class="pullbox sidebar fullwidth">Volvo provided flights from Washington, DC, to London, England, and accommodation so Ars could see its refreshed vehicles. Ars does not accept paid editorial content.</aside>
+<p>Most cars get a midlife facelift about four years after first hitting the streets. It’s a chance for automakers to update the styling and introduce new features and engineering changes that are usually minor but can be quite dramatic—the Polestar 2 swapping from front- to rear-wheel drive comes readily to mind. I can’t think of too many cars that have gone on to have a second update, but here’s one: the 2028 Volvo XC40.</p>
+<p>First debuting in 2017, Volvo gave the XC40 a tweak for model year 2023. Rather than launch an all-new version, it has decided to give the popular crossover another update for MY28 with the aim of keeping things fresh. “By enhancing the XC40’s design, technology, and safety features, we've created the best version of the XC40 yet,” said Akhil Krishnan, interim lead for the 30 and 40 Series at Volvo Cars. “This already-popular model is now set to continue being one of our best-selling cars for years to come.”</p>
+<p>The most obvious changes are the new front and rear lights. Up front we still see the distinctive “Thor’s Hammer” daylight running light signature, but the new matrix LED light clusters appear more minimalist, hiding their details from view. The rear similarly gets new LEDs. But Volvo’s designers have been at work elsewhere, shaving away the corners of the car to make what was already a small SUV take up slightly less room.</p><p><a href="https://arstechnica.com/cars/2026/09/how-to-make-a-small-suv-slightly-smaller-the-2028-volvo-xc40/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/09/how-to-make-a-small-suv-slightly-smaller-the-2028-volvo-xc40/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>44</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/The_New_Volvo_XC40_Studio_Front_34-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/The_New_Volvo_XC40_Studio_Front_34-500x500.jpg" width="500" height="500" />
+<media:credit>Volvo</media:credit><media:text>The changes are subtle, but this is the 2028 Volvo XC40.</media:text></media:content>
+            </item>
+            </channel>
+</rss>
