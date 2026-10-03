@@ -8,9 +8,9 @@
   "window_start": "2026-10-02T16:00:00-10:00",
   "window_end": "2026-10-02T17:00:00-10:00",
   "timezone": "Pacific/Honolulu",
-  "status": "generated",
+  "status": "assets_ready",
   "created_at": "2026-10-02T16:14:02-10:00",
-  "generated_at": "2026-10-02T16:14:02-10:00",
+  "generated_at": "2026-10-02T16:46:07-10:00",
   "published_at": "",
   "generator": "system_perf",
   "provider": "system_perf",
@@ -21,11 +21,11 @@
   "sections": [
     {
       "heading": "Report",
-      "text": "# System Performance — 2026-10-02T16:14:02-10:00\n\nHost: HI Pacific Solar Root Server\n\n| Metric | Value |\n|---|---|\n| CPU | 66.2% (load 6.04 / 3.35 / 2.86) |\n| RAM | 72.2% used (10.2 / 14.2 GB); swap used 4.0 GB |\n| Disk / | 36.5% used (183 / 502 GB) |\n| Host battery | 64% (Charging, on AC) |\n| Uptime | 12h 37m |\n| Last online | 2026-10-02T16:09:52-10:00 |\n| Uptime percent | 7% |\n| Average offline | 460 s |\n| Power mode | performance |\n| Temp | 95.0°C (acpitz) |\n| iGPU | Advanced Micro Devices, Inc. [AMD/ATI] Krackan2 (rev c8) — 4.0% |\n| NPU | 0.0% (present) |\n\n_Template report (no LLM). Measured on the desk at 2026-10-02T16:14:02-10:00. A missing hardware row was not sampled._"
+      "text": "# System Performance — 2026-10-02T16:45:25-10:00\n\nHost: HI Pacific Solar Root Server\n\n| Metric | Value |\n|---|---|\n| CPU | 4.8% (load 1.31 / 1.66 / 1.62) |\n| RAM | 56.6% used (8.0 / 14.2 GB); swap used 1.8 GB |\n| Disk / | 36.5% used (183 / 502 GB) |\n| Host battery | 78% (Charging, on AC) |\n| Uptime | 0h 22m |\n| Last online | 2026-10-02T16:43:24-10:00 |\n| Uptime percent | 7% |\n| Average offline | 467 s |\n| Power mode | performance |\n| Temp | 55.0°C (acpitz) |\n| iGPU | Advanced Micro Devices, Inc. [AMD/ATI] Krackan2 (rev c8) — 2.0% |\n| NPU | 0.0% (present) |\n\n_Template report (no LLM). Measured on the desk at 2026-10-02T16:45:25-10:00. A missing hardware row was not sampled._"
     }
   ],
   "spoken": [
-    "System performance report. Report generated at four fourteen p.m.. CPU 66%. Memory 72% used, 10.2 of 14.2 gigabytes. Disk 36% used. Host battery 64%, on AC. Uptime 12 hours 37 minutes. Root server was last online at four oh nine p.m.. Uptime 7 percent. Average offline time 7 minutes. Host power mode is performance. Temperature 95.0 degrees Celsius. Integrated GPU 4.0 percent. NPU 0.0 percent, present. End of system report."
+    "System performance report. Report generated at four forty five p.m.. CPU 5%. Memory 57% used, 8.0 of 14.2 gigabytes. Disk 36% used. Host battery 78%, on AC. Uptime 0 hours 22 minutes. Root server was last online at four forty three p.m.. Uptime 7 percent. Average offline time 7 minutes. Host power mode is performance. Temperature 55.0 degrees Celsius. Integrated GPU 2.0 percent. NPU 0.0 percent, present. End of system report."
   ],
   "owns": [
     "host"
@@ -34,6 +34,11 @@
     {
       "kind": "text",
       "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/system_perf_current.md",
+      "report_id": "rpt_0ab7122959477f6aa0e1"
+    },
+    {
+      "kind": "audio",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/system_perf_current.wav",
       "report_id": "rpt_0ab7122959477f6aa0e1"
     }
   ],
@@ -45,10 +50,10 @@
       "retry": 0
     },
     "audio": {
-      "status": "failed",
-      "path": "",
-      "error": "busy",
-      "retry": 1
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/system_perf_current.wav",
+      "error": "",
+      "retry": 0
     },
     "image": {
       "status": "skipped",

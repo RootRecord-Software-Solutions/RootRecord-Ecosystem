@@ -1,6 +1,6 @@
-# NWS Hawaii — 2026-10-02T16:14:03-10:00
+# NWS Hawaii — 2026-10-02T16:46:07-10:00
 
-- Alerts source: `api.weather.gov/alerts/active?area=HI` (updated 2026-10-03T01:53:16+00:00)
+- Alerts source: `api.weather.gov/alerts/active?area=HI` (updated 2026-10-03T02:24:15+00:00)
 - Forecast source: NWS HFO State Forecast (SFP), issued 353 PM HST Fri Oct 2 2026
 - Temperatures: NWS HFO Zone Forecast (ZFP), today high and tonight low
 

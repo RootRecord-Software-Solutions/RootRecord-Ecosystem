@@ -8,9 +8,9 @@
   "window_start": "2026-10-02T16:00:00-10:00",
   "window_end": "2026-10-02T17:00:00-10:00",
   "timezone": "Pacific/Honolulu",
-  "status": "generated",
+  "status": "assets_ready",
   "created_at": "2026-10-02T16:14:03-10:00",
-  "generated_at": "2026-10-02T16:14:03-10:00",
+  "generated_at": "2026-10-02T16:47:30-10:00",
   "published_at": "",
   "generator": "voice_build",
   "provider": "voice_build",
@@ -21,12 +21,12 @@
   "sections": [
     {
       "heading": "Report",
-      "text": "# Remaining tasks — 2026-10-02T16:14:03-10:00\n\nAutomated Reports are in active development and is expected to change\n\nSource: open work orders.\n\n- WO-GH: 4 open\n- WO-ECO: 2 open\n- WO-OLD: 2 open"
+      "text": "# Remaining tasks — 2026-10-02T16:46:58-10:00\n\nAutomated Reports are in active development and is expected to change\n\nSource: open work orders.\n\n- WO-GH: 4 open\n- WO-ECO: 2 open\n- WO-OLD: 2 open"
     }
   ],
   "spoken": [
     "Remaining tasks.",
-    "Report generated at four fourteen p.m.",
+    "Report generated at four forty six p.m.",
     "Automated Reports are in active development and is expected to change.",
     "8 open work order items.",
     "WO-GH, 4 open.",
@@ -41,6 +41,11 @@
       "kind": "text",
       "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/remaining_tasks_current.md",
       "report_id": "rpt_0f99359d6a388f7fc180"
+    },
+    {
+      "kind": "audio",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/remaining_tasks_current.wav",
+      "report_id": "rpt_0f99359d6a388f7fc180"
     }
   ],
   "stages": {
@@ -51,10 +56,10 @@
       "retry": 0
     },
     "audio": {
-      "status": "failed",
-      "path": "",
-      "error": "busy",
-      "retry": 1
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/remaining_tasks_current.wav",
+      "error": "",
+      "retry": 0
     },
     "image": {
       "status": "skipped",

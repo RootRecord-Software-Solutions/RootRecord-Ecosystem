@@ -1,8 +1,6 @@
 {
-  "cycle": "2026-10-02T14:52",
+  "cycle": "2026-10-02T16:52",
   "ok": [
-    "kilauea_report",
-    "solar_desk",
     "security_desk",
     "bandwidth_desk"
   ],

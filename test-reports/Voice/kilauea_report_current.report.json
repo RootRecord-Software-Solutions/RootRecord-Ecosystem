@@ -8,9 +8,9 @@
   "window_start": "2026-10-02T16:00:00-10:00",
   "window_end": "2026-10-02T17:00:00-10:00",
   "timezone": "Pacific/Honolulu",
-  "status": "generated",
+  "status": "assets_ready",
   "created_at": "2026-10-02T16:14:03-10:00",
-  "generated_at": "2026-10-02T16:14:03-10:00",
+  "generated_at": "2026-10-02T16:48:51-10:00",
   "published_at": "",
   "generator": "voice_build",
   "provider": "voice_build",
@@ -21,18 +21,18 @@
   "sections": [
     {
       "heading": "Report",
-      "text": "# Kilauea report — 2026-10-02T16:14:03-10:00\n\n- **Kīlauea:** WATCH / ORANGE — erupting `True` — WATCH — elevated unrest\n- **Latest notice used:** Volcano Activity Notification (2026-09-29 17:54:03 UTC) https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-29T16:38:42+00:00\n- **Mauna Loa:** NORMAL / GREEN\n- **Quakes ≤150 km of Kīlauea (M≥1, 24 h):** 23\n- **Photo:** Photo viewed: yes. Conditions: plume; Steam and smoke are visible rising from the lava flow..\n- **Collected:** 2026-10-02T16:06:32-10:00 (USGS HANS)"
+      "text": "# Kilauea report — 2026-10-02T16:48:08-10:00\n\n- **Kīlauea:** WATCH / ORANGE — erupting `True` — WATCH — elevated unrest\n- **Latest notice used:** Volcano Activity Notification (2026-09-29 17:54:03 UTC) https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-29T16:38:42+00:00\n- **Mauna Loa:** NORMAL / GREEN\n- **Quakes ≤150 km of Kīlauea (M≥1, 24 h):** 22\n- **Photo:** Photo viewed: yes. Conditions: plume; Steam and smoke are visible rising from the lava flow..\n- **Collected:** 2026-10-02T16:46:05-10:00 (USGS HANS)"
     }
   ],
   "spoken": [
     "Kilauea report.",
-    "Report generated at four fourteen p.m.",
+    "Report generated at four forty eight p.m.",
     "Alert level watch, aviation color code orange.",
     "The volcano is erupting.",
     "Photo viewed: yes. Conditions: plume; Steam and smoke are visible rising from the lava flow..",
     "Here is the latest observatory notice.",
     "The Halemaʻumaʻu eruption of Kīlauea volcano is currently erupting small overflows from both the north and south vents. It is not possible to forecast the onset of episode 55 fountains or if they will occur.",
-    "United States Geological Survey: 23 earthquakes magnitude 1 or greater within 150 kilometers in the last 24 hours.",
+    "United States Geological Survey: 22 earthquakes magnitude 1 or greater within 150 kilometers in the last 24 hours.",
     "Mauna Loa alert level: normal."
   ],
   "owns": [
@@ -42,6 +42,11 @@
     {
       "kind": "text",
       "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/kilauea_report_current.md",
+      "report_id": "rpt_00187d26bb3a6a6b82d1"
+    },
+    {
+      "kind": "audio",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/kilauea_report_current.wav",
       "report_id": "rpt_00187d26bb3a6a6b82d1"
     }
   ],
@@ -53,10 +58,10 @@
       "retry": 0
     },
     "audio": {
-      "status": "failed",
-      "path": "",
-      "error": "busy",
-      "retry": 1
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/kilauea_report_current.wav",
+      "error": "",
+      "retry": 0
     },
     "image": {
       "status": "skipped",
