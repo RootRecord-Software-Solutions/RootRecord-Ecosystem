@@ -11,6 +11,16 @@
       "publication": "not_configured"
     },
     {
+      "report_id": "rpt_c7c9efb5e9bf6e2a4f23",
+      "id": "kilauea_image_check",
+      "file": "kilauea_image_check_current.wav",
+      "window_start": "2026-10-02T15:15:00-10:00",
+      "window_end": "2026-10-02T15:30:00-10:00",
+      "priority": 0,
+      "status": "assets_ready",
+      "publication": "not_configured"
+    },
+    {
       "report_id": "rpt_db8d81a6908453aa6967",
       "id": "bandwidth_desk",
       "file": "bandwidth_desk_current.wav",

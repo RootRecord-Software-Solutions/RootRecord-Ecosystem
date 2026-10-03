@@ -1,8 +1,7 @@
 {
-  "at": "2026-10-02T15:19:13-10:00",
-  "source": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&starttime=2026-09-19T01%3A19%3A13&minmagnitude=1.0&minlatitude=18.5&maxlatitude=22.5&minlongitude=-160.5&maxlongitude=-154.5",
+  "at": "2026-10-02T15:26:25-10:00",
+  "source": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&starttime=2026-10-02T01%3A26%3A25&minmagnitude=1.0&minlatitude=18.5&maxlatitude=22.5&minlongitude=-160.5&maxlongitude=-154.5",
   "window_h": 24,
-  "span_d": 14,
   "min_mag": 1.0,
   "bbox": {
     "minlatitude": 18.5,
@@ -10,7 +9,7 @@
     "minlongitude": -160.5,
     "maxlongitude": -154.5
   },
-  "count": 23,
+  "count": 24,
   "count_m2": 4,
   "count_m25": 1,
   "largest": {
@@ -19,21 +18,33 @@
     "place": "5 km WSW of Volcano, Hawaii",
     "time_hst": "2026-10-02T07:55:58.410000-10:00"
   },
-  "change": {
-    "m25_24h": 1,
-    "m25_24h_prior": 4,
-    "m25_24h_pct": -75,
-    "m25_7d": 10,
-    "m25_7d_prior": 7,
-    "m25_7d_pct": 43
-  },
-  "kilauea_150km_count": 23,
-  "new_this_run": 12,
-  "new_local_m2_ids": [
-    "hv75048472"
-  ],
-  "usgs_generated_utc": "2026-10-03T01:19:14+00:00",
+  "kilauea_150km_count": 24,
+  "new_this_run": 0,
+  "new_local_m2_ids": [],
+  "usgs_generated_utc": "2026-10-03T01:26:25+00:00",
   "events": [
+    {
+      "id": "hv75048727",
+      "mag": 1.77,
+      "mag_type": "md",
+      "place": "12 km S of Leilani Estates, Hawaii",
+      "time_utc": "2026-10-03T01:18:09.150000+00:00",
+      "time_hst": "2026-10-02T15:18:09.150000-10:00",
+      "lon": -154.921005249023,
+      "lat": 19.3573341369629,
+      "depth_km": 30.8199996948242,
+      "status": "automatic",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75048727",
+      "nearest": {
+        "location_id": "us-hawaii-pahoa",
+        "name": "Pāhoa",
+        "country_code": "US",
+        "admin1_code": "HI",
+        "km": 11.4
+      }
+    },
     {
       "id": "hv75048662",
       "mag": 1.95,
