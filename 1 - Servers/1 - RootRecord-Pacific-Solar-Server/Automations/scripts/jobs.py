@@ -2357,7 +2357,7 @@ EXACT_TIME = [  # info: set EXACT_TIME
         "timeout_sec": 5,  # info: "timeout_sec" : 5 ,
         "needs_internet": True,  # info: "needs_internet" : True ,
         "cwd": f"{ML2}/vendor/RadioRss",  # info: "cwd"
-        "env": {},  # info: "env" : { } ,
+        "env": {"RR_DATABASE_ROOT": DATABASE},  # info: Database bank
     },  # info: } ,
     # --- 55:45–55:49 ---
     # stack: sys_stats_cycle, github_sync_all, river2pro_read
