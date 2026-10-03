@@ -16,12 +16,11 @@ Writes under the single voice tree:
   Media/Audio/Voice/Archive/audio_reports_YYYYMMDDTHHMMSS.zip
   (WAV + speak/read txt removed after a successful push; oggs archived)
 
-Hourly chimes stay on voice_hourly_chime (:00/:30) unless --include-chime.
+Hourly chimes stay on voice_hourly_chime (:00/:30) — never part of this hour batch.
 
 Usage:
   python3 generate_hour_reports.py
   python3 generate_hour_reports.py --only solar_desk,kilauea_report
-  python3 generate_hour_reports.py --include-chime
   python3 generate_hour_reports.py --no-push
 """
 from __future__ import annotations
@@ -33,7 +32,6 @@ import os
 import statistics
 import subprocess
 import sys
-import tempfile
 import time
 import zipfile
 from datetime import datetime
@@ -96,8 +94,6 @@ HOUR_REPORTS: list[tuple[str, str, str]] = [
     ("security_desk", "carly", "voice_reports"),
     ("bandwidth_desk", "carly", "voice_reports"),
 ]
-
-CHIME_REPORT = ("hourly_chime", "ava", "chime")
 
 ENV_BASE = {
     "RR_RADIO_PUSH": "0",
@@ -174,54 +170,6 @@ def run_system_perf() -> dict:
     return res
 
 
-def run_chime() -> dict:
-    sys.path.insert(0, str(HERE))
-    from datetime import datetime
-    from zoneinfo import ZoneInfo
-
-    try:
-        from hourly_chimes import persona_for, wav_path
-    except Exception as exc:
-        return {"ok": False, "detail": f"hourly_chimes: {exc}"}
-
-    t = datetime.now(ZoneInfo("Pacific/Honolulu"))
-    who = persona_for(t.hour)
-    pre = wav_path(t.hour, 0 if t.minute < 30 else 30)
-    if pre.is_file() and pre.stat().st_size > 64:
-        return {"ok": True, "mode": "prebuilt", "wav": str(pre), "agent": who}
-
-    line = f"Root Record hourly chime test for {who}."
-    with tempfile.NamedTemporaryFile("w", suffix=".txt", delete=False, encoding="utf-8") as f:
-        f.write(line)
-        text_path = f.name
-    try:
-        cmd = [
-            "bash",
-            str(HERE / "voice-render.sh"),
-            "stitch",
-            "--report",
-            "hourly_chime",
-            "--kind",
-            "chime",
-            "--text-file",
-            text_path,
-            "--no-gate",
-        ]
-        env = {**os.environ, **ENV_BASE}
-        p = subprocess.run(cmd, cwd=str(HERE), capture_output=True, text=True, timeout=600, env=env)
-        last = (p.stdout.strip().splitlines() or ["{}"])[-1]
-        try:
-            res = json.loads(last)
-        except ValueError:
-            res = {"ok": False, "detail": "bad_json", "stdout": p.stdout[-500:]}
-        res["rc"] = p.returncode
-        res["agent"] = who
-        res["mode"] = "stitched_test"
-        return res
-    finally:
-        os.unlink(text_path)
-
-
 def one(report: str, agent: str, how: str) -> dict:
     started = time.time()
     row: dict = {"report": report, "agent": agent, "how": how}
@@ -230,8 +178,6 @@ def one(report: str, agent: str, how: str) -> dict:
             gen = run_voice_reports(report)
         elif how == "system_perf":
             gen = run_system_perf()
-        elif how == "chime":
-            gen = run_chime()
         else:
             return {**row, "ok": False, "detail": f"unknown how={how}"}
         row["generate"] = {
@@ -569,6 +515,9 @@ def finalize_archive(report_ids: list[str]) -> dict:
     errors: list[str] = []
 
     for report in report_ids:
+        if report == "hourly_chime":
+            # Chimes stay on voice_hourly_chime (:00/:30), never this batch.
+            continue
         src = OUT_DIR / f"{report}_current.ogg"
         if not src.is_file():
             missing.append(report)
@@ -627,15 +576,14 @@ def finalize_archive(report_ids: list[str]) -> dict:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", default="", help="comma-separated report ids")
-    ap.add_argument("--include-chime", action="store_true", help="also render hourly_chime (not used by :42 job)")
     ap.add_argument("--no-push", action="store_true", help="skip ML1 radio_push after generate")
     ap.add_argument("--keep-wav", action="store_true", help="keep local .wav/.txt after push")
     args = ap.parse_args()
     only = {x.strip() for x in args.only.split(",") if x.strip()}
-    catalog = list(HOUR_REPORTS)
-    if args.include_chime or (only and "hourly_chime" in only):
-        catalog.append(CHIME_REPORT)
-    jobs = [r for r in catalog if not only or r[0] in only]
+    if "hourly_chime" in only:
+        print(json.dumps({"ok": False, "detail": "hourly_chime stays on voice_hourly_chime, not this batch"}))
+        return 2
+    jobs = [r for r in HOUR_REPORTS if not only or r[0] in only]
     if not jobs:
         print(json.dumps({"ok": False, "detail": "no reports selected"}))
         return 2
