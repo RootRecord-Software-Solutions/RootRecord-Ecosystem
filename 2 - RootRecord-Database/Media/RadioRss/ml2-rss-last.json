@@ -1,7 +1,7 @@
 {
   "collector": "ml2.radio_rss",
   "status": "ok",
-  "collected_at": "2026-10-02T23:46:34Z",
+  "collected_at": "2026-10-03T00:06:49Z",
   "rr_database_root": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank",
   "radio_root": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss",
   "poll": {
@@ -11,30 +11,12 @@
         "feed": "abc_australia_top",
         "ok": true,
         "items": 20,
-        "duplicates": 15
+        "duplicates": 18
       },
       {
         "feed": "aljazeera_all",
         "ok": true,
         "items": 0
-      },
-      {
-        "feed": "bbc_latin_america",
-        "ok": true,
-        "items": 17,
-        "duplicates": 17
-      },
-      {
-        "feed": "bbc_middle_east",
-        "ok": true,
-        "items": 20,
-        "duplicates": 18
-      },
-      {
-        "feed": "bbc_world",
-        "ok": true,
-        "items": 20,
-        "duplicates": 19
       },
       {
         "feed": "bea_news",
@@ -50,8 +32,7 @@
       {
         "feed": "breaking_defense",
         "ok": true,
-        "items": 15,
-        "duplicates": 15
+        "items": 0
       },
       {
         "feed": "cisa_news",
@@ -102,10 +83,26 @@
         "feed": "guardian_international",
         "ok": true,
         "items": 20,
-        "duplicates": 19
+        "duplicates": 18
       },
       {
         "feed": "harvard_gazette",
+        "ok": true,
+        "items": 0
+      },
+      {
+        "feed": "nhc_eastern_pacific",
+        "ok": true,
+        "items": 7,
+        "duplicates": 7
+      },
+      {
+        "feed": "nist_cyber_insights",
+        "ok": true,
+        "items": 0
+      },
+      {
+        "feed": "nist_cybersecurity",
         "ok": true,
         "items": 0
       },
@@ -145,14 +142,12 @@
       }
     ],
     "composed": [
-      "c_511dc47a32b8bd68",
-      "c_9ac38c07012f53f0",
-      "c_ddb4913770c54c54"
+      "c_c4a378cf32ead3ab"
     ]
   },
   "handoff_core": 3,
   "handoff_stories": 80,
-  "handoff_story_bytes": 104487,
+  "handoff_story_bytes": 104909,
   "error": null,
   "pacific_job": "radio_rss_poll",
   "note": "vendor/RadioRss poll + queue export; no speak/push. Pacific radio_rss_poll stays in jobs.py (RR_LOCAL_DATA_POLL gate)."

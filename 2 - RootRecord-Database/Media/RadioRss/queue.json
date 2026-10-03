@@ -6469,7 +6469,7 @@
         {
           "publisher": "ABC News Australia",
           "source": "ABC News Australia Top Stories",
-          "title": "NY governor slams handling of Cornell 'gang-rape' case",
+          "title": "New York says Cornell 'gang-rape' case now active criminal investigation",
           "url": "https://www.abc.net.au/news/2026-10-03/ny-governor-slams-handling-of-cornell-gang-rape-allegation/107224330",
           "published_at": "2026-10-02T20:12:41Z"
         }
@@ -7332,6 +7332,42 @@
           "title": "Labor's working holiday visa policy risks regional seats, experts say",
           "url": "https://www.abc.net.au/news/2026-10-03/labor-risks-seats-with-working-holiday-visa-policy/107222324",
           "published_at": "2026-10-02T23:08:36Z"
+        }
+      ]
+    },
+    {
+      "id": "d148056a9b849e1c",
+      "cluster_id": "c_132e8ae63566b2e2",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_132e8ae63566b2e2.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_132e8ae63566b2e2.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Dutch royal house helped slave trade to survive, study finds",
+          "url": "https://www.aljazeera.com/news/2026/10/2/dutch-royal-house-helped-slave-trade-to-survive-study-finds?traffic_source=rss",
+          "published_at": "2026-10-02T23:43:50Z"
+        }
+      ]
+    },
+    {
+      "id": "4ec33aeff8a6569b",
+      "cluster_id": "c_c4a378cf32ead3ab",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_c4a378cf32ead3ab.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_c4a378cf32ead3ab.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "\u2018We want action\u2019: Fijian climate activist sends message ahead of UN talks in Pacific",
+          "url": "https://www.theguardian.com/world/2026/oct/03/we-want-action-fijian-climate-activist-sends-message-ahead-of-un-talks-in-pacific",
+          "published_at": "2026-10-02T23:30:43Z"
         }
       ]
     }
