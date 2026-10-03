@@ -1,17 +1,17 @@
 {
-  "slot": "2026-10-03T04:45",
-  "at": "2026-10-03T04:46:31-10:00",
+  "slot": "2026-10-03T05:45",
+  "at": "2026-10-03T05:52:27-10:00",
   "image": "v3cam_current.jpg",
   "cam": "v3cam",
   "cam_title": "V3 Halemaʻumaʻu lava lake",
   "model": "gemma4:e4b",
   "activity": "glow",
   "fountaining": false,
-  "visible": "Lava glowing against a dark night sky",
+  "visible": "Lava flow is visible on the surface.",
   "fetched_live": false,
   "source_kind": "current",
   "reference": "lava-fountain-ref.jpg",
   "error": "",
-  "sentence": "Kilauea observation image was checked. Measured finding: glow at the vent on the V3 Halemaʻumaʻu lava lake still. Visible: Lava glowing against a dark night sky.",
+  "sentence": "Kilauea observation image was checked. Measured finding: glow at the vent on the V3 Halemaʻumaʻu lava lake still. Visible: Lava flow is visible on the surface..",
   "source": "USGS HVO webcam still + Gemma look (report-side)"
 }

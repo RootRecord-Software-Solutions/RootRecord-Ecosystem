@@ -10,7 +10,7 @@
   "timezone": "Pacific/Honolulu",
   "status": "assets_ready",
   "created_at": "2026-10-03T00:11:31-10:00",
-  "generated_at": "2026-10-03T00:25:11-10:00",
+  "generated_at": "2026-10-03T05:47:41-10:00",
   "published_at": "",
   "generator": "voice_build",
   "provider": "voice_build",
@@ -21,18 +21,19 @@
   "sections": [
     {
       "heading": "Report",
-      "text": "# Boot brief (morning) — 2026-10-03T00:25:11-10:00\n\n- Kind: morning\n- Boot: 2026-10-02T22:12-10:00 (up 132 min)\n- Host CPU 6%, memory 40% used\n- Batteries: Delta 2 36%, River 2 Pro 100%\n- NWS alerts: 0\n- Kilauea: WATCH / ORANGE erupting=True\n- Nearest storm: Hurricane Nolo 572 nm from Līhuʻe"
+      "text": "# Boot brief (morning) — 2026-10-03T05:47:23-10:00\n\n- Kind: morning\n- Boot: 2026-10-02T22:12-10:00 (up 455 min)\n- Host CPU 14%, memory 63% used\n- Batteries: River 2 Pro 77%\n- Delta 2 discharged and powered off. Last reading was 1 percent.\n- NWS alerts: 0\n- Kilauea: WATCH / ORANGE erupting=True\n- Nearest storm: Hurricane Nolo 659 nm from Līhuʻe"
     }
   ],
   "spoken": [
     "Boot report, morning edition.",
-    "Report generated at twelve twenty five a.m.",
-    "The Pacific desk came up at ten twelve p.m., about 2 hours ago.",
-    "Battery levels: Delta 2 at 36%, River 2 Pro at 100%.",
+    "Report generated at five forty seven a.m.",
+    "The Pacific desk came up at ten twelve p.m., about 8 hours ago.",
+    "Battery levels: River 2 Pro at 77%.",
+    "Delta 2 discharged and powered off. Last reading was 1 percent.",
     "0 active weather alerts.",
     "Kilauea alert level watch, erupting.",
-    "Hurricane Nolo is about 572 nautical miles from Līhuʻe.",
-    "CPU 6%, memory 40% used. End of boot report."
+    "Hurricane Nolo is about 659 nautical miles from Līhuʻe.",
+    "CPU 14%, memory 63% used. End of boot report."
   ],
   "owns": [],
   "assets": [

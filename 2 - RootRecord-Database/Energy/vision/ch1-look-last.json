@@ -1,0 +1,20 @@
+{
+  "hour": "2026-10-03T05",
+  "at": "2026-10-03T05:49:07-10:00",
+  "image": "ch1-20261003T154845Z.jpg",
+  "model": "gemma4:e4b",
+  "weather": "dark",
+  "position": "flat",
+  "phase": "",
+  "sunrise": "",
+  "sunset": "",
+  "error": "",
+  "blank": false,
+  "infrared": true,
+  "solar_w": null,
+  "late": false,
+  "low_light": false,
+  "warning": "",
+  "note": "",
+  "sentence": "Security camera observations indicate dark conditions, with solar panels in flat position."
+}
