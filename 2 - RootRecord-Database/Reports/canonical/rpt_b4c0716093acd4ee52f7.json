@@ -1,0 +1,90 @@
+{
+  "report_id": "rpt_b4c0716093acd4ee52f7",
+  "profile": "solar",
+  "slug": "solar_desk",
+  "topic": "energy",
+  "subtopic": "",
+  "scope": "site",
+  "window_start": "2026-10-03T00:00:00-10:00",
+  "window_end": "2026-10-03T01:00:00-10:00",
+  "timezone": "Pacific/Honolulu",
+  "status": "generated",
+  "created_at": "2026-10-03T00:13:36-10:00",
+  "generated_at": "2026-10-03T00:13:36-10:00",
+  "published_at": "",
+  "generator": "voice_build",
+  "provider": "voice_build",
+  "model": "template",
+  "generator_version": "1",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Report",
+      "text": "# Solar desk — 2026-10-03T00:13:36-10:00\n\n- Battery 68 percent across 2 live packs. solar input zero watts, AC out 39 watts, USB-C out 17 watts\n- Delta 2: state of charge 36%, solar input 0.0 W, AC out 39.0 W, USB-C out 17.0 W, reading is 45 minutes old\n- River 2 Pro: state of charge 100%, USB-C out 0.0 W, reading is 72 minutes old\n- Sun: n/a / n/a (n/a, Open-Meteo)\n- Solar panel still: not on file\n- delta2 hour 2026-10-03T09:00:00.000Z to 2026-10-03T10:00:00.000Z, soc avg 40.05 min 39.47 max 40.68, solar_w 0.0, ac_out_w 44.25, ac_in_w 0.0, usbc_w 22.5, output_w 66.0, produced_wh 0.0, spent_wh 0.0\n- river2pro hour 2026-10-03T09:00:00.000Z to 2026-10-03T10:00:00.000Z, soc avg 100.0 min 100.0 max 100.0, solar_w 0.0, ac_out_w 0.0, ac_in_w 0.0, usbc_w 0.0, produced_wh 0.0\n- delta2 day 2026-10-02T10:00:00.000Z to 2026-10-03T10:00:00.000Z, soc avg 40.95 min 39.47 max 42.59, solar_w 0.0, ac_out_w 47.25, ac_in_w 0.0, usbc_w 18.5, output_w 65.38, produced_wh 0.0, spent_wh 0.0\n- river2pro day 2026-10-02T10:00:00.000Z to 2026-10-03T10:00:00.000Z, soc avg 100.0 min 100.0 max 100.0, solar_w 0.0, ac_out_w 0.0, ac_in_w 0.0, usbc_w 0.0, produced_wh 0.0\n- delta2 week 2026-09-28T10:00:00.000Z to 2026-10-05T10:00:00.000Z, soc avg 40.95 min 39.47 max 42.59, solar_w 0.0, ac_out_w 47.25, ac_in_w 0.0, usbc_w 18.5, output_w 65.38, produced_wh 0.0, spent_wh 0.0\n- river2pro week 2026-09-28T10:00:00.000Z to 2026-10-05T10:00:00.000Z, soc avg 100.0 min 100.0 max 100.0, solar_w 0.0, ac_out_w 0.0, ac_in_w 0.0, usbc_w 0.0, produced_wh 0.0\n- delta2 month 2026-10-01T10:00:00.000Z to 2026-11-01T10:00:00.000Z, soc avg 40.95 min 39.47 max 42.59, solar_w 0.0, ac_out_w 47.25, ac_in_w 0.0, usbc_w 18.5, output_w 65.38, produced_wh 0.0, spent_wh 0.0\n- river2pro month 2026-10-01T10:00:00.000Z to 2026-11-01T10:00:00.000Z, soc avg 100.0 min 100.0 max 100.0, solar_w 0.0, ac_out_w 0.0, ac_in_w 0.0, usbc_w 0.0, produced_wh 0.0\n- delta2 year 2026-01-01T10:00:00.000Z to 2027-01-01T10:00:00.000Z, soc avg 40.95 min 39.47 max 42.59, solar_w 0.0, ac_out_w 47.25, ac_in_w 0.0, usbc_w 18.5, output_w 65.38, produced_wh 0.0, spent_wh 0.0\n- river2pro year 2026-01-01T10:00:00.000Z to 2027-01-01T10:00:00.000Z, soc avg 100.0 min 100.0 max 100.0, solar_w 0.0, ac_out_w 0.0, ac_in_w 0.0, usbc_w 0.0, produced_wh 0.0\n- Camera look: not on file"
+    }
+  ],
+  "spoken": [
+    "Solar desk.",
+    "Report generated at twelve thirteen a.m.",
+    "Battery 68 percent across 2 live packs. solar input zero watts, AC out 39 watts, USB-C out 17 watts.",
+    "Delta 2 is out of range.",
+    "River 2 Pro is out of range.",
+    "No solar panel still on file.",
+    "No solar panel camera look on file."
+  ],
+  "owns": [
+    "energy"
+  ],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/solar_desk_current.md",
+      "report_id": "rpt_b4c0716093acd4ee52f7"
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/solar_desk_current.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "failed",
+      "path": "",
+      "error": "busy",
+      "retry": 1
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "skipped",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "not_configured",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_b4c0716093acd4ee52f7",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "",
+    "file_mtime": "",
+    "window_from_file": false
+  }
+}

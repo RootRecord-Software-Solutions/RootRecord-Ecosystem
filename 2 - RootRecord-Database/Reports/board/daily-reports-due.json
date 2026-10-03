@@ -1,0 +1,40 @@
+{
+  "day": "2026-10-03",
+  "history": {},
+  "slots": {
+    "morning": {
+      "status": "pending",
+      "scheduled_at": "2026-10-03T09:00:00",
+      "hour": 9,
+      "minute": 0,
+      "mandatory": true,
+      "catch_up_allowed": true,
+      "completed_at": null,
+      "error": null,
+      "started_at": null
+    },
+    "midday": {
+      "status": "pending",
+      "scheduled_at": "2026-10-03T12:00:00",
+      "hour": 12,
+      "minute": 0,
+      "mandatory": true,
+      "catch_up_allowed": true,
+      "completed_at": null,
+      "error": null,
+      "started_at": null
+    },
+    "late": {
+      "status": "pending",
+      "scheduled_at": "2026-10-03T21:00:00",
+      "hour": 21,
+      "minute": 0,
+      "mandatory": false,
+      "catch_up_allowed": false,
+      "completed_at": null,
+      "error": null,
+      "started_at": null
+    }
+  },
+  "updated_at": "2026-10-03T00:13:37-10:00"
+}

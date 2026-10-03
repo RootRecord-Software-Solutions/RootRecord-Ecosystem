@@ -1,0 +1,92 @@
+{
+  "report_id": "rpt_5089c24c9a1850eda00a",
+  "profile": "kilauea",
+  "slug": "kilauea_report",
+  "topic": "geology",
+  "subtopic": "",
+  "scope": "hawaii",
+  "window_start": "2026-10-03T00:00:00-10:00",
+  "window_end": "2026-10-03T01:00:00-10:00",
+  "timezone": "Pacific/Honolulu",
+  "status": "generated",
+  "created_at": "2026-10-03T00:13:38-10:00",
+  "generated_at": "2026-10-03T00:13:38-10:00",
+  "published_at": "",
+  "generator": "voice_build",
+  "provider": "voice_build",
+  "model": "template",
+  "generator_version": "1",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Report",
+      "text": "# Kilauea report — 2026-10-03T00:13:38-10:00\n\n- **Kīlauea:** WATCH / ORANGE — erupting `True` — WATCH — elevated unrest\n- **Latest notice used:** Volcano Activity Notification (2026-09-29 17:54:03 UTC) https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-29T16:38:42+00:00\n- **Mauna Loa:** NORMAL / GREEN\n- **Quakes ≤150 km of Kīlauea (M≥1, 24 h):** 20\n- **Photo:** Photo viewed: yes. Conditions: not recorded.\n- **Collected:** 2026-10-03T00:09:41-10:00 (USGS HANS)"
+    }
+  ],
+  "spoken": [
+    "Kilauea report.",
+    "Report generated at twelve thirteen a.m.",
+    "Alert level watch, aviation color code orange.",
+    "The volcano is erupting.",
+    "Photo viewed: yes. Conditions: not recorded.",
+    "Here is the latest observatory notice.",
+    "The Halemaʻumaʻu eruption of Kīlauea volcano is currently erupting small overflows from both the north and south vents. It is not possible to forecast the onset of episode 55 fountains or if they will occur.",
+    "United States Geological Survey: 20 earthquakes magnitude 1 or greater within 150 kilometers in the last 24 hours.",
+    "Mauna Loa alert level: normal."
+  ],
+  "owns": [
+    "volcano"
+  ],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/kilauea_report_current.md",
+      "report_id": "rpt_5089c24c9a1850eda00a"
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/kilauea_report_current.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "failed",
+      "path": "",
+      "error": "busy",
+      "retry": 1
+    },
+    "image": {
+      "status": "skipped",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "skipped",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "not_configured",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_5089c24c9a1850eda00a",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "",
+    "file_mtime": "",
+    "window_from_file": false
+  }
+}
