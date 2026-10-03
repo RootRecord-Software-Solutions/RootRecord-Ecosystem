@@ -111,6 +111,16 @@
       "publication": "not_configured"
     },
     {
+      "report_id": "rpt_e90a2e42b3d9a3d15583",
+      "id": "kilauea_image_check",
+      "file": "kilauea_image_check_current.wav",
+      "window_start": "2026-10-02T16:30:00-10:00",
+      "window_end": "2026-10-02T16:45:00-10:00",
+      "priority": 0,
+      "status": "assets_ready",
+      "publication": "not_configured"
+    },
+    {
       "report_id": "rpt_f412b2af7bb582aff675",
       "id": "security_desk",
       "file": "security_desk_current.wav",
