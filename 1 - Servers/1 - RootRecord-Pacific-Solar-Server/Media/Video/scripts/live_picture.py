@@ -200,16 +200,18 @@ def _pair(draw: ImageDraw.ImageDraw, left: int, right: int, y: int, name: str, v
 # What it does: Draw a charge ring and its percent.
 # Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
 # ====================================================
-def _gauge(draw: ImageDraw.ImageDraw, cx: int, cy: int, pct: float | None, label: str) -> None:  # info: def _gauge
+def _gauge(draw: ImageDraw.ImageDraw, cx: int, cy: int, pct: float | None, label: str, tag: str = "live") -> None:  # info: def _gauge
     radius = 78  # info: set radius
     box = (cx - radius, cy - radius, cx + radius, cy + radius)  # info: set box
     draw.arc(box, 0, 360, fill=(255, 255, 255, 55), width=16)  # info: draw track
-    if pct is not None:  # info: if pct is not None
+    if tag == "off":  # info: discharged quiet pack
+        _center(draw, cx, cy - 4, "OFF", 36, (255, 140, 90, 255), True)  # info: off
+    elif tag == "wait" or pct is None:  # info: no live BLE
+        _center(draw, cx, cy - 4, "WAIT", 36, (255, 210, 90, 255), True)  # info: waiting
+    else:  # info: else live percent
         sweep = max(0.0, min(100.0, pct)) * 3.6  # info: set sweep
         draw.arc(box, -90, -90 + sweep, fill=(0, 229, 255, 255), width=16)  # info: draw sweep
         _center(draw, cx, cy - 4, f"{round(pct)}%", 40, (236, 246, 255, 255), True)  # info: percent
-    else:  # info: else
-        _center(draw, cx, cy - 4, "—", 40, (236, 246, 255, 255), True)  # info: missing
     _center(draw, cx, cy + radius + 32, label, 28, (190, 225, 238, 255), True)  # info: label
 
 
@@ -271,22 +273,21 @@ def _ble_pack(alias: str) -> dict:  # info: def _ble_pack
         fields = merged  # info: set fields
     elif not _ble_complete(fields) and _ble_complete(merged):  # info: fall back when sample was sparse
         fields = merged  # info: set fields
+    age_paths = [ENERGY / "soc" / f"{alias}_current.json", ENERGY / "watts" / f"{alias}_current.json"]  # info: set age_paths
+    ages = [time.time() - p.stat().st_mtime for p in age_paths if p.is_file()]  # info: set ages
+    age = min(ages) if ages else 1e12  # info: set age
     if _ble_complete(fields):  # info: live BLE won
-        # Reject quiet/discharged or ancient BLE so the still does not show a dead pack as live.
-        age_paths = [ENERGY / "soc" / f"{alias}_current.json", ENERGY / "watts" / f"{alias}_current.json"]  # info: set age_paths
-        ages = [time.time() - p.stat().st_mtime for p in age_paths if p.is_file()]  # info: set ages
-        age = min(ages) if ages else 1e12  # info: set age
         try:  # info: try
             soc_f = float(fields.get("soc"))  # info: set soc_f
         except (TypeError, ValueError):  # info: except
             soc_f = None  # info: set soc_f
         if soc_f is not None and soc_f <= 5.0 and age > 30 * 60:  # info: discharged + quiet
-            return {"soc": {}, "watts": {}}  # info: blank gauge
+            return {"soc": {}, "watts": {}, "tag": "off"}  # info: OFF on the ring
         if age > 180:  # info: older than the 3-minute live hold
-            return {"soc": {}, "watts": {}}  # info: blank — do not paint stale BLE
-        return {"soc": {"soc": fields.get("soc")}, "watts": fields}  # info: return pack
-    # Cloud is not a live reading (Alexander 2026-10-03). Blank beats a false board.
-    return {"soc": {}, "watts": {}}  # info: return empty
+            return {"soc": {}, "watts": {}, "tag": "wait"}  # info: WAIT — not a live board
+        return {"soc": {"soc": fields.get("soc")}, "watts": fields, "tag": "live"}  # info: return pack
+    # Cloud is not a live reading (Alexander 2026-10-03). WAIT beats a false board.
+    return {"soc": {}, "watts": {}, "tag": "wait"}  # info: return wait
 
 
 # ====================================================
@@ -415,17 +416,25 @@ def render(state: dict | None, ops: dict | None, hawaii: dict, world: dict, when
     _center(draw, 328, 230, now.strftime("%d %b %Y") + "  HST", 32, (190, 225, 238, 255))  # info: date
     _card(draw, (652, 16, 1268, 322))  # info: battery card above the title
     _text(draw, (680, 32), "BATTERY BANK", 26, (0, 229, 255, 255), True)  # info: battery title
-    _gauge(draw, 820, 168, _soc(river), "River")  # info: river gauge
-    _gauge(draw, 1100, 168, _soc(delta), "Delta")  # info: delta gauge
+    _gauge(draw, 820, 168, _soc(river), "River", str((river or {}).get("tag") or "wait"))  # info: river gauge
+    _gauge(draw, 1100, 168, _soc(delta), "Delta", str((delta or {}).get("tag") or "wait"))  # info: delta gauge
     _card(draw, (1284, 16, 1900, 322))  # info: watts card above the title
     _text(draw, (1312, 32), "TOTALS NOW", 26, (0, 229, 255, 255), True)  # info: totals title
+    def _row(pack: dict, key: str) -> str:  # info: def _row
+        tag = str((pack or {}).get("tag") or "wait")  # info: set tag
+        if tag == "off":  # info: if tag == "off"
+            return "off"  # info: return off
+        if tag != "live":  # info: if tag != "live"
+            return "WAIT"  # info: return WAIT
+        return _watts(pack, key)  # info: return _watts
+
     rows = [  # info: set rows
-        ("River solar", _watts(river, "solar_input_power")),  # info: river solar
-        ("Delta solar", _watts(delta, "solar_input_power")),  # info: delta solar
-        ("River AC out", _watts(river, "ac_output_power")),  # info: river ac
-        ("Delta AC out", _watts(delta, "ac_output_power")),  # info: delta ac
-        ("River USB-C", _watts(river, "usbc_output_power")),  # info: river usb
-        ("Delta USB-C", _watts(delta, "usbc_output_power")),  # info: delta usb
+        ("River solar", _row(river, "solar_input_power")),  # info: river solar
+        ("Delta solar", _row(delta, "solar_input_power")),  # info: delta solar
+        ("River AC out", _row(river, "ac_output_power")),  # info: river ac
+        ("Delta AC out", _row(delta, "ac_output_power")),  # info: delta ac
+        ("River USB-C", _row(river, "usbc_output_power")),  # info: river usb
+        ("Delta USB-C", _row(delta, "usbc_output_power")),  # info: delta usb
     ]  # info: ]
     y = 78  # info: set y
     for name, value in rows:  # info: for name , value
