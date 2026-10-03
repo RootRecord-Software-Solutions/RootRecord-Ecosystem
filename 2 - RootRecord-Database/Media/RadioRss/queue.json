@@ -7496,6 +7496,24 @@
           "published_at": "2026-10-02T23:16:03Z"
         }
       ]
+    },
+    {
+      "id": "c2ca9622e08d60b9",
+      "cluster_id": "c_d5ba5847ba19f06a",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_d5ba5847ba19f06a.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_d5ba5847ba19f06a.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "Pint-sized gains: the Australian brewers crafting refreshingly sustainable beers",
+          "url": "https://www.theguardian.com/australia-news/2026/oct/03/australian-beer-sustainable-environment-breweries",
+          "published_at": "2026-10-03T00:00:44Z"
+        }
+      ]
     }
   ]
 }
