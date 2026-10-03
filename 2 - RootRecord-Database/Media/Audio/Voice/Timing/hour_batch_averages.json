@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-03T00:28:30-10:00",
+  "at": "2026-10-03T00:29:56-10:00",
   "runs": 1,
   "cushion_minutes": 3.0,
   "wall_seconds": {
@@ -27,5 +27,7 @@
     "system_perf": 15.3
   },
   "suggested_lead_minutes_before_55": 12,
-  "suggested_start_minute": 43
+  "suggested_start_minute": 43,
+  "scheduled_at_minute": 42,
+  "schedule_reason": "keep_base_extra_cushion"
 }
