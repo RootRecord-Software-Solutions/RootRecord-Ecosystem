@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-03T04:34:18-10:00",
+  "at": "2026-10-03T04:24:27-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii_current ids",
-  "count": 36,
-  "count_m2": 36,
-  "count_m25": 36,
+  "count": 38,
+  "count_m2": 38,
+  "count_m25": 38,
   "largest": {
     "id": "us6000tz62",
     "mag": 5.8,
@@ -14,8 +14,24 @@
     "time_hst": "2026-10-02T06:34:41.010000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-03T14:33:19+00:00",
+  "usgs_generated_utc": "2026-10-03T14:24:19+00:00",
   "events": [
+    {
+      "id": "uu80158431",
+      "mag": 3.04,
+      "mag_type": "ml",
+      "place": "4 km SSE of Ursine, Nevada",
+      "time_utc": "2026-10-03T13:58:36.410000+00:00",
+      "time_hst": "2026-10-03T03:58:36.410000-10:00",
+      "lon": -114.204330444336,
+      "lat": 37.9443321228027,
+      "depth_km": 0.400000005960464,
+      "status": "automatic",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80158431",
+      "nearest": null
+    },
     {
       "id": "nn00925220",
       "mag": 2.65,
@@ -651,6 +667,22 @@
         "admin1_code": null,
         "km": 163.7
       }
+    },
+    {
+      "id": "aka2026tnfazg",
+      "mag": 2.5,
+      "mag_type": "ml",
+      "place": "65 km ESE of Denali National Park, Alaska",
+      "time_utc": "2026-10-02T14:31:03.936000+00:00",
+      "time_hst": "2026-10-02T04:31:03.936000-10:00",
+      "lon": -150.553,
+      "lat": 63.275,
+      "depth_km": 135,
+      "status": "automatic",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tnfazg",
+      "nearest": null
     }
   ]
 }
