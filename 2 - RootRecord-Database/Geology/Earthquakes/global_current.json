@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-03T07:48:41-10:00",
+  "at": "2026-10-03T07:58:32-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii_current ids",
-  "count": 37,
-  "count_m2": 37,
-  "count_m25": 37,
+  "count": 38,
+  "count_m2": 38,
+  "count_m25": 38,
   "largest": {
     "id": "us6000tz8c",
     "mag": 5.1,
@@ -14,8 +14,24 @@
     "time_hst": "2026-10-02T10:27:27.120000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-03T17:48:19+00:00",
+  "usgs_generated_utc": "2026-10-03T17:58:19+00:00",
   "events": [
+    {
+      "id": "us6000tzdj",
+      "mag": 4.6,
+      "mag_type": "mb",
+      "place": "76 km NNE of Lae, Papua New Guinea",
+      "time_utc": "2026-10-03T17:24:12.545000+00:00",
+      "time_hst": "2026-10-03T07:24:12.545000-10:00",
+      "lon": 147.1678,
+      "lat": -6.0496,
+      "depth_km": 81.86,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzdj",
+      "nearest": null
+    },
     {
       "id": "aka2026tpgsir",
       "mag": 2.8,

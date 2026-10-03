@@ -22,12 +22,12 @@
       "encode": {
         "ok": true,
         "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/boot_brief_current.ogg",
-        "bytes": 71075
+        "bytes": 68829
       },
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/boot_brief_current.wav",
       "ok": true,
       "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/boot_brief_current.ogg",
-      "seconds": 27.2
+      "seconds": 14.1
     },
     {
       "report": "nws_weather",
@@ -47,12 +47,12 @@
       "encode": {
         "ok": true,
         "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/nws_weather_current.ogg",
-        "bytes": 204314
+        "bytes": 203917
       },
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/nws_weather_current.wav",
       "ok": true,
       "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/nws_weather_current.ogg",
-      "seconds": 29.4
+      "seconds": 30.1
     },
     {
       "report": "current_report",
@@ -72,12 +72,12 @@
       "encode": {
         "ok": true,
         "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/current_report_current.ogg",
-        "bytes": 181640
+        "bytes": 184185
       },
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/current_report_current.wav",
       "ok": true,
       "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/current_report_current.ogg",
-      "seconds": 27.0
+      "seconds": 29.6
     },
     {
       "report": "solar_desk",
@@ -97,12 +97,12 @@
       "encode": {
         "ok": true,
         "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/solar_desk_current.ogg",
-        "bytes": 63620
+        "bytes": 63982
       },
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/solar_desk_current.wav",
       "ok": true,
       "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/solar_desk_current.ogg",
-      "seconds": 133.9
+      "seconds": 89.7
     },
     {
       "report": "remaining_tasks",
@@ -122,12 +122,12 @@
       "encode": {
         "ok": true,
         "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/remaining_tasks_current.ogg",
-        "bytes": 51092
+        "bytes": 51784
       },
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/remaining_tasks_current.wav",
       "ok": true,
       "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/remaining_tasks_current.ogg",
-      "seconds": 13.3
+      "seconds": 11.6
     },
     {
       "report": "system_perf",
@@ -146,12 +146,12 @@
       "encode": {
         "ok": true,
         "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/system_perf_current.ogg",
-        "bytes": 82931
+        "bytes": 83327
       },
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/system_perf_current.wav",
       "ok": true,
       "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/system_perf_current.ogg",
-      "seconds": 15.1
+      "seconds": 17.6
     },
     {
       "report": "custom_msg",
@@ -160,7 +160,7 @@
       "generate": {
         "ok": true,
         "rc": 0,
-        "sentences": 6,
+        "sentences": 10,
         "voice": {
           "ok": true,
           "rc": 0,
@@ -171,12 +171,12 @@
       "encode": {
         "ok": true,
         "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/custom_msg_current.ogg",
-        "bytes": 42145
+        "bytes": 429413
       },
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/custom_msg_current.wav",
       "ok": true,
       "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/custom_msg_current.ogg",
-      "seconds": 9.9
+      "seconds": 53.4
     },
     {
       "report": "earthquake_report",
@@ -185,7 +185,7 @@
       "generate": {
         "ok": true,
         "rc": 0,
-        "sentences": 13,
+        "sentences": 7,
         "voice": {
           "ok": true,
           "rc": 0,
@@ -196,12 +196,12 @@
       "encode": {
         "ok": true,
         "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/earthquake_report_current.ogg",
-        "bytes": 154254
+        "bytes": 69128
       },
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/earthquake_report_current.wav",
       "ok": true,
       "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/earthquake_report_current.ogg",
-      "seconds": 22.5
+      "seconds": 14.2
     },
     {
       "report": "hurricane_desk",
@@ -221,12 +221,12 @@
       "encode": {
         "ok": true,
         "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/hurricane_desk_current.ogg",
-        "bytes": 62250
+        "bytes": 64058
       },
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/hurricane_desk_current.wav",
       "ok": true,
       "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/hurricane_desk_current.ogg",
-      "seconds": 12.2
+      "seconds": 13.9
     },
     {
       "report": "kilauea_image_check",
@@ -246,12 +246,12 @@
       "encode": {
         "ok": true,
         "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/kilauea_image_check_current.ogg",
-        "bytes": 35955
+        "bytes": 36113
       },
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/kilauea_image_check_current.wav",
       "ok": true,
       "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/kilauea_image_check_current.ogg",
-      "seconds": 118.8
+      "seconds": 131.7
     },
     {
       "report": "kilauea_report",
@@ -271,12 +271,12 @@
       "encode": {
         "ok": true,
         "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/kilauea_report_current.ogg",
-        "bytes": 102268
+        "bytes": 103230
       },
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/kilauea_report_current.wav",
       "ok": true,
       "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/kilauea_report_current.ogg",
-      "seconds": 18.4
+      "seconds": 17.9
     },
     {
       "report": "security_desk",
@@ -296,12 +296,12 @@
       "encode": {
         "ok": true,
         "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/security_desk_current.ogg",
-        "bytes": 54810
+        "bytes": 52248
       },
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/security_desk_current.wav",
       "ok": true,
       "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/security_desk_current.ogg",
-      "seconds": 12.7
+      "seconds": 12.5
     },
     {
       "report": "bandwidth_desk",
@@ -321,19 +321,19 @@
       "encode": {
         "ok": true,
         "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/bandwidth_desk_current.ogg",
-        "bytes": 57504
+        "bytes": 58418
       },
       "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/bandwidth_desk_current.wav",
       "ok": true,
       "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/bandwidth_desk_current.ogg",
-      "seconds": 12.9
+      "seconds": 13.2
     }
   ],
   "combined": {
     "ok": true,
     "report": "report",
     "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/report_current.wav",
-    "bytes": 67969036,
+    "bytes": 23673950,
     "parts": [
       "boot_brief",
       "nws_weather",
@@ -347,14 +347,13 @@
       "kilauea_image_check",
       "kilauea_report",
       "security_desk",
-      "bandwidth_desk",
-      "news_update"
+      "bandwidth_desk"
     ],
-    "news": true,
+    "news": false,
     "encode": {
       "ok": true,
       "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/report_current.ogg",
-      "bytes": 4257000
+      "bytes": 1475768
     },
     "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/report_current.ogg"
   },
@@ -362,7 +361,7 @@
     "ok": true,
     "report": "report",
     "file": "report_current.opus",
-    "bytes": 4257000,
+    "bytes": 1475768,
     "mode": "remote",
     "stage": {
       "ok": true,
@@ -380,7 +379,7 @@
   },
   "cleanup": {
     "ok": true,
-    "deleted": 43,
+    "deleted": 36,
     "paths": [
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/system_perf_current.wav",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/hurricane_desk_current.wav",
@@ -392,7 +391,6 @@
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/bandwidth_desk_current.wav",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/current_report_current.read.txt",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/custom_msg_current.wav",
-      "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/news_update_current.wav",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/kilauea_image_check_current.wav",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/nws_weather_current.wav",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/kilauea_report_current.wav",
@@ -402,25 +400,19 @@
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/hurricane_desk_current.speak.txt",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/kilauea_report_current.read.txt",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/kilauea_report_current.speak.txt",
-      "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/nws_weather_current.read.txt",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/bandwidth_desk_current.read.txt",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/system_perf_current.read.txt",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/security_desk_current.read.txt",
-      "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/nws_weather_current.speak.txt",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/remaining_tasks_current.read.txt",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/bandwidth_desk_current.speak.txt",
-      "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/boot_brief_current.speak.txt",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/kilauea_image_check_current.read.txt",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/kilauea_image_check_current.speak.txt",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/custom_msg_current.speak.txt",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/solar_desk_current.speak.txt",
-      "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/boot_brief_current.read.txt",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/earthquake_report_current.speak.txt",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/hurricane_desk_current.read.txt",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/solar_desk_current.read.txt",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/system_perf_current.speak.txt",
-      "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/news_update_current.read.txt",
-      "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/news_update_current.speak.txt",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/earthquake_report_current.read.txt",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/security_desk_current.speak.txt",
       "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/custom_msg_current.read.txt",
@@ -430,105 +422,105 @@
   },
   "archive": {
     "ok": true,
-    "stamp": "20261003T072225",
-    "zip": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Archive/audio_reports_20261003T072225.zip",
-    "bytes": 5367755,
+    "stamp": "20261003T075116",
+    "zip": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Archive/audio_reports_20261003T075116.zip",
+    "bytes": 2910039,
     "count": 14,
     "archived": [
-      "boot_brief_20261003T072225.ogg",
-      "nws_weather_20261003T072225.ogg",
-      "current_report_20261003T072225.ogg",
-      "solar_desk_20261003T072225.ogg",
-      "remaining_tasks_20261003T072225.ogg",
-      "system_perf_20261003T072225.ogg",
-      "custom_msg_20261003T072225.ogg",
-      "earthquake_report_20261003T072225.ogg",
-      "hurricane_desk_20261003T072225.ogg",
-      "kilauea_image_check_20261003T072225.ogg",
-      "kilauea_report_20261003T072225.ogg",
-      "security_desk_20261003T072225.ogg",
-      "bandwidth_desk_20261003T072225.ogg",
-      "report_20261003T072225.ogg"
+      "boot_brief_20261003T075116.ogg",
+      "nws_weather_20261003T075116.ogg",
+      "current_report_20261003T075116.ogg",
+      "solar_desk_20261003T075116.ogg",
+      "remaining_tasks_20261003T075116.ogg",
+      "system_perf_20261003T075116.ogg",
+      "custom_msg_20261003T075116.ogg",
+      "earthquake_report_20261003T075116.ogg",
+      "hurricane_desk_20261003T075116.ogg",
+      "kilauea_image_check_20261003T075116.ogg",
+      "kilauea_report_20261003T075116.ogg",
+      "security_desk_20261003T075116.ogg",
+      "bandwidth_desk_20261003T075116.ogg",
+      "report_20261003T075116.ogg"
     ],
     "missing": [],
     "errors": []
   },
-  "wall_seconds": 496.8,
+  "wall_seconds": 470.6,
   "timing": {
-    "at": "2026-10-03T07:22:25-10:00",
+    "at": "2026-10-03T07:51:16-10:00",
     "ok": true,
-    "wall_seconds": 496.8,
+    "wall_seconds": 470.6,
     "passed": 13,
     "failed": 0,
     "count": 13,
     "full_batch": true,
     "per_report_seconds": {
-      "boot_brief": 27.2,
-      "nws_weather": 29.4,
-      "current_report": 27.0,
-      "solar_desk": 133.9,
-      "remaining_tasks": 13.3,
-      "system_perf": 15.1,
-      "custom_msg": 9.9,
-      "earthquake_report": 22.5,
-      "hurricane_desk": 12.2,
-      "kilauea_image_check": 118.8,
-      "kilauea_report": 18.4,
-      "security_desk": 12.7,
-      "bandwidth_desk": 12.9
+      "boot_brief": 14.1,
+      "nws_weather": 30.1,
+      "current_report": 29.6,
+      "solar_desk": 89.7,
+      "remaining_tasks": 11.6,
+      "system_perf": 17.6,
+      "custom_msg": 53.4,
+      "earthquake_report": 14.2,
+      "hurricane_desk": 13.9,
+      "kilauea_image_check": 131.7,
+      "kilauea_report": 17.9,
+      "security_desk": 12.5,
+      "bandwidth_desk": 13.2
     },
     "averages": {
-      "at": "2026-10-03T07:22:25-10:00",
-      "runs": 3,
+      "at": "2026-10-03T07:51:16-10:00",
+      "runs": 4,
       "cushion_minutes": 3.0,
-      "base_start_minute": 42,
+      "base_start_minute": 36,
       "push_minute": 55,
       "total": {
         "seconds": {
-          "avg": 499.8,
-          "median": 496.8,
-          "p95": 514.6,
-          "min": 486.0,
+          "avg": 492.5,
+          "median": 491.4,
+          "p95": 513.6,
+          "min": 470.6,
           "max": 516.6,
-          "last": 496.8
+          "last": 470.6
         },
         "minutes": {
-          "avg": 8.33,
-          "median": 8.28,
-          "p95": 8.58,
-          "min": 8.1,
+          "avg": 8.21,
+          "median": 8.19,
+          "p95": 8.56,
+          "min": 7.84,
           "max": 8.61,
-          "last": 8.28
+          "last": 7.84
         }
       },
       "wall_seconds": {
-        "avg": 499.8,
-        "median": 496.8,
-        "p95": 514.6,
-        "min": 486.0,
+        "avg": 492.5,
+        "median": 491.4,
+        "p95": 513.6,
+        "min": 470.6,
         "max": 516.6,
-        "last": 496.8
+        "last": 470.6
       },
       "per_report_avg_seconds": {
-        "bandwidth_desk": 11.7,
-        "boot_brief": 30.0,
-        "current_report": 44.0,
-        "custom_msg": 10.2,
-        "earthquake_report": 23.0,
+        "bandwidth_desk": 12.1,
+        "boot_brief": 26.0,
+        "current_report": 40.4,
+        "custom_msg": 24.6,
+        "earthquake_report": 20.8,
         "hourly_chime": 5.8,
-        "hurricane_desk": 13.1,
-        "kilauea_image_check": 119.4,
-        "kilauea_report": 20.0,
-        "nws_weather": 31.2,
+        "hurricane_desk": 13.3,
+        "kilauea_image_check": 122.5,
+        "kilauea_report": 19.4,
+        "nws_weather": 30.9,
         "official_weather": 156.0,
-        "remaining_tasks": 12.0,
+        "remaining_tasks": 11.9,
         "security_desk": 12.2,
-        "solar_desk": 80.2,
-        "system_perf": 15.4
+        "solar_desk": 82.6,
+        "system_perf": 16.0
       },
       "suggested_lead_minutes_before_55": 12,
       "suggested_start_minute": 43,
-      "scheduled_at_minute": 42,
+      "scheduled_at_minute": 36,
       "schedule_reason": "keep_base_extra_cushion"
     },
     "paths": {
@@ -537,20 +529,20 @@
     }
   },
   "schedule": {
-    "at": "2026-10-03T07:22:25-10:00",
+    "at": "2026-10-03T07:51:16-10:00",
     "job_id": "voice_hour_batch",
-    "at_minute": 42,
+    "at_minute": 36,
     "at_second": 0,
     "push_minute": 55,
-    "base_start_minute": 42,
+    "base_start_minute": 36,
     "suggested_start_minute": 43,
-    "lead_minutes_before_push": 13,
+    "lead_minutes_before_push": 19,
     "reason": "keep_base_extra_cushion",
-    "averages_runs": 3,
-    "total_avg_seconds": 499.8,
-    "total_p95_seconds": 514.6,
-    "total_avg_minutes": 8.33,
-    "total_p95_minutes": 8.58,
+    "averages_runs": 4,
+    "total_avg_seconds": 492.5,
+    "total_p95_seconds": 513.6,
+    "total_avg_minutes": 8.21,
+    "total_p95_minutes": 8.56,
     "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Timing/hour_batch_schedule.json"
   }
 }

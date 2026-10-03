@@ -1,1 +1,0 @@
-System performance report. Report generated at seven forty six a.m.. CPU 10%. Memory 58% used, 8.2 of 14.2 gigabytes. Disk 46% used. Host battery 100%, on AC. Uptime 9 hours 34 minutes. Root server was last online at seven forty six a.m.. Host power mode is balanced. End of system report.
