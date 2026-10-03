@@ -91,6 +91,16 @@
       "publication": "not_configured"
     },
     {
+      "report_id": "rpt_e2d803ce1a3163f0c9aa",
+      "id": "custom_msg",
+      "file": "custom_msg_current.wav",
+      "window_start": "2026-10-03T00:00:00-10:00",
+      "window_end": "2026-10-03T01:00:00-10:00",
+      "priority": 0,
+      "status": "assets_ready",
+      "publication": "not_configured"
+    },
+    {
       "report_id": "rpt_f3f24315d397bce6522a",
       "id": "security_desk",
       "file": "security_desk_current.wav",

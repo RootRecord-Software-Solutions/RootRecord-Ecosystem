@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-03T00:30:14-10:00",
+  "at": "2026-10-03T00:47:46-10:00",
   "runs": 1,
   "cushion_minutes": 3.0,
   "base_start_minute": 42,
@@ -11,7 +11,7 @@
       "p95": 516.6,
       "min": 516.6,
       "max": 516.6,
-      "last": 516.6
+      "last": 10.2
     },
     "minutes": {
       "avg": 8.61,
@@ -19,7 +19,7 @@
       "p95": 8.61,
       "min": 8.61,
       "max": 8.61,
-      "last": 8.61
+      "last": 0.17
     }
   },
   "wall_seconds": {
@@ -28,7 +28,7 @@
     "p95": 516.6,
     "min": 516.6,
     "max": 516.6,
-    "last": 516.6
+    "last": 10.2
   },
   "per_report_avg_seconds": {
     "bandwidth_desk": 9.7,
