@@ -280,3 +280,11 @@
 2026-10-03T02:56:35-1000 delta2-ac-force: no-op ble_ac_already_on ble_age=19s ac_out=38.0 sight_age=0s
 2026-10-03T02:57:21-1000 delta2-ac-force: no-op ble_ac_already_on ble_age=33s ac_out=63.0 sight_age=6s
 2026-10-03T02:58:06-1000 delta2-ac-force: no-op ble_ac_already_on ble_age=38s ac_out=48.0 sight_age=12s
+2026-10-03T02:58:53-1000 delta2-ac-force: no-op ble_ac_already_on ble_age=16s ac_out=53.0 sight_age=18s
+2026-10-03T02:59:38-1000 delta2-ac-force: no-op ble_ac_already_on ble_age=0s ac_out=47.0 sight_age=3s
+2026-10-03T03:00:23-1000 delta2-ac-force: no-op ble_ac_already_on ble_age=46s ac_out=47.0 sight_age=48s
+2026-10-03T03:01:09-1000 delta2-ac-force: no-op ble_ac_already_on ble_age=91s ac_out=47.0 sight_age=39s
+2026-10-03T03:01:54-1000 delta2-ac-force: no-op ble_ac_already_on ble_age=136s ac_out=47.0 sight_age=5s
+2026-10-03T03:02:39-1000 delta2-ac-force: no-op out_of_range sight=0 sight_age=8s ble_age=181s ac_ports=true detail=not_seen
+2026-10-03T03:03:24-1000 delta2-ac-force: no-op out_of_range sight=0 sight_age=14s ble_age=227s ac_ports=true detail=not_seen
+2026-10-03T03:04:09-1000 delta2-ac-force: no-op out_of_range sight=0 sight_age=0s ble_age=272s ac_ports=true detail=not_seen
