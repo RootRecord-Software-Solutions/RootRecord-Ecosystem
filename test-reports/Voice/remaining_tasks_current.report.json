@@ -1,0 +1,95 @@
+{
+  "report_id": "rpt_9b617087f03c25162c08",
+  "profile": "remaining-tasks",
+  "slug": "remaining_tasks",
+  "topic": "operations",
+  "subtopic": "",
+  "scope": "desk",
+  "window_start": "2026-10-02T15:00:00-10:00",
+  "window_end": "2026-10-02T16:00:00-10:00",
+  "timezone": "Pacific/Honolulu",
+  "status": "assets_ready",
+  "created_at": "2026-10-02T15:51:51-10:00",
+  "generated_at": "2026-10-02T15:51:51-10:00",
+  "published_at": "",
+  "generator": "voice_build",
+  "provider": "voice_build",
+  "model": "template",
+  "generator_version": "1",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Report",
+      "text": "# Remaining tasks — 2026-10-02T15:51:40-10:00\n\nAutomated Reports are in active development and is expected to change\n\nSource: open work orders.\n\n- WO-GH: 4 open\n- WO-ECO: 2 open\n- WO-OLD: 2 open"
+    }
+  ],
+  "spoken": [
+    "Remaining tasks.",
+    "Report generated at three fifty one p.m.",
+    "Automated Reports are in active development and is expected to change.",
+    "8 open work order items.",
+    "WO-GH, 4 open.",
+    "WO-ECO, 2 open.",
+    "WO-OLD, 2 open."
+  ],
+  "owns": [
+    "tasks"
+  ],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/remaining_tasks_current.md",
+      "report_id": "rpt_9b617087f03c25162c08"
+    },
+    {
+      "kind": "audio",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/remaining_tasks_current.wav",
+      "report_id": "rpt_9b617087f03c25162c08"
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/remaining_tasks_current.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/remaining_tasks_current.wav",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "skipped",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "skipped",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "not_configured",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_9b617087f03c25162c08",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "",
+    "file_mtime": "",
+    "window_from_file": false
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "report_id": "rpt_c8359ea2c65d3bfbdaf0",
+  "profile": "earthquake",
+  "slug": "earthquake_report",
+  "topic": "geology",
+  "subtopic": "",
+  "scope": "hawaii",
+  "window_start": "2026-10-02T15:00:00-10:00",
+  "window_end": "2026-10-02T16:00:00-10:00",
+  "timezone": "Pacific/Honolulu",
+  "status": "assets_ready",
+  "created_at": "2026-10-02T15:52:15-10:00",
+  "generated_at": "2026-10-02T15:52:15-10:00",
+  "published_at": "",
+  "generator": "voice_build",
+  "provider": "voice_build",
+  "model": "template",
+  "generator_version": "1",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Report",
+      "text": "# Earthquake report — 2026-10-02T15:51:51-10:00\n\n## Hawaii Changes Since Last Report\n- M1.77 about 12 km S of Leilani Estates, Hawaii (2026-10-02T15:18:09.150000-10:00)\n\n## Hawaii 24-Hour M2.5+ Summary\n- 1 earthquakes; largest M3.49.\n- 24h change: n/a percent. 7d change: n/a percent.\n- Source: `https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&starttime=2026-10-02T01%3A46%3A14&minmagnitude=1.0&minlatitude=18.5&maxlatitude=22.5&minlongitude=-160.5&maxlongitude=-154.5` (collected 2026-10-02T15:46:14-10:00)\n\n## Global Changes Since Last Report\n- M4.1 about 34 km S of Adak, Alaska (2026-10-02T15:03:12.099000-10:00)\n- M4.8 about 121 km SSE of Vilyuchinsk, Russia (2026-10-02T14:01:38.784000-10:00)\n- M4.6 about 174 km SSE of Vilyuchinsk, Russia (2026-10-02T13:59:26.824000-10:00)\n- M4.7 about 153 km SSE of Vilyuchinsk, Russia (2026-10-02T13:54:13.503000-10:00)\n\n## Global 24-Hour M2.5+ Summary\n- 34 earthquakes; largest M5.8.\n- 24h change: n/a percent. 7d change: n/a percent.\n- Source: `https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson` (collected 2026-10-02T15:46:14-10:00)"
+    }
+  ],
+  "spoken": [
+    "Earthquake report.",
+    "Report generated at three fifty one p.m.",
+    "1 new local earthquake.",
+    "Magnitude 1.77, about 12 km S of Leilani Estates, Hawaii.",
+    "Local last twenty four hours: 1 magnitude 2.5 or greater.",
+    "4 new global earthquakes.",
+    "Magnitude 4.1, about 34 km S of Adak, Alaska.",
+    "Magnitude 4.8, about 121 km SSE of Vilyuchinsk, Russia.",
+    "Magnitude 4.6, about 174 km SSE of Vilyuchinsk, Russia.",
+    "Magnitude 4.7, about 153 km SSE of Vilyuchinsk, Russia.",
+    "Global last twenty four hours: 34 magnitude 2.5 or greater."
+  ],
+  "owns": [
+    "quakes"
+  ],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/earthquake_report_current.md",
+      "report_id": "rpt_c8359ea2c65d3bfbdaf0"
+    },
+    {
+      "kind": "audio",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/earthquake_report_current.wav",
+      "report_id": "rpt_c8359ea2c65d3bfbdaf0"
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/earthquake_report_current.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/earthquake_report_current.wav",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "skipped",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "skipped",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "not_configured",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_c8359ea2c65d3bfbdaf0",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "",
+    "file_mtime": "",
+    "window_from_file": false
+  }
+}

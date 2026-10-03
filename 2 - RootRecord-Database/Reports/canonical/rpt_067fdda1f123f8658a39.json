@@ -1,0 +1,96 @@
+{
+  "report_id": "rpt_067fdda1f123f8658a39",
+  "profile": "solar",
+  "slug": "solar_desk",
+  "topic": "energy",
+  "subtopic": "",
+  "scope": "site",
+  "window_start": "2026-10-02T15:00:00-10:00",
+  "window_end": "2026-10-02T16:00:00-10:00",
+  "timezone": "Pacific/Honolulu",
+  "status": "assets_ready",
+  "created_at": "2026-10-02T15:52:55-10:00",
+  "generated_at": "2026-10-02T15:52:55-10:00",
+  "published_at": "",
+  "generator": "voice_build",
+  "provider": "voice_build",
+  "model": "template",
+  "generator_version": "1",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Report",
+      "text": "# Solar desk — 2026-10-02T15:52:36-10:00\n\n- Battery 38 percent across 2 live packs. solar input 139 watts, AC out 92 watts, USB-C out 87 watts\n- Delta 2: state of charge 17%, solar input 0 W, AC out 0 W, USB-C out 52 W\n- River 2 Pro: state of charge 59%, solar input 139.0 W, AC out 92.0 W, USB-C out 35.0 W, reading is 207 minutes old\n- Sun: 06:12 / 18:08 (2026-10-02, Open-Meteo)\n- Solar panel still age: 4 min (`ch1-20261003T014814Z.jpg`)\n- Security camera observations indicate foggy conditions, with solar panels in flat position.\n- Camera look age: 110 min (2026-10-02T14:02:07-10:00)"
+    }
+  ],
+  "spoken": [
+    "Solar desk.",
+    "Report generated at three fifty two p.m.",
+    "Battery 38 percent across 2 live packs. solar input 139 watts, AC out 92 watts, USB-C out 87 watts.",
+    "River 2 Pro is out of range.",
+    "Sunrise was six twelve a.m., sunset is six oh eight p.m.",
+    "Solar panel still is 4 minutes old.",
+    "Security camera observations indicate foggy conditions, with solar panels in flat position.",
+    "That camera look is 110 minutes old."
+  ],
+  "owns": [
+    "energy"
+  ],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/solar_desk_current.md",
+      "report_id": "rpt_067fdda1f123f8658a39"
+    },
+    {
+      "kind": "audio",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/solar_desk_current.wav",
+      "report_id": "rpt_067fdda1f123f8658a39"
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/solar_desk_current.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/solar_desk_current.wav",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "skipped",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "not_configured",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_067fdda1f123f8658a39",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "",
+    "file_mtime": "",
+    "window_from_file": false
+  }
+}

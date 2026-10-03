@@ -7604,6 +7604,24 @@
           "published_at": "2026-10-03T00:51:35Z"
         }
       ]
+    },
+    {
+      "id": "ba83dd86ef081e29",
+      "cluster_id": "c_2e285abfab2aecce",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_2e285abfab2aecce.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_2e285abfab2aecce.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Concreter survives three deadly strokes, warns against ignoring symptoms",
+          "url": "https://www.abc.net.au/news/2026-10-03/sunshine-coast-stroke-survivor-wants-to-help-save-lives/107222498",
+          "published_at": "2026-10-03T01:23:32Z"
+        }
+      ]
     }
   ]
 }

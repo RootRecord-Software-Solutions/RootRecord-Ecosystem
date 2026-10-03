@@ -1,0 +1,94 @@
+{
+  "report_id": "rpt_ad370b1d6adf07f260a1",
+  "profile": "security",
+  "slug": "security_desk",
+  "topic": "operations",
+  "subtopic": "",
+  "scope": "host",
+  "window_start": "2026-10-02T15:00:00-10:00",
+  "window_end": "2026-10-02T16:00:00-10:00",
+  "timezone": "Pacific/Honolulu",
+  "status": "assets_ready",
+  "created_at": "2026-10-02T15:53:08-10:00",
+  "generated_at": "2026-10-02T15:53:08-10:00",
+  "published_at": "",
+  "generator": "voice_build",
+  "provider": "voice_build",
+  "model": "template",
+  "generator_version": "1",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Report",
+      "text": "# Security desk — 2026-10-02T15:52:55-10:00\n\n- Firewall starts on boot: False\n- SSH active: None\n- TCP listeners: 2\n- Established connections: 0\n- Failed sign-ins, last hour: 0\n- Failed sign-ins, last 24 hours: 2"
+    }
+  ],
+  "spoken": [
+    "Security desk.",
+    "Report generated at three fifty two p.m.",
+    "The firewall is not set to start on boot.",
+    "2 TCP listeners.",
+    "0 established connections.",
+    "Failed sign-ins: 0 in the last hour, 2 in the last twenty four hours."
+  ],
+  "owns": [
+    "security"
+  ],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/security_desk_current.md",
+      "report_id": "rpt_ad370b1d6adf07f260a1"
+    },
+    {
+      "kind": "audio",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/security_desk_current.wav",
+      "report_id": "rpt_ad370b1d6adf07f260a1"
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/security_desk_current.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/security_desk_current.wav",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "skipped",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "skipped",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "not_configured",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_ad370b1d6adf07f260a1",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "",
+    "file_mtime": "",
+    "window_from_file": false
+  }
+}
