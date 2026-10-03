@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-03T13:41:39.257019Z",
+  "updated_at": "2026-10-03T14:11:07.474638Z",
   "source": "raw samples in each timeframe",
   "windows": {
     "hour": {
       "layer": "1hour",
-      "period_start": "2026-10-03T13:00:00.000Z",
-      "period_end": "2026-10-03T14:00:00.000Z",
+      "period_start": "2026-10-03T14:00:00.000Z",
+      "period_end": "2026-10-03T15:00:00.000Z",
       "packs": []
     },
     "day": {
