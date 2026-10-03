@@ -5,3 +5,4 @@
 {"at":"2026-10-02T23:59:29-10:00","key":"system.temp_c","value":64.0}
 {"at":"2026-10-02T23:59:29-10:00","key":"system.gpu_pct","value":2.0}
 {"at":"2026-10-02T23:59:29-10:00","key":"system.npu_pct","value":0.0}
+{"at":"2026-10-03T00:10:14-10:00","key":"nws.alerts","value":0.0}

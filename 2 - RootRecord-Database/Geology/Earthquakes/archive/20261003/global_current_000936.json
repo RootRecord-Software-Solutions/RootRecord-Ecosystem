@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-03T00:09:28-10:00",
+  "at": "2026-10-02T23:53:44-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
@@ -14,24 +14,8 @@
     "time_hst": "2026-10-02T06:34:41.010000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-03T10:09:19+00:00",
+  "usgs_generated_utc": "2026-10-03T09:53:19+00:00",
   "events": [
-    {
-      "id": "aka2026toserr",
-      "mag": 3.1,
-      "mag_type": "ml",
-      "place": "130 km E of Chignik, Alaska",
-      "time_utc": "2026-10-03T10:04:47.331000+00:00",
-      "time_hst": "2026-10-03T00:04:47.331000-10:00",
-      "lon": -156.29,
-      "lat": 56.299,
-      "depth_km": 63.9,
-      "status": "automatic",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026toserr",
-      "nearest": null
-    },
     {
       "id": "us6000tzbe",
       "mag": 3,
@@ -625,6 +609,28 @@
       "type": "earthquake",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz0x",
       "nearest": null
+    },
+    {
+      "id": "nc75442791",
+      "mag": 3.27,
+      "mag_type": "mw",
+      "place": "9 km WSW of South Lake Tahoe, CA",
+      "time_utc": "2026-10-02T10:00:11.180000+00:00",
+      "time_hst": "2026-10-02T00:00:11.180000-10:00",
+      "lon": -120.080666666667,
+      "lat": 38.8935,
+      "depth_km": 10.9,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75442791",
+      "nearest": {
+        "location_id": "us-nevada-carson-city",
+        "name": "Carson City",
+        "country_code": "US",
+        "admin1_code": "Nevada",
+        "km": 40.5
+      }
     }
   ]
 }
