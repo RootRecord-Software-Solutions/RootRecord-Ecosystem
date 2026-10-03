@@ -8837,6 +8837,24 @@
           "published_at": "2026-10-03T09:00:00Z"
         }
       ]
+    },
+    {
+      "id": "2c6d5a38ae56b69e",
+      "cluster_id": "c_d936424c190b5d63",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_d936424c190b5d63.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_d936424c190b5d63.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "De Minaur fights into quarterfinals in China",
+          "url": "https://www.abc.net.au/news/2026-10-03/alex-de-minaur-reaches-china-open-quarterfinal/107225360",
+          "published_at": "2026-10-03T09:09:10Z"
+        }
+      ]
     }
   ]
 }
