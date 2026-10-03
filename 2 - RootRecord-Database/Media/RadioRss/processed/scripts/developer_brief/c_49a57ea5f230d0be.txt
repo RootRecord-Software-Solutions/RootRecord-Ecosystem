@@ -1,4 +1,0 @@
-Developer brief. GitHub reports that Actions retention now covers checks, runs, and statuses. As previously announced, checks, workflow runs, and statuses are now governed by the same GitHub Actions retention setting that controls how long artifacts and logs are kept. These records are… The post Actions retention now covers checks, runs, and statuses appeared first on The GitHub Blog . Published October 1, 2026.
-
-Sources:
-- GitHub | Actions retention now covers checks, runs, and statuses | https://github.blog/changelog/2026-10-01-actions-retention-now-covers-checks-runs-and-statuses | 2026-10-01T17:59:54Z | 49a57ea5f230d0beda71

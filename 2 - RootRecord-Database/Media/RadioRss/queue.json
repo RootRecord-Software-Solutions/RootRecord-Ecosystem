@@ -7653,7 +7653,7 @@
         {
           "publisher": "ABC News Australia",
           "source": "ABC News Australia Top Stories",
-          "title": "Live: Driver arrested after car hits grand final gathering, injuring nine",
+          "title": "Live: Young girl critical as car hits Newcastle grand final crowd, injuring 10",
           "url": "https://www.abc.net.au/news/2026-10-03/newcastle-crash-wallsend-knights/107224796",
           "published_at": "2026-10-03T01:53:45Z"
         }
@@ -7782,6 +7782,31 @@
           "title": "Hurricane Rachel Wind Speed Probabilities Number 24",
           "url": "https://www.nhc.noaa.gov/text/refresh/MIAPWSEP3+shtml/030240.shtml",
           "published_at": "2026-10-03T02:40:27Z"
+        }
+      ]
+    },
+    {
+      "id": "cd3b8019612e4055",
+      "cluster_id": "c_7847a28daf3ee6bf",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_7847a28daf3ee6bf.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_7847a28daf3ee6bf.speak.txt",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "source": "NPR News",
+          "title": "Brazil's big political rematch: What to know",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5989727/brazil-election-lula-bolsonaro-flavio-democracy",
+          "published_at": "2026-10-03T02:57:07Z"
+        },
+        {
+          "publisher": "NPR",
+          "source": "NPR World",
+          "title": "Brazil's big political rematch: What to know",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5989727/brazil-election-lula-bolsonaro-flavio-democracy",
+          "published_at": "2026-10-03T02:57:07Z"
         }
       ]
     }

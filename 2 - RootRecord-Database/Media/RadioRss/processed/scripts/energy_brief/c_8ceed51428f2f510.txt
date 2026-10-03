@@ -1,4 +1,0 @@
-Energy markets brief. the Energy Information Administration reports that Wholesale Electricity Market Data. (Thu, 01 Oct 2026) This report includes spreadsheets with wholesale electricity and natural gas data from seven major trading hubs that cover most regions of the United States. The data are through September 29, 2026, and republished, with permission, from the Intercontinental Exchange (ICE). Published October 1, 2026.
-
-Sources:
-- EIA | Wholesale Electricity Market Data | http://www.eia.gov/electricity/wholesale/ | 2026-10-01T05:00:00Z | 8ceed51428f2f51096f6

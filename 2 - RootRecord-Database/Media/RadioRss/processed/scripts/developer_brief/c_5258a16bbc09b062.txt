@@ -1,4 +1,0 @@
-Developer brief. Cloudflare reports that Introducing Cloudflare Basin: an open, serverless data platform, now generally available. Cloudflare Basin is built on Apache Iceberg and R2 Object Storage. With general availability, developers can ingest, manage, and query large datasets at scale without paying data egress fees. Published October 1, 2026.
-
-Sources:
-- Cloudflare | Introducing Cloudflare Basin: an open, serverless data platform, now generally available | https://blog.cloudflare.com/cloudflare-basin/ | 2026-10-01T12:58:00Z | 5258a16bbc09b0623596

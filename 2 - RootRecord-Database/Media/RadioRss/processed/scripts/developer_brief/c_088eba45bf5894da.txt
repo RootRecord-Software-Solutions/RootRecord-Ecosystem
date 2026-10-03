@@ -1,4 +1,0 @@
-Developer brief. Cloudflare reports that We want you to build the next Git platform on Cloudflare. Cloudflare is hosting a competition to see who will build the next Git platform for an era of AI agents. Artifacts is in open beta, with Workers bindings, data jurisdiction controls, and event subscriptions for repository changes. Published October 1, 2026.
-
-Sources:
-- Cloudflare | We want you to build the next Git platform on Cloudflare | https://blog.cloudflare.com/next-git-platform-on-cloudflare/ | 2026-10-01T13:00:00Z | 088eba45bf5894da16f8

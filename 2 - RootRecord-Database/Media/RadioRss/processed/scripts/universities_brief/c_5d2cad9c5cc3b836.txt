@@ -1,4 +1,0 @@
-Universities brief. MIT News reports that New tool lets users repair AI-generated 3D models, then fabricate them just the way they want. “InstructMesh” can generate designs for everyday objects that are easy to edit and fabricate for both experts and newcomers to 3D modeling. Published October 1, 2026.
-
-Sources:
-- MIT News | New tool lets users repair AI-generated 3D models, then fabricate them just the way they want | https://news.mit.edu/2026/instructmesh-tool-lets-users-repair-ai-3d-models-then-fabricate-them-1001 | 2026-10-01T22:00:00Z | 5d2cad9c5cc3b836600d

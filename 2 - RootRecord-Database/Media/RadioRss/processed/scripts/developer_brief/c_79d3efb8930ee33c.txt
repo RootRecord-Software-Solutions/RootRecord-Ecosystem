@@ -1,4 +1,0 @@
-Developer brief. GitHub reports that GitHub Copilot in VS Code, September 2026 releases. This changelog covers VS Code v1.136 through v1.140, shipped throughout September 2026. September’s releases streamline agent-driven development from implementation through pull request merge. Automations handle repeatable tasks, agent merge helps… The post GitHub Copilot in VS Code, September 2026 releases appeared first on The GitHub Blog . Published October 1, 2026.
-
-Sources:
-- GitHub | GitHub Copilot in VS Code, September 2026 releases | https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases | 2026-10-01T19:09:10Z | 79d3efb8930ee33ca0a3

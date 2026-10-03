@@ -1,4 +1,0 @@
-Developer brief. GitHub reports that Accessibility statements highlighted on repository overview. You can now find an ACCESSIBILITY.md file in your repository’s root, the .github/ directory, or the docs/ directory highlighted on the repository overview. You can also add or propose an… The post Accessibility statements highlighted on repository overview appeared first on The GitHub Blog . Published October 1, 2026.
-
-Sources:
-- GitHub | Accessibility statements highlighted on repository overview | https://github.blog/changelog/2026-10-01-accessibility-statements-highlighted-on-repository-overview | 2026-10-01T19:04:32Z | 0ff5a3a5b4c734f29204

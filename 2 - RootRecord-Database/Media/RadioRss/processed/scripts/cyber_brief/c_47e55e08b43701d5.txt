@@ -1,4 +1,0 @@
-Cybersecurity brief. GitHub reports that Rate limits for private vulnerability reports. Open source maintainers are receiving more low-quality and automated vulnerability reports, which can bury the reports that matter. Rate limits cap how many new reports a single account can submit… The post Rate limits for private vulnerability reports appeared first on The GitHub Blog . Published October 1, 2026.
-
-Sources:
-- GitHub | Rate limits for private vulnerability reports | https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports | 2026-10-01T19:57:39Z | 47e55e08b43701d5be05

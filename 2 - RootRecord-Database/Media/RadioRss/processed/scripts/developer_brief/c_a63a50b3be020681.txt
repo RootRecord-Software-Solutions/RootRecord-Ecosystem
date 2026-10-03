@@ -1,4 +1,0 @@
-Developer brief. GitHub reports that Dynamic workflows in Copilot CLI and the Copilot app. Dynamic workflows are now available in Copilot CLI, the GitHub Copilot app, and the GitHub Copilot SDK. These let you define an orchestration in code to get the reliability and… The post Dynamic workflows in Copilot CLI and the Copilot app appeared first on The GitHub Blog . Published October 1, 2026.
-
-Sources:
-- GitHub | Dynamic workflows in Copilot CLI and the Copilot app | https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app | 2026-10-01T16:30:10Z | a63a50b3be0206818804
