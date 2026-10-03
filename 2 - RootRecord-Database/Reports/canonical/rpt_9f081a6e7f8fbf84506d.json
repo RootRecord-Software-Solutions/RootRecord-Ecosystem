@@ -10,7 +10,7 @@
   "timezone": "Pacific/Honolulu",
   "status": "assets_ready",
   "created_at": "2026-10-03T00:11:31-10:00",
-  "generated_at": "2026-10-03T00:13:34-10:00",
+  "generated_at": "2026-10-03T00:14:39-10:00",
   "published_at": "",
   "generator": "voice_build",
   "provider": "voice_build",
@@ -21,7 +21,7 @@
   "sections": [
     {
       "heading": "Report",
-      "text": "# Boot brief (morning) — 2026-10-03T00:13:33-10:00\n\n- Kind: morning\n- Boot: 2026-10-02T22:12-10:00 (up 121 min)\n- Host CPU 54%, memory 62% used\n- Batteries: Delta 2 36%, River 2 Pro 100%\n- NWS alerts: 0\n- Kilauea: WATCH / ORANGE erupting=True\n- Nearest storm: Hurricane Nolo 572 nm from Līhuʻe"
+      "text": "# Boot brief (morning) — 2026-10-03T00:13:56-10:00\n\n- Kind: morning\n- Boot: 2026-10-02T22:12-10:00 (up 121 min)\n- Host CPU 65%, memory 77% used\n- Batteries: Delta 2 36%, River 2 Pro 100%\n- NWS alerts: 0\n- Kilauea: WATCH / ORANGE erupting=True\n- Nearest storm: Hurricane Nolo 572 nm from Līhuʻe"
     }
   ],
   "spoken": [
@@ -32,7 +32,7 @@
     "0 active weather alerts.",
     "Kilauea alert level watch, erupting.",
     "Hurricane Nolo is about 572 nautical miles from Līhuʻe.",
-    "CPU 54%, memory 62% used. End of boot report."
+    "CPU 65%, memory 77% used. End of boot report."
   ],
   "owns": [],
   "assets": [

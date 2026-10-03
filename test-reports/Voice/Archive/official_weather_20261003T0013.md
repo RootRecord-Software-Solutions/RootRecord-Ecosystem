@@ -1,4 +1,4 @@
-# Official weather statement — 2026-10-03T00:14:40-10:00
+# Official weather statement — 2026-10-03T00:13:34-10:00
 
 | Product | Issued / fetched | Age h | Used |
 | --- | --- | --- | --- |
@@ -6,7 +6,7 @@
 
 ## Spoken
 
-Report generated at twelve fourteen a.m.
+Report generated at twelve thirteen a.m.
 
 _Sources: Database `Weather/Hawai'i/official/HLS_current.txt` (official_statement.py) + `Weather/Hawai'i/hfo/api.weather.gov/products/types/{HWO,AFD}/locations/HFO/HFO_current.txt` (weather poller)._
 
