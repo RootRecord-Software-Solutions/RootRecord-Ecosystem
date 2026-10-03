@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-03T01:57:21-10:00",
+  "at": "2026-10-03T02:06:44-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii_current ids",
-  "count": 36,
-  "count_m2": 36,
-  "count_m25": 36,
+  "count": 35,
+  "count_m2": 35,
+  "count_m25": 35,
   "largest": {
     "id": "us6000tz62",
     "mag": 5.8,
@@ -14,7 +14,7 @@
     "time_hst": "2026-10-02T06:34:41.010000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-03T11:57:19+00:00",
+  "usgs_generated_utc": "2026-10-03T12:06:19+00:00",
   "events": [
     {
       "id": "us6000tzc5",
@@ -640,28 +640,6 @@
         "country_code": "PR",
         "admin1_code": null,
         "km": 188.1
-      }
-    },
-    {
-      "id": "pr71535328",
-      "mag": 3.13,
-      "mag_type": "md",
-      "place": "66 km NE of Punta Cana, Dominican Republic",
-      "time_utc": "2026-10-02T12:06:12.440000+00:00",
-      "time_hst": "2026-10-02T02:06:12.440000-10:00",
-      "lon": -67.9471666666667,
-      "lat": 19,
-      "depth_km": 7.94,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71535328",
-      "nearest": {
-        "location_id": "pr-san-juan",
-        "name": "San Juan",
-        "country_code": "PR",
-        "admin1_code": null,
-        "km": 201.7
       }
     }
   ]
