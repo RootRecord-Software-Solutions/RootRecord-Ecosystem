@@ -56,8 +56,9 @@ new = r"""function youtubeCutawayOn() {
   }
 }
 
-function youtubeCutawayFifo() {
-  return path.join(YOUTUBE_DIR, 'cutaway.fifo');
+function youtubeCutawayInput() {
+  // Audio is opened first (pipe:0) so the live mix keeps draining while we wait for video.
+  return 'tcp://127.0.0.1:19001?listen=1&listen_timeout=15000000';
 }
 
 function startYoutube() {
@@ -66,29 +67,23 @@ function startYoutube() {
   const dest = youtubeDest();
   const thumb = path.join(YOUTUBE_DIR, 'thumb.png');
   const cutaway = youtubeCutawayOn();
-  const fifo = youtubeCutawayFifo();
   if (!dest) {
     setTimeout(startYoutube, 5000);
     return;
   }
   if (cutaway) {
-    if (!fs.existsSync(fifo)) {
-      log('youtube_cutaway_wait', { reason: 'no_fifo' });
-      setTimeout(startYoutube, 1000);
-      return;
-    }
     // Live program audio stays on pipe:0 — only the picture switches.
     youtube = spawn('ffmpeg', [
       '-hide_banner', '-loglevel', 'warning',
-      '-fflags', 'nobuffer', '-flags', 'low_delay',
-      '-thread_queue_size', '512', '-f', 'mpegts', '-i', fifo,
       '-f', 's16le', '-ar', String(RATE), '-ac', '2', '-i', 'pipe:0',
+      '-fflags', 'nobuffer', '-flags', 'low_delay',
+      '-thread_queue_size', '512', '-f', 'mpegts', '-i', youtubeCutawayInput(),
       '-filter:v', 'scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2,fps=15,format=yuv420p',
       '-c:v', 'libx264', '-preset', 'ultrafast',
       '-b:v', '1800k', '-maxrate', '2200k', '-bufsize', '4000k',
       '-r', '15', '-g', '30', '-pix_fmt', 'yuv420p',
       '-c:a', 'aac', '-b:a', '128k', '-ar', '44100', '-ac', '2',
-      '-map', '0:v:0', '-map', '1:a:0',
+      '-map', '1:v:0', '-map', '0:a:0',
       '-f', 'flv', '-flvflags', 'no_duration_filesize', dest
     ], { stdio: ['pipe', 'ignore', 'pipe'] });
   } else {
