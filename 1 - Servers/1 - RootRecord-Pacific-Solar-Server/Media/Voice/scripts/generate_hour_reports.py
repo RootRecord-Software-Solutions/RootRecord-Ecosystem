@@ -2,35 +2,44 @@
 """Generate every hour-desk voice report into Database Media/Audio/Voice/.
 
 Measured batch wall time (2026-10-03): ~8.6 minutes for all desks.
-jobs.py starts this at :43 so it finishes before radio_push --all at :55
-(8.6 + 3 minute cushion → 12 minutes before :55).
+jobs.py starts this at :43 (8.6 + 3 minute cushion). When the batch finishes it:
+  1. records wall + per-report seconds under Media/Audio/Voice/Timing/
+  2. updates running averages / suggested start minute before :55
+  3. radio_push --all to ML1 immediately
+
+:55 radio_push_hour remains a catch-up if this send missed.
 
 Writes under the single voice tree:
   Media/Audio/Voice/<report>_current.wav
   Media/Audio/Voice/<report>_current.ogg
   Media/Audio/Voice/Reports/<report>_current.md
 
-Does not push to ML1 (RR_RADIO_PUSH=0). radio_push_hour at :55 owns the send.
 Hourly chimes stay on voice_hourly_chime (:00/:30) unless --include-chime.
 
 Usage:
   python3 generate_hour_reports.py
   python3 generate_hour_reports.py --only solar_desk,kilauea_report
   python3 generate_hour_reports.py --include-chime
+  python3 generate_hour_reports.py --no-push
 """
 from __future__ import annotations
 
 import argparse
 import json
+import math
 import os
+import statistics
 import subprocess
 import sys
 import tempfile
 import time
+from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 HERE = Path(__file__).resolve().parent
 PACIFIC = HERE.parents[2]
+HST = ZoneInfo("Pacific/Honolulu")
 DB = Path(
     os.environ.get(
         "RR_DATABASE_ROOT",
@@ -43,6 +52,12 @@ OUT_DIR = Path(
         str(DB / "Media" / "Audio" / "Voice"),
     )
 )
+TIMING_DIR = Path(
+    os.environ.get(
+        "RR_VOICE_HOUR_TIMING_DIR",
+        str(OUT_DIR / "Timing"),
+    )
+)
 VOICE_WAV = OUT_DIR
 VOICE_PY = Path(
     os.environ.get(
@@ -50,6 +65,8 @@ VOICE_PY = Path(
         str(PACIFIC / "Media" / "Voice" / ".venv" / "bin" / "python"),
     )
 )
+CUSHION_MINUTES = float(os.environ.get("RR_VOICE_HOUR_CUSHION_MIN", "3"))
+HISTORY_KEEP = int(os.environ.get("RR_VOICE_HOUR_HISTORY_KEEP", "200"))
 
 # Hour batch for :55 radio_push (no chime — that stays :00/:30).
 HOUR_REPORTS: list[tuple[str, str, str]] = [
