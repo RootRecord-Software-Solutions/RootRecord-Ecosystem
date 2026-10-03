@@ -2,7 +2,7 @@
   "at": "2026-10-03T07:22:25-10:00",
   "runs": 3,
   "cushion_minutes": 3.0,
-  "base_start_minute": 42,
+  "base_start_minute": 36,
   "push_minute": 55,
   "total": {
     "seconds": {
@@ -48,7 +48,7 @@
     "system_perf": 15.4
   },
   "suggested_lead_minutes_before_55": 12,
-  "suggested_start_minute": 43,
-  "scheduled_at_minute": 42,
-  "schedule_reason": "keep_base_extra_cushion"
+  "suggested_start_minute": 36,
+  "scheduled_at_minute": 36,
+  "schedule_reason": "force_base_36"
 }

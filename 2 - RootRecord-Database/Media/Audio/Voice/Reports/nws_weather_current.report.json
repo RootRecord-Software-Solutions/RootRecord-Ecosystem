@@ -8,9 +8,9 @@
   "window_start": "2026-10-03T07:00:00-10:00",
   "window_end": "2026-10-03T08:00:00-10:00",
   "timezone": "Pacific/Honolulu",
-  "status": "assets_ready",
+  "status": "generated",
   "created_at": "2026-10-03T07:03:57-10:00",
-  "generated_at": "2026-10-03T07:15:04-10:00",
+  "generated_at": "2026-10-03T07:46:30-10:00",
   "published_at": "",
   "generator": "voice_build",
   "provider": "voice_build",
@@ -21,12 +21,12 @@
   "sections": [
     {
       "heading": "Report",
-      "text": "# NWS Hawaii — 2026-10-03T07:14:36-10:00\n\n- Alerts source: `api.weather.gov/alerts/active?area=HI` (updated 2026-10-03T17:00:00+00:00)\n- Forecast source: NWS HFO State Forecast (SFP), issued 303 AM HST Sat Oct 3 2026\n- Temperatures: NWS HFO Zone Forecast (ZFP), today high and tonight low\n\n## Active alerts\n\n- none\n\n## State forecast (first period)\n\nToday: Mostly sunny. Windward and mountains, isolated showers in the morning, then scattered showers in the afternoon. Leeward, isolated showers in the afternoon. Highs 84 to 89. East winds 15 to 20 mph.\n\n## Temperatures\n\nShore for coastal towns; Mountain View ~2000 ft; Volcano ~4000 ft.\n\n- **Honolulu** — high 83 to 88, low around 75\n- **Lihue** — high 78 to 86, low 67 to 78\n- **Kahului** — high 81 to 87, low 63 to 68\n- **Hilo** — high 78 to 84 at the shore, low 64 to 71 at the shore\n- **Mountain View** — high around 74 at 2000 feet, low around 60 at 2000 feet\n- **Volcano** — high 65 to 71 at 4000 feet, low 49 to 57 at 4000 feet\n- **Kailua-Kona** — high 83 to 88 at the shore, low 70 to 76 at the shore\n## Outlook\n\n**Kauai, Oahu, Maui, Molokai, Lanai**\n\n- Tonight: Partly cloudy. Breezy. Windward and mountains, isolated showers in the evening, then scattered showers after midnight. Lows 74 to 79. Northeast winds 15 to 25 mph.\n- Sunday: Partly cloudy. Breezy. Leeward, isolated showers during the day. Windward and mountains, scattered showers. Highs 84 to 89. Lows 74 to 79. Northeast winds 15 to 25 mph.\n- Monday: Partly cloudy. Windward and mountains, scattered showers during the day, then numerous showers at night. Leeward, isolated showers during the day. Scattered showers at night. Highs 84 to 89. Lows 74 to 79. Northeast winds around 15 mph.\n- Tuesday: Mostly cloudy. Windward and mountains, scattered showers during the day, then numerous showers at night. Leeward, isolated showers. Highs 83 to 88. Lows 74 to 79. Variable winds to 15 mph.\n- Wednesday: Mostly cloudy. Windward and mountains, scattered showers during the day, then numerous showers at night. Leeward, isolated showers. Highs 83 to 88. Lows 74 to 79. Variable winds to 15 mph.\n\n**Big Island of Hawaii**\n\n- Tonight: Windward, mostly cloudy, Scattered showers. Leeward, mostly clear, Isolated showers in the evening. Lows 71 to 76. Northeast winds 15 to 20 mph.\n- Sunday: Windward, mostly cloudy, Isolated showers during the day, then scattered showers at night. Leeward, mostly clear, Isolated showers during the day. Highs 85 to 90. Lows 71 to 76. Northeast winds 15 to 20 mph.\n- Monday: Windward, mostly cloudy, Scattered showers during the day, then showers at night. Leeward, mostly clear, Isolated showers. Highs 84 to 89. Lows 71 to 76. Northeast winds around 15 mph.\n- Tuesday: Windward, mostly cloudy, Numerous showers during the day, then showers at night. Leeward, partly cloudy, Scattered showers during the day. Isolated showers at night. Highs 83 to 88. Lows 71 to 76. Variable winds to 15 mph.\n- Wednesday: Windward, mostly cloudy, Numerous showers during the day, then showers at night. Leeward, partly cloudy, Scattered showers during the day. Isolated showers at night. Highs 83 to 88. Lows 72 to 77. Variable winds to 15 mph."
+      "text": "# NWS Hawaii — 2026-10-03T07:46:30-10:00\n\n- Alerts source: `api.weather.gov/alerts/active?area=HI` (updated 2026-10-03T17:27:10+00:00)\n- Forecast source: NWS HFO State Forecast (SFP), issued 303 AM HST Sat Oct 3 2026\n- Temperatures: NWS HFO Zone Forecast (ZFP), today high and tonight low\n\n## Active alerts\n\n- none\n\n## State forecast (first period)\n\nToday: Mostly sunny. Windward and mountains, isolated showers in the morning, then scattered showers in the afternoon. Leeward, isolated showers in the afternoon. Highs 84 to 89. East winds 15 to 20 mph.\n\n## Temperatures\n\nShore for coastal towns; Mountain View ~2000 ft; Volcano ~4000 ft.\n\n- **Honolulu** — high 83 to 88, low around 75\n- **Lihue** — high 78 to 86, low 67 to 78\n- **Kahului** — high 81 to 87, low 63 to 68\n- **Hilo** — high 78 to 84 at the shore, low 64 to 71 at the shore\n- **Mountain View** — high around 74 at 2000 feet, low around 60 at 2000 feet\n- **Volcano** — high 65 to 71 at 4000 feet, low 49 to 57 at 4000 feet\n- **Kailua-Kona** — high 83 to 88 at the shore, low 70 to 76 at the shore\n## Outlook\n\n**Kauai, Oahu, Maui, Molokai, Lanai**\n\n- Tonight: Partly cloudy. Breezy. Windward and mountains, isolated showers in the evening, then scattered showers after midnight. Lows 74 to 79. Northeast winds 15 to 25 mph.\n- Sunday: Partly cloudy. Breezy. Leeward, isolated showers during the day. Windward and mountains, scattered showers. Highs 84 to 89. Lows 74 to 79. Northeast winds 15 to 25 mph.\n- Monday: Partly cloudy. Windward and mountains, scattered showers during the day, then numerous showers at night. Leeward, isolated showers during the day. Scattered showers at night. Highs 84 to 89. Lows 74 to 79. Northeast winds around 15 mph.\n- Tuesday: Mostly cloudy. Windward and mountains, scattered showers during the day, then numerous showers at night. Leeward, isolated showers. Highs 83 to 88. Lows 74 to 79. Variable winds to 15 mph.\n- Wednesday: Mostly cloudy. Windward and mountains, scattered showers during the day, then numerous showers at night. Leeward, isolated showers. Highs 83 to 88. Lows 74 to 79. Variable winds to 15 mph.\n\n**Big Island of Hawaii**\n\n- Tonight: Windward, mostly cloudy, Scattered showers. Leeward, mostly clear, Isolated showers in the evening. Lows 71 to 76. Northeast winds 15 to 20 mph.\n- Sunday: Windward, mostly cloudy, Isolated showers during the day, then scattered showers at night. Leeward, mostly clear, Isolated showers during the day. Highs 85 to 90. Lows 71 to 76. Northeast winds 15 to 20 mph.\n- Monday: Windward, mostly cloudy, Scattered showers during the day, then showers at night. Leeward, mostly clear, Isolated showers. Highs 84 to 89. Lows 71 to 76. Northeast winds around 15 mph.\n- Tuesday: Windward, mostly cloudy, Numerous showers during the day, then showers at night. Leeward, partly cloudy, Scattered showers during the day. Isolated showers at night. Highs 83 to 88. Lows 71 to 76. Variable winds to 15 mph.\n- Wednesday: Windward, mostly cloudy, Numerous showers during the day, then showers at night. Leeward, partly cloudy, Scattered showers during the day. Isolated showers at night. Highs 83 to 88. Lows 72 to 77. Variable winds to 15 mph."
     }
   ],
   "spoken": [
     "NWS Hawaii Report.",
-    "Report generated at seven fourteen a.m.",
+    "Report generated at seven forty six a.m.",
     "No active HI alerts from the API sample.",
     "State forecast for today.",
     "Mostly sunny. Windward and mountains, isolated showers in the morning, then scattered showers in the afternoon. Leeward, isolated showers in the afternoon. Highs 84 to 89. East winds 15 to 20 mph.",
@@ -41,11 +41,6 @@
       "kind": "text",
       "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/nws_weather_current.md",
       "report_id": "rpt_81b27b99899598fc6b9e"
-    },
-    {
-      "kind": "audio",
-      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/nws_weather_current.wav",
-      "report_id": "rpt_81b27b99899598fc6b9e"
     }
   ],
   "stages": {
@@ -56,10 +51,10 @@
       "retry": 0
     },
     "audio": {
-      "status": "ready",
-      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/nws_weather_current.wav",
-      "error": "",
-      "retry": 0
+      "status": "failed",
+      "path": "",
+      "error": "busy",
+      "retry": 1
     },
     "image": {
       "status": "skipped",

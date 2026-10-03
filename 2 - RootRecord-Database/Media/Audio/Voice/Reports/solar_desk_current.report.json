@@ -10,7 +10,7 @@
   "timezone": "Pacific/Honolulu",
   "status": "assets_ready",
   "created_at": "2026-10-03T07:17:46-10:00",
-  "generated_at": "2026-10-03T07:17:46-10:00",
+  "generated_at": "2026-10-03T07:46:08-10:00",
   "published_at": "",
   "generator": "voice_build",
   "provider": "voice_build",
@@ -21,12 +21,12 @@
   "sections": [
     {
       "heading": "Report",
-      "text": "# Solar desk — 2026-10-03T07:15:32-10:00\n\n- EcoFlow Bluetooth and connection have become programmatically unreliable, and live statuses will not be available at this time\n- Sun: 06:12 / 18:08 (2026-10-03, Open-Meteo)\n- hour: no samples\n- delta2 day 2026-10-03T10:00:00.000Z to 2026-10-04T10:00:00.000Z, soc avg 7.48 min 1.03 max 14.38, solar_w 0.0, ac_out_w 44.35, ac_in_w 0.0, usbc_w 27.26, output_w 71.77, produced_wh 0.0, spent_wh 100.96\n- river2pro day 2026-10-03T10:00:00.000Z to 2026-10-04T10:00:00.000Z, soc avg 92.3 min 77.0 max 99.0, solar_w 0.0, ac_out_w 14.74, ac_in_w 0.0, usbc_w 17.48, produced_wh 0.0\n- delta2 week 2026-09-28T10:00:00.000Z to 2026-10-05T10:00:00.000Z, soc avg 9.22 min 1.03 max 37.86, solar_w 0.0, ac_out_w 44.43, ac_in_w 0.0, usbc_w 26.7, output_w 71.31, produced_wh 0.0, spent_wh 105.52\n- river2pro week 2026-09-28T10:00:00.000Z to 2026-10-05T10:00:00.000Z, soc avg 92.3 min 77.0 max 99.0, solar_w 0.0, ac_out_w 14.74, ac_in_w 0.0, usbc_w 17.48, produced_wh 0.0\n- delta2 month 2026-10-01T10:00:00.000Z to 2026-11-01T10:00:00.000Z, soc avg 9.22 min 1.03 max 37.86, solar_w 0.0, ac_out_w 44.43, ac_in_w 0.0, usbc_w 26.7, output_w 71.31, produced_wh 0.0, spent_wh 105.52\n- river2pro month 2026-10-01T10:00:00.000Z to 2026-11-01T10:00:00.000Z, soc avg 92.3 min 77.0 max 99.0, solar_w 0.0, ac_out_w 14.74, ac_in_w 0.0, usbc_w 17.48, produced_wh 0.0\n- delta2 year 2026-01-01T10:00:00.000Z to 2027-01-01T10:00:00.000Z, soc avg 9.22 min 1.03 max 37.86, solar_w 0.0, ac_out_w 44.43, ac_in_w 0.0, usbc_w 26.7, output_w 71.31, produced_wh 0.0, spent_wh 105.52\n- river2pro year 2026-01-01T10:00:00.000Z to 2027-01-01T10:00:00.000Z, soc avg 92.3 min 77.0 max 99.0, solar_w 0.0, ac_out_w 14.74, ac_in_w 0.0, usbc_w 17.48, produced_wh 0.0\n- Solar panel still: current (`ch1-20261003T171620Z.jpg`)\n- Security camera observations indicate rainy conditions, with solar panels in flat position."
+      "text": "# Solar desk — 2026-10-03T07:44:39-10:00\n\n- EcoFlow Bluetooth and connection have become programmatically unreliable, and live statuses will not be available at this time\n- Sun: 06:12 / 18:08 (2026-10-03, Open-Meteo)\n- hour: no samples\n- delta2 day 2026-10-03T10:00:00.000Z to 2026-10-04T10:00:00.000Z, soc avg 7.48 min 1.03 max 14.38, solar_w 0.0, ac_out_w 44.35, ac_in_w 0.0, usbc_w 27.26, output_w 71.77, produced_wh 0.0, spent_wh 100.96\n- river2pro day 2026-10-03T10:00:00.000Z to 2026-10-04T10:00:00.000Z, soc avg 92.3 min 77.0 max 99.0, solar_w 0.0, ac_out_w 14.74, ac_in_w 0.0, usbc_w 17.48, produced_wh 0.0\n- delta2 week 2026-09-28T10:00:00.000Z to 2026-10-05T10:00:00.000Z, soc avg 9.22 min 1.03 max 37.86, solar_w 0.0, ac_out_w 44.43, ac_in_w 0.0, usbc_w 26.7, output_w 71.31, produced_wh 0.0, spent_wh 105.52\n- river2pro week 2026-09-28T10:00:00.000Z to 2026-10-05T10:00:00.000Z, soc avg 92.3 min 77.0 max 99.0, solar_w 0.0, ac_out_w 14.74, ac_in_w 0.0, usbc_w 17.48, produced_wh 0.0\n- delta2 month 2026-10-01T10:00:00.000Z to 2026-11-01T10:00:00.000Z, soc avg 9.22 min 1.03 max 37.86, solar_w 0.0, ac_out_w 44.43, ac_in_w 0.0, usbc_w 26.7, output_w 71.31, produced_wh 0.0, spent_wh 105.52\n- river2pro month 2026-10-01T10:00:00.000Z to 2026-11-01T10:00:00.000Z, soc avg 92.3 min 77.0 max 99.0, solar_w 0.0, ac_out_w 14.74, ac_in_w 0.0, usbc_w 17.48, produced_wh 0.0\n- delta2 year 2026-01-01T10:00:00.000Z to 2027-01-01T10:00:00.000Z, soc avg 9.22 min 1.03 max 37.86, solar_w 0.0, ac_out_w 44.43, ac_in_w 0.0, usbc_w 26.7, output_w 71.31, produced_wh 0.0, spent_wh 105.52\n- river2pro year 2026-01-01T10:00:00.000Z to 2027-01-01T10:00:00.000Z, soc avg 92.3 min 77.0 max 99.0, solar_w 0.0, ac_out_w 14.74, ac_in_w 0.0, usbc_w 17.48, produced_wh 0.0\n- Solar panel still: current (`ch1-20261003T174438Z.jpg`)\n- Security camera observations indicate rainy conditions, with solar panels in flat position."
     }
   ],
   "spoken": [
     "Solar desk.",
-    "Report generated at seven fifteen a.m.",
+    "Report generated at seven forty four a.m.",
     "EcoFlow Bluetooth and connection have become programmatically unreliable, and live statuses will not be available at this time.",
     "Sunrise was six twelve a.m., sunset is six oh eight p.m.",
     "Security camera observations indicate rainy conditions, with solar panels in flat position."

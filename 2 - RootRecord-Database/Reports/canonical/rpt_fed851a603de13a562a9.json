@@ -10,7 +10,7 @@
   "timezone": "Pacific/Honolulu",
   "status": "assets_ready",
   "created_at": "2026-10-03T07:21:29-10:00",
-  "generated_at": "2026-10-03T07:21:29-10:00",
+  "generated_at": "2026-10-03T07:50:41-10:00",
   "published_at": "",
   "generator": "voice_build",
   "provider": "voice_build",
@@ -21,16 +21,16 @@
   "sections": [
     {
       "heading": "Report",
-      "text": "# Security desk — 2026-10-03T07:21:16-10:00\n\n- Firewall starts on boot: False\n- SSH active: True\n- TCP listeners: 426\n- Established connections: 33\n- Failed sign-ins, last hour: 0\n- Failed sign-ins, last 24 hours: 0"
+      "text": "# Security desk — 2026-10-03T07:50:29-10:00\n\n- Firewall starts on boot: False\n- SSH active: True\n- TCP listeners: 432\n- Established connections: 30\n- Failed sign-ins, last hour: 0\n- Failed sign-ins, last 24 hours: 0"
     }
   ],
   "spoken": [
     "Security desk.",
-    "Report generated at seven twenty one a.m.",
+    "Report generated at seven fifty a.m.",
     "The firewall is not set to start on boot.",
     "OpenSSH service is active.",
-    "426 TCP listeners.",
-    "33 established connections.",
+    "432 TCP listeners.",
+    "30 established connections.",
     "Failed sign-ins: 0 in the last hour, 0 in the last twenty four hours."
   ],
   "owns": [

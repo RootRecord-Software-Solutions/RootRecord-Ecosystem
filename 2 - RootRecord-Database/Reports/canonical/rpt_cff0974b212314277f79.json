@@ -10,7 +10,7 @@
   "timezone": "Pacific/Honolulu",
   "status": "assets_ready",
   "created_at": "2026-10-03T07:18:14-10:00",
-  "generated_at": "2026-10-03T07:18:14-10:00",
+  "generated_at": "2026-10-03T07:46:37-10:00",
   "published_at": "",
   "generator": "system_perf",
   "provider": "system_perf",
@@ -21,11 +21,11 @@
   "sections": [
     {
       "heading": "Report",
-      "text": "# System Performance — 2026-10-03T07:17:59-10:00\n\nHost: HI Pacific Solar Root Server\n\n| Metric | Value |\n|---|---|\n| CPU | 7.3% (load 14.41 / 7.06 / 3.60) |\n| RAM | 55.3% used (7.8 / 14.2 GB); swap used 4.0 GB |\n| Disk / | 46.0% used (231 / 502 GB) |\n| Host battery | 100% (Full, on AC) |\n| Uptime | 9h 5m |\n| Last online | 2026-10-03T07:17:59-10:00 |\n| Power mode | balanced |\n\n_Template report (no LLM). Measured on the desk at 2026-10-03T07:17:59-10:00. A missing hardware row was not sampled._"
+      "text": "# System Performance — 2026-10-03T07:46:20-10:00\n\nHost: HI Pacific Solar Root Server\n\n| Metric | Value |\n|---|---|\n| CPU | 10.3% (load 6.25 / 3.52 / 2.46) |\n| RAM | 58.0% used (8.2 / 14.2 GB); swap used 4.0 GB |\n| Disk / | 46.0% used (231 / 502 GB) |\n| Host battery | 100% (Full, on AC) |\n| Uptime | 9h 34m |\n| Last online | 2026-10-03T07:46:20-10:00 |\n| Power mode | balanced |\n\n_Template report (no LLM). Measured on the desk at 2026-10-03T07:46:20-10:00. A missing hardware row was not sampled._"
     }
   ],
   "spoken": [
-    "System performance report. Report generated at seven seventeen a.m.. CPU 7%. Memory 55% used, 7.8 of 14.2 gigabytes. Disk 46% used. Host battery 100%, on AC. Uptime 9 hours 5 minutes. Root server was last online at seven seventeen a.m.. Host power mode is balanced. End of system report."
+    "System performance report. Report generated at seven forty six a.m.. CPU 10%. Memory 58% used, 8.2 of 14.2 gigabytes. Disk 46% used. Host battery 100%, on AC. Uptime 9 hours 34 minutes. Root server was last online at seven forty six a.m.. Host power mode is balanced. End of system report."
   ],
   "owns": [
     "host"

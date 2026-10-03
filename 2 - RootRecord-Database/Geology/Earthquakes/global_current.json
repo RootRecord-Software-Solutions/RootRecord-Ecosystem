@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-03T07:18:55-10:00",
+  "at": "2026-10-03T07:48:41-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
@@ -14,8 +14,24 @@
     "time_hst": "2026-10-02T10:27:27.120000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-03T17:18:19+00:00",
+  "usgs_generated_utc": "2026-10-03T17:48:19+00:00",
   "events": [
+    {
+      "id": "aka2026tpgsir",
+      "mag": 2.8,
+      "mag_type": "ml",
+      "place": "36 km NNW of Karluk, Alaska",
+      "time_utc": "2026-10-03T17:20:28.442000+00:00",
+      "time_hst": "2026-10-03T07:20:28.442000-10:00",
+      "lon": -154.672,
+      "lat": 57.876,
+      "depth_km": 68.4,
+      "status": "automatic",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tpgsir",
+      "nearest": null
+    },
     {
       "id": "pr71535538",
       "mag": 3.26,
@@ -638,22 +654,6 @@
       "tsunami": 0,
       "type": "earthquake",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz7b",
-      "nearest": null
-    },
-    {
-      "id": "us6000tz75",
-      "mag": 4.3,
-      "mag_type": "mwr",
-      "place": "30 km NNW of Valparaíso, Chile",
-      "time_utc": "2026-10-02T17:28:18.887000+00:00",
-      "time_hst": "2026-10-02T07:28:18.887000-10:00",
-      "lon": -71.7075,
-      "lat": -32.773,
-      "depth_km": 32.14,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz75",
       "nearest": null
     }
   ]

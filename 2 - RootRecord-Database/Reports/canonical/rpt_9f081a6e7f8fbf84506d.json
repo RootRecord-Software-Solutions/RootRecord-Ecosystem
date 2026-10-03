@@ -10,7 +10,7 @@
   "timezone": "Pacific/Honolulu",
   "status": "assets_ready",
   "created_at": "2026-10-03T00:11:31-10:00",
-  "generated_at": "2026-10-03T07:14:35-10:00",
+  "generated_at": "2026-10-03T07:46:30-10:00",
   "published_at": "",
   "generator": "voice_build",
   "provider": "voice_build",
@@ -21,17 +21,17 @@
   "sections": [
     {
       "heading": "Report",
-      "text": "# Boot brief (morning) — 2026-10-03T07:14:08-10:00\n\n- Kind: morning\n- Boot: 2026-10-02T22:12-10:00 (up 541 min)\n- Host CPU 77%, memory 64% used\n- NWS alerts: 0\n- Kilauea: WATCH / ORANGE erupting=True\n- Nearest storm: Hurricane Nolo 659 nm from Līhuʻe"
+      "text": "# Boot brief (morning) — 2026-10-03T07:46:29-10:00\n\n- Kind: morning\n- Boot: 2026-10-02T22:12-10:00 (up 574 min)\n- Host CPU 72%, memory 64% used\n- NWS alerts: 0\n- Kilauea: WATCH / ORANGE erupting=True\n- Nearest storm: Hurricane Nolo 659 nm from Līhuʻe"
     }
   ],
   "spoken": [
     "Boot report, morning edition.",
-    "Report generated at seven fourteen a.m.",
-    "The Pacific desk came up at ten twelve p.m., about 9 hours ago.",
+    "Report generated at seven forty six a.m.",
+    "The Pacific desk came up at ten twelve p.m., about 10 hours ago.",
     "0 active weather alerts.",
     "Kilauea alert level watch, erupting.",
     "Hurricane Nolo is about 659 nautical miles from Līhuʻe.",
-    "CPU 77%, memory 64% used. End of boot report."
+    "CPU 72%, memory 64% used. End of boot report."
   ],
   "owns": [],
   "assets": [
