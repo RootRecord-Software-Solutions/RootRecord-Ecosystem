@@ -1,11 +1,11 @@
-desk_written_at=2026-10-03T02:31:39-10:00
-Delta 2 SOC_percent=4.51 measured_at=2026-10-03T12:31:31.721Z age_min=0 source=ble
+desk_written_at=2026-10-03T02:33:07-10:00
+Delta 2 SOC_percent=4.41 measured_at=2026-10-03T12:33:02.599Z age_min=0 source=ble
 Delta 2 solar_input_w=0.0
-Delta 2 ac_output_w=36.0
+Delta 2 ac_output_w=44.0
 Delta 2 ac_input_w=0.0
-Delta 2 usbc_output_w=34.0
+Delta 2 usbc_output_w=37.0
 Delta 2 charge_source=none
-River 2 Pro SOC_percent=99.0 measured_at=2026-10-03T11:35:55.080Z age_min=55 source=cloud
+River 2 Pro SOC_percent=99.0 measured_at=2026-10-03T11:35:55.080Z age_min=57 source=cloud
 River 2 Pro solar_input_w=0.0
 River 2 Pro ac_output_w=0.0
 River 2 Pro ac_input_w=0.0
