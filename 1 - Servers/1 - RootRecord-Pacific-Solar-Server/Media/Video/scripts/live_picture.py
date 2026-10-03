@@ -497,8 +497,33 @@ def publish(frame: Image.Image, when: datetime) -> str:  # info: def publish
 
 
 # ====================================================
+# SECTION: function _desk_context
+# What it does: Load network/ops/moon/quake inputs for the desk still.
+# Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
+# ====================================================
+def _desk_context() -> tuple[dict | None, dict, dict, dict]:  # info: def _desk_context
+    start = (datetime.now(timezone.utc) - timedelta(days=14)).strftime("%Y-%m-%dT%H:%M:%S")  # info: set start
+    hi_url = USGS + f"?format=geojson&minmagnitude=2.5&minlatitude=18.5&maxlatitude=22.5&minlongitude=-160.5&maxlongitude=-154.5&starttime={start}"  # info: set hi_url
+    gl_url = USGS + f"?format=geojson&minmagnitude=2.5&starttime={start}"  # info: set gl_url
+    state = _get(API + "/api/state")  # info: set state
+    ops = _get(API + "/api/operations") or {}  # info: set ops
+    moon_path = Path("/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Weather/moon/moon_current.json")  # info: set moon_path
+    if not moon_path.is_file():  # info: drain legacy Energy path
+        moon_path = Path("/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Energy/moon/moon-last.json")  # info: legacy
+    try:  # info: try
+        saved = json.loads(moon_path.read_text(encoding="utf-8"))  # info: set saved
+        if isinstance(saved, dict) and saved.get("phase_name"):  # info: if a saved moon name is on file
+            ops.setdefault("moon", {})["status"] = saved  # info: use the saved moon
+    except (OSError, ValueError):  # info: except
+        pass  # info: pass
+    hi = _quake_change((_get(hi_url) or {}).get("features") or [])  # info: set hi
+    world = _quake_change((_get(gl_url, 40) or {}).get("features") or [])  # info: set world
+    return state, ops, hi, world  # info: return state , ops , hi , world
+
+
+# ====================================================
 # SECTION: function _energy_still
-# What it does: Fast YouTube thumb from live BLE gauges only — no USGS, no API. For the 1-min ML1 push.
+# What it does: Full desk still for the 1-min ML1 push — network/site/quakes filled; packs BLE-only.
 # Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
 # ====================================================
 def _energy_still() -> int:  # info: def _energy_still
@@ -506,9 +531,9 @@ def _energy_still() -> int:  # info: def _energy_still
     if not BG.is_file():  # info: if not BG . is_file
         print(json.dumps({"ok": False, "detail": "background missing"}))  # info: print missing
         return 1  # info: return 1
-    empty = {"day": "—", "week": "—", "day_pct": None, "week_pct": None}  # info: quake slots unused this pass
+    state, ops, hi, world = _desk_context()  # info: same panels as the full still
     shown = air_time(datetime.now(HST))  # info: same lead minute the on-air clock shows
-    frame = render(None, {}, empty, empty, shown)  # info: BLE gauges only; side cards stay blank
+    frame = render(state, ops, hi, world, shown)  # info: full overlay; packs stay BLE-only
     detail = publish(frame, datetime.now(HST))  # info: ssh/scp thumb + clock
     print(json.dumps({"ok": True, "detail": detail, "mode": "energy", "path": str(OUT), "size": list(frame.size)}))  # info: print
     return 0  # info: return 0
@@ -528,22 +553,7 @@ def main() -> int:  # info: def main
     if not BG.is_file():  # info: if not BG . is_file
         print(json.dumps({"ok": False, "detail": "background missing"}))  # info: print missing
         return 1  # info: return 1
-    start = (datetime.now(timezone.utc) - timedelta(days=14)).strftime("%Y-%m-%dT%H:%M:%S")  # info: set start
-    hi_url = USGS + f"?format=geojson&minmagnitude=2.5&minlatitude=18.5&maxlatitude=22.5&minlongitude=-160.5&maxlongitude=-154.5&starttime={start}"  # info: set hi_url
-    gl_url = USGS + f"?format=geojson&minmagnitude=2.5&starttime={start}"  # info: set gl_url
-    state = _get(API + "/api/state")  # info: set state
-    ops = _get(API + "/api/operations") or {}  # info: set ops
-    moon_path = Path("/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Weather/moon/moon_current.json")  # info: set moon_path
-    if not moon_path.is_file():  # info: drain legacy Energy path
-        moon_path = Path("/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Energy/moon/moon-last.json")  # info: legacy
-    try:  # info: try
-        saved = json.loads(moon_path.read_text(encoding="utf-8"))  # info: set saved
-        if isinstance(saved, dict) and saved.get("phase_name"):  # info: if a saved moon name is on file
-            ops.setdefault("moon", {})["status"] = saved  # info: use the saved moon
-    except (OSError, ValueError):  # info: except
-        pass  # info: pass
-    hi = _quake_change((_get(hi_url) or {}).get("features") or [])  # info: set hi
-    world = _quake_change((_get(gl_url, 40) or {}).get("features") or [])  # info: set world
+    state, ops, hi, world = _desk_context()  # info: set state , ops , hi , world
     shown = air_time(datetime.now(HST))  # info: same lead minute the on-air clock shows
     frame = render(state, ops, hi, world, shown)  # info: set frame
     detail = publish(frame, datetime.now(HST))  # info: publish uses wall clock for lead math
