@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-03T04:14:36-10:00",
+  "at": "2026-10-03T04:04:46-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii_current ids",
-  "count": 37,
-  "count_m2": 37,
-  "count_m25": 37,
+  "count": 36,
+  "count_m2": 36,
+  "count_m25": 36,
   "largest": {
     "id": "us6000tz62",
     "mag": 5.8,
@@ -14,7 +14,7 @@
     "time_hst": "2026-10-02T06:34:41.010000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-03T14:14:19+00:00",
+  "usgs_generated_utc": "2026-10-03T14:04:19+00:00",
   "events": [
     {
       "id": "uu80158431",
@@ -434,22 +434,6 @@
       "tsunami": 0,
       "type": "earthquake",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz8l",
-      "nearest": null
-    },
-    {
-      "id": "us6000tz8f",
-      "mag": 4.5,
-      "mag_type": "mb",
-      "place": "86 km E of Noda, Japan",
-      "time_utc": "2026-10-02T20:34:56.862000+00:00",
-      "time_hst": "2026-10-02T10:34:56.862000-10:00",
-      "lon": 142.8232,
-      "lat": 40.0341,
-      "depth_km": 49.952,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz8f",
       "nearest": null
     },
     {
