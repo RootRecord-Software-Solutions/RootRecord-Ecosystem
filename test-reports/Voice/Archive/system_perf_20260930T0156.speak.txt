@@ -1,1 +1,0 @@
-System performance report. Host desk at one fifty six a.m. Hawaii Standard Time. processor 2 percent. Memory 66 percent used, 9.3 of 14.2 gigabytes. Disk 56 percent used. Host battery 100 percent, on AC. Uptime 0 hours 47 minutes. End of system report.

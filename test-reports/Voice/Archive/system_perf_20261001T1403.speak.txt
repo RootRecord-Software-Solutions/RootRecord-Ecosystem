@@ -1,1 +1,0 @@
-System performance report. Report generated at two oh three p.m. processor 32 percent. Memory 76 percent used, 10.7 of 14.2 gigabytes. Disk 32 percent used. Host battery 95 percent, on AC. Uptime 5 hours 9 minutes. Temperature 63.0 degrees Celsius. Integrated graphics 31.0 percent. neural processor 0.0 percent, present. End of system report.

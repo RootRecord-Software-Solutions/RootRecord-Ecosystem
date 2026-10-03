@@ -1,1 +1,0 @@
-Energy desk report. Delta 2 battery 22 percent, solar input zero watts, output zero watts. Delta 2 is out of range. River 2 Pro battery 14 percent, solar input zero watts, output 114 watts.

@@ -1,1 +1,0 @@
-System performance report. Host desk at eleven p.m. Hawaii Standard Time. processor 17 percent. Memory 49 percent used, 7.0 of 14.2 gigabytes. Disk 30 percent used. Host battery 100 percent, on AC. Uptime 0 hours 12 minutes. Temperature 42.0 degrees Celsius. Integrated graphics 2.0 percent. neural processor 0.0 percent, present. End of system report.
