@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "report_id": "rpt_db8d81a6908453aa6967",
+      "id": "bandwidth_desk",
+      "file": "bandwidth_desk_current.wav",
+      "window_start": "2026-10-02T14:00:00-10:00",
+      "window_end": "2026-10-02T15:00:00-10:00",
+      "priority": 0,
+      "status": "assets_ready",
+      "publication": "not_configured"
+    },
+    {
+      "report_id": "rpt_f412b2af7bb582aff675",
+      "id": "security_desk",
+      "file": "security_desk_current.wav",
+      "window_start": "2026-10-02T14:00:00-10:00",
+      "window_end": "2026-10-02T15:00:00-10:00",
+      "priority": 0,
+      "status": "assets_ready",
+      "publication": "not_configured"
+    }
+  ]
+}

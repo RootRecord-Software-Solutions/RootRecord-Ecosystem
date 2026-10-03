@@ -6160,7 +6160,7 @@
         {
           "publisher": "ABC News Australia",
           "source": "ABC News Australia Top Stories",
-          "title": "Inside Australia's biggest stock market float since Telstra as Firmus releases IPO",
+          "title": "Data centre operator Firmus about to float as its owner tries to shed jailbird image",
           "url": "https://www.abc.net.au/news/2026-10-03/the-incredible-story-of-oliver-curtis/107222356",
           "published_at": "2026-10-02T18:59:38Z"
         }
@@ -6336,7 +6336,7 @@
         {
           "publisher": "ABC News Australia",
           "source": "ABC News Australia Top Stories",
-          "title": "A 'bent' syringe and a closed curtain: Inside Christa Pike's botched US execution",
+          "title": "A 'bent' syringe, a closed curtain: Inside Christa Pike's botched US execution",
           "url": "https://www.abc.net.au/news/2026-10-03/christa-pike-botched-execution-timeline/107221564",
           "published_at": "2026-10-02T19:27:50Z"
         }
@@ -6415,7 +6415,7 @@
         {
           "publisher": "ABC News Australia",
           "source": "ABC News Australia Top Stories",
-          "title": "The 'fantasy' underpinning Australia's rosy power supply forecasts",
+          "title": "Australia's power supply forecasts have never been rosier. Experts are worried",
           "url": "https://www.abc.net.au/news/2026-10-03/aemo-under-fire-over-rose-tinted-power-reliability-forecasts/107189716",
           "published_at": "2026-10-02T19:51:50Z"
         }
@@ -7548,6 +7548,24 @@
           "title": "DLNR News Release \u2013 LAUNCH RAMP AT PORT ALLEN SMALL BOAT HARBOR REOPENS OCTOBER 2",
           "url": "https://governor.hawaii.gov/main/dlnr-news-release-launch-ramp-at-port-allen-small-boat-harbor-reopens-october-2/",
           "published_at": "2026-10-02T23:43:25Z"
+        }
+      ]
+    },
+    {
+      "id": "8a871a5f5b3da6a8",
+      "cluster_id": "c_02f51c86a03e5d14",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_02f51c86a03e5d14.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_02f51c86a03e5d14.speak.txt",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "source": "The Guardian International",
+          "title": "Cyclospora found at Mexican farm linked to lettuce outbreak, FDA says",
+          "url": "https://www.theguardian.com/us-news/2026/oct/02/cyclospora-mexico-farm-lettuce",
+          "published_at": "2026-10-03T00:27:28Z"
         }
       ]
     }
