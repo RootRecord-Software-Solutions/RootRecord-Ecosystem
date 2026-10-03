@@ -21,9 +21,9 @@ from pathlib import Path  # info: from pathlib import Path
 from zoneinfo import ZoneInfo  # info: from zoneinfo import ZoneInfo
 
 from common import DB, PACIFIC, iso, parse_iso, utc_now  # info: from common import DB , PACIFIC , iso , parse_iso , utc_now
-from pipeline import _publisher, poll_feed, speak_body  # info: from pipeline import _publisher , poll_feed , speak_body
+from pipeline import _publisher, nhc_spoken, nhc_story, poll_feed, speak_body  # info: from pipeline import _publisher , nhc_spoken , nhc_story , poll_feed , speak_body
 from registry import configured_on  # info: from registry import configured_on
-from stories import barred, sports, violent  # info: from stories import barred , sports , violent
+from stories import barred, deadline, sports, violent  # info: from stories import barred , deadline , sports , violent
 
 HST = ZoneInfo("Pacific/Honolulu")  # info: set HST
 RANK = {"urgent": 4, "high": 3, "normal": 2, "low": 1}  # info: set RANK
@@ -98,6 +98,12 @@ def _recent(story: dict, now: datetime, hours: float) -> bool:  # info: def _rec
 # Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
 # ====================================================
 def _line(story: dict, registry: dict) -> str:  # info: def _line
+    if nhc_story(story):  # info: if nhc story
+        text = nhc_spoken(story.get("title") or "", story.get("summary") or "")  # info: set text
+        if not text:  # info: if not text
+            return ""  # info: return empty
+        spoken = _publisher(story.get("provider") or "", registry["policy"])  # info: set spoken
+        return f"{spoken} reports that {text}"  # info: return hurricane sentence
     spoken = _publisher(story.get("provider") or "", registry["policy"])  # info: set spoken
     body = speak_body(story.get("title") or "", story.get("summary") or "", registry["policy"])  # info: set body
     line = f"{spoken} reports that {story.get('title') or 'an update'}."  # info: set line
@@ -132,6 +138,8 @@ def _take(stories: list[dict], categories: list, budget: int, registry: dict, se
         if not key or key in seen:  # info: if not key or key in seen :
             continue  # info: continue
         line = _line(story, registry)  # info: set line
+        if not line:  # info: if not line
+            continue  # info: continue
         count = _words(line)  # info: set count
         if used and used + count > budget:  # info: if used and used + count > budget :
             continue  # info: continue
@@ -181,7 +189,7 @@ def build_update(stories: list[dict], registry: dict, when: datetime) -> dict:  
     backfill_hours = float(cfg.get("backfill_hours") or 36)  # info: set backfill_hours
     desk_words = int(cfg.get("desk_words") or 150)  # info: set desk_words
     target = int(cfg.get("target_words") or 3500)  # info: set target
-    stories = [story for story in stories if not sports({}, story, registry) and not violent({}, story, registry) and not barred({}, story, registry)]  # info: set stories
+    stories = [story for story in stories if not sports({}, story, registry) and not violent({}, story, registry) and not barred({}, story, registry) and not deadline({}, story, registry)]  # info: set stories
     fresh = [story for story in stories if _recent(story, now, fresh_hours)]  # info: set fresh
     older = [story for story in stories if _recent(story, now, backfill_hours)]  # info: set older
     desks = [desk for desk in (cfg.get("desks") or []) if isinstance(desk, dict)]  # info: set desks
@@ -468,7 +476,7 @@ def news_hour(registry: dict, conn, speak: bool = False, root: Path | None = Non
     stories = []  # info: set stories
     blocked_ids = []  # info: set blocked_ids
     for story in loaded:  # info: for story in loaded
-        if violent({}, story, registry) or sports({}, story, registry) or barred({}, story, registry):  # info: if violent or sports or barred
+        if violent({}, story, registry) or sports({}, story, registry) or barred({}, story, registry) or deadline({}, story, registry) or (nhc_story(story) and not nhc_spoken(story.get("title") or "", story.get("summary") or "")):  # info: if violent or sports or barred or deadline or raw hurricane product
             blocked_ids.append(story.get("id") or "")  # info: blocked_ids . append
             continue  # info: continue
         stories.append(story)  # info: stories . append

@@ -31,7 +31,7 @@ from store import (  # info: from store import (
     write_raw,  # info: write_raw ,
     write_story,  # info: write_story ,
 )  # info: )
-from stories import barred, fresh, normalize, same_event, sports, violent  # info: from stories import barred , fresh , normalize , same_event , sports , violent
+from stories import barred, deadline, fresh, normalize, same_event, sports, violent  # info: from stories import barred , deadline , fresh , normalize , same_event , sports , violent
 
 WEIGHT = {"urgent": 4, "high": 3, "normal": 2, "low": 1}  # info: set WEIGHT
 SENTENCE = re.compile(r"(?<=[.!?])\s+")  # info: set SENTENCE
@@ -282,11 +282,14 @@ def nhc_spoken(title: str, summary: str) -> str:  # info: def nhc_spoken
     if "public advisory" not in low_title:  # info: if not the public advisory
         return ""  # info: return empty
     parts = []  # info: set parts
-    headline = re.search(r"\.\.\.(.+?)\.\.\.", summary or "")  # info: set headline
+    headline = ""  # info: set headline
+    for match in re.finditer(r"\.\.\.([A-Za-z][A-Za-z '\-]{15,}?)\.\.\.", summary or ""):  # info: for match in headlines
+        line = " ".join(match.group(1).split()).strip(" .")  # info: set line
+        junk = any(word in line.upper() for word in ("LOCATION", "INFORMATION", "SUMMARY", "WATCHES", "MAXIMUM"))  # info: set junk
+        if line and not junk and "--" not in line and not any(ch.isdigit() for ch in line) and len(line) > len(headline):  # info: if a word headline
+            headline = line  # info: set headline
     if headline:  # info: if headline
-        line = " ".join(headline.group(1).split()).strip(" .")  # info: set line
-        if line:  # info: if line
-            parts.append(line[:1].upper() + line[1:].lower() + ".")  # info: parts . append headline
+        parts.append(headline[:1].upper() + headline[1:].lower() + ".")  # info: parts . append headline
     place = re.search(  # info: set place
         r"ABOUT\s+(\d+)\s+MI(?:\.\.\.\d+\s+KM)?\s+([NSEW]{1,3})\s+OF\s+(?:THE\s+)?(.+?)(?=\s+MAXIMUM|\s+PRESENT|\s+MINIMUM|\s+WATCHES|$)",  # info: place pattern
         summary or "",  # info: summary
@@ -303,10 +306,8 @@ def nhc_spoken(title: str, summary: str) -> str:  # info: def nhc_spoken
     if move:  # info: if move
         direction = _NHC_DIR.get(move.group(1).upper(), move.group(1).lower())  # info: set direction
         parts.append(f"It is moving {direction} at {move.group(2)} miles per hour.")  # info: parts . append movement
-    spoken = " ".join(parts)  # info: set spoken
-    if re.search(r"\b(latitude|longitude)\b|\d+\.\d+", spoken, re.I):  # info: if coordinates leaked
-        return ""  # info: return empty
-    return spoken  # info: return spoken
+    kept = [part for part in parts if not re.search(r"\b(latitude|longitude)\b|\d+\.\d+", part, re.I)]  # info: set kept
+    return " ".join(kept)  # info: return kept
 
 
 # ====================================================
@@ -372,6 +373,12 @@ def script_for(cluster: dict, stories: list[dict], registry: dict) -> tuple[str,
         spoken = _publisher(story.get("provider") or "", policy)  # info: set spoken
         if spoken not in names:  # info: if spoken not in names :
             names.append(spoken)  # info: names . append ( spoken )
+        if nhc_story(story):  # info: if nhc story
+            text = nhc_spoken(story.get("title") or "", story.get("summary") or "")  # info: set text
+            if not text:  # info: if not text
+                continue  # info: continue
+            lines.append(f"{spoken} reports that {text}")  # info: lines . append hurricane sentence
+            continue  # info: continue
         body = speak_body(story.get("title") or "", story.get("summary") or "", policy)  # info: set body
         sentence = f"{spoken} reports that {story['title']}."  # info: set sentence
         if body:  # info: if body
@@ -403,8 +410,8 @@ def compose(registry: dict, conn, root: Path | None = None) -> list[str]:  # inf
     clusters = conn.execute("SELECT * FROM clusters WHERE status='new'").fetchall()  # info: set clusters
     for cluster in clusters:  # info: for cluster in clusters
         stories = [dict(row) for row in conn.execute("SELECT * FROM stories WHERE cluster_id=? AND status='new' ORDER BY published_at", (cluster["id"],))]  # info: set stories
-        kept = [row for row in stories if not sports({}, row, registry) and not violent({}, row, registry) and not barred({}, row, registry)]  # info: set kept
-        dropped = [row for row in stories if sports({}, row, registry) or violent({}, row, registry) or barred({}, row, registry)]  # info: set dropped
+        kept = [row for row in stories if not sports({}, row, registry) and not violent({}, row, registry) and not barred({}, row, registry) and not deadline({}, row, registry)]  # info: set kept
+        dropped = [row for row in stories if sports({}, row, registry) or violent({}, row, registry) or barred({}, row, registry) or deadline({}, row, registry)]  # info: set dropped
         if dropped:  # info: if dropped :
             stamp = iso(utc_now())  # info: set stamp
             for row in dropped:  # info: for row in dropped
