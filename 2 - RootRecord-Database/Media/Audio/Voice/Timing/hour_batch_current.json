@@ -1,0 +1,59 @@
+{
+  "at": "2026-10-03T00:28:30-10:00",
+  "ok": true,
+  "wall_seconds": 516.6,
+  "passed": 14,
+  "failed": 0,
+  "count": 14,
+  "per_report_seconds": {
+    "boot_brief": 43.7,
+    "official_weather": 156.0,
+    "nws_weather": 31.5,
+    "current_report": 52.7,
+    "hourly_chime": 5.8,
+    "solar_desk": 12.9,
+    "remaining_tasks": 11.3,
+    "system_perf": 15.3,
+    "earthquake_report": 11.9,
+    "hurricane_desk": 13.8,
+    "kilauea_report": 20.8,
+    "kilauea_image_check": 119.5,
+    "security_desk": 11.7,
+    "bandwidth_desk": 9.7
+  },
+  "averages": {
+    "at": "2026-10-03T00:28:30-10:00",
+    "runs": 1,
+    "cushion_minutes": 3.0,
+    "wall_seconds": {
+      "avg": 516.6,
+      "median": 516.6,
+      "p95": 516.6,
+      "min": 516.6,
+      "max": 516.6,
+      "last": 516.6
+    },
+    "per_report_avg_seconds": {
+      "bandwidth_desk": 9.7,
+      "boot_brief": 43.7,
+      "current_report": 52.7,
+      "earthquake_report": 11.9,
+      "hourly_chime": 5.8,
+      "hurricane_desk": 13.8,
+      "kilauea_image_check": 119.5,
+      "kilauea_report": 20.8,
+      "nws_weather": 31.5,
+      "official_weather": 156.0,
+      "remaining_tasks": 11.3,
+      "security_desk": 11.7,
+      "solar_desk": 12.9,
+      "system_perf": 15.3
+    },
+    "suggested_lead_minutes_before_55": 12,
+    "suggested_start_minute": 43
+  },
+  "paths": {
+    "history": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Timing/hour_batch_history.jsonl",
+    "averages": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Timing/hour_batch_averages.json"
+  }
+}

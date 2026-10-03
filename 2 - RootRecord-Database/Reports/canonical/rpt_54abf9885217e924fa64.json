@@ -10,7 +10,7 @@
   "timezone": "Pacific/Honolulu",
   "status": "assets_ready",
   "created_at": "2026-10-03T00:22:33-10:00",
-  "generated_at": "2026-10-03T00:22:33-10:00",
+  "generated_at": "2026-10-03T00:28:23-10:00",
   "published_at": "",
   "generator": "voice_build",
   "provider": "voice_build",
@@ -21,12 +21,12 @@
   "sections": [
     {
       "heading": "Report",
-      "text": "# Bandwidth desk — 2026-10-03T00:22:23-10:00\n\n## Host link\n\n- iface: wlo1 (wireless)\n- last hour: None\n- last 24 h: None\n\n## Site traffic (Mainland analytics)\n\n- Mainland site analytics: not on file\n\n_Not enough host samples yet (needs samples covering 45 min; run `host_desks.py net-sample` every 5 min)._"
+      "text": "# Bandwidth desk — 2026-10-03T00:28:14-10:00\n\n## Host link\n\n- iface: wlo1 (wireless)\n- last hour: None\n- last 24 h: None\n\n## Site traffic (Mainland analytics)\n\n- Mainland site analytics: not on file\n\n_Not enough host samples yet (needs samples covering 45 min; run `host_desks.py net-sample` every 5 min)._"
     }
   ],
   "spoken": [
     "Bandwidth desk.",
-    "Report generated at twelve twenty two a.m.",
+    "Report generated at twelve twenty eight a.m.",
     "This host is on wireless.",
     "Bandwidth data is not on file yet.",
     "Mainland site analytics are not on file yet."
@@ -37,7 +37,7 @@
   "assets": [
     {
       "kind": "text",
-      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/bandwidth_desk_current.md",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/bandwidth_desk_current.md",
       "report_id": "rpt_54abf9885217e924fa64"
     },
     {
@@ -49,7 +49,7 @@
   "stages": {
     "text": {
       "status": "ready",
-      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/bandwidth_desk_current.md",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/bandwidth_desk_current.md",
       "error": "",
       "retry": 0
     },
