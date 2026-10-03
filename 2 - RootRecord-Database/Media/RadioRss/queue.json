@@ -7293,7 +7293,7 @@
         {
           "publisher": "ABC News Australia",
           "source": "ABC News Australia Top Stories",
-          "title": "'It breaks you': Friend of stabbed pilot speaks out",
+          "title": "'It breaks you': Friend of stabbed hero pilot speaks out",
           "url": "https://www.abc.net.au/news/2026-10-03/captain-smit-machchhar-friend-pilot-tells-of-shock-and-relief/107223014",
           "published_at": "2026-10-02T23:27:22Z"
         }
@@ -7368,6 +7368,132 @@
           "title": "\u2018We want action\u2019: Fijian climate activist sends message ahead of UN talks in Pacific",
           "url": "https://www.theguardian.com/world/2026/oct/03/we-want-action-fijian-climate-activist-sends-message-ahead-of-un-talks-in-pacific",
           "published_at": "2026-10-02T23:30:43Z"
+        }
+      ]
+    },
+    {
+      "id": "6ce3cf0f9ce50a64",
+      "cluster_id": "c_07b54b8bb2defa82",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_07b54b8bb2defa82.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_07b54b8bb2defa82.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Iran war live: Fighting intensifies in Yemen, hundreds killed or injured",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/3/iran-war-live-fighting-intensifies-in-yemen-hundreds-killed-or-injured?traffic_source=rss",
+          "published_at": "2026-10-03T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "22fad134fcc3496b",
+      "cluster_id": "c_777175e9b8949ad1",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_777175e9b8949ad1.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_777175e9b8949ad1.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "North Korea fires ballistic missile towards the sea, South Korea says",
+          "url": "https://www.aljazeera.com/news/2026/10/2/north-korea-fires-ballistic-missile-towards-the-sea-south-korea-says?traffic_source=rss",
+          "published_at": "2026-10-02T23:55:24Z"
+        }
+      ]
+    },
+    {
+      "id": "3ae185421be75845",
+      "cluster_id": "c_41f46f19208233ae",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_41f46f19208233ae.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_41f46f19208233ae.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Africa",
+          "title": "The South African men trying to end violence against women: 'Every man needs to play a part'",
+          "url": "https://www.bbc.co.uk/news/articles/cm3eqegwpzl4o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T23:56:21Z"
+        }
+      ]
+    },
+    {
+      "id": "be83ad3506b25f53",
+      "cluster_id": "c_aa496566cf8e130f",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_aa496566cf8e130f.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_aa496566cf8e130f.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC Asia",
+          "title": "The vanishing world of India's street magicians",
+          "url": "https://www.bbc.co.uk/news/articles/ck7v4v8pmzdeo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T22:59:05Z"
+        }
+      ]
+    },
+    {
+      "id": "93865f44787d2df4",
+      "cluster_id": "c_3123f5adb431f02c",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_3123f5adb431f02c.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_3123f5adb431f02c.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "Cornell frat house rape accuser 'under siege' online, says lawyer",
+          "url": "https://www.bbc.co.uk/news/articles/c6ly0ljypzrdo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T23:53:35Z"
+        }
+      ]
+    },
+    {
+      "id": "55b6c06a94f1802f",
+      "cluster_id": "c_4e70e259a8031d15",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_4e70e259a8031d15.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_4e70e259a8031d15.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "US road rage killer's sentence quashed because AI video of victim was shown in court",
+          "url": "https://www.bbc.co.uk/news/articles/cwgkvygg5nzvo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T23:06:00Z"
+        }
+      ]
+    },
+    {
+      "id": "259f17fd8f656204",
+      "cluster_id": "c_6b9af82aa81b194b",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_6b9af82aa81b194b.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_6b9af82aa81b194b.speak.txt",
+      "sources": [
+        {
+          "publisher": "BBC",
+          "source": "BBC World",
+          "title": "Women given shorts at Oktoberfest to prevent upskirting",
+          "url": "https://www.bbc.co.uk/news/articles/cjwyzyqvx1zxo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T23:16:03Z"
         }
       ]
     }
