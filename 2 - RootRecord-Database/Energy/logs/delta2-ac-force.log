@@ -7,3 +7,7 @@
 2026-10-02T23:29:00-1000 delta2-ac-force: no-op ble_ac_already_on ble_age=40s ac_out=39.0 sight_age=43s
 2026-10-02T23:29:47-1000 delta2-ac-force: run ac_on reason=in_range ble_age=41s ac_ports=null sight=1 sight_age=90s
 2026-10-02T23:29:47-1000 delta2-ac-force: fail ac_on_exit=1
+2026-10-02T23:30:32-1000 delta2-ac-force: run ac_on reason=in_range ble_age=86s ac_ports=null sight=1 sight_age=135s
+2026-10-02T23:30:32-1000 delta2-ac-force: fail ac_on_exit=1
+2026-10-02T23:31:18-1000 delta2-ac-force: run ac_on reason=in_range ble_age=132s ac_ports=null sight=1 sight_age=181s
+2026-10-02T23:31:18-1000 delta2-ac-force: fail ac_on_exit=1
