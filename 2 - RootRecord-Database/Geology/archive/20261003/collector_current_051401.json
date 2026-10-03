@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "at": "2026-10-03T05:13:13-10:00",
+  "at": "2026-10-03T05:03:23-10:00",
   "what": "all",
   "dry_run": false,
   "sources": {
@@ -9,26 +9,26 @@
       "count": 20,
       "new": 0,
       "new_m2": 0,
-      "ms": 417
+      "ms": 105
     },
     "global": {
       "ok": true,
-      "count": 35,
+      "count": 36,
       "new": 0,
-      "ms": 22
+      "ms": 24
     },
     "hvo_notices": {
       "ok": true,
       "count": 47,
       "new": 0,
-      "ms": 640
+      "ms": 643
     },
     "hvo_status": {
       "ok": true,
       "volcanoes": 8,
       "kilauea": "WATCH",
       "mauna_loa": "NORMAL",
-      "ms": 388
+      "ms": 387
     }
   },
   "collector": "ml2.geology"
