@@ -1470,6 +1470,9 @@ def b_solar_desk(t: datetime):  # info: def b_solar_desk
             sp.append(f"Solar panel still is {still['age_min']} {unit} old.")  # info: sp . append ( f" Solar panel still is { still
         else:  # info: else :
             extra.append(f"- Solar panel still: current (`{name}`)")  # info: extra . append ( f" - Solar panel still: current ( ` { name } ` ) " )
+    else:  # info: else :
+        extra.append("- Solar panel still: not on file")  # info: extra . append ( "- Solar panel still: not on file" )
+        sp.append("No solar panel still on file.")  # info: sp . append ( "No solar panel still on file." )
     if str(PACIFIC) not in sys.path:  # info: if str ( PACIFIC ) not in sys . path
         sys.path.insert(0, str(PACIFIC))  # info: sys . path . insert ( 0 , str ( PACIFIC ) )
     from Energy.db.report_json import REPORT_JSON, period_lines  # info: from Energy . db . report_json import REPORT_JSON
@@ -1479,9 +1482,6 @@ def b_solar_desk(t: datetime):  # info: def b_solar_desk
         periods = []  # info: set periods
     for line in periods:  # info: for line in periods
         extra.append(f"- {line}")  # info: extra . append the closed window
-    else:  # info: else :
-        extra.append("- Solar panel still: not on file")  # info: extra . append ( "- Solar panel still: not on file" )
-        sp.append("No solar panel still on file.")  # info: sp . append ( "No solar panel still on file." )
     camera_observation(t)  # info: refresh this hour's ch1 look (was energy_report)
     look = last_camera_look(t)  # info: set look
     sentence = str(look.get("sentence") or "")  # info: set sentence

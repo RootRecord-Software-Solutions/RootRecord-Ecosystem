@@ -1,0 +1,30 @@
+{
+  "updated_at": "2026-10-03T08:40:14.888812Z",
+  "source": "Energy/layers",
+  "windows": {
+    "hour": {
+      "layer": "1hour",
+      "period_start": null,
+      "period_end": null,
+      "packs": []
+    },
+    "day": {
+      "layer": "day",
+      "period_start": null,
+      "period_end": null,
+      "packs": []
+    },
+    "week": {
+      "layer": "7days",
+      "period_start": null,
+      "period_end": null,
+      "packs": []
+    },
+    "month": {
+      "layer": "month",
+      "period_start": null,
+      "period_end": null,
+      "packs": []
+    }
+  }
+}
