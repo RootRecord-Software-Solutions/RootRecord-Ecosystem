@@ -6400,6 +6400,13 @@
           "title": "G7 to release 100 million barrels of oil in bid to curb soaring prices",
           "url": "https://www.abc.net.au/news/2026-10-03/g7-to-release-100m-barrels-oil-in-bid-to-curb-soaring-prices/107224282",
           "published_at": "2026-10-02T19:50:53Z"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "G7 to release 100 million barrels of oil and diesel, will it curb prices?",
+          "url": "https://www.aljazeera.com/news/2026/10/3/g7-to-release-100-million-barrels-of-oil-and-diesel-will-it-curb-prices?traffic_source=rss",
+          "published_at": "2026-10-03T09:27:38Z"
         }
       ]
     },
@@ -8853,6 +8860,24 @@
           "title": "De Minaur fights into quarterfinals in China",
           "url": "https://www.abc.net.au/news/2026-10-03/alex-de-minaur-reaches-china-open-quarterfinal/107225360",
           "published_at": "2026-10-03T09:09:10Z"
+        }
+      ]
+    },
+    {
+      "id": "d05d56421e9b41df",
+      "cluster_id": "c_d5a29603ed3ee636",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_d5a29603ed3ee636.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_d5a29603ed3ee636.speak.txt",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "source": "Al Jazeera",
+          "title": "Who is the mystery co-pilot behind the Flydubai attack?",
+          "url": "https://www.aljazeera.com/news/2026/10/3/who-is-the-mystery-co-pilot-behind-the-flydubai-attack?traffic_source=rss",
+          "published_at": "2026-10-03T09:25:31Z"
         }
       ]
     }
