@@ -29,8 +29,8 @@ HOST = os.environ.get("RR_ENERGY_ML1_HOST", "ml1")  # info: set HOST
 REMOTE_JSON = os.environ.get(  # info: set REMOTE_JSON
     "RR_ENERGY_ML1_JSON", "/home/ubuntu/youtube-stills/energy_current.json"  # info: youtube-stills bank
 )  # info: )
-REMOTE_RADIO = os.environ.get(  # info: set REMOTE_RADIO
-    "RR_ENERGY_ML1_RADIO", "/home/ubuntu/rootrecord-radio/state/stage/energy_current.json"  # info: ubuntu-writable stage
+REMOTE_HOME = os.environ.get(  # info: set REMOTE_HOME
+    "RR_ENERGY_ML1_HOME", "/home/ubuntu/energy_current.json"  # info: home copy; not radio state/stage (mixer eats *.json)
 )  # info: )
 REMOTE_LINE = os.environ.get(  # info: set REMOTE_LINE
     "RR_ENERGY_ML1_LINE", "/home/ubuntu/youtube-stills/energy_current.txt"  # info: one-line ENERGY
@@ -177,9 +177,9 @@ def push_json(payload: dict) -> dict:  # info: def push_json
     body = json.dumps(payload, indent=2, sort_keys=True) + "\n"  # info: set body
     line = (payload.get("line") or "") + "\n"  # info: set line
     ok_json = _ssh_write(REMOTE_JSON, body)  # info: set ok_json
-    ok_radio = _ssh_write(REMOTE_RADIO, body)  # info: set ok_radio
+    ok_home = _ssh_write(REMOTE_HOME, body)  # info: set ok_home
     ok_line = _ssh_write(REMOTE_LINE, line)  # info: set ok_line
-    return {"json": ok_json, "radio": ok_radio, "line": ok_line}  # info: return
+    return {"json": ok_json, "home": ok_home, "line": ok_line}  # info: return
 
 
 # ====================================================
@@ -216,7 +216,7 @@ def main() -> int:  # info: def main
     payload = build()  # info: set payload
     files = push_json(payload)  # info: set files
     thumb = push_thumb()  # info: set thumb
-    ok = bool(files.get("json") and files.get("radio"))  # info: set ok
+    ok = bool(files.get("json"))  # info: youtube-stills JSON is the required landing
     print(  # info: call print
         json.dumps(  # info: json . dumps
             {  # info: {
