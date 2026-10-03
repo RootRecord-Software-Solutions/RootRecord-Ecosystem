@@ -71,16 +71,6 @@
       "publication": "not_configured"
     },
     {
-      "report_id": "rpt_72785c1160a1439e2502",
-      "id": "official_weather",
-      "file": "official_weather_current.wav",
-      "window_start": "2026-10-03T00:00:00-10:00",
-      "window_end": "2026-10-03T01:00:00-10:00",
-      "priority": 0,
-      "status": "assets_ready",
-      "publication": "not_configured"
-    },
-    {
       "report_id": "rpt_9744c95a94d899810a03",
       "id": "earthquake_report",
       "file": "earthquake_report_current.wav",

@@ -81,7 +81,6 @@ PUSH_MINUTE = int(os.environ.get("RR_VOICE_HOUR_PUSH_MINUTE", "55"))
 # Hour batch for :55 radio_push (no chime — that stays :00/:30).
 HOUR_REPORTS: list[tuple[str, str, str]] = [
     ("boot_brief", "ava", "voice_reports"),
-    ("official_weather", "ava", "voice_reports"),
     ("nws_weather", "ava", "voice_reports"),
     ("current_report", "ava", "voice_reports"),
     ("solar_desk", "bruce", "voice_reports"),
