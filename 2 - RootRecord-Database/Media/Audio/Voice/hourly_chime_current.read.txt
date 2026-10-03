@@ -1,1 +1,0 @@
-Root Record hourly chime test for ava.
