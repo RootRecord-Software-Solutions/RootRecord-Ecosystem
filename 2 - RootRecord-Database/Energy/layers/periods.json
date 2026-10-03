@@ -1,12 +1,28 @@
 {
-  "updated_at": "2026-10-03T14:11:07.474638Z",
+  "updated_at": "2026-10-03T14:39:52.004777Z",
   "source": "raw samples in each timeframe",
   "windows": {
     "hour": {
       "layer": "1hour",
       "period_start": "2026-10-03T14:00:00.000Z",
       "period_end": "2026-10-03T15:00:00.000Z",
-      "packs": []
+      "packs": [
+        {
+          "alias": "river2pro",
+          "model": "river2pro",
+          "soc_avg": 93.0,
+          "soc_min": 93.0,
+          "soc_max": 93.0,
+          "samples": 2,
+          "solar_w_avg": 0.0,
+          "ac_out_w_avg": 41.0,
+          "ac_in_w_avg": 0.0,
+          "usbc_w_avg": 0.0,
+          "output_w_avg": null,
+          "produced_wh": 0.0,
+          "spent_wh": null
+        }
+      ]
     },
     "day": {
       "layer": "day",
@@ -31,12 +47,12 @@
         {
           "alias": "river2pro",
           "model": "river2pro",
-          "soc_avg": 99.0,
-          "soc_min": 99.0,
+          "soc_avg": 98.37,
+          "soc_min": 93.0,
           "soc_max": 99.0,
-          "samples": 17,
+          "samples": 19,
           "solar_w_avg": 0.0,
-          "ac_out_w_avg": 0.0,
+          "ac_out_w_avg": 4.32,
           "ac_in_w_avg": 0.0,
           "usbc_w_avg": 0.0,
           "output_w_avg": null,
@@ -68,12 +84,12 @@
         {
           "alias": "river2pro",
           "model": "river2pro",
-          "soc_avg": 99.0,
-          "soc_min": 99.0,
+          "soc_avg": 98.37,
+          "soc_min": 93.0,
           "soc_max": 99.0,
-          "samples": 17,
+          "samples": 19,
           "solar_w_avg": 0.0,
-          "ac_out_w_avg": 0.0,
+          "ac_out_w_avg": 4.32,
           "ac_in_w_avg": 0.0,
           "usbc_w_avg": 0.0,
           "output_w_avg": null,
@@ -105,12 +121,12 @@
         {
           "alias": "river2pro",
           "model": "river2pro",
-          "soc_avg": 99.0,
-          "soc_min": 99.0,
+          "soc_avg": 98.37,
+          "soc_min": 93.0,
           "soc_max": 99.0,
-          "samples": 17,
+          "samples": 19,
           "solar_w_avg": 0.0,
-          "ac_out_w_avg": 0.0,
+          "ac_out_w_avg": 4.32,
           "ac_in_w_avg": 0.0,
           "usbc_w_avg": 0.0,
           "output_w_avg": null,
@@ -142,12 +158,12 @@
         {
           "alias": "river2pro",
           "model": "river2pro",
-          "soc_avg": 99.0,
-          "soc_min": 99.0,
+          "soc_avg": 98.37,
+          "soc_min": 93.0,
           "soc_max": 99.0,
-          "samples": 17,
+          "samples": 19,
           "solar_w_avg": 0.0,
-          "ac_out_w_avg": 0.0,
+          "ac_out_w_avg": 4.32,
           "ac_in_w_avg": 0.0,
           "usbc_w_avg": 0.0,
           "output_w_avg": null,
