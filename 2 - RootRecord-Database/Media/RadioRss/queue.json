@@ -7514,6 +7514,42 @@
           "published_at": "2026-10-03T00:00:44Z"
         }
       ]
+    },
+    {
+      "id": "d45e935ed88f8b33",
+      "cluster_id": "c_f6650556786550df",
+      "program": "GLOBAL_NEWS_BRIEF",
+      "report": "global_news_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_f6650556786550df.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/global_news_brief/c_f6650556786550df.speak.txt",
+      "sources": [
+        {
+          "publisher": "ABC News Australia",
+          "source": "ABC News Australia Top Stories",
+          "title": "Breaking: Multiple injuries after car hits crowd of Knights supporters in Newcastle",
+          "url": "https://www.abc.net.au/news/2026-10-03/newcastle-knights-car-crash-wallsend-injuries/107224666",
+          "published_at": "2026-10-03T00:23:10Z"
+        }
+      ]
+    },
+    {
+      "id": "dbaee287908cf10d",
+      "cluster_id": "c_1b48c11e2d4a025a",
+      "program": "HAWAII_BRIEF",
+      "report": "hawaii_brief",
+      "priority": "high",
+      "script": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_1b48c11e2d4a025a.txt",
+      "speak": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss/processed/scripts/hawaii_brief/c_1b48c11e2d4a025a.speak.txt",
+      "sources": [
+        {
+          "publisher": "Office of the Governor of Hawaii",
+          "source": "Hawaii Governor",
+          "title": "DLNR News Release \u2013 LAUNCH RAMP AT PORT ALLEN SMALL BOAT HARBOR REOPENS OCTOBER 2",
+          "url": "https://governor.hawaii.gov/main/dlnr-news-release-launch-ramp-at-port-allen-small-boat-harbor-reopens-october-2/",
+          "published_at": "2026-10-02T23:43:25Z"
+        }
+      ]
     }
   ]
 }
