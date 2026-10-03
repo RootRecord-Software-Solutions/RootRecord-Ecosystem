@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-03T00:49:26-10:00",
+  "at": "2026-10-03T00:39:34-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii_current ids",
-  "count": 37,
-  "count_m2": 37,
-  "count_m25": 37,
+  "count": 36,
+  "count_m2": 36,
+  "count_m25": 36,
   "largest": {
     "id": "us6000tz62",
     "mag": 5.8,
@@ -14,30 +14,8 @@
     "time_hst": "2026-10-02T06:34:41.010000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-03T10:49:19+00:00",
+  "usgs_generated_utc": "2026-10-03T10:39:19+00:00",
   "events": [
-    {
-      "id": "us6000tzc3",
-      "mag": 3.9,
-      "mag_type": "ml",
-      "place": "29 km WNW of Rincón, Puerto Rico",
-      "time_utc": "2026-10-03T10:35:36.138000+00:00",
-      "time_hst": "2026-10-03T00:35:36.138000-10:00",
-      "lon": -67.4859,
-      "lat": 18.4882,
-      "depth_km": 10,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzc3",
-      "nearest": {
-        "location_id": "pr-san-juan",
-        "name": "San Juan",
-        "country_code": "PR",
-        "admin1_code": null,
-        "km": 144.4
-      }
-    },
     {
       "id": "aka2026toserr",
       "mag": 3.2,
