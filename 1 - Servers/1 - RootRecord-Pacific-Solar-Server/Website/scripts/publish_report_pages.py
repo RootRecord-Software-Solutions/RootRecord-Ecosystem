@@ -29,8 +29,8 @@ sys.path.insert(0, str(PACIFIC / "Communications" / "Discord"))  # info: sys . p
 from lib.public_report import TITLES  # noqa: E402
 
 SITE = "https://www.rootrecord.cloud/reports"  # info: set SITE
-VOICE = Path("/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice")  # info: set VOICE
-CURRENT_MD = Path("/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/current_report_current.md")  # info: set CURRENT_MD
+VOICE = Path("/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports")  # info: set VOICE
+CURRENT_MD = Path("/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Reports/current_report_current.md")  # info: set CURRENT_MD
 AREAS = (  # info: set AREAS
     ("Current", ("current_report",)),  # info: current
     ("Field", ("nws_weather", "official_weather", "hurricane_desk", "kilauea_report", "earthquake_report")),  # info: field

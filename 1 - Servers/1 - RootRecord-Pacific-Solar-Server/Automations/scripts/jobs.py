@@ -258,7 +258,7 @@ ONCE_AT_START = [  # info: set ONCE_AT_START
 
 # ====================================================
 # SECTION: EXACT_TIME
-# What it does: :00–:29 is stats, github, and EcoFlow leapfrog. All other hourly work is :30 or later. Voices finish by :55, then one SSH send to ML1.
+# What it does: :00–:29 is stats, github, and EcoFlow leapfrog. All other hourly work is :30 or later. Voice batch at :43; :55 SSH-sends all WAVs to ML1.
 # Edit this block only. Leave this banner in place and update the What-it-does line if the behavior changes.
 # ====================================================
 EXACT_TIME = [  # info: set EXACT_TIME
@@ -278,7 +278,7 @@ EXACT_TIME = [  # info: set EXACT_TIME
     # },
     # --- end TEMPLATE (EXACT_TIME) ---
     # :00–:29 is only sys_stats, github_sync, and the EcoFlow leapfrog. Everything else is :30 or later.
-    # Text/AI then voice generation finish by :55. :55 SSH-sends the WAVs to ML1.
+    # Voice hour batch at :43 (generate_hour_reports.py). :55 radio_push --all → ML1.
     {  # info: {
         # stacks on every 5s slot, all hour.
         "id": "sys_stats_cycle",  # info: "id" : "sys_stats_cycle" ,
