@@ -1,0 +1,24 @@
+{
+  "ok": false,
+  "out": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports",
+  "passed": 0,
+  "failed": 1,
+  "results": [
+    {
+      "report": "boot_brief",
+      "agent": "ava",
+      "how": "voice_reports",
+      "generate": {
+        "ok": true,
+        "rc": 0,
+        "sentences": 8,
+        "voice": {
+          "rc": 1
+        }
+      },
+      "ok": false,
+      "detail": "no_wav_after_generate",
+      "seconds": 4.0
+    }
+  ]
+}
