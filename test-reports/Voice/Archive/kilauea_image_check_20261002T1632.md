@@ -1,15 +1,15 @@
-# Kilauea image check — 2026-10-02T16:58:59-10:00
+# Kilauea image check — 2026-10-02T16:30:05-10:00
 
-- **Cam:** V3 Halemaʻumaʻu lava lake (`v3cam_current.jpg`)
+- **Cam:** V3 Halemaʻumaʻu lava lake (`v3cam-last.jpg`)
 - **Activity:** plume
 - **Fountaining:** `False`
 - **Visible:** Steam and smoke are visible rising from the lava flow.
 - **Photo viewed:** `yes`
-- **Source kind:** `current`
-- **Fetched live this check:** `False`
+- **Source kind:** `live`
+- **Fetched live this check:** `True`
 - **Reference:** lava-fountain-ref.jpg
 - **Model:** gemma4:e4b
-- **At:** 2026-10-02T16:58:59-10:00
+- **At:** 2026-10-02T16:30:05-10:00
 - **Error:** none
 
 ## Spoken

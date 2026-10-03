@@ -121,6 +121,16 @@
       "publication": "not_configured"
     },
     {
+      "report_id": "rpt_7361bda192ff2accc1b0",
+      "id": "kilauea_image_check",
+      "file": "kilauea_image_check_current.wav",
+      "window_start": "2026-10-02T17:00:00-10:00",
+      "window_end": "2026-10-02T17:15:00-10:00",
+      "priority": 0,
+      "status": "assets_ready",
+      "publication": "not_configured"
+    },
+    {
       "report_id": "rpt_8caf72d6cbb729720356",
       "id": "system_perf",
       "file": "system_perf_current.wav",
