@@ -67,3 +67,4 @@
 {"at":"2026-10-03T00:57:21-10:00","key":"system.temp_c","value":54.0}
 {"at":"2026-10-03T00:57:21-10:00","key":"system.gpu_pct","value":0.0}
 {"at":"2026-10-03T00:57:21-10:00","key":"system.npu_pct","value":0.0}
+{"at":"2026-10-03T01:09:49-10:00","key":"nws.alerts","value":0.0}

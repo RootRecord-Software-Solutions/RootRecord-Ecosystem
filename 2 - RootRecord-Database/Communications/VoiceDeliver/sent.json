@@ -2,5 +2,9 @@
   "system_perf": {
     "sha256": "50c01523166d69056152ae607139f3316edcb62e3e7a2948a241d6b9e8f4da48",
     "message_id": 2778
+  },
+  "nws_weather": {
+    "sha256": "531317edcbe22d46a9e3455254a7261e24988cc7ae4fb8d68ce989ed81e66fa0",
+    "message_id": 2780
   }
 }
