@@ -1,0 +1,80 @@
+{
+  "report_id": "rpt_d3ccddccfcfd139d5805",
+  "profile": "legacy",
+  "slug": "nws_weather",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-10-01T09:15:59.034523",
+  "generated_at": "2026-10-01T09:15:59.034523",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# NWS Hawaii — 2026-10-01T09:15:59-10:00\n\n- Alerts source: `api.weather.gov/alerts/active?area=HI` (updated 2026-10-01T19:11:11+00:00)\n- Forecast source: NWS HFO State Forecast (SFP), issued 306 AM HST Thu Oct 1 2026\n\n## Active alerts\n\n- none\n\n## State forecast (first period)\n\nToday: Partly sunny. Windward and mountains, numerous showers. Leeward, scattered showers through the day. Highs 84 to 89. Southeast winds around 15 mph.\n\n_Template report; measured values only._\n"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/nws_weather_20261001T0915.md",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/nws_weather_20261001T0915.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_d3ccddccfcfd139d5805",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/nws_weather_20261001T0915.md",
+    "file_mtime": "2026-10-01T09:15:59.034523",
+    "window_from_file": false
+  }
+}

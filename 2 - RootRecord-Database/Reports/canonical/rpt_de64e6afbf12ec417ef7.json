@@ -1,0 +1,80 @@
+{
+  "report_id": "rpt_de64e6afbf12ec417ef7",
+  "profile": "legacy",
+  "slug": "RootRecord-Checkpoint",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-09-29T04:34:05.220972",
+  "generated_at": "2026-09-29T04:34:05.220972",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# RootRecord Checkpoint — 2026-09-29 04:34 HST\n\n## Checkpoint Purpose\n\nSnapshot of Pacific RootRecord state at **04:34 HST** on **2026-09-29**.\n\nThis checkpoint records what was verified and what remains intentionally deferred. It does not retroactively rewrite earlier logs.\n\n---\n\n## Current State\n\n### Runtime\n\n- Poller: active — `rr-rootserver-poller.service`\n- HTTP listener: 127.0.0.1:8799\n- Poller log: `/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Logs/Automations/automations_current.log`\n- Pretty poller: manual\n\n### Core subsystems\n\n| Subsystem | Status | Notes |\n| --- | --- | --- |\n| System / telemetry | ok | `System/last/host-last.json` sample 04:31 HST |\n| Worklog scan | ok | `Worklog/worklog_current.md` updated 04:06 HST |\n| Ollama | ok | `ollama.service` API up; 0 model(s) resident |\n| EcoFlow BLE | ok | delta2 read 04:31 HST (ble); river2pro read 04:23 HST (ble) |\n| A-EYES | ok | newest still in `Media/Images/` 04:30 HST |\n| Weather | ok | county reports updated 04:30 HST |\n| GitHub sync | ok | last `github_sync_all` line 04:31 HST |\n| Cloudflare tunnel | ok | 1 cloudflared process(es); last tunnel line 03:46 HST: tunnel connected conn=1 edge=lax08 |\n\n### Services (user systemd)\n\n| Unit | State |\n| --- | --- |\n| `rr-rootserver-poller.service` | active |\n| `ava-ecoflow-ble.service` | active |\n| `network-globe-hawaii.service` | active |\n\n---\n\n## Verified this checkpoint\n\n- Host sample 04:31 HST: load1 2.78, CPU 5.0%, MemAvailable 12006 MB\n- delta2 SOC 35.31% at 04:31 HST (ble)\n- river2pro SOC 5.2% at 04:23 HST (ble)\n- System / telemetry: ok — `System/last/host-last.json` sample 04:31 HST\n- Worklog scan: ok — `Worklog/worklog_current.md` updated 04:06 HST\n- Ollama: ok — `ollama.service` API up; 0 model(s) resident\n- EcoFlow BLE: ok — delta2 read 04:31 HST (ble); river2pro read 04:23 HST (ble)\n- A-EYES: ok — newest still in `Media/Images/` 04:30 HST\n- Weather: ok — county reports updated 04:30 HST\n- GitHub sync: ok — last `github_sync_all` line 04:31 HST\n- Cloudflare tunnel: ok — 1 cloudflared process(es); last tunnel line 03:46 HST: tunnel connected conn=1 edge=lax08\n\n---\n\n## Intentionally deferred\n\n- AI processing log and daily report — PROPOSED\n- Restore voice reports — PROPOSED\n- Weather retention and a Weather repo — Retention LANDED / VERIFY PENDING (dry-run only; job disabl…\n- AI specialist models and keyword router — LANDED / gated: 10 `rr-*` specialists + 3 restored `*-teleg…\n\n---\n\n## Blockers\n\n| Blocker | Owner | Next step |\n| --- | --- | --- |\n| Poller restart | Alexander | Sign-off (operator worklog) |\n| sudo: `OLLAMA_KEEP_ALIVE=0` in `ollama.service` | Alexander | Sign-off (operator worklog) |\n| Hardware tests: Energy arm/disarm and AC always-on (actuating) | Alexander | Sign-off (operator worklog) |\n| Enabling voice output or Telegram sends | Alexander | Sign-off (operator worklog) |\n| Removing internal copies after the external-drive backup | Alexander | Sign-off (operator worklog) |\n| Security remediation: camera stills in the public Database repo | Alexander | Sign-off (operator worklog) |\n| External drive `/dev/sda1` (DATABASE) — BLOCKED | Alexander | Sign-off (operator worklog) |\n| G2 retirement of any file (all KEPT). Weather repo decision (PROPOSED, not approved). | Alexander | Sign-off (operator worklog) |\n| Weather retention apply: review `Logs/Weather/Retention/weather-retention_dry-run_2026-09… | Alexander | Sign-off (operator worklog) |\n| Relay replay sends: `relay-inbox-replay.py --send` with `RR_RELAY_REPLIES=1` | Alexander | Sign-off (operator worklog) |\n\n---\n\n## Operating principle at checkpoint\n\nMeasured or explicitly unknown: record what the sources show and change nothing without operator approval.\n\n---\n\n## Checkpoint time\n\n**2026-09-29 04:34 HST**\n\n**Status:** 8 of 8 subsystems ok; poller active; 10 sign-off items open.\n\n---\n\n## Archive note\n\nFilename when saved:\n\n```text\n2026-09-29 RootRecord Checkpoint — 04_34 HST.md\n```\n\nWeekly archive: move checkpoints older than the"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/Archive/RootRecord-Checkpoint_2026-09-29T0434.md",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/Archive/RootRecord-Checkpoint_2026-09-29T0434.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_de64e6afbf12ec417ef7",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/Archive/RootRecord-Checkpoint_2026-09-29T0434.md",
+    "file_mtime": "2026-09-29T04:34:05.220972",
+    "window_from_file": false
+  }
+}

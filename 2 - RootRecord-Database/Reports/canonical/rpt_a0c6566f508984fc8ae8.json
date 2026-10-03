@@ -1,0 +1,85 @@
+{
+  "report_id": "rpt_a0c6566f508984fc8ae8",
+  "profile": "legacy",
+  "slug": "remaining_tasks",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-10-02T01:17:10.780068",
+  "generated_at": "2026-10-02T01:17:10.780068",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# Remaining tasks — 2026-10-02T01:17:10-10:00\n\nAutomated Reports are in active development and is expected to change\n\nSource: report_board.py status (morning 09:00, midday 12:00, late 21:00).\n\n- Morning report 2026-10-02T09:00:00-10:00 pending\n- Midday report 2026-10-02T12:00:00-10:00 pending\n- Late report 2026-10-02T21:00:00-10:00 pending\n"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/remaining_tasks_20261002T0117.md",
+      "report_id": ""
+    },
+    {
+      "kind": "audio",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Archive/remaining_tasks_20261002T0117.wav",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/remaining_tasks_20261002T0117.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Archive/remaining_tasks_20261002T0117.wav",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_a0c6566f508984fc8ae8",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/remaining_tasks_20261002T0117.md",
+    "file_mtime": "2026-10-02T01:17:10.780068",
+    "window_from_file": false
+  }
+}

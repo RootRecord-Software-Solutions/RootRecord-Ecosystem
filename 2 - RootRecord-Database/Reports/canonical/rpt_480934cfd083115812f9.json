@@ -1,0 +1,80 @@
+{
+  "report_id": "rpt_480934cfd083115812f9",
+  "profile": "legacy",
+  "slug": "nws_weather",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-10-01T15:46:38.391693",
+  "generated_at": "2026-10-01T15:46:38.391693",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# NWS Hawaii — 2026-10-01T15:46:38-10:00\n\n- Alerts source: `api.weather.gov/alerts/active?area=HI` (updated 2026-10-02T01:40:24+00:00)\n- Forecast source: NWS HFO State Forecast (SFP), issued 306 AM HST Thu Oct 1 2026\n- Temperatures: NWS HFO Zone Forecast (ZFP), today high and tonight low\n\n## Active alerts\n\n- none\n\n## State forecast (first period)\n\nToday: Partly sunny. Windward and mountains, numerous showers. Leeward, scattered showers through the day. Highs 84 to 89. Southeast winds around 15 mph.\n\n## Temperatures\n\nShore number when the zone also lists an elevation.\n\n- **Honolulu** — high 83 to 88, low around 76\n- **Lihue** — high 77 to 86, low 68 to 77\n- **Kahului** — high 82 to 89, low 71 to 76\n- **Hilo** — high around 82 at the shore, low 67 to 73 at the shore\n- **Kailua-Kona** — high 84 to 89 at the shore, low 69 to 76 at the shore\n## Outlook\n\n**Kauai, Oahu, Maui, Molokai, Lanai**\n\n- Tonight: Partly cloudy. Windward and mountains, numerous showers in the evening, then scattered showers after midnight. Leeward, scattered showers. Lows 73 to 78. East winds around 15 mph.\n- Friday: Partly cloudy. On Kauai, scattered showers. Oahu and Maui County, scattered showers during the day. Isolated showers at night. Highs 84 to 89. Lows 73 to 78. East winds around 15 mph.\n- Saturday: Mostly clear. Windward and mountains, isolated showers during the day, then scattered showers at night. Highs 84 to 89. Lows 72 to 77. Northeast winds around 15 mph.\n- Sunday: Mostly clear. Windward and mountains, scattered showers. Highs 84 to 89. Lows 72 to 77. Northeast winds 15 to 20 mph.\n- Monday: Partly cloudy. Scattered showers windward and mountains. isolated showers leeward. Highs 84 to 89. Lows 72 to 77. Northeast winds around 15 mph.\n\n**Big Island of Hawaii**\n\n- Tonight: Partly cloudy. Windward, scattered showers through the night. Leeward, isolated showers through the night. Lows 72 to 77. Variable winds to 15 mph.\n- Friday: Mostly clear. Isolated showers. Highs 83 to 88. Lows 72 to 77. Northeast winds around 15 mph.\n- Saturday: Windward, partly cloudy, Isolated showers during the day, then scattered showers at night. Leeward, mostly clear. Highs 84 to 89. Lows 71 to 76. Variable winds to 15 mph.\n- Sunday: Windward, partly cloudy, Scattered showers. Leeward, mostly clear, Isolated showers at night. Highs 85 to 90. Lows 71 to 76. Northeast winds around 15 mph.\n- Monday: Windward, mostly cloudy, Scattered showers during the day, then numerous showers at night. Leeward, mostly clear, Isolated showers. Highs 84 to 89. Lows 71 to 76. Northeast winds around 15 mph.\n\n_Template report; measured values only._\n"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/nws_weather_20261001T1546.md",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/nws_weather_20261001T1546.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_480934cfd083115812f9",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/nws_weather_20261001T1546.md",
+    "file_mtime": "2026-10-01T15:46:38.391693",
+    "window_from_file": false
+  }
+}

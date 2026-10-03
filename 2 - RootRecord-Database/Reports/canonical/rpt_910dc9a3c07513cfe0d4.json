@@ -1,0 +1,85 @@
+{
+  "report_id": "rpt_910dc9a3c07513cfe0d4",
+  "profile": "legacy",
+  "slug": "bandwidth_desk",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-10-01T19:07:43.908334",
+  "generated_at": "2026-10-01T19:07:43.908334",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# Bandwidth desk — 2026-10-01T19:07:43-10:00\n\n- iface: wlo1 (wireless)\n- last hour: {'seconds': 3666, 'rx': 680236536, 'tx': 108525505, 'total': 788762041, 'iface': 'wlo1', 'link': 'wireless'}\n- last 24 h: {'seconds': 86759, 'rx': 6459429969, 'tx': 10310408154, 'total': 16769838123, 'iface': 'wlo1', 'link': 'wireless'}\n"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/bandwidth_desk_20261001T1907.md",
+      "report_id": ""
+    },
+    {
+      "kind": "audio",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Archive/bandwidth_desk_20261001T1907.wav",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/bandwidth_desk_20261001T1907.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Archive/bandwidth_desk_20261001T1907.wav",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_910dc9a3c07513cfe0d4",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/bandwidth_desk_20261001T1907.md",
+    "file_mtime": "2026-10-01T19:07:43.908334",
+    "window_from_file": false
+  }
+}

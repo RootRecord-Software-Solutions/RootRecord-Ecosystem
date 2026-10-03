@@ -1,0 +1,80 @@
+{
+  "report_id": "rpt_3f7f6bd03163d0c3581d",
+  "profile": "legacy",
+  "slug": "system_perf",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-09-30T21:01:48.306798",
+  "generated_at": "2026-09-30T21:01:48.306798",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# System Performance — 2026-09-30T21:01:47-10:00\n\nHost: HI Pacific Solar Root Server\n\n| Metric | Value |\n|---|---|\n| CPU | 24.6% (load 1.84 / 2.23 / 2.41) |\n| RAM | 59.1% used (8.4 / 14.2 GB); swap used 3.1 GB |\n| Disk / | 29.5% used (148 / 502 GB) |\n| Host battery | 100% (Full, on AC) |\n| Uptime | 6h 6m |\n| Temp | 51.0°C (acpitz) |\n| iGPU | Advanced Micro Devices, Inc. [AMD/ATI] Krackan2 (rev c8) — 3.0% |\n| NPU | 0.0% (present) |\n\n_Template report (no LLM). Measured on the desk at 2026-09-30T21:01:47-10:00. A missing hardware row was not sampled._\n"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/system_perf_20260930T2101.md",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/system_perf_20260930T2101.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_3f7f6bd03163d0c3581d",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/system_perf_20260930T2101.md",
+    "file_mtime": "2026-09-30T21:01:48.306798",
+    "window_from_file": false
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "report_id": "rpt_e9b0b51f8cf1cdbd4a49",
+  "profile": "legacy",
+  "slug": "RootRecord-Checkpoint",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-10-01T23:00:52.524454",
+  "generated_at": "2026-10-01T23:00:52.524454",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# RootRecord Checkpoint — 2026-10-01 22:44 HST\n\n## Checkpoint Purpose\n\nSnapshot of Pacific RootRecord state at **22:44 HST** on **2026-10-01**.\n\nThis checkpoint records what was verified and what remains intentionally deferred. It does not retroactively rewrite earlier logs.\n\n---\n\n## Current State\n\n### Runtime\n\n- Poller: active — `rr-rootserver-poller.service`\n- HTTP listener: 127.0.0.1:8799\n- Poller log: `/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Logs/Automations/automations_current.log`\n- Pretty poller: not running\n\n### Core subsystems\n\n| Subsystem | Status | Notes |\n| --- | --- | --- |\n| System / telemetry | ok | `System/last/host-last.json` sample 22:41 HST |\n| Worklog scan | ok | `Worklog/worklog_current.md` updated 22:16 HST |\n| Ollama | ok | `ollama.service` API up; 0 model(s) resident |\n| EcoFlow BLE | degraded | delta2 read 17:33 HST (ble); river2pro read 17:33 HST (ble) |\n| A-EYES | ok | newest still in `Media/Images/` 22:40 HST |\n| Weather | ok | county reports updated 22:38 HST |\n| GitHub sync | ok | last `github_sync_all` line 22:42 HST |\n| Cloudflare tunnel | ok | 1 cloudflared process(es); last tunnel line 22:41 HST: tunnel connected conn=2 edge=lax13 |\n\n### Services (user systemd)\n\n| Unit | State |\n| --- | --- |\n| `rr-rootserver-poller.service` | active |\n| `ava-ecoflow-ble.service` | active |\n| `network-globe-hawaii.service` | active |\n\n---\n\n## Verified this checkpoint\n\n- Host sample 22:41 HST: load1 1.43, CPU 2.88%, MemAvailable 3914 MB\n- delta2 SOC 88.72% at 17:33 HST (ble)\n- river2pro SOC 99.95% at 17:33 HST (ble)\n- System / telemetry: ok — `System/last/host-last.json` sample 22:41 HST\n- Worklog scan: ok — `Worklog/worklog_current.md` updated 22:16 HST\n- Ollama: ok — `ollama.service` API up; 0 model(s) resident\n- EcoFlow BLE: degraded — delta2 read 17:33 HST (ble); river2pro read 17:33 HST (ble)\n- A-EYES: ok — newest still in `Media/Images/` 22:40 HST\n- Weather: ok — county reports updated 22:38 HST\n- GitHub sync: ok — last `github_sync_all` line 22:42 HST\n- Cloudflare tunnel: ok — 1 cloudflared process(es); last tunnel line 22:41 HST: tunnel connected conn=2 edge=lax13\n\n---\n\n## Intentionally deferred\n\n- AI processing log and daily report — PROPOSED\n- Weather retention and a Weather repo — Retention LANDED / VERIFY PENDING (dry-run only; job disabl…\n- Smart-plug load shedding and light dimming on low battery SOC — PROPOSED\n- AWS US-Mainland node: stabilise, then health + hazard continuity mirror — PROPOSED (P0 disk fix urgent) → P0-1 disk trim + P0-4 tunne…\n- Globe landing overlay for www.rootrecord.cloud (sign-up / home / status glass c… — LANDED in Mainland checkout (uncommitted) · preview PASS ·…\n- RootRecord 24/7 broadcast channel (FFmpeg + playlist → YouTube Live) — PROPOSED\n\n---\n\n## Blockers\n\n| Blocker | Owner | Next step |\n| --- | --- | --- |\n| None recorded | — | — |\n\n---\n\n## Operating principle at checkpoint\n\nMeasured or explicitly unknown: record what the sources show and change nothing without operator approval.\n\n---\n\n## Checkpoint time\n\n**2026-10-01 22:44 HST**\n\n**Status:** 7 of 8 subsystems ok; poller active; 0 sign-off items open.\n\n---\n\n## Archive note\n\nFilename when saved:\n\n```text\n2026-10-01 RootRecord Checkpoint — 22_44 HST.md\n```\n\nWeekly archive: move checkpoints older than the current week into `Documentation/01-Operations/Archive/` without rewriting content.\n"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/RootRecord-Checkpoint_current.md",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/RootRecord-Checkpoint_current.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_e9b0b51f8cf1cdbd4a49",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/RootRecord-Checkpoint_current.md",
+    "file_mtime": "2026-10-01T23:00:52.524454",
+    "window_from_file": false
+  }
+}

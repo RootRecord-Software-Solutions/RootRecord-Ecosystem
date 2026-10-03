@@ -1,0 +1,85 @@
+{
+  "report_id": "rpt_cc9ab3e21212c73c9b5c",
+  "profile": "legacy",
+  "slug": "system_perf",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-09-30T23:00:02.452255",
+  "generated_at": "2026-09-30T23:00:02.452255",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# System Performance — 2026-09-30T23:00:01-10:00\n\nHost: HI Pacific Solar Root Server\n\n| Metric | Value |\n|---|---|\n| CPU | 17.2% (load 1.46 / 2.17 / 1.38) |\n| RAM | 49.2% used (7.0 / 14.2 GB); swap used 0.7 GB |\n| Disk / | 30.3% used (152 / 502 GB) |\n| Host battery | 100% (Full, on AC) |\n| Uptime | 0h 12m |\n| Temp | 42.0°C (acpitz) |\n| iGPU | Advanced Micro Devices, Inc. [AMD/ATI] Krackan2 (rev c8) — 2.0% |\n| NPU | 0.0% (present) |\n\n_Template report (no LLM). Measured on the desk at 2026-09-30T23:00:01-10:00. A missing hardware row was not sampled._\n"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/system_perf_20260930T2300.md",
+      "report_id": ""
+    },
+    {
+      "kind": "audio",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Archive/system_perf_20260930T2300.wav",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/system_perf_20260930T2300.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Archive/system_perf_20260930T2300.wav",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_cc9ab3e21212c73c9b5c",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/system_perf_20260930T2300.md",
+    "file_mtime": "2026-09-30T23:00:02.452255",
+    "window_from_file": false
+  }
+}

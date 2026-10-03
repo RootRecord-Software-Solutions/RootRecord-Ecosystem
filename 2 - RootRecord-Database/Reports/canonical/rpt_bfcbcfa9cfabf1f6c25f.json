@@ -1,0 +1,80 @@
+{
+  "report_id": "rpt_bfcbcfa9cfabf1f6c25f",
+  "profile": "legacy",
+  "slug": "System-Operator-Worklog-Session",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-09-29T04:31:33.636898",
+  "generated_at": "2026-09-29T04:31:33.636898",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# System Operator Worklogs — Session 01\n\n**Date:** 2026-09-29  \n**Session:** Automated digest (template_fill.py)  \n**Timezone:** HST  \n**Window:** 01:11–04:31 HST  \n**Status:** ACTIVE  \n**Operator:** RootRecord\n\n---\n\n## Purpose\n\nThis digest covers testing of the system.\n\nThis is a manual operator worklog (not a full architecture redesign). Record what was actually done.\n\n---\n\n## Approximate timetable (2026-09-29 HST)\n\n| Time (approx.) | Event |\n| --- | --- |\n| 01:11 | Testing record: Poller realigned to new Database root — PASS |\n| 01:19 | Poller job `github_sync_all` FAIL code=-15 |\n| 01:19 | Poller job `council_relay` FAIL code=127 |\n| 01:49 | Testing record: Weather hook from Pacific with Weather/.venv — PASS |\n| 01:49 | Poller job `github_sync_all` FAIL code=-15 |\n| 02:13 | Poller job `github_sync_all` FAIL code=-15 |\n| 02:15 | Testing record: Status viewer: poller-dashboard single-window launcher; docs-only pulls don't r… — PASS |\n| 02:27 | Poller job `github_sync_all` FAIL code=-15 |\n| 02:33 | Testing record: Post-reboot (02:28 HST boot): all services — PASS (NPU PARTIAL at the time, see next record) |\n| 02:56 | Testing record: NPU / FastFlowLM install and validate — PASS |\n| 03:08 | Poller job `github_sync_all` FAIL code=-15 |\n| 03:09 | Testing record: Database Title-case folder rename (one stack restart) — PASS |\n| 03:10 | Testing record: OOM incident: resident FLM warmup (llama3.2:3b) — FAIL → fixed; fix PASS |\n| 03:10 | Poller job `security_camera_frame_grab` FAIL code=-15 |\n| 03:11 | Poller job `flm_npu_warmup` FAIL code=-15 |\n| 03:11 | Poller job `flm_npu_warmup` FAIL code=-15 |\n| 03:11 | Poller job `flm_npu_warmup` FAIL code=-15 |\n| 03:11 | Poller job `flm_npu_warmup` FAIL code=-15 |\n| 03:12 | Poller job `flm_npu_warmup` FAIL code=-15 |\n| 03:12 | Poller job `flm_npu_warmup` FAIL code=-15 |\n| 03:12 | Poller job `flm_npu_warmup` FAIL code=-15 |\n| 03:12 | Poller job `flm_npu_warmup` FAIL code=-15 |\n| 03:13 | Poller job `flm_npu_warmup` FAIL code=-15 |\n| 03:13 | Poller job `flm_npu_warmup` FAIL code=-15 |\n| 03:13 | Poller job `flm_npu_warmup` FAIL code=2 |\n| 03:16 | Testing record: Laptop battery bar B3 on dashboard — LANDED / VERIFY PENDING |\n| 03:20 | Testing record: EcoFlow stale data: Energy/.venv — PASS (freshness); battery levels flagged |\n| 03:29 | Testing record: NPU route: llama3.2:1b on demand — PASS (route); own-session fix VERIFY PENDING |\n| 03:59 | Testing record: AI inference JSONL + FLM log redaction + AI processing report — PASS; run-infer rc now 0 (kill fix); report job gated OFF |\n| 04:00 | Testing record: Weather + relay supervisor (dry run) — PASS (logic); live VERIFY PENDING (next poller start) |\n| 04:00 | Testing record: Pacific npu-status.sh (idle) — PASS (idle); lock-held run VERIFY PENDING |\n| 04:02 | Testing record: Relay quiet-mode inbox + replay (parse only) — PASS (parse); live VERIFY PENDING (next poller start) |\n| 04:04 | Testing record: Weather retention dry run — PASS (dry run: 0 to move); apply OFF pending review |\n| 04:05 | Testing record: Kokoro-82M G3 port: one clip per persona — PASS (format/resources); by-ear VERIFY PENDING |\n| 04:12 | Testing record: Kokoro phrase-clip cache, stitcher, QC, system_perf — PASS (68/68 QC; ASR 59/68); listen list VERIFY PENDING; job… |\n| 04:14 | Testing record: Hawaiian place-name pronunciation sheet — PASS (text 99/99); by-ear VERIFY PENDING |\n| 04:16 | Testing record: Specialist router unit test (no models) — PASS (35/35 labelled; held-out 5/8 informational; log priva… |\n| 04:18 | Testing record: Specialists: 2 live tiny requests (Ollama rr-energy + FLM rr-weather system mes… — PASS (gate honoured; 6.3 s / 5.1 s; noth… |\n\n---\n\n## Completed this session\n\n### Testing records\n\n- [x] Poller realigned to new Database root — PASS\n- [x] Weather hook from Pacific with Weather/.venv — PASS\n- [x] Status viewer: poller-dashboard single-window launcher; docs-only pulls don't reload — PASS\n- [x] Post-reboot (02:28 HST boot): all services — PASS (NPU PARTIAL at"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/Archive/System-Operator-Worklog-Session_2026-09-29T0431.md",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/Archive/System-Operator-Worklog-Session_2026-09-29T0431.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_bfcbcfa9cfabf1f6c25f",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/Archive/System-Operator-Worklog-Session_2026-09-29T0431.md",
+    "file_mtime": "2026-09-29T04:31:33.636898",
+    "window_from_file": false
+  }
+}

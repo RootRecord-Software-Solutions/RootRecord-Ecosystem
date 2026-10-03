@@ -1,0 +1,80 @@
+{
+  "report_id": "rpt_f13fc2fc5a38d3e46651",
+  "profile": "legacy",
+  "slug": "Event-Action-Log",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-10-01T23:00:52.524210",
+  "generated_at": "2026-10-01T23:00:52.524210",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# AI Inference Activity Log\n\n**Date:** 2026-10-01  \n**Scope:** Inference requests recorded by run-infer.sh on 2026-10-01 (metadata only, no prompt text).  \n**Timezone:** HST  \n**Status:** IN PROGRESS\n\n---\n\n## Timeline\n\n22:44 — No inference requests recorded for this date\n\n---\n\n## Outcomes\n\n- 0 requests; p50 not recorded ms, max not recorded ms\n- 0 Ollama fallbacks, 0 non-zero exit codes; lowest MemAvailable after a request not recorded MB\n\n---\n\n## Artifacts / paths\n\n| Path or artifact | Role |\n| --- | --- |\n| `/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Logs/AI/Inference/inference_current.jsonl` | Inference JSONL (metadata only) |\n| `System/scripts/plumbing/run-infer.sh` | Writes one line per request |\n\n---\n\n## Notes\n\n- Entries marked `~` are approximate.\n- Confirmed operator times are preserved as stated.\n- Do not expose secrets, tokens, or full credential values in this log.\n\n---\n\n## Close\n\n**Closed:** 2026-10-01 22:44 HST  \n**Status:** 0 requests, 0 fallbacks, 0 non-zero exit codes.\n\n---\n\n## Archive note\n\nFilename when saved:\n\n```text\n2026-10-01 AI Inference Activity Log.md\n```\n\nExamples:\n\n```text\n2026-09-26 System Reinstall Action Log.md\n2026-09-27 Cloudflare Tunnel Recovery Log.md\n```\n\nWeekly archive: move closed event logs older than the current week into `Documentation/01-Operations/Archive/` without rewriting content.\n"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/Event-Action-Log_current.md",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/Event-Action-Log_current.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_f13fc2fc5a38d3e46651",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/Event-Action-Log_current.md",
+    "file_mtime": "2026-10-01T23:00:52.524210",
+    "window_from_file": false
+  }
+}

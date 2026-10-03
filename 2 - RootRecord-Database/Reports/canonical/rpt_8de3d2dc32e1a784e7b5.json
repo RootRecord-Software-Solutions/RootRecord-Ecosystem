@@ -1,0 +1,80 @@
+{
+  "report_id": "rpt_8de3d2dc32e1a784e7b5",
+  "profile": "legacy",
+  "slug": "energy_report",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-10-01T09:01:59.120393",
+  "generated_at": "2026-10-01T09:01:59.120393",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# Energy desk — 2026-10-01T09:01:27-10:00\n\n| Device | SOC | Solar in | AC out | USB-C out | Reading at | Age |\n|---|---|---|---|---|---|---|\n| Delta 2 | 0% | 35 W | 94.0 W | 0 W | 2026-10-01T08:59:46-10:00 | 1 min |\n| River 2 Pro | 50% | 0 W | 57 W | 17 W | 2026-10-01T08:58:13-10:00 | 3 min |\n- Solar panel still age: 2 min (`ch1-20261001T185920Z.jpg`)\n- Security camera observations indicate dark conditions, with solar panels in flat position.\n\n_Source: Database Energy/soc + Energy/watts (*-last.json, EcoFlow BLE), the newest ch1 camera still, and one hourly Gemma look at that still._\n\n_Template report; measured values only._\n"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/energy_report_20261001T0901.md",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/energy_report_20261001T0901.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_8de3d2dc32e1a784e7b5",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/energy_report_20261001T0901.md",
+    "file_mtime": "2026-10-01T09:01:59.120393",
+    "window_from_file": false
+  }
+}

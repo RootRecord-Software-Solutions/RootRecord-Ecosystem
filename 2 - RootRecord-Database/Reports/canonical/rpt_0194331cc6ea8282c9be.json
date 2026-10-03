@@ -1,0 +1,80 @@
+{
+  "report_id": "rpt_0194331cc6ea8282c9be",
+  "profile": "legacy",
+  "slug": "economy-brief-2026-09-30.md",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-09-30T00:41:01.104290",
+  "generated_at": "2026-09-30T00:41:01.104290",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# Economy brief — 2026-09-30 HST\n\nGenerated 2026-09-30T00:41:01-10:00\n\n## Live MySQL snapshot\n- ok: `True`\n- wallets: `4`\n- circulating (+) gold: `12.5` g\n- net sum gold: `10` g\n- bonds outstanding: `2` / principal `3` g\n- Kīlauea alert: `WATCH` · multiplier `2.5`\n\n## Notes\n- Sourced from Shockbyte `root_economy_balances` (local mirror fallback).\n- Gold never converts to dollars.\n"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Economy-Brief/economy-brief-2026-09-30.md",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Economy-Brief/economy-brief-2026-09-30.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_0194331cc6ea8282c9be",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Economy-Brief/economy-brief-2026-09-30.md",
+    "file_mtime": "2026-09-30T00:41:01.104290",
+    "window_from_file": false
+  }
+}

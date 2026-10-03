@@ -1,0 +1,80 @@
+{
+  "report_id": "rpt_6d8e507f2eaa0d34a56e",
+  "profile": "legacy",
+  "slug": "bandwidth_desk",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-09-30T16:02:07.488894",
+  "generated_at": "2026-09-30T16:02:07.488894",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# Bandwidth desk — 2026-09-30T16:02:07-10:00\n\n- iface: wlo1 (wireless)\n- last hour: None\n- last 24 h: None\n\n_Not enough samples yet (needs samples covering 45 min; run `host_desks.py net-sample` every 5 min)._\n\n_Template report; measured values only._\n"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/bandwidth_desk_20260930T1602.md",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/bandwidth_desk_20260930T1602.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_6d8e507f2eaa0d34a56e",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/bandwidth_desk_20260930T1602.md",
+    "file_mtime": "2026-09-30T16:02:07.488894",
+    "window_from_file": false
+  }
+}

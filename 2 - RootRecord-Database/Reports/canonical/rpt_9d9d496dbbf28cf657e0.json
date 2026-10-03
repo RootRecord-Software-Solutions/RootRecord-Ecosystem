@@ -1,0 +1,80 @@
+{
+  "report_id": "rpt_9d9d496dbbf28cf657e0",
+  "profile": "legacy",
+  "slug": "README.md",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-10-01T23:00:52.524793",
+  "generated_at": "2026-10-01T23:00:52.524793",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# Reports / Generated\n\nMachine-written reports in the exact structure of the Library operations templates\n(`Documentation/01-Operations/Templates/`), filled from measured data by Pacific `Reports/template_fill.py`.\n\n| File | Template |\n| --- | --- |\n| `System-Operator-Worklog-Session_current.md` | TEMPLATE System Operator Worklog — Session |\n| `RootRecord-Checkpoint_current.md` | TEMPLATE RootRecord Checkpoint |\n| `Event-Action-Log_current.md` | TEMPLATE Event Action Log (AI inference activity) |\n| `Work-Order_current.md` | TEMPLATE Work Order (generated draft — never auto-promoted) |\n| `template-fill-validation_current.json` | Validator result + draft metadata per template |\n| `<name>_rejected.md` | Output that failed structure validation (the `_current` copy is left unchanged) |\n| `Archive/<name>_YYYY-MM-DDTHHMM.md` | Previous `_current` copy (rotated only when the content changed) |\n\nThese files are drafts for review. The script never writes into the Library; copy by hand after review.\nDesign: Library `Documentation/10-AI-and-Agent-Runtime/Template-Report-Generation.md`. Job: `template_reports_daily` (off unless `RR_TEMPLATE_REPORTS=1`).\n"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/README.md",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/README.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_9d9d496dbbf28cf657e0",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/README.md",
+    "file_mtime": "2026-10-01T23:00:52.524793",
+    "window_from_file": false
+  }
+}

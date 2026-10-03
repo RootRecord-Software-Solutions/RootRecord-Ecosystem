@@ -1,0 +1,85 @@
+{
+  "report_id": "rpt_367c5b4fee2c8da61ca6",
+  "profile": "legacy",
+  "slug": "kilauea_image_check",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-10-02T05:38:33.391296",
+  "generated_at": "2026-10-02T05:38:33.391296",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# Kilauea image check — 2026-10-02T05:36:56-10:00\n\n- **Cam:** V3 Halemaʻumaʻu lava lake (`v3cam_current.jpg`)\n- **Activity:** glow\n- **Fountaining:** `False`\n- **Visible:** Lava glowing on the surface of the ocean.\n- **Photo viewed:** `yes`\n- **Source kind:** `current`\n- **Fetched live this check:** `False`\n- **Reference:** lava-fountain-ref.jpg\n- **Model:** gemma4:e4b\n- **At:** 2026-10-02T05:36:56-10:00\n- **Error:** none\n"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/kilauea_image_check_20261002T0538.md",
+      "report_id": ""
+    },
+    {
+      "kind": "audio",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Archive/kilauea_image_check_20261002T0538.wav",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/kilauea_image_check_20261002T0538.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Archive/kilauea_image_check_20261002T0538.wav",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_367c5b4fee2c8da61ca6",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/kilauea_image_check_20261002T0538.md",
+    "file_mtime": "2026-10-02T05:38:33.391296",
+    "window_from_file": false
+  }
+}

@@ -31,7 +31,7 @@ from store import (  # info: from store import (
     write_raw,  # info: write_raw ,
     write_story,  # info: write_story ,
 )  # info: )
-from stories import fresh, normalize, same_event, sports  # info: from stories import fresh , normalize , same_event , sports
+from stories import fresh, normalize, same_event, sports, violent  # info: from stories import fresh , normalize , same_event , sports , violent
 
 WEIGHT = {"urgent": 4, "high": 3, "normal": 2, "low": 1}  # info: set WEIGHT
 SENTENCE = re.compile(r"(?<=[.!?])\s+")  # info: set SENTENCE

@@ -1,0 +1,80 @@
+{
+  "report_id": "rpt_d6b327b75789edba797a",
+  "profile": "legacy",
+  "slug": "current_report",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-10-01T18:33:24.274288",
+  "generated_at": "2026-10-01T18:33:24.274288",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# Current report — 2026-10-01T18:30:00-10:00\n\nAutomated Reports are in active development and is expected to change\n\n## Energy\n\n- Delta 2: SOC 89%, solar 0 W, AC out 61 W, USB-C out 0 W, age 59 min\n- River 2 Pro: SOC 100%, solar 0 W, AC out 0 W, USB-C out 0 W, age 60 min\n\n## Sun and moon\n\n- Sun: 06:11 / 18:08 (2026-10-01)\n- Moon: Waning Gibbous, 66% lit, rise 22:23, set 11:20\n\n## Weather\n\n- No active Hawaii alerts\n- State forecast (358 PM HST Thu Oct 1 2026): Tonight: Partly cloudy. Windward and mountains, numerous showers in the evening, then scattered showers after midnight. Leeward, scattered showers. Lows 73 to 78. East winds around 15 mph.\n- Honolulu: low around 77\n- Lihue: low 68 to 77\n- Kahului: low 71 to 76\n- Hilo: low 67 to 73 at the shore\n- Kailua-Kona: low 69 to 76 at the shore\n- Alerts updated: 2026-10-02T04:30:00+00:00\n\n## Geology\n\n- Hawaii: 4 magnitude 2.5 or greater in 24 h, largest M3.41, sample age 5 min\n- Global: 28 magnitude 2.5 or greater in 24 h, largest M5.3, sample age 5 min\n- Kilauea: WATCH / ORANGE, erupting True\n- Mauna Loa: NORMAL / GREEN\n\n## Hurricanes\n\n- Tropical Storm Nolo: 391 nm from Līhuʻe, bearing west\n\n## Host\n\n- CPU 7.5%, load 3.50 / 3.80 / 4.88\n- Memory 62.4% used (8.8 / 14.2 GB)\n- Disk 33.3% used (167 / 502 GB)\n- Uptime 9h 39m\n- Temperature 75.0 C\n\n## Security\n\n- Firewall starts on boot: False\n- SSH active: True\n- TCP listeners: 371\n- Established connections: 50\n- Failed sign-ins, last hour / 24 h: 0 / 0\n\n## Bandwidth\n\n- Last hour: 954183267 bytes down, 118326516 bytes up\n- Last 24 h: 6250912661 bytes down, 10298570191 bytes up\n\n## Camera\n\n- Solar panel still age: 1 min\n- Security camera observations indicate dark conditions, with solar panels in flat position. Human intervention is needed. Evening calls for the right side up.\n\n## Report board\n\n- Morning report 2026-10-01T09:00:00 done\n- Midday report 2026-10-01T12:00:00 due\n- Late report 2026-10-01T21:00:00 pending\n\n## Official weather\n\n- AFD, age 2.4 h\n\n## Work orders\n\n- Open items: 10\n"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Archive/current_report_20261001T1833.md",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Archive/current_report_20261001T1833.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_d6b327b75789edba797a",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Archive/current_report_20261001T1833.md",
+    "file_mtime": "2026-10-01T18:33:24.274288",
+    "window_from_file": false
+  }
+}

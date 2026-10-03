@@ -1,0 +1,85 @@
+{
+  "report_id": "rpt_34215a2901a5c45b8494",
+  "profile": "legacy",
+  "slug": "earthquake_report",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-09-30T19:09:36.531091",
+  "generated_at": "2026-09-30T19:09:36.531091",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# Earthquake report — 2026-09-30T19:09:36-10:00\n\n## Hawaii Changes Since Last Report\n- No new earthquakes.\n\n## Hawaii 24-Hour M2.5+ Summary\n- 1 earthquakes; largest M2.62.\n- Source: `https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&starttime=2026-09-30T05%3A07%3A48&minmagnitude=1.0&minlatitude=18.5&maxlatitude=22.5&minlongitude=-160.5&maxlongitude=-154.5` (collected 2026-09-30T19:07:48-10:00)\n\n## Global Changes Since Last Report\n- No new earthquakes.\n\n## Global 24-Hour M2.5+ Summary\n- 35 earthquakes; largest M5.6.\n- Source: `https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson` (collected 2026-09-30T19:07:48-10:00)\n\n_Template report; measured values only._\n"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/earthquake_report_20260930T1909.md",
+      "report_id": ""
+    },
+    {
+      "kind": "audio",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Archive/earthquake_report_20260930T1909.wav",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/earthquake_report_20260930T1909.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Archive/earthquake_report_20260930T1909.wav",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_34215a2901a5c45b8494",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/earthquake_report_20260930T1909.md",
+    "file_mtime": "2026-09-30T19:09:36.531091",
+    "window_from_file": false
+  }
+}

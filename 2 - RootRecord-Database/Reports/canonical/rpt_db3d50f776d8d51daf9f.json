@@ -1,0 +1,80 @@
+{
+  "report_id": "rpt_db3d50f776d8d51daf9f",
+  "profile": "legacy",
+  "slug": "Event-Action-Log",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-09-29T04:31:33.709559",
+  "generated_at": "2026-09-29T04:31:33.709559",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# AI Inference Activity Log\n\n**Date:** 2026-09-29  \n**Scope:** Inference requests recorded by run-infer.sh on 2026-09-29 (metadata only, no prompt text).  \n**Timezone:** HST  \n**Status:** IN PROGRESS\n\n---\n\n## Timeline\n\n03:59 — npu-flm `llama3.2:1b` for ava (caller g3-voice-ailog-test): 4641 ms, rc 0, cold start\n\n04:22 — npu-flm `llama3.2:1b` for ava (caller sf-fix-test): 4241 ms, rc 0, cold start\n\n04:30 — npu-flm `llama3.2:1b` for ava (caller voice_rollup): 6163 ms, rc 0, cold start\n\n04:31 — npu-flm `llama3.2:1b` for rr-exec (caller template_fill): 7655 ms, rc 0, cold start\n\n---\n\n## Outcomes\n\n- 4 requests; p50 5402 ms, max 7655 ms\n- 0 Ollama fallbacks, 0 non-zero exit codes; lowest MemAvailable after a request 7281 MB\n\n---\n\n## Artifacts / paths\n\n| Path or artifact | Role |\n| --- | --- |\n| `/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Logs/AI/Inference/inference_current.jsonl` | Inference JSONL (metadata only) |\n| `System/scripts/plumbing/run-infer.sh` | Writes one line per request |\n\n---\n\n## Notes\n\n- Entries marked `~` are approximate.\n- Confirmed operator times are preserved as stated.\n- Do not expose secrets, tokens, or full credential values in this log.\n\n---\n\n## Close\n\n**Closed:** 2026-09-29 04:31 HST  \n**Status:** 4 requests, 0 fallbacks, 0 non-zero exit codes.\n\n---\n\n## Archive note\n\nFilename when saved:\n\n```text\n2026-09-29 AI Inference Activity Log.md\n```\n\nExamples:\n\n```text\n2026-09-26 System Reinstall Action Log.md\n2026-09-27 Cloudflare Tunnel Recovery Log.md\n```\n\nWeekly archive: move closed event logs older than the current week into `Documentation/01-operations/archive/` without rewriting content.\n"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/Archive/Event-Action-Log_2026-09-29T0431.md",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/Archive/Event-Action-Log_2026-09-29T0431.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_db3d50f776d8d51daf9f",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/Archive/Event-Action-Log_2026-09-29T0431.md",
+    "file_mtime": "2026-09-29T04:31:33.709559",
+    "window_from_file": false
+  }
+}

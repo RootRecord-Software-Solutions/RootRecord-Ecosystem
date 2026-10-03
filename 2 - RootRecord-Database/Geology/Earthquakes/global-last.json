@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-02T14:46:49-10:00",
+  "at": "2026-10-02T14:57:02-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii-last ids",
-  "count": 30,
-  "count_m2": 30,
-  "count_m25": 30,
+  "count": 31,
+  "count_m2": 31,
+  "count_m25": 31,
   "largest": {
     "id": "us6000tz62",
     "mag": 5.8,
@@ -14,8 +14,24 @@
     "time_hst": "2026-10-02T06:34:41.010000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-03T00:46:19+00:00",
+  "usgs_generated_utc": "2026-10-03T00:56:19+00:00",
   "events": [
+    {
+      "id": "us6000tz9s",
+      "mag": 4.7,
+      "mag_type": "mb",
+      "place": "153 km SSE of Vilyuchinsk, Russia",
+      "time_utc": "2026-10-02T23:54:13.503000+00:00",
+      "time_hst": "2026-10-02T13:54:13.503000-10:00",
+      "lon": 159.4679,
+      "lat": 51.7161,
+      "depth_km": 35,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz9s",
+      "nearest": null
+    },
     {
       "id": "us6000tz8q",
       "mag": 4.4,

@@ -1,0 +1,85 @@
+{
+  "report_id": "rpt_38be7b7dbfafdb79fa69",
+  "profile": "legacy",
+  "slug": "solar_desk",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-10-01T12:07:03.096358",
+  "generated_at": "2026-10-01T12:07:03.096358",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# Solar desk — 2026-10-01T12:07:03-10:00\n\n- Delta 2: state of charge 26%, solar input 0 W, AC out 0 W, USB-C out 55 W\n- River 2 Pro: state of charge 6%, solar input 0 W, AC out 83 W, USB-C out 0 W\n- Sun: 06:11 / 18:08 (2026-10-01, Open-Meteo)\n- Solar panel still age: 9 min (`ch1-20261001T215702Z.jpg`)\n- Security camera observations indicate rainy conditions, with solar panels in flat position.\n"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/solar_desk_20261001T1207.md",
+      "report_id": ""
+    },
+    {
+      "kind": "audio",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Archive/solar_desk_20261001T1207.wav",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/solar_desk_20261001T1207.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Archive/solar_desk_20261001T1207.wav",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_38be7b7dbfafdb79fa69",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/solar_desk_20261001T1207.md",
+    "file_mtime": "2026-10-01T12:07:03.096358",
+    "window_from_file": false
+  }
+}

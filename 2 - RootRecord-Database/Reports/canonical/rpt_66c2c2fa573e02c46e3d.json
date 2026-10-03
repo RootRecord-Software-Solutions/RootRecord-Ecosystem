@@ -1,0 +1,80 @@
+{
+  "report_id": "rpt_66c2c2fa573e02c46e3d",
+  "profile": "legacy",
+  "slug": "morning-package.md",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-09-30T01:02:25.616252",
+  "generated_at": "2026-09-30T01:02:25.616252",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# Cloud narrative package — morning\n\nBuilt: 2026-09-30T01:02:25-10:00\nTemplate: /home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/morning_report_current.md\nDry-run: True\n\n## System\n\nYou are writing a short desk status for easy audio readout. Numbers only from the FACTS block. If a hazard is not in FACTS, omit it. Off-grid only. Short sentences. End with: End of status. Output only the report text.\n\n## User\n\nWrite today's morning desk status from FACTS only.\nNo invented numbers. No vendor names. End with End of status.\n\nFACTS:\n\n\n"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/CloudNarrative/morning-package.md",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/CloudNarrative/morning-package.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_66c2c2fa573e02c46e3d",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/CloudNarrative/morning-package.md",
+    "file_mtime": "2026-09-30T01:02:25.616252",
+    "window_from_file": false
+  }
+}

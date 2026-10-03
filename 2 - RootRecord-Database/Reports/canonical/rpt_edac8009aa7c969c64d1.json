@@ -1,0 +1,80 @@
+{
+  "report_id": "rpt_edac8009aa7c969c64d1",
+  "profile": "legacy",
+  "slug": "bandwidth_desk",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-10-02T02:32:54.644530",
+  "generated_at": "2026-10-02T02:32:54.644530",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# Bandwidth desk — 2026-10-02T02:32:54-10:00\n\n## Host link\n\n- iface: wlo1 (wireless)\n- last hour: {'seconds': 3663, 'rx': 342745448, 'tx': 54086755, 'total': 396832203, 'iface': 'wlo1', 'link': 'wireless'}\n- last 24 h: {'seconds': 88988, 'rx': 1302762634, 'tx': 254279022, 'total': 1557041656, 'iface': 'wlo1', 'link': 'wireless'}\n\n## Site traffic (Mainland analytics)\n\n- Analytics day: 2026-10-02 (Pacific/Honolulu), schema 1.0.0\n- API requests / unique visitors: 19 / 8 (bots 7)\n- Home proxy (telemetry Referer www only): 12 requests, 6 visitors — not full www pageviews\n- Home pageviews: None\n- Radio listeners: max 1, avg 1.0, ~45.0 listen-minutes est (3 samples)\n- Note: www.rootrecord.cloud is Vercel-only; requests never reach ML2. Next step: Cloudflare GraphQL Analytics API or Vercel Web Analytics into this same daily schema under home.*\n"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/bandwidth_desk_20261002T0232.md",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/bandwidth_desk_20261002T0232.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_edac8009aa7c969c64d1",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/bandwidth_desk_20261002T0232.md",
+    "file_mtime": "2026-10-02T02:32:54.644530",
+    "window_from_file": false
+  }
+}

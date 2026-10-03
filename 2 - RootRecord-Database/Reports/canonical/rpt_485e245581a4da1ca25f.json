@@ -1,0 +1,85 @@
+{
+  "report_id": "rpt_485e245581a4da1ca25f",
+  "profile": "legacy",
+  "slug": "earthquake_report",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-10-01T09:02:15.073151",
+  "generated_at": "2026-10-01T09:02:15.073151",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# Earthquake report — 2026-10-01T09:02:15-10:00\n\n## Hawaii Changes Since Last Report\n- M2.02 about 5 km SSE of Pāhala, Hawaii (2026-10-01T06:14:49.820000-10:00)\n- M2.03 about 4 km W of Pāhala, Hawaii (2026-10-01T05:54:19.400000-10:00)\n- M1.95 about 15 km E of Pāhala, Hawaii (2026-10-01T04:36:33.360000-10:00)\n- M2.46 about 3 km SW of Pāhala, Hawaii (2026-10-01T03:36:26.180000-10:00)\n- M1.61 about 5 km WSW of Volcano, Hawaii (2026-10-01T02:06:52.440000-10:00)\n- M1.77 about 14 km S of Fern Forest, Hawaii (2026-10-01T01:55:40.360000-10:00)\n- M1.85 about 5 km WSW of Volcano, Hawaii (2026-10-01T01:44:49.240000-10:00)\n- M1.87 about 5 km WSW of Volcano, Hawaii (2026-10-01T01:43:34.590000-10:00)\n- M2.03 about 4 km WSW of Volcano, Hawaii (2026-10-01T01:31:24.840000-10:00)\n- M2.05 about 5 km WSW of Volcano, Hawaii (2026-10-01T01:23:20-10:00)\n- M1.85 about 5 km SW of Volcano, Hawaii (2026-10-01T01:21:40.680000-10:00)\n- M2.07 about 5 km WSW of Volcano, Hawaii (2026-10-01T01:19:56.380000-10:00)\n- ...and 4 more new earthquakes.\n\n## Hawaii 24-Hour M2.5+ Summary\n- 4 earthquakes; largest M3.41.\n- Source: `https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&starttime=2026-09-30T18%3A57%3A56&minmagnitude=1.0&minlatitude=18.5&maxlatitude=22.5&minlongitude=-160.5&maxlongitude=-154.5` (collected 2026-10-01T08:57:56-10:00)\n\n## Global Changes Since Last Report\n- M3.1 about 57 km SSW of Whites City, New Mexico (2026-10-01T08:47:09.691000-10:00)\n- M2.47 about 10 km NW of Pinnacles, CA (2026-10-01T07:51:37.050000-10:00)\n- M4.6 about 83 km NE of Ruteng, Indonesia (2026-10-01T07:37:11.734000-10:00)\n- M5.1 about 108 km ENE of Miyako, Japan (2026-10-01T07:17:20.097000-10:00)\n- M4.3 about 204 km WNW of Abepura, Indonesia (2026-10-01T07:09:38.469000-10:00)\n- M3 about 63 km SE of Port Graham, Alaska (2026-10-01T05:13:16.780000-10:00)\n- M4.8 about 127 km S of False Pass, Alaska (2026-10-01T04:46:19.877000-10:00)\n- M5 about 176 km NNE of Ruteng, Indonesia (2026-10-01T04:19:59.078000-10:00)\n- M2.9 about 53 km SSE of King Salmon, Alaska (2026-10-01T02:29:59.518000-10:00)\n- M5.3 about 0 km NNE of Yōkaichiba, Japan (2026-10-01T02:27:11.864000-10:00)\n- M2.84 about 2 km NNW of Little America, Wyoming (2026-10-01T02:26:37.780000-10:00)\n- M2.9 about 66 km ESE of Denali National Park, Alaska (2026-10-01T02:14:15.424000-10:00)\n- ...and 1 more new earthquakes.\n\n## Global 24-Hour M2.5+ Summary\n- 39 earthquakes; largest M5.6.\n- Source: `https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson` (collected 2026-10-01T08:57:56-10:00)\n\n_Template report; measured values only._\n"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/earthquake_report_20261001T0902.md",
+      "report_id": ""
+    },
+    {
+      "kind": "audio",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Archive/earthquake_report_20261001T0902.wav",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/earthquake_report_20261001T0902.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Archive/earthquake_report_20261001T0902.wav",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_485e245581a4da1ca25f",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/earthquake_report_20261001T0902.md",
+    "file_mtime": "2026-10-01T09:02:15.073151",
+    "window_from_file": false
+  }
+}

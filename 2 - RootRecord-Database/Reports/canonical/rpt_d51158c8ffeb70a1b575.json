@@ -1,0 +1,80 @@
+{
+  "report_id": "rpt_d51158c8ffeb70a1b575",
+  "profile": "legacy",
+  "slug": "hurricane_desk",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-10-01T11:30:59.837095",
+  "generated_at": "2026-10-01T11:30:59.837095",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# Hurricane desk — 2026-10-01T11:30:59-10:00\n\nHurricane global desk, Pacific Root Server. Report generated at eleven thirty a.m. Nearest Hurricane from a Hawaiian island. Tropical Storm Nolo is about 341 nautical miles from Līhuʻe. Center 22.3 north, 165.5 west. It bears west of Līhuʻe. Moving north at about 9 knots, away from Hawaii. Maximum sustained winds 50 knots. No tropical watches or warnings for Hawaii in the last NWS pull. Stay with NWS Honolulu for watches and warnings.\n\n## Tracked systems (G3 weather poller)\n\n| Storm | Class | Knots | Position | Nearest island | nm | Bearing | Movement | Last poll (HST) | On board |\n|---|---|---|---|---|---|---|---|---|---|\n| Nolo | Tropical Storm (TS) | 50 | 22.3, -165.5 | Līhuʻe | 341 | west | north ~9 kt away | 2026-10-01T11:24:32.532745-10:00 (0.1 h ago) | yes |\n\nNWS HI alerts (updated 2026-10-01T21:23:30+00:00): none; tropical: 0.\n\n_Sources: Database `Weather/Hawai'i/hurricanes/tracking/*/track.json` (NHC CurrentStorms, Hawaiʻi-relevant storms only: 800 nm or CPHC) and the NWS HI alerts file. Movement is estimated from the last two distinct tracked fixes. G1's global JTWC/RAMMB board is not collected in G3, so there is no global count._\n\n_Template report; measured values only._\n"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/hurricane_desk_20261001T1130.md",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/hurricane_desk_20261001T1130.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_d51158c8ffeb70a1b575",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/hurricane_desk_20261001T1130.md",
+    "file_mtime": "2026-10-01T11:30:59.837095",
+    "window_from_file": false
+  }
+}

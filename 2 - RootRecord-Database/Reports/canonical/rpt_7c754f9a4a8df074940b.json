@@ -1,0 +1,85 @@
+{
+  "report_id": "rpt_7c754f9a4a8df074940b",
+  "profile": "legacy",
+  "slug": "bandwidth_desk",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-10-02T08:57:25.177888",
+  "generated_at": "2026-10-02T08:57:25.177888",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# Bandwidth desk — 2026-10-02T08:57:25-10:00\n\n## Host link\n\n- iface: wlo1 (wireless)\n- last hour: {'seconds': 3672, 'rx': 0, 'tx': 0, 'total': 0, 'iface': 'wlo1', 'link': 'wireless'}\n- last 24 h: {'seconds': 112058, 'rx': 569113714, 'tx': 80060445, 'total': 649174159, 'iface': 'wlo1', 'link': 'wireless'}\n\n## Site traffic (Mainland analytics)\n\n- Analytics day: 2026-10-02 (Pacific/Honolulu), schema 1.0.0\n- API requests / unique visitors: 94 / 21 (bots 40)\n- Home proxy (telemetry Referer www only): 35 requests, 10 visitors — not full www pageviews\n- Home pageviews: None\n- Radio listeners: max 1, avg 0.933, ~210.0 listen-minutes est (15 samples)\n- Note: www.rootrecord.cloud is Vercel-only; requests never reach ML2. Next step: Cloudflare GraphQL Analytics API or Vercel Web Analytics into this same daily schema under home.*\n"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/bandwidth_desk_20261002T0857.md",
+      "report_id": ""
+    },
+    {
+      "kind": "audio",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Archive/bandwidth_desk_20261002T0857.wav",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/bandwidth_desk_20261002T0857.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/Archive/bandwidth_desk_20261002T0857.wav",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_7c754f9a4a8df074940b",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/Archive/bandwidth_desk_20261002T0857.md",
+    "file_mtime": "2026-10-02T08:57:25.177888",
+    "window_from_file": false
+  }
+}

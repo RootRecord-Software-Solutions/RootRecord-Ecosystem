@@ -1,0 +1,80 @@
+{
+  "report_id": "rpt_17a11a69976a4d9d155a",
+  "profile": "legacy",
+  "slug": "Work-Order",
+  "topic": "",
+  "subtopic": "",
+  "scope": "",
+  "window_start": "",
+  "window_end": "",
+  "timezone": "Pacific/Honolulu",
+  "status": "archived",
+  "created_at": "2026-09-29T04:32:57.006028",
+  "generated_at": "2026-09-29T04:32:57.006028",
+  "published_at": "",
+  "generator": "legacy",
+  "provider": "",
+  "model": "",
+  "generator_version": "",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Legacy",
+      "text": "# WORK ORDER — Desk Sign-off Backlog (generated draft)\n\n| Field | Value |\n| --- | --- |\n| **Work Order ID** | WO-GEN-2026-09-29 |\n| **Date** | 2026-09-29 (HST) |\n| **Status** | OPEN — generated draft, not on the active index |\n| **Owner** | RootRecord |\n| **Related** | Library 07-testing, 08-ideas and the operator worklog of the day |\n\n**Scope:** In scope: the listed sign-off items and friction from today's sources. Not in scope: executing any of them; this is a generated draft.\n\n---\n\n## 1. Intent\n\nCollect the open operator sign-off items and measured friction for the day in one place, so they can be accepted or closed deliberately.\n\n---\n\n## 2. Current reality\n\n### 2.1 What exists\n\n| Item | Location / status |\n| --- | --- |\n| A-EYES_Work_Order_WO-AEYES-2026-09-27 | OPEN — Ready for additions |\n| AgentContext_CanonicalHome_Work_Order_WO-AGENT-2026-09-27 | OPEN — Investigate before consolidate |\n| Cloudflare_Tunnel_Recovery_Work_Order_WO-CF-2026-09-27 | OPEN — Config recovery (paths updated 2026-09-28) |\n| Database_Boundary_Work_Order_WO-DATA-2026-09-27 | IN PROGRESS — canonical Database root standardized in active Pacific source; hi… |\n| Ecosystem_Migration_Work_Order_WO-ECO-2026-09-27 | IN PROGRESS — Pacific runtime cut over to Ecosystem Servers path; G3 runtime ve… |\n| GitHub_Catalog_Hygiene_Work_Order_WO-GH-2026-09-27 | IN PROGRESS — Pacific `Github/` sync PASS (post-reboot evidence 2026-09-29); we… |\n| MasterPrompt_RepoMap_Work_Order_WO-MAP-2026-09-27 | OPEN — Unblocked for Pacific name; write map when ready |\n| Old_Server_Selective_Recovery_Work_Order_WO-OLD-2026-09-28 | OPEN — Blocked until G2 residual domains land in G3 |\n| Ops_Weekly_Archive_Work_Order_WO-ARCH-2026-09-27 | OPEN — Spec ready; implementation owned by WO-RPT-001 Phase D |\n| Servers_Cutover_Work_Order_WO-SRV-2026-09-27 | IN PROGRESS — G3 PASS: poller on canonical root, network globe, BLE owner, cam… |\n| WO-COM-001-Communications-Surface | Draft |\n| WO-COM-002-Discord-Bot-Credential-Rotation | OPEN |\n| WO-ECO-001-Action-Plan | COMPLETE (LIVE + soak) — 2026-09-28 ~16:40 HST |\n| WO-ECO-001-Energy-Domain-Import | Phase 1 COMPLETE / LIVE — soak confirmed 2026-09-28 ~16:39–16:40 HST |\n| WO-GH-001-Github-Pull-Authority | Draft |\n| WO-RPT-001-Action-Plan | not recorded |\n| WO-RPT-001-Reports-Worklog-Domain-Import | Foundation PASS (A–E; `worklog_scan` PASS — `2 - RootRecord-Database/Logs/Migra… |\n| WO-SRV-001-Residual-Jobs-Path-Rewire | Draft — blocked on WO-ECO-001 (and later domain imports) |\n| WO-SYS-001-Poller-Observability | Log path slice complete — wired to RootRecord-Database |\n| WO-WEB-001-Public-Status-Solar-Board | Draft |\n| WO-WEB-002-Public-Site-Foundation | Draft |\n| WO-WOGEN-001-Work-Order-Generator | Draft — architecture only; not accepted for execution |\n| WO-WXG-001-Weather-Geology-Import | Draft — after Energy |\n\n### 2.2 Completed so far\n\n- [x] Poller realigned to new Database root — PASS\n- [x] Weather hook from Pacific with Weather/.venv — PASS\n- [x] Status viewer: poller-dashboard single-window launcher; docs-only pulls don't reload — PASS\n- [x] Post-reboot (02:28 HST boot): all services — PASS (NPU PARTIAL at the time, see next record)\n- [x] NPU / FastFlowLM install and validate — PASS\n- [x] Database Title-case folder rename (one stack restart) — PASS\n- [ ] OOM incident: resident FLM warmup (llama3.2:3b) — FAIL → fixed; fix PASS\n- [ ] Laptop battery bar B3 on dashboard — LANDED / VERIFY PENDING\n- [x] EcoFlow stale data: Energy/.venv — PASS (freshness); battery levels flagged\n- [x] NPU route: llama3.2:1b on demand — PASS (route); own-session fix VERIFY PENDING\n- [x] AI inference JSONL + FLM log redaction + AI processing report — PASS; run-infer rc now 0 (kill fix); report job gated OFF\n- [x] Weather + relay supervisor (dry run) — PASS (logic); live VERIFY PENDING (next poller start)\n- [x] Pacific npu-status.sh (idle) — PASS (idle); lock-held run VERIFY PENDING\n- [x] Relay quiet-mode inbox + replay (parse only) — PASS (parse); live VERIFY PENDIN"
+    }
+  ],
+  "spoken": [],
+  "owns": [],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/Archive/Work-Order_2026-09-29T0432.md",
+      "report_id": ""
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/Archive/Work-Order_2026-09-29T0432.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "pending",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_17a11a69976a4d9d155a",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Reports/Generated/Archive/Work-Order_2026-09-29T0432.md",
+    "file_mtime": "2026-09-29T04:32:57.006028",
+    "window_from_file": false
+  }
+}

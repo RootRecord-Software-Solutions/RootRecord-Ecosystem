@@ -1,4 +1,4 @@
-# Kilauea image check — 2026-10-02T14:27:36-10:00
+# Kilauea image check — 2026-10-02T14:59:48-10:00
 
 - **Cam:** V3 Halemaʻumaʻu lava lake (`v3cam_current.jpg`)
 - **Activity:** plume
@@ -9,7 +9,7 @@
 - **Fetched live this check:** `False`
 - **Reference:** lava-fountain-ref.jpg
 - **Model:** gemma4:e4b
-- **At:** 2026-10-02T14:27:36-10:00
+- **At:** 2026-10-02T14:59:48-10:00
 - **Error:** none
 
 ## Spoken
