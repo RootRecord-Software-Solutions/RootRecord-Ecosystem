@@ -1,0 +1,80 @@
+{
+  "at": "2026-10-03T02:36:36-10:00",
+  "source": "https://volcanoes.usgs.gov/hans-public/api/volcano/getMonitoredVolcanoes",
+  "observatory": "HVO",
+  "count": 8,
+  "volcanoes": [
+    {
+      "name": "Haleakala",
+      "vnum": "332060",
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "status_sent_utc": "2026-10-01 21:30:20",
+      "status_notice_id": "DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
+      "status_notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T01:33:14+00:00"
+    },
+    {
+      "name": "Hualalai",
+      "vnum": "332040",
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "status_sent_utc": "2026-10-01 21:30:20",
+      "status_notice_id": "DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
+      "status_notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T01:33:14+00:00"
+    },
+    {
+      "name": "Kilauea",
+      "vnum": "332010",
+      "alert_level": "WATCH",
+      "color_code": "ORANGE",
+      "status_sent_utc": "2026-10-02 19:45:09",
+      "status_notice_id": "DOI-USGS-HVO-2026-10-02T18:13:04+00:00",
+      "status_notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-02T18:13:04+00:00"
+    },
+    {
+      "name": "Mauna Kea",
+      "vnum": "332030",
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "status_sent_utc": "2026-10-01 21:30:20",
+      "status_notice_id": "DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
+      "status_notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T01:33:14+00:00"
+    },
+    {
+      "name": "Mauna Loa",
+      "vnum": "332020",
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "status_sent_utc": "2026-10-01 21:30:20",
+      "status_notice_id": "DOI-USGS-HVO-2026-10-01T01:33:14+00:00",
+      "status_notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T01:33:14+00:00"
+    },
+    {
+      "name": "Ofu-Olosega",
+      "vnum": "244010",
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "status_sent_utc": "2026-10-01 22:00:03",
+      "status_notice_id": "DOI-USGS-HVO-2026-10-01T21:44:23+00:00",
+      "status_notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T21:44:23+00:00"
+    },
+    {
+      "name": "Ta'u Island",
+      "vnum": "244001",
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "status_sent_utc": "2026-10-01 22:00:03",
+      "status_notice_id": "DOI-USGS-HVO-2026-10-01T21:44:23+00:00",
+      "status_notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T21:44:23+00:00"
+    },
+    {
+      "name": "Tutuila Island",
+      "vnum": "244020",
+      "alert_level": "NORMAL",
+      "color_code": "GREEN",
+      "status_sent_utc": "2026-10-01 22:00:03",
+      "status_notice_id": "DOI-USGS-HVO-2026-10-01T21:44:23+00:00",
+      "status_notice_url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-01T21:44:23+00:00"
+    }
+  ]
+}
