@@ -59,8 +59,13 @@
 /Weather/
 # Root Monitor live settings. The seed file stays in Pacific Apps/Control-Panel/settings.json.
 /System/control-panel/
-# Energy sqlite store (binary).
-/RootRecord/
+# Energy and System sqlite stores (binary). Same tree shape: raw db + layers/.
+/Energy/rootrecord.db
+/Energy/rootrecord.db-*
+/Energy/layers/
+/System/system.db
+/System/system.db-*
+/System/layers/
 
 # Ollama runtime/error/pull logs (volatile, may hold prompts): contents local only; .gitkeep preserves the layout. Builds + Modelfiles stay tracked. Added 2026-09-29.
 /Logs/AI/Ollama/Runtime/*

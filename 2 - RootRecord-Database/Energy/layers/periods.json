@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T08:44:30.921692Z",
+  "updated_at": "2026-10-03T08:51:43.150000Z",
   "source": "raw samples in each timeframe",
   "windows": {
     "hour": {
@@ -10,15 +10,15 @@
         {
           "alias": "delta2",
           "model": "Delta 2",
-          "soc_avg": 44.1,
-          "soc_min": 44.1,
-          "soc_max": 44.1,
+          "soc_avg": 42.59,
+          "soc_min": 42.59,
+          "soc_max": 42.59,
           "samples": 1,
           "solar_w_avg": 0.0,
-          "ac_out_w_avg": 43.0,
+          "ac_out_w_avg": 56.0,
           "ac_in_w_avg": 0.0,
-          "usbc_w_avg": 21.0,
-          "output_w_avg": 80.0,
+          "usbc_w_avg": 15.0,
+          "output_w_avg": 71.0,
           "produced_wh": null,
           "spent_wh": null
         }
@@ -32,15 +32,15 @@
         {
           "alias": "delta2",
           "model": "Delta 2",
-          "soc_avg": 44.1,
-          "soc_min": 44.1,
-          "soc_max": 44.1,
+          "soc_avg": 42.59,
+          "soc_min": 42.59,
+          "soc_max": 42.59,
           "samples": 1,
           "solar_w_avg": 0.0,
-          "ac_out_w_avg": 43.0,
+          "ac_out_w_avg": 56.0,
           "ac_in_w_avg": 0.0,
-          "usbc_w_avg": 21.0,
-          "output_w_avg": 80.0,
+          "usbc_w_avg": 15.0,
+          "output_w_avg": 71.0,
           "produced_wh": null,
           "spent_wh": null
         }
@@ -54,15 +54,15 @@
         {
           "alias": "delta2",
           "model": "Delta 2",
-          "soc_avg": 44.1,
-          "soc_min": 44.1,
-          "soc_max": 44.1,
+          "soc_avg": 42.59,
+          "soc_min": 42.59,
+          "soc_max": 42.59,
           "samples": 1,
           "solar_w_avg": 0.0,
-          "ac_out_w_avg": 43.0,
+          "ac_out_w_avg": 56.0,
           "ac_in_w_avg": 0.0,
-          "usbc_w_avg": 21.0,
-          "output_w_avg": 80.0,
+          "usbc_w_avg": 15.0,
+          "output_w_avg": 71.0,
           "produced_wh": null,
           "spent_wh": null
         }
@@ -76,15 +76,15 @@
         {
           "alias": "delta2",
           "model": "Delta 2",
-          "soc_avg": 44.1,
-          "soc_min": 44.1,
-          "soc_max": 44.1,
+          "soc_avg": 42.59,
+          "soc_min": 42.59,
+          "soc_max": 42.59,
           "samples": 1,
           "solar_w_avg": 0.0,
-          "ac_out_w_avg": 43.0,
+          "ac_out_w_avg": 56.0,
           "ac_in_w_avg": 0.0,
-          "usbc_w_avg": 21.0,
-          "output_w_avg": 80.0,
+          "usbc_w_avg": 15.0,
+          "output_w_avg": 71.0,
           "produced_wh": null,
           "spent_wh": null
         }
@@ -98,15 +98,15 @@
         {
           "alias": "delta2",
           "model": "Delta 2",
-          "soc_avg": 44.1,
-          "soc_min": 44.1,
-          "soc_max": 44.1,
+          "soc_avg": 42.59,
+          "soc_min": 42.59,
+          "soc_max": 42.59,
           "samples": 1,
           "solar_w_avg": 0.0,
-          "ac_out_w_avg": 43.0,
+          "ac_out_w_avg": 56.0,
           "ac_in_w_avg": 0.0,
-          "usbc_w_avg": 21.0,
-          "output_w_avg": 80.0,
+          "usbc_w_avg": 15.0,
+          "output_w_avg": 71.0,
           "produced_wh": null,
           "spent_wh": null
         }
