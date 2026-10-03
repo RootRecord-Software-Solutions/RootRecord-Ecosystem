@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-03",
+  "sunrise": "06:12",
+  "sunset": "18:08",
+  "sunrise_iso": "2026-10-03T06:12",
+  "sunset_iso": "2026-10-03T18:08",
+  "source": "seeded-from-prior-day-open-meteo",
+  "lat": 19.43,
+  "lon": -155.23,
+  "fetched_at": "2026-10-03T06:07:52-10:00",
+  "next_date": null,
+  "next_sunrise": null,
+  "note": "Open-Meteo reset today; seeded from 2026-10-02 next_sunrise. energy_sun_times job will refresh."
+}

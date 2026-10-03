@@ -1,28 +1,12 @@
 {
-  "updated_at": "2026-10-03T15:57:23.633617Z",
+  "updated_at": "2026-10-03T16:43:21.496474Z",
   "source": "raw samples in each timeframe",
   "windows": {
     "hour": {
       "layer": "1hour",
-      "period_start": "2026-10-03T15:00:00.000Z",
-      "period_end": "2026-10-03T16:00:00.000Z",
-      "packs": [
-        {
-          "alias": "river2pro",
-          "model": "river2pro",
-          "soc_avg": 77.5,
-          "soc_min": 77.0,
-          "soc_max": 78.0,
-          "samples": 2,
-          "solar_w_avg": 0.0,
-          "ac_out_w_avg": 35.0,
-          "ac_in_w_avg": 0.0,
-          "usbc_w_avg": 59.0,
-          "output_w_avg": null,
-          "produced_wh": 0.0,
-          "spent_wh": null
-        }
-      ]
+      "period_start": "2026-10-03T16:00:00.000Z",
+      "period_end": "2026-10-03T17:00:00.000Z",
+      "packs": []
     },
     "day": {
       "layer": "day",

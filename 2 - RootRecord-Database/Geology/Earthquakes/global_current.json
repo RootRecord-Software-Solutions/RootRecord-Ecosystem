@@ -1,21 +1,65 @@
 {
-  "at": "2026-10-03T05:51:52-10:00",
+  "at": "2026-10-03T06:39:53-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii_current ids",
-  "count": 36,
-  "count_m2": 36,
-  "count_m25": 36,
+  "count": 37,
+  "count_m2": 37,
+  "count_m25": 37,
   "largest": {
-    "id": "us6000tz62",
-    "mag": 5.8,
-    "place": "165 km SSE of Vilyuchinsk, Russia",
-    "time_hst": "2026-10-02T06:34:41.010000-10:00"
+    "id": "us6000tz8c",
+    "mag": 5.1,
+    "place": "199 km SSE of Vilyuchinsk, Russia",
+    "time_hst": "2026-10-02T10:27:27.120000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-03T15:51:19+00:00",
+  "usgs_generated_utc": "2026-10-03T16:39:19+00:00",
   "events": [
+    {
+      "id": "pr71535538",
+      "mag": 3.26,
+      "mag_type": "md",
+      "place": "66 km E of Cruz Bay, U.S. Virgin Islands",
+      "time_utc": "2026-10-03T16:03:54.350000+00:00",
+      "time_hst": "2026-10-03T06:03:54.350000-10:00",
+      "lon": -64.1651666666667,
+      "lat": 18.3371666666667,
+      "depth_km": 81.22,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71535538",
+      "nearest": {
+        "location_id": "kn-basseterre",
+        "name": "Basseterre",
+        "country_code": "KN",
+        "admin1_code": null,
+        "km": 191.7
+      }
+    },
+    {
+      "id": "pr2026276001",
+      "mag": 3.71,
+      "mag_type": "md",
+      "place": "40 km ENE of Samaná, Dominican Republic",
+      "time_utc": "2026-10-03T15:03:20.910000+00:00",
+      "time_hst": "2026-10-03T05:03:20.910000-10:00",
+      "lon": -68.9783,
+      "lat": 19.3481,
+      "depth_km": 41,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026276001",
+      "nearest": {
+        "location_id": "do-santo-domingo",
+        "name": "Santo Domingo",
+        "country_code": "DO",
+        "admin1_code": null,
+        "km": 140.0
+      }
+    },
     {
       "id": "nn00925220",
       "mag": 2.65,
@@ -30,6 +74,22 @@
       "tsunami": 0,
       "type": "earthquake",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925220",
+      "nearest": null
+    },
+    {
+      "id": "us6000tzcn",
+      "mag": 3.3,
+      "mag_type": "ml",
+      "place": "21 km WNW of Preston, Nevada",
+      "time_utc": "2026-10-03T13:58:12.786000+00:00",
+      "time_hst": "2026-10-03T03:58:12.786000-10:00",
+      "lon": -115.3046,
+      "lat": 38.9639,
+      "depth_km": 5,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzcn",
       "nearest": null
     },
     {
@@ -437,15 +497,31 @@
       "nearest": null
     },
     {
+      "id": "us6000tzd5",
+      "mag": 4.7,
+      "mag_type": "mb",
+      "place": "52 km SSW of Vilyuchinsk, Russia",
+      "time_utc": "2026-10-02T20:38:21.109000+00:00",
+      "time_hst": "2026-10-02T10:38:21.109000-10:00",
+      "lon": 158.2168,
+      "lat": 52.4691,
+      "depth_km": 89.108,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzd5",
+      "nearest": null
+    },
+    {
       "id": "us6000tz8g",
       "mag": 4.6,
       "mag_type": "mb",
-      "place": "36 km SSW of Paratunka, Russia",
-      "time_utc": "2026-10-02T20:37:49.141000+00:00",
-      "time_hst": "2026-10-02T10:37:49.141000-10:00",
-      "lon": 157.9775,
-      "lat": 52.6792,
-      "depth_km": 76.697,
+      "place": "46 km SSW of Paratunka, Russia",
+      "time_utc": "2026-10-02T20:37:48.318000+00:00",
+      "time_hst": "2026-10-02T10:37:48.318000-10:00",
+      "lon": 158.0496,
+      "lat": 52.5605,
+      "depth_km": 74.647,
       "status": "reviewed",
       "tsunami": 0,
       "type": "earthquake",
@@ -584,66 +660,6 @@
         "country_code": "HK",
         "admin1_code": null,
         "km": 219.8
-      }
-    },
-    {
-      "id": "us6000tz62",
-      "mag": 5.8,
-      "mag_type": "mww",
-      "place": "165 km SSE of Vilyuchinsk, Russia",
-      "time_utc": "2026-10-02T16:34:41.010000+00:00",
-      "time_hst": "2026-10-02T06:34:41.010000-10:00",
-      "lon": 159.7398,
-      "lat": 51.6873,
-      "depth_km": 29.477,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz62",
-      "nearest": null
-    },
-    {
-      "id": "us6000tz5h",
-      "mag": 5,
-      "mag_type": "mb",
-      "place": "26 km SSW of Güiria, Venezuela",
-      "time_utc": "2026-10-02T16:31:25.762000+00:00",
-      "time_hst": "2026-10-02T06:31:25.762000-10:00",
-      "lon": -62.4223,
-      "lat": 10.3698,
-      "depth_km": 9.763,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz5h",
-      "nearest": {
-        "location_id": "tt-port-of-spain",
-        "name": "Port of Spain",
-        "country_code": "TT",
-        "admin1_code": null,
-        "km": 103.9
-      }
-    },
-    {
-      "id": "us6000tz1y",
-      "mag": 4.7,
-      "mag_type": "mb",
-      "place": "5 km NNE of Korumburra, Australia",
-      "time_utc": "2026-10-02T16:01:39.581000+00:00",
-      "time_hst": "2026-10-02T06:01:39.581000-10:00",
-      "lon": 145.8401,
-      "lat": -38.3802,
-      "depth_km": 10,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz1y",
-      "nearest": {
-        "location_id": "hk-city-of-victoria",
-        "name": "City of Victoria",
-        "country_code": "HK",
-        "admin1_code": null,
-        "km": 223.1
       }
     }
   ]
