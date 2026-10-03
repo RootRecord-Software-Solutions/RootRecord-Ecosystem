@@ -60,3 +60,10 @@
 {"at":"2026-10-03T00:22:11-10:00","key":"security.established","value":21.0}
 {"at":"2026-10-03T00:22:11-10:00","key":"security.failed_1h","value":0.0}
 {"at":"2026-10-03T00:22:11-10:00","key":"security.failed_24h","value":2.0}
+{"at":"2026-10-03T00:57:21-10:00","key":"system.cpu_pct","value":37.0}
+{"at":"2026-10-03T00:57:21-10:00","key":"system.mem_pct","value":42.0}
+{"at":"2026-10-03T00:57:21-10:00","key":"system.disk_pct","value":45.0}
+{"at":"2026-10-03T00:57:21-10:00","key":"system.battery_pct","value":100.0}
+{"at":"2026-10-03T00:57:21-10:00","key":"system.temp_c","value":54.0}
+{"at":"2026-10-03T00:57:21-10:00","key":"system.gpu_pct","value":0.0}
+{"at":"2026-10-03T00:57:21-10:00","key":"system.npu_pct","value":0.0}
