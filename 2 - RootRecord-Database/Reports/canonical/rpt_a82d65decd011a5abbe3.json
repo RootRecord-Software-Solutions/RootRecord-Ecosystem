@@ -1,0 +1,84 @@
+{
+  "report_id": "rpt_a82d65decd011a5abbe3",
+  "profile": "system",
+  "slug": "system_perf",
+  "topic": "operations",
+  "subtopic": "",
+  "scope": "host",
+  "window_start": "2026-10-02T23:00:00-10:00",
+  "window_end": "2026-10-03T00:00:00-10:00",
+  "timezone": "Pacific/Honolulu",
+  "status": "generated",
+  "created_at": "2026-10-02T23:59:34-10:00",
+  "generated_at": "2026-10-02T23:59:34-10:00",
+  "published_at": "",
+  "generator": "system_perf",
+  "provider": "system_perf",
+  "model": "template",
+  "generator_version": "1",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Report",
+      "text": "# System Performance — 2026-10-02T23:59:29-10:00\n\nHost: HI Pacific Solar Root Server\n\n| Metric | Value |\n|---|---|\n| CPU | 8.8% (load 0.75 / 0.94 / 1.02) |\n| RAM | 50.2% used (7.1 / 14.2 GB); swap used 0.0 GB |\n| Disk / | 45.2% used (227 / 502 GB) |\n| Host battery | 100% (Full, on AC) |\n| Uptime | 1h 47m |\n| Last online | 2026-10-02T23:59:29-10:00 |\n| Power mode | performance |\n| Temp | 64.0°C (acpitz) |\n| iGPU | Advanced Micro Devices, Inc. [AMD/ATI] Krackan2 (rev c8) — 2.0% |\n| NPU | 0.0% (present) |\n\n_Template report (no LLM). Measured on the desk at 2026-10-02T23:59:29-10:00. A missing hardware row was not sampled._"
+    }
+  ],
+  "spoken": [
+    "System performance report. Report generated at eleven fifty nine p.m.. CPU 9%. Memory 50% used, 7.1 of 14.2 gigabytes. Disk 45% used. Host battery 100%, on AC. Uptime 1 hour 47 minutes. Root server was last online at eleven fifty nine p.m.. Host power mode is performance. Temperature 64.0 degrees Celsius. Integrated GPU 2.0 percent. NPU 0.0 percent, present. End of system report."
+  ],
+  "owns": [
+    "host"
+  ],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/system_perf_current.md",
+      "report_id": "rpt_a82d65decd011a5abbe3"
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/system_perf_current.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "failed",
+      "path": "",
+      "error": "audio_failed",
+      "retry": 0
+    },
+    "image": {
+      "status": "skipped",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "skipped",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "not_configured",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_a82d65decd011a5abbe3",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "",
+    "file_mtime": "",
+    "window_from_file": false
+  }
+}

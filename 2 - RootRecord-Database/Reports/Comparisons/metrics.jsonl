@@ -1,0 +1,7 @@
+{"at":"2026-10-02T23:59:29-10:00","key":"system.cpu_pct","value":9.0}
+{"at":"2026-10-02T23:59:29-10:00","key":"system.mem_pct","value":50.0}
+{"at":"2026-10-02T23:59:29-10:00","key":"system.disk_pct","value":45.0}
+{"at":"2026-10-02T23:59:29-10:00","key":"system.battery_pct","value":100.0}
+{"at":"2026-10-02T23:59:29-10:00","key":"system.temp_c","value":64.0}
+{"at":"2026-10-02T23:59:29-10:00","key":"system.gpu_pct","value":2.0}
+{"at":"2026-10-02T23:59:29-10:00","key":"system.npu_pct","value":0.0}
