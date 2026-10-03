@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-03T08:18:17-10:00",
+  "at": "2026-10-03T08:28:11-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
@@ -14,7 +14,7 @@
     "time_hst": "2026-10-02T10:27:27.120000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-03T18:17:19+00:00",
+  "usgs_generated_utc": "2026-10-03T18:27:19+00:00",
   "events": [
     {
       "id": "us6000tzdj",
@@ -46,6 +46,22 @@
       "tsunami": 0,
       "type": "earthquake",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tpgsir",
+      "nearest": null
+    },
+    {
+      "id": "us6000tzda",
+      "mag": 4.1,
+      "mag_type": "mb",
+      "place": "93 km SW of Atka, Alaska",
+      "time_utc": "2026-10-03T16:06:51.093000+00:00",
+      "time_hst": "2026-10-03T06:06:51.093000-10:00",
+      "lon": -175.2905,
+      "lat": 51.6964,
+      "depth_km": 50.31,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzda",
       "nearest": null
     },
     {
@@ -654,22 +670,6 @@
       "tsunami": 0,
       "type": "earthquake",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz7t",
-      "nearest": null
-    },
-    {
-      "id": "us6000tz7b",
-      "mag": 5,
-      "mag_type": "mb",
-      "place": "179 km SSE of Vilyuchinsk, Russia",
-      "time_utc": "2026-10-02T18:25:20.940000+00:00",
-      "time_hst": "2026-10-02T08:25:20.940000-10:00",
-      "lon": 159.8307,
-      "lat": 51.5775,
-      "depth_km": 10,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz7b",
       "nearest": null
     }
   ]

@@ -208,9 +208,11 @@ These have a clock and will not run. Their `RR_*` flag still defaults to 0, or t
 
 ## Handoff — 2026-10-02 ~21:52 HST — hour grid → Library
 
+Superseded 2026-10-03. The current section at the top of this file is the live hour. The bullets below are that night’s sitting only.
+
 ### Confirmed facts
-- Recurring work is `EXACT_TIME`. Schedule JSON is what a running poller fires.
-- The poller was not started. The unit is enabled and inactive.
+- Recurring work is `EXACT_TIME`. That night this page said schedule JSON is what a running poller fires. The 08:18 HST process logged `MODE=jobs.py`.
+- The poller was not started. The unit is enabled and inactive. That was true for that sitting. It is not the 2026-10-03 process state.
 - 8-hour CloudNarrative and `discord_report_8h` are not on the hour.
 
 ### Pages updated
