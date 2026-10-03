@@ -1,0 +1,89 @@
+{
+  "report_id": "rpt_8caf72d6cbb729720356",
+  "profile": "system",
+  "slug": "system_perf",
+  "topic": "operations",
+  "subtopic": "",
+  "scope": "host",
+  "window_start": "2026-10-02T15:00:00-10:00",
+  "window_end": "2026-10-02T16:00:00-10:00",
+  "timezone": "Pacific/Honolulu",
+  "status": "assets_ready",
+  "created_at": "2026-10-02T15:51:06-10:00",
+  "generated_at": "2026-10-02T15:51:06-10:00",
+  "published_at": "",
+  "generator": "system_perf",
+  "provider": "system_perf",
+  "model": "template",
+  "generator_version": "1",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Report",
+      "text": "# System Performance — 2026-10-02T15:50:43-10:00\n\nHost: HI Pacific Solar Root Server\n\n| Metric | Value |\n|---|---|\n| CPU | 6.3% (load 4.83 / 3.76 / 2.96) |\n| RAM | 60.5% used (8.6 / 14.2 GB); swap used 4.0 GB |\n| Disk / | 36.4% used (183 / 502 GB) |\n| Host battery | 53% (Charging, on AC) |\n| Uptime | 12h 14m |\n| Last online | 2026-10-02T15:48:32-10:00 |\n| Uptime percent | 7% |\n| Average offline | 462 s |\n| Power mode | performance |\n| Temp | 96.0°C (acpitz) |\n| iGPU | Advanced Micro Devices, Inc. [AMD/ATI] Krackan2 (rev c8) — 3.0% |\n| NPU | 0.0% (present) |\n\n_Template report (no LLM). Measured on the desk at 2026-10-02T15:50:43-10:00. A missing hardware row was not sampled._"
+    }
+  ],
+  "spoken": [
+    "System performance report. Report generated at three fifty p.m.. CPU 6%. Memory 60% used, 8.6 of 14.2 gigabytes. Disk 36% used. Host battery 53%, on AC. Uptime 12 hours 14 minutes. Root server was last online at three forty eight p.m.. Uptime 7 percent. Average offline time 7 minutes. Host power mode is performance. Temperature 96.0 degrees Celsius. Integrated GPU 3.0 percent. NPU 0.0 percent, present. End of system report."
+  ],
+  "owns": [
+    "host"
+  ],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/system_perf_current.md",
+      "report_id": "rpt_8caf72d6cbb729720356"
+    },
+    {
+      "kind": "audio",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/system_perf_current.wav",
+      "report_id": "rpt_8caf72d6cbb729720356"
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/system_perf_current.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/system_perf_current.wav",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "skipped",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "skipped",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "not_configured",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_8caf72d6cbb729720356",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "",
+    "file_mtime": "",
+    "window_from_file": false
+  }
+}

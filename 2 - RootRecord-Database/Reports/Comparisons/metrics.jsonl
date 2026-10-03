@@ -1285,3 +1285,11 @@
 {"at":"2026-10-02T14:54:22-10:00","key":"analytics.home_proxy.requests","value":1154.0}
 {"at":"2026-10-02T14:54:22-10:00","key":"analytics.radio.listeners_max","value":3.0}
 {"at":"2026-10-02T14:54:22-10:00","key":"analytics.radio.listen_minutes_est","value":1230.0}
+{"at":"2026-10-02T15:50:43-10:00","key":"system.cpu_pct","value":6.0}
+{"at":"2026-10-02T15:50:43-10:00","key":"system.mem_pct","value":60.0}
+{"at":"2026-10-02T15:50:43-10:00","key":"system.disk_pct","value":36.0}
+{"at":"2026-10-02T15:50:43-10:00","key":"system.battery_pct","value":53.0}
+{"at":"2026-10-02T15:50:43-10:00","key":"system.temp_c","value":96.0}
+{"at":"2026-10-02T15:50:43-10:00","key":"system.gpu_pct","value":3.0}
+{"at":"2026-10-02T15:50:43-10:00","key":"system.npu_pct","value":0.0}
+{"at":"2026-10-02T15:51:06-10:00","key":"nws.alerts","value":0.0}
