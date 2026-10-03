@@ -8,9 +8,9 @@
   "window_start": "2026-10-03T00:00:00-10:00",
   "window_end": "2026-10-03T01:00:00-10:00",
   "timezone": "Pacific/Honolulu",
-  "status": "generated",
+  "status": "assets_ready",
   "created_at": "2026-10-03T00:13:38-10:00",
-  "generated_at": "2026-10-03T00:13:38-10:00",
+  "generated_at": "2026-10-03T00:19:51-10:00",
   "published_at": "",
   "generator": "voice_build",
   "provider": "voice_build",
@@ -21,11 +21,12 @@
   "sections": [
     {
       "heading": "Report",
-      "text": "# Hurricane desk — 2026-10-03T00:13:38-10:00\n\nHurricane desk. Report generated at twelve thirteen a.m. Hurricane Nolo is about 572 nautical miles from Līhuʻe. It is moving west at about 11 knots, away from Hawaii. Winds are about 95 knots. Honolulu has no tropical watch or warning. Watches and warnings stay with NWS Honolulu.\n\n## Tracked systems (G3 weather poller)\n\n| Storm | Class | Knots | Position | Nearest island | nm | Bearing | Movement | Last poll (HST) | On board |\n|---|---|---|---|---|---|---|---|---|---|\n| Nolo | Hurricane (HU) | 95 | 23.3, -169.6 | Līhuʻe | 572 | west | west ~11 kt away | 2026-10-02T23:54:31.911272-10:00 (0.3 h ago) | yes |\n\nNWS HI alerts (updated 2026-10-03T09:53:16+00:00): none; tropical: 0.\n\n_Sources: Database `Weather/Hawai'i/hurricanes/tracking/*/track.json` (NHC CurrentStorms, Hawaiʻi-relevant storms only: 800 nm or CPHC) and the NWS HI alerts file. Movement is estimated from the last two distinct tracked fixes. G1's global JTWC/RAMMB board is not collected in G3, so there is no global count._"
+      "text": "# Hurricane desk — 2026-10-03T00:19:37-10:00\n\nHurricane desk. Report generated at twelve nineteen a.m. Hurricane Nolo is about 572 nautical miles from Līhuʻe. It is moving west at about 11 knots, away from Hawaii. Winds are about 95 knots. Honolulu has no tropical watch or warning. Watches and warnings stay with NWS Honolulu.\n\n## Tracked systems (G3 weather poller)\n\n| Storm | Class | Knots | Position | Nearest island | nm | Bearing | Movement | Last poll (HST) | On board |\n|---|---|---|---|---|---|---|---|---|---|\n| Nolo | Hurricane (HU) | 95 | 23.3, -169.6 | Līhuʻe | 572 | west | west ~11 kt away | 2026-10-03T00:10:02.345900-10:00 (0.2 h ago) | yes |\n\nNWS HI alerts (updated 2026-10-03T10:03:14+00:00): none; tropical: 0.\n\n_Sources: Database `Weather/Hawai'i/hurricanes/tracking/*/track.json` (NHC CurrentStorms, Hawaiʻi-relevant storms only: 800 nm or CPHC) and the NWS HI alerts file. Movement is estimated from the last two distinct tracked fixes. G1's global JTWC/RAMMB board is not collected in G3, so there is no global count._"
     }
   ],
   "spoken": [
     "Hurricane desk.",
+    "Report generated at twelve nineteen a.m.",
     "Hurricane Nolo is about 572 nautical miles from Līhuʻe.",
     "It is moving west at about 11 knots, away from Hawaii.",
     "Winds are about 95 knots.",
@@ -40,6 +41,11 @@
       "kind": "text",
       "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/hurricane_desk_current.md",
       "report_id": "rpt_2001fac09046378b47bb"
+    },
+    {
+      "kind": "audio",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/hurricane_desk_current.wav",
+      "report_id": "rpt_2001fac09046378b47bb"
     }
   ],
   "stages": {
@@ -50,10 +56,10 @@
       "retry": 0
     },
     "audio": {
-      "status": "failed",
-      "path": "",
-      "error": "busy",
-      "retry": 1
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/hurricane_desk_current.wav",
+      "error": "",
+      "retry": 0
     },
     "image": {
       "status": "skipped",
