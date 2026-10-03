@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-03T01:18:21-10:00",
+  "at": "2026-10-03T01:08:31-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
   "excludes": "hawaii_current ids",
-  "count": 36,
-  "count_m2": 36,
-  "count_m25": 36,
+  "count": 37,
+  "count_m2": 37,
+  "count_m25": 37,
   "largest": {
     "id": "us6000tz62",
     "mag": 5.8,
@@ -14,7 +14,7 @@
     "time_hst": "2026-10-02T06:34:41.010000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-03T11:18:19+00:00",
+  "usgs_generated_utc": "2026-10-03T11:08:19+00:00",
   "events": [
     {
       "id": "us6000tzc3",
@@ -669,6 +669,22 @@
         "admin1_code": null,
         "km": 54.8
       }
+    },
+    {
+      "id": "us6000tz0x",
+      "mag": 5,
+      "mag_type": "mb",
+      "place": "63 km SW of Panguna, Papua New Guinea",
+      "time_utc": "2026-10-02T11:14:14.383000+00:00",
+      "time_hst": "2026-10-02T01:14:14.383000-10:00",
+      "lon": 155.0136,
+      "lat": -6.6368,
+      "depth_km": 38.25,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz0x",
+      "nearest": null
     }
   ]
 }
