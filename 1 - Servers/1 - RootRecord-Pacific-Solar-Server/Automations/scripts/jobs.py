@@ -1385,6 +1385,18 @@ EXACT_TIME = [  # info: set EXACT_TIME
         "cwd": f"{ML2}",  # info: "cwd"
         "env": {"RR_DATABASE_ROOT": DATABASE},  # info: bank into Pacific Database
     },  # info: } ,
+    {  # info: {
+        "id": "hawaii_to_ml2",  # info: "id" : "hawaii_to_ml2" ,
+        "enabled": os.environ.get("RR_HUB_HAWAII", "1") == "1",
+        "every_seconds": 300,  # info: "every_seconds" : 300 ,
+        "description": "Hub inbound: Database Geology/Weather/RadioRss/Discord → ML2 var/bank (SSH). Desk paths when RR_HUB_MODE=local. Voice air stays radio_push → ML1 only.",  # info: "description"
+        "builtin": "",  # info: "builtin"
+        "command": f'bash "{ML2}/scripts/hawaii-to-ml2.sh"',  # info: "command"
+        "timeout_sec": 180,  # info: "timeout_sec" : 180 ,
+        "needs_internet": True,  # info: "needs_internet" : True ,
+        "cwd": f"{ML2}",  # info: "cwd"
+        "env": {"RR_DATABASE_ROOT": DATABASE, "RR_HUB_MODE": os.environ.get("RR_HUB_MODE", "auto")},  # info: "env"
+    },  # info: } ,
     # --- 33:40–33:44 ---
     # stack: sys_stats_cycle, github_sync_all, delta2_read, security_camera_frame_grab
     {  # info: {
