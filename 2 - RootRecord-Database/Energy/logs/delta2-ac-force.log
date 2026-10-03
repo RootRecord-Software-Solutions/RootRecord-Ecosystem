@@ -342,3 +342,5 @@
 2026-10-03T03:43:25-1000 delta2-ac-force: no-op out_of_range sight=0 sight_age=5s ble_age=2627s ac_ports=true detail=not_seen
 2026-10-03T03:44:10-1000 delta2-ac-force: no-op out_of_range sight=0 sight_age=8s ble_age=2673s ac_ports=true detail=not_seen
 2026-10-03T03:44:56-1000 delta2-ac-force: no-op out_of_range sight=0 sight_age=0s ble_age=2718s ac_ports=true detail=not_seen
+2026-10-03T03:45:41-1000 delta2-ac-force: no-op out_of_range sight=0 sight_age=3s ble_age=2763s ac_ports=true detail=not_seen
+2026-10-03T03:46:26-1000 delta2-ac-force: no-op out_of_range sight=0 sight_age=8s ble_age=2809s ac_ports=true detail=not_seen

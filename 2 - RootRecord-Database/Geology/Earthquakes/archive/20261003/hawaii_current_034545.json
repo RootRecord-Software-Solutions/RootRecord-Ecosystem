@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-03T03:45:06-10:00",
-  "source": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&starttime=2026-10-02T13%3A45%3A06&minmagnitude=1.0&minlatitude=18.5&maxlatitude=22.5&minlongitude=-160.5&maxlongitude=-154.5",
+  "at": "2026-10-03T03:35:14-10:00",
+  "source": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&starttime=2026-10-02T13%3A35%3A14&minmagnitude=1.0&minlatitude=18.5&maxlatitude=22.5&minlongitude=-160.5&maxlongitude=-154.5",
   "window_h": 24,
   "min_mag": 1.0,
   "bbox": {
@@ -9,7 +9,7 @@
     "minlongitude": -160.5,
     "maxlongitude": -154.5
   },
-  "count": 20,
+  "count": 21,
   "count_m2": 5,
   "count_m25": 1,
   "largest": {
@@ -18,10 +18,10 @@
     "place": "5 km WSW of Volcano, Hawaii",
     "time_hst": "2026-10-02T07:55:58.410000-10:00"
   },
-  "kilauea_150km_count": 20,
+  "kilauea_150km_count": 21,
   "new_this_run": 0,
   "new_local_m2_ids": [],
-  "usgs_generated_utc": "2026-10-03T13:45:06+00:00",
+  "usgs_generated_utc": "2026-10-03T13:35:14+00:00",
   "events": [
     {
       "id": "hv75049022",
@@ -461,6 +461,28 @@
         "country_code": "US",
         "admin1_code": "HI",
         "km": 7.2
+      }
+    },
+    {
+      "id": "hv75048247",
+      "mag": 1.8,
+      "mag_type": "md",
+      "place": "25 km ESE of Naalehu, Hawaii",
+      "time_utc": "2026-10-02T13:37:51.240000+00:00",
+      "time_hst": "2026-10-02T03:37:51.240000-10:00",
+      "lon": -155.347503662109,
+      "lat": 18.9958324432373,
+      "depth_km": 14.8000001907349,
+      "status": "automatic",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75048247",
+      "nearest": {
+        "location_id": "us-hawaii-volcano-village",
+        "name": "Volcano Village",
+        "country_code": "US",
+        "admin1_code": "HI",
+        "km": 47.9
       }
     }
   ]
