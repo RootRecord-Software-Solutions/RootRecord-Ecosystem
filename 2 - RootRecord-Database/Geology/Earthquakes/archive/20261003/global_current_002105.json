@@ -1,9 +1,9 @@
 {
-  "at": "2026-10-03T00:19:50-10:00",
+  "at": "2026-10-03T00:09:41-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
-  "excludes": "hawaii_current ids",
+  "excludes": "hawaii-last ids",
   "count": 34,
   "count_m2": 34,
   "count_m25": 34,
@@ -14,11 +14,11 @@
     "time_hst": "2026-10-02T06:34:41.010000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-03T10:19:19+00:00",
+  "usgs_generated_utc": "2026-10-03T10:09:19+00:00",
   "events": [
     {
       "id": "aka2026toserr",
-      "mag": 3.2,
+      "mag": 3.1,
       "mag_type": "ml",
       "place": "130 km E of Chignik, Alaska",
       "time_utc": "2026-10-03T10:04:47.331000+00:00",

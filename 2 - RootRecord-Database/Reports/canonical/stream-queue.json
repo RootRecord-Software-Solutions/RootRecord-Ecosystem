@@ -31,6 +31,16 @@
       "publication": "not_configured"
     },
     {
+      "report_id": "rpt_5089c24c9a1850eda00a",
+      "id": "kilauea_report",
+      "file": "kilauea_report_current.wav",
+      "window_start": "2026-10-03T00:00:00-10:00",
+      "window_end": "2026-10-03T01:00:00-10:00",
+      "priority": 0,
+      "status": "assets_ready",
+      "publication": "not_configured"
+    },
+    {
       "report_id": "rpt_57e61ef2ab99342611fd",
       "id": "nws_weather",
       "file": "nws_weather_current.wav",
