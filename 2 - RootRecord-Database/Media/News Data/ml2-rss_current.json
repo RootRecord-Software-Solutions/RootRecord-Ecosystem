@@ -1,0 +1,158 @@
+{
+  "collector": "ml2.radio_rss",
+  "status": "ok",
+  "collected_at": "2026-10-03T09:53:42Z",
+  "rr_database_root": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank",
+  "radio_root": "/home/ubuntu/US-Mainland-Server-2/var/radio-bank/Media/RadioRss",
+  "poll": {
+    "ok": true,
+    "polled": [
+      {
+        "feed": "abc_australia_top",
+        "ok": true,
+        "items": 20,
+        "duplicates": 18
+      },
+      {
+        "feed": "aljazeera_all",
+        "ok": true,
+        "items": 20,
+        "duplicates": 14
+      },
+      {
+        "feed": "bbc_europe",
+        "ok": true,
+        "items": 20,
+        "duplicates": 19
+      },
+      {
+        "feed": "bbc_latin_america",
+        "ok": true,
+        "items": 17,
+        "duplicates": 17
+      },
+      {
+        "feed": "bbc_middle_east",
+        "ok": true,
+        "items": 20,
+        "duplicates": 18
+      },
+      {
+        "feed": "bbc_world",
+        "ok": true,
+        "items": 20,
+        "duplicates": 18
+      },
+      {
+        "feed": "bea_news",
+        "ok": true,
+        "items": 20,
+        "duplicates": 20
+      },
+      {
+        "feed": "berkeley_news",
+        "ok": true,
+        "items": 0
+      },
+      {
+        "feed": "breaking_defense",
+        "ok": true,
+        "items": 0
+      },
+      {
+        "feed": "cisa_news",
+        "ok": true,
+        "items": 10,
+        "duplicates": 10
+      },
+      {
+        "feed": "civil_beat",
+        "ok": true,
+        "items": 0
+      },
+      {
+        "feed": "defense_news",
+        "ok": true,
+        "items": 20,
+        "duplicates": 19
+      },
+      {
+        "feed": "esa_human_spaceflight",
+        "ok": true,
+        "items": 15,
+        "duplicates": 14
+      },
+      {
+        "feed": "esa_space_science",
+        "ok": true,
+        "items": 15,
+        "duplicates": 15
+      },
+      {
+        "feed": "esa_top_news",
+        "ok": true,
+        "items": 9,
+        "duplicates": 8
+      },
+      {
+        "feed": "fed_monetary",
+        "ok": true,
+        "items": 0
+      },
+      {
+        "feed": "github_changelog",
+        "ok": true,
+        "items": 0
+      },
+      {
+        "feed": "guardian_international",
+        "ok": true,
+        "items": 20,
+        "duplicates": 18
+      },
+      {
+        "feed": "harvard_gazette",
+        "ok": true,
+        "items": 0
+      },
+      {
+        "feed": "noaa_news",
+        "ok": true,
+        "items": 0
+      },
+      {
+        "feed": "npr_national",
+        "ok": true,
+        "items": 10,
+        "duplicates": 9
+      },
+      {
+        "feed": "npr_news",
+        "ok": true,
+        "items": 10,
+        "duplicates": 9
+      },
+      {
+        "feed": "npr_politics",
+        "ok": true,
+        "items": 10,
+        "duplicates": 9
+      },
+      {
+        "feed": "npr_world",
+        "ok": true,
+        "items": 10,
+        "duplicates": 10
+      }
+    ],
+    "composed": [
+      "c_d5a29603ed3ee636"
+    ]
+  },
+  "handoff_core": 3,
+  "handoff_stories": 80,
+  "handoff_story_bytes": 115911,
+  "error": null,
+  "pacific_job": "radio_rss_poll",
+  "note": "vendor/RadioRss poll + queue export; no speak/push. Pacific radio_rss_poll stays in jobs.py (RR_LOCAL_DATA_POLL gate)."
+}

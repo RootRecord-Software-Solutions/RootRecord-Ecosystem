@@ -1480,6 +1480,20 @@ EXACT_TIME = [  # info: set EXACT_TIME
     # ---------- minute 35 of every hour ----------
     # --- 35:00–35:04 ---
     # stack: sys_stats_cycle, github_sync_all, delta2_read, security_camera_frame_grab
+    {  # info: {
+        # NEWS — poll News Data, four topic lanes, Pacific stitch, push one news_update.
+        "id": "news_cycle",  # info: "id" : "news_cycle" ,
+        "enabled": os.environ.get("RR_NEWS_CYCLE", "1") == "1",
+        "at_minute": 35,  # info: "at_minute" : 35 ,
+        "at_second": 0,  # info: "at_second" : 0 ,
+        "description": "News Data cycle at :35 — poll RSS, four ~5min topic lanes, numbered TTS, Pacific stitch to news_update, radio_push to ML1.",  # info: "description"
+        "builtin": "",  # info: "builtin"
+        "command": f"nice -n 10 python3 \"{PACIFIC}/Media/News/scripts/run_news_cycle.py\"",  # info: "command"
+        "timeout_sec": 1800,  # info: "timeout_sec" : 1800 ,
+        "needs_internet": True,  # info: "needs_internet" : True ,
+        "cwd": f"{PACIFIC}/Media/News/scripts",  # info: "cwd"
+        "env": {"RR_DATABASE_ROOT": DATABASE, "RR_NEWS_DATA_ROOT": f"{DATABASE}/Media/News Data", "RR_PACIFIC_ROOT": PACIFIC, "RR_RADIO_RSS_CONFIG": f"{ML1}/vendor/RadioRss/config"},  # info: "env"
+    },  # info: } ,
     # --- 35:05–35:09 ---
     # stack: sys_stats_cycle, github_sync_all, river2pro_read
     # --- 35:10–35:14 ---
