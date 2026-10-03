@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="https://www.nist.gov/">
+  <channel>
+    <title>News and Events Feed by Topic</title>
+    <link>https://www.nist.gov/topics</link>
+    <description/>
+    <language>en</language>
+    <atom:link href="https://www.nist.gov/news-events/physics/rss.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+  <title>Department of Commerce Announces Finalization of CHIPS R&amp;amp;D Award with Anderon</title>
+  <link>https://www.nist.gov/news-events/news/2026/09/department-commerce-announces-finalization-chips-rd-award-anderon</link>
+  <description>  The U.S. Department of Commerce announced today the signing of a final R&amp;amp;D award of up to $1 billion to Anderon, a newly formed subsidiary of IBM, under the CHIPS and Science Act.
+
+</description>
+  <pubDate>Wed, 16 Sep 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1920291</guid>
+    </item>
+<item>
+  <title>NIST-Developed Quantum Sensors Improve Nuclear Monitoring</title>
+  <link>https://www.nist.gov/news-events/news/2026/09/nist-developed-quantum-sensors-improve-nuclear-monitoring</link>
+  <description>  New X-ray measurements will allow scientists to more accurately monitor nuclear material at power plants and weapons facilities.
+
+</description>
+  <pubDate>Thu, 10 Sep 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1920006</guid>
+    </item>
+<item>
+  <title>Spotlight: Changing a Material’s Magnetic Properties</title>
+  <link>https://www.nist.gov/news-events/news/2026/08/spotlight-changing-materials-magnetic-properties</link>
+  <description>  NIST develops measurement methods for magnetic materials and certifies magnetic standard reference materials.
+
+</description>
+  <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1919846</guid>
+    </item>
+<item>
+  <title>Spotlight: Using AI Discovery Engine for Materials Exploration</title>
+  <link>https://www.nist.gov/news-events/news/2026/08/spotlight-using-ai-discovery-engine-materials-exploration</link>
+  <description>  NIST researcher Gilad Kusne collaborated with the University of Maryland researchers to use machine learning to investigate different materials based on their composition and temperature. How did they do this? They used an AI algorithm called the
+
+</description>
+  <pubDate>Mon, 03 Aug 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1919841</guid>
+    </item>
+<item>
+  <title>2026 NIST Photometry Short Course</title>
+  <link>https://www.nist.gov/news-events/events/2026/11/2026-nist-photometry-short-course</link>
+  <description>  The NIST Photometry Short Course is a 4-day course held at NIST Gaithersburg, Maryland. The course consists of lectures given by NIST scientists and hands-on laboratory experience measuring illuminance, total luminous flux, colorimetry, and luminous
+
+</description>
+  <pubDate>Tue, 03 Nov 2026 00:00:00 -0500</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1919191</guid>
+    </item>
+<item>
+  <title>NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons</title>
+  <link>https://www.nist.gov/news-events/news/2026/08/nist-researchers-supersize-quantum-technology-help-detect-faint-photons</link>
+  <description>  Our everyday life is flooded with photons, the quantum building blocks of light. For cutting-edge technology, from quantum computing to deep-tissue imaging, detecting every single photon counts. “Photons carry information,” said Kristen Parzuchowski
+
+</description>
+  <pubDate>Mon, 24 Aug 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1918846</guid>
+    </item>
+<item>
+  <title>‘Spooky’ Particles Transit DC Suburbs, a Step Toward a Quantum Network</title>
+  <link>https://www.nist.gov/news-events/news/2026/08/spooky-particles-transit-dc-suburbs-step-toward-quantum-network</link>
+  <description>  The achievement shows that fragile quantum entanglement can survive even in tough, real-world conditions.
+
+</description>
+  <pubDate>Wed, 05 Aug 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1917846</guid>
+    </item>
+<item>
+  <title>NIST Launches Center to Drive the Manufacture of Quantum Technologies</title>
+  <link>https://www.nist.gov/news-events/news/2026/06/nist-launches-center-drive-manufacture-quantum-technologies</link>
+  <description>  NIST has announced an agreement with SRI International to establish the Quantum Manufacturing Engineering Center (QMEC).
+
+</description>
+  <pubDate>Mon, 29 Jun 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1915436</guid>
+    </item>
+<item>
+  <title>NIST/NIBIB Symposium on Medical Metrology and Standards for American Healthcare and Commerce</title>
+  <link>https://www.nist.gov/news-events/events/2026/09/nistnibib-symposium-medical-metrology-and-standards-american-healthcare</link>
+  <description>  This Symposium is a one-day event to address the question: “ which medical measurements and consensus standards should be prioritized to support future U.S. healthcare?” The focus will be on medical imaging, medical devices, and diagnostics. The goal
+
+</description>
+  <pubDate>Thu, 24 Sep 2026 09:00:00 -0400</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1915131</guid>
+    </item>
+<item>
+  <title>NIST Expands Its Library of ‘Chemical Fingerprints’ to Identify Unknown Substances</title>
+  <link>https://www.nist.gov/news-events/news/2026/06/nist-expands-its-library-chemical-fingerprints-identify-unknown-substances</link>
+  <description>  Researchers and manufacturers rely on the library to identify unknown compounds in food, drugs, cosmetics, the environment, body fluids, forensic evidence and even space rocks.
+
+</description>
+  <pubDate>Tue, 09 Jun 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1913871</guid>
+    </item>
+<item>
+  <title>The Department of Commerce’s CHIPS Program Finalizes Definitive Agreement With USA Rare Earth For Up To $1.6 Billion To Support The Company’s “Mine-to-Magnet” Strategy</title>
+  <link>https://www.nist.gov/news-events/news/2026/06/department-commerces-chips-program-finalizes-definitive-agreement-usa-rare</link>
+  <description>  The Department of Commerce’s CHIPS Program Office announced the signing of a final award for up to $277 million in federal incentives and a loan agreement for up to $1.3 billion with USA Rare Earth (USAR) under the CHIPS and Science Act.
+
+</description>
+  <pubDate>Wed, 03 Jun 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1913676</guid>
+    </item>
+<item>
+  <title>Department of Commerce Announces Finalization of CHIPS Incentives with xLight to Support Next-Generation Light Source for Lithography</title>
+  <link>https://www.nist.gov/news-events/news/2026/06/department-commerce-announces-finalization-chips-incentives-xlight-support</link>
+  <description>  The U.S. Department of Commerce and the National Institute of Standards and Technology (NIST) announced today the signing of a final award of $150 million in federal incentives to xLight, Inc. under the CHIPS and Science Act.
+
+</description>
+  <pubDate>Tue, 02 Jun 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1913416</guid>
+    </item>
+<item>
+  <title>Department of Commerce Announces Letters of Intent With 9 Companies for $2 Billion to Accelerate U.S. Leadership in Quantum Computing</title>
+  <link>https://www.nist.gov/news-events/news/2026/05/department-commerce-announces-letters-intent-9-companies-2-billion</link>
+  <description>  The Department of Commerce today announced the signing of 9 letters of intent to provide $2.013 billion in federal incentives under the CHIPS and Science Act.
+
+</description>
+  <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1912456</guid>
+    </item>
+<item>
+  <title>Shooting for the Moon: Ultrastable Lasers in Dark Craters Could Enable Lunar Navigation, Precision Timekeeping, New Science</title>
+  <link>https://www.nist.gov/news-events/news/2026/05/shooting-moon-ultrastable-lasers-dark-craters-could-enable-lunar-navigation</link>
+  <description>  Lunar craters in permanent shadow could be ideal locations for building the most stable optical lasers ever made.
+
+</description>
+  <pubDate>Mon, 18 May 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1912146</guid>
+    </item>
+<item>
+  <title>2026 NIST Spectroradiometry Short Course 2</title>
+  <link>https://www.nist.gov/news-events/events/2026/06/23-26-nist-spectroradiometry-short-course2</link>
+  <description>  The NIST Spectroradiometry Short Course is a 4-day course held at NIST Gaithersburg, Maryland. It consists of 15 lectures given by NIST scientists and 3 hands-on laboratory experiences. Topics covered include the concepts behind radiometry, the
+
+</description>
+  <pubDate>Tue, 14 Jul 2026 00:00:00 -0400</pubDate>
+    <dc:creator>Vontress Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1911476</guid>
+    </item>
+<item>
+  <title>Quantum Pre-Standardization Workshop: Metrology for Quantum Technologies</title>
+  <link>https://www.nist.gov/news-events/events/2026/05/quantum-pre-standardization-workshop-metrology-quantum-technologies</link>
+  <description>  This workshop will bring together stakeholders from across the quantum technology ecosystem to provide input on industry’s most pressing measurement and characterization needs. This information will inform the workplan of NMI-Q, a new G7-endorsed
+
+</description>
+  <pubDate>Wed, 13 May 2026 00:00:00 -0400</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1910911</guid>
+    </item>
+<item>
+  <title>NIST Diamond Magnetometry Pathfinding Workshop</title>
+  <link>https://www.nist.gov/news-events/events/2026/08/nist-diamond-magnetometry-pathfinding-workshop</link>
+  <description>  Magnetometry built on quantum diamond offers a transformative range of sensors that can advance navigation, materials research, and biomedical science, with early-stage commercial products coming online in recent years. Despite these promising
+
+</description>
+  <pubDate>Tue, 11 Aug 2026 00:00:00 -0400</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1910501</guid>
+    </item>
+<item>
+  <title>Any Color You Like: NIST Scientists Create ‘Any Wavelength’ Lasers in Tiny Circuits for Light</title>
+  <link>https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits</link>
+  <description>  NIST scientists and collaborators have pioneered a way to make integrated circuits for light by depositing complex patterns of specialized materials onto silicon wafers.
+
+</description>
+  <pubDate>Wed, 15 Apr 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1910396</guid>
+    </item>
+<item>
+  <title>AVS Mid-Atlantic Chapter DC Regional Meeting at NIST</title>
+  <link>https://www.nist.gov/news-events/events/2026/05/avs-mid-atlantic-chapter-dc-regional-meeting-nist</link>
+  <description>  Highlight theme Thin Films for Fusion and Extreme Environments Invited speakers Thomas R. Mion (NRL), “High stability magnetostrictive materials for magnetic field sensing in extreme environments” Carlos A. Romero-Talamas (UMBC), “Requirements and
+
+</description>
+  <pubDate>Fri, 15 May 2026 00:00:00 -0400</pubDate>
+    <dc:creator>Vontress Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1910326</guid>
+    </item>
+<item>
+  <title>NIST Weighs In on the Mystery of the Gravitational Constant</title>
+  <link>https://www.nist.gov/news-events/news/2026/04/nist-weighs-mystery-gravitational-constant</link>
+  <description>  A NIST researcher has unveiled the results of a 10-year quest to measure the constant.
+
+</description>
+  <pubDate>Thu, 16 Apr 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1910106</guid>
+    </item>
+<item>
+  <title>NIST Spectroradiometry Short Course</title>
+  <link>https://www.nist.gov/news-events/events/2026/06/nist-spectroradiometry-short-course</link>
+  <description>  The NIST Spectroradiometry Short Course is a 4-day course held at NIST Gaithersburg, Maryland. It consists of 15 lectures given by NIST scientists and 3 hands-on laboratory experiences. Topics covered include the concepts behind radiometry, the
+
+</description>
+  <pubDate>Tue, 02 Jun 2026 00:00:00 -0400</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1910036</guid>
+    </item>
+<item>
+  <title>2026 Time and Frequency Seminar</title>
+  <link>https://www.nist.gov/news-events/events/2026/07/2026-time-and-frequency-seminar</link>
+  <description>  NIST Time and Frequency Division's annual seminar covers precision clocks and oscillators, atomic frequency standards, rf and optical synchronization, optical oscillators, quantum information; position, navigation, timing (PNT) Global Navigation
+
+</description>
+  <pubDate>Tue, 21 Jul 2026 00:00:00 -0400</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1908296</guid>
+    </item>
+<item>
+  <title>Artificial Intelligence for Materials Science (AIMS) 2026</title>
+  <link>https://www.nist.gov/news-events/events/2026/06/artificial-intelligence-materials-science-aims-2026</link>
+  <description>  As part of the JARVIS workshop series, the 7th Artificial Intelligence for Materials Science (AIMS) is a workshop aimed at getting together experts from industry, academia, and government to facilitate highly technical dialogue on the intersection of
+
+</description>
+  <pubDate>Tue, 16 Jun 2026 00:00:00 -0400</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1907486</guid>
+    </item>
+<item>
+  <title>NIST Researchers Develop Photonic Chip Packaging That Can Withstand Extreme Environments</title>
+  <link>https://www.nist.gov/news-events/news/2026/03/nist-researchers-develop-photonic-chip-packaging-can-withstand-extreme</link>
+  <description>  The advance could allow these technologies to operate in deep-space probes, inside nuclear reactors, in ultrahigh vacuum systems, and at temperatures both near absolute zero and in scorchingly hot industrial settings.
+
+</description>
+  <pubDate>Mon, 30 Mar 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1906996</guid>
+    </item>
+<item>
+  <title>MLXN: Machine Learning for X-ray and Neutron Scattering</title>
+  <link>https://www.nist.gov/news-events/events/2026/04/mlxn-machine-learning-x-ray-and-neutron-scattering</link>
+  <description>  Building on the success of previous meetings—in-person workshops at Lawrence Berkeley National Lab (2023) and Technische Universität München (2024), followed by MLXN25, last year's online 24-hour event that brought together researchers, practitioners
+
+</description>
+  <pubDate>Mon, 13 Apr 2026 00:00:00 -0400</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1906331</guid>
+    </item>
+<item>
+  <title>NIST Allocates Over $3 Million to Small Businesses Advancing AI, Biotechnology, Semiconductors, Quantum and More</title>
+  <link>https://www.nist.gov/news-events/news/2026/02/nist-allocates-over-3-million-small-businesses-advancing-ai-biotechnology</link>
+  <description>  NIST is allocating funding to eight small businesses in seven states under the Small Business Innovation Research (SBIR) program.
+
+</description>
+  <pubDate>Tue, 10 Feb 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1906091</guid>
+    </item>
+<item>
+  <title>Spotlight: Electromagnetic Proton Trap at the NIST Center for Neutron Research (NCNR)</title>
+  <link>https://www.nist.gov/news-events/news/2026/01/spotlight-electromagnetic-proton-trap-nist-center-neutron-research-ncnr</link>
+  <description>  Just how long do free-floating neutrons live on average? This electromagnetic proton trap at the NIST Center for Neutron Research (NCNR) is part of an effort to answer that question. Free neutrons break down into other particles — a proton, an
+
+</description>
+  <pubDate>Wed, 28 Jan 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1905236</guid>
+    </item>
+<item>
+  <title>Synergy Conference</title>
+  <link>https://www.nist.gov/news-events/events/2026/09/synergy-conference</link>
+  <description>  NIST will be hosting the annual Synergy IRASTRO meeting in 2026 - a collaboration between the Faint Photonics Group at NIST, the Max Planck Institute in Goettingen, Germany, and the University of Aarhus in Denmark. The purpose of the meeting is to
+
+</description>
+  <pubDate>Tue, 01 Sep 2026 00:00:00 -0400</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1904511</guid>
+    </item>
+<item>
+  <title>Moiré Patterns Open Up More Possibilities for Quantum Information</title>
+  <link>https://www.nist.gov/news-events/news/2019/02/moire-patterns-open-more-possibilities-quantum-information</link>
+  <description>  Moiré patterns are observed throughout nature, arising from the interference between two overlaid patterns. They are especially pervasive in digital photography, where they introduce image artifacts. These artifacts result from photographing ultra
+
+</description>
+  <pubDate>Fri, 22 Feb 2019 12:00:00 +0000</pubDate>
+    <dc:creator>Robin Materese</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1901796</guid>
+    </item>
+<item>
+  <title>Convective Accelerometer</title>
+  <link>https://www.nist.gov/news-events/news/2018/05/convective-accelerometer</link>
+  <description>  NIST’s Michael Gaitan and his colleagues patented a new type of acceleration sensor in the late 1990s. Known as the “convective accelerometer,” it uses heated gas instead of moving solid mechanical parts. With no such moving parts, it can survive
+
+</description>
+  <pubDate>Thu, 24 May 2018 12:00:00 +0000</pubDate>
+    <dc:creator>Robin Materese</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1901791</guid>
+    </item>
+<item>
+  <title>NIST Physicists Bring Unruly Molecules to the Quantum Party</title>
+  <link>https://www.nist.gov/news-events/news/2025/12/nist-physicists-bring-unruly-molecules-quantum-party</link>
+  <description>  Molecules can serve as versatile building blocks for quantum technologies, but they are much harder to control than atoms.
+
+</description>
+  <pubDate>Thu, 18 Dec 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1901281</guid>
+    </item>
+<item>
+  <title>SynQuaNon Meeting</title>
+  <link>https://www.nist.gov/news-events/events/2026/01/synquanon-meeting</link>
+  <description>  Program review for DARPA SynQuaNon program.
+
+</description>
+  <pubDate>Tue, 20 Jan 2026 00:00:00 -0500</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1900126</guid>
+    </item>
+<item>
+  <title>Searching for Sterile Neutrinos</title>
+  <link>https://www.nist.gov/news-events/news/2025/11/searching-sterile-neutrinos</link>
+  <description>  In an effort to solve several fundamental mysteries about the cosmos, physicists have been searching for more than two decades for a proposed elementary particle known as the sterile neutrino. The existence of this hypothetical particle could explain
+
+</description>
+  <pubDate>Mon, 24 Nov 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Pamela L Corey</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1899801</guid>
+    </item>
+<item>
+  <title>What Time Is It on Mars? NIST Physicists Have the Answer.</title>
+  <link>https://www.nist.gov/news-events/news/2025/12/what-time-it-mars-nist-physicists-have-answer</link>
+  <description>  This calculation is necessary for future space navigation and communication networks.
+
+</description>
+  <pubDate>Mon, 01 Dec 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1899781</guid>
+    </item>
+<item>
+  <title>5th NIST Quantum Matters in Material Sciences (QMMS) Workshop</title>
+  <link>https://www.nist.gov/news-events/events/2026/02/5th-nist-quantum-matters-material-sciences-qmms-workshop</link>
+  <description>  The 5th Quantum Matters in Materials Science (QMMS) workshop organized by the National Institute of Standards and Technology (NIST) will be held as an in-person only event at the NIST Gaithersburg campus, Maryland on February 18-19, 2026. The
+
+</description>
+  <pubDate>Wed, 18 Feb 2026 00:00:00 -0500</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1898661</guid>
+    </item>
+<item>
+  <title>NIST Issues Broad Agency Announcement for Proposals to Advance Microelectronics Technologies</title>
+  <link>https://www.nist.gov/news-events/news/2025/09/nist-issues-broad-agency-announcement-proposals-advance-microelectronics</link>
+  <description>  The CHIPS for America funding opportunity will support critical research, prototyping and commercial solutions that advance microelectronics technology in the United States.
+
+</description>
+  <pubDate>Wed, 24 Sep 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1897951</guid>
+    </item>
+<item>
+  <title>In Quantum Sensing, What Beats Beating Noise? Meeting Noise Halfway.</title>
+  <link>https://www.nist.gov/news-events/news/2025/09/quantum-sensing-what-beats-beating-noise-meeting-noise-halfway</link>
+  <description>  A team including scientists at NIST may have found a new way of dealing with noise at the microscopic scales where quantum physics reigns.
+
+</description>
+  <pubDate>Wed, 10 Sep 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1897026</guid>
+    </item>
+<item>
+  <title>Office of Naval Research Program Review</title>
+  <link>https://www.nist.gov/news-events/events/2025/10/office-naval-research-program-review</link>
+  <description>  The purpose of this event is to review Office of Naval Research (ONR) Multi-University Research Initiatives (MURIs) and Basic and Applied Research (BAR) projects. The 2025 ONR MURI and BAR Review hosted by the Physical Measurement Laboratory at NIST
+
+</description>
+  <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+    <dc:creator>Sabina Mohan</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1889061</guid>
+    </item>
+<item>
+  <title>New Technique for Measuring DNA Damage Could Improve Cancer Therapy and Radiological Emergency Response</title>
+  <link>https://www.nist.gov/news-events/news/2025/08/new-technique-measuring-dna-damage-could-improve-cancer-therapy-and</link>
+  <description>  The technology, which may someday be as portable as a smartphone, promises faster and more accurate measurements of radiation exposure, potentially saving lives in critical situations.
+
+</description>
+  <pubDate>Thu, 21 Aug 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1888951</guid>
+    </item>
+<item>
+  <title>Advances in Automation of Quantum Dot Devices Control</title>
+  <link>https://www.nist.gov/news-events/events/2025/10/advances-automation-quantum-dot-devices-control</link>
+  <description>  This workshop, co-hosted with the University of California Los Angeles (UCLA) will convene stakeholders from industry, academia, and the government interested in the research and development of semiconductor quantum computing technologies. Topics to
+
+</description>
+  <pubDate>Sun, 05 Oct 2025 09:00:00 -0400</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1888916</guid>
+    </item>
+
+  </channel>
+</rss>

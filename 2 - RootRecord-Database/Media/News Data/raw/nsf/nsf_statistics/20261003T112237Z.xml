@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="rss-page.xsl" type="text/xsl" media="screen"?>
+<rss version="2.0">
+    <channel>
+        <title>RSS Feed</title>
+        <subtitle>Statistics on U.S. Science and Engineering</subtitle>
+        <link>/rss</link>
+        <description>New releases and data from the National Center for Science and Engineering Statistics (NCSES)</description>
+        <language>en</language>
+        <item>
+            <title>Directorate Profiles: Technical Notes</title>
+            <link>https://ncses.nsf.gov/pubs/ncses26209</link>
+            <publishDate>Wed, 30 Sep 2026  11:41:00 EDT</publishDate>
+            <description>The Directorate Profiles from the National Center for Science and Engineering Statistics within the U.S. National Science Foundation (NSF) provide visualizations on research doctorate recipients from U.S. institutions, by NSF directorate. This reference document provides additional methodology information for the graphics in the 7 profiles, as well as tabular versions of the data used.</description>
+        </item><item>
+            <title>Directorate for Social, Behavioral and Economic Sciences (SBE)</title>
+            <link>https://ncses.nsf.gov/pubs/ncses26208</link>
+            <publishDate>Wed, 30 Sep 2026  11:40:26 EDT</publishDate>
+            <description>The Directorate Profiles from the National Center for Science and Engineering Statistics within the U.S. National Science Foundation (NSF) provide visualizations on research doctorate recipients from U.S. institutions, by NSF directorate. This profile presents data for doctorates in social, behavioral, and economic sciences, using the 2025 Survey of Earned Doctorates and the 2023 Survey of Doctorate Recipients.</description>
+        </item><item>
+            <title>Directorate for Mathematical and Physical Sciences (MPS)</title>
+            <link>https://ncses.nsf.gov/pubs/ncses26207</link>
+            <publishDate>Wed, 30 Sep 2026  11:39:48 EDT</publishDate>
+            <description>The Directorate Profiles from the National Center for Science and Engineering Statistics within the U.S. National Science Foundation (NSF) provide visualizations on research doctorate recipients from U.S. institutions, by NSF directorate. This profile presents data for doctorates in mathematical and physical sciences, using the 2025 Survey of Earned Doctorates and the 2023 Survey of Doctorate Recipients.</description>
+        </item><item>
+            <title>Directorate for Geosciences (GEO)</title>
+            <link>https://ncses.nsf.gov/pubs/ncses26206</link>
+            <publishDate>Wed, 30 Sep 2026  11:39:16 EDT</publishDate>
+            <description>The Directorate Profiles from the National Center for Science and Engineering Statistics within the U.S. National Science Foundation (NSF) provide visualizations on research doctorate recipients from U.S. institutions, by NSF directorate. This profile presents data for doctorates in geosciences, using the 2025 Survey of Earned Doctorates and the 2023 Survey of Doctorate Recipients.</description>
+        </item><item>
+            <title>Directorate for Engineering (ENG)</title>
+            <link>https://ncses.nsf.gov/pubs/ncses26205</link>
+            <publishDate>Wed, 30 Sep 2026  11:38:25 EDT</publishDate>
+            <description>The Directorate Profiles from the National Center for Science and Engineering Statistics within the U.S. National Science Foundation (NSF) provide visualizations on research doctorate recipients from U.S. institutions, by NSF directorate. This profile presents data for doctorates in engineering, using the 2025 Survey of Earned Doctorates and the 2023 Survey of Doctorate Recipients.</description>
+        </item><item>
+            <title>Directorate for STEM Education (EDU)</title>
+            <link>https://ncses.nsf.gov/pubs/ncses26204</link>
+            <publishDate>Wed, 30 Sep 2026  11:37:56 EDT</publishDate>
+            <description>The Directorate Profiles from the National Center for Science and Engineering Statistics within the U.S. National Science Foundation (NSF) provide visualizations on research doctorate recipients from U.S. institutions, by NSF directorate. This profile presents data for doctorates in STEM education, using the 2025 Survey of Earned Doctorates and the 2023 Survey of Doctorate Recipients.</description>
+        </item><item>
+            <title>Directorate for Computer and Information Science and Engineering (CISE)</title>
+            <link>https://ncses.nsf.gov/pubs/ncses26203</link>
+            <publishDate>Wed, 30 Sep 2026  11:37:31 EDT</publishDate>
+            <description>The Directorate Profiles from the National Center for Science and Engineering Statistics within the U.S. National Science Foundation (NSF) provide visualizations on research doctorate recipients from U.S. institutions, by NSF directorate. This profile presents data for doctorates in computer and information sciences and engineering, using the 2025 Survey of Earned Doctorates and the 2023 Survey of Doctorate Recipients.</description>
+        </item><item>
+            <title>Directorate for Biological Sciences (BIO)</title>
+            <link>https://ncses.nsf.gov/pubs/ncses26202</link>
+            <publishDate>Wed, 30 Sep 2026  11:36:54 EDT</publishDate>
+            <description>The Directorate Profiles from the National Center for Science and Engineering Statistics within the U.S. National Science Foundation (NSF) provide visualizations on research doctorate recipients from U.S. institutions, by NSF directorate. This profile presents data for doctorates in biological sciences, using the 2025 Survey of Earned Doctorates and the 2023 Survey of Doctorate Recipients.</description>
+        </item><item>
+            <title>Doctorate Recipients from U.S. Universities: 2025 Data Tables</title>
+            <link>https://ncses.nsf.gov/pubs/nsf26326</link>
+            <publishDate>Fri, 25 Sep 2026  13:12:20 EDT</publishDate>
+            <description>These tables release data from the 2025 Survey of Earned Doctorates (SED), an annual census of research doctorate recipients from U.S. universities. The tables include long-term trend data on doctorate recipients by field; educational pathways to the doctorate and sources of financial support; postgraduation employment plans; and representation of different demographic groups and temporary visa holders among doctorate recipients. Data are also available in an interactive data tool (https://ncsesdata.nsf.gov/builder/sed) and the Restricted Data Analysis System (https://ncsesdata.nsf.gov/rdas/). The SED is sponsored by the National Center for Science and Engineering Statistics within the U.S. National Science Foundation and by three other federal agencies: the National Institutes of Health, Department of Education, and National Endowment for the Humanities.</description>
+        </item><item>
+            <title>Federal Facilities Research and Development: Fiscal Year 2025</title>
+            <link>https://ncses.nsf.gov/pubs/nsf26328</link>
+            <publishDate>Thu, 24 Sep 2026  13:13:40 EDT</publishDate>
+            <description>Federal Facilities Research and Development Survey: Fiscal Year 2025 These data tables are from the FY 2025 Federal Facilities Research and Development (FFRD) Survey. These tables present data on research and experimental development (R&amp;D) expenditures for all federally owned and operated facilities in the United States. This survey is the unique source of federal performer-reported data on R&amp;D expenditures and is conducted by the National Center for Science and Engineering Statistics within the U.S. National Science Foundation.</description>
+        </item>
+    </channel>
+</rss>

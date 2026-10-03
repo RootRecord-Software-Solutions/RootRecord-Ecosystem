@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="https://www.nist.gov/">
+  <channel>
+    <title>News and Events Feed by Topic</title>
+    <link>https://www.nist.gov/topics</link>
+    <description/>
+    <language>en</language>
+    <atom:link href="https://www.nist.gov/news-events/information%20technology/rss.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+  <title>Draft 5G White Paper Now Available: False Base Station</title>
+  <link>https://www.nist.gov/news-events/news/2026/09/draft-5g-white-paper-now-available-false-base-station</link>
+  <description>  The NIST National Cybersecurity Center of Excellence (NCCoE) has released the initial public draft Cybersecurity White Paper (CSWP) 36G, False Base Station, which details how the availability of inexpensive, off-the-shelf hardware and software tools
+
+</description>
+  <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Kristina Rigopoulos</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1922036</guid>
+    </item>
+<item>
+  <title>Comments on Software and Agentic AI Identity Concept Paper</title>
+  <link>https://www.nist.gov/news-events/news/2026/09/comments-software-and-agentic-ai-identity-concept-paper</link>
+  <description>  The NIST National Cybersecurity Center of Excellence (NCCoE) has released a summary of comments received on the Software and Agentic Artificial Intelligence (AI) Identity and Authorization concept paper. This deliverable is available now on the
+
+</description>
+  <pubDate>Tue, 29 Sep 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Kristina Rigopoulos</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1921871</guid>
+    </item>
+<item>
+  <title>New NIST NCCoE Resources on DevSecOps and October 28 Webinar on Agentic AI</title>
+  <link>https://www.nist.gov/news-events/news/2026/09/new-nist-nccoe-resources-devsecops-and-october-28-webinar-agentic-ai</link>
+  <description>  The NIST National Cybersecurity Center of Excellence (NCCoE) has published additional resources from the Secure Software Development, Security, and Operations (DevSecOps) Practices project to the live document. The new content includes: A mapping of
+
+</description>
+  <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Kristina Rigopoulos</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1921471</guid>
+    </item>
+<item>
+  <title>DevSecOps and the Impact of Agentic AI</title>
+  <link>https://www.nist.gov/news-events/events/2026/10/devsecops-and-impact-agentic-ai</link>
+  <description>  Join the NIST National Cybersecurity Center of Excellence (NCCoE) on October 28, 2026 for a webinar dedicated to exploring the Secure Software Development, Security, and Operations (DevSecOps) Practices project. This interactive event will showcase
+
+</description>
+  <pubDate>Wed, 28 Oct 2026 13:00:00 -0400</pubDate>
+    <dc:creator>Kristina Rigopoulos</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1921466</guid>
+    </item>
+<item>
+  <title>Spotlight: A Closer Look at the Fingerprint Landscape</title>
+  <link>https://www.nist.gov/news-events/news/2026/09/spotlight-closer-look-fingerprint-landscape</link>
+  <description>  When you think of fingerprints, you probably picture a 2D black-and-white image. In reality, fingerprints are a two-dimensional representation of a very three-dimensional object. NIST’s work on contactless fingerprint capture standards and tools
+
+</description>
+  <pubDate>Tue, 01 Sep 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1920826</guid>
+    </item>
+<item>
+  <title>Spotlight: NIST Programmer Develops Software Libraries</title>
+  <link>https://www.nist.gov/news-events/news/2026/09/spotlight-nist-programmer-develops-software-libraries</link>
+  <description>  Meet NIST mechanical engineer Rachael Sexton, whose research focuses on human factors engineering and human systems integration — essentially how humans and machines can work together. By “machines,” she means a designed system, such as computers
+
+</description>
+  <pubDate>Mon, 14 Sep 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1920686</guid>
+    </item>
+<item>
+  <title>NCCoE Cybersecurity Connections Event: National Cybersecurity Awareness Month</title>
+  <link>https://www.nist.gov/news-events/events/2026/10/nccoe-cybersecurity-connections-event-national-cybersecurity-awareness</link>
+  <description>  Event Date: October 15, 2026 Event Time: 11:00 A.M. – 1:30 P.M. EDT The NIST National Cybersecurity Center of Excellence (NCCoE) is proud to host a series of Cybersecurity Connections events in partnership with the Maryland Department of Commerce and
+
+</description>
+  <pubDate>Thu, 15 Oct 2026 11:00:00 -0400</pubDate>
+    <dc:creator>Kristina Rigopoulos</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1920796</guid>
+    </item>
+<item>
+  <title>NIST Awards More Than $1.7 Million to Support Cybersecurity Workforce Development Across 8 States</title>
+  <link>https://www.nist.gov/news-events/news/2026/09/nist-awards-more-17-million-support-cybersecurity-workforce-development</link>
+  <description>  Projects will address local cybersecurity workforce needs and will offer practical learning opportunities including internships, apprenticeships and hands-on projects.
+
+</description>
+  <pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1920201</guid>
+    </item>
+<item>
+  <title>Finalized Manufacturing Supply Chain Traceability Meta-Framework</title>
+  <link>https://www.nist.gov/news-events/news/2026/09/finalized-manufacturing-supply-chain-traceability-meta-framework</link>
+  <description>  To help strengthen the security and resilience of global supply chains, the NIST National Cybersecurity Center of Excellence (NCCoE) has released the final version of NIST Internal Report (IR) 8536, Supply Chain Traceability Principles: A
+
+</description>
+  <pubDate>Wed, 09 Sep 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Kristina Rigopoulos</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1920791</guid>
+    </item>
+<item>
+  <title>NIST Supply Chain Traceability and Manufacturing Meta-Framework Webinar</title>
+  <link>https://www.nist.gov/news-events/events/2026/09/nist-supply-chain-traceability-and-manufacturing-meta-framework-webinar</link>
+  <description>  Join the NIST National Cybersecurity Center of Excellence (NCCoE) for a webinar to explore the newly available NIST IR 8536, Supply Chain Traceability Principles: A Manufacturing Meta-Framework. Background While organizations use NIST guidelines such
+
+</description>
+  <pubDate>Tue, 29 Sep 2026 13:00:00 -0400</pubDate>
+    <dc:creator>Kristina Rigopoulos</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1920801</guid>
+    </item>
+<item>
+  <title>NIST Updates 5G Open-Source Testbed Tools</title>
+  <link>https://www.nist.gov/news-events/news/2026/09/nist-updates-5g-open-source-testbed-tools</link>
+  <description>  The latest release of the NIST 5G Open-Source Testbed Automation tool includes a new GNU Radio-based channel emulator that uses ZeroMQ to connect multiple cells and multiple UEs. Researchers can adjust signal paths with configurable attenuation and
+
+</description>
+  <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Doug Montgomery</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1919746</guid>
+    </item>
+<item>
+  <title>NIST Finalizes Guidelines on Protecting Online Identity and Access Tokens From Misuse</title>
+  <link>https://www.nist.gov/news-events/news/2026/09/nist-finalizes-guidelines-protecting-online-identity-and-access-tokens</link>
+  <description>  The finalized publication is designed to help organizations take effective steps to avoid exposing tokens to attackers.
+
+</description>
+  <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1919726</guid>
+    </item>
+<item>
+  <title>Seeking Public Comment!  Using Artificial Intelligence for Cybersecurity Framework 2.0 Analysis and Reporting</title>
+  <link>https://www.nist.gov/news-events/news/2026/08/seeking-public-comment-using-artificial-intelligence-cybersecurity</link>
+  <description>  Seeking Public Comment! Using Artificial Intelligence for Cybersecurity Framework 2.0 Analysis and Reporting NIST announces the release of Special Publication (SP) 1353 ipd (Initial Public Draft), QuickStart Guide for Using Artificial Intelligence
+
+</description>
+  <pubDate>Wed, 19 Aug 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Aliza Reisberg</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1918746</guid>
+    </item>
+<item>
+  <title>New 5G White Paper Available: Initial Non-Access Stratum Message Security</title>
+  <link>https://www.nist.gov/news-events/news/2026/08/new-5g-white-paper-available-initial-non-access-stratum-message-security</link>
+  <description>  The NIST National Cybersecurity Center of Excellence (NCCoE) has released the initial public draft Cybersecurity White Paper (CSWP) 36F, Initial Non-Access Stratum (NAS) Message Security, which describes a 5G security feature that protects sensitive
+
+</description>
+  <pubDate>Thu, 06 Aug 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Kristina Rigopoulos</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1918116</guid>
+    </item>
+<item>
+  <title>Strengthening Transit Resilience: Final CSF Community Profile + Upcoming Webinar</title>
+  <link>https://www.nist.gov/news-events/news/2026/08/strengthening-transit-resilience-final-csf-community-profile-upcoming</link>
+  <description>  The NIST National Cybersecurity Center of Excellence (NCCoE) has released the final NIST Interagency Report 8576, Transit Cybersecurity Framework Community Profile, to help U.S. transit agencies strengthen their cybersecurity practices while
+
+</description>
+  <pubDate>Wed, 05 Aug 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Kristina Rigopoulos</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1918121</guid>
+    </item>
+<item>
+  <title>‘Spooky’ Particles Transit DC Suburbs, a Step Toward a Quantum Network</title>
+  <link>https://www.nist.gov/news-events/news/2026/08/spooky-particles-transit-dc-suburbs-step-toward-quantum-network</link>
+  <description>  The achievement shows that fragile quantum entanglement can survive even in tough, real-world conditions.
+
+</description>
+  <pubDate>Wed, 05 Aug 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1917846</guid>
+    </item>
+<item>
+  <title>NCCoE Transit CSF Community Profile Webinar</title>
+  <link>https://www.nist.gov/news-events/events/2026/09/nccoe-transit-csf-community-profile-webinar</link>
+  <description>  Event Date: September 1, 2026 Event Time: 2:00 P.M. – 3:00 P.M. EDT Join the NIST National Cybersecurity Center of Excellence (NCCoE) for a virtual panel on the final Transit Cybersecurity Framework (CSF) Community Profile. Hear transit operators
+
+</description>
+  <pubDate>Tue, 01 Sep 2026 14:00:00 -0400</pubDate>
+    <dc:creator>Kristina Rigopoulos</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1917876</guid>
+    </item>
+<item>
+  <title>NIST NCCoE Mobile Driver’s Licenses Use Case #2 Update</title>
+  <link>https://www.nist.gov/news-events/events/2026/08/nist-nccoe-mobile-drivers-licenses-use-case-2-update</link>
+  <description>  The NIST National Cybersecurity Center of Excellence (NCCoE) is hosting a webinar on August 27, 2026 to provide an update on the Mobile Driver’s License project, including an overview of the forthcoming reference architecture for using mDLs for
+
+</description>
+  <pubDate>Thu, 27 Aug 2026 13:00:00 -0400</pubDate>
+    <dc:creator>Kristina Rigopoulos</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1917821</guid>
+    </item>
+<item>
+  <title>Super Intelligence in the Fire Service</title>
+  <link>https://www.nist.gov/news-events/events/2027/01/super-intelligence-fire-service</link>
+  <description>  An interactive workshop discussing the use of Super Intelligence in the fire service will be hosted, on-site, at the National Institute of Standards and Technology (NIST) in Gaithersburg, MD. The focus of the workshop is on Problems Super
+
+</description>
+  <pubDate>Tue, 26 Jan 2027 00:00:00 -0500</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1917601</guid>
+    </item>
+<item>
+  <title>NIST Joins National Genesis Mission to Accelerate AI Innovation</title>
+  <link>https://www.nist.gov/news-events/news/2026/08/nist-joins-national-genesis-mission-accelerate-ai-innovation</link>
+  <description>  NIST will execute two of its efforts through its Centers for AI in Manufacturing and Critical Infrastructure.
+
+</description>
+  <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1917301</guid>
+    </item>
+<item>
+  <title>Back to Basics: Foundational Cybersecurity Practices for Small Businesses</title>
+  <link>https://www.nist.gov/news-events/events/2026/08/back-basics-foundational-cybersecurity-practices-small-businesses</link>
+  <description>  The small business community is a large portion of the U.S. and global economy and is also largely under-resourced when it comes to building strong cyber defenses. The efficient use, or prioritization, of limited resources is critical. Speakers from
+
+</description>
+  <pubDate>Thu, 20 Aug 2026 00:00:00 -0400</pubDate>
+    <dc:creator>Vontress Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1916471</guid>
+    </item>
+<item>
+  <title>New NCCoE Project: Asset Management and Visibility for Operational Technology (OT)  Environments</title>
+  <link>https://www.nist.gov/news-events/news/2026/06/new-nccoe-project-asset-management-and-visibility-operational-technology-ot</link>
+  <description>  The NIST National Cybersecurity Center of Excellence (NCCoE) is continuing its work to solve real-world cybersecurity challenges with a new project that will demonstrate practical approaches for Operational Technology (OT) asset management, including
+
+</description>
+  <pubDate>Thu, 25 Jun 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Kristina Rigopoulos</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1915416</guid>
+    </item>
+<item>
+  <title>NIST Guidelines for Secure Remote Access in Water and Wastewater Systems</title>
+  <link>https://www.nist.gov/news-events/news/2026/06/nist-guidelines-secure-remote-access-water-and-wastewater-systems</link>
+  <description>  The NIST National Cybersecurity Center of Excellence (NCCoE) has released the final version of NIST Special Publication 1800-45, Cybersecurity for the Water and Wastewater Sector: Build Architecture, demonstrating how to securely enable remote access
+
+</description>
+  <pubDate>Wed, 24 Jun 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Kristina Rigopoulos</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1915421</guid>
+    </item>
+<item>
+  <title>The Department of Commerce’s CHIPS Program Announces a Letter of Intent with Coherent for up to $50 Million to Expand Indium Phosphide Production</title>
+  <link>https://www.nist.gov/news-events/news/2026/06/department-commerces-chips-program-announces-letter-intent-coherent-50</link>
+  <description>  The Department of Commerce’s CHIPS Program Office announced the signing of a letter of intent to provide up to $50 million in direct funding to Coherent Corp. (Coherent) under the CHIPS and Science Act.
+
+</description>
+  <pubDate>Tue, 16 Jun 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1914426</guid>
+    </item>
+<item>
+  <title>NCCoE Two-Pager Now Available: Effective OT Backup Management</title>
+  <link>https://www.nist.gov/news-events/news/2026/06/nccoe-two-pager-now-available-effective-ot-backup-management</link>
+  <description>  The NIST National Cybersecurity Center of Excellence (NCCoE) has published NIST Special Publication (SP) 1339, Operational Technology Backup Quick Start Guide. This two-page resource provides an overview of cybersecurity considerations to help
+
+</description>
+  <pubDate>Wed, 17 Jun 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Kristina Rigopoulos</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1914761</guid>
+    </item>
+<item>
+  <title>Now Available: Practical Guidelines for Preventing and Mitigating Ransomware</title>
+  <link>https://www.nist.gov/news-events/news/2026/06/now-available-practical-guidelines-preventing-and-mitigating-ransomware</link>
+  <description>  The NIST NCCoE has published the final version of NIST Interagency Report (IR) 8374 Revision 1, Ransomware Risk Management: A Cybersecurity Framework (CSF) 2.0 Community Profile. This resource translates the NIST CSF 2.0 into practical actions
+
+</description>
+  <pubDate>Thu, 11 Jun 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Kristina Rigopoulos</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1914406</guid>
+    </item>
+<item>
+  <title>NCCoE Cybersecurity Connections Event: Accelerating the Adoption of Mobile Driver&amp;#039;s Licenses</title>
+  <link>https://www.nist.gov/news-events/events/2026/07/nccoe-cybersecurity-connections-event-accelerating-adoption-mobile</link>
+  <description>  Event Date: July 21, 2026 Event Time: 11:00 A.M. – 1:30 P.M. EDT The NIST National Cybersecurity Center of Excellence (NCCoE) is proud to host a quarterly Cybersecurity Connections event and networking lunch in partnership with the Maryland
+
+</description>
+  <pubDate>Tue, 21 Jul 2026 11:00:00 -0400</pubDate>
+    <dc:creator>Kristina Rigopoulos</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1914091</guid>
+    </item>
+<item>
+  <title>NIST Expands AI Consortium’s Scope, Calls for New Members</title>
+  <link>https://www.nist.gov/news-events/news/2026/05/nist-expands-ai-consortiums-scope-calls-new-members</link>
+  <description>  The consortium will focus on AI innovation and adoption, with six task groups concentrating on different aspects of AI measurement science and evaluation.
+
+</description>
+  <pubDate>Fri, 29 May 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1913226</guid>
+    </item>
+<item>
+  <title>Now Available: NIST SP 1800-41, Responding to and Recovering from a Cyber Attack</title>
+  <link>https://www.nist.gov/news-events/news/2026/05/now-available-nist-sp-1800-41-responding-and-recovering-cyber-attack</link>
+  <description>  The NIST National Cybersecurity Center of Excellence (NCCoE) has released the initial public draft of NIST Special Publication 1800-41, Responding to and Recovering from a Cyber Attack: Cybersecurity for the Manufacturing Sector, which provides
+
+</description>
+  <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Kristina Rigopoulos</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1912561</guid>
+    </item>
+<item>
+  <title>NIST Workshop on Hardware CPE and CVSS Updates</title>
+  <link>https://www.nist.gov/news-events/events/2026/06/nist-workshop-hardware-cpe-and-cvss-updates</link>
+  <description>  NIST hosted a one-day workshop on hardware representation in the Common Platform Enumeration (CPE) and on how the Common Vulnerability Scoring System (CVSS) applies to hardware. The workshop discussed NIST's plans and potential updates in these areas
+
+</description>
+  <pubDate>Mon, 22 Jun 2026 10:00:00 -0400</pubDate>
+    <dc:creator>Sabina Mohan</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1912331</guid>
+    </item>
+<item>
+  <title>NIST Mathematical Proof Supports Transition to a Continuous-Monitor-and-Update Security Model for AI Systems</title>
+  <link>https://www.nist.gov/news-events/news/2026/06/nist-mathematical-proof-supports-transition-continuous-monitor-and-update</link>
+  <description>  The proof extends to AI the logic used by famed mathematician Kurt Gödel, whose incompleteness theorems have had a profound effect on math for nearly a century.
+
+</description>
+  <pubDate>Tue, 09 Jun 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1912201</guid>
+    </item>
+<item>
+  <title>NCCoE Manufacturing Project Update</title>
+  <link>https://www.nist.gov/news-events/events/2026/06/nccoe-manufacturing-project-update</link>
+  <description>  Event Date/Time: June 4, 2026 | 1:00 P.M. – 2:00 P.M. The NIST NCCoE will host a virtual event on June 4, 2026, to provide an overview of upcoming guidelines on improving cybersecurity incident response and recovery capabilities for organizations
+
+</description>
+  <pubDate>Thu, 04 Jun 2026 13:00:00 -0400</pubDate>
+    <dc:creator>Kristina Rigopoulos</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1912181</guid>
+    </item>
+<item>
+  <title>TREC 2026</title>
+  <link>https://www.nist.gov/news-events/events/2026/11/trec-2026</link>
+  <description>  TREC is an annual evaluation workshop series hosted by the National Institute of Standards and Technology (NIST). The workshop's goal is to encourage research in information retrieval by providing large test collections, uniform scoring procedures
+
+</description>
+  <pubDate>Mon, 16 Nov 2026 00:00:00 -0500</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1911686</guid>
+    </item>
+<item>
+  <title>Securing AI Data Center: Architecture, Security Posture, and Emerging Standards</title>
+  <link>https://www.nist.gov/news-events/events/2026/07/securing-ai-data-center-architecture-security-posture-and-emerging</link>
+  <description>  Artificial Intelligence, or AI, is a transformative technology with widespread applications, and its breakthroughs are reshaping the global balance of power. The AI data centers, the computing infrastructures that enable AI training, inference, and
+
+</description>
+  <pubDate>Wed, 22 Jul 2026 00:00:00 -0400</pubDate>
+    <dc:creator>Vontress Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1911626</guid>
+    </item>
+<item>
+  <title>Draft PNT Profile Updated to Align with NIST CSF 2.0</title>
+  <link>https://www.nist.gov/news-events/news/2026/05/draft-pnt-profile-updated-align-nist-csf-20</link>
+  <description>  The NIST NCCoE has published the draft NIST Internal Report (IR) 8323 Revision 2, Foundational PNT Profile: Applying the Cybersecurity Framework for the Responsible Use of Positioning, Navigation, and Timing (PNT) to help organizations manage risks
+
+</description>
+  <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Kristina Rigopoulos</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1912036</guid>
+    </item>
+<item>
+  <title>NIST NCCoE Genomic Data PETs Testbed &amp;amp; Dioptra Webinar</title>
+  <link>https://www.nist.gov/news-events/events/2026/06/nist-nccoe-genomic-data-pets-testbed-dioptra-webinar</link>
+  <description>  Event Date/Time: June 9, 2026 | 1:00 P.M. – 3:30 P.M. EDT The NIST NCCoE is hosting a webinar to showcase recent work demonstrating the use of the NIST Privacy-Enhancing Technologies (PETs) Testbed and the NIST Dioptra platform to enhance AI
+
+</description>
+  <pubDate>Tue, 09 Jun 2026 13:00:00 -0400</pubDate>
+    <dc:creator>Kristina Rigopoulos</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1911881</guid>
+    </item>
+<item>
+  <title>NICE Releases NICE Framework Components v2.2.0</title>
+  <link>https://www.nist.gov/news-events/news/2026/04/nice-releases-nice-framework-components-v220</link>
+  <description>  NICE FRAMEWORK COMPONENTS V2.2.0 NICE is pleased to announce the release of NICE Framework Components v2.2.0. The NICE Workforce Framework for Cybersecurity (NICE Framework) establishes a standard approach and common language for describing
+
+</description>
+  <pubDate>Tue, 28 Apr 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Susana Barraza</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1911161</guid>
+    </item>
+<item>
+  <title>New Publication: Automation of the NIST Cryptographic Module Validation Program</title>
+  <link>https://www.nist.gov/news-events/news/2026/04/new-publication-automation-nist-cryptographic-module-validation-program</link>
+  <description>  The NIST Cryptographic Module Validation Program (CMVP) is essential for organizations required to use validated cryptography – ensuring that hardware and software cryptographic implementations meet standard security requirements. The NCCoE has
+
+</description>
+  <pubDate>Wed, 15 Apr 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Kristina Rigopoulos</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1912041</guid>
+    </item>
+<item>
+  <title>NIST Updates NVD Operations to Address Record CVE Growth</title>
+  <link>https://www.nist.gov/news-events/news/2026/04/nist-updates-nvd-operations-address-record-cve-growth</link>
+  <description>  NIST is changing the way it handles cybersecurity vulnerabilities and exposures, or CVEs, listed in its National Vulnerability Database (NVD). In the past, NIST’s NVD program aimed to analyze all CVEs to add details — such as severity scores and
+
+</description>
+  <pubDate>Wed, 15 Apr 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Aliza Reisberg</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1910421</guid>
+    </item>
+<item>
+  <title>NIST NCCoE Cyber AI Profile Virtual Working Session Series: Usability of the Profile</title>
+  <link>https://www.nist.gov/news-events/events/2026/05/nist-nccoe-cyber-ai-profile-virtual-working-session-series-usability</link>
+  <description>  Event Date/Time: May 12, 2026 | 1:00 P.M. – 4:00 P.M. Join the NIST NCCoE for the third session of a virtual working series to provide input on the NIST Cybersecurity Framework (CSF) Cyber Artificial Intelligence (AI) Profile (“Cyber AI Profile"). To
+
+</description>
+  <pubDate>Tue, 12 May 2026 13:00:00 -0400</pubDate>
+    <dc:creator>Kristina Rigopoulos</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1911886</guid>
+    </item>
+
+  </channel>
+</rss>

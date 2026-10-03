@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <title>Tech - Ars Technica</title>
+        <atom:link href="https://arstechnica.com/gadgets/feed/" rel="self" type="application/rss+xml" />
+        <link>https://arstechnica.com</link>
+        <description>Serving the Technologist since 1998. News, reviews, and analysis.</description>
+        <lastBuildDate>Fri, 02 Oct 2026 17:20:21 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>
+            hourly        </sy:updatePeriod>
+        <sy:updateFrequency>
+            1        </sy:updateFrequency>
+        
+<image>
+	<url>https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-60x60.png</url>
+	<title>Tech - Ars Technica</title>
+	<link>https://arstechnica.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+            <item>
+                <title>How I kept cool with NYC&#039;s free battery program for window AC units</title>
+                <link>https://arstechnica.com/gadgets/2026/10/how-i-kept-cool-with-nycs-free-battery-program-for-window-ac-units/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/10/how-i-kept-cool-with-nycs-free-battery-program-for-window-ac-units/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Fri, 02 Oct 2026 17:20:21 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[air conditioning]]></category>
+		<category><![CDATA[batteries]]></category>
+		<category><![CDATA[battery]]></category>
+		<category><![CDATA[electric utilities]]></category>
+		<category><![CDATA[electrical utilities]]></category>
+		<category><![CDATA[electricity demand]]></category>
+		<category><![CDATA[electricity grid]]></category>
+		<category><![CDATA[Every Electric]]></category>
+		<category><![CDATA[peak electricity load]]></category>
+		<category><![CDATA[power grid]]></category>
+		<category><![CDATA[power grids]]></category>
+		<category><![CDATA[utilities]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/10/how-i-kept-cool-with-nycs-free-battery-program-for-window-ac-units/</guid>
+
+                                    <description>
+                        <![CDATA[Bonus: Every Electric’s batteries are beloved by household cats.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>My family has spent four summers participating in demand response programs whereby utility companies pay customers to reduce energy use on the hottest summer days. Most summers have involved carefully precooling our New York City apartment before switching off the air conditioners and sweating it out during the designated demand response periods.</p>
+<p>But this year, we kept our window air conditioners running throughout a heat dome event that drove daytime temperatures into the triple digits and made the nights oppressively hot. The difference was that we powered the air conditioners through two household batteries tucked away unobtrusively in the corners of our living room and bedroom.</p>
+<p>We were among about 1,000 New York City households that took part in a free and growing program offered by the local startup Every Electric. The company’s proposition is simple: Get one or more batteries delivered to your home, plug the batteries into a standard wall electrical outlet, and then plug your window air conditioners into the batteries. Households can keep running air conditioners as usual during peak demand periods while also earning money through the local demand response program with the utility company Con Edison.</p><p><a href="https://arstechnica.com/gadgets/2026/10/how-i-kept-cool-with-nycs-free-battery-program-for-window-ac-units/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/10/how-i-kept-cool-with-nycs-free-battery-program-for-window-ac-units/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>65</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/image2-1152x648.jpeg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/image2-500x500.jpeg" width="500" height="500" />
+<media:credit>Jonathon Schaff, Green Juice (www.greenjuice.wtf) </media:credit><media:text>A cat named Abby stands on top of a Bluetti battery provided by Every Electric's free A/C powerbank program.</media:text></media:content>
+            </item>
+                    <item>
+                <title>The 7-year-old Nvidia Shield TV is now $100 more expensive due to AI</title>
+                <link>https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Fri, 02 Oct 2026 14:52:16 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[Nvidia Shield TV]]></category>
+		<category><![CDATA[price increase]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/</guid>
+
+                                    <description>
+                        <![CDATA[Initially launched in 2019, the Nvidia Shield TV Pro now retails for $299.99.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The era of generative AI has upended technology supply chains, and there is one ironclad rule in 2026: If it has memory or storage, it's getting more expensive. Even devices with years-old tech inside are still apparently subject to that unwritten rule. Nvidia has just announced that the Shield TV Pro is getting $100 more expensive, effective immediately.</p>
+<p>The most recent version of the Shield streaming box debuted in 2019, running Android TV with AI upscaling and hardware decoding for almost any type of media. While it ran an aging Tegra X1+ processor, that was (and still is) fast for a TV media streamer. The device launched at $199.99, with a non-Pro variant at $149.99. The non-Pro Shield has since been discontinued, but the Shield TV Pro lives on at the new $299.99 price.</p>
+<p>Nvidia has confirmed that you can blame AI for the higher Shield TV pricing. "Starting October 2, SHIELD Pro will be priced at $299. The cost of components, including memory, has increased substantially across the industry," a spokesperson told Ars.</p><p><a href="https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>89</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/Shield-10-yrs-1-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/Shield-10-yrs-1-500x500.jpg" width="500" height="500" />
+<media:credit>Ryan Whitwam</media:credit><media:text>The Shield TV has that classic Nvidia aesthetic. </media:text></media:content>
+            </item>
+                    <item>
+                <title>TCL is right to question Samsung’s use of the term “Mini LED”</title>
+                <link>https://arstechnica.com/gadgets/2026/10/tcl-is-right-to-question-samsungs-use-of-the-term-mini-led/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/10/tcl-is-right-to-question-samsungs-use-of-the-term-mini-led/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Fri, 02 Oct 2026 10:30:11 +0000</pubDate>
+                		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Mini LED]]></category>
+		<category><![CDATA[Samsung]]></category>
+		<category><![CDATA[tcl]]></category>
+		<category><![CDATA[TVs]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/10/tcl-is-right-to-question-samsungs-use-of-the-term-mini-led/</guid>
+
+                                    <description>
+                        <![CDATA[Can it be Mini LED without a FALD backlight? ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>What makes a display a Mini LED display?</p>
+<p>It's a question that sounds like it should have a simple answer. But it's now at the center of a lawsuit between two of the biggest names in TVs, with TCL accusing its longtime competitor Samsung of falsely advertising budget LCD-LED TVs as Mini LED sets.</p>
+<p>TCL may have a point. Samsung's M-series TVs, which range from $300 for a 43-inch model to $2,300 for a 100-inch model, do raise some legitimate questions about what should qualify as Mini LED. More broadly, though, the dispute highlights a problem for shoppers: Without agreed-upon standards for what "Mini LED" actually means, manufacturers have plenty of room to define the technology for themselves.</p><p><a href="https://arstechnica.com/gadgets/2026/10/tcl-is-right-to-question-samsungs-use-of-the-term-mini-led/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/10/tcl-is-right-to-question-samsungs-use-of-the-term-mini-led/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>83</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/2026_Mini-LED_M80H_FRONT_WALL_Image-1-1024x683-1-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/2026_Mini-LED_M80H_FRONT_WALL_Image-1-1024x683-1-500x500.jpg" width="500" height="500" />
+<media:credit>Samsung</media:credit><media:text>A marketing image for Samsung's M-series TVs.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Memory executives expect RAM shortage to continue through 2028</title>
+                <link>https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/</link>
+                                    <comments>https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Thu, 01 Oct 2026 17:49:56 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Micron]]></category>
+		<category><![CDATA[RAM]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/</guid>
+
+                                    <description>
+                        <![CDATA[Prices for memory sold for 2027 "are much higher than 2026 prices." ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Micron and Samsung executives this week said the memory shortage will continue for at least the next couple of years.</p>
+<p>Micron CEO Sanjay Mehrotra expects demand for the firm’s memory to exceed its available supply over that period, he told investors last night.</p>
+<p><a href="https://arstechnica.com/gadgets/2025/12/after-nearly-30-years-crucial-will-stop-selling-ram-to-consumers/">Micron no longer sells consumer RAM,</a> and Mehrotra’s statements refer to Micron’s business-to-business sales of high-bandwidth memory (HBM) for AI and DRAM for servers. However, his comments also have implications for consumer devices. Manufacturing capacity is prioritizing memory for AI and servers, limiting the supply of memory manufactured for consumer devices.</p><p><a href="https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>132</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1723107474-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1723107474-500x500.jpg" width="500" height="500" />
+<media:credit>Getty</media:credit><media:text>A DDR4 8GB SODIMM RAM. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Reddit is putting more limits on Old.Reddit.com</title>
+                <link>https://arstechnica.com/gadgets/2026/09/reddit-will-block-old-reddit-com-from-people-who-havent-used-it-in-6-months/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/09/reddit-will-block-old-reddit-com-from-people-who-havent-used-it-in-6-months/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Sep 2026 19:53:33 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[reddit]]></category>
+		<category><![CDATA[social media]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/09/reddit-will-block-old-reddit-com-from-people-who-havent-used-it-in-6-months/</guid>
+
+                                    <description>
+                        <![CDATA[Reddit says it's fighting "automated abuse." ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Soon, Reddit won’t let people use <a href="https://old.reddit.com/">Old.Reddit.com</a> unless they have used the site while logged in within the previous six months.</p>
+<p>In July, Reddit started <a href="https://arstechnica.com/gadgets/2026/06/reddit-will-require-you-to-log-in-to-use-old-reddit-com/">requiring that users be logged in</a> to access Old Reddit. This new requirement is an effort to reduce Reddit’s biggest source of scraping and automated traffic, the company says.</p>
+<p>Today, the social media platform announced additional upcoming restrictions on Old Reddit. A<a href="https://www.reddit.com/r/modnews/comments/1wubgvt/continuing_our_infrastructure_updates_whats/"> Reddit post</a> from an employee, known as "judy-funnie" on the platform, says that “in the next few months, we'll further limit access for logged-in users to only those who have used Old Reddit in the last six months (which covers the vast majority of all Old Reddit users).”</p><p><a href="https://arstechnica.com/gadgets/2026/09/reddit-will-block-old-reddit-com-from-people-who-havent-used-it-in-6-months/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/09/reddit-will-block-old-reddit-com-from-people-who-havent-used-it-in-6-months/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>112</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2227553113-1-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2227553113-1-500x500.jpg" width="500" height="500" />
+<media:credit>Cheng Xin/Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>The Disney protests were a wake-up call about the risks of streaming mergers</title>
+                <link>https://arstechnica.com/gadgets/2026/09/what-the-disney-protests-over-kimmel-taught-us-about-streaming-mergers/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/09/what-the-disney-protests-over-kimmel-taught-us-about-streaming-mergers/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Sep 2026 19:22:19 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[acquisitions]]></category>
+		<category><![CDATA[Disney]]></category>
+		<category><![CDATA[Hulu]]></category>
+		<category><![CDATA[mergers]]></category>
+		<category><![CDATA[mergers and acquisitions]]></category>
+		<category><![CDATA[paramount]]></category>
+		<category><![CDATA[streaming]]></category>
+		<category><![CDATA[warner bros. discovery]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/09/what-the-disney-protests-over-kimmel-taught-us-about-streaming-mergers/</guid>
+
+                                    <description>
+                        <![CDATA[Boycotting Disney is hard. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[
+<p>There was a call to <a href="https://arstechnica.com/culture/2025/09/kimmel-censorship-fiasco-shows-that-protests-still-matter-and-can-still-work/">boycott Disney</a> last fall. The owner of the ABC network had taken <em>Jimmy Kimmel Live!</em> off the air <a href="https://arstechnica.com/tech-policy/2025/09/fcc-derided-as-federal-censorship-commission-after-pushing-jimmy-kimmel-off-abc/">over comments</a> Kimmel made about responses to Charlie Kirk's murder, sending free speech proponents <a href="https://arstechnica.com/tech-policy/2025/09/disney-abc-reinstate-jimmy-kimmel-amid-uproar-over-government-censorship/">into a frenzy</a>.</p>
+<p>Those free speech proponents include me, who, as a reporter, has clear stakes in protecting that right. Although I was on board with halting support for a company I felt had acted wrongfully, truly boycotting Disney proved harder than I expected.</p>
+<h2>Disney's ubiquity</h2>
+<p>Canceling Disney+ was simple but threw a hefty wrench into my evening routine. I tend to end many weekdays laughing at comforting sitcom reruns and adult animation. I usually associate Disney with princesses, kids' movies, and, more recently, comic heroes. But Disney also owns Hulu, which exclusively streamed many of my favorite shows for unwinding at the time, like <em>American Dad</em>,<em> Futurama</em>,<em> Living Single</em>,<em> Fresh Off the Boat,</em> and <em>It’s Always Sunny in Philadelphia. </em></p><p><a href="https://arstechnica.com/gadgets/2026/09/what-the-disney-protests-over-kimmel-taught-us-about-streaming-mergers/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/09/what-the-disney-protests-over-kimmel-taught-us-about-streaming-mergers/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>117</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2236794248-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2236794248-500x500.jpg" width="500" height="500" />
+<media:credit>Mario Tama/Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Discord gives more advertisers more tools to target its users</title>
+                <link>https://arstechnica.com/gadgets/2026/09/discord-gives-advertisers-more-tools-to-target-its-users/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/09/discord-gives-advertisers-more-tools-to-target-its-users/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Sep 2026 15:01:40 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[ads]]></category>
+		<category><![CDATA[discord]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/09/discord-gives-advertisers-more-tools-to-target-its-users/</guid>
+
+                                    <description>
+                        <![CDATA[Discord is "opening the platform to advertisers, regardless of their budget." ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Discord has announced tools aimed at expanding the number and types of companies that advertise on the platform.</p>
+<p>This week, the social media firm announced Discord Ads Manager, an ad campaign management platform that lets companies manage ads shown on Discord in one place. The tool can be used to perform forecasting, build “a campaign with objective-based bidding,” and monitor an ad campaign’s performance, according to the announcement.</p>
+<p>“Self-service access extends Discord advertising to smaller studios and marketers that previously needed a direct sales relationship to run campaigns, opening the platform to advertisers, regardless of their budget,” Discord said.</p><p><a href="https://arstechnica.com/gadgets/2026/09/discord-gives-advertisers-more-tools-to-target-its-users/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/09/discord-gives-advertisers-more-tools-to-target-its-users/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>87</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1244881649-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1244881649-500x500.jpg" width="500" height="500" />
+<media:credit> Gabby Jones/Bloomberg via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Interview: Firefox&#039;s chief on why he hopes a redesign will help win users from Chrome</title>
+                <link>https://arstechnica.com/gadgets/2026/09/mozillas-head-of-firefox-talks-product-priorities-ai-skepticism-and-browser-choice/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/09/mozillas-head-of-firefox-talks-product-priorities-ai-skepticism-and-browser-choice/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Samuel Axon]]>
+                </dc:creator>
+                <pubDate>Tue, 29 Sep 2026 13:00:19 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Ajit Varma]]></category>
+		<category><![CDATA[chromium]]></category>
+		<category><![CDATA[firefox]]></category>
+		<category><![CDATA[Gecko]]></category>
+		<category><![CDATA[Mozilla]]></category>
+		<category><![CDATA[Paddy Harrington]]></category>
+		<category><![CDATA[web browser]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/09/mozillas-head-of-firefox-talks-product-priorities-ai-skepticism-and-browser-choice/</guid>
+
+                                    <description>
+                        <![CDATA[Mozilla's Ajit Varma explains why a redesign suits the fight for the open web.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p><!-- obsidian --></p>
+<p>Today, the <a href="https://www.firefox.com/en-US/whatsnew/157/">Firefox 157</a> update will roll out a redesign of the web browser across desktop and mobile platforms. The team that made it hopes it will help expand the browser's audience beyond privacy-conscious techies and open-web or open source advocates to a broader audience who might simply pick the browser because they prefer its user experience over competitors like Chrome, Edge, and Safari.</p>
+<p>In advance of the redesign's launch, I spent half an hour chatting with Mozilla's head of Firefox, Ajit Varma, about Firefox's current market position and product strategy, and what barriers or opportunities there are for gaining ground in a Chromium-dominated landscape.</p><p><a href="https://arstechnica.com/gadgets/2026/09/mozillas-head-of-firefox-talks-product-priorities-ai-skepticism-and-browser-choice/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/09/mozillas-head-of-firefox-talks-product-priorities-ai-skepticism-and-browser-choice/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>286</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Firefox-header-1-1152x648-1790642597.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Firefox-header-1-500x500-1790642591.jpg" width="500" height="500" />
+<media:credit>Mozilla</media:credit><media:text>Can a more modern look help gain market share? It can't hurt, but it's not the whole solution.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Google seemingly confirms plans to kill ChromeOS in 2034</title>
+                <link>https://arstechnica.com/gadgets/2026/09/google-seemingly-confirms-plans-to-kill-chromeos-in-2034/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/09/google-seemingly-confirms-plans-to-kill-chromeos-in-2034/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Mon, 28 Sep 2026 18:04:59 +0000</pubDate>
+                		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[chromebooks]]></category>
+		<category><![CDATA[ChromeOS]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[googlebooks]]></category>
+		<category><![CDATA[laptops]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/09/google-seemingly-confirms-plans-to-kill-chromeos-in-2034/</guid>
+
+                                    <description>
+                        <![CDATA[Google support maps out how Googlebooks can take over where ChromeOS left off.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>We are mere days away from the <a href="https://arstechnica.com/gadgets/2026/09/googlebook-laptops-launch-october-4-starting-at-899-preorders-for-five-models-live-today/">launch of Googlebooks</a>, the long-awaited Android laptops that Google hopes will compete with macOS and Windows. But what of Chromebooks? There have been hints that Google plans to sunset its web-first ChromeOS platform, and a new support page lays out some of the specifics.</p>
+<p>The <a href="https://support.google.com/chrome/a/answer/16634428">support page</a>, spotted by <a href="https://9to5google.com/2026/09/28/google-details-chromebook-updates-through-2034-many-models-move-to-googlebook-os/">9to5Google</a>, aims to explain the role of Googlebooks to Chrome Enterprise and Education customers. The page starts off by noting that Googlebook OS, which is Android even if Google doesn't like to say that, will offer an enhanced experience with deeper system capabilities and lots of AI.</p>
+<p>Like Chromebooks, Googlebooks are guaranteed 10 years of software support. However, the latest Chromebook models won't get that in the traditional way. Google's support page says that it plans to continue ChromeOS support through "mid-2034," so there are already devices with support windows beyond that.</p><p><a href="https://arstechnica.com/gadgets/2026/09/google-seemingly-confirms-plans-to-kill-chromeos-in-2034/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/09/google-seemingly-confirms-plans-to-kill-chromeos-in-2034/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>85</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/09/list-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/09/list-500x500.jpg" width="500" height="500" />
+<media:credit>Google</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Microsoft stops insisting you need a &quot;Copilot+ PC&quot;</title>
+                <link>https://arstechnica.com/gadgets/2026/09/microsoft-stops-insisting-you-need-a-copilot-pc/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/09/microsoft-stops-insisting-you-need-a-copilot-pc/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Fri, 25 Sep 2026 17:57:37 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[copilot]]></category>
+		<category><![CDATA[laptops]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[Microsoft Surface]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/09/microsoft-stops-insisting-you-need-a-copilot-pc/</guid>
+
+                                    <description>
+                        <![CDATA[Microsoft's new Surface laptops forgo Copilot+ PC branding. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p><a href="https://arstechnica.com/gadgets/2024/05/microsofts-copilot-ai-pc-requirements-are-embarrassing-for-intel-and-amd/">Since 2024</a>, Microsoft has tried to sell “Copilot+ PC.” The marketing initiative was aimed at making it easy for people to know which Windows systems were approved to run AI-accelerated workloads locally.</p>
+<p>But Copilot+ PC branding is nowhere to be found on the new Surface PCs Microsoft announced this week.</p>
+<p>Speaking with <a href="https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding">Windows Central</a>, Brett Ostrum, corporate VP of Surface, said that the new Surface computers “are not called Copilot+ PCs” despite meeting the label’s requirements.</p><p><a href="https://arstechnica.com/gadgets/2026/09/microsoft-stops-insisting-you-need-a-copilot-pc/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/09/microsoft-stops-insisting-you-need-a-copilot-pc/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>74</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/microsoft-copilot-windows-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/microsoft-copilot-windows-500x500-1763511853.jpg" width="500" height="500" />
+<media:credit>Chona Kasinger/Bloomberg via Getty Images</media:credit><media:text>An attendee in the demo space for the Copilot+PC at the Microsoft campus in Redmond, Washington, US, on Monday, May 20, 2024. </media:text></media:content>
+            </item>
+                    <item>
+                <title>F-Droid gets its biggest update in a decade with new UI and smoother app installs</title>
+                <link>https://arstechnica.com/gadgets/2026/09/f-droid-gets-its-biggest-update-in-a-decade-with-new-ui-and-smoother-app-installs/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/09/f-droid-gets-its-biggest-update-in-a-decade-with-new-ui-and-smoother-app-installs/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Thu, 24 Sep 2026 19:30:42 +0000</pubDate>
+                		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[app stores]]></category>
+		<category><![CDATA[apps]]></category>
+		<category><![CDATA[f-droid]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/09/f-droid-gets-its-biggest-update-in-a-decade-with-new-ui-and-smoother-app-installs/</guid>
+
+                                    <description>
+                        <![CDATA[F-Droid's Android app store has been rebuilt from the ground up. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Virtually every Android device comes with the Play Store preloaded, but there are other ways to get apps. F-Droid bills itself as a community-driven source for free and open source Android apps, but its official app store has gone 10 years without a major update. That's finally changing: After a multiyear effort, the team has just <a href="https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html">announced</a> F-Droid 2.0 is rolling out.</p>
+<p>The new F-Droid client was redesigned from scratch in Kotlin Compose, which is the standard for modern Android apps. This makes the store much more responsive, and there's optional support for Android's Material theming. The interface has also been cleaned up considerably, making the most important functions easier to access and hiding some others in overflow menus.</p>
+<p>While the new F-Droid looks nicer, the update was largely about making it easier to find and install apps. When F-Droid first appeared, there wasn't much to see, but now it has thousands of open source apps. Unlike the Play Store, F-Droid doesn't track your taps and installs to push ads and suggestions—it helps you find things and gets out of the way.</p><p><a href="https://arstechnica.com/gadgets/2026/09/f-droid-gets-its-biggest-update-in-a-decade-with-new-ui-and-smoother-app-installs/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/09/f-droid-gets-its-biggest-update-in-a-decade-with-new-ui-and-smoother-app-installs/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>72</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/F-Droid2-1-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/F-Droid2-1-500x500.jpg" width="500" height="500" />
+<media:credit>Ryan Whitwam</media:credit><media:text>You can access F-Droid apps with other clients, but maybe now you won't feel like you have to. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Robots make combat airdrops, clear mines as Ukraine defeats Russian pincer</title>
+                <link>https://arstechnica.com/gadgets/2026/09/robots-make-combat-airdrops-clear-mines-as-ukraine-defeats-russian-pincer/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/09/robots-make-combat-airdrops-clear-mines-as-ukraine-defeats-russian-pincer/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Thu, 24 Sep 2026 18:39:47 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[military robots]]></category>
+		<category><![CDATA[robots]]></category>
+		<category><![CDATA[Russia invasion of Ukraine]]></category>
+		<category><![CDATA[Russia war on Ukraine]]></category>
+		<category><![CDATA[Russian invasion of Ukraine]]></category>
+		<category><![CDATA[Russian war on Ukraine]]></category>
+		<category><![CDATA[Ukraine]]></category>
+		<category><![CDATA[Ukraine war]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/09/robots-make-combat-airdrops-clear-mines-as-ukraine-defeats-russian-pincer/</guid>
+
+                                    <description>
+                        <![CDATA[Ukraine’s Operation Vivaldi has erased Russian gains with the help of robots.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Ukraine’s military robots are dropping from heavy drones in airborne assaults behind Russian lines as other robots clear mines ahead of advancing Ukrainian infantry. The wheeled ground robots are supporting Ukraine’s Operation Vivaldi counterattack that has crushed a Russian military pincer movement and liberated dozens of square miles of occupied Ukrainian territory so far.</p>
+<p>The Ukrainian Third Army Corps revealed a “world-first” airborne assault involving robots and drones that took place within Russian-held territory on September 21, 2026, according to the <a href="https://united24media.com/war-in-ukraine/ukraine-makes-world-first-airborne-robot-assault-behind-russian-lines-during-counteroffensive-22716">Ukrainian government media platform United24</a>. Heavy bomber drones air-dropped explosive ground robots more than six miles behind Russian frontlines, helping the robots bypass tough terrain and enemy defenses to attack supply lines in the rear.</p>
+<p>This is not the first time that Ukraine has used <a href="https://arstechnica.com/gadgets/2026/07/ukrainian-drones-deliver-robots-directly-into-battle-by-sea-and-air/">heavy drones to deliver robots</a> closer to their intended targets. But the incident is reportedly the most ambitious robotic airborne assault to date.</p><p><a href="https://arstechnica.com/gadgets/2026/09/robots-make-combat-airdrops-clear-mines-as-ukraine-defeats-russian-pincer/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/09/robots-make-combat-airdrops-clear-mines-as-ukraine-defeats-russian-pincer/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>52</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Ukraine-ground-robot-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Ukraine-ground-robot-500x500.jpg" width="500" height="500" />
+<media:credit>Yan Dobronosov/Global Images Ukraine via Getty Images</media:credit><media:text>A ground robotic system drives along a road, delivering supplies on September 4, 2026 in Druzhkivka, Donetsk Oblast, Ukraine.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Review: Apple&#039;s hyper-pricey M5 Ultra Mac Studio made me into a vibe coder</title>
+                <link>https://arstechnica.com/gadgets/2026/09/review-apples-hyper-pricey-m5-ultra-mac-studio-made-me-into-a-vibe-coder/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/09/review-apples-hyper-pricey-m5-ultra-mac-studio-made-me-into-a-vibe-coder/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Andrew Cunningham]]>
+                </dc:creator>
+                <pubDate>Thu, 24 Sep 2026 11:00:04 +0000</pubDate>
+                		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[apple m3 ultra]]></category>
+		<category><![CDATA[apple m4 max]]></category>
+		<category><![CDATA[Apple M5]]></category>
+		<category><![CDATA[apple m5 max]]></category>
+		<category><![CDATA[apple m5 ultra]]></category>
+		<category><![CDATA[Apple silicon]]></category>
+		<category><![CDATA[Mac mini]]></category>
+		<category><![CDATA[Mac Studio]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/09/review-apples-hyper-pricey-m5-ultra-mac-studio-made-me-into-a-vibe-coder/</guid>
+
+                                    <description>
+                        <![CDATA[Usable local AI is a lot of fun, but how much would you pay for it?]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>This spring, Apple made it official: <a href="https://arstechnica.com/gadgets/2026/03/apple-has-finally-discontinued-the-mac-pro-desktop-after-years-of-fitful-effort/">The Mac Pro is dead</a>.</p>
+<p>When Apple was using Intel processors and AMD GPUs, the idea of an expandable and upgradeable tower made sense. But Apple Silicon chips bring the CPU, GPU, and memory interface all under one roof in a way that makes that sort of upgradeability not just superfluous but impossible. At least not without breaking some of the chips' key benefits.</p>
+<p>And as it happens, Apple Silicon's combination of a fast CPU, solid GPU, and unified memory architecture has made it a good fit for a modern "pro" workload that really pushes high-end hardware: running language models and agents locally.</p><p><a href="https://arstechnica.com/gadgets/2026/09/review-apples-hyper-pricey-m5-ultra-mac-studio-made-me-into-a-vibe-coder/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/09/review-apples-hyper-pricey-m5-ultra-mac-studio-made-me-into-a-vibe-coder/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>326</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/IMG_3740-1152x648.jpeg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/IMG_3740-500x500.jpeg" width="500" height="500" />
+<media:credit>Andrew Cunningham</media:credit><media:text>Apple's M5 Ultra Mac Studio.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Disney+ and Hulu raise prices by up to 13 percent after doubling profits</title>
+                <link>https://arstechnica.com/gadgets/2026/09/disney-and-hulu-raise-prices-by-up-to-13-percent-after-doubling-profits/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/09/disney-and-hulu-raise-prices-by-up-to-13-percent-after-doubling-profits/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Wed, 23 Sep 2026 21:18:53 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Disney]]></category>
+		<category><![CDATA[disney plus]]></category>
+		<category><![CDATA[Hulu]]></category>
+		<category><![CDATA[streaming]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/09/disney-and-hulu-raise-prices-by-up-to-13-percent-after-doubling-profits/</guid>
+
+                                    <description>
+                        <![CDATA[The Disney+ ad-free plan is now more expensive than Netflix's. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Disney+ got its fourth price hike in four years today. Hulu prices also went up.</p>
+<p>Disney+ and Hulu’s respective standalone, ad-free plans (which also support 4K and HDR) are each increasing 13 percent from $19 per month to $21.50/month.</p>
+<p><a href="https://help.disneyplus.com/article/disneyplus-price#standalone">Disney+</a> and Hulu’s respective standalone plans with ads increased from $12 to $12.50.</p><p><a href="https://arstechnica.com/gadgets/2026/09/disney-and-hulu-raise-prices-by-up-to-13-percent-after-doubling-profits/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/09/disney-and-hulu-raise-prices-by-up-to-13-percent-after-doubling-profits/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>126</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2022/12/The-Mandalorian-Season-3-1152x648.jpeg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2022/12/The-Mandalorian-Season-3-500x500.jpeg" width="500" height="500" />
+<media:credit>Disney</media:credit><media:text>A promotional image for the third season of &lt;em&gt;The Mandalorian&lt;/em&gt;.</media:text></media:content>
+            </item>
+                    <item>
+                <title>XPRIZE Wildfire winners spotted fires within 10 min—but couldn’t stop them</title>
+                <link>https://arstechnica.com/gadgets/2026/09/xprize-wildfire-winners-spotted-fires-within-10-min-but-couldnt-stop-them/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/09/xprize-wildfire-winners-spotted-fires-within-10-min-but-couldnt-stop-them/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Wed, 23 Sep 2026 20:28:42 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[AI drones]]></category>
+		<category><![CDATA[autonomous drones]]></category>
+		<category><![CDATA[drones]]></category>
+		<category><![CDATA[firefighting]]></category>
+		<category><![CDATA[satellites]]></category>
+		<category><![CDATA[wildfire]]></category>
+		<category><![CDATA[wildfires]]></category>
+		<category><![CDATA[XPRIZE]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/09/xprize-wildfire-winners-spotted-fires-within-10-min-but-couldnt-stop-them/</guid>
+
+                                    <description>
+                        <![CDATA[$11M competition showed wildfire detection is still easier than stopping fires.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Wildfire detection from space and firefighting drones featured among the finalists honored in the $11 million XPRIZE Wildfire competition. Although no team walked away with either of the two grand prizes, such technologies could prove helpful as the world grapples with the growing costs of worsening wildfire disasters.</p>
+<p>The competition’s First Prize track for space-based wildfire detection challenged teams to accurately detect all fires across a large swath of Australia within 10 minutes. A second Autonomous Response Prize track challenged teams to autonomously detect and put out a high-risk fire located somewhere within rural Alaska while ignoring decoy fires—all within 10 minutes of the fire igniting.</p>
+<p>“We want to be able to prepare and provide tools for firefighters to really allow them to do the best job,” <a href="https://www.xprize.org/about/people/andrea-santy">Andrea Santy</a>, program director of <a href="https://www.xprize.org/competitions/wildfire">XPRIZE Wildfire</a>, told Ars. “They're great at what they do, but it's unfair to continue to put them in harm's way when there's technology coming online that can help keep them safe, keep communities safe, and protect ecosystems.”</p><p><a href="https://arstechnica.com/gadgets/2026/09/xprize-wildfire-winners-spotted-fires-within-10-min-but-couldnt-stop-them/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/09/xprize-wildfire-winners-spotted-fires-within-10-min-but-couldnt-stop-them/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>20</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Andurils-fire-retardant-balls-explode-on-fire-target-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Andurils-fire-retardant-balls-explode-on-fire-target-500x500.jpg" width="500" height="500" />
+<media:credit>Anduril Industries</media:credit><media:text>Fire retardant balls dropped by Anduril's Ghost-X drone explode on a fire in a test.</media:text></media:content>
+            </item>
+                    <item>
+                <title>YouTube promises custom feeds and a lot more AI later this year</title>
+                <link>https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Wed, 23 Sep 2026 19:35:53 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[video streaming]]></category>
+		<category><![CDATA[YouTube]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year/</guid>
+
+                                    <description>
+                        <![CDATA[YouTube's next year could change the content you see with a big focus on AI and livestreams.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The annual <a href="https://blog.youtube/news-and-events/innovation-youtube-era-made-on-viewers-creators/">Made on YouTube event</a> has just wrapped up, offering an early look at the features you can expect to come to Google's dominant online streaming platform in the coming months. Yes, there's plenty of AI for both viewers and creators, but there's also a handful of non-AI updates mixed in there, too.</p>
+<p>The design of YouTube's homepage feed comes under fire often, but the platform is preparing to give you more options. With Custom Feeds, you'll be able to add new tabs to the YouTube interface with content of your choice. To create a feed, just type a description and let YouTube populate the page. You can refine your description and rate video suggestions to tune the Custom Feed. Google says you'll be able to save "multiple" feeds without specifying the exact number. This feature will roll out soon in the US for web, mobile, and TV users.</p>
+<p>Interacting on YouTube will also change later this year. The platform will finally add the option to post GIFs in comments, which has apparently been a common request for some time. The comment box will let you search for popular animated thumbnails and post them on both regular videos and YouTube Shorts. The YouTube direct messaging feature is also adding support for group chat, but it's only going to be available in the US, UK, Singapore, Brazil, and some European countries to start.</p><p><a href="https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>110</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/made-on-youtube-2026.png" type="image/png" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/made-on-youtube-2026-500x500-1790190424.png" width="500" height="500" />
+<media:credit>Google</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Owners mourn spoiled food after firmware update bricks Samsung smart fridges</title>
+                <link>https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Wed, 23 Sep 2026 17:39:39 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Samsung]]></category>
+		<category><![CDATA[smart home]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/</guid>
+
+                                    <description>
+                        <![CDATA["So absurd and embarrassing ..."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Some Samsung smart fridges stopped working on Tuesday due to a firmware update.</p>
+<p>Korean outlets were the first to report the problems, which affect Samsung’s Bespoke AI line of fridges. <a href="https://www.starnewskorea.com/en/business-life/2026/09/23/2026092310312665794">Star News Korea</a>, per a Google-provided translation, said that most of the affected devices were four-door fridges from 2024 or later.</p>
+<p>Affected fridges “suddenly lost power and stopped functioning immediately after” trying to issue a firmware update through SmartThings, Samsung’s smart home platform, per Star News Korea. The SmartThings app then showed the devices as offline. Some users said that their fridge’s internal display was stuck showing the message "Checking SmartThings app during update.”</p><p><a href="https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>274</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Samsung-Bespoke-AI-3-Door-Refrigerator-AutoView-950x534-1-1152x648-1790182604.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Samsung-Bespoke-AI-3-Door-Refrigerator-AutoView-950x534-1-500x500-1790182590.jpg" width="500" height="500" />
+<media:credit>Samsung</media:credit><media:text>A marketing image for Samsung's Bespoke AI refrigerators.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Adobe Premiere finally brings powerful video editing to Android, and it&#039;s free</title>
+                <link>https://arstechnica.com/gadgets/2026/09/adobe-premiere-finally-brings-powerful-video-editing-to-android-and-its-free/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/09/adobe-premiere-finally-brings-powerful-video-editing-to-android-and-its-free/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Tue, 22 Sep 2026 19:08:58 +0000</pubDate>
+                		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Adobe]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[apps]]></category>
+		<category><![CDATA[video editing]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/09/adobe-premiere-finally-brings-powerful-video-editing-to-android-and-its-free/</guid>
+
+                                    <description>
+                        <![CDATA[You don't even need a Creative Cloud login to edit clips, but AI features cost extra.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Video editing has never been Android's strong suit. While Apple has long offered iMovie for iPhone and iPad, Google has never had a comparable offering. Adobe is now stepping up to fill this feature gap with a proper version of Premiere. The app is now <a href="https://play.google.com/store/apps/details?id=com.adobe.premiere">available in the Play Store</a> for almost all Android devices, and it's free (mostly).</p>
+<p>Android's version of Premiere doesn't offer all the features you'd get in the desktop application, but it's a big step up from the soon-to-be-retired Premiere Rush app. You can import as many video tracks as you want, trim them, split them, add effects, and export videos in up to 4K resolution. It can even extract audio from clips, reduce background noise, and add voiceovers. The app emphasizes the YouTube Short format, even defaulting your video outputs to portrait 16:9, but you can change that to something more traditional.</p>
+<p>On a standard smartphone, the app splits the screen with the timeline at the bottom and preview up top. <a href="https://blog.adobe.com/en/publish/2026/09/22/adobe-premiere-expands-android-fast-powerful-easy-mobile-video-editing">Adobe says</a> that Premiere is optimized for multiple form factors. If you have a foldable phone, the UI adjusts to give you more breathing room, placing the timeline to the right of the video. That makes sense as the default, as Premiere wants you to make YouTube Shorts, but if you're working with something wider, there's a layout toggle that puts the widescreen video above the expanded timeline. The split is also adjustable if you want to make your video or timeline larger.</p><p><a href="https://arstechnica.com/gadgets/2026/09/adobe-premiere-finally-brings-powerful-video-editing-to-android-and-its-free/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/09/adobe-premiere-finally-brings-powerful-video-editing-to-android-and-its-free/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>46</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Premiere-Android-1-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Premiere-Android-1-500x500.jpg" width="500" height="500" />
+<media:credit>Ryan Whitwam</media:credit><media:text>Adobe Premiere is optimized for foldable and laptops.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Dyson’s most overengineered gadget may have a waterproofing problem</title>
+                <link>https://arstechnica.com/gadgets/2026/09/its-500-toothbrush-disappeared-from-stores-dyson-wont-fully-explain-why/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/09/its-500-toothbrush-disappeared-from-stores-dyson-wont-fully-explain-why/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy White, wired.com]]>
+                </dc:creator>
+                <pubDate>Tue, 22 Sep 2026 13:33:16 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[dyson]]></category>
+		<category><![CDATA[enshittification]]></category>
+		<category><![CDATA[syndication]]></category>
+		<category><![CDATA[Toothbrush]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/09/its-500-toothbrush-disappeared-from-stores-dyson-wont-fully-explain-why/</guid>
+
+                                    <description>
+                        <![CDATA[Dyson admits a component issue but won't say what's failing in its $500 toothbrush.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>There's always a danger in over-complicating products. Simple is so often best. The apocryphal story of NASA spending millions crafting a space pen while Soviet cosmonauts used a pencil is often cited as a prime example, even if it's <a href="https://www.scientificamerican.com/article/fact-or-fiction-nasa-spen/">actually not true</a>. Perhaps it's not surprising that <a href="https://www.wired.com/tag/dyson/">Dyson</a> has got into hot water trying to <a href="https://www.wired.com/story/dyson-camerajet-electric-toothbrush-and-flosser/">reinvent the electric toothbrush</a>.</p>
+<p>The Chinese invented the first bristle toothbrush during the Ming dynasty. That concept muddled along quite nicely until 1937, when Tomlinson Moseley filed a patent for the earliest electric toothbrush. After more than 400 years, the <a href="https://en.wikipedia.org/wiki/Electric_toothbrush">Motodent</a> marked the beginning of an evolutionary shift from manual brushing to powered oral care.</p>
+<p>Having had considerable success reimagining established product categories such as <a href="https://www.wired.com/gallery/best-dyson-vacuums/">stick vacuums</a> and <a href="https://www.wired.com/gallery/best-hair-dryers/">premium hair dryers</a>—though not so much <a href="https://www.wired.com/story/dyson-has-killed-its-bizarre-zone-air-purifying-headphones/">air-purifying headphones</a>—the company earlier this month, with great fanfare, unveiled the next leap forward for teeth: the $499 Dyson CameraJet with a tiny camera to aim streams of rinsing fluid into the gaps between your teeth.</p><p><a href="https://arstechnica.com/gadgets/2026/09/its-500-toothbrush-disappeared-from-stores-dyson-wont-fully-explain-why/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/09/its-500-toothbrush-disappeared-from-stores-dyson-wont-fully-explain-why/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>153</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/toothbrush-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/toothbrush-500x500.jpg" width="500" height="500" />
+<media:credit>Dyson</media:credit><media:text>Dyson has taken the electric toothbrush and thrown the bathroom sink at it, adding cameras and a liquid reservoir.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Military milestone: Ukrainian naval drone sinks Russian kamikaze drone boat</title>
+                <link>https://arstechnica.com/gadgets/2026/09/military-milestone-ukrainian-naval-drone-sinks-russian-kamikaze-drone-boat/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/09/military-milestone-ukrainian-naval-drone-sinks-russian-kamikaze-drone-boat/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Mon, 21 Sep 2026 21:07:05 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[drone boats]]></category>
+		<category><![CDATA[military drones]]></category>
+		<category><![CDATA[Russia invasion of Ukraine]]></category>
+		<category><![CDATA[Russia war on Ukraine]]></category>
+		<category><![CDATA[Russian war on Ukraine]]></category>
+		<category><![CDATA[Ukraine]]></category>
+		<category><![CDATA[Ukraine war]]></category>
+		<category><![CDATA[uncrewed surface vessels]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/09/military-milestone-ukrainian-naval-drone-sinks-russian-kamikaze-drone-boat/</guid>
+
+                                    <description>
+                        <![CDATA[Drone boat battle occurs as Ukraine and Russia target Black Sea ports and ships.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In the world’s first clash of the drone boats, a Ukrainian naval drone destroyed a Russian explosive drone boat using a remote-controlled machine gun turret. This comes as the war in Ukraine has already seen widespread deployment of such uncrewed surface vessels in combat, along with swarms of flying attack drones and ground robots.</p>
+<p>The lopsided battle took place on September 12 when members of Ukraine’s Defense Intelligence detected the Russian uncrewed surface vessel (USV) in the Black Sea and directed a Ukrainian Navy drone boat to intercept. The Russian vessel was “positively identified” as an Orcan surface drone with a “jet ski type steerable water jet” designed to ram targets and explode, according to <a href="https://www.navalnews.com/naval-news/2026/09/worlds-first-naval-drone-duel-results-in-ukrainian-success/">naval analyst HI Sutton in Naval News</a>.</p>
+<p>Such Orcan drones have already been used to attack Ukrainian ports and ships. These often work in coordination with flying drones, like Russian Geran drones that provide aerial reconnaissance and can boost communication between drone operators and drone boats, Sutton explained.</p><p><a href="https://arstechnica.com/gadgets/2026/09/military-milestone-ukrainian-naval-drone-sinks-russian-kamikaze-drone-boat/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/09/military-milestone-ukrainian-naval-drone-sinks-russian-kamikaze-drone-boat/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>96</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Ukraine-drone-boat-machine-gun-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Ukraine-drone-boat-machine-gun-500x500.jpg" width="500" height="500" />
+<media:credit>Ukrainian Navy | United 24</media:credit><media:text>A Ukrainian Sargan-3000 drone boat destroyed a Russian naval drone using a remote-controlled 12.7 mm machine gun.</media:text></media:content>
+            </item>
+            </channel>
+</rss>

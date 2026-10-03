@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="https://www.nist.gov/">
+  <channel>
+    <title>News and Events Feed by Topic</title>
+    <link>https://www.nist.gov/topics</link>
+    <description/>
+    <language>en</language>
+    <atom:link href="https://www.nist.gov/news-events/Advanced%20communications/rss.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+  <title>Validating Spectrum in the CBRS Band: From Models to Measurements</title>
+  <link>https://www.nist.gov/news-events/news/2026/09/validating-spectrum-cbrs-band-models-measurements</link>
+  <description>  Wireless devices, from your phone to the internet router at work, need access to slices of radio frequencies to carry signals through the air. These slices are known as spectrum. Spectrum is a finite resource, and as technology advances, demand for
+
+</description>
+  <pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Ashlee Walker</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1920986</guid>
+    </item>
+<item>
+  <title>Enhancing Public Safety Communication Reliability Through 5G Sidelink</title>
+  <link>https://www.nist.gov/news-events/news/2026/09/enhancing-public-safety-communication-reliability-through-5g-sidelink</link>
+  <description>  A wildfire burns through a mountain ridge, taking out all network infrastructure. Firefighters are left in a steep canyon, spread across 15 kilometers, with no network. They switch their LMR radios into direct mode, but the canyon walls block line-of
+
+</description>
+  <pubDate>Mon, 14 Sep 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Ashlee Walker</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1920231</guid>
+    </item>
+<item>
+  <title>NIST Updates 5G Open-Source Testbed Tools</title>
+  <link>https://www.nist.gov/news-events/news/2026/09/nist-updates-5g-open-source-testbed-tools</link>
+  <description>  The latest release of the NIST 5G Open-Source Testbed Automation tool includes a new GNU Radio-based channel emulator that uses ZeroMQ to connect multiple cells and multiple UEs. Researchers can adjust signal paths with configurable attenuation and
+
+</description>
+  <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Doug Montgomery</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1919746</guid>
+    </item>
+<item>
+  <title>‘Spooky’ Particles Transit DC Suburbs, a Step Toward a Quantum Network</title>
+  <link>https://www.nist.gov/news-events/news/2026/08/spooky-particles-transit-dc-suburbs-step-toward-quantum-network</link>
+  <description>  The achievement shows that fragile quantum entanglement can survive even in tough, real-world conditions.
+
+</description>
+  <pubDate>Wed, 05 Aug 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1917846</guid>
+    </item>
+<item>
+  <title>NIST Launches Center to Drive the Manufacture of Quantum Technologies</title>
+  <link>https://www.nist.gov/news-events/news/2026/06/nist-launches-center-drive-manufacture-quantum-technologies</link>
+  <description>  NIST has announced an agreement with SRI International to establish the Quantum Manufacturing Engineering Center (QMEC).
+
+</description>
+  <pubDate>Mon, 29 Jun 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1915436</guid>
+    </item>
+<item>
+  <title>Department of Commerce Announces Definitive Agreement with SandboxAQ for a $500 Million CHIPS R&amp;amp;D Award to Accelerate Al-Driven Semiconductor Materials Discovery</title>
+  <link>https://www.nist.gov/news-events/news/2026/06/department-commerce-announces-definitive-agreement-sandboxaq-500-million</link>
+  <description>  The Department of Commerce’s CHIPS Research &amp;amp; Development Office today announced the signing of a definitive agreement with SandboxAQ for a $500 million award under the CHIPS and Science Act.
+
+</description>
+  <pubDate>Wed, 17 Jun 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1914666</guid>
+    </item>
+<item>
+  <title>The Department of Commerce’s CHIPS Program Announces a Letter of Intent with Coherent for up to $50 Million to Expand Indium Phosphide Production</title>
+  <link>https://www.nist.gov/news-events/news/2026/06/department-commerces-chips-program-announces-letter-intent-coherent-50</link>
+  <description>  The Department of Commerce’s CHIPS Program Office announced the signing of a letter of intent to provide up to $50 million in direct funding to Coherent Corp. (Coherent) under the CHIPS and Science Act.
+
+</description>
+  <pubDate>Tue, 16 Jun 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1914426</guid>
+    </item>
+<item>
+  <title>Quantum Pre-Standardization Workshop: Metrology for Quantum Technologies</title>
+  <link>https://www.nist.gov/news-events/events/2026/05/quantum-pre-standardization-workshop-metrology-quantum-technologies</link>
+  <description>  This workshop will bring together stakeholders from across the quantum technology ecosystem to provide input on industry’s most pressing measurement and characterization needs. This information will inform the workplan of NMI-Q, a new G7-endorsed
+
+</description>
+  <pubDate>Wed, 13 May 2026 00:00:00 -0400</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1910911</guid>
+    </item>
+<item>
+  <title>2026 Time and Frequency Seminar</title>
+  <link>https://www.nist.gov/news-events/events/2026/07/2026-time-and-frequency-seminar</link>
+  <description>  NIST Time and Frequency Division's annual seminar covers precision clocks and oscillators, atomic frequency standards, rf and optical synchronization, optical oscillators, quantum information; position, navigation, timing (PNT) Global Navigation
+
+</description>
+  <pubDate>Tue, 21 Jul 2026 00:00:00 -0400</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1908296</guid>
+    </item>
+<item>
+  <title>C63 Meeting</title>
+  <link>https://www.nist.gov/news-events/events/2026/05/c63-meeting</link>
+  <description>  Semi-annual meeting of the American National Standards Committee C63 on electromagnetic compatibility. NOTE: Please indicate the day(s) you plan to attend. Due to limited capacity each day, attendance will be granted on a first-come, first-served
+
+</description>
+  <pubDate>Mon, 04 May 2026 00:00:00 -0400</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1905791</guid>
+    </item>
+<item>
+  <title>5th NIST Quantum Matters in Material Sciences (QMMS) Workshop</title>
+  <link>https://www.nist.gov/news-events/events/2026/02/5th-nist-quantum-matters-material-sciences-qmms-workshop</link>
+  <description>  The 5th Quantum Matters in Materials Science (QMMS) workshop organized by the National Institute of Standards and Technology (NIST) will be held as an in-person only event at the NIST Gaithersburg campus, Maryland on February 18-19, 2026. The
+
+</description>
+  <pubDate>Wed, 18 Feb 2026 00:00:00 -0500</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1898661</guid>
+    </item>
+<item>
+  <title>Z-Axis Test Facility: Improving Indoor Localization for Public Safety</title>
+  <link>https://www.nist.gov/news-events/news/2026/05/z-axis-test-facility-improving-indoor-localization-public-safety</link>
+  <description>  The Z-Axis Test Facility, developed by the National Institute of Standards and Technology (NIST) Public Safety Communications Research (PSCR) Division, is outfitted with a state-of-the-art motion capture system of 50 cameras capable of continuously
+
+</description>
+  <pubDate>Wed, 13 May 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Emily LeVault</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1897601</guid>
+    </item>
+<item>
+  <title>Advancing Space Communications at NIST Communications Technology Laboratory</title>
+  <link>https://www.nist.gov/news-events/news/2025/09/advancing-space-communications-nist-communications-technology-laboratory</link>
+  <description>  Space has become a critical domain for science, national security, and economic growth. Satellites now support weather forecasting, navigation, disaster response, secure communications, and global connectivity—functions increasingly intertwined with
+
+</description>
+  <pubDate>Tue, 16 Sep 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Emily LeVault</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1897101</guid>
+    </item>
+<item>
+  <title>NIST CTL Scientist Honored with 2024 Arthur S. Flemming Award</title>
+  <link>https://www.nist.gov/news-events/news/2025/09/nist-ctl-scientist-honored-2024-arthur-s-flemming-award</link>
+  <description>  The National Institute of Standards and Technology Communications Technology Laboratory (NIST CTL) is proud to announce that Dr. Laura Sinclair has been selected as a recipient of the prestigious Arthur S. Flemming Award. Presented by the George
+
+</description>
+  <pubDate>Tue, 02 Sep 2025 12:00:00 +0000</pubDate>
+    <dc:creator>MacKenna Hornyak</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1895916</guid>
+    </item>
+<item>
+  <title>Empowering Future Innovators: NIST CTL Connects Cybersecurity Students with Real-World Research</title>
+  <link>https://www.nist.gov/news-events/news/2025/08/empowering-future-innovators-nist-ctl-connects-cybersecurity-students-real</link>
+  <description>  As digital infrastructure increasingly influences our daily lives, the National Institute of Standards and Technology (NIST) is committed to advancing cybersecurity research while also inspiring the next generation of STEM talent. Recently, the NIST
+
+</description>
+  <pubDate>Tue, 19 Aug 2025 12:00:00 +0000</pubDate>
+    <dc:creator>MacKenna Hornyak</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1888126</guid>
+    </item>
+<item>
+  <title>NIST Releases Test Tools to Accelerate Adoption of Emerging Route Leak Mitigation Standards</title>
+  <link>https://www.nist.gov/news-events/news/2025/08/nist-releases-test-tools-accelerate-adoption-emerging-route-leak-mitigation</link>
+  <description>  NIST has released NIST BGP RPKI IO (BRIO) - an open-source test tool and data sets to facilitate testing and experimentation with emerging Border Gateway Protocol (BGP) security and resilience mechanisms that leverage the Resource Public Key
+
+</description>
+  <pubDate>Mon, 11 Aug 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Doug Montgomery</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1888111</guid>
+    </item>
+<item>
+  <title>Advancing Power Metrology at NIST CTL</title>
+  <link>https://www.nist.gov/news-events/news/2025/08/advancing-power-metrology-nist-ctl</link>
+  <description>  In today's commerce and technology, accurate and standardized measurements are foundational. From global telecommunications to defense systems, consistent electrical measurements ensure components developed in different parts of the world work
+
+</description>
+  <pubDate>Thu, 07 Aug 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Emily LeVault</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1887791</guid>
+    </item>
+<item>
+  <title>Shaping the Future of Connectivity: NIST CTL Builds on IEEE 3388</title>
+  <link>https://www.nist.gov/news-events/news/2025/07/shaping-future-connectivity-nist-ctl-builds-ieee-3388</link>
+  <description>  The National Institute of Standards and Technology Communications Technology Laboratory (NIST CTL) Industrial Wireless Systems (IWS) Team is advancing the next generation of wireless performance standards and tools for industrial environments
+
+</description>
+  <pubDate>Wed, 23 Jul 2025 12:00:00 +0000</pubDate>
+    <dc:creator>MacKenna Hornyak</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1886951</guid>
+    </item>
+<item>
+  <title>Redefining Wireless Networks</title>
+  <link>https://www.nist.gov/news-events/news/2025/07/redefining-wireless-networks</link>
+  <description>  Integrated Sensing and Communication (ISAC) represents a transformative evolution in wireless systems, merging communication functions with sensing capabilities to enable new levels of situational awareness, efficiency, and functionality. At the
+
+</description>
+  <pubDate>Mon, 21 Jul 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Emily LeVault</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1886496</guid>
+    </item>
+<item>
+  <title>The Fundamentals of 6G: AI, Security, and Open RAN</title>
+  <link>https://www.nist.gov/news-events/news/2025/07/fundamentals-6g-ai-security-and-open-ran</link>
+  <description>  As the world transitions to sixth-generation (6G) wireless communications, two fundamental pillars shaping this new era—artificial intelligence (AI), security, and Open Radio Access Networks (Open RAN)—are central to the research agenda at the
+
+</description>
+  <pubDate>Thu, 31 Jul 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Emily LeVault</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1886481</guid>
+    </item>
+<item>
+  <title>Metrology and Calibration Services at NIST CTL: Past, Present, and Future</title>
+  <link>https://www.nist.gov/news-events/news/2025/06/metrology-and-calibration-services-nist-ctl-past-present-and-future</link>
+  <description>  The National Institute of Standards and Technology (NIST), through its Communications Technology Laboratory (CTL), plays a key role in ensuring today’s technology operates safely and effectively. Accurate and reliable radio frequency (RF)
+
+</description>
+  <pubDate>Thu, 05 Jun 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Emily LeVault</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1882711</guid>
+    </item>
+<item>
+  <title>Shaping the 6G Era</title>
+  <link>https://www.nist.gov/news-events/news/2025/06/shaping-6g-era</link>
+  <description>  The National Institute of Standards and Technology Communications Technology Laboratory (NIST CTL) is at the forefront of 6G research, laying the foundation for a future where wireless networks are intelligent, resilient, and seamlessly integrated
+
+</description>
+  <pubDate>Wed, 18 Jun 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Emily LeVault</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1882706</guid>
+    </item>
+<item>
+  <title>Navigating Autonomy: NIST CTL and the Road to Trusted Autonomous Vehicles</title>
+  <link>https://www.nist.gov/news-events/news/2025/05/navigating-autonomy-nist-ctl-and-road-trusted-autonomous-vehicles</link>
+  <description>  The transition from automation to autonomy is a significant technological leap reshaping multiple sectors—most notably the automotive industry with the emergence of autonomous vehicles (AVs). AVs promise to revolutionize the driving experience with
+
+</description>
+  <pubDate>Wed, 21 May 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Emily LeVault</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1880931</guid>
+    </item>
+<item>
+  <title>Unlocking Cybersecurity at the Physical Layer</title>
+  <link>https://www.nist.gov/news-events/news/2025/05/unlocking-cybersecurity-physical-layer</link>
+  <description>  As global communications systems grow more complex and interconnected, securing these networks requires innovative approaches that go beyond traditional cybersecurity measures. The Device-level Anomaly fRamEwork (DARE), developed by the National
+
+</description>
+  <pubDate>Thu, 08 May 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Emily LeVault</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1880926</guid>
+    </item>
+<item>
+  <title>NIST Engineer Leads the 2025 MBE &amp;amp; QIF Summit</title>
+  <link>https://www.nist.gov/news-events/news/2025/04/nist-engineer-leads-2025-mbe-qif-summit</link>
+  <description>  In April 2025, MxD hosted the 2025 Model-Based Enterprise (MBE) &amp;amp; Quality Information Framework (QIF) Summit at its Chicago, Illinois headquarters, in collaboration with NIST and the Digital Metrology Standards Consortium (DMSC). The event brought
+
+</description>
+  <pubDate>Mon, 14 Apr 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Rachel Kotary</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1880826</guid>
+    </item>
+<item>
+  <title>NIST Researcher Addresses London Healthcare Innovation Forum</title>
+  <link>https://www.nist.gov/news-events/news/2025/04/nist-researcher-addresses-london-healthcare-innovation-forum</link>
+  <description>  NIST researcher Dr. Edward Griffor co-organized the London Healthcare Innovation Forum on April 3, 2025 at London’s Canary Wharf in the United Kingdom. With over 250 participants, this event brought together clinicians, entrepreneurs, and leading
+
+</description>
+  <pubDate>Tue, 01 Apr 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Rachel Kotary</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1880821</guid>
+    </item>
+<item>
+  <title>NIST Researcher Gives Keynote Presentation at Avnu Alliance Plenary</title>
+  <link>https://www.nist.gov/news-events/news/2025/04/nist-researcher-gives-keynote-presentation-avnu-alliance-plenary</link>
+  <description>  NIST researcher Rick Candell delivered a keynote presentation at the plenary session of the Avnu Alliance Plugfest in Malaga, Spain on April 8, 2025. The Avnu Alliance is a consortium of member organizations working together to create an
+
+</description>
+  <pubDate>Tue, 01 Apr 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Rachel Kotary</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1880816</guid>
+    </item>
+<item>
+  <title>NIST Researcher Leads Workshop on Whole Community Preparedness at Smart Cities Conference</title>
+  <link>https://www.nist.gov/news-events/news/2025/04/nist-researcher-leads-workshop-whole-community-preparedness-smart-cities</link>
+  <description>  On 16 April 2025, NIST researcher Michael Dunaway and colleagues organized and led a workshop on “Whole Community Preparedness for Smart, Connected Cities” at the TechConnect Smart Cities Conference in San Antonio, TX. This event was the second in a
+
+</description>
+  <pubDate>Tue, 01 Apr 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Rachel Kotary</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1880811</guid>
+    </item>
+<item>
+  <title>Global Community Technology Challenge (GCTC) Establishes Online Resource for Smart Cities and Communities</title>
+  <link>https://www.nist.gov/news-events/news/2025/04/global-community-technology-challenge-gctc-establishes-online-resource</link>
+  <description>  Since its formation at NIST in 2014, the Global City Teams Challenge (GCTC) has evolved to become a collaborative platform for cities, communities, industry, academic, and government stakeholders to jointly develop and deploy emerging technologies
+
+</description>
+  <pubDate>Tue, 01 Apr 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Rachel Kotary</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1880806</guid>
+    </item>
+<item>
+  <title>MBE &amp;amp; QIF Summit 2025</title>
+  <link>https://www.nist.gov/news-events/news/2025/04/mbe-qif-summit-2025</link>
+  <description>  The 2025 MBE Summit was hosted at MxD headquarters in Chicago, IL, April 15 - 18. NIST's Rosemary Astheimer organized technical content in conjunction with the Digital Metrology Standards Consortium. The event emphasized the exchange of data
+
+</description>
+  <pubDate>Fri, 25 Apr 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Rosemary Astheimer</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1880801</guid>
+    </item>
+<item>
+  <title>NIST CTL Showcases Early-Career Innovation at 32nd Annual Sigma Xi Poster Presentation</title>
+  <link>https://www.nist.gov/news-events/news/2025/04/nist-ctl-showcases-early-career-innovation-32nd-annual-sigma-xi-poster</link>
+  <description>  The National Institute of Standards and Technology (NIST) Communications Technology Laboratory (CTL) proudly participated in the 32nd Annual NIST Sigma Xi Early-Career Poster Presentation, a longstanding tradition that highlights groundbreaking
+
+</description>
+  <pubDate>Wed, 30 Apr 2025 12:00:00 +0000</pubDate>
+    <dc:creator>MacKenna Hornyak</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1879651</guid>
+    </item>
+<item>
+  <title>Quantum Breakthroughs: NIST &amp;amp; SQMS Lead the Way</title>
+  <link>https://www.nist.gov/news-events/news/2025/04/quantum-breakthroughs-nist-sqms-lead-way</link>
+  <description>  While quantum computing might seem like technology for the distant future, the breakthroughs from the collaboration between Fermilab’s Superconducting Quantum Materials and Systems (SQMS) Center, the National Institute of Standards and Technology
+
+</description>
+  <pubDate>Fri, 04 Apr 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Emily LeVault</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1878546</guid>
+    </item>
+<item>
+  <title>NIST Researcher Describes Data Considerations for Industrial Artificial Intelligence</title>
+  <link>https://www.nist.gov/news-events/news/2025/02/nist-researcher-describes-data-considerations-industrial-artificial</link>
+  <description>  In February 2025, NIST researcher Dr. M. Sharp published the second installment of a 4-part Manufacturing Extension Partnership (MEP) manufacturing innovation blog series that provides a beginner’s guide to Industrial Artificial Intelligence (IAI)
+
+</description>
+  <pubDate>Sat, 01 Feb 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Rachel Kotary</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1877786</guid>
+    </item>
+<item>
+  <title>NIST Publishes Electromagnetic Interference Dataset from TIG Arc Welding</title>
+  <link>https://www.nist.gov/news-events/news/2025/02/nist-publishes-electromagnetic-interference-dataset-tig-arc-welding</link>
+  <description>  The NIST Industrial Wireless System team has published a new dataset titled "Electromagnetic Interference Measurements from Tungsten Inert Gas (TIG) Arc Welding." This dataset contains comprehensive electromagnetic interference (EMI) measurements
+
+</description>
+  <pubDate>Sat, 01 Feb 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Rachel Kotary</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1877781</guid>
+    </item>
+<item>
+  <title>NIST-Led Industrial Wireless Standard IEEE 3388 Passes Important Review Steps</title>
+  <link>https://www.nist.gov/news-events/news/2025/02/nist-led-industrial-wireless-standard-ieee-3388-passes-important-review</link>
+  <description>  For several years, NIST’s Industrial Wireless Systems Project Leader Rick Candell and his team have led the working group developing the draft IEEE 3388 Standard for the Performance Assessment of Industrial Wireless Systems. This draft standard has
+
+</description>
+  <pubDate>Sat, 01 Feb 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Rachel Kotary</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1877776</guid>
+    </item>
+<item>
+  <title>NIST Researchers Showcase Successful mmWave Industrial IoT Measurement Capability</title>
+  <link>https://www.nist.gov/news-events/news/2025/02/nist-researchers-showcase-successful-mmwave-industrial-iot-measurement</link>
+  <description>  On February 5, 2025, NIST researchers presented the results of their highly successful Innovation in Measurement Science (IMS) project, “The World’s Best IIoT Testbed,” to NIST senior management including the Associate Director for Laboratory
+
+</description>
+  <pubDate>Sat, 01 Feb 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Rachel Kotary</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1877771</guid>
+    </item>
+<item>
+  <title>NIST Researchers Publish Comprehensive Survey on Entanglement Routing in Quantum Networks</title>
+  <link>https://www.nist.gov/news-events/news/2025/02/nist-researchers-publish-comprehensive-survey-entanglement-routing-quantum</link>
+  <description>  In a recent paper titled "Entanglement Routing in Quantum Networks: A Comprehensive Survey," published in IEEE Transactions on Quantum Engineering, researchers from the National Institute of Standards and Technology (NIST) and Aliro Technologies
+
+</description>
+  <pubDate>Sat, 01 Feb 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Rachel Kotary</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1877766</guid>
+    </item>
+<item>
+  <title>CTL Staff Advance O-RAN Standards</title>
+  <link>https://www.nist.gov/news-events/news/2025/02/ctl-staff-advance-o-ran-standards</link>
+  <description>  CTL staff made several technical contributions to the O-RAN Alliance face-to-face meeting on February 24-28 in the areas of security, testing, and RAN intelligent control. NIST contributions on security focused on zero trust architecture, continuous
+
+</description>
+  <pubDate>Fri, 28 Feb 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Doug Montgomery</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1876971</guid>
+    </item>
+<item>
+  <title>2025 NIST Time and Frequency Seminar</title>
+  <link>https://www.nist.gov/news-events/events/2025/07/2025-nist-time-and-frequency-seminar</link>
+  <description>  NIST Time and Frequency Division's annual seminar covers precision clocks and oscillators, atomic frequency standards, rf and optical synchronization, optical oscillators, quantum information, optical cooling and heating; making precise frequency
+
+</description>
+  <pubDate>Tue, 29 Jul 2025 00:00:00 -0400</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1875096</guid>
+    </item>
+<item>
+  <title>A Physicist and Steampunk Enthusiast Explores Thermodynamics in the Quantum World</title>
+  <link>https://www.nist.gov/news-events/news/2025/02/physicist-and-steampunk-enthusiast-explores-thermodynamics-quantum-world</link>
+  <description>  “Energy is eternal delight.” --William Blake Snuggling with her parents and brother while watching one of her favorite TV programs, Nicole Yunger Halpern was only 10 when she got her first taste of punk. She didn’t start listening to the Sex Pistols
+
+</description>
+  <pubDate>Thu, 13 Feb 2025 12:00:00 +0000</pubDate>
+    <dc:creator>Pamela L Corey</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1874916</guid>
+    </item>
+
+  </channel>
+</rss>

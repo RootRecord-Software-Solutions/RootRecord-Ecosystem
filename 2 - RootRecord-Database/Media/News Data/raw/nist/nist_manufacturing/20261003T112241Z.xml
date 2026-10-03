@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="https://www.nist.gov/">
+  <channel>
+    <title>News and Events Feed by Topic</title>
+    <link>https://www.nist.gov/topics</link>
+    <description/>
+    <language>en</language>
+    <atom:link href="https://www.nist.gov/news-events/manufacturing/rss.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+  <title>NIST Awards More Than $30 Million for MEP Centers in 11 States and Puerto Rico</title>
+  <link>https://www.nist.gov/news-events/news/2026/09/nist-awards-more-30-million-mep-centers-11-states-and-puerto-rico</link>
+  <description>  The awards will help small and medium-sized manufacturers increase the adoption of advanced manufacturing technology.
+
+</description>
+  <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1920296</guid>
+    </item>
+<item>
+  <title>Department of Commerce Announces Finalization of CHIPS R&amp;amp;D Award with Anderon</title>
+  <link>https://www.nist.gov/news-events/news/2026/09/department-commerce-announces-finalization-chips-rd-award-anderon</link>
+  <description>  The U.S. Department of Commerce announced today the signing of a final R&amp;amp;D award of up to $1 billion to Anderon, a newly formed subsidiary of IBM, under the CHIPS and Science Act.
+
+</description>
+  <pubDate>Wed, 16 Sep 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1920291</guid>
+    </item>
+<item>
+  <title>NIST-Developed Quantum Sensors Improve Nuclear Monitoring</title>
+  <link>https://www.nist.gov/news-events/news/2026/09/nist-developed-quantum-sensors-improve-nuclear-monitoring</link>
+  <description>  New X-ray measurements will allow scientists to more accurately monitor nuclear material at power plants and weapons facilities.
+
+</description>
+  <pubDate>Thu, 10 Sep 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1920006</guid>
+    </item>
+<item>
+  <title>Department of Commerce Announces Finalization of CHIPS R&amp;amp;D Award with GlobalFoundries</title>
+  <link>https://www.nist.gov/news-events/news/2026/09/department-commerce-announces-finalization-chips-rd-award-globalfoundries</link>
+  <description>  The U.S. Department of Commerce announced the signing of a final award of up to $375 million to GlobalFoundries under the CHIPS and Science Act.
+
+</description>
+  <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1919851</guid>
+    </item>
+<item>
+  <title>Department of Commerce Announces Finalization of CHIPS R&amp;amp;D Award with PsiQuantum</title>
+  <link>https://www.nist.gov/news-events/news/2026/09/department-commerce-announces-finalization-chips-rd-award-psiquantum</link>
+  <description>  The U.S. Department of Commerce announced today the signing of a final award of up to $100 million to PsiQuantum under the CHIPS and Science Act.
+
+</description>
+  <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1919826</guid>
+    </item>
+<item>
+  <title>Department of Commerce Announces Finalization of CHIPS R&amp;amp;D Award with Quantinuum</title>
+  <link>https://www.nist.gov/news-events/news/2026/09/department-commerce-announces-finalization-chips-rd-award-quantinuum</link>
+  <description>  The U.S. Department of Commerce announced today the signing of a final award of up to $100 million to Quantinuum under the CHIPS and Science Act.
+
+</description>
+  <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1919821</guid>
+    </item>
+<item>
+  <title>Department of Commerce Announces Finalization of CHIPS R&amp;amp;D Award with D-Wave</title>
+  <link>https://www.nist.gov/news-events/news/2026/09/department-commerce-announces-finalization-chips-rd-award-d-wave</link>
+  <description>  The U.S. Department of Commerce announced today the signing of a final award of up to $100 million to D-Wave under the CHIPS and Science Act.
+
+</description>
+  <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1919816</guid>
+    </item>
+<item>
+  <title>Department of Commerce Announces Finalization of CHIPS R&amp;amp;D Award with Rigetti</title>
+  <link>https://www.nist.gov/news-events/news/2026/09/department-commerce-announces-finalization-chips-rd-award-rigetti</link>
+  <description>  The U.S. Department of Commerce announced today the signing of a final award of up to $100 million to Rigetti under the CHIPS and Science Act.
+
+</description>
+  <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1919811</guid>
+    </item>
+<item>
+  <title>NIIMBL Announces Project Call 10.1 to Advance Biopharmaceutical Manufacturing Technology and Workforce Capabilities</title>
+  <link>https://www.nist.gov/news-events/news/2026/08/niimbl-announces-project-call-101-advance-biopharmaceutical-manufacturing</link>
+  <description>  The National Institute for Innovation in Manufacturing Biopharmaceuticals (NIIMBL) is pleased to announce Project Call 10.1 for technology and workforce development projects. NIIMBL expects to launch a combined $8 million of project activities to
+
+</description>
+  <pubDate>Mon, 03 Aug 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Cassondra Blasioli</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1918456</guid>
+    </item>
+<item>
+  <title>Department of Commerce Announces Letters of Intent With 7 Companies for $874 Million to Accelerate Semiconductor R&amp;amp;D for the Compute Supply Chain</title>
+  <link>https://www.nist.gov/news-events/news/2026/07/department-commerce-announces-letters-intent-7-companies-874-million</link>
+  <description>  The Department of Commerce today announced the signing of 7 letters of intent to provide $874 million in federal incentives under the CHIPS and Science Act.
+
+</description>
+  <pubDate>Wed, 29 Jul 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1917456</guid>
+    </item>
+<item>
+  <title>NIST Joins National Genesis Mission to Accelerate AI Innovation</title>
+  <link>https://www.nist.gov/news-events/news/2026/08/nist-joins-national-genesis-mission-accelerate-ai-innovation</link>
+  <description>  NIST will execute two of its efforts through its Centers for AI in Manufacturing and Critical Infrastructure.
+
+</description>
+  <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1917301</guid>
+    </item>
+<item>
+  <title>NIST Announces Funding Opportunity for 14 MEP Centers to Advance Small and Medium-Sized U.S. Manufacturers</title>
+  <link>https://www.nist.gov/news-events/news/2026/07/nist-announces-funding-opportunity-14-mep-centers-advance-small-and-0</link>
+  <description>  GAITHERSBURG, Md. — The U.S. Department of Commerce’s National Institute of Standards and Technology (NIST) has released a Notice of Funding Opportunity (NOFO) for 14 Manufacturing Extension Partnership (MEP) Centers to improve U.S. industrial
+
+</description>
+  <pubDate>Wed, 22 Jul 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Nicole Ausherman</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1917261</guid>
+    </item>
+<item>
+  <title>NIST Announces Funding Opportunity for 14 MEP Centers to Advance Small and Medium-Sized U.S. Manufacturers</title>
+  <link>https://www.nist.gov/news-events/news/2026/07/nist-announces-funding-opportunity-14-mep-centers-advance-small-and-medium</link>
+  <description>  NIST MEP will host an informational webinar on Tuesday, July 28, 2026, at 1 p.m. ET to provide general information about this opportunity and guidance on preparing applications.
+
+</description>
+  <pubDate>Wed, 22 Jul 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1916981</guid>
+    </item>
+<item>
+  <title>Trump Administration Secures an Additional $100 Billion U.S. Semiconductor Manufacturing Investment for a Total of $265 Billion from TSMC</title>
+  <link>https://www.nist.gov/news-events/news/2026/07/trump-administration-secures-additional-100-billion-us-semiconductor</link>
+  <description>  As a result of the historic deal related to U.S. and Taiwan Trade and Investment announced in January 2026, TSMC has just announced an incremental $100 billion investment for a total of $265 billion in the U.S. This investment will result in four additional advanced semiconductor manufacturing facilities, bringing the total to 12 leading edge semiconductor and packaging facilities.
+
+</description>
+  <pubDate>Thu, 16 Jul 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1916621</guid>
+    </item>
+<item>
+  <title>Department of Commerce Announces Direct Funding Agreement with Bosch for a $225 Million CHIPS Program Award to Support Domestic Production of Silicon Carbide Semiconductors</title>
+  <link>https://www.nist.gov/news-events/news/2026/07/department-commerce-announces-direct-funding-agreement-bosch-225-million</link>
+  <description>  The Department of Commerce’s CHIPS Program Office announced today the signing of a Direct Funding Agreement with Robert Bosch Semiconductor LLC (“Bosch”) for up to $225 million in incentives under the CHIPS and Science Act.
+
+</description>
+  <pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1916341</guid>
+    </item>
+<item>
+  <title>New Fabric Test Material Could Help Strengthen Domestic Supply Chain for Textiles and Clothing</title>
+  <link>https://www.nist.gov/news-events/news/2026/07/new-fabric-test-material-could-help-strengthen-domestic-supply-chain</link>
+  <description>  Researchers estimate that 56% of textiles can be recycled or recovered, but most don’t make it back into the domestic supply chain.
+
+</description>
+  <pubDate>Thu, 09 Jul 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1916086</guid>
+    </item>
+<item>
+  <title>Spotlight: Test Your Robot’s Skills in NIST’s Global Online Competition</title>
+  <link>https://www.nist.gov/news-events/news/2026/06/spotlight-test-your-robots-skills-nists-global-online-competition</link>
+  <description>  How can researchers know how skilled a robot is at simple tasks, such as picking things up and putting them down?
+
+</description>
+  <pubDate>Wed, 24 Jun 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1915661</guid>
+    </item>
+<item>
+  <title>NIST Launches Center to Drive the Manufacture of Quantum Technologies</title>
+  <link>https://www.nist.gov/news-events/news/2026/06/nist-launches-center-drive-manufacture-quantum-technologies</link>
+  <description>  NIST has announced an agreement with SRI International to establish the Quantum Manufacturing Engineering Center (QMEC).
+
+</description>
+  <pubDate>Mon, 29 Jun 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1915436</guid>
+    </item>
+<item>
+  <title>Department of Commerce Announces Definitive Agreement with I-Pulse for a $250 Million CHIPS R&amp;amp;D Award to Develop Novel Silicon-Carbide Semiconductors</title>
+  <link>https://www.nist.gov/news-events/news/2026/06/department-commerce-announces-definitive-agreement-i-pulse-250-million</link>
+  <description>  The Department of Commerce’s CHIPS Research &amp;amp; Development Office today announced the signing of a definitive agreement with I-Pulse for a $250 million award under the CHIPS and Science Act.
+
+</description>
+  <pubDate>Thu, 25 Jun 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1915346</guid>
+    </item>
+<item>
+  <title>Department of Commerce Announces Definitive Agreement with SandboxAQ for a $500 Million CHIPS R&amp;amp;D Award to Accelerate Al-Driven Semiconductor Materials Discovery</title>
+  <link>https://www.nist.gov/news-events/news/2026/06/department-commerce-announces-definitive-agreement-sandboxaq-500-million</link>
+  <description>  The Department of Commerce’s CHIPS Research &amp;amp; Development Office today announced the signing of a definitive agreement with SandboxAQ for a $500 million award under the CHIPS and Science Act.
+
+</description>
+  <pubDate>Wed, 17 Jun 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1914666</guid>
+    </item>
+<item>
+  <title>The Department of Commerce’s CHIPS Program Announces a Letter of Intent with Coherent for up to $50 Million to Expand Indium Phosphide Production</title>
+  <link>https://www.nist.gov/news-events/news/2026/06/department-commerces-chips-program-announces-letter-intent-coherent-50</link>
+  <description>  The Department of Commerce’s CHIPS Program Office announced the signing of a letter of intent to provide up to $50 million in direct funding to Coherent Corp. (Coherent) under the CHIPS and Science Act.
+
+</description>
+  <pubDate>Tue, 16 Jun 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1914426</guid>
+    </item>
+<item>
+  <title>NIST Researchers Discover a New Way to Whisk Alloys Together With Lasers</title>
+  <link>https://www.nist.gov/news-events/news/2026/06/nist-researchers-discover-new-way-whisk-alloys-together-lasers</link>
+  <description>  NIST also improved how X-rays are used to study the atomic structure of metals in real time during 3D printing, allowing researchers to observe how materials change under extreme conditions.
+
+</description>
+  <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1913736</guid>
+    </item>
+<item>
+  <title>The Department of Commerce’s CHIPS Program Finalizes Definitive Agreement With USA Rare Earth For Up To $1.6 Billion To Support The Company’s “Mine-to-Magnet” Strategy</title>
+  <link>https://www.nist.gov/news-events/news/2026/06/department-commerces-chips-program-finalizes-definitive-agreement-usa-rare</link>
+  <description>  The Department of Commerce’s CHIPS Program Office announced the signing of a final award for up to $277 million in federal incentives and a loan agreement for up to $1.3 billion with USA Rare Earth (USAR) under the CHIPS and Science Act.
+
+</description>
+  <pubDate>Wed, 03 Jun 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1913676</guid>
+    </item>
+<item>
+  <title>Department of Commerce Announces Finalization of CHIPS Incentives with Powerex to Enhance Domestic Production Capacity of Key Components for U.S. Semiconductor Manufacturing</title>
+  <link>https://www.nist.gov/news-events/news/2026/06/department-commerce-announces-finalization-chips-incentives-powerex-enhance</link>
+  <description>  The U.S. Department of Commerce announced today the signing of a Direct Funding Agreement with Powerex to invest $30 million in manufacturing and R&amp;amp;D to dramatically expand domestic power module production.
+
+</description>
+  <pubDate>Fri, 05 Jun 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1913426</guid>
+    </item>
+<item>
+  <title>Department of Commerce Announces Finalization of CHIPS Incentives with xLight to Support Next-Generation Light Source for Lithography</title>
+  <link>https://www.nist.gov/news-events/news/2026/06/department-commerce-announces-finalization-chips-incentives-xlight-support</link>
+  <description>  The U.S. Department of Commerce and the National Institute of Standards and Technology (NIST) announced today the signing of a final award of $150 million in federal incentives to xLight, Inc. under the CHIPS and Science Act.
+
+</description>
+  <pubDate>Tue, 02 Jun 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1913416</guid>
+    </item>
+<item>
+  <title>Department of Commerce Announces Letters of Intent With 9 Companies for $2 Billion to Accelerate U.S. Leadership in Quantum Computing</title>
+  <link>https://www.nist.gov/news-events/news/2026/05/department-commerce-announces-letters-intent-9-companies-2-billion</link>
+  <description>  The Department of Commerce today announced the signing of 9 letters of intent to provide $2.013 billion in federal incentives under the CHIPS and Science Act.
+
+</description>
+  <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1912456</guid>
+    </item>
+<item>
+  <title>NIST Issues Notice of Intent for Upcoming Technology Accelerator Pilot Program</title>
+  <link>https://www.nist.gov/news-events/news/2026/05/nist-issues-notice-intent-upcoming-technology-accelerator-pilot-program</link>
+  <description>  The National Institute of Standards and Technology’s (NIST) Hollings Manufacturing Extension Partnership (MEP) has issued notice that it will announce a competitive pilot program for existing MEP Centers to accelerate the adoption and
+
+</description>
+  <pubDate>Wed, 20 May 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Nicole Ausherman</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1912356</guid>
+    </item>
+<item>
+  <title>75 Students Set to Participate in the 2026 NIIMBL eXperience This June</title>
+  <link>https://www.nist.gov/news-events/news/2026/05/75-students-set-participate-2026-niimbl-experience-june</link>
+  <description>  The National Institute for Innovation in Manufacturing Biopharmaceuticals (NIIMBL) is proud to announce the selection of 75 first- and second-year college students for the 2026 NIIMBL experience program. The cohort represents 67 academic institutions
+
+</description>
+  <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Cassondra Blasioli</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1912351</guid>
+    </item>
+<item>
+  <title>NIIMBL Announces 2027 eXperience Regional Lead Request for Applications</title>
+  <link>https://www.nist.gov/news-events/news/2026/04/niimbl-announces-2027-experience-regional-lead-request-applications</link>
+  <description>  NIIMBL is pleased to announce that applications are now open for 2027 NIIMBL eXperience regional lead organizations. Applications are due on July 20, 2026, at 5 pm ET. This opportunity invites academic and nonprofit NIIMBL members to design and host
+
+</description>
+  <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Cassondra Blasioli</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1912346</guid>
+    </item>
+<item>
+  <title>Towards a Best Practice Guide for Designing Equipment for Autonomous Materials R&amp;amp;D</title>
+  <link>https://www.nist.gov/news-events/events/2026/08/towards-best-practice-guide-designing-equipment-autonomous-materials-rd</link>
+  <description>  Autonomous and automated experimentation have demonstrated the possibility of accelerating materials research and development by orders of magnitude. As the materials science community transitions toward these highly automated and autonomous
+
+</description>
+  <pubDate>Tue, 11 Aug 2026 00:00:00 -0400</pubDate>
+    <dc:creator>Vontress Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1911966</guid>
+    </item>
+<item>
+  <title>Quantum Pre-Standardization Workshop: Metrology for Quantum Technologies</title>
+  <link>https://www.nist.gov/news-events/events/2026/05/quantum-pre-standardization-workshop-metrology-quantum-technologies</link>
+  <description>  This workshop will bring together stakeholders from across the quantum technology ecosystem to provide input on industry’s most pressing measurement and characterization needs. This information will inform the workplan of NMI-Q, a new G7-endorsed
+
+</description>
+  <pubDate>Wed, 13 May 2026 00:00:00 -0400</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1910911</guid>
+    </item>
+<item>
+  <title>NIST Accelerates Circular Economy Standards with New Resource Registry</title>
+  <link>https://www.nist.gov/news-events/news/2026/03/nist-accelerates-circular-economy-standards-new-resource-registry</link>
+  <description>  For companies selling recycled materials, knowing the science isn’t enough. Understanding the standards is just as critical. Take a recycler working with PVC. To enter new markets, she needs to confirm her material meets strict quality and
+
+</description>
+  <pubDate>Thu, 19 Mar 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Shelby Bowers</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1909191</guid>
+    </item>
+<item>
+  <title>Artificial Intelligence (AI) for Manufacturing Workshop</title>
+  <link>https://www.nist.gov/news-events/events/2026/05/artificial-intelligence-ai-manufacturing-workshop</link>
+  <description>  U.S. manufacturing expects to gain transformative productivity and resilience improvements through AI integration in product development and production processes. Despite AI's potential to transform manufacturing operations and workflows, significant
+
+</description>
+  <pubDate>Wed, 27 May 2026 00:00:00 -0400</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1908996</guid>
+    </item>
+<item>
+  <title>2026 Manufacturing USA Network Meeting</title>
+  <link>https://www.nist.gov/news-events/events/2026/05/2026-manufacturing-usa-network-meeting</link>
+  <description>  Manufacturing USA institute and agency representatives are invited to attend the 2026 Network Meeting. Hosted by NIST's Advanced Manufacturing National Program Office, this annual event brings together the network’s manufacturing innovation
+
+</description>
+  <pubDate>Tue, 12 May 2026 00:00:00 -0400</pubDate>
+    <dc:creator>Crissy Kessell</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1908906</guid>
+    </item>
+<item>
+  <title>NIST Allocates Over $3 Million to Small Businesses Advancing AI, Biotechnology, Semiconductors, Quantum and More</title>
+  <link>https://www.nist.gov/news-events/news/2026/02/nist-allocates-over-3-million-small-businesses-advancing-ai-biotechnology</link>
+  <description>  NIST is allocating funding to eight small businesses in seven states under the Small Business Innovation Research (SBIR) program.
+
+</description>
+  <pubDate>Tue, 10 Feb 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1906091</guid>
+    </item>
+<item>
+  <title>Building the Strategic Supply Chain Network</title>
+  <link>https://www.nist.gov/news-events/events/2026/03/building-strategic-supply-chain-network</link>
+  <description>  Recent disruptions—from pandemics to infrastructure failures to (rapidly) changing trade policies —have exposed critical vulnerabilities in the U.S. supply chain. These challenges demand coordinated, data-informed responses that bridge the gap
+
+</description>
+  <pubDate>Mon, 09 Mar 2026 00:00:00 -0400</pubDate>
+    <dc:creator>Sabina Mohan</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1906071</guid>
+    </item>
+<item>
+  <title>Space: The Final Frontier for Standards</title>
+  <link>https://www.nist.gov/news-events/news/2026/02/space-final-frontier-standards</link>
+  <description>  Seven NIST reference materials, including house dust and freeze-dried human liver tissue, have been flown to the International Space Station.
+
+</description>
+  <pubDate>Mon, 09 Feb 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Sarah Henderson</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1905886</guid>
+    </item>
+<item>
+  <title>Advanced Metrology for Defect Management in Ceramic Additive Manufacturing</title>
+  <link>https://www.nist.gov/news-events/events/2026/06/advanced-metrology-defect-management-ceramic-additive-manufacturing</link>
+  <description>  Additive manufacturing (AM) of ceramic components suffers from inconsistent quality and high defect rates due to a lack of standardized feedstock characterization and handling protocols, inadequate in-process monitoring capabilities, and insufficient
+
+</description>
+  <pubDate>Wed, 10 Jun 2026 00:00:00 -0400</pubDate>
+    <dc:creator>Megan N. Spangler</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1905461</guid>
+    </item>
+<item>
+  <title>The Department of Commerce’s CHIPS Program Announces a Letter of Intent with USA Rare Earth to Accelerate Its Domestic and Vertically Integrated &amp;quot;Mine-to-Magnet&amp;quot; Strategy</title>
+  <link>https://www.nist.gov/news-events/news/2026/01/department-commerces-chips-program-announces-letter-intent-usa-rare-earth</link>
+  <description>  The Department of Commerce’s CHIPS Program Office announced the signing of a non-binding letter of intent to provide up to $277 million in direct funding and up to $1.3 billion in a senior secured loan to USA Rare Earth (USAR) under the CHIPS and Science Act.
+
+</description>
+  <pubDate>Mon, 26 Jan 2026 12:00:00 +0000</pubDate>
+    <dc:creator>Andrew Kim</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1905171</guid>
+    </item>
+<item>
+  <title>Nanoplatelets Could Make TVs More Energy Efficient</title>
+  <link>https://www.nist.gov/news-events/news/2018/03/nanoplatelets-could-make-tvs-more-energy-efficient</link>
+  <description>  Researchers at NIST and Sharp Laboratories of America, Inc. have discovered new optical properties in sheet-like materials that could eventually make flat-screen televisions, laptops and other light-emitting appliances more energy-efficient. Known as
+
+</description>
+  <pubDate>Wed, 28 Mar 2018 12:00:00 +0000</pubDate>
+    <dc:creator>Robin Materese</dc:creator>
+    <guid isPermaLink="true">https://www.nist.gov/node/1901776</guid>
+    </item>
+
+  </channel>
+</rss>
