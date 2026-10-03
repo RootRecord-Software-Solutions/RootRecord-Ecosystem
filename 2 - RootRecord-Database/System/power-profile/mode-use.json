@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-03T06:09:25-10:00",
+  "updated_at": "2026-10-03T07:18:00-10:00",
   "today": "2026-10-03",
   "mode": "balanced",
   "raw": "balanced",
-  "since": "2026-10-03T06:09:25-10:00",
+  "since": "2026-10-03T07:18:00-10:00",
   "seconds": {
     "performance": 20922,
-    "balanced": 1267,
+    "balanced": 5380,
     "energy saver": 0
   },
   "today_seconds": {
     "performance": 20922,
-    "balanced": 1267,
+    "balanced": 5380,
     "energy saver": 0
   }
 }

@@ -31,11 +31,31 @@
       "publication": "not_configured"
     },
     {
+      "report_id": "rpt_2210935b1d8abaf85dc5",
+      "id": "solar_desk",
+      "file": "solar_desk_current.wav",
+      "window_start": "2026-10-03T07:00:00-10:00",
+      "window_end": "2026-10-03T08:00:00-10:00",
+      "priority": 0,
+      "status": "assets_ready",
+      "publication": "not_configured"
+    },
+    {
       "report_id": "rpt_22b0b71958fdf5fdefbc",
       "id": "system_perf",
       "file": "system_perf_current.wav",
       "window_start": "2026-10-03T05:00:00-10:00",
       "window_end": "2026-10-03T06:00:00-10:00",
+      "priority": 0,
+      "status": "assets_ready",
+      "publication": "not_configured"
+    },
+    {
+      "report_id": "rpt_245cf45fb9be87fdba1d",
+      "id": "remaining_tasks",
+      "file": "remaining_tasks_current.wav",
+      "window_start": "2026-10-03T07:00:00-10:00",
+      "window_end": "2026-10-03T08:00:00-10:00",
       "priority": 0,
       "status": "assets_ready",
       "publication": "not_configured"
@@ -66,6 +86,16 @@
       "file": "custom_msg_current.wav",
       "window_start": "2026-10-03T05:00:00-10:00",
       "window_end": "2026-10-03T06:00:00-10:00",
+      "priority": 0,
+      "status": "assets_ready",
+      "publication": "not_configured"
+    },
+    {
+      "report_id": "rpt_44bb94fd97a34b426c50",
+      "id": "earthquake_report",
+      "file": "earthquake_report_current.wav",
+      "window_start": "2026-10-03T07:00:00-10:00",
+      "window_end": "2026-10-03T08:00:00-10:00",
       "priority": 0,
       "status": "assets_ready",
       "publication": "not_configured"
@@ -131,6 +161,26 @@
       "publication": "not_configured"
     },
     {
+      "report_id": "rpt_7beae54715a8804d9c06",
+      "id": "kilauea_report",
+      "file": "kilauea_report_current.wav",
+      "window_start": "2026-10-03T07:00:00-10:00",
+      "window_end": "2026-10-03T08:00:00-10:00",
+      "priority": 0,
+      "status": "assets_ready",
+      "publication": "not_configured"
+    },
+    {
+      "report_id": "rpt_81b27b99899598fc6b9e",
+      "id": "nws_weather",
+      "file": "nws_weather_current.wav",
+      "window_start": "2026-10-03T07:00:00-10:00",
+      "window_end": "2026-10-03T08:00:00-10:00",
+      "priority": 0,
+      "status": "assets_ready",
+      "publication": "not_configured"
+    },
+    {
       "report_id": "rpt_9744c95a94d899810a03",
       "id": "earthquake_report",
       "file": "earthquake_report_current.wav",
@@ -151,11 +201,31 @@
       "publication": "not_configured"
     },
     {
+      "report_id": "rpt_bcdd50481782f735cd23",
+      "id": "custom_msg",
+      "file": "custom_msg_current.wav",
+      "window_start": "2026-10-03T07:00:00-10:00",
+      "window_end": "2026-10-03T08:00:00-10:00",
+      "priority": 0,
+      "status": "assets_ready",
+      "publication": "not_configured"
+    },
+    {
       "report_id": "rpt_bd2b6ab569e252dd7bc3",
       "id": "nws_weather",
       "file": "nws_weather_current.wav",
       "window_start": "2026-10-03T05:00:00-10:00",
       "window_end": "2026-10-03T06:00:00-10:00",
+      "priority": 0,
+      "status": "assets_ready",
+      "publication": "not_configured"
+    },
+    {
+      "report_id": "rpt_caaec30808938bda37b9",
+      "id": "hurricane_desk",
+      "file": "hurricane_desk_current.wav",
+      "window_start": "2026-10-03T07:00:00-10:00",
+      "window_end": "2026-10-03T08:00:00-10:00",
       "priority": 0,
       "status": "assets_ready",
       "publication": "not_configured"
@@ -176,6 +246,16 @@
       "file": "earthquake_report_current.wav",
       "window_start": "2026-10-03T05:00:00-10:00",
       "window_end": "2026-10-03T06:00:00-10:00",
+      "priority": 0,
+      "status": "assets_ready",
+      "publication": "not_configured"
+    },
+    {
+      "report_id": "rpt_cff0974b212314277f79",
+      "id": "system_perf",
+      "file": "system_perf_current.wav",
+      "window_start": "2026-10-03T07:00:00-10:00",
+      "window_end": "2026-10-03T08:00:00-10:00",
       "priority": 0,
       "status": "assets_ready",
       "publication": "not_configured"
@@ -211,6 +291,16 @@
       "publication": "not_configured"
     },
     {
+      "report_id": "rpt_e65839ae8a4f14a18585",
+      "id": "kilauea_image_check",
+      "file": "kilauea_image_check_current.wav",
+      "window_start": "2026-10-03T07:15:00-10:00",
+      "window_end": "2026-10-03T07:30:00-10:00",
+      "priority": 0,
+      "status": "assets_ready",
+      "publication": "not_configured"
+    },
+    {
       "report_id": "rpt_f3f24315d397bce6522a",
       "id": "security_desk",
       "file": "security_desk_current.wav",
@@ -221,11 +311,31 @@
       "publication": "not_configured"
     },
     {
+      "report_id": "rpt_fbff9024cc863609f031",
+      "id": "bandwidth_desk",
+      "file": "bandwidth_desk_current.wav",
+      "window_start": "2026-10-03T07:00:00-10:00",
+      "window_end": "2026-10-03T08:00:00-10:00",
+      "priority": 0,
+      "status": "assets_ready",
+      "publication": "not_configured"
+    },
+    {
       "report_id": "rpt_fe57850bc750aa0b9dde",
       "id": "security_desk",
       "file": "security_desk_current.wav",
       "window_start": "2026-10-03T05:00:00-10:00",
       "window_end": "2026-10-03T06:00:00-10:00",
+      "priority": 0,
+      "status": "assets_ready",
+      "publication": "not_configured"
+    },
+    {
+      "report_id": "rpt_fed851a603de13a562a9",
+      "id": "security_desk",
+      "file": "security_desk_current.wav",
+      "window_start": "2026-10-03T07:00:00-10:00",
+      "window_end": "2026-10-03T08:00:00-10:00",
       "priority": 0,
       "status": "assets_ready",
       "publication": "not_configured"

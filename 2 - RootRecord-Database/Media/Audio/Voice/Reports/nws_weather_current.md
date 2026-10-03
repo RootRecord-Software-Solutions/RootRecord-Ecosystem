@@ -1,6 +1,6 @@
-# NWS Hawaii — 2026-10-03T05:47:42-10:00
+# NWS Hawaii — 2026-10-03T07:14:36-10:00
 
-- Alerts source: `api.weather.gov/alerts/active?area=HI` (updated 2026-10-03T15:33:13+00:00)
+- Alerts source: `api.weather.gov/alerts/active?area=HI` (updated 2026-10-03T17:00:00+00:00)
 - Forecast source: NWS HFO State Forecast (SFP), issued 303 AM HST Sat Oct 3 2026
 - Temperatures: NWS HFO Zone Forecast (ZFP), today high and tonight low
 
@@ -14,13 +14,13 @@ Today: Mostly sunny. Windward and mountains, isolated showers in the morning, th
 
 ## Temperatures
 
-Shore number when the zone also lists an elevation.
+Shore for coastal towns; Mountain View ~2000 ft; Volcano ~4000 ft.
 
 - **Honolulu** — high 83 to 88, low around 75
 - **Lihue** — high 78 to 86, low 67 to 78
 - **Kahului** — high 81 to 87, low 63 to 68
 - **Hilo** — high 78 to 84 at the shore, low 64 to 71 at the shore
-- **Mountain View** — high 78 to 84 near the shore to 65 to 71 at 4000 feet, low 64 to 71 near the shore to 49 to 57 at 4000 feet
+- **Mountain View** — high around 74 at 2000 feet, low around 60 at 2000 feet
 - **Volcano** — high 65 to 71 at 4000 feet, low 49 to 57 at 4000 feet
 - **Kailua-Kona** — high 83 to 88 at the shore, low 70 to 76 at the shore
 ## Outlook

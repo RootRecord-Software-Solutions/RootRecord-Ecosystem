@@ -20,6 +20,7 @@ from __future__ import annotations  # info: from __future__ import annotations
 
 import json  # info: import json
 import os  # info: import os
+import re  # info: import re
 import shlex  # info: import shlex
 import subprocess  # info: import subprocess
 import sys  # info: import sys
@@ -38,8 +39,6 @@ BG = PACIFIC / "Website" / "Home" / "assets" / "broadcast-bg.jpg"  # info: set B
 SOURCE = Path("/home/rootrecord/Downloads/IbxbN.jpg")  # info: set SOURCE
 OUT = PACIFIC / "Media" / "Video" / "live-frame.png"  # info: set OUT
 ENERGY = Path("/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Energy")  # info: set ENERGY
-DB = Path("/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database")  # info: set DB
-ZFP = DB / "Weather" / "Hawai'i" / "hfo" / "api.weather.gov" / "products" / "types" / "ZFP" / "locations" / "HFO" / "HFO_current.txt"  # info: set ZFP
 LATENCY = PACIFIC / "Media" / "Video" / "live-picture-latency.json"  # info: set LATENCY
 HOST_HW = PACIFIC / "System" / "scripts"  # info: set HOST_HW
 VOICE = PACIFIC / "Media" / "Voice" / "scripts"  # info: set VOICE
@@ -478,7 +477,8 @@ def _sun_host() -> dict:  # info: def _sun_host
 def _mean_deg(raw: str | None) -> float | None:  # info: def _mean_deg
     if not raw:  # info: if empty
         return None  # info: return None
-    nums = [int(x) for x in re.findall(r"\d+", str(raw))]  # info: set nums
+    # Keep Fahrenheit temps only — drop elevation feet (e.g. 4000) from ZFP phrases.
+    nums = [int(x) for x in re.findall(r"\d+", str(raw)) if 20 <= int(x) <= 120]  # info: set nums
     if not nums:  # info: if no numbers
         return None  # info: return None
     return sum(nums) / len(nums)  # info: return mean

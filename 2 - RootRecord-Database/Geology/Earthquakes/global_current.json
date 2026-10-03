@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-03T06:39:53-10:00",
+  "at": "2026-10-03T07:18:55-10:00",
   "source": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
   "window_h": 24,
   "min_mag": 2.5,
@@ -14,7 +14,7 @@
     "time_hst": "2026-10-02T10:27:27.120000-10:00"
   },
   "new_this_run": 0,
-  "usgs_generated_utc": "2026-10-03T16:39:19+00:00",
+  "usgs_generated_utc": "2026-10-03T17:18:19+00:00",
   "events": [
     {
       "id": "pr71535538",
@@ -59,6 +59,22 @@
         "admin1_code": null,
         "km": 140.0
       }
+    },
+    {
+      "id": "us6000tzcv",
+      "mag": 4.4,
+      "mag_type": "mb",
+      "place": "Banda Sea",
+      "time_utc": "2026-10-03T14:49:40.402000+00:00",
+      "time_hst": "2026-10-03T04:49:40.402000-10:00",
+      "lon": 130.1704,
+      "lat": -6.4633,
+      "depth_km": 140.138,
+      "status": "reviewed",
+      "tsunami": 0,
+      "type": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzcv",
+      "nearest": null
     },
     {
       "id": "nn00925220",
@@ -639,28 +655,6 @@
       "type": "earthquake",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz75",
       "nearest": null
-    },
-    {
-      "id": "us6000tzaj",
-      "mag": 3.2,
-      "mag_type": "ml",
-      "place": "7 km NNW of Korumburra, Australia",
-      "time_utc": "2026-10-02T16:56:33.461000+00:00",
-      "time_hst": "2026-10-02T06:56:33.461000-10:00",
-      "lon": 145.7899,
-      "lat": -38.3679,
-      "depth_km": 10.231,
-      "status": "reviewed",
-      "tsunami": 0,
-      "type": "earthquake",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzaj",
-      "nearest": {
-        "location_id": "hk-city-of-victoria",
-        "name": "City of Victoria",
-        "country_code": "HK",
-        "admin1_code": null,
-        "km": 219.8
-      }
     }
   ]
 }
