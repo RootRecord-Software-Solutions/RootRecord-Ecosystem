@@ -161,3 +161,5 @@
 2026-10-03T01:28:49-1000 river2pro-ac-force: no-op out_of_range sight=1 sight_age=7229s ble_age=999999s ac_ports=none detail=seen
 2026-10-03T01:29:37-1000 river2pro-ac-force: no-op out_of_range sight=1 sight_age=7277s ble_age=999999s ac_ports=none detail=seen
 2026-10-03T01:30:22-1000 river2pro-ac-force: no-op out_of_range sight=1 sight_age=7322s ble_age=999999s ac_ports=none detail=seen
+2026-10-03T01:31:08-1000 river2pro-ac-force: no-op out_of_range sight=1 sight_age=7367s ble_age=999999s ac_ports=none detail=seen
+2026-10-03T01:31:53-1000 river2pro-ac-force: no-op sample_stale sight_age=2s ble_age=999999s ac_ports=none — reader owns the radio until a fresh BLE sample
