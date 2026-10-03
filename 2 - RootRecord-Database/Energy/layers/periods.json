@@ -1,41 +1,26 @@
 {
-  "updated_at": "2026-10-03T11:47:11.067683Z",
+  "updated_at": "2026-10-03T12:23:40.777911Z",
   "source": "raw samples in each timeframe",
   "windows": {
     "hour": {
       "layer": "1hour",
-      "period_start": "2026-10-03T11:00:00.000Z",
-      "period_end": "2026-10-03T12:00:00.000Z",
+      "period_start": "2026-10-03T12:00:00.000Z",
+      "period_end": "2026-10-03T13:00:00.000Z",
       "packs": [
         {
           "alias": "delta2",
           "model": "Delta 2",
-          "soc_avg": 12.88,
-          "soc_min": 11.46,
-          "soc_max": 14.38,
-          "samples": 51,
+          "soc_avg": 7.14,
+          "soc_min": 5.42,
+          "soc_max": 9.04,
+          "samples": 70,
           "solar_w_avg": 0.0,
-          "ac_out_w_avg": 43.16,
+          "ac_out_w_avg": 45.24,
           "ac_in_w_avg": 0.0,
-          "usbc_w_avg": 26.29,
-          "output_w_avg": 69.71,
+          "usbc_w_avg": 26.91,
+          "output_w_avg": 72.26,
           "produced_wh": 0.0,
-          "spent_wh": 18.2
-        },
-        {
-          "alias": "river2pro",
-          "model": "river2pro",
-          "soc_avg": 99.0,
-          "soc_min": 99.0,
-          "soc_max": 99.0,
-          "samples": 17,
-          "solar_w_avg": 0.0,
-          "ac_out_w_avg": 0.0,
-          "ac_in_w_avg": 0.0,
-          "usbc_w_avg": 0.0,
-          "output_w_avg": null,
-          "produced_wh": 0.0,
-          "spent_wh": null
+          "spent_wh": 28.04
         }
       ]
     },
@@ -47,17 +32,17 @@
         {
           "alias": "delta2",
           "model": "Delta 2",
-          "soc_avg": 12.88,
-          "soc_min": 11.46,
+          "soc_avg": 9.74,
+          "soc_min": 5.42,
           "soc_max": 14.38,
-          "samples": 51,
+          "samples": 161,
           "solar_w_avg": 0.0,
-          "ac_out_w_avg": 43.16,
+          "ac_out_w_avg": 44.16,
           "ac_in_w_avg": 0.0,
-          "usbc_w_avg": 26.29,
-          "output_w_avg": 69.71,
+          "usbc_w_avg": 26.22,
+          "output_w_avg": 70.65,
           "produced_wh": 0.0,
-          "spent_wh": 18.2
+          "spent_wh": 61.32
         },
         {
           "alias": "river2pro",
@@ -84,17 +69,17 @@
         {
           "alias": "delta2",
           "model": "Delta 2",
-          "soc_avg": 18.58,
-          "soc_min": 11.46,
+          "soc_avg": 12.18,
+          "soc_min": 5.42,
           "soc_max": 37.86,
-          "samples": 67,
+          "samples": 177,
           "solar_w_avg": 0.0,
-          "ac_out_w_avg": 43.75,
+          "ac_out_w_avg": 44.29,
           "ac_in_w_avg": 0.0,
-          "usbc_w_avg": 24.28,
-          "output_w_avg": 68.34,
+          "usbc_w_avg": 25.47,
+          "output_w_avg": 70.05,
           "produced_wh": 0.0,
-          "spent_wh": 22.77
+          "spent_wh": 65.89
         },
         {
           "alias": "river2pro",
@@ -121,17 +106,17 @@
         {
           "alias": "delta2",
           "model": "Delta 2",
-          "soc_avg": 18.58,
-          "soc_min": 11.46,
+          "soc_avg": 12.18,
+          "soc_min": 5.42,
           "soc_max": 37.86,
-          "samples": 67,
+          "samples": 177,
           "solar_w_avg": 0.0,
-          "ac_out_w_avg": 43.75,
+          "ac_out_w_avg": 44.29,
           "ac_in_w_avg": 0.0,
-          "usbc_w_avg": 24.28,
-          "output_w_avg": 68.34,
+          "usbc_w_avg": 25.47,
+          "output_w_avg": 70.05,
           "produced_wh": 0.0,
-          "spent_wh": 22.77
+          "spent_wh": 65.89
         },
         {
           "alias": "river2pro",
@@ -158,17 +143,17 @@
         {
           "alias": "delta2",
           "model": "Delta 2",
-          "soc_avg": 18.58,
-          "soc_min": 11.46,
+          "soc_avg": 12.18,
+          "soc_min": 5.42,
           "soc_max": 37.86,
-          "samples": 67,
+          "samples": 177,
           "solar_w_avg": 0.0,
-          "ac_out_w_avg": 43.75,
+          "ac_out_w_avg": 44.29,
           "ac_in_w_avg": 0.0,
-          "usbc_w_avg": 24.28,
-          "output_w_avg": 68.34,
+          "usbc_w_avg": 25.47,
+          "output_w_avg": 70.05,
           "produced_wh": 0.0,
-          "spent_wh": 22.77
+          "spent_wh": 65.89
         },
         {
           "alias": "river2pro",
