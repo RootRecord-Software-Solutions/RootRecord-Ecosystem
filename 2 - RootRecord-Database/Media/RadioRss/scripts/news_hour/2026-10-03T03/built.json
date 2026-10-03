@@ -1,0 +1,68 @@
+{
+  "report": "news_update",
+  "hour": 17,
+  "words": 102,
+  "sections": [
+    {
+      "id": "markets",
+      "persona": "carly",
+      "text": "RootRecord news update for October 2, 2026. Markets. No fresh items on the Markets desk.",
+      "sources": []
+    },
+    {
+      "id": "defence",
+      "persona": "bruce",
+      "text": "National security. No fresh items on the National security desk.",
+      "sources": []
+    },
+    {
+      "id": "spacex",
+      "persona": "bruce",
+      "text": "SpaceX. No fresh items on the SpaceX desk.",
+      "sources": []
+    },
+    {
+      "id": "hawaii",
+      "persona": "ava",
+      "text": "Hawaii. No fresh items on the Hawaii desk.",
+      "sources": []
+    },
+    {
+      "id": "chips",
+      "persona": "bruce",
+      "text": "Tech and chips. No fresh items on the Tech and chips desk.",
+      "sources": []
+    },
+    {
+      "id": "world",
+      "persona": "carly",
+      "text": "World. No fresh items on the World desk.",
+      "sources": []
+    },
+    {
+      "id": "mainland_weather",
+      "persona": "ava",
+      "text": "Mainland weather. No fresh items on the Mainland weather desk.",
+      "sources": []
+    },
+    {
+      "id": "mainland_politics",
+      "persona": "carly",
+      "text": "Mainland politics. No fresh items on the Mainland politics desk.",
+      "sources": []
+    },
+    {
+      "id": "science",
+      "persona": "bruce",
+      "text": "Science. No fresh items on the Science desk.",
+      "sources": []
+    },
+    {
+      "id": "universities",
+      "persona": "ava",
+      "text": "Universities. No fresh items on the Universities desk. That is the news update.",
+      "sources": []
+    }
+  ],
+  "speak": "RootRecord news update for October 2, 2026. Markets. No fresh items on the Markets desk. National security. No fresh items on the National security desk. SpaceX. No fresh items on the SpaceX desk. Hawaii. No fresh items on the Hawaii desk. Tech and chips. No fresh items on the Tech and chips desk. World. No fresh items on the World desk. Mainland weather. No fresh items on the Mainland weather desk. Mainland politics. No fresh items on the Mainland politics desk. Science. No fresh items on the Science desk. Universities. No fresh items on the Universities desk. That is the news update."
+}
