@@ -56,3 +56,7 @@
 {"at":"2026-10-03T00:19:26-10:00","key":"quake.global.m25","value":34.0}
 {"at":"2026-10-03T00:19:37-10:00","key":"hurricane.Nolo.nm","value":572.0}
 {"at":"2026-10-03T00:19:37-10:00","key":"hurricane.Nolo.knots","value":95.0}
+{"at":"2026-10-03T00:22:11-10:00","key":"security.listen_tcp","value":138.0}
+{"at":"2026-10-03T00:22:11-10:00","key":"security.established","value":21.0}
+{"at":"2026-10-03T00:22:11-10:00","key":"security.failed_1h","value":0.0}
+{"at":"2026-10-03T00:22:11-10:00","key":"security.failed_24h","value":2.0}

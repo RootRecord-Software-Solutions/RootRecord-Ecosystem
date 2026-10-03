@@ -1,8 +1,8 @@
 {
-  "ok": false,
+  "ok": true,
   "out": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports",
-  "passed": 0,
-  "failed": 1,
+  "passed": 14,
+  "failed": 0,
   "results": [
     {
       "report": "boot_brief",
@@ -13,12 +13,342 @@
         "rc": 0,
         "sentences": 8,
         "voice": {
-          "rc": 1
+          "ok": true,
+          "rc": 0,
+          "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/boot_brief_current.wav",
+          "mode": "stitch"
         }
       },
-      "ok": false,
-      "detail": "no_wav_after_generate",
-      "seconds": 4.0
+      "encode": {
+        "ok": true,
+        "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/boot_brief_current.ogg",
+        "bytes": 86899
+      },
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/boot_brief_current.wav",
+      "ok": true,
+      "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/boot_brief_current.ogg",
+      "seconds": 43.7
+    },
+    {
+      "report": "official_weather",
+      "agent": "ava",
+      "how": "voice_reports",
+      "generate": {
+        "ok": true,
+        "rc": 0,
+        "sentences": 2,
+        "voice": {
+          "ok": true,
+          "rc": 0,
+          "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/official_weather_current.wav",
+          "mode": "stitch"
+        }
+      },
+      "encode": {
+        "ok": true,
+        "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/official_weather_current.ogg",
+        "bytes": 800806
+      },
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/official_weather_current.wav",
+      "ok": true,
+      "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/official_weather_current.ogg",
+      "seconds": 156.0
+    },
+    {
+      "report": "nws_weather",
+      "agent": "ava",
+      "how": "voice_reports",
+      "generate": {
+        "ok": true,
+        "rc": 0,
+        "sentences": 7,
+        "voice": {
+          "ok": true,
+          "rc": 0,
+          "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/nws_weather_current.wav",
+          "mode": "stitch"
+        }
+      },
+      "encode": {
+        "ok": true,
+        "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/nws_weather_current.ogg",
+        "bytes": 217137
+      },
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/nws_weather_current.wav",
+      "ok": true,
+      "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/nws_weather_current.ogg",
+      "seconds": 31.5
+    },
+    {
+      "report": "current_report",
+      "agent": "ava",
+      "how": "voice_reports",
+      "generate": {
+        "ok": true,
+        "rc": 0,
+        "sentences": 28,
+        "voice": {
+          "ok": true,
+          "rc": 0,
+          "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/current_report_current.wav",
+          "mode": "stitch"
+        }
+      },
+      "encode": {
+        "ok": true,
+        "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/current_report_current.ogg",
+        "bytes": 384820
+      },
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/current_report_current.wav",
+      "ok": true,
+      "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/current_report_current.ogg",
+      "seconds": 52.7
+    },
+    {
+      "report": "hourly_chime",
+      "agent": "ava",
+      "how": "chime",
+      "generate": {
+        "ok": true,
+        "rc": 0,
+        "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/hourly_chime_current.wav",
+        "mode": "stitched_test",
+        "agent": "ava",
+        "voice": {}
+      },
+      "encode": {
+        "ok": true,
+        "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/hourly_chime_current.ogg",
+        "bytes": 7090
+      },
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/hourly_chime_current.wav",
+      "ok": true,
+      "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/hourly_chime_current.ogg",
+      "seconds": 5.8
+    },
+    {
+      "report": "solar_desk",
+      "agent": "bruce",
+      "how": "voice_reports",
+      "generate": {
+        "ok": true,
+        "rc": 0,
+        "sentences": 7,
+        "voice": {
+          "ok": true,
+          "rc": 0,
+          "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/solar_desk_current.wav",
+          "mode": "stitch"
+        }
+      },
+      "encode": {
+        "ok": true,
+        "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/solar_desk_current.ogg",
+        "bytes": 66033
+      },
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/solar_desk_current.wav",
+      "ok": true,
+      "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/solar_desk_current.ogg",
+      "seconds": 12.9
+    },
+    {
+      "report": "remaining_tasks",
+      "agent": "bruce",
+      "how": "voice_reports",
+      "generate": {
+        "ok": true,
+        "rc": 0,
+        "sentences": 7,
+        "voice": {
+          "ok": true,
+          "rc": 0,
+          "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/remaining_tasks_current.wav",
+          "mode": "stitch"
+        }
+      },
+      "encode": {
+        "ok": true,
+        "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/remaining_tasks_current.ogg",
+        "bytes": 51282
+      },
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/remaining_tasks_current.wav",
+      "ok": true,
+      "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/remaining_tasks_current.ogg",
+      "seconds": 11.3
+    },
+    {
+      "report": "system_perf",
+      "agent": "bruce",
+      "how": "system_perf",
+      "generate": {
+        "ok": true,
+        "rc": 0,
+        "voice": {
+          "ok": true,
+          "rc": 0,
+          "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/system_perf_current.wav",
+          "mode": "stitch"
+        }
+      },
+      "encode": {
+        "ok": true,
+        "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/system_perf_current.ogg",
+        "bytes": 82537
+      },
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/system_perf_current.wav",
+      "ok": true,
+      "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/system_perf_current.ogg",
+      "seconds": 15.3
+    },
+    {
+      "report": "earthquake_report",
+      "agent": "carly",
+      "how": "voice_reports",
+      "generate": {
+        "ok": true,
+        "rc": 0,
+        "sentences": 6,
+        "voice": {
+          "ok": true,
+          "rc": 0,
+          "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/earthquake_report_current.wav",
+          "mode": "stitch"
+        }
+      },
+      "encode": {
+        "ok": true,
+        "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/earthquake_report_current.ogg",
+        "bytes": 56934
+      },
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/earthquake_report_current.wav",
+      "ok": true,
+      "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/earthquake_report_current.ogg",
+      "seconds": 11.9
+    },
+    {
+      "report": "hurricane_desk",
+      "agent": "carly",
+      "how": "voice_reports",
+      "generate": {
+        "ok": true,
+        "rc": 0,
+        "sentences": 7,
+        "voice": {
+          "ok": true,
+          "rc": 0,
+          "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/hurricane_desk_current.wav",
+          "mode": "stitch"
+        }
+      },
+      "encode": {
+        "ok": true,
+        "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/hurricane_desk_current.ogg",
+        "bytes": 64250
+      },
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/hurricane_desk_current.wav",
+      "ok": true,
+      "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/hurricane_desk_current.ogg",
+      "seconds": 13.8
+    },
+    {
+      "report": "kilauea_report",
+      "agent": "carly",
+      "how": "voice_reports",
+      "generate": {
+        "ok": true,
+        "rc": 0,
+        "sentences": 9,
+        "voice": {
+          "ok": true,
+          "rc": 0,
+          "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/kilauea_report_current.wav",
+          "mode": "stitch"
+        }
+      },
+      "encode": {
+        "ok": true,
+        "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/kilauea_report_current.ogg",
+        "bytes": 119864
+      },
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/kilauea_report_current.wav",
+      "ok": true,
+      "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/kilauea_report_current.ogg",
+      "seconds": 20.8
+    },
+    {
+      "report": "kilauea_image_check",
+      "agent": "carly",
+      "how": "voice_reports",
+      "generate": {
+        "ok": true,
+        "rc": 0,
+        "sentences": 2,
+        "voice": {
+          "ok": true,
+          "rc": 0,
+          "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/kilauea_image_check_current.wav",
+          "mode": "stitch"
+        }
+      },
+      "encode": {
+        "ok": true,
+        "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/kilauea_image_check_current.ogg",
+        "bytes": 34046
+      },
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/kilauea_image_check_current.wav",
+      "ok": true,
+      "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/kilauea_image_check_current.ogg",
+      "seconds": 119.5
+    },
+    {
+      "report": "security_desk",
+      "agent": "carly",
+      "how": "voice_reports",
+      "generate": {
+        "ok": true,
+        "rc": 0,
+        "sentences": 7,
+        "voice": {
+          "ok": true,
+          "rc": 0,
+          "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/security_desk_current.wav",
+          "mode": "stitch"
+        }
+      },
+      "encode": {
+        "ok": true,
+        "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/security_desk_current.ogg",
+        "bytes": 55033
+      },
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/security_desk_current.wav",
+      "ok": true,
+      "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/security_desk_current.ogg",
+      "seconds": 11.7
+    },
+    {
+      "report": "bandwidth_desk",
+      "agent": "carly",
+      "how": "voice_reports",
+      "generate": {
+        "ok": true,
+        "rc": 0,
+        "sentences": 5,
+        "voice": {
+          "ok": true,
+          "rc": 0,
+          "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/bandwidth_desk_current.wav",
+          "mode": "stitch"
+        }
+      },
+      "encode": {
+        "ok": true,
+        "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/bandwidth_desk_current.ogg",
+        "bytes": 32297
+      },
+      "wav": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/bandwidth_desk_current.wav",
+      "ok": true,
+      "ogg": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio Reports/bandwidth_desk_current.ogg",
+      "seconds": 9.7
     }
   ]
 }

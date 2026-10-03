@@ -8,9 +8,9 @@
   "window_start": "2026-10-03T00:15:00-10:00",
   "window_end": "2026-10-03T00:30:00-10:00",
   "timezone": "Pacific/Honolulu",
-  "status": "generated",
+  "status": "assets_ready",
   "created_at": "2026-10-03T00:16:15-10:00",
-  "generated_at": "2026-10-03T00:16:15-10:00",
+  "generated_at": "2026-10-03T00:22:11-10:00",
   "published_at": "",
   "generator": "voice_build",
   "provider": "voice_build",
@@ -21,12 +21,12 @@
   "sections": [
     {
       "heading": "Report",
-      "text": "# Kilauea image check — 2026-10-03T00:13:38-10:00\n\n- **Cam:** V3 Halemaʻumaʻu lava lake (`v3cam_current.jpg`)\n- **Activity:** glow\n- **Fountaining:** `False`\n- **Visible:** Lava glow visible in the distance.\n- **Photo viewed:** `yes`\n- **Source kind:** `current`\n- **Fetched live this check:** `False`\n- **Reference:** lava-fountain-ref.jpg\n- **Model:** gemma4:e4b\n- **At:** 2026-10-03T00:13:38-10:00\n- **Error:** none"
+      "text": "# Kilauea image check — 2026-10-03T00:20:12-10:00\n\n- **Cam:** V2 North Halemaʻumaʻu (`v2cam_current.jpg`)\n- **Activity:** glow\n- **Fountaining:** `False`\n- **Visible:** Lava glow visible against dark sky\n- **Photo viewed:** `yes`\n- **Source kind:** `current`\n- **Fetched live this check:** `False`\n- **Reference:** lava-fountain-ref.jpg\n- **Model:** gemma4:e4b\n- **At:** 2026-10-03T00:20:12-10:00\n- **Error:** none"
     }
   ],
   "spoken": [
     "Kilauea observation image was checked. Photo viewed: yes.",
-    "Measured finding: glow at the vent on the V3 Halemaʻumaʻu lava lake still. Visible: Lava glow visible in the distance.."
+    "Measured finding: glow at the vent on the V2 North Halemaʻumaʻu still. Visible: Lava glow visible against dark sky."
   ],
   "owns": [
     "volcano_image"
@@ -35,6 +35,11 @@
     {
       "kind": "text",
       "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/kilauea_image_check_current.md",
+      "report_id": "rpt_6c712bf21362a77ca611"
+    },
+    {
+      "kind": "audio",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/kilauea_image_check_current.wav",
       "report_id": "rpt_6c712bf21362a77ca611"
     }
   ],
@@ -46,10 +51,10 @@
       "retry": 0
     },
     "audio": {
-      "status": "failed",
-      "path": "",
-      "error": "busy",
-      "retry": 1
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/kilauea_image_check_current.wav",
+      "error": "",
+      "retry": 0
     },
     "image": {
       "status": "pending",

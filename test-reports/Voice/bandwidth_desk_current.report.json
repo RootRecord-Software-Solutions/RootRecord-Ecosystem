@@ -1,0 +1,93 @@
+{
+  "report_id": "rpt_54abf9885217e924fa64",
+  "profile": "bandwidth",
+  "slug": "bandwidth_desk",
+  "topic": "operations",
+  "subtopic": "",
+  "scope": "host",
+  "window_start": "2026-10-03T00:00:00-10:00",
+  "window_end": "2026-10-03T01:00:00-10:00",
+  "timezone": "Pacific/Honolulu",
+  "status": "assets_ready",
+  "created_at": "2026-10-03T00:22:33-10:00",
+  "generated_at": "2026-10-03T00:22:33-10:00",
+  "published_at": "",
+  "generator": "voice_build",
+  "provider": "voice_build",
+  "model": "template",
+  "generator_version": "1",
+  "sources": [],
+  "observations": [],
+  "sections": [
+    {
+      "heading": "Report",
+      "text": "# Bandwidth desk — 2026-10-03T00:22:23-10:00\n\n## Host link\n\n- iface: wlo1 (wireless)\n- last hour: None\n- last 24 h: None\n\n## Site traffic (Mainland analytics)\n\n- Mainland site analytics: not on file\n\n_Not enough host samples yet (needs samples covering 45 min; run `host_desks.py net-sample` every 5 min)._"
+    }
+  ],
+  "spoken": [
+    "Bandwidth desk.",
+    "Report generated at twelve twenty two a.m.",
+    "This host is on wireless.",
+    "Bandwidth data is not on file yet.",
+    "Mainland site analytics are not on file yet."
+  ],
+  "owns": [
+    "bandwidth"
+  ],
+  "assets": [
+    {
+      "kind": "text",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/bandwidth_desk_current.md",
+      "report_id": "rpt_54abf9885217e924fa64"
+    },
+    {
+      "kind": "audio",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/bandwidth_desk_current.wav",
+      "report_id": "rpt_54abf9885217e924fa64"
+    }
+  ],
+  "stages": {
+    "text": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/test-reports/Voice/bandwidth_desk_current.md",
+      "error": "",
+      "retry": 0
+    },
+    "audio": {
+      "status": "ready",
+      "path": "/home/rootrecord/RootRecord-Ecosystem/2 - RootRecord-Database/Media/Audio/Voice/bandwidth_desk_current.wav",
+      "error": "",
+      "retry": 0
+    },
+    "image": {
+      "status": "skipped",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "video": {
+      "status": "skipped",
+      "path": "",
+      "error": "",
+      "retry": 0
+    },
+    "publication": {
+      "status": "not_configured",
+      "path": "",
+      "error": "",
+      "retry": 0
+    }
+  },
+  "publication": {
+    "publication_id": "pub_rpt_54abf9885217e924fa64",
+    "target": "youtube",
+    "status": "not_configured",
+    "error": "",
+    "retry": 0
+  },
+  "provenance": {
+    "legacy_path": "",
+    "file_mtime": "",
+    "window_from_file": false
+  }
+}

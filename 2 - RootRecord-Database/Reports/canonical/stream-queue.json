@@ -41,11 +41,31 @@
       "publication": "not_configured"
     },
     {
+      "report_id": "rpt_54abf9885217e924fa64",
+      "id": "bandwidth_desk",
+      "file": "bandwidth_desk_current.wav",
+      "window_start": "2026-10-03T00:00:00-10:00",
+      "window_end": "2026-10-03T01:00:00-10:00",
+      "priority": 0,
+      "status": "assets_ready",
+      "publication": "not_configured"
+    },
+    {
       "report_id": "rpt_57e61ef2ab99342611fd",
       "id": "nws_weather",
       "file": "nws_weather_current.wav",
       "window_start": "2026-10-03T00:00:00-10:00",
       "window_end": "2026-10-03T01:00:00-10:00",
+      "priority": 0,
+      "status": "assets_ready",
+      "publication": "not_configured"
+    },
+    {
+      "report_id": "rpt_6c712bf21362a77ca611",
+      "id": "kilauea_image_check",
+      "file": "kilauea_image_check_current.wav",
+      "window_start": "2026-10-03T00:15:00-10:00",
+      "window_end": "2026-10-03T00:30:00-10:00",
       "priority": 0,
       "status": "assets_ready",
       "publication": "not_configured"
@@ -74,6 +94,16 @@
       "report_id": "rpt_b4c0716093acd4ee52f7",
       "id": "solar_desk",
       "file": "solar_desk_current.wav",
+      "window_start": "2026-10-03T00:00:00-10:00",
+      "window_end": "2026-10-03T01:00:00-10:00",
+      "priority": 0,
+      "status": "assets_ready",
+      "publication": "not_configured"
+    },
+    {
+      "report_id": "rpt_f3f24315d397bce6522a",
+      "id": "security_desk",
+      "file": "security_desk_current.wav",
       "window_start": "2026-10-03T00:00:00-10:00",
       "window_end": "2026-10-03T01:00:00-10:00",
       "priority": 0,
