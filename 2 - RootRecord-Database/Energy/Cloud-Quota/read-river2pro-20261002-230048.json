@@ -1,0 +1,12 @@
+{
+  "alias": "river2pro",
+  "at": "2026-10-03T09:00:48.083Z",
+  "source": "cloud",
+  "fields": {
+    "soc": 100.0,
+    "ac_output_power": null,
+    "ac_input_power": 0.0,
+    "solar_input_power": null,
+    "usbc_output_power": 0.0
+  }
+}
