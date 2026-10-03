@@ -270,3 +270,5 @@
 2026-10-03T02:51:59-1000 river2pro-ac-force: no-op sample_stale sight_age=15s ble_age=999999s ac_ports=none — reader owns the radio until a fresh BLE sample
 2026-10-03T02:52:44-1000 river2pro-ac-force: no-op sample_stale sight_age=19s ble_age=999999s ac_ports=none — reader owns the radio until a fresh BLE sample
 2026-10-03T02:53:29-1000 river2pro-ac-force: no-op sample_stale sight_age=3s ble_age=999999s ac_ports=none — reader owns the radio until a fresh BLE sample
+2026-10-03T02:54:15-1000 river2pro-ac-force: no-op sample_stale sight_age=6s ble_age=999999s ac_ports=none — reader owns the radio until a fresh BLE sample
+2026-10-03T02:55:00-1000 river2pro-ac-force: no-op sample_stale sight_age=6s ble_age=999999s ac_ports=none — reader owns the radio until a fresh BLE sample
